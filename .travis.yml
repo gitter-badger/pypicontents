@@ -1,4 +1,68 @@
-branches:
-    only:
-        - master
-        - build
+sudo: required
+services: docker
+dist: trusty
+group: edge
+env:
+    global:
+        - GITUSERNAME="Luis Alejandro Martínez Faneyth"
+        - GITUSERMAIL="luis@huntingbears.com.ve"
+        - GHREPO="https://github.com/LuisAlejandro/pypicontents"
+        - secure: "TIOeJ/QSHzNENPTyDs2Sezh8BAFCinqvIQzYekGuDPfSXPspMflNSqY7/AZ6XOUgFLo8MEk1RlUlyYGo0GiYnX+254At1W0vRwFr6Hxp/RBrG18AcV6O334P7g81GYwitFp/VKp5JFMrs2vXUfLk352RToiFTlI5KOUwNQqLY8RpqxB20MiAOLynraXHIiZW4s97FcoZChO/Kj4sAvwvMaLrBcq3jb6Tu2uR6XH/7r5pxOH+MDIqlkmxZK58KKMg1YBEbqVjWXYDfWmDAQNZu0uMF4Rjs2R++tfZXz5Z0a0icGIwjRTNsaSuYNRorUMJEkVLmTT1HhPaMsHlLYYJCxSkUe4wk91OOOP45WoLlCisBYVKnWLyJeV6QEKrx3YV3RvEmVmmIpnTQUse1n2XCNenTTTv/3g05BxBq7qMO2O0i7x7Q3LGh2+H1sBBAALwiny8k82esKiKwiETkpaR0VWjZvn6pcRl7F8BAM5z/cFTs+FELf1vazLopXWuTExHdWug5wlmGheS0/cgZjkoexCuEzV5YWK/C2/xAwRyZlpHxTNVNjw1xCB2fVTE6G/VpZ51HKxSzhEO1pFcQr/N2IbcHy9HxOfgGdtwp7Mawr3pOOwVcMu6CzwR2SeIqJ62ftSPzU1zXWW2fNO4++saADKUTydaLfGAMWmIywIPu0k="
+    matrix:
+          - LRANGE="0-9"
+          - LRANGE="a"
+          - LRANGE="b"
+          - LRANGE="c"
+          - LRANGE="d"
+          - LRANGE="e"
+          - LRANGE="f"
+          - LRANGE="g"
+          - LRANGE="h"
+          - LRANGE="i"
+          - LRANGE="j"
+          - LRANGE="k"
+          - LRANGE="l"
+          - LRANGE="m"
+          - LRANGE="n"
+          - LRANGE="o"
+          - LRANGE="p"
+          - LRANGE="q"
+          - LRANGE="r"
+          - LRANGE="s"
+          - LRANGE="t"
+          - LRANGE="u"
+          - LRANGE="v"
+          - LRANGE="w"
+          - LRANGE="x"
+          - LRANGE="y"
+          - LRANGE="z"
+          - PYVER="2.6"
+          - PYVER="2.7"
+          - PYVER="3.2"
+          - PYVER="3.4"
+          - PYVER="3.5"
+          - PYVER="3.6"
+          - DOMERGE="true"
+before_script:
+    - git config --global user.name "${GITUSERNAME}"
+    - git config --global user.email "${GITUSERMAIL}"
+    - git fetch origin contents:contents
+    - git checkout contents
+script: ./script.sh
+after_success:
+    - |
+        if [ -n "${LRANGE}" ]; then
+            COMMITMSG="[ci skip] Updating PyPIContents index (PyPI letter ${LRANGE})."
+        fi
+    - |
+        if [ -n "${PYVER}" ]; then
+            COMMITMSG="[ci skip] Updating PyPIContents index (Stdlib version ${PYVER})."
+        fi
+    - |
+        if [ -n "${DOMERGE}" ]; then
+            COMMITMSG="[ci skip] Updating PyPIContents index (merging)."
+        fi
+    - git add --all .
+    - git commit -a -m "${COMMITMSG}"
+    - git pull --rebase origin contents
+    - git push -q "https://${GHTOKEN}@${GHREPO#*//}" contents > /dev/null 2>&1
