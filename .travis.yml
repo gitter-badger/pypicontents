@@ -36,13 +36,7 @@ env:
           - LRANGE="x"
           - LRANGE="y"
           - LRANGE="z"
-          - PYVER="2.6"
-          - PYVER="2.7"
-          - PYVER="3.2"
-          - PYVER="3.4"
-          - PYVER="3.5"
-          - PYVER="3.6"
-          - DOMERGE="true"
+          - STDLIB="true"
 before_script:
     - git config --global user.name "${GITUSERNAME}"
     - git config --global user.email "${GITUSERMAIL}"
@@ -55,12 +49,8 @@ after_success:
             COMMITMSG="[ci skip] Updating PyPIContents index (PyPI letter ${LRANGE})."
         fi
     - |
-        if [ -n "${PYVER}" ]; then
-            COMMITMSG="[ci skip] Updating PyPIContents index (Stdlib version ${PYVER})."
-        fi
-    - |
-        if [ -n "${DOMERGE}" ]; then
-            COMMITMSG="[ci skip] Updating PyPIContents index (merging)."
+        if [ -n "${STDLIB}" ]; then
+            COMMITMSG="[ci skip] Updating PyPIContents index (stdlib and merge)."
         fi
     - git add --all .
     - git commit -a -m "${COMMITMSG}"
