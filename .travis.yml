@@ -2,12 +2,14 @@ sudo: required
 services: docker
 dist: trusty
 group: edge
+language: python
+python: 3.5
 env:
     global:
         - GITUSERNAME="Luis Alejandro Martínez Faneyth"
         - GITUSERMAIL="luis@huntingbears.com.ve"
         - GHREPO="https://github.com/LuisAlejandro/pypicontents"
-        - secure: "TIOeJ/QSHzNENPTyDs2Sezh8BAFCinqvIQzYekGuDPfSXPspMflNSqY7/AZ6XOUgFLo8MEk1RlUlyYGo0GiYnX+254At1W0vRwFr6Hxp/RBrG18AcV6O334P7g81GYwitFp/VKp5JFMrs2vXUfLk352RToiFTlI5KOUwNQqLY8RpqxB20MiAOLynraXHIiZW4s97FcoZChO/Kj4sAvwvMaLrBcq3jb6Tu2uR6XH/7r5pxOH+MDIqlkmxZK58KKMg1YBEbqVjWXYDfWmDAQNZu0uMF4Rjs2R++tfZXz5Z0a0icGIwjRTNsaSuYNRorUMJEkVLmTT1HhPaMsHlLYYJCxSkUe4wk91OOOP45WoLlCisBYVKnWLyJeV6QEKrx3YV3RvEmVmmIpnTQUse1n2XCNenTTTv/3g05BxBq7qMO2O0i7x7Q3LGh2+H1sBBAALwiny8k82esKiKwiETkpaR0VWjZvn6pcRl7F8BAM5z/cFTs+FELf1vazLopXWuTExHdWug5wlmGheS0/cgZjkoexCuEzV5YWK/C2/xAwRyZlpHxTNVNjw1xCB2fVTE6G/VpZ51HKxSzhEO1pFcQr/N2IbcHy9HxOfgGdtwp7Mawr3pOOwVcMu6CzwR2SeIqJ62ftSPzU1zXWW2fNO4++saADKUTydaLfGAMWmIywIPu0k="
+        - secure: "WZYdRxZ0aI671WWdliq8pwTAwHCegsOibPSuCoayRfPjDDUDi6E2WPQYMXk1v0ikKHKQdaNs3YPT6cdjcRjkbf4PlH0mD8NjWVivVYDOfHqvw6QFje7+V2PGPwjGpArVZITMmwFlY3WA4jhyw+hXYcb1HgO7mKLxASHghk6Z6bPDqxIReN+TAiWcJGyrGHQ/cz/FgHuEpYzy9vDUmWHC/E7TeF1K6tNeTXxcVajMBV14cqunA7mWmvnZ/53WUSebXofTAKz/0khWg687LI2f5odf63q4enP7OIyyoJKQo6sQh2OS3mDeJuw0kTrMVYHEPHAwv04Fe7fi5QSL8L4eYvCyFIl1MwyuKEIbyMqJlut721AUcmH332Z3a9peH6fZTIqRwS0mZTtfurjGRyBCRMPx/ym/f83y77yx9Hz63sAV3kNjWLEVZfC+fglbQ69pPnju0oc9ZvvLb8qAU91HLqHEYkt2XjTXnYwkQFra8vQziza6Ce2QNSihb8O4XT2iRAbLvVYFEa5vRX3WVH0/i/xGgzNE9n/0rQkJ3Sjq81T3rEQ5Yaa2Kz6VBbVMlCMfRllMoFn89JgVMBaTb8l3eIPkU6mJcdzUyCV9kS0tcnvEM+raGthPaSC0SyRgLiL0InlXnnYGih095HmNowEF3HvqwwQ7zHjIayGEdAnTxpc="
     matrix:
           - LRANGE="0-9"
           - LRANGE="a"
@@ -37,6 +39,8 @@ env:
           - LRANGE="y"
           - LRANGE="z"
           - STDLIB="true"
+install:
+    - pip install travispy
 before_script:
     - git config --global user.name "${GITUSERNAME}"
     - git config --global user.email "${GITUSERMAIL}"

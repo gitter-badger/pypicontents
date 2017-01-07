@@ -3,11 +3,6 @@
 set -ex
 
 if [ -n "${LRANGE}" ]; then
-
-    if [ "${LRANGE}" == "p" ]; then
-        set +e
-    fi
-
     docker run dockershelf/pypicontents:2.7-3.5 pypicontents --version
 
     docker run -v ${PWD}:${PWD} -v ${HOME}/.cache/pip:/root/.cache/pip \
@@ -17,6 +12,8 @@ if [ -n "${LRANGE}" ]; then
 fi
 
 if [ -n "${STDLIB}" ]; then
+    python wait_jobs.py
+
     docker run dockershelf/pypicontents:2.7 pypicontents --version
 
     for PYVER in 2.6 2.7 3.2 3.4 3.5 3.6; do
