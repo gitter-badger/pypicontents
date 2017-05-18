@@ -9408,20 +9408,12 @@
             "unach_photo_server.admin",
             "unach_photo_server.apps",
             "unach_photo_server.forms",
-            "unach_photo_server.migrations",
-            "unach_photo_server.migrations.0001_initial",
-            "unach_photo_server.migrations.0002_auto_20170425_1958",
-            "unach_photo_server.migrations.0003_photorepository_order",
-            "unach_photo_server.migrations.0004_auto_20170426_1350",
-            "unach_photo_server.migrations.0005_auto_20170427_1243",
-            "unach_photo_server.migrations.0006_photorepository_is_blob",
-            "unach_photo_server.migrations.0007_auto_20170427_1305",
             "unach_photo_server.models",
             "unach_photo_server.tests",
             "unach_photo_server.urls",
             "unach_photo_server.views"
         ],
-        "version": "0.4.0"
+        "version": "0.4.2"
     },
     "unagi.py": {
         "cmdline": [],
@@ -11443,7 +11435,7 @@
             "unihan_tabular.test",
             "unihan_tabular.util"
         ],
-        "version": "0.7.4"
+        "version": "0.8.0"
     },
     "unihandecode": {
         "cmdline": [],
@@ -11751,7 +11743,7 @@
             "unipy.tools.misc",
             "unipy.tools.printWrappers"
         ],
-        "version": "0.0.1.55"
+        "version": "0.0.1.62"
     },
     "uniq": {
         "cmdline": [],
@@ -16285,6 +16277,16 @@
             "gaia_uplift.util"
         ],
         "version": "4"
+    },
+    "uplink": {
+        "cmdline": [],
+        "modules": [
+            "uplink",
+            "uplink.cli",
+            "uplink.log",
+            "uplink.util"
+        ],
+        "version": "0.0.2.2"
     },
     "upload-file-s3": {
         "cmdline": [
