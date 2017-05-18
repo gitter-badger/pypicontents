@@ -11296,7 +11296,7 @@
             "gcloud_requests.connection",
             "gcloud_requests.requests_connection"
         ],
-        "version": "0.13.6"
+        "version": "0.14.0"
     },
     "gcloud-scheduled-snapshots": {
         "cmdline": [],
