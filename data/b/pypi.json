@@ -4568,6 +4568,11 @@
         ],
         "version": "0.97.6"
     },
+    "ballast": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "ballcosmos": {
         "cmdline": [],
         "modules": [
@@ -28519,7 +28524,7 @@
             "birdhousebuilder.recipe.pywps.tests.test_doctests",
             "birdhousebuilder.recipe.pywps.tests.test_unit"
         ],
-        "version": "0.8.9"
+        "version": "0.9.0"
     },
     "birdhousebuilder.recipe.r": {
         "cmdline": [],
@@ -37701,7 +37706,7 @@
             "bob.bio.base.utils.resources",
             "bob.bio.base.utils.singleton"
         ],
-        "version": "3.1.0"
+        "version": "3.1.1"
     },
     "bob.bio.caffe-face": {
         "cmdline": [],
@@ -38244,11 +38249,15 @@
             "bob.db.base.script.dbmanage",
             "bob.db.base.sqlalchemy_migration",
             "bob.db.base.tests",
+            "bob.db.base.tests.sample",
+            "bob.db.base.tests.sample.driver",
+            "bob.db.base.tests.sample.models",
+            "bob.db.base.tests.sample.query",
             "bob.db.base.tests.test_driver",
             "bob.db.base.tests.test_sql",
             "bob.db.base.utils"
         ],
-        "version": "2.2.0"
+        "version": "2.2.1"
     },
     "bob.db.bio-filelist": {
         "cmdline": [],
@@ -61260,7 +61269,7 @@
             "burst.worker.request",
             "burst.worker.worker"
         ],
-        "version": "1.0.127"
+        "version": "1.0.129"
     },
     "burst-detection": {
         "cmdline": [],
