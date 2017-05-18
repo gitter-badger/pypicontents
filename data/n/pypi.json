@@ -7256,7 +7256,9 @@
         "version": "1.6.1"
     },
     "ndd-panda": {
-        "cmdline": [],
+        "cmdline": [
+            "panda_pipeline"
+        ],
         "modules": [
             "panda",
             "panda.bench",
@@ -7279,7 +7281,7 @@
             "panda.utils.set_keys",
             "panda.utils.utils"
         ],
-        "version": "1.4"
+        "version": "1.5"
     },
     "ndef": {
         "cmdline": [],
@@ -33588,7 +33590,7 @@
             "n_utils.maven_utils",
             "n_utils.volumes"
         ],
-        "version": "0.97"
+        "version": "0.98"
     },
     "nitor-vault": {
         "cmdline": [],
