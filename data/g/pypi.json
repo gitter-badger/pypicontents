@@ -4197,7 +4197,7 @@
             "GalvoController.galvoGraphics",
             "GalvoController.global_vars"
         ],
-        "version": "0.0.5"
+        "version": "0.0.6"
     },
     "galxe": {
         "cmdline": [],
@@ -14077,6 +14077,7 @@
             "geneparse.tests.test_dataframe",
             "geneparse.tests.test_impute2",
             "geneparse.tests.test_plink",
+            "geneparse.tests.test_variants",
             "geneparse.tests.truth",
             "geneparse.tools",
             "geneparse.tools.compare_calls",
@@ -14084,7 +14085,7 @@
             "geneparse.vcf",
             "geneparse.version"
         ],
-        "version": "0.3.0"
+        "version": "0.3.1"
     },
     "geneparts": {
         "cmdline": [],
@@ -14598,10 +14599,14 @@
             "genetest.modelspec.core",
             "genetest.modelspec.grammar",
             "genetest.modelspec.parser",
+            "genetest.modelspec.predicates",
             "genetest.phenotypes",
             "genetest.phenotypes.core",
+            "genetest.phenotypes.dataframe",
             "genetest.phenotypes.dummy",
             "genetest.phenotypes.text",
+            "genetest.scripts",
+            "genetest.scripts.cli",
             "genetest.statistics",
             "genetest.statistics.core",
             "genetest.statistics.descriptive",
@@ -14625,7 +14630,7 @@
             "genetest.tests.test_stats_core",
             "genetest.version"
         ],
-        "version": "0.1.0"
+        "version": "0.2.1"
     },
     "genetic": {
         "cmdline": [],
@@ -14795,9 +14800,10 @@
             "genice.FrankKasper",
             "genice.digraph",
             "genice.formats",
-            "genice.formats.baseclass",
+            "genice.formats.bdl",
             "genice.formats.c",
             "genice.formats.cif",
+            "genice.formats.cif2",
             "genice.formats.com",
             "genice.formats.d",
             "genice.formats.digraph",
@@ -14816,10 +14822,11 @@
             "genice.formats.quaternion",
             "genice.formats.r",
             "genice.formats.rcom",
-            "genice.formats.xmol",
+            "genice.formats.xyz",
             "genice.formats.y",
             "genice.formats.yaplot",
             "genice.importer",
+            "genice.lattice",
             "genice.lattices",
             "genice.lattices.0",
             "genice.lattices.12",
@@ -14834,9 +14841,7 @@
             "genice.lattices.4",
             "genice.lattices.5",
             "genice.lattices.6",
-            "genice.lattices.6layers",
             "genice.lattices.7",
-            "genice.lattices.9layers",
             "genice.lattices.A15",
             "genice.lattices.C0-II",
             "genice.lattices.C1",
@@ -14852,6 +14857,8 @@
             "genice.lattices.CS4",
             "genice.lattices.DOH",
             "genice.lattices.FAU",
+            "genice.lattices.FK6layers",
+            "genice.lattices.FK9layers",
             "genice.lattices.HS1",
             "genice.lattices.HS2",
             "genice.lattices.HS3",
@@ -14936,6 +14943,20 @@
             "genice.lattices.Z",
             "genice.lattices.delta",
             "genice.lattices.i",
+            "genice.lattices.ice0",
+            "genice.lattices.ice12",
+            "genice.lattices.ice16",
+            "genice.lattices.ice17",
+            "genice.lattices.ice1c",
+            "genice.lattices.ice1h",
+            "genice.lattices.ice1h_unit",
+            "genice.lattices.ice2",
+            "genice.lattices.ice2d",
+            "genice.lattices.ice3",
+            "genice.lattices.ice4",
+            "genice.lattices.ice5",
+            "genice.lattices.ice6",
+            "genice.lattices.ice7",
             "genice.lattices.mu",
             "genice.lattices.psigma",
             "genice.lattices.sH",
@@ -14952,7 +14973,6 @@
             "genice.lattices.test3",
             "genice.lattices.test4",
             "genice.lattices.zra-d",
-            "genice.libgenice",
             "genice.molecules",
             "genice.molecules.3site",
             "genice.molecules.4site",
@@ -14965,18 +14985,17 @@
             "genice.molecules.g14",
             "genice.molecules.g15",
             "genice.molecules.g16",
+            "genice.molecules.me",
             "genice.molecules.tip3p",
             "genice.molecules.tip4p",
             "genice.molecules.tip5p",
             "genice.molecules.uathf",
             "genice.molecules.uathf6",
-            "genice.openscad2",
             "genice.pairlist",
             "genice.rigid",
-            "genice.yaplot",
             "genice.yaplotlib"
         ],
-        "version": "0.10"
+        "version": "0.10.1"
     },
     "geniegui": {
         "cmdline": [],
@@ -22315,7 +22334,7 @@
     "gfal2-python": {
         "cmdline": [],
         "modules": [],
-        "version": "1.8.5.post2"
+        "version": "1.9.2.post3"
     },
     "gfapi": {
         "cmdline": [],
@@ -24799,7 +24818,9 @@
             "gigalixir.app",
             "gigalixir.auth",
             "gigalixir.config",
+            "gigalixir.credit",
             "gigalixir.domain",
+            "gigalixir.invoice",
             "gigalixir.netrc",
             "gigalixir.observer",
             "gigalixir.payment_method",
@@ -24810,9 +24831,10 @@
             "gigalixir.routers.linux",
             "gigalixir.shell",
             "gigalixir.ssh_key",
+            "gigalixir.usage",
             "gigalixir.user"
         ],
-        "version": "0.5.1"
+        "version": "0.7.0"
     },
     "giganews": {
         "cmdline": [],
@@ -36395,6 +36417,15 @@
         ],
         "version": "0.5.2"
     },
+    "gmusicsync": {
+        "cmdline": [
+            "gmusicsync.py"
+        ],
+        "modules": [
+            "gmusicsync"
+        ],
+        "version": "0.1.2"
+    },
     "gmvault": {
         "cmdline": [
             "gmvault"
@@ -40989,6 +41020,11 @@
         ],
         "version": "0.1"
     },
+    "goldwasher": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "golem": {
         "cmdline": [],
         "modules": [],
@@ -41629,7 +41665,7 @@
             "goodtables.register",
             "goodtables.spec"
         ],
-        "version": "1.0.0a8"
+        "version": "1.0.0a9"
     },
     "goodtables-server": {
         "cmdline": [],
@@ -43294,6 +43330,27 @@
             "tests.unit.test_client"
         ],
         "version": "0.24.0"
+    },
+    "google-cloud-videointelligence": {
+        "cmdline": [],
+        "modules": [
+            "google",
+            "google.cloud",
+            "google.cloud.gapic",
+            "google.cloud.gapic.videointelligence",
+            "google.cloud.gapic.videointelligence.v1beta1",
+            "google.cloud.gapic.videointelligence.v1beta1.enums",
+            "google.cloud.gapic.videointelligence.v1beta1.video_intelligence_service_client",
+            "google.cloud.proto",
+            "google.cloud.proto.videointelligence",
+            "google.cloud.proto.videointelligence.v1beta1",
+            "google.cloud.proto.videointelligence.v1beta1.video_intelligence_pb2",
+            "google.cloud.proto.videointelligence.v1beta1.video_intelligence_pb2_grpc",
+            "google.cloud.videointelligence",
+            "google.cloud.videointelligence_v1beta1",
+            "google.cloud.videointelligence_v1beta1.types"
+        ],
+        "version": "0.25.0"
     },
     "google-cloud-vision": {
         "cmdline": [],
@@ -63273,7 +63330,7 @@
             "guide_search.esearch",
             "guide_search.exceptions"
         ],
-        "version": "0.0.50"
+        "version": "0.0.51"
     },
     "guidebox": {
         "cmdline": [],
@@ -63392,6 +63449,7 @@
             "guillotina.commands",
             "guillotina.commands.cli",
             "guillotina.commands.create",
+            "guillotina.commands.initialize_db",
             "guillotina.commands.server",
             "guillotina.commands.shell",
             "guillotina.commands.testdata",
@@ -63585,7 +63643,7 @@
             "guillotina.traversal",
             "guillotina.utils"
         ],
-        "version": "1.0.0a25"
+        "version": "1.0.0a27"
     },
     "guillotina-dbusers": {
         "cmdline": [],
