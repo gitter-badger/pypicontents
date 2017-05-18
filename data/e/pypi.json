@@ -2927,7 +2927,7 @@
             "easyqueue.tests.test_testutils",
             "easyqueue.tests.utils"
         ],
-        "version": "0.1.6"
+        "version": "0.1.8"
     },
     "easyquotation": {
         "cmdline": [],
@@ -15288,15 +15288,9 @@
             "elasticsearch.compat",
             "elasticsearch.connection",
             "elasticsearch.connection.base",
-            "elasticsearch.connection.esthrift",
-            "elasticsearch.connection.esthrift.Rest",
-            "elasticsearch.connection.esthrift.constants",
-            "elasticsearch.connection.esthrift.ttypes",
             "elasticsearch.connection.http_requests",
             "elasticsearch.connection.http_urllib3",
-            "elasticsearch.connection.memcached",
             "elasticsearch.connection.pooling",
-            "elasticsearch.connection.thrift",
             "elasticsearch.connection_pool",
             "elasticsearch.exceptions",
             "elasticsearch.helpers",
@@ -15304,7 +15298,7 @@
             "elasticsearch.serializer",
             "elasticsearch.transport"
         ],
-        "version": "5.3.0"
+        "version": "5.4.0"
     },
     "elasticsearch-async": {
         "cmdline": [],
@@ -15479,7 +15473,7 @@
             "elasticsearch_dsl.serializer",
             "elasticsearch_dsl.utils"
         ],
-        "version": "5.2.0"
+        "version": "5.3.0"
     },
     "elasticsearch-fabric": {
         "cmdline": [],
@@ -36379,7 +36373,7 @@
             "tests",
             "tests.test_evalys"
         ],
-        "version": "2.3.0"
+        "version": "2.4.0"
     },
     "evarify": {
         "cmdline": [],
@@ -42286,7 +42280,7 @@
             "tests.grpc_test",
             "views"
         ],
-        "version": "0.1.1b2"
+        "version": "0.1.1b3"
     },
     "experiment-resources": {
         "cmdline": [],
