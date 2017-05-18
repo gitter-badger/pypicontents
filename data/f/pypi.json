@@ -21856,68 +21856,150 @@
     },
     "fio-picking-list-report": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.picking_list_report",
+            "trytond.modules.picking_list_report.picking_list_report",
+            "trytond.modules.picking_list_report.tests",
+            "trytond.modules.picking_list_report.tests.test_views_depends"
+        ],
+        "version": "3.4.1.1"
     },
     "fio-plugins": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "fio_area",
+            "fio_area.scripts",
+            "fio_area.scripts.cli"
+        ],
+        "version": "0.0.1"
     },
     "fio-pos": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.pos",
+            "trytond.modules.pos.address",
+            "trytond.modules.pos.sale",
+            "trytond.modules.pos.shipment",
+            "trytond.modules.pos.tests",
+            "trytond.modules.pos.tests.test_address",
+            "trytond.modules.pos.tests.test_sale",
+            "trytond.modules.pos.tests.test_views_depends"
+        ],
+        "version": "3.4.3.1"
     },
     "fio-prestashop": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.prestashop",
+            "trytond.modules.prestashop.channel",
+            "trytond.modules.prestashop.country",
+            "trytond.modules.prestashop.currency",
+            "trytond.modules.prestashop.fabfile",
+            "trytond.modules.prestashop.lang",
+            "trytond.modules.prestashop.party",
+            "trytond.modules.prestashop.product",
+            "trytond.modules.prestashop.sale",
+            "trytond.modules.prestashop.tests",
+            "trytond.modules.prestashop.tests.test_party",
+            "trytond.modules.prestashop.tests.test_prestashop",
+            "trytond.modules.prestashop.tests.test_product",
+            "trytond.modules.prestashop.tests.test_sale"
+        ],
+        "version": "3.4.10.0"
     },
     "fio-product-attribute-strict": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.product_attribute_strict",
+            "trytond.modules.product_attribute_strict.product",
+            "trytond.modules.product_attribute_strict.tests",
+            "trytond.modules.product_attribute_strict.tests.test_product"
+        ],
+        "version": "4.0.0.1"
     },
     "fio-product-elasticsearch": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.product_elasticsearch",
+            "trytond.modules.product_elasticsearch.product",
+            "trytond.modules.product_elasticsearch.tests",
+            "trytond.modules.product_elasticsearch.tests.test_product",
+            "trytond.modules.product_elasticsearch.tests.test_views_depends"
+        ],
+        "version": "3.4.1.0"
     },
     "fio-product-notebook": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.product_notebook",
+            "trytond.modules.product_notebook.tests",
+            "trytond.modules.product_notebook.tests.test_views_depends"
+        ],
+        "version": "3.6.0.1"
     },
     "fio-product-variant": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.product_variant",
+            "trytond.modules.product_variant.product",
+            "trytond.modules.product_variant.tests",
+            "trytond.modules.product_variant.tests.test_product",
+            "trytond.modules.product_variant.tests.test_views_depends"
+        ],
+        "version": "3.6.0.2"
     },
     "fio-product-variant-measurements": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.product_variant_measurements",
+            "trytond.modules.product_variant_measurements.product",
+            "trytond.modules.product_variant_measurements.tests",
+            "trytond.modules.product_variant_measurements.tests.test_views_depends"
+        ],
+        "version": "3.4.3.2"
     },
     "fio-product-warehouse-location": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.product_warehouse_location",
+            "trytond.modules.product_warehouse_location.product",
+            "trytond.modules.product_warehouse_location.report",
+            "trytond.modules.product_warehouse_location.tests",
+            "trytond.modules.product_warehouse_location.tests.test_views_depends"
+        ],
+        "version": "3.4.1.1"
     },
     "fio-production-disassembly": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.production_disassembly",
+            "trytond.modules.production_disassembly.production",
+            "trytond.modules.production_disassembly.tests",
+            "trytond.modules.production_disassembly.tests.test_views_depends"
+        ],
+        "version": "4.0.0.1"
     },
     "fio-production-report": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.production_report",
+            "trytond.modules.production_report.production",
+            "trytond.modules.production_report.tests",
+            "trytond.modules.production_report.tests.test_production",
+            "trytond.modules.production_report.tests.test_views_depends"
+        ],
+        "version": "4.0.0.5"
     },
     "fio-quickbooks-payroll": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.quickbooks_payroll",
+            "trytond.modules.quickbooks_payroll.employee",
+            "trytond.modules.quickbooks_payroll.quickbooks",
+            "trytond.modules.quickbooks_payroll.tests.conftest",
+            "trytond.modules.quickbooks_payroll.tests.test_quickbooks_payroll"
+        ],
+        "version": "4.0.0.1"
     },
     "fio-report-html-accounts": {
         "cmdline": [],
