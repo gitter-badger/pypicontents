@@ -6667,7 +6667,7 @@
         "modules": [
             "zendeskclient"
         ],
-        "version": "0.1"
+        "version": "0.2.2"
     },
     "zendeskhc": {
         "cmdline": [],
@@ -6728,7 +6728,7 @@
             "zengin_code.bank",
             "zengin_code.branch"
         ],
-        "version": "1.0.1.20170427"
+        "version": "1.1.0.20170427"
     },
     "zengine": {
         "cmdline": [],
@@ -7089,7 +7089,7 @@
             "zenpy.lib.response",
             "zenpy.lib.util"
         ],
-        "version": "1.2.0"
+        "version": "1.2.1"
     },
     "zenqueue": {
         "cmdline": [],
@@ -8457,7 +8457,7 @@
             "zExceptions.tests.test_unauthorized",
             "zExceptions.unauthorized"
         ],
-        "version": "3.6"
+        "version": "3.6.1"
     },
     "zezfio": {
         "cmdline": [],
@@ -19810,7 +19810,7 @@
             "zsl.utils.xml_helper",
             "zsl.utils.xml_to_json"
         ],
-        "version": "0.13.0"
+        "version": "0.13.1"
     },
     "zsl-client": {
         "cmdline": [],
@@ -21302,7 +21302,7 @@
             "zutils.models",
             "zutils.views"
         ],
-        "version": "0.0.5"
+        "version": "0.0.7"
     },
     "zuul": {
         "cmdline": [],
