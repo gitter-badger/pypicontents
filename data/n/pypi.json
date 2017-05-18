@@ -7278,10 +7278,9 @@
             "panda.methods.viz",
             "panda.utils",
             "panda.utils.bids_s3",
-            "panda.utils.set_keys",
             "panda.utils.utils"
         ],
-        "version": "1.5"
+        "version": "1.6"
     },
     "ndef": {
         "cmdline": [],
@@ -24937,7 +24936,7 @@
             "neutronpy.scattering.polarization",
             "neutronpy.spurion"
         ],
-        "version": "1.0.4.dev5"
+        "version": "1.0.4"
     },
     "neverbounce": {
         "cmdline": [],
