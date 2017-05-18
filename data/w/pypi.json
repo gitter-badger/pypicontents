@@ -394,7 +394,7 @@
         "modules": [
             "nester"
         ],
-        "version": "1.0.0"
+        "version": "1.3.0"
     },
     "waapuro": {
         "cmdline": [],
@@ -7774,14 +7774,14 @@
     "waveglida": {
         "cmdline": [],
         "modules": [
-            "WaveGliDA",
-            "WaveGliDA.calculations",
-            "WaveGliDA.config",
-            "WaveGliDA.plotly_json",
-            "WaveGliDA.read_wg_data",
-            "WaveGliDA.views"
+            "WaveGliDA/",
+            "WaveGliDA/.calculations",
+            "WaveGliDA/.config",
+            "WaveGliDA/.plotly_json",
+            "WaveGliDA/.read_wg_data",
+            "WaveGliDA/.views"
         ],
-        "version": "0.1.9"
+        "version": "0.2.1"
     },
     "wavelet-calculations": {
         "cmdline": [],
@@ -9483,7 +9483,7 @@
             "weather",
             "weather.Weather"
         ],
-        "version": "0.2.1"
+        "version": "0.2.3"
     },
     "weather-notifier": {
         "cmdline": [],
@@ -10504,6 +10504,13 @@
         ],
         "version": "0.1"
     },
+    "webappify": {
+        "cmdline": [],
+        "modules": [
+            "webappify"
+        ],
+        "version": "0.1"
+    },
     "webappmanager": {
         "cmdline": [
             "wam-install-drupal",
@@ -10563,7 +10570,7 @@
             "webargs.tornadoparser",
             "webargs.webapp2parser"
         ],
-        "version": "1.6.2"
+        "version": "1.6.3"
     },
     "webarticle2text": {
         "cmdline": [
@@ -11763,6 +11770,14 @@
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "webhook-logger": {
+        "cmdline": [],
+        "modules": [
+            "webhook_logger",
+            "webhook_logger.slack"
+        ],
+        "version": "0.1.2"
     },
     "webhook-sender": {
         "cmdline": [],
@@ -22317,7 +22332,10 @@
             "win32auth",
             "win32clipboard",
             "win32com",
+            "win32com.authorization",
+            "win32com.authorization.authorization",
             "win32com.axscript",
+            "win32com.axscript.client",
             "win32com.client",
             "win32com.client.dynamic",
             "win32com.client.gencache",
@@ -22358,6 +22376,7 @@
             "win32profile",
             "win32propsys",
             "win32ras",
+            "win32rcparser",
             "win32scheduler",
             "win32security",
             "win32service",
@@ -22372,7 +22391,7 @@
             "win32wnet",
             "winerror"
         ],
-        "version": "221.20"
+        "version": "221.23"
     },
     "win32core": {
         "cmdline": [],
@@ -30582,9 +30601,10 @@
         "cmdline": [],
         "modules": [
             "wotever",
+            "wotever.ExcutorMgr",
             "wotever.logger"
         ],
-        "version": "1.501"
+        "version": "1.604"
     },
     "wotwrapper": {
         "cmdline": [],
@@ -32991,7 +33011,7 @@
             "wsgi_status",
             "wsgi_status.monitor"
         ],
-        "version": "0.3.2"
+        "version": "0.3.7"
     },
     "wsgi-supervisor": {
         "cmdline": [],
@@ -36255,7 +36275,7 @@
             "lib.stackedplotframe",
             "lib.utils"
         ],
-        "version": "0.9.24"
+        "version": "0.9.25"
     },
     "wxoo": {
         "cmdline": [],
