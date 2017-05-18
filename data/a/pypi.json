@@ -58829,8 +58829,12 @@
     },
     "arcpylogger": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "arcpylogger",
+            "arcpylogger.arcpylogger",
+            "arcpylogger.arcpyloggerhelper"
+        ],
+        "version": "2.1.0"
     },
     "arcrest": {
         "cmdline": [
