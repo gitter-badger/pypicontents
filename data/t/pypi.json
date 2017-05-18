@@ -786,12 +786,19 @@
         ],
         "version": "1.0.3"
     },
+    "tableone": {
+        "cmdline": [],
+        "modules": [
+            "tableone"
+        ],
+        "version": "0.1.6"
+    },
     "tableprint": {
         "cmdline": [],
         "modules": [
             "tableprint"
         ],
-        "version": "0.6.0"
+        "version": "0.6.1"
     },
     "tablepyxl": {
         "cmdline": [],
@@ -1714,9 +1721,10 @@
         "cmdline": [],
         "modules": [
             "tabula",
+            "tabula.util",
             "tabula.wrapper"
         ],
-        "version": "0.5.0"
+        "version": "0.6.0"
     },
     "tabular": {
         "cmdline": [],
@@ -1770,7 +1778,7 @@
             "tabulator.writers",
             "tabulator.writers.csv"
         ],
-        "version": "1.0.0a4"
+        "version": "1.0.0a5"
     },
     "tabutils": {
         "cmdline": [],
@@ -4155,7 +4163,7 @@
             "tailbone.views.vendors.core",
             "tailbone.views.vendors.invoices"
         ],
-        "version": "0.5.99"
+        "version": "0.5.100"
     },
     "tailchart": {
         "cmdline": [],
@@ -5580,7 +5588,7 @@
             "tango_simlib.tests.test_tango_sim_generator",
             "tango_simlib.testutils"
         ],
-        "version": "0.1.2"
+        "version": "0.1.3"
     },
     "tango-voting": {
         "cmdline": [],
@@ -6034,7 +6042,7 @@
         "modules": [
             "tap_shippo"
         ],
-        "version": "0.6.0"
+        "version": "0.6.1"
     },
     "tap-taboola": {
         "cmdline": [],
@@ -6774,7 +6782,7 @@
             "target.cmd",
             "target.tail"
         ],
-        "version": "0.0.9"
+        "version": "0.0.10"
     },
     "target-api-client": {
         "cmdline": [],
@@ -7320,7 +7328,7 @@
             "taskcat.sweeper",
             "taskcat.taskcat"
         ],
-        "version": "0.1.59"
+        "version": "0.1.60"
     },
     "taskchecker-on-console": {
         "cmdline": [
@@ -7782,6 +7790,17 @@
             "taskmaster.util"
         ],
         "version": "0.8.2"
+    },
+    "taskotron-python-versions": {
+        "cmdline": [],
+        "modules": [
+            "taskotron_python_versions",
+            "taskotron_python_versions.common",
+            "taskotron_python_versions.executables",
+            "taskotron_python_versions.naming_scheme",
+            "taskotron_python_versions.two_three"
+        ],
+        "version": "0.1.dev1"
     },
     "taskplot": {
         "cmdline": [
@@ -10279,7 +10298,7 @@
             "tbvaccine.tests",
             "tbvaccine.version"
         ],
-        "version": "0.0.3"
+        "version": "0.1.1"
     },
     "tbx": {
         "cmdline": [],
@@ -11698,7 +11717,7 @@
     "tdm-loader": {
         "cmdline": [],
         "modules": [],
-        "version": "1.1.3"
+        "version": "1.1.7"
     },
     "tdns": {
         "cmdline": [],
@@ -15009,6 +15028,11 @@
             "tmw.server"
         ],
         "version": "0.3"
+    },
+    "tells": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.1"
     },
     "telneter": {
         "cmdline": [],
@@ -19688,7 +19712,7 @@
     "tensorflow": {
         "cmdline": [],
         "modules": [],
-        "version": "1.1.0"
+        "version": "1.2.0rc0"
     },
     "tensorflow-datasets": {
         "cmdline": [],
@@ -19726,7 +19750,7 @@
     "tensorflow-gpu": {
         "cmdline": [],
         "modules": [],
-        "version": "1.1.0"
+        "version": "1.2.0rc0"
     },
     "tensorflow-hmm": {
         "cmdline": [],
@@ -19771,6 +19795,7 @@
             "tensorflow_transform.mappers",
             "tensorflow_transform.mappers_test",
             "tensorflow_transform.pretrained_models",
+            "tensorflow_transform.pretrained_models_test",
             "tensorflow_transform.saved",
             "tensorflow_transform.saved.constants",
             "tensorflow_transform.saved.input_fn_maker",
@@ -19800,7 +19825,7 @@
             "tensorflow_transform.tf_metadata.vtest",
             "tensorflow_transform.tf_metadata.vtest.schema_io_vtest"
         ],
-        "version": "0.1.8"
+        "version": "0.1.9"
     },
     "tensorflowservingclient": {
         "cmdline": [],
@@ -20129,7 +20154,7 @@
     "tensorpy": {
         "cmdline": [],
         "modules": [],
-        "version": "1.0.14"
+        "version": "1.0.16"
     },
     "tensors": {
         "cmdline": [],
@@ -20230,7 +20255,7 @@
             "TensorToolbox.unittests.auxiliary",
             "TensorToolbox.unittests.run_unit_tests"
         ],
-        "version": "1.0.16"
+        "version": "1.0.18"
     },
     "tensorvision": {
         "cmdline": [],
@@ -21193,7 +21218,7 @@
             "termineter.templates",
             "termineter.utilities"
         ],
-        "version": "0.2.6"
+        "version": "0.2.7"
     },
     "terminology-tools": {
         "cmdline": [],
@@ -23420,7 +23445,7 @@
             "testimony.constants",
             "testimony.parser"
         ],
-        "version": "1.5.0"
+        "version": "1.6.0"
     },
     "testincessantly": {
         "cmdline": [],
@@ -23435,44 +23460,8 @@
     },
     "testinfra": {
         "cmdline": [],
-        "modules": [
-            "testinfra",
-            "testinfra.backend",
-            "testinfra.backend.ansible",
-            "testinfra.backend.base",
-            "testinfra.backend.docker",
-            "testinfra.backend.kubectl",
-            "testinfra.backend.local",
-            "testinfra.backend.paramiko",
-            "testinfra.backend.salt",
-            "testinfra.backend.ssh",
-            "testinfra.host",
-            "testinfra.main",
-            "testinfra.modules",
-            "testinfra.modules.ansible",
-            "testinfra.modules.base",
-            "testinfra.modules.command",
-            "testinfra.modules.file",
-            "testinfra.modules.group",
-            "testinfra.modules.interface",
-            "testinfra.modules.mountpoint",
-            "testinfra.modules.package",
-            "testinfra.modules.pip",
-            "testinfra.modules.process",
-            "testinfra.modules.puppet",
-            "testinfra.modules.salt",
-            "testinfra.modules.service",
-            "testinfra.modules.socket",
-            "testinfra.modules.sudo",
-            "testinfra.modules.supervisor",
-            "testinfra.modules.sysctl",
-            "testinfra.modules.systeminfo",
-            "testinfra.modules.user",
-            "testinfra.plugin",
-            "testinfra.utils",
-            "testinfra.utils.ansible_runner"
-        ],
-        "version": "1.6.0"
+        "modules": [],
+        "version": "1.6.2"
     },
     "testing": {
         "cmdline": [],
@@ -24002,10 +23991,24 @@
         ],
         "version": "0.3"
     },
+    "testpirnt": {
+        "cmdline": [],
+        "modules": [
+            "testprint"
+        ],
+        "version": "1.0.0"
+    },
     "testpkg": {
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "testprint": {
+        "cmdline": [],
+        "modules": [
+            "testprint"
+        ],
+        "version": "1.2.0"
     },
     "testproject": {
         "cmdline": [],
@@ -27054,7 +27057,7 @@
             "tfimgsort.tfutil",
             "tfimgsort.util"
         ],
-        "version": "0.0.5"
+        "version": "0.0.6"
     },
     "tfinterface": {
         "cmdline": [],
@@ -27366,6 +27369,7 @@
             "tests",
             "tests.test",
             "tests.test_helpers",
+            "tests.test_inputs",
             "tests.test_layers",
             "tests.test_metrics",
             "tests.test_models",
@@ -27390,8 +27394,10 @@
             "tflearn.datasets.svhn",
             "tflearn.datasets.titanic",
             "tflearn.estimators",
+            "tflearn.estimators.base",
             "tflearn.estimators.cluster",
             "tflearn.estimators.ensemble",
+            "tflearn.estimators.ensemble.forest",
             "tflearn.estimators.linear_model",
             "tflearn.estimators.neural_network",
             "tflearn.helpers",
@@ -27419,10 +27425,13 @@
             "tflearn.summaries",
             "tflearn.templates",
             "tflearn.templates.cnn",
+            "tflearn.utilities",
+            "tflearn.utilities.io",
+            "tflearn.utilities.validate",
             "tflearn.utils",
             "tflearn.variables"
         ],
-        "version": "0.3"
+        "version": "0.3.1"
     },
     "tflib": {
         "cmdline": [],
@@ -31680,7 +31689,7 @@
             "thingflow.sensors.rpi.lux_sensor",
             "thingflow.sensors.rpi.sensor"
         ],
-        "version": "2.0.0"
+        "version": "2.1.0"
     },
     "thingitwrapper": {
         "cmdline": [],
@@ -34789,6 +34798,13 @@
         ],
         "version": "0.1.24"
     },
+    "thxgh": {
+        "cmdline": [
+            "thxgh"
+        ],
+        "modules": [],
+        "version": "0.1"
+    },
     "thymus-timeseries": {
         "cmdline": [],
         "modules": [
@@ -37367,7 +37383,7 @@
             "tile_generator.tile_unittest",
             "tile_generator.util"
         ],
-        "version": "6.0.0"
+        "version": "7.0.1"
     },
     "tilecache": {
         "cmdline": [
@@ -41763,7 +41779,7 @@
             "titanic2",
             "titanic2.titanic2"
         ],
-        "version": "0.9"
+        "version": "2.1.1"
     },
     "titanium": {
         "cmdline": [],
@@ -44592,6 +44608,15 @@
         ],
         "version": "6.0.7"
     },
+    "tnodatabase": {
+        "cmdline": [],
+        "modules": [
+            "TNODatabase",
+            "TNODatabase.MPCRecord",
+            "TNODatabase.TNODatabase"
+        ],
+        "version": "0.0.7"
+    },
     "tnseq-transit": {
         "cmdline": [],
         "modules": [
@@ -47417,8 +47442,23 @@
     },
     "toil-vg": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "toil_vg",
+            "toil_vg.iostore",
+            "toil_vg.singularity",
+            "toil_vg.test",
+            "toil_vg.test.test_vg",
+            "toil_vg.vg_call",
+            "toil_vg.vg_common",
+            "toil_vg.vg_config",
+            "toil_vg.vg_index",
+            "toil_vg.vg_map",
+            "toil_vg.vg_mapeval",
+            "toil_vg.vg_sim",
+            "toil_vg.vg_toil",
+            "toil_vg.vg_vcfeval"
+        ],
+        "version": "1.2.0"
     },
     "tojiratable": {
         "cmdline": [
@@ -48633,10 +48673,8 @@
         "cmdline": [
             "sound_search.py"
         ],
-        "modules": [
-            "tonescale"
-        ],
-        "version": "2017.5.16.1733"
+        "modules": [],
+        "version": "2017.5.17.1932"
     },
     "tongue": {
         "cmdline": [],
@@ -49537,6 +49575,7 @@
             "topicexplorer.extensions.ap",
             "topicexplorer.extensions.bibtex",
             "topicexplorer.extensions.htrc",
+            "topicexplorer.extensions.htrc_features",
             "topicexplorer.extensions.inpho",
             "topicexplorer.extensions.jeff",
             "topicexplorer.extensions.jeffcombo",
@@ -49560,7 +49599,7 @@
             "topicexplorer.update",
             "topicexplorer.version"
         ],
-        "version": "1.0b159"
+        "version": "1.0b162"
     },
     "topicmaps": {
         "cmdline": [],
@@ -55231,7 +55270,7 @@
         "modules": [
             "tox_pip_extensions"
         ],
-        "version": "1.0.0"
+        "version": "1.0.1"
     },
     "tox-plus": {
         "cmdline": [],
@@ -55846,7 +55885,7 @@
             "tpot.operator_utils",
             "tpot.tpot"
         ],
-        "version": "0.7.3"
+        "version": "0.7.4"
     },
     "tpq": {
         "cmdline": [
@@ -64292,7 +64331,7 @@
             "config",
             "trellogd"
         ],
-        "version": "0.2.3"
+        "version": "0.2.4"
     },
     "trellopy": {
         "cmdline": [],
@@ -65345,6 +65384,13 @@
         ],
         "version": "0.1.0"
     },
+    "trilateration": {
+        "cmdline": [],
+        "modules": [
+            "trilateration"
+        ],
+        "version": "0.1"
+    },
     "trileans": {
         "cmdline": [],
         "modules": [
@@ -65622,18 +65668,37 @@
     },
     "tripleo-helper": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tripleohelper",
+            "tripleohelper.baremetal",
+            "tripleohelper.chaos_monkey",
+            "tripleohelper.logger",
+            "tripleohelper.ovb_baremetal",
+            "tripleohelper.ovb_bmc",
+            "tripleohelper.ovb_shell",
+            "tripleohelper.ovb_undercloud",
+            "tripleohelper.provisioners",
+            "tripleohelper.provisioners.openstack",
+            "tripleohelper.provisioners.openstack.provisioner",
+            "tripleohelper.provisioners.openstack.utils",
+            "tripleohelper.server",
+            "tripleohelper.ssh",
+            "tripleohelper.undercloud",
+            "tripleohelper.utils",
+            "tripleohelper.version",
+            "tripleohelper.watcher"
+        ],
+        "version": "3"
     },
     "tripleo-image-elements": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "7.0.0.0b1"
     },
     "tripleo-puppet-elements": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "7.0.0.0b1"
     },
     "tripleo-repos": {
         "cmdline": [],
@@ -65648,57 +65713,119 @@
     "tripleo-validations": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "7.0.0"
     },
     "triplesec": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "triplesec",
+            "triplesec.crypto",
+            "triplesec.utils",
+            "triplesec.versions"
+        ],
+        "version": "0.4"
     },
     "tripod": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tripod",
+            "tripod.sampler",
+            "tripod.timer"
+        ],
+        "version": "0.1"
     },
     "tripoli": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tests",
+            "tests.test_base_validator",
+            "tests.test_error_collection",
+            "tests.test_iiif_validator",
+            "tests.validator_testing_tools",
+            "tripoli",
+            "tripoli.exceptions",
+            "tripoli.mixins",
+            "tripoli.resource_validators",
+            "tripoli.resource_validators.annotation_validator",
+            "tripoli.resource_validators.base_validator",
+            "tripoli.resource_validators.canvas_validator",
+            "tripoli.resource_validators.image_content_validator",
+            "tripoli.resource_validators.manifest_validator",
+            "tripoli.resource_validators.sequence_validator",
+            "tripoli.tripoli",
+            "tripoli.validator_logging"
+        ],
+        "version": "1.2.0"
     },
     "tripphrase": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tripphrase",
+            "tripphrase.tripphrase"
+        ],
+        "version": "0.3"
     },
     "tripplets": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.0.1"
     },
     "trippy": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trippy",
+            "trippy.MCMCfit",
+            "trippy.MCMCfit.MCMCfit",
+            "trippy.bgFinder",
+            "trippy.pill",
+            "trippy.psf",
+            "trippy.psfStarChooser",
+            "trippy.scamp",
+            "trippy.scamp.makeParFiles",
+            "trippy.scamp.scamp",
+            "trippy.trippy_utils"
+        ],
+        "version": "0.5.1"
     },
     "triptan": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "triptan",
+            "triptan.cli",
+            "triptan.core",
+            "triptan.ext",
+            "triptan.ext.file",
+            "triptan.ext.redis"
+        ],
+        "version": "1.0.6"
     },
     "trireme": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trireme",
+            "trireme.migrators",
+            "trireme.migrators.cassandra",
+            "trireme.migrators.data",
+            "trireme.migrators.solr",
+            "trireme.trireme"
+        ],
+        "version": "1.3.1"
     },
     "trisdb-py": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "message_pb2",
+            "trisdb"
+        ],
+        "version": "1.0.0"
     },
     "tritcask": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tritcask",
+            "tritcask.tritcask"
+        ],
+        "version": "0.2"
     },
     "tritium": {
         "cmdline": [],
@@ -65706,59 +65833,168 @@
         "version": ""
     },
     "triton": {
-        "cmdline": [],
+        "cmdline": [
+            "trytond"
+        ],
         "modules": [],
-        "version": ""
+        "version": "3.4.1"
     },
     "triumph": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "triumph"
+        ],
+        "version": "0.1.0"
     },
     "trivial-remote-semaphore": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trivial_remote_semaphore",
+            "trivial_remote_semaphore.client",
+            "trivial_remote_semaphore.server"
+        ],
+        "version": "1.2"
     },
     "trivial-sudoku": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "sudoku"
+        ],
+        "version": "2.0"
     },
     "trivio": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "triv",
+            "triv.io",
+            "triv.io.client",
+            "triv.io.client.api"
+        ],
+        "version": "0.2.5"
     },
     "trivup": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trivup",
+            "trivup.apps",
+            "trivup.apps.KafkaBrokerApp",
+            "trivup.apps.KerberosKdcApp",
+            "trivup.apps.NetSimApp",
+            "trivup.apps.SslApp",
+            "trivup.apps.ZookeeperApp",
+            "trivup.trivup"
+        ],
+        "version": "0.2"
     },
     "trix": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trix",
+            "trix.project",
+            "trix.project.default",
+            "trix.project.default.default_urls",
+            "trix.project.default.settings",
+            "trix.project.develop",
+            "trix.project.develop.developtasks",
+            "trix.project.develop.dumps",
+            "trix.project.develop.dumps.dev",
+            "trix.project.develop.dumps.dev.data",
+            "trix.project.develop.dumps.dev.import_helper",
+            "trix.project.develop.fabrictasks",
+            "trix.project.develop.fabrictasks.common",
+            "trix.project.develop.fabrictasks.i18n",
+            "trix.project.develop.settings",
+            "trix.project.develop.settings.common",
+            "trix.project.develop.settings.develop",
+            "trix.project.develop.settings.test",
+            "trix.project.develop.testhelpers",
+            "trix.project.develop.testhelpers.login",
+            "trix.project.develop.testhelpers.user",
+            "trix.project.develop.urls",
+            "trix.project.production",
+            "trix.project.production.herokudemosettings",
+            "trix.project.production.settings",
+            "trix.project.production.urls",
+            "trix.project.production.wsgi",
+            "trix.project.settingsproxy",
+            "trix.trix_admin",
+            "trix.trix_admin.cradmin",
+            "trix.trix_admin.fabfile",
+            "trix.trix_admin.formfields",
+            "trix.trix_admin.models",
+            "trix.trix_admin.templatetags",
+            "trix.trix_admin.templatetags.trix_admin_tags",
+            "trix.trix_admin.tests",
+            "trix.trix_admin.tests.test_assignments",
+            "trix.trix_admin.views",
+            "trix.trix_admin.views.assignments",
+            "trix.trix_admin.views.dashboard",
+            "trix.trix_admin.views.permalinks",
+            "trix.trix_admin.views.roleselect",
+            "trix.trix_admin.views.statistics",
+            "trix.trix_core",
+            "trix.trix_core.admin",
+            "trix.trix_core.fabfile",
+            "trix.trix_core.models",
+            "trix.trix_core.multiassignment_serialize",
+            "trix.trix_core.tagutils",
+            "trix.trix_core.templatetags",
+            "trix.trix_core.templatetags.trix_core_tags",
+            "trix.trix_core.tests",
+            "trix.trix_core.tests.test_multiassignment_serialize",
+            "trix.trix_core.tests.test_tagutils",
+            "trix.trix_core.tests.test_trix_core_tags",
+            "trix.trix_core.tests.test_trix_markdown",
+            "trix.trix_core.trix_markdown",
+            "trix.trix_student",
+            "trix.trix_student.fabfile",
+            "trix.trix_student.models",
+            "trix.trix_student.tests",
+            "trix.trix_student.tests.test_howsolved",
+            "trix.trix_student.urls",
+            "trix.trix_student.views",
+            "trix.trix_student.views.assignments",
+            "trix.trix_student.views.common",
+            "trix.trix_student.views.course",
+            "trix.trix_student.views.dashboard",
+            "trix.trix_student.views.howsolved",
+            "trix.trix_student.views.login",
+            "trix.trix_student.views.logout",
+            "trix.trix_student.views.permalink",
+            "trix.version"
+        ],
+        "version": "2.0.9"
     },
     "trixy": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trixy"
+        ],
+        "version": "1.0.0"
     },
     "triyak101": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "triyak101"
+        ],
+        "version": "1.1.0"
     },
     "trlo": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trlo"
+        ],
+        "version": "1.1"
     },
     "trmaid": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trmaid",
+            "trmaid.plugins",
+            "trmaid.rpc_client",
+            "trmaid.trmaid"
+        ],
+        "version": "0.6.7"
     },
     "trminer": {
         "cmdline": [],
@@ -65767,18 +66003,30 @@
     },
     "trml2pdf": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tests",
+            "tests.test_examples",
+            "tests.test_keepinframe_tag",
+            "trml2pdf",
+            "trml2pdf.color",
+            "trml2pdf.trml2pdf",
+            "trml2pdf.utils"
+        ],
+        "version": "0.4.2"
     },
     "trms": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trms"
+        ],
+        "version": "0.2.4a1"
     },
     "trofimov": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "Trofimov"
+        ],
+        "version": "0.1.0"
     },
     "troika": {
         "cmdline": [],
@@ -65792,8 +66040,10 @@
     },
     "troitskii": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "Troitskii"
+        ],
+        "version": "0.1.0"
     },
     "troll": {
         "cmdline": [],
@@ -65802,78 +66052,241 @@
     },
     "troll.storage": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "troll",
+            "troll.storage",
+            "troll.storage.base",
+            "troll.storage.container",
+            "troll.storage.descriptors",
+            "troll.storage.interfaces",
+            "troll.storage.tests",
+            "troll.storage.tests.annotation",
+            "troll.storage.tests.test_all"
+        ],
+        "version": "0.4"
     },
     "trollcast": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "trollcast_client",
+            "trollcast_server"
+        ],
+        "modules": [
+            "trollcast",
+            "trollcast.client",
+            "trollcast.get_sar",
+            "trollcast.gui",
+            "trollcast.oldserver",
+            "trollcast.schedules",
+            "trollcast.server",
+            "trollcast.test_socketstreamer",
+            "trollcast.version"
+        ],
+        "version": "1.0.1"
     },
     "trollduction": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "l2processor.py"
+        ],
+        "modules": [
+            "trollduction",
+            "trollduction.custom_handler",
+            "trollduction.helper_functions",
+            "trollduction.producer",
+            "trollduction.producer_orig",
+            "trollduction.producer_orig_2",
+            "trollduction.producer_trimmed",
+            "trollduction.producer_trimmed_2",
+            "trollduction.version",
+            "trollduction.xml_read"
+        ],
+        "version": "1.3.0"
     },
     "trolley": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trolley"
+        ],
+        "version": "0.1.5"
     },
     "trollflow": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "flow_processor.py"
+        ],
+        "modules": [
+            "trollflow",
+            "trollflow.examples",
+            "trollflow.examples.getters",
+            "trollflow.examples.getters.wget",
+            "trollflow.examples.readers",
+            "trollflow.examples.readers.mpop",
+            "trollflow.examples.readers.mpop_reader",
+            "trollflow.examples.readers.txt_reader",
+            "trollflow.examples.readers.unarchiver",
+            "trollflow.examples.transformers",
+            "trollflow.examples.transformers.capitalizer",
+            "trollflow.examples.transformers.histogram",
+            "trollflow.examples.writers",
+            "trollflow.examples.writers.gif_writer",
+            "trollflow.examples.writers.txt_writer",
+            "trollflow.tests",
+            "trollflow.tests.test_utils",
+            "trollflow.tests.test_workflow_component",
+            "trollflow.tests.test_workflow_streamer",
+            "trollflow.utils",
+            "trollflow.version",
+            "trollflow.workflow_component",
+            "trollflow.workflow_runner",
+            "trollflow.workflow_streamer"
+        ],
+        "version": "0.5.0"
     },
     "trollflow-sat": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trollflow_sat",
+            "trollflow_sat.area_gatherer",
+            "trollflow_sat.compositor",
+            "trollflow_sat.coverage",
+            "trollflow_sat.enhance",
+            "trollflow_sat.fetch",
+            "trollflow_sat.resampler",
+            "trollflow_sat.satpy_compositor",
+            "trollflow_sat.satpy_resampler",
+            "trollflow_sat.satpy_writer",
+            "trollflow_sat.scene_loader",
+            "trollflow_sat.segment_gatherer",
+            "trollflow_sat.utils",
+            "trollflow_sat.version",
+            "trollflow_sat.writer"
+        ],
+        "version": "0.8.0"
     },
     "trollimage": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trollimage",
+            "trollimage.colormap",
+            "trollimage.colorspaces",
+            "trollimage.image",
+            "trollimage.version"
+        ],
+        "version": "1.0.2"
     },
     "trollius": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trollius",
+            "trollius.base_events",
+            "trollius.base_subprocess",
+            "trollius.compat",
+            "trollius.constants",
+            "trollius.coroutines",
+            "trollius.events",
+            "trollius.executor",
+            "trollius.futures",
+            "trollius.locks",
+            "trollius.log",
+            "trollius.proactor_events",
+            "trollius.protocols",
+            "trollius.py27_weakrefset",
+            "trollius.py33_exceptions",
+            "trollius.py33_winapi",
+            "trollius.py3_ssl",
+            "trollius.queues",
+            "trollius.selector_events",
+            "trollius.selectors",
+            "trollius.sslproto",
+            "trollius.streams",
+            "trollius.subprocess",
+            "trollius.tasks",
+            "trollius.test_support",
+            "trollius.test_utils",
+            "trollius.time_monotonic",
+            "trollius.transports",
+            "trollius.unix_events",
+            "trollius.windows_events",
+            "trollius.windows_utils"
+        ],
+        "version": "2.1"
     },
     "trollius-redis": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trollius_redis",
+            "trollius_redis.connection",
+            "trollius_redis.cursors",
+            "trollius_redis.encoders",
+            "trollius_redis.exceptions",
+            "trollius_redis.log",
+            "trollius_redis.pool",
+            "trollius_redis.protocol",
+            "trollius_redis.replies"
+        ],
+        "version": "0.1.4"
     },
     "trollop": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trollop",
+            "trollop.lib",
+            "trollop.tests"
+        ],
+        "version": "0.0.17"
     },
     "trollsift": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trollsift",
+            "trollsift.parser",
+            "trollsift.version"
+        ],
+        "version": "0.2.0"
     },
     "trolly": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trolly",
+            "trolly.authorise",
+            "trolly.board",
+            "trolly.card",
+            "trolly.checklist",
+            "trolly.client",
+            "trolly.exceptions",
+            "trolly.label",
+            "trolly.list",
+            "trolly.member",
+            "trolly.organisation",
+            "trolly.trelloobject"
+        ],
+        "version": "0.2.2"
     },
     "trololio": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trololio"
+        ],
+        "version": "1.0"
     },
     "trombi": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trombi",
+            "trombi.client",
+            "trombi.errors"
+        ],
+        "version": "0.9.2"
     },
     "tromegle": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tromegle",
+            "tromegle.core",
+            "tromegle.event",
+            "tromegle.listener",
+            "tromegle.omegle",
+            "tromegle.troll"
+        ],
+        "version": "0.2.1.alpha"
     },
     "trompet": {
         "cmdline": [],
@@ -65881,89 +66294,659 @@
         "version": ""
     },
     "tron": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "action_runner.py",
+            "action_status.py",
+            "tronctl",
+            "trond",
+            "tronfig",
+            "tronview"
+        ],
+        "modules": [
+            "tron",
+            "tron.actioncommand",
+            "tron.api",
+            "tron.api.adapter",
+            "tron.api.controller",
+            "tron.api.requestargs",
+            "tron.api.resource",
+            "tron.command_context",
+            "tron.commands",
+            "tron.commands.client",
+            "tron.commands.cmd_utils",
+            "tron.commands.display",
+            "tron.config",
+            "tron.config.config_parse",
+            "tron.config.config_utils",
+            "tron.config.manager",
+            "tron.config.schedule_parse",
+            "tron.config.schema",
+            "tron.core",
+            "tron.core.action",
+            "tron.core.actiongraph",
+            "tron.core.actionrun",
+            "tron.core.job",
+            "tron.core.jobrun",
+            "tron.core.service",
+            "tron.core.serviceinstance",
+            "tron.crash_reporter",
+            "tron.event",
+            "tron.eventloop",
+            "tron.mcp",
+            "tron.node",
+            "tron.scheduler",
+            "tron.serialize",
+            "tron.serialize.filehandler",
+            "tron.serialize.runstate",
+            "tron.serialize.runstate.mongostore",
+            "tron.serialize.runstate.shelvestore",
+            "tron.serialize.runstate.sqlalchemystore",
+            "tron.serialize.runstate.statemanager",
+            "tron.serialize.runstate.yamlstore",
+            "tron.ssh",
+            "tron.trondaemon",
+            "tron.utils",
+            "tron.utils.collections",
+            "tron.utils.crontab",
+            "tron.utils.dicts",
+            "tron.utils.emailer",
+            "tron.utils.flockfile",
+            "tron.utils.iteration",
+            "tron.utils.observer",
+            "tron.utils.proxy",
+            "tron.utils.state",
+            "tron.utils.timeutils",
+            "tron.utils.tool_utils",
+            "tron.utils.trontimespec",
+            "tron.utils.twistedutils"
+        ],
+        "version": "0.6.2.0"
     },
     "trophyfetcher": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trophyfetcher",
+            "trophyfetcher.app",
+            "trophyfetcher.config",
+            "trophyfetcher.logger"
+        ],
+        "version": "0.1.0"
     },
     "tropo": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tropo",
+            "tropo.base",
+            "tropo.compute",
+            "tropo.func",
+            "tropo.network",
+            "tropo.storage"
+        ],
+        "version": "0.2.1"
     },
     "tropo-webapi-python": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tropo"
+        ],
+        "version": "0.1.3"
     },
     "tropofy": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "slx_simple_queue",
+            "slx_simple_queue.slx_simple_queue",
+            "te_batch_geocoding",
+            "te_batch_geocoding.batch_geocoding",
+            "te_election_results_dashboard",
+            "te_election_results_dashboard.election_results_dashboard",
+            "te_facility_location",
+            "te_facility_location.facility_location",
+            "te_generate_kml",
+            "te_generate_kml.generate_kml",
+            "te_gurobi_diet_model",
+            "te_gurobi_diet_model.gurobi_diet_model",
+            "te_gurobi_network_flow",
+            "te_gurobi_network_flow.network_flow",
+            "te_gurobi_rostering",
+            "te_gurobi_rostering.gurobi_rostering",
+            "te_gurobi_sudoku",
+            "te_gurobi_sudoku.sudoku",
+            "te_gurobi_travelling_salesman",
+            "te_gurobi_travelling_salesman.gurobi_travelling_salesman",
+            "te_hello_world",
+            "te_hello_world.hello_world",
+            "te_ls_assembly_line",
+            "te_ls_assembly_line.app",
+            "te_ls_knapsack",
+            "te_ls_knapsack.localsolver_knapsack",
+            "te_ls_max_cut",
+            "te_ls_max_cut.localsolver_max_cut",
+            "te_plotting_in_3d",
+            "te_plotting_in_3d.plotting_in_3d",
+            "te_production_distribution",
+            "te_production_distribution.production_distribution",
+            "te_simple_linear_regression",
+            "te_simple_linear_regression.simple_linear_regression_with_r",
+            "te_spanning_tree",
+            "te_spanning_tree.spanning_tree",
+            "te_starter",
+            "te_starter.starter",
+            "te_zombie_outbreak",
+            "te_zombie_outbreak.zombie_outbreak",
+            "tropofy",
+            "tropofy.app",
+            "tropofy.app.app_manager",
+            "tropofy.app.application",
+            "tropofy.app.data_set",
+            "tropofy.app.data_set_manager",
+            "tropofy.app.meta",
+            "tropofy.app.task",
+            "tropofy.app.user_app_progress",
+            "tropofy.celery",
+            "tropofy.celery.FlowerAPI",
+            "tropofy.database",
+            "tropofy.database.copy_data_set_data",
+            "tropofy.database.migrations",
+            "tropofy.database.tropofy_orm",
+            "tropofy.database.tropofy_orm.base",
+            "tropofy.database.tropofy_orm.custom_json",
+            "tropofy.database.tropofy_orm.validation",
+            "tropofy.database.tropofy_sqla_utils",
+            "tropofy.database.utils",
+            "tropofy.file_io",
+            "tropofy.file_io.aws_s3_helper",
+            "tropofy.file_io.class_tabular_data_mapping",
+            "tropofy.file_io.exceptions",
+            "tropofy.file_io.import_dataset_zip",
+            "tropofy.file_io.read_write_aws_s3",
+            "tropofy.file_io.read_write_csv",
+            "tropofy.file_io.read_write_csv_psql",
+            "tropofy.file_io.read_write_df",
+            "tropofy.file_io.read_write_xl",
+            "tropofy.file_io.read_write_xml",
+            "tropofy.fileframe",
+            "tropofy.fileframe.factory",
+            "tropofy.fileframe.file_types",
+            "tropofy.fileframe.io",
+            "tropofy.fileframe.io.base",
+            "tropofy.fileframe.io.csv_io",
+            "tropofy.fileframe.io.xl_io",
+            "tropofy.fileframe.io.xml_io",
+            "tropofy.fileframe.io.zip_io",
+            "tropofy.fileframe.read",
+            "tropofy.fileframe.store",
+            "tropofy.fileframe.write",
+            "tropofy.helpers",
+            "tropofy.libs",
+            "tropofy.libs.gviz_api",
+            "tropofy.logger",
+            "tropofy.scripts",
+            "tropofy.scripts.quickstart",
+            "tropofy.scripts.run",
+            "tropofy.tropofygui_interface",
+            "tropofy.views",
+            "tropofy.widgets",
+            "tropofy.widgets.block_layout_widget",
+            "tropofy.widgets.chart_widget",
+            "tropofy.widgets.convex_3d_chart",
+            "tropofy.widgets.custom_export_widget",
+            "tropofy.widgets.custom_widget",
+            "tropofy.widgets.data_sets_widget",
+            "tropofy.widgets.download_file_from_url_widget",
+            "tropofy.widgets.execute_function_widget",
+            "tropofy.widgets.file_upload_widget",
+            "tropofy.widgets.filtered_widget_mixin",
+            "tropofy.widgets.force_graph_widget",
+            "tropofy.widgets.form_widget",
+            "tropofy.widgets.graph3d_widget",
+            "tropofy.widgets.grid_widget",
+            "tropofy.widgets.grid_widget.client_side",
+            "tropofy.widgets.grid_widget.data_frame_grid",
+            "tropofy.widgets.grid_widget.qry_grid",
+            "tropofy.widgets.grid_widget.simple_grid",
+            "tropofy.widgets.handson_grid_widget",
+            "tropofy.widgets.handson_grid_widget.base",
+            "tropofy.widgets.handson_grid_widget.cls",
+            "tropofy.widgets.handson_grid_widget.query",
+            "tropofy.widgets.image_widget",
+            "tropofy.widgets.kml_map_widget",
+            "tropofy.widgets.plotly_widget",
+            "tropofy.widgets.row_widget",
+            "tropofy.widgets.spacer_widget",
+            "tropofy.widgets.text_widget",
+            "tropofy.widgets.trigger_widget",
+            "tropofy.widgets.widgets"
+        ],
+        "version": "1.16.1"
     },
     "tropopause": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tropopause"
+        ],
+        "version": "0.9.1"
     },
     "troposphere": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "cfn",
+            "cfn2py"
+        ],
+        "modules": [
+            "troposphere",
+            "troposphere.apigateway",
+            "troposphere.applicationautoscaling",
+            "troposphere.autoscaling",
+            "troposphere.awslambda",
+            "troposphere.certificatemanager",
+            "troposphere.cloudformation",
+            "troposphere.cloudfront",
+            "troposphere.cloudtrail",
+            "troposphere.cloudwatch",
+            "troposphere.codebuild",
+            "troposphere.codecommit",
+            "troposphere.codedeploy",
+            "troposphere.codepipeline",
+            "troposphere.config",
+            "troposphere.constants",
+            "troposphere.datapipeline",
+            "troposphere.directoryservice",
+            "troposphere.dynamodb",
+            "troposphere.dynamodb2",
+            "troposphere.ec2",
+            "troposphere.ecr",
+            "troposphere.ecs",
+            "troposphere.efs",
+            "troposphere.elasticache",
+            "troposphere.elasticbeanstalk",
+            "troposphere.elasticloadbalancing",
+            "troposphere.elasticloadbalancingv2",
+            "troposphere.elasticsearch",
+            "troposphere.emr",
+            "troposphere.events",
+            "troposphere.firehose",
+            "troposphere.helpers",
+            "troposphere.helpers.userdata",
+            "troposphere.iam",
+            "troposphere.iot",
+            "troposphere.kinesis",
+            "troposphere.kms",
+            "troposphere.logs",
+            "troposphere.openstack",
+            "troposphere.openstack.heat",
+            "troposphere.openstack.neutron",
+            "troposphere.openstack.nova",
+            "troposphere.opsworks",
+            "troposphere.policies",
+            "troposphere.rds",
+            "troposphere.redshift",
+            "troposphere.route53",
+            "troposphere.s3",
+            "troposphere.sdb",
+            "troposphere.sns",
+            "troposphere.sqs",
+            "troposphere.ssm",
+            "troposphere.stepfunctions",
+            "troposphere.template_generator",
+            "troposphere.utils",
+            "troposphere.validators",
+            "troposphere.waf",
+            "troposphere.workspaces"
+        ],
+        "version": "1.9.3"
     },
     "troposphere-cli": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trop"
+        ],
+        "version": "0.1"
     },
     "troposphere-helpers": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.0.2"
     },
     "troposphere-sugar": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "troposphere_sugar",
+            "troposphere_sugar.command",
+            "troposphere_sugar.decorators",
+            "troposphere_sugar.runner",
+            "troposphere_sugar.skel"
+        ],
+        "version": "0.0.5"
     },
     "troshin": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "Troshin"
+        ],
+        "version": "0.1.0"
     },
     "trosnoth": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "trosnoth",
+            "trosnoth-server"
+        ],
+        "modules": [
+            "camptrosnoth",
+            "camptrosnoth.auth",
+            "camptrosnoth.main",
+            "trosnoth",
+            "trosnoth.bots",
+            "trosnoth.bots.base",
+            "trosnoth.bots.goalsetter",
+            "trosnoth.bots.john",
+            "trosnoth.bots.onezone",
+            "trosnoth.bots.orders",
+            "trosnoth.bots.ordertest",
+            "trosnoth.bots.pathfinding",
+            "trosnoth.bots.puppet",
+            "trosnoth.bots.ranger",
+            "trosnoth.bots.test",
+            "trosnoth.bots.test.test_bullet_avoidance",
+            "trosnoth.const",
+            "trosnoth.data",
+            "trosnoth.data.blocks",
+            "trosnoth.data.fonts",
+            "trosnoth.data.music",
+            "trosnoth.data.sound",
+            "trosnoth.data.sprites",
+            "trosnoth.data.startupMenu",
+            "trosnoth.data.statGeneration",
+            "trosnoth.data.themes",
+            "trosnoth.dbqueue",
+            "trosnoth.djangoapp",
+            "trosnoth.djangoapp.admin",
+            "trosnoth.djangoapp.apps",
+            "trosnoth.djangoapp.migrations",
+            "trosnoth.djangoapp.migrations.0001_initial",
+            "trosnoth.djangoapp.migrations.0002_auto_20160206_1103",
+            "trosnoth.djangoapp.migrations.0003_auto_20160207_0026",
+            "trosnoth.djangoapp.migrations.0004_auto_20160208_2327",
+            "trosnoth.djangoapp.migrations.0005_auto_20160208_2340",
+            "trosnoth.djangoapp.migrations.0006_auto_20160209_2008",
+            "trosnoth.djangoapp.migrations.0007_trosnothserversettings_allowremotegameregistration",
+            "trosnoth.djangoapp.migrations.0008_trosnothgamerecord_storezonecount",
+            "trosnoth.djangoapp.models",
+            "trosnoth.djangoapp.tests",
+            "trosnoth.djangoapp.urls",
+            "trosnoth.djangoapp.views",
+            "trosnoth.game",
+            "trosnoth.gamerecording",
+            "trosnoth.gamerecording.achievementlist",
+            "trosnoth.gamerecording.achievements",
+            "trosnoth.gamerecording.gamerecorder",
+            "trosnoth.gamerecording.replays",
+            "trosnoth.gamerecording.statgeneration",
+            "trosnoth.gamerecording.stats",
+            "trosnoth.gui",
+            "trosnoth.gui.app",
+            "trosnoth.gui.browser",
+            "trosnoth.gui.colours",
+            "trosnoth.gui.common",
+            "trosnoth.gui.errors",
+            "trosnoth.gui.fonts",
+            "trosnoth.gui.fonts.font",
+            "trosnoth.gui.fonts.fontcache",
+            "trosnoth.gui.framework",
+            "trosnoth.gui.framework.basics",
+            "trosnoth.gui.framework.checkbox",
+            "trosnoth.gui.framework.clock",
+            "trosnoth.gui.framework.collapsebox",
+            "trosnoth.gui.framework.console",
+            "trosnoth.gui.framework.dialogbox",
+            "trosnoth.gui.framework.elements",
+            "trosnoth.gui.framework.framework",
+            "trosnoth.gui.framework.hint",
+            "trosnoth.gui.framework.hotkey",
+            "trosnoth.gui.framework.listbox",
+            "trosnoth.gui.framework.menu",
+            "trosnoth.gui.framework.prompt",
+            "trosnoth.gui.framework.scrollableCanvas",
+            "trosnoth.gui.framework.scrollingText",
+            "trosnoth.gui.framework.slider",
+            "trosnoth.gui.framework.statList",
+            "trosnoth.gui.framework.tab",
+            "trosnoth.gui.framework.tabContainer",
+            "trosnoth.gui.framework.table",
+            "trosnoth.gui.framework.test",
+            "trosnoth.gui.framework.test.demo_console",
+            "trosnoth.gui.framework.test.demo_dialogbox",
+            "trosnoth.gui.framework.test.demo_hint",
+            "trosnoth.gui.framework.test.demo_menu",
+            "trosnoth.gui.framework.test.demo_scrollablecanvas",
+            "trosnoth.gui.framework.test.demo_scrollingtext",
+            "trosnoth.gui.framework.test.demo_slider",
+            "trosnoth.gui.framework.test.demo_statlist",
+            "trosnoth.gui.framework.test.demo_table",
+            "trosnoth.gui.framework.test.demo_tabs",
+            "trosnoth.gui.framework.unobtrusiveValueGetter",
+            "trosnoth.gui.framework.utils",
+            "trosnoth.gui.keyboard",
+            "trosnoth.gui.menu",
+            "trosnoth.gui.menu.menu",
+            "trosnoth.gui.notify",
+            "trosnoth.gui.screenManager",
+            "trosnoth.gui.screenManager.screenManager",
+            "trosnoth.gui.screenManager.windowManager",
+            "trosnoth.gui.sound",
+            "trosnoth.gui.sound.musicManager",
+            "trosnoth.gui.sound.soundPlayer",
+            "trosnoth.keymap",
+            "trosnoth.levels",
+            "trosnoth.levels.base",
+            "trosnoth.levels.demo",
+            "trosnoth.levels.resync_testcase",
+            "trosnoth.levels.trigger_demo",
+            "trosnoth.levels.tutorial",
+            "trosnoth.main",
+            "trosnoth.manholehelper",
+            "trosnoth.messages",
+            "trosnoth.messages.base",
+            "trosnoth.messages.gameplay",
+            "trosnoth.messages.setup",
+            "trosnoth.messages.special",
+            "trosnoth.messages.upgrades",
+            "trosnoth.model",
+            "trosnoth.model.agent",
+            "trosnoth.model.agenthub",
+            "trosnoth.model.gameStates",
+            "trosnoth.model.hub",
+            "trosnoth.model.idmanager",
+            "trosnoth.model.map",
+            "trosnoth.model.mapLayout",
+            "trosnoth.model.mapblocks",
+            "trosnoth.model.modes",
+            "trosnoth.model.obstacles",
+            "trosnoth.model.physics",
+            "trosnoth.model.player",
+            "trosnoth.model.shot",
+            "trosnoth.model.star",
+            "trosnoth.model.team",
+            "trosnoth.model.trosball",
+            "trosnoth.model.uithrottler",
+            "trosnoth.model.unit",
+            "trosnoth.model.universe",
+            "trosnoth.model.universe_base",
+            "trosnoth.model.upgrades",
+            "trosnoth.model.utils",
+            "trosnoth.model.voteArbiter",
+            "trosnoth.model.zone",
+            "trosnoth.mumble",
+            "trosnoth.murmur",
+            "trosnoth.network",
+            "trosnoth.network.authcommands",
+            "trosnoth.network.base",
+            "trosnoth.network.client",
+            "trosnoth.network.lobby",
+            "trosnoth.network.manhole",
+            "trosnoth.network.networkDefines",
+            "trosnoth.network.server",
+            "trosnoth.network.xmpp",
+            "trosnoth.rsa",
+            "trosnoth.run",
+            "trosnoth.run.authserver",
+            "trosnoth.run.main",
+            "trosnoth.run.solotest",
+            "trosnoth.server",
+            "trosnoth.server.settings",
+            "trosnoth.server.urls",
+            "trosnoth.server.wsgi",
+            "trosnoth.settings",
+            "trosnoth.test",
+            "trosnoth.test.helpers",
+            "trosnoth.themes",
+            "trosnoth.tools",
+            "trosnoth.tools.lintfinder",
+            "trosnoth.trosnothgui",
+            "trosnoth.trosnothgui.common",
+            "trosnoth.trosnothgui.credits",
+            "trosnoth.trosnothgui.ingame",
+            "trosnoth.trosnothgui.ingame.achievementBox",
+            "trosnoth.trosnothgui.ingame.chatBox",
+            "trosnoth.trosnothgui.ingame.detailsInterface",
+            "trosnoth.trosnothgui.ingame.dialogs",
+            "trosnoth.trosnothgui.ingame.gameInterface",
+            "trosnoth.trosnothgui.ingame.gameTimer",
+            "trosnoth.trosnothgui.ingame.gamevote",
+            "trosnoth.trosnothgui.ingame.gauges",
+            "trosnoth.trosnothgui.ingame.joincontroller",
+            "trosnoth.trosnothgui.ingame.leaderboard",
+            "trosnoth.trosnothgui.ingame.mainMenu",
+            "trosnoth.trosnothgui.ingame.messagebank",
+            "trosnoth.trosnothgui.ingame.minimap",
+            "trosnoth.trosnothgui.ingame.nametag",
+            "trosnoth.trosnothgui.ingame.playerInterface",
+            "trosnoth.trosnothgui.ingame.replayInterface",
+            "trosnoth.trosnothgui.ingame.sprites",
+            "trosnoth.trosnothgui.ingame.stars",
+            "trosnoth.trosnothgui.ingame.statusBar",
+            "trosnoth.trosnothgui.ingame.udpnotify",
+            "trosnoth.trosnothgui.ingame.universegui",
+            "trosnoth.trosnothgui.ingame.utils",
+            "trosnoth.trosnothgui.ingame.viewManager",
+            "trosnoth.trosnothgui.interface",
+            "trosnoth.trosnothgui.pregame",
+            "trosnoth.trosnothgui.pregame.authServerLoginBox",
+            "trosnoth.trosnothgui.pregame.backdrop",
+            "trosnoth.trosnothgui.pregame.connectingScreen",
+            "trosnoth.trosnothgui.pregame.connectionFailedDialog",
+            "trosnoth.trosnothgui.pregame.firstplaynotify",
+            "trosnoth.trosnothgui.pregame.imageRadioButton",
+            "trosnoth.trosnothgui.pregame.playscreen",
+            "trosnoth.trosnothgui.pregame.practise",
+            "trosnoth.trosnothgui.pregame.savedGameMenu",
+            "trosnoth.trosnothgui.pregame.serverSelectionScreen",
+            "trosnoth.trosnothgui.pregame.startup",
+            "trosnoth.trosnothgui.settings",
+            "trosnoth.trosnothgui.settings.display",
+            "trosnoth.trosnothgui.settings.keymap",
+            "trosnoth.trosnothgui.settings.settings",
+            "trosnoth.trosnothgui.settings.sound",
+            "trosnoth.trosnothgui.settings.themes",
+            "trosnoth.utils",
+            "trosnoth.utils.collision",
+            "trosnoth.utils.event",
+            "trosnoth.utils.globaldebug",
+            "trosnoth.utils.math",
+            "trosnoth.utils.message",
+            "trosnoth.utils.netmsg",
+            "trosnoth.utils.profiling",
+            "trosnoth.utils.twist",
+            "trosnoth.utils.twistdebug",
+            "trosnoth.utils.unrepr",
+            "trosnoth.utils.utils",
+            "trosnoth.version",
+            "trosnoth.web",
+            "trosnoth.web.server",
+            "trosnoth.web.site"
+        ],
+        "version": "1.9.0"
     },
     "trotter": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trotter"
+        ],
+        "version": "0.8.0"
     },
     "trottersuzuki": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trottersuzuki",
+            "trottersuzuki.classes_extension",
+            "trottersuzuki.tools",
+            "trottersuzuki.trottersuzuki"
+        ],
+        "version": "1.6.2"
     },
     "trough": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trough",
+            "trough.prod-tests",
+            "trough.read",
+            "trough.settings",
+            "trough.sync",
+            "trough.write"
+        ],
+        "version": "0.1.dev0"
     },
     "troup": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "poc",
+            "poc.aio_server",
+            "poc.aio_server_start_stop",
+            "poc.client.task.result.test",
+            "poc.client.task.test",
+            "poc.client.test",
+            "poc.client_apps",
+            "poc.decorator",
+            "poc.del",
+            "poc.distributed_promise",
+            "poc.event",
+            "poc.exec_code",
+            "poc.mixin",
+            "poc.outgoing_channel",
+            "poc.process_test",
+            "poc.random_nodes_gen",
+            "poc.subprocess_poc",
+            "poc.test-process",
+            "troup",
+            "troup.apps",
+            "troup.client",
+            "troup.command",
+            "troup.debug",
+            "troup.distributed",
+            "troup.infrastructure",
+            "troup.main",
+            "troup.messaging",
+            "troup.metadata",
+            "troup.node",
+            "troup.observer",
+            "troup.process",
+            "troup.setup",
+            "troup.store",
+            "troup.system",
+            "troup.tasks",
+            "troup.testtools",
+            "troup.threading"
+        ],
+        "version": "0.1.2"
     },
     "trouve": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trouve",
+            "trouve.events",
+            "trouve.find_events",
+            "trouve.transformations"
+        ],
+        "version": "0.4.3"
     },
     "trove": {
         "cmdline": [],
@@ -65978,22 +66961,54 @@
     "trove-dashboard": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "9.0.0.0b1"
     },
     "trovebox": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trovebox",
+            "trovebox._version",
+            "trovebox.api",
+            "trovebox.api.api_action",
+            "trovebox.api.api_activity",
+            "trovebox.api.api_album",
+            "trovebox.api.api_base",
+            "trovebox.api.api_photo",
+            "trovebox.api.api_system",
+            "trovebox.api.api_tag",
+            "trovebox.auth",
+            "trovebox.errors",
+            "trovebox.http",
+            "trovebox.main",
+            "trovebox.objects",
+            "trovebox.objects.action",
+            "trovebox.objects.activity",
+            "trovebox.objects.album",
+            "trovebox.objects.photo",
+            "trovebox.objects.tag",
+            "trovebox.objects.trovebox_object"
+        ],
+        "version": "0.6.2"
     },
     "troveclient": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "troveclient",
+            "troveclient.ExampleCode",
+            "troveclient.JSONFactories",
+            "troveclient.Objects"
+        ],
+        "version": "0.3.0"
     },
     "troveharvester": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "troveharvester",
+            "troveharvester.harvest",
+            "troveharvester.trove",
+            "troveharvester.utilities"
+        ],
+        "version": "0.1.10"
     },
     "troves": {
         "cmdline": [],
@@ -66001,19 +67016,112 @@
         "version": ""
     },
     "troy": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "owms.py",
+            "troy-version"
+        ],
+        "modules": [
+            "troy",
+            "troy.application",
+            "troy.application.skeleton_application",
+            "troy.bundle_wrapper",
+            "troy.config",
+            "troy.constants",
+            "troy.external",
+            "troy.external.bundle",
+            "troy.external.bundle.setup",
+            "troy.external.bundle.src",
+            "troy.external.bundle.src.bundle",
+            "troy.external.bundle.src.bundle.api",
+            "troy.external.bundle.src.bundle.api.api",
+            "troy.external.bundle.src.bundle.api.remote_obj",
+            "troy.external.bundle.src.bundle.example",
+            "troy.external.bundle.src.bundle.example.bundle_cml",
+            "troy.external.bundle.src.bundle.example.bundle_cmlPyro",
+            "troy.external.bundle.src.bundle.impl",
+            "troy.external.bundle.src.bundle.impl.bundle_agent",
+            "troy.external.bundle.src.bundle.impl.bundle_manager",
+            "troy.external.bundle.src.bundle.version",
+            "troy.overlay",
+            "troy.overlay.overlay",
+            "troy.overlay.overlay_description",
+            "troy.overlay.overlay_manager",
+            "troy.overlay.pilot",
+            "troy.overlay.pilot_description",
+            "troy.planner",
+            "troy.planner.planner",
+            "troy.plugin_base",
+            "troy.plugins",
+            "troy.plugins.overlay_provisioner",
+            "troy.plugins.overlay_provisioner.plugin_overlay_provisioner_bigjob",
+            "troy.plugins.overlay_provisioner.plugin_overlay_provisioner_local",
+            "troy.plugins.overlay_provisioner.plugin_overlay_provisioner_sagapilot",
+            "troy.plugins.overlay_scheduler",
+            "troy.plugins.overlay_scheduler.plugin_overlay_scheduler_local",
+            "troy.plugins.overlay_scheduler.plugin_overlay_scheduler_round_robin",
+            "troy.plugins.overlay_translator",
+            "troy.plugins.overlay_translator.plugin_overlay_translator_max_pilot_size",
+            "troy.plugins.planner_derive",
+            "troy.plugins.planner_derive.plugin_planner_derive_bundles",
+            "troy.plugins.planner_derive.plugin_planner_derive_concurrent",
+            "troy.plugins.planner_derive.plugin_planner_derive_maxcores",
+            "troy.plugins.planner_expand",
+            "troy.plugins.planner_expand.plugin_planner_expand_cardinal",
+            "troy.plugins.planner_expand.plugin_planner_expand_noop",
+            "troy.plugins.strategy",
+            "troy.plugins.strategy.plugin_strategy_basic_early_binding",
+            "troy.plugins.strategy.plugin_strategy_basic_late_binding",
+            "troy.plugins.workload_dispatcher",
+            "troy.plugins.workload_dispatcher.plugin_workload_dispatcher_bigjob",
+            "troy.plugins.workload_dispatcher.plugin_workload_dispatcher_local",
+            "troy.plugins.workload_dispatcher.plugin_workload_dispatcher_sagapilot",
+            "troy.plugins.workload_parser",
+            "troy.plugins.workload_parser.plugin_workload_parser_default",
+            "troy.plugins.workload_scheduler",
+            "troy.plugins.workload_scheduler.plugin_workload_scheduler_first",
+            "troy.plugins.workload_scheduler.plugin_workload_scheduler_round_robin",
+            "troy.plugins.workload_scheduler.plugin_workload_scheduler_ttc_load_balancing",
+            "troy.plugins.workload_translator",
+            "troy.plugins.workload_translator.plugin_workload_translator_direct",
+            "troy.registry",
+            "troy.session",
+            "troy.strategy",
+            "troy.utils",
+            "troy.utils.instance_cache",
+            "troy.utils.misc",
+            "troy.utils.properties",
+            "troy.utils.test_config",
+            "troy.utils.time_it",
+            "troy.workload",
+            "troy.workload.compute_unit",
+            "troy.workload.compute_unit_description",
+            "troy.workload.data_stager",
+            "troy.workload.relation",
+            "troy.workload.relation_description",
+            "troy.workload.task",
+            "troy.workload.task_description",
+            "troy.workload.workload",
+            "troy.workload.workload_manager"
+        ],
+        "version": "0.0.3"
     },
     "trp": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trp",
+            "trp.cli",
+            "trp.scraper",
+            "trp.testing",
+            "trp.viewer"
+        ],
+        "version": "0.1.6a1"
     },
     "trparse": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trparse"
+        ],
+        "version": "0.2.1"
     },
     "trpointless": {
         "cmdline": [],
@@ -66022,68 +67130,128 @@
     },
     "trpy": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trpy",
+            "trpy.translate"
+        ],
+        "version": "0.1"
     },
     "trstk": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trstk",
+            "trstk.script",
+            "trstk.script.checkModalities",
+            "trstk.script.plotDET",
+            "trstk.script.plotScores"
+        ],
+        "version": "1.0.4"
     },
     "trt": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trt"
+        ],
+        "version": "1.0.0"
     },
     "trtop": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trtop",
+            "trtop.analyzer",
+            "trtop.collector",
+            "trtop.packet",
+            "trtop.reporter",
+            "trtop.resolver",
+            "trtop.state",
+            "trtop.trtop",
+            "trtop.utils",
+            "trtop.whitelisting",
+            "trtop/tcpdump",
+            "trtop/tcpdump.offlinecollector",
+            "trtop/tcpdump.parser"
+        ],
+        "version": "0.1.1"
     },
     "truce": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "truce",
+            "truce.app",
+            "truce.catcher"
+        ],
+        "version": "0.2.1"
     },
     "truck": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "truck",
+            "truck.conf",
+            "truck.core",
+            "truck.models",
+            "truck.registry"
+        ],
+        "version": "0.1.5"
     },
     "true50": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "true50",
+            "true50.main"
+        ],
+        "version": "0.2"
     },
     "trueaction.mongofile": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.2.3"
     },
     "truelogging": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "truelogging"
+        ],
+        "version": "0.1"
     },
     "truenight-nester": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "1.3.1"
     },
     "truepy": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "truepy",
+            "truepy._bean",
+            "truepy._bean_serializers",
+            "truepy._info",
+            "truepy._license",
+            "truepy._license_data",
+            "truepy._name"
+        ],
+        "version": "2.0.2"
     },
     "trueseeing": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trueseeing",
+            "trueseeing.api",
+            "trueseeing.api.client",
+            "trueseeing.api.client_twisted"
+        ],
+        "version": "2.0.3"
     },
     "trueskill": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trueskill",
+            "trueskill.__about__",
+            "trueskill.backends",
+            "trueskill.deprecated",
+            "trueskill.factorgraph",
+            "trueskill.mathematics"
+        ],
+        "version": "0.4.4"
     },
     "truetest": {
         "cmdline": [],
@@ -66092,8 +67260,11 @@
     },
     "trufflehog": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "truffleHog",
+            "truffleHog.truffleHog"
+        ],
+        "version": "1.0.2"
     },
     "trufflepy": {
         "cmdline": [],
@@ -66102,28 +67273,136 @@
     },
     "trufont": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trufont",
+            "trufont.controls",
+            "trufont.controls.clickLabel",
+            "trufont.controls.fileMessageBoxes",
+            "trufont.controls.folderComboBox",
+            "trufont.controls.fontDialogs",
+            "trufont.controls.glyphAlignmentWidget",
+            "trufont.controls.glyphDialogs",
+            "trufont.controls.glyphStackWidget",
+            "trufont.controls.nameTabWidget",
+            "trufont.drawingTools",
+            "trufont.drawingTools.baseButton",
+            "trufont.drawingTools.baseTool",
+            "trufont.drawingTools.knifeTool",
+            "trufont.drawingTools.penTool",
+            "trufont.drawingTools.removeOverlapButton",
+            "trufont.drawingTools.rulerTool",
+            "trufont.drawingTools.selectionTool",
+            "trufont.objects",
+            "trufont.objects.application",
+            "trufont.objects.defcon",
+            "trufont.objects.extension",
+            "trufont.objects.menu",
+            "trufont.objects.settings",
+            "trufont.representationFactories",
+            "trufont.representationFactories.glyphCellFactory",
+            "trufont.representationFactories.glyphViewFactory",
+            "trufont.representationFactories.openTypeFactory",
+            "trufont.resources",
+            "trufont.resources.icons_db",
+            "trufont.tools",
+            "trufont.tools.bezierMath",
+            "trufont.tools.colorGenerator",
+            "trufont.tools.drawing",
+            "trufont.tools.errorReports",
+            "trufont.tools.glyphList",
+            "trufont.tools.platformSpecific",
+            "trufont.tools.rlabel",
+            "trufont.tools.uiMethods",
+            "trufont.windows",
+            "trufont.windows.extensionBuilderWindow",
+            "trufont.windows.fontFeaturesWindow",
+            "trufont.windows.fontInfoWindow",
+            "trufont.windows.fontWindow",
+            "trufont.windows.glyphWindow",
+            "trufont.windows.groupsWindow",
+            "trufont.windows.inspectorWindow",
+            "trufont.windows.metricsWindow",
+            "trufont.windows.outputWindow",
+            "trufont.windows.scriptingWindow",
+            "trufont.windows.settingsWindow"
+        ],
+        "version": "0.5.1.dev1"
     },
     "trulia": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trulia",
+            "trulia.location",
+            "trulia.stats"
+        ],
+        "version": "0.0.3"
     },
     "trump": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trump",
+            "trump.aggregation",
+            "trump.aggregation.symbol_aggs",
+            "trump.converting",
+            "trump.converting.objects",
+            "trump.datadef",
+            "trump.extensions",
+            "trump.extensions.loader",
+            "trump.handling",
+            "trump.indexing",
+            "trump.options",
+            "trump.orm",
+            "trump.reporting",
+            "trump.reporting.objects",
+            "trump.templating",
+            "trump.templating.bases",
+            "trump.templating.converters",
+            "trump.templating.munging_helpers",
+            "trump.templating.source_helpers",
+            "trump.templating.templates",
+            "trump.tools",
+            "trump.tools.bitflags",
+            "trump.tools.metamatrix",
+            "trump.tools.reprobj",
+            "trump.tools.sqla",
+            "trump.validity"
+        ],
+        "version": "0.0.5"
     },
     "trumpet": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trumpet",
+            "trumpet.config",
+            "trumpet.config.base",
+            "trumpet.config.login",
+            "trumpet.config.rssviewer",
+            "trumpet.config.static",
+            "trumpet.config.wiki",
+            "trumpet.models",
+            "trumpet.models.base",
+            "trumpet.models.rssdata",
+            "trumpet.models.usergroup",
+            "trumpet.models.wiki",
+            "trumpet.resources",
+            "trumpet.security",
+            "trumpet.views",
+            "trumpet.views.base",
+            "trumpet.views.forms",
+            "trumpet.views.login",
+            "trumpet.views.main",
+            "trumpet.views.menus",
+            "trumpet.views.rssviewer",
+            "trumpet.views.wiki"
+        ],
+        "version": "0.1dev"
     },
     "truncate": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "truncate"
+        ],
+        "version": "0.11"
     },
     "trundle": {
         "cmdline": [],
@@ -66132,18 +67411,34 @@
     },
     "trunk": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trunk",
+            "trunk.queue",
+            "trunk.transport",
+            "trunk.utils"
+        ],
+        "version": "0.3.0"
     },
     "trunkate": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "truncate"
+        ],
+        "version": "0.0.2"
     },
     "trunserver": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trunserv",
+            "trunserv.autoreload",
+            "trunserv.management",
+            "trunserv.management.commands",
+            "trunserv.management.commands.trunserver",
+            "trunserv.models",
+            "trunserv.tests",
+            "trunserv.views"
+        ],
+        "version": "0.0.3"
     },
     "truss": {
         "cmdline": [],
@@ -66152,23 +67447,117 @@
     },
     "trussws": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "truss",
+            "truss.core",
+            "truss.core_test",
+            "truss.files",
+            "truss.markup",
+            "truss.truss",
+            "truss.truss_test"
+        ],
+        "version": "0.1"
     },
     "trust": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trust",
+            "trust.audit",
+            "trust.audit.audit_to_log",
+            "trust.audit.audit_to_syslog",
+            "trust.audit.null_audit",
+            "trust.auth",
+            "trust.auth.in_data_auth_provider",
+            "trust.exceptions",
+            "trust.file_finder",
+            "trust.formatters",
+            "trust.formatters.complete_formatter",
+            "trust.formatters.json_formatter",
+            "trust.formatters.text_formatter",
+            "trust.trust",
+            "trust.trust_blueprint",
+            "trust.zipper"
+        ],
+        "version": "1.0.10"
     },
     "trustar": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "examples",
+            "examples.basic_usage",
+            "examples.bulk_overload",
+            "examples.bulk_upload",
+            "examples.ingest_csv",
+            "examples.ingest_fireeye_alerts",
+            "examples.latest_indicators",
+            "examples.unfuck-stix",
+            "trustar",
+            "trustar.TruStar"
+        ],
+        "version": "0.0.17"
     },
     "trustedanalytics": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trustedanalytics",
+            "trustedanalytics/core",
+            "trustedanalytics/core.admin",
+            "trustedanalytics/core.aggregation",
+            "trustedanalytics/core.api",
+            "trustedanalytics/core.atkpandas",
+            "trustedanalytics/core.atktypes",
+            "trustedanalytics/core.classifymetrics",
+            "trustedanalytics/core.clusteringcoefficient",
+            "trustedanalytics/core.column",
+            "trustedanalytics/core.datacatalog",
+            "trustedanalytics/core.decorators",
+            "trustedanalytics/core.docstubs1",
+            "trustedanalytics/core.docstubs2",
+            "trustedanalytics/core.errorhandle",
+            "trustedanalytics/core.files",
+            "trustedanalytics/core.frame",
+            "trustedanalytics/core.graph",
+            "trustedanalytics/core.histogram",
+            "trustedanalytics/core.loggers",
+            "trustedanalytics/core.logisticregression",
+            "trustedanalytics/core.model",
+            "trustedanalytics/core.row",
+            "trustedanalytics/core.ui",
+            "trustedanalytics/rest",
+            "trustedanalytics/rest.atkserver",
+            "trustedanalytics/rest.atktypes",
+            "trustedanalytics/rest.cloudpickle",
+            "trustedanalytics/rest.command",
+            "trustedanalytics/rest.config",
+            "trustedanalytics/rest.frame",
+            "trustedanalytics/rest.graph",
+            "trustedanalytics/rest.http",
+            "trustedanalytics/rest.jsonschema",
+            "trustedanalytics/rest.progress",
+            "trustedanalytics/rest.serializers",
+            "trustedanalytics/rest.server",
+            "trustedanalytics/rest.spark",
+            "trustedanalytics/rest.spark_helper",
+            "trustedanalytics/rest.uaa",
+            "trustedanalytics/rest.udfdepends",
+            "trustedanalytics/rest.udfzip",
+            "trustedanalytics/tests",
+            "trustedanalytics/tests.iatest",
+            "trustedanalytics/tests.sources",
+            "trustedanalytics/tests.test_core_files",
+            "trustedanalytics/tests.test_core_frame",
+            "trustedanalytics/tests.test_core_metaprog",
+            "trustedanalytics/tests.test_core_types",
+            "trustedanalytics/tests.test_doc",
+            "trustedanalytics/tests.test_genrst",
+            "trustedanalytics/tests.test_rest_command",
+            "trustedanalytics/tests.test_rest_frame",
+            "trustedanalytics/tests.test_rest_jsonschema",
+            "trustedanalytics/tests.test_sources",
+            "trustedanalytics/tests.test_ui",
+            "trustedanalytics/tests.test_user_func"
+        ],
+        "version": "0.8.0.dev20160928710"
     },
     "trustlet": {
         "cmdline": [],
@@ -66177,13 +67566,23 @@
     },
     "trustpaylib": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trustpaylib"
+        ],
+        "version": "0.0.1"
     },
     "trustpilot": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tests",
+            "tests.test_cli",
+            "tests.test_client",
+            "trustpilot",
+            "trustpilot.auth",
+            "trustpilot.cli",
+            "trustpilot.client"
+        ],
+        "version": "1.0.4"
     },
     "truth": {
         "cmdline": [],
@@ -66197,28 +67596,54 @@
     },
     "truths": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "truths",
+            "truths.truths"
+        ],
+        "version": "1.2"
     },
     "truthy": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "truthy",
+            "truthy.expression",
+            "truthy.parse"
+        ],
+        "version": "0.3"
     },
     "trv": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trv",
+            "trv._model",
+            "trv._view",
+            "trv.app",
+            "trv.resources"
+        ],
+        "version": "1.1.0"
     },
     "trw-text-string": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trw_text_string",
+            "trw_text_string.WordPairCounter"
+        ],
+        "version": "0.0.5"
     },
     "trx": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trx",
+            "trx.azav",
+            "trx.cell",
+            "trx.dataReduction",
+            "trx.filters",
+            "trx.id9",
+            "trx.mask",
+            "trx.peaks",
+            "trx.utils"
+        ],
+        "version": "0.5.0"
     },
     "try": {
         "cmdline": [],
@@ -66227,58 +67652,176 @@
     },
     "try-analytics": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "try_analytics"
+        ],
+        "version": "0.0.6"
     },
     "try-catch": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "try_catch"
+        ],
+        "version": "2.7.2"
     },
     "try-default": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "try_default"
+        ],
+        "version": "1.2"
     },
     "try-python": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "try_python"
+        ],
+        "version": "1.3.0"
     },
     "tryagain": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "1.0"
     },
     "tryalgo": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tryalgo",
+            "tryalgo.anagrams",
+            "tryalgo.arithm",
+            "tryalgo.arithm_expr_eval",
+            "tryalgo.arithm_expr_target",
+            "tryalgo.bellman_ford",
+            "tryalgo.bfs",
+            "tryalgo.biconnected_components",
+            "tryalgo.binary_search",
+            "tryalgo.bipartite_matching",
+            "tryalgo.bipartite_vertex_cover",
+            "tryalgo.closest_points",
+            "tryalgo.closest_values",
+            "tryalgo.convex_hull",
+            "tryalgo.dancing_links",
+            "tryalgo.dfs",
+            "tryalgo.dijkstra",
+            "tryalgo.dilworth",
+            "tryalgo.dinic",
+            "tryalgo.dist_grid",
+            "tryalgo.edmonds_karp",
+            "tryalgo.eratosthene",
+            "tryalgo.eulerian_tour",
+            "tryalgo.fast_exponentiation",
+            "tryalgo.fenwick",
+            "tryalgo.floyd_warshall",
+            "tryalgo.ford_fulkerson",
+            "tryalgo.freivalds",
+            "tryalgo.gale_shapley",
+            "tryalgo.gauss_jordan",
+            "tryalgo.girth",
+            "tryalgo.graph",
+            "tryalgo.graph01",
+            "tryalgo.horn_sat",
+            "tryalgo.huffman",
+            "tryalgo.interval_cover",
+            "tryalgo.interval_tree",
+            "tryalgo.intervals_union",
+            "tryalgo.knapsack",
+            "tryalgo.knuth_morris_pratt",
+            "tryalgo.knuth_morris_pratt_border",
+            "tryalgo.kruskal",
+            "tryalgo.kuhn_munkres",
+            "tryalgo.kuhn_munkres_n4",
+            "tryalgo.laser_mirrors",
+            "tryalgo.left_right_inversions",
+            "tryalgo.levenshtein",
+            "tryalgo.longest_common_subsequence",
+            "tryalgo.longest_increasing_subsequence",
+            "tryalgo.lowest_common_ancestor",
+            "tryalgo.majority",
+            "tryalgo.manacher",
+            "tryalgo.matrix_chain_mult",
+            "tryalgo.max_interval_intersec",
+            "tryalgo.merge_ordered_lists",
+            "tryalgo.min_mean_cycle",
+            "tryalgo.next_permutation",
+            "tryalgo.our_heap",
+            "tryalgo.our_queue",
+            "tryalgo.partition_refinement",
+            "tryalgo.permutation_rank",
+            "tryalgo.polygon",
+            "tryalgo.predictive_text",
+            "tryalgo.rabin_karp",
+            "tryalgo.range_minimum_query",
+            "tryalgo.rectangles_from_grid",
+            "tryalgo.rectangles_from_histogram",
+            "tryalgo.rectangles_from_points",
+            "tryalgo.roman_numbers",
+            "tryalgo.scalar",
+            "tryalgo.strongly_connected_components",
+            "tryalgo.subsetsum",
+            "tryalgo.subsetsum_divide",
+            "tryalgo.sudoku",
+            "tryalgo.three_partition",
+            "tryalgo.topological_order",
+            "tryalgo.trie",
+            "tryalgo.two_sat",
+            "tryalgo.union_rectangles",
+            "tryalgo.windows_k_distinct"
+        ],
+        "version": "1.2.2"
     },
     "trydiffoscope": {
-        "cmdline": [],
+        "cmdline": [
+            "trydiffoscope"
+        ],
         "modules": [],
-        "version": ""
+        "version": "64"
     },
     "trydoc": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "sphinxcontrib",
+            "sphinxcontrib.trydoc",
+            "sphinxcontrib.trydoc.quickstart",
+            "sphinxcontrib.trydoc.symlinks",
+            "sphinxcontrib.trydoc.update_modules"
+        ],
+        "version": "0.13"
     },
     "tryfer": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tryfer",
+            "tryfer._thrift",
+            "tryfer._thrift.zipkinCore",
+            "tryfer._thrift.zipkinCore.constants",
+            "tryfer._thrift.zipkinCore.ttypes",
+            "tryfer.formatters",
+            "tryfer.http",
+            "tryfer.interfaces",
+            "tryfer.log",
+            "tryfer.tests",
+            "tryfer.tests.test_http",
+            "tryfer.tests.test_log",
+            "tryfer.tests.test_trace",
+            "tryfer.tests.test_tracers",
+            "tryfer.trace",
+            "tryfer.tracers"
+        ],
+        "version": "0.2.2"
     },
     "tryhaskell": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tryhaskell"
+        ],
+        "version": "0.1.0"
     },
     "tryingsnake": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tryingsnake"
+        ],
+        "version": "0.2.6"
     },
     "tryingtogetsleep": {
         "cmdline": [],
@@ -66287,23 +67830,81 @@
     },
     "tryingtogetsleep2": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "TryingToGetSleep2"
+        ],
+        "version": "1.0.0"
     },
     "tryp": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tryp",
+            "tryp.anon",
+            "tryp.async",
+            "tryp.boolean",
+            "tryp.either",
+            "tryp.env_vars",
+            "tryp.func",
+            "tryp.future",
+            "tryp.lazy",
+            "tryp.lazy_list",
+            "tryp.list",
+            "tryp.logging",
+            "tryp.map",
+            "tryp.maybe",
+            "tryp.task",
+            "tryp.tc",
+            "tryp.tc.applicative",
+            "tryp.tc.apply",
+            "tryp.tc.base",
+            "tryp.tc.flat_map",
+            "tryp.tc.functor",
+            "tryp.tc.monad",
+            "tryp.tc.monoidal",
+            "tryp.tc.optional",
+            "tryp.tc.show",
+            "tryp.tc.tap",
+            "tryp.tc.traverse",
+            "tryp.test",
+            "tryp.test.path",
+            "tryp.test.spec",
+            "tryp.test.sure_ext",
+            "tryp.transformer",
+            "tryp.util",
+            "tryp.util.numeric",
+            "tryp.util.random",
+            "tryp.util.string"
+        ],
+        "version": "7.10.0"
     },
     "tryp-nvim": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "integration",
+            "integration.plugin_spec",
+            "trypnv",
+            "trypnv.cmd",
+            "trypnv.data",
+            "trypnv.logging",
+            "trypnv.machine",
+            "trypnv.nvim",
+            "trypnv.plugin",
+            "trypnv.process",
+            "trypnv.record",
+            "trypnv.test",
+            "trypnv.test.integration",
+            "trypnv.test.spec"
+        ],
+        "version": "7.4.1"
     },
     "trypackage": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trypackage",
+            "trypackage.config",
+            "trypackage.core"
+        ],
+        "version": "0.3.0"
     },
     "trypy": {
         "cmdline": [],
@@ -66312,23 +67913,162 @@
     },
     "trytls": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytls",
+            "trytls.bundles",
+            "trytls.bundles.https",
+            "trytls.formatters",
+            "trytls.formatters._utils",
+            "trytls.formatters.default",
+            "trytls.formatters.json",
+            "trytls.gencert",
+            "trytls.results",
+            "trytls.runner",
+            "trytls.testenv",
+            "trytls.utils"
+        ],
+        "version": "0.3.7"
     },
     "tryton": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "tryton"
+        ],
+        "modules": [
+            "tryton",
+            "tryton.action",
+            "tryton.action.main",
+            "tryton.client",
+            "tryton.common",
+            "tryton.common.button",
+            "tryton.common.cellrendererbinary",
+            "tryton.common.cellrendererbutton",
+            "tryton.common.cellrendererclickablepixbuf",
+            "tryton.common.cellrenderercombo",
+            "tryton.common.cellrendererfloat",
+            "tryton.common.cellrendererinteger",
+            "tryton.common.cellrenderertext",
+            "tryton.common.cellrenderertoggle",
+            "tryton.common.common",
+            "tryton.common.completion",
+            "tryton.common.datetime_",
+            "tryton.common.datetime_strftime",
+            "tryton.common.domain_inversion",
+            "tryton.common.domain_parser",
+            "tryton.common.entry_position",
+            "tryton.common.environment",
+            "tryton.common.focus",
+            "tryton.common.htmltextbuffer",
+            "tryton.common.placeholder_entry",
+            "tryton.common.popup_menu",
+            "tryton.common.selection",
+            "tryton.common.timedelta",
+            "tryton.common.treeviewcontrol",
+            "tryton.common.widget_style",
+            "tryton.config",
+            "tryton.exceptions",
+            "tryton.fingerprints",
+            "tryton.gui",
+            "tryton.gui.main",
+            "tryton.gui.window",
+            "tryton.gui.window.about",
+            "tryton.gui.window.attachment",
+            "tryton.gui.window.board",
+            "tryton.gui.window.dblogin",
+            "tryton.gui.window.email",
+            "tryton.gui.window.form",
+            "tryton.gui.window.infobar",
+            "tryton.gui.window.limit",
+            "tryton.gui.window.nomodal",
+            "tryton.gui.window.note",
+            "tryton.gui.window.preference",
+            "tryton.gui.window.revision",
+            "tryton.gui.window.shortcuts",
+            "tryton.gui.window.tabcontent",
+            "tryton.gui.window.view_board",
+            "tryton.gui.window.view_board.action",
+            "tryton.gui.window.view_board.view_board",
+            "tryton.gui.window.view_form",
+            "tryton.gui.window.view_form.model",
+            "tryton.gui.window.view_form.model.field",
+            "tryton.gui.window.view_form.model.group",
+            "tryton.gui.window.view_form.model.record",
+            "tryton.gui.window.view_form.screen",
+            "tryton.gui.window.view_form.screen.screen",
+            "tryton.gui.window.view_form.view",
+            "tryton.gui.window.view_form.view.calendar_",
+            "tryton.gui.window.view_form.view.calendar_gtk",
+            "tryton.gui.window.view_form.view.calendar_gtk.calendar_",
+            "tryton.gui.window.view_form.view.calendar_gtk.dates_period",
+            "tryton.gui.window.view_form.view.calendar_gtk.toolbar",
+            "tryton.gui.window.view_form.view.form",
+            "tryton.gui.window.view_form.view.form_gtk",
+            "tryton.gui.window.view_form.view.form_gtk.binary",
+            "tryton.gui.window.view_form.view.form_gtk.calendar",
+            "tryton.gui.window.view_form.view.form_gtk.char",
+            "tryton.gui.window.view_form.view.form_gtk.checkbox",
+            "tryton.gui.window.view_form.view.form_gtk.dictionary",
+            "tryton.gui.window.view_form.view.form_gtk.float",
+            "tryton.gui.window.view_form.view.form_gtk.image",
+            "tryton.gui.window.view_form.view.form_gtk.integer",
+            "tryton.gui.window.view_form.view.form_gtk.many2many",
+            "tryton.gui.window.view_form.view.form_gtk.many2one",
+            "tryton.gui.window.view_form.view.form_gtk.multiselection",
+            "tryton.gui.window.view_form.view.form_gtk.one2many",
+            "tryton.gui.window.view_form.view.form_gtk.one2one",
+            "tryton.gui.window.view_form.view.form_gtk.progressbar",
+            "tryton.gui.window.view_form.view.form_gtk.pyson",
+            "tryton.gui.window.view_form.view.form_gtk.reference",
+            "tryton.gui.window.view_form.view.form_gtk.richtextbox",
+            "tryton.gui.window.view_form.view.form_gtk.selection",
+            "tryton.gui.window.view_form.view.form_gtk.state_widget",
+            "tryton.gui.window.view_form.view.form_gtk.textbox",
+            "tryton.gui.window.view_form.view.form_gtk.timedelta",
+            "tryton.gui.window.view_form.view.form_gtk.url",
+            "tryton.gui.window.view_form.view.form_gtk.widget",
+            "tryton.gui.window.view_form.view.graph",
+            "tryton.gui.window.view_form.view.graph_gtk",
+            "tryton.gui.window.view_form.view.graph_gtk.bar",
+            "tryton.gui.window.view_form.view.graph_gtk.graph",
+            "tryton.gui.window.view_form.view.graph_gtk.line",
+            "tryton.gui.window.view_form.view.graph_gtk.pie",
+            "tryton.gui.window.view_form.view.list",
+            "tryton.gui.window.view_form.view.list_gtk",
+            "tryton.gui.window.view_form.view.list_gtk.editabletree",
+            "tryton.gui.window.view_form.view.list_gtk.widget",
+            "tryton.gui.window.view_form.view.screen_container",
+            "tryton.gui.window.win_csv",
+            "tryton.gui.window.win_export",
+            "tryton.gui.window.win_form",
+            "tryton.gui.window.win_import",
+            "tryton.gui.window.win_search",
+            "tryton.gui.window.window",
+            "tryton.gui.window.wizard",
+            "tryton.ipc",
+            "tryton.jsonrpc",
+            "tryton.plugins",
+            "tryton.plugins.translation",
+            "tryton.pyson",
+            "tryton.rpc",
+            "tryton.signal_event",
+            "tryton.translate"
+        ],
+        "version": "4.4.0"
     },
     "tryton-restful": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tryton_restful",
+            "tryton_restful.application",
+            "tryton_restful.cli"
+        ],
+        "version": "0.1"
     },
     "tryton-shell": {
-        "cmdline": [],
+        "cmdline": [
+            "tryton_shell"
+        ],
         "modules": [],
-        "version": ""
+        "version": "3.4.5"
     },
     "tryton-synchronisation": {
         "cmdline": [],
@@ -66337,78 +68077,340 @@
     },
     "trytonacs-party-access-control": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.party_access_control",
+            "trytond.modules.party_access_control.party",
+            "trytond.modules.party_access_control.tests",
+            "trytond.modules.party_access_control.tests.test_party",
+            "trytond.modules.party_access_control.tests.test_views_depends"
+        ],
+        "version": "3.4.2"
     },
     "trytonacs-party-access-control-isonas": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.party_access_control_isonas",
+            "trytond.modules.party_access_control_isonas.party",
+            "trytond.modules.party_access_control_isonas.tests",
+            "trytond.modules.party_access_control_isonas.tests.test_party"
+        ],
+        "version": "3.4.2"
     },
     "trytonar-account-ar": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.account_ar",
+            "trytond.modules.account_ar.account_ar"
+        ],
+        "version": "3.4.0"
     },
     "trytonar-account-bank-ar": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.account_bank_ar",
+            "trytond.modules.account_bank_ar.bank_ar",
+            "trytond.modules.account_bank_ar.tests",
+            "trytond.modules.account_bank_ar.tests.test_account_bank_ar"
+        ],
+        "version": "3.4.0"
     },
     "trytonar-account-check-ar": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.account_check_ar",
+            "trytond.modules.account_check_ar.account_check_ar",
+            "trytond.modules.account_check_ar.account_voucher_ar",
+            "trytond.modules.account_check_ar.tests",
+            "trytond.modules.account_check_ar.tests.test_account_check_ar"
+        ],
+        "version": "3.4.1"
     },
     "trytonar-account-coop-ar": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.account_coop_ar",
+            "trytond.modules.account_coop_ar.conversor"
+        ],
+        "version": "3.4.0"
     },
     "trytonar-account-invoice-ar": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.account_invoice_ar",
+            "trytond.modules.account_invoice_ar.01_updates",
+            "trytond.modules.account_invoice_ar.actividades",
+            "trytond.modules.account_invoice_ar.address",
+            "trytond.modules.account_invoice_ar.afip_auth",
+            "trytond.modules.account_invoice_ar.afip_codigo_actividad",
+            "trytond.modules.account_invoice_ar.company",
+            "trytond.modules.account_invoice_ar.incoterms",
+            "trytond.modules.account_invoice_ar.invoice",
+            "trytond.modules.account_invoice_ar.mapeo-paises-afip",
+            "trytond.modules.account_invoice_ar.party",
+            "trytond.modules.account_invoice_ar.pos"
+        ],
+        "version": "3.4.5"
     },
     "trytonar-account-retencion-ar": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.account_retencion_ar",
+            "trytond.modules.account_retencion_ar.account_retencion_ar",
+            "trytond.modules.account_retencion_ar.account_voucher_ar"
+        ],
+        "version": "3.4.0"
     },
     "trytonar-account-voucher-ar": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.account_voucher_ar",
+            "trytond.modules.account_voucher_ar.account_voucher_ar",
+            "trytond.modules.account_voucher_ar.move",
+            "trytond.modules.account_voucher_ar.tests",
+            "trytond.modules.account_voucher_ar.tests.test_account_voucher_ar"
+        ],
+        "version": "3.4.0"
     },
     "trytonar-bank-ar": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.bank_ar",
+            "trytond.modules.bank_ar.bank",
+            "trytond.modules.bank_ar.party"
+        ],
+        "version": "3.4.1"
     },
     "trytonar-cooperative-ar": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.cooperative_ar",
+            "trytond.modules.cooperative_ar.account",
+            "trytond.modules.cooperative_ar.analytic_account",
+            "trytond.modules.cooperative_ar.meeting",
+            "trytond.modules.cooperative_ar.partner",
+            "trytond.modules.cooperative_ar.partnermeeting",
+            "trytond.modules.cooperative_ar.partners_coop_ar",
+            "trytond.modules.cooperative_ar.recibo",
+            "trytond.modules.cooperative_ar.sanction",
+            "trytond.modules.cooperative_ar.vacation"
+        ],
+        "version": "3.4.5"
     },
     "trytond": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "trytond",
+            "trytond-admin",
+            "trytond-cron"
+        ],
+        "modules": [
+            "trytond",
+            "trytond.admin",
+            "trytond.application",
+            "trytond.backend",
+            "trytond.backend.database",
+            "trytond.backend.mysql",
+            "trytond.backend.mysql.database",
+            "trytond.backend.mysql.table",
+            "trytond.backend.postgresql",
+            "trytond.backend.postgresql.database",
+            "trytond.backend.postgresql.table",
+            "trytond.backend.sqlite",
+            "trytond.backend.sqlite.database",
+            "trytond.backend.sqlite.table",
+            "trytond.backend.table",
+            "trytond.cache",
+            "trytond.commandline",
+            "trytond.config",
+            "trytond.const",
+            "trytond.convert",
+            "trytond.cron",
+            "trytond.error",
+            "trytond.exceptions",
+            "trytond.filestore",
+            "trytond.ir",
+            "trytond.ir.action",
+            "trytond.ir.attachment",
+            "trytond.ir.cache",
+            "trytond.ir.configuration",
+            "trytond.ir.cron",
+            "trytond.ir.date",
+            "trytond.ir.export",
+            "trytond.ir.gen_time_locale",
+            "trytond.ir.lang",
+            "trytond.ir.model",
+            "trytond.ir.module",
+            "trytond.ir.note",
+            "trytond.ir.resource",
+            "trytond.ir.rule",
+            "trytond.ir.sequence",
+            "trytond.ir.session",
+            "trytond.ir.time_locale",
+            "trytond.ir.translation",
+            "trytond.ir.trigger",
+            "trytond.ir.ui",
+            "trytond.ir.ui.icon",
+            "trytond.ir.ui.menu",
+            "trytond.ir.ui.view",
+            "trytond.model",
+            "trytond.model.descriptors",
+            "trytond.model.dictschema",
+            "trytond.model.fields",
+            "trytond.model.fields.binary",
+            "trytond.model.fields.boolean",
+            "trytond.model.fields.char",
+            "trytond.model.fields.date",
+            "trytond.model.fields.dict",
+            "trytond.model.fields.field",
+            "trytond.model.fields.float",
+            "trytond.model.fields.function",
+            "trytond.model.fields.integer",
+            "trytond.model.fields.many2many",
+            "trytond.model.fields.many2one",
+            "trytond.model.fields.numeric",
+            "trytond.model.fields.one2many",
+            "trytond.model.fields.one2one",
+            "trytond.model.fields.reference",
+            "trytond.model.fields.selection",
+            "trytond.model.fields.text",
+            "trytond.model.match",
+            "trytond.model.model",
+            "trytond.model.modelsingleton",
+            "trytond.model.modelsql",
+            "trytond.model.modelstorage",
+            "trytond.model.modelview",
+            "trytond.model.multivalue",
+            "trytond.model.order",
+            "trytond.model.union",
+            "trytond.model.workflow",
+            "trytond.modules",
+            "trytond.pool",
+            "trytond.protocols",
+            "trytond.protocols.dispatcher",
+            "trytond.protocols.jsonrpc",
+            "trytond.protocols.wrappers",
+            "trytond.protocols.xmlrpc",
+            "trytond.pyson",
+            "trytond.report",
+            "trytond.report.report",
+            "trytond.res",
+            "trytond.res.group",
+            "trytond.res.ir",
+            "trytond.res.routes",
+            "trytond.res.user",
+            "trytond.rpc",
+            "trytond.security",
+            "trytond.sendmail",
+            "trytond.test_loader",
+            "trytond.tests",
+            "trytond.tests.access",
+            "trytond.tests.copy_",
+            "trytond.tests.export_data",
+            "trytond.tests.field_context",
+            "trytond.tests.history",
+            "trytond.tests.import_data",
+            "trytond.tests.model",
+            "trytond.tests.modelview",
+            "trytond.tests.mptt",
+            "trytond.tests.multivalue",
+            "trytond.tests.run-tests",
+            "trytond.tests.test",
+            "trytond.tests.test_access",
+            "trytond.tests.test_cache",
+            "trytond.tests.test_copy",
+            "trytond.tests.test_descriptors",
+            "trytond.tests.test_exportdata",
+            "trytond.tests.test_field_context",
+            "trytond.tests.test_field_depends",
+            "trytond.tests.test_fields",
+            "trytond.tests.test_filestore",
+            "trytond.tests.test_history",
+            "trytond.tests.test_importdata",
+            "trytond.tests.test_ir",
+            "trytond.tests.test_mixins",
+            "trytond.tests.test_model",
+            "trytond.tests.test_modelsingleton",
+            "trytond.tests.test_modelsql",
+            "trytond.tests.test_modelstorage",
+            "trytond.tests.test_modelview",
+            "trytond.tests.test_mptt",
+            "trytond.tests.test_multivalue",
+            "trytond.tests.test_order",
+            "trytond.tests.test_protocols",
+            "trytond.tests.test_pyson",
+            "trytond.tests.test_res",
+            "trytond.tests.test_rpc",
+            "trytond.tests.test_sendmail",
+            "trytond.tests.test_sequence",
+            "trytond.tests.test_tools",
+            "trytond.tests.test_transaction",
+            "trytond.tests.test_trigger",
+            "trytond.tests.test_tryton",
+            "trytond.tests.test_union",
+            "trytond.tests.test_user",
+            "trytond.tests.test_wizard",
+            "trytond.tests.test_workflow",
+            "trytond.tests.tools",
+            "trytond.tests.trigger",
+            "trytond.tests.wizard",
+            "trytond.tests.workflow",
+            "trytond.tools",
+            "trytond.tools.StringMatcher",
+            "trytond.tools.datetime_strftime",
+            "trytond.tools.decimal_",
+            "trytond.tools.misc",
+            "trytond.tools.multivalue",
+            "trytond.tools.singleton",
+            "trytond.transaction",
+            "trytond.url",
+            "trytond.wizard",
+            "trytond.wizard.wizard",
+            "trytond.wsgi"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.account",
+            "trytond.modules.account.account",
+            "trytond.modules.account.configuration",
+            "trytond.modules.account.fiscalyear",
+            "trytond.modules.account.journal",
+            "trytond.modules.account.move",
+            "trytond.modules.account.move_template",
+            "trytond.modules.account.party",
+            "trytond.modules.account.period",
+            "trytond.modules.account.tax",
+            "trytond.modules.account.tests",
+            "trytond.modules.account.tests.test_account",
+            "trytond.modules.account.tests.tools"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-asset": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.account_asset",
+            "trytond.modules.account_asset.account",
+            "trytond.modules.account_asset.asset",
+            "trytond.modules.account_asset.invoice",
+            "trytond.modules.account_asset.product",
+            "trytond.modules.account_asset.purchase",
+            "trytond.modules.account_asset.tests",
+            "trytond.modules.account_asset.tests.test_account_asset",
+            "trytond.modules.account_asset.tests.tools"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-be": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.account_be",
+            "trytond.modules.account_be.account",
+            "trytond.modules.account_be.tests",
+            "trytond.modules.account_be.tests.test_account_be"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-credit-limit": {
         "cmdline": [],
@@ -68196,6 +70198,11 @@
         "version": ""
     },
     "tulipy": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "tullak": {
         "cmdline": [],
         "modules": [],
         "version": ""
