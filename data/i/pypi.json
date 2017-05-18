@@ -7294,7 +7294,7 @@
             "iland.exception",
             "iland.log"
         ],
-        "version": "0.7.2"
+        "version": "0.7.3"
     },
     "ilang": {
         "cmdline": [],
@@ -23220,7 +23220,7 @@
             "instabot.bot.delay",
             "instabot.bot.limits"
         ],
-        "version": "0.3.3.16"
+        "version": "0.3.3.17"
     },
     "instabrade": {
         "cmdline": [],
