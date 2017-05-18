@@ -17031,7 +17031,7 @@
             "wfdb.plots",
             "wfdb.records"
         ],
-        "version": "1.0.5"
+        "version": "1.0.6"
     },
     "wffmpeg": {
         "cmdline": [],
@@ -19320,7 +19320,7 @@
             "whisker_autonomic_analysis.trial_timing",
             "whisker_autonomic_analysis.version"
         ],
-        "version": "0.1.8"
+        "version": "0.1.9"
     },
     "whisker-serial-order": {
         "cmdline": [],
@@ -22348,6 +22348,7 @@
             "win32com.client.selecttlb",
             "win32com.server",
             "win32com.server.exception",
+            "win32com.server.policy",
             "win32com.server.util",
             "win32com.servers",
             "win32com.servers.dictionary",
@@ -22358,6 +22359,7 @@
             "win32com.storagecon",
             "win32com.test",
             "win32com.test.util",
+            "win32com.universal",
             "win32con",
             "win32console",
             "win32cred",
@@ -22396,7 +22398,7 @@
             "win32wnet",
             "winerror"
         ],
-        "version": "221.23"
+        "version": "221.24"
     },
     "win32core": {
         "cmdline": [],
@@ -36839,7 +36841,7 @@
         "modules": [
             "will"
         ],
-        "version": "0.1.12"
+        "version": "0.1.13"
     },
     "wykop-sdk": {
         "cmdline": [],
