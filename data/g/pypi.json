@@ -12656,7 +12656,7 @@
             "gear.tests.test_functional",
             "gear.tests.test_gear"
         ],
-        "version": "0.7.0"
+        "version": "0.9.0"
     },
     "gearbox": {
         "cmdline": [],
@@ -41021,9 +41021,18 @@
         "version": "0.1"
     },
     "goldwasher": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "goldpanner"
+        ],
+        "modules": [
+            "GOldwasher",
+            "GOldwasher.enricher",
+            "GOldwasher.hoarder",
+            "GOldwasher.misc",
+            "GOldwasher.oboe",
+            "GOldwasher.setup"
+        ],
+        "version": "0.2.2"
     },
     "golem": {
         "cmdline": [],
@@ -43252,23 +43261,20 @@
     "google-cloud-spanner": {
         "cmdline": [],
         "modules": [
-            "google",
-            "google.cloud",
-            "google.cloud.spanner",
-            "google.cloud.spanner._fixtures",
-            "google.cloud.spanner._helpers",
-            "google.cloud.spanner.batch",
-            "google.cloud.spanner.client",
-            "google.cloud.spanner.database",
-            "google.cloud.spanner.instance",
-            "google.cloud.spanner.keyset",
-            "google.cloud.spanner.pool",
-            "google.cloud.spanner.session",
-            "google.cloud.spanner.snapshot",
-            "google.cloud.spanner.streamed",
-            "google.cloud.spanner.transaction"
+            "spanner",
+            "spanner._helpers",
+            "spanner.batch",
+            "spanner.client",
+            "spanner.database",
+            "spanner.instance",
+            "spanner.keyset",
+            "spanner.pool",
+            "spanner.session",
+            "spanner.snapshot",
+            "spanner.streamed",
+            "spanner.transaction"
         ],
-        "version": "0.24.1"
+        "version": "0.24.2"
     },
     "google-cloud-speech": {
         "cmdline": [],
