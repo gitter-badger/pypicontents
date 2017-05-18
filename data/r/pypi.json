@@ -2363,7 +2363,7 @@
             "radiometric_normalization.transformation",
             "radiometric_normalization.validation"
         ],
-        "version": "0.1.151"
+        "version": "0.1.153"
     },
     "radiomics": {
         "cmdline": [],
@@ -35716,7 +35716,7 @@
             "restutils",
             "restutils._restclient"
         ],
-        "version": "1.0.2"
+        "version": "1.0.3"
     },
     "restview": {
         "cmdline": [],
@@ -41282,7 +41282,7 @@
             "ricloud.stream",
             "ricloud.utils"
         ],
-        "version": "2.1.1"
+        "version": "2.2.0"
     },
     "ricotta": {
         "cmdline": [],
@@ -53104,49 +53104,9 @@
         "version": "1.0.3"
     },
     "rowingdata": {
-        "cmdline": [
-            "painsledplot2.py"
-        ],
-        "modules": [
-            "rowingdata",
-            "rowingdata.boatedit",
-            "rowingdata.checkdatafiles",
-            "rowingdata.copystats",
-            "rowingdata.crewnerdplot",
-            "rowingdata.crewnerdplottime",
-            "rowingdata.csvparsers",
-            "rowingdata.ergdataplot",
-            "rowingdata.ergdataplottime",
-            "rowingdata.ergdatatotcx",
-            "rowingdata.ergstickplot",
-            "rowingdata.ergstickplottime",
-            "rowingdata.ergsticktotcx",
-            "rowingdata.konkatenaadje",
-            "rowingdata.otherparsers",
-            "rowingdata.painsled_desktop_plot",
-            "rowingdata.painsled_desktop_plottime",
-            "rowingdata.painsled_desktop_toc2",
-            "rowingdata.painsledplot",
-            "rowingdata.painsledplottime",
-            "rowingdata.painsledtoc2",
-            "rowingdata.roweredit",
-            "rowingdata.rowingdata",
-            "rowingdata.rowproplot",
-            "rowingdata.rowproplottime",
-            "rowingdata.speedcoachplot",
-            "rowingdata.speedcoachplottime",
-            "rowingdata.speedcoachtoc2",
-            "rowingdata.tcxplot",
-            "rowingdata.tcxplot_nogeo",
-            "rowingdata.tcxplottime",
-            "rowingdata.tcxplottime_nogeo",
-            "rowingdata.tcxtoc2",
-            "rowingdata.trainingparser",
-            "rowingdata.utils",
-            "rowingdata.windcorrected",
-            "rowingdata.writetcx"
-        ],
-        "version": "1.0.2"
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0.6"
     },
     "rowingphysics": {
         "cmdline": [],
