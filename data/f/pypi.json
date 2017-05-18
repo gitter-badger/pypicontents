@@ -4926,7 +4926,7 @@
         "modules": [
             "faketime"
         ],
-        "version": "0.9.6.6"
+        "version": "0.9.6.7"
     },
     "faketrumpgen": {
         "cmdline": [],
@@ -21709,63 +21709,150 @@
     },
     "fio-nereid-passbook": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.nereid_passbook",
+            "trytond.modules.nereid_passbook.passbook",
+            "trytond.modules.nereid_passbook.tests",
+            "trytond.modules.nereid_passbook.tests.test_views_depends"
+        ],
+        "version": "4.0.0.1"
     },
     "fio-nereid-payment-gateway": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.nereid_payment_gateway",
+            "trytond.modules.nereid_payment_gateway.party",
+            "trytond.modules.nereid_payment_gateway.tests",
+            "trytond.modules.nereid_payment_gateway.tests.test_party",
+            "trytond.modules.nereid_payment_gateway.tests.test_views_depends",
+            "trytond.modules.nereid_payment_gateway.website"
+        ],
+        "version": "4.0.0.1"
     },
     "fio-nereid-s3": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.nereid_s3",
+            "trytond.modules.nereid_s3.static_file",
+            "trytond.modules.nereid_s3.tests",
+            "trytond.modules.nereid_s3.tests.test_nereid_s3"
+        ],
+        "version": "4.0.0.2"
     },
     "fio-nereid-shipping": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.nereid_shipping",
+            "trytond.modules.nereid_shipping.checkout",
+            "trytond.modules.nereid_shipping.tests",
+            "trytond.modules.nereid_shipping.tests.test_checkout",
+            "trytond.modules.nereid_shipping.tests.test_views_depends",
+            "trytond.modules.nereid_shipping.website"
+        ],
+        "version": "4.0.0.1"
     },
     "fio-nereid-webshop": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.nereid_webshop",
+            "trytond.modules.nereid_webshop.forms",
+            "trytond.modules.nereid_webshop.invoice",
+            "trytond.modules.nereid_webshop.party",
+            "trytond.modules.nereid_webshop.product",
+            "trytond.modules.nereid_webshop.sale",
+            "trytond.modules.nereid_webshop.shipment",
+            "trytond.modules.nereid_webshop.static_file",
+            "trytond.modules.nereid_webshop.tests",
+            "trytond.modules.nereid_webshop.tests.test_base",
+            "trytond.modules.nereid_webshop.tests.test_css",
+            "trytond.modules.nereid_webshop.tests.test_gift_card",
+            "trytond.modules.nereid_webshop.tests.test_invoice",
+            "trytond.modules.nereid_webshop.tests.test_templates",
+            "trytond.modules.nereid_webshop.tests.test_tree",
+            "trytond.modules.nereid_webshop.tests.test_views_depends",
+            "trytond.modules.nereid_webshop.tests.test_website",
+            "trytond.modules.nereid_webshop.tree",
+            "trytond.modules.nereid_webshop.webshop"
+        ],
+        "version": "4.0.0.7"
     },
     "fio-nereid-webshop-elastic-search": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.nereid_webshop_elastic_search",
+            "trytond.modules.nereid_webshop_elastic_search.pagination",
+            "trytond.modules.nereid_webshop_elastic_search.product",
+            "trytond.modules.nereid_webshop_elastic_search.tests",
+            "trytond.modules.nereid_webshop_elastic_search.tests.test_pagination",
+            "trytond.modules.nereid_webshop_elastic_search.tests.test_product",
+            "trytond.modules.nereid_webshop_elastic_search.tests.test_views_depends",
+            "trytond.modules.nereid_webshop_elastic_search.website"
+        ],
+        "version": "4.0.0.1"
     },
     "fio-nereid-wishlist": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.nereid_wishlist",
+            "trytond.modules.nereid_wishlist.tests",
+            "trytond.modules.nereid_wishlist.tests.test_wishlist",
+            "trytond.modules.nereid_wishlist.wishlist"
+        ],
+        "version": "4.0.0.1"
     },
     "fio-party-elasticsearch": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.party_elasticsearch",
+            "trytond.modules.party_elasticsearch.party",
+            "trytond.modules.party_elasticsearch.tests",
+            "trytond.modules.party_elasticsearch.tests.test_party",
+            "trytond.modules.party_elasticsearch.tests.test_views_depends"
+        ],
+        "version": "4.0.1.0"
     },
     "fio-party-merge": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.party_merge",
+            "trytond.modules.party_merge.party",
+            "trytond.modules.party_merge.tests",
+            "trytond.modules.party_merge.tests.test_party"
+        ],
+        "version": "4.0.0.2"
     },
     "fio-payment-gateway": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.payment_gateway",
+            "trytond.modules.payment_gateway.dummy",
+            "trytond.modules.payment_gateway.manual",
+            "trytond.modules.payment_gateway.tests",
+            "trytond.modules.payment_gateway.tests.test_transaction",
+            "trytond.modules.payment_gateway.transaction"
+        ],
+        "version": "4.0.2.2"
     },
     "fio-payment-gateway-authorize-net": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.payment_gateway_authorize_net",
+            "trytond.modules.payment_gateway_authorize_net.tests",
+            "trytond.modules.payment_gateway_authorize_net.tests.test_transaction",
+            "trytond.modules.payment_gateway_authorize_net.transaction"
+        ],
+        "version": "4.0.0.3"
     },
     "fio-payment-gateway-stripe": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.payment_gateway_stripe",
+            "trytond.modules.payment_gateway_stripe.party",
+            "trytond.modules.payment_gateway_stripe.tests.conftest",
+            "trytond.modules.payment_gateway_stripe.tests.test_payment_gateway",
+            "trytond.modules.payment_gateway_stripe.transaction"
+        ],
+        "version": "4.0.1.2"
     },
     "fio-picking-list-report": {
         "cmdline": [],
