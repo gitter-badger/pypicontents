@@ -25996,7 +25996,7 @@
             "hs_restclient.generators",
             "hs_restclient.util"
         ],
-        "version": "1.2.7"
+        "version": "1.2.8"
     },
     "hs3sh": {
         "cmdline": [],
@@ -27573,30 +27573,8 @@
     },
     "htrc": {
         "cmdline": [],
-        "modules": [
-            "htrc",
-            "htrc.lib",
-            "htrc.lib.cli",
-            "htrc.metadata",
-            "htrc.metadata.marc",
-            "htrc.mock",
-            "htrc.mock.volumes",
-            "htrc.tools",
-            "htrc.tools.mallet",
-            "htrc.tools.topicexplorer",
-            "htrc.util",
-            "htrc.util.resolve",
-            "htrc.volumes",
-            "htrc.workset",
-            "htrc.workset.prov",
-            "tests",
-            "tests.test_htrc_lib_cli",
-            "tests.test_htrc_mock_volumes",
-            "tests.test_htrc_util_resolve",
-            "tests.test_htrc_volumes",
-            "tests.test_htrc_workset"
-        ],
-        "version": "0.1.20"
+        "modules": [],
+        "version": "0.1.22"
     },
     "htrc-feature-reader": {
         "cmdline": [],
@@ -31217,7 +31195,7 @@
             "humilis_kinesis_processor.lambda_function.setup",
             "humilis_kinesis_processor.plugin"
         ],
-        "version": "1.0.0"
+        "version": "1.0.1"
     },
     "humilis-kinesis-proxy": {
         "cmdline": [],
