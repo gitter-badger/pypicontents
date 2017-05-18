@@ -20392,15 +20392,13 @@
             "aiospamc",
             "aiospamc.client",
             "aiospamc.common",
-            "aiospamc.content_man",
             "aiospamc.exceptions",
             "aiospamc.headers",
             "aiospamc.options",
             "aiospamc.requests",
-            "aiospamc.responses",
-            "aiospamc.transport"
+            "aiospamc.responses"
         ],
-        "version": "0.2.0"
+        "version": "0.2.1"
     },
     "aiosparql": {
         "cmdline": [],
@@ -26575,7 +26573,7 @@
             "alembic.util.pyfiles",
             "alembic.util.sqla_compat"
         ],
-        "version": "0.9.1"
+        "version": "0.9.2"
     },
     "alembic-autogenerate-enums": {
         "cmdline": [],
@@ -40786,7 +40784,7 @@
             "config.config",
             "config.config-crypto-example1"
         ],
-        "version": "0.3.8"
+        "version": "0.3.9"
     },
     "anoncreds-rc": {
         "cmdline": [],
@@ -49119,7 +49117,7 @@
             "apicapi.tools.host_report",
             "apicapi.tools.reflector"
         ],
-        "version": "1.0.12"
+        "version": "1.0.14"
     },
     "apicheck": {
         "cmdline": [],
@@ -78012,7 +78010,7 @@
             "tests.test_xopen",
             "tests.utils"
         ],
-        "version": "1.1.4"
+        "version": "1.1.5"
     },
     "atsd-client": {
         "cmdline": [],
@@ -84824,6 +84822,9 @@
         "modules": [
             "avi",
             "avi.migrationtools",
+            "avi.migrationtools.ansible",
+            "avi.migrationtools.ansible.ansible_config_converter",
+            "avi.migrationtools.ansible.ansible_constant",
             "avi.migrationtools.avi_converter",
             "avi.migrationtools.avi_rest_lib",
             "avi.migrationtools.config_patch",
@@ -84871,11 +84872,9 @@
             "avi.migrationtools.netscaler_converter.test.test_vs_references",
             "avi.migrationtools.scp_util",
             "avi.migrationtools.setup",
-            "avi.migrationtools.vs_filter",
-            "debian",
-            "debian.update_version"
+            "avi.migrationtools.vs_filter"
         ],
-        "version": "17.1.1b6"
+        "version": "17.1.1b7"
     },
     "avinester": {
         "cmdline": [],
@@ -84951,7 +84950,6 @@
             "avi.sdk.avi_api",
             "avi.sdk.avi_sdk",
             "avi.sdk.samples",
-            "avi.sdk.samples.analytics_examples",
             "avi.sdk.samples.apic",
             "avi.sdk.samples.apic.apic_client",
             "avi.sdk.samples.apic.apic_tenant",
@@ -84972,11 +84970,9 @@
             "avi.sdk.utils.api_utils",
             "avi.sdk.utils.httppolicyset_templates",
             "avi.sdk.utils.mesos",
-            "avi.sdk.utils.mesos.mesos_testutils",
-            "debian",
-            "debian.update_version"
+            "avi.sdk.utils.mesos.mesos_testutils"
         ],
-        "version": "17.1.1b6"
+        "version": "17.1.1b7"
     },
     "aviso": {
         "cmdline": [
@@ -88194,7 +88190,7 @@
             "awshelpers.tests.test_s3",
             "awshelpers.tests.test_ssm"
         ],
-        "version": "0.0.16"
+        "version": "0.0.17"
     },
     "awshucks": {
         "cmdline": [],
