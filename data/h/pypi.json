@@ -3494,7 +3494,7 @@
             "haishoku.haillow",
             "haishoku.haishoku"
         ],
-        "version": "1.0.0"
+        "version": "1.1.1"
     },
     "hakim-nester": {
         "cmdline": [],
@@ -4327,7 +4327,7 @@
             "halt.halt",
             "halt.util"
         ],
-        "version": "0.1.0"
+        "version": "0.1.1"
     },
     "halwa": {
         "cmdline": [],
@@ -11205,24 +11205,16 @@
             "hearthstone",
             "hearthstone.cardxml",
             "hearthstone.dbf",
+            "hearthstone.deckstrings",
             "hearthstone.entities",
             "hearthstone.enums",
-            "hearthstone.hslog",
-            "hearthstone.hslog.exceptions",
-            "hearthstone.hslog.export",
-            "hearthstone.hslog.packets",
-            "hearthstone.hslog.parser",
-            "hearthstone.hslog.player",
-            "hearthstone.hslog.tokens",
-            "hearthstone.hslog.utils",
             "hearthstone.stringsfile",
             "hearthstone.utils",
             "tests",
-            "tests.data",
             "tests.test_dbf",
-            "tests.test_hslog"
+            "tests.test_deckstrings"
         ],
-        "version": "3.6.18336"
+        "version": "3.6.18792"
     },
     "hearthstonearenalogwatcher": {
         "cmdline": [],
@@ -12491,7 +12483,7 @@
             "helga_urbandictionary",
             "helga_urbandictionary.plugin"
         ],
-        "version": "1.1.2"
+        "version": "2.0.0"
     },
     "helga-versionone": {
         "cmdline": [],
@@ -20429,6 +20421,15 @@
         ],
         "version": "0.2.0"
     },
+    "hmms": {
+        "cmdline": [],
+        "modules": [
+            "hmms",
+            "hmms.art",
+            "hmms.train"
+        ],
+        "version": "0.1"
+    },
     "hmmus": {
         "cmdline": [
             "hmm-backward",
@@ -23890,6 +23891,14 @@
         ],
         "version": "0.01"
     },
+    "hornet": {
+        "cmdline": [],
+        "modules": [
+            "hornet",
+            "hornet.hornet"
+        ],
+        "version": "0.1.0"
+    },
     "horntell": {
         "cmdline": [],
         "modules": [
@@ -24051,8 +24060,10 @@
     },
     "horsetailmatching": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "horsetailmatching"
+        ],
+        "version": "0.1"
     },
     "horton": {
         "cmdline": [],
@@ -25091,9 +25102,11 @@
         "cmdline": [],
         "modules": [
             "howmanypeoplearearound",
-            "howmanypeoplearearound.oui"
+            "howmanypeoplearearound.analysis",
+            "howmanypeoplearearound.oui",
+            "howmanypeoplearearound.plotlyjs"
         ],
-        "version": "0.2.0"
+        "version": "0.3.0"
     },
     "howto": {
         "cmdline": [],
@@ -29115,7 +29128,7 @@
     "httpstan": {
         "cmdline": [],
         "modules": [],
-        "version": "0.1.0"
+        "version": "0.1.1"
     },
     "httpstat": {
         "cmdline": [],
@@ -30632,7 +30645,7 @@
             "humanfriendly.text",
             "humanfriendly.usage"
         ],
-        "version": "3.1"
+        "version": "3.2"
     },
     "humanfuture": {
         "cmdline": [],
@@ -31144,7 +31157,7 @@
             "humilis.utils",
             "tests"
         ],
-        "version": "1.3.2"
+        "version": "1.3.3"
     },
     "humilis-asg": {
         "cmdline": [],
@@ -31176,7 +31189,7 @@
             "humilis_firehose",
             "humilis_firehose.plugin"
         ],
-        "version": "0.1.6"
+        "version": "0.1.7"
     },
     "humilis-kinesis-mapper": {
         "cmdline": [],
@@ -31204,6 +31217,14 @@
             "humilis_kinesis_processor.plugin"
         ],
         "version": "0.9.8"
+    },
+    "humilis-kinesis-proxy": {
+        "cmdline": [],
+        "modules": [
+            "humilis_kinesis_proxy",
+            "humilis_kinesis_proxy.plugin"
+        ],
+        "version": "0.0.1"
     },
     "humilis-microservice": {
         "cmdline": [],
@@ -35452,8 +35473,15 @@
     },
     "hypermark": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "hypermark",
+            "hypermark.api",
+            "hypermark.bootstrap",
+            "hypermark.core",
+            "hypermark.filters",
+            "hypermark.session"
+        ],
+        "version": "0.0.1"
     },
     "hypermedia": {
         "cmdline": [],
