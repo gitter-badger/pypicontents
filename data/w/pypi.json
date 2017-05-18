@@ -17047,6 +17047,11 @@
         ],
         "version": "0.0.6"
     },
+    "wfl-nester": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0.0"
+    },
     "wfm": {
         "cmdline": [
             "wfm"
@@ -29658,8 +29663,15 @@
     },
     "words2num": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tests",
+            "tests.test_EN_US",
+            "words2num",
+            "words2num.base",
+            "words2num.core",
+            "words2num.lang_EN_US"
+        ],
+        "version": "0.1.2"
     },
     "wordscrape": {
         "cmdline": [],
