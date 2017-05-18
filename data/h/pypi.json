@@ -14241,10 +14241,11 @@
             "hepcrawl.testlib.fixtures",
             "hepcrawl.testlib.scrapyd_coverage_runner",
             "hepcrawl.testlib.tasks",
+            "hepcrawl.testlib.utils",
             "hepcrawl.utils",
             "hepcrawl.version"
         ],
-        "version": "0.3.17"
+        "version": "0.3.18"
     },
     "hepdata": {
         "cmdline": [],
@@ -27595,7 +27596,7 @@
             "tests.test_htrc_volumes",
             "tests.test_htrc_workset"
         ],
-        "version": "0.1.19"
+        "version": "0.1.20"
     },
     "htrc-feature-reader": {
         "cmdline": [],
@@ -31224,7 +31225,7 @@
             "humilis_kinesis_proxy",
             "humilis_kinesis_proxy.plugin"
         ],
-        "version": "0.0.1"
+        "version": "0.0.2"
     },
     "humilis-microservice": {
         "cmdline": [],
