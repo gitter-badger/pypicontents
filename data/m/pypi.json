@@ -26188,8 +26188,11 @@
         "modules": [
             "mdfconverter",
             "mdfconverter.Ui_mdfreaderui",
+            "mdfconverter.Ui_mdfreaderui4",
+            "mdfconverter.Ui_mdfreaderui5",
             "mdfconverter.mdfconverter",
-            "mdfconverter.mdfreaderui",
+            "mdfconverter.mdfreaderui4",
+            "mdfconverter.mdfreaderui5",
             "mdfreader",
             "mdfreader.mdf",
             "mdfreader.mdf3reader",
@@ -26199,7 +26202,7 @@
             "mdfreader.mdfinfo4",
             "mdfreader.mdfreader"
         ],
-        "version": "0.2.3"
+        "version": "0.2.4"
     },
     "mdgraph": {
         "cmdline": [],
@@ -55430,7 +55433,7 @@
             "mnemosynerpc.session_pb2",
             "mnemosynerpc.session_pb2_grpc"
         ],
-        "version": "0.9.5"
+        "version": "0.10.0"
     },
     "mnester": {
         "cmdline": [],
