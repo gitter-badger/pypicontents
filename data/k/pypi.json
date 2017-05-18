@@ -6051,7 +6051,7 @@
             "kafka_influxdb.writer",
             "kafka_influxdb.writer.influxdb_writer"
         ],
-        "version": "0.8.4"
+        "version": "0.9.1"
     },
     "kafka-log-handler": {
         "cmdline": [],
@@ -8564,7 +8564,7 @@
             "tests.test_validators",
             "tests.tests_assetsmanager"
         ],
-        "version": "2.0.0"
+        "version": "2.0.1"
     },
     "kantanpage": {
         "cmdline": [],
@@ -10855,6 +10855,16 @@
             "rplugins.9013e13aeccd3b43166a179539343ee59d8ce791"
         ],
         "version": "1.0.2"
+    },
+    "kdbq-kernel": {
+        "cmdline": [],
+        "modules": [
+            "kdbq_kernel",
+            "kdbq_kernel.images",
+            "kdbq_kernel.install",
+            "kdbq_kernel.kernel"
+        ],
+        "version": "0.1"
     },
     "kdcount": {
         "cmdline": [],
@@ -13486,6 +13496,7 @@
     "kesmarag-toolbox": {
         "cmdline": [],
         "modules": [
+            "kesmarag",
             "kesmarag.ml",
             "kesmarag.ml.dataset",
             "kesmarag.ml.gmm",
@@ -13495,7 +13506,7 @@
             "kesmarag.ua",
             "kesmarag.ua.signal_utils"
         ],
-        "version": "0.7.6"
+        "version": "0.8.0"
     },
     "kessel": {
         "cmdline": [],
@@ -21656,7 +21667,7 @@
     "knobs": {
         "cmdline": [],
         "modules": [],
-        "version": "0.2.9"
+        "version": "0.2.10"
     },
     "knock": {
         "cmdline": [],
@@ -24975,7 +24986,7 @@
             "kolibri_exercise_perseus_plugin",
             "kolibri_exercise_perseus_plugin.kolibri_plugin"
         ],
-        "version": "0.6.6"
+        "version": "0.6.7"
     },
     "kolibri-exercise-perseus-renderer": {
         "cmdline": [],
@@ -25111,7 +25122,7 @@
             "kombine.tests",
             "kombine.utils"
         ],
-        "version": "0.8.1"
+        "version": "0.8.2"
     },
     "kombu": {
         "cmdline": [],
