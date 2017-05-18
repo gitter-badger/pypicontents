@@ -2418,6 +2418,7 @@
             "backtrader.feeds.mt4csv",
             "backtrader.feeds.oanda",
             "backtrader.feeds.pandafeed",
+            "backtrader.feeds.quandl",
             "backtrader.feeds.rollover",
             "backtrader.feeds.sierrachart",
             "backtrader.feeds.vcdata",
@@ -2521,6 +2522,9 @@
             "backtrader.strategies",
             "backtrader.strategies.sma_crossover",
             "backtrader.strategy",
+            "backtrader.studies",
+            "backtrader.studies.contrib",
+            "backtrader.studies.contrib.fractal",
             "backtrader.talib",
             "backtrader.timer",
             "backtrader.trade",
@@ -2535,7 +2539,7 @@
             "backtrader.version",
             "backtrader.writer"
         ],
-        "version": "1.9.47.116"
+        "version": "1.9.48.116"
     },
     "backtranslate": {
         "cmdline": [],
@@ -4390,7 +4394,7 @@
             "BalancedDiscStorage.balanced_disc_storage_z",
             "BalancedDiscStorage.path_and_hash"
         ],
-        "version": "1.0.3"
+        "version": "1.1.0"
     },
     "balashov": {
         "cmdline": [],
@@ -8917,6 +8921,7 @@
             "baseZhang.featureSelect",
             "baseZhang.formatTrans",
             "baseZhang.fromLibrosa",
+            "baseZhang.justDownloadYoutube",
             "baseZhang.kerasModel",
             "baseZhang.labeEncodeDecode",
             "baseZhang.modifyMarkdown",
@@ -8939,7 +8944,7 @@
             "pymir.Spectrum",
             "pymir.Transforms"
         ],
-        "version": "1.3.20"
+        "version": "1.3.22"
     },
     "bash": {
         "cmdline": [],
@@ -13591,6 +13596,15 @@
         ],
         "version": "0.2.2"
     },
+    "bdcli": {
+        "cmdline": [],
+        "modules": [
+            "bdcli",
+            "bdcli.bd",
+            "bdcli.key_token"
+        ],
+        "version": "0.5.1a0"
+    },
     "bdd": {
         "cmdline": [],
         "modules": [],
@@ -17270,7 +17284,7 @@
             "behave_api_utils.api_services",
             "behave_api_utils.rest"
         ],
-        "version": "1.1.0"
+        "version": "1.2.0"
     },
     "behave-base-library": {
         "cmdline": [],
@@ -19558,7 +19572,7 @@
             "bespin.task_finder",
             "bespin.tasks"
         ],
-        "version": "0.7.0.6"
+        "version": "0.7.0.7"
     },
     "bespon": {
         "cmdline": [],
@@ -24104,11 +24118,6 @@
         ],
         "version": "0.2.0"
     },
-    "bigquery": {
-        "cmdline": [],
-        "modules": [],
-        "version": "2.0.17"
-    },
     "bigquery-gcs": {
         "cmdline": [],
         "modules": [
@@ -26016,6 +26025,33 @@
         ],
         "version": "1.1.0b2"
     },
+    "bio-pype": {
+        "cmdline": [],
+        "modules": [
+            "pype",
+            "pype.__config__",
+            "pype.__version__",
+            "pype.commands",
+            "pype.env_modules",
+            "pype.logger",
+            "pype.misc",
+            "pype.modules",
+            "pype.modules.pipelines",
+            "pype.modules.profiles",
+            "pype.modules.repos",
+            "pype.modules.snippets",
+            "pype.pipelines",
+            "pype.profiles",
+            "pype.queues",
+            "pype.snippets",
+            "pype.utils",
+            "pype.utils.arguments",
+            "pype.utils.pipeline",
+            "pype.utils.profiles",
+            "pype.utils.queues"
+        ],
+        "version": "0.9.9"
+    },
     "bio-utils": {
         "cmdline": [],
         "modules": [
@@ -27237,8 +27273,35 @@
     },
     "biomine": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "biomine",
+            "biomine.biomine",
+            "biomine.parsers",
+            "biomine.parsers.exacparser",
+            "biomine.parsers.vcfparser",
+            "biomine.variant",
+            "biomine.variant.clinvarvariant",
+            "biomine.variant.exacvariant",
+            "biomine.variant.mafvariant",
+            "biomine.variant.variant",
+            "biomine.variant.vepcolocatedvariant",
+            "biomine.variant.vepconsequencevariant",
+            "biomine.variant.vepvariant",
+            "biomine.webapi",
+            "biomine.webapi.clinicaltrials",
+            "biomine.webapi.clinicaltrials.ctapi",
+            "biomine.webapi.ensembl",
+            "biomine.webapi.ensembl.ensemblapi",
+            "biomine.webapi.entrez",
+            "biomine.webapi.entrez.entrezapi",
+            "biomine.webapi.entrez.pubchemapi",
+            "biomine.webapi.exac",
+            "biomine.webapi.exac.exacapi",
+            "biomine.webapi.webapi",
+            "biomine.writers",
+            "biomine.writers.maf"
+        ],
+        "version": "0.9.1"
     },
     "bioneb": {
         "cmdline": [],
@@ -46117,7 +46180,7 @@
             "botocore.vendored.six",
             "botocore.waiter"
         ],
-        "version": "1.5.50"
+        "version": "1.5.51"
     },
     "botocore-meiqia": {
         "cmdline": [],
@@ -47160,7 +47223,7 @@
             "botstory.utils.queue",
             "botstory.utils.utils_test"
         ],
-        "version": "0.1.0"
+        "version": "0.1.1"
     },
     "bottle": {
         "cmdline": [
@@ -52897,6 +52960,14 @@
         ],
         "version": "0.2.2"
     },
+    "bridson": {
+        "cmdline": [],
+        "modules": [
+            "bridson",
+            "bridson.tests"
+        ],
+        "version": "0.1.0"
+    },
     "brie": {
         "cmdline": [],
         "modules": [
@@ -54187,7 +54258,7 @@
             "browndog",
             "browndog.bd"
         ],
-        "version": "0.5.0a0"
+        "version": "0.7.1a0"
     },
     "brownfox": {
         "cmdline": [],
@@ -56139,6 +56210,15 @@
         ],
         "version": "0.1"
     },
+    "bttt99": {
+        "cmdline": [],
+        "modules": [
+            "bttt99",
+            "bttt99.cli",
+            "bttt99.core"
+        ],
+        "version": "0.2.1"
+    },
     "btx": {
         "cmdline": [],
         "modules": [
@@ -57307,7 +57387,7 @@
             "bugone.connector",
             "bugone.dumper"
         ],
-        "version": "0.6"
+        "version": "0.7"
     },
     "bugrest": {
         "cmdline": [
@@ -60904,8 +60984,48 @@
     },
     "burp-reports": {
         "cmdline": [],
-        "modules": [],
-        "version": "1.2.2"
+        "modules": [
+            "burp_reports",
+            "burp_reports.backends",
+            "burp_reports.backends.burpui_api",
+            "burp_reports.defaults",
+            "burp_reports.defaults.default_config",
+            "burp_reports.dummy",
+            "burp_reports.dummy.burpui_api_translate_dummy",
+            "burp_reports.dummy.burpui_dummy_api",
+            "burp_reports.experiment",
+            "burp_reports.experiment.oldnotes_pd_reports",
+            "burp_reports.interfaces",
+            "burp_reports.interfaces.burpui_api_interface",
+            "burp_reports.interfaces.burpui_api_translate",
+            "burp_reports.lib",
+            "burp_reports.lib.check_readme",
+            "burp_reports.lib.configs",
+            "burp_reports.lib.email",
+            "burp_reports.lib.files",
+            "burp_reports.lib.humanize",
+            "burp_reports.lib.is_up",
+            "burp_reports.lib.txt",
+            "burp_reports.lib.urlget",
+            "burp_reports.reports",
+            "burp_reports.reports.clients_reports",
+            "burp_reports.reports.pd_reports",
+            "burp_reports.tests",
+            "burp_reports.tests.test_burpui_demo",
+            "burp_reports.tests.test_check_readme",
+            "burp_reports.tests.test_cli",
+            "burp_reports.tests.test_clients_dummy",
+            "burp_reports.tests.test_default_config",
+            "burp_reports.tests.test_dummy_api",
+            "burp_reports.tests.test_email",
+            "burp_reports.tests.test_inventory",
+            "burp_reports.tests.test_isup",
+            "burp_reports.tests.test_parser",
+            "burp_reports.tests.test_reports",
+            "burp_reports.tests.test_txt",
+            "burp_reports.tests.test_url"
+        ],
+        "version": "1.2.3"
     },
     "burp-ui": {
         "cmdline": [],
