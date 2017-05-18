@@ -2029,7 +2029,7 @@
             "IBMQuantumExperience",
             "IBMQuantumExperience.IBMQuantumExperience"
         ],
-        "version": "1.3.1"
+        "version": "1.4"
     },
     "ibmrti": {
         "cmdline": [],
@@ -11900,17 +11900,9 @@
             "importanize.mixin",
             "importanize.parser",
             "importanize.statements",
-            "importanize.utils",
-            "tests",
-            "tests.test_formatters",
-            "tests.test_groups",
-            "tests.test_main",
-            "tests.test_mixins",
-            "tests.test_parser",
-            "tests.test_statements",
-            "tests.test_utils"
+            "importanize.utils"
         ],
-        "version": "0.5.1"
+        "version": "0.5.2"
     },
     "important": {
         "cmdline": [],
@@ -33016,7 +33008,7 @@
             "ipwb.replay",
             "ipwb.util"
         ],
-        "version": "0.2017.5.14.2222"
+        "version": "0.2017.5.18.1306"
     },
     "ipwhois": {
         "cmdline": [
