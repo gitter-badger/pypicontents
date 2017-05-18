@@ -10696,7 +10696,7 @@
             "battle_tested",
             "battle_tested.battle_tested"
         ],
-        "version": "2017.05.05"
+        "version": "2017.05.18.1"
     },
     "battlecat": {
         "cmdline": [],
@@ -22199,6 +22199,14 @@
             "bib2web.normalize"
         ],
         "version": "0.17"
+    },
+    "bibble": {
+        "cmdline": [],
+        "modules": [
+            "bibble",
+            "bibble.main"
+        ],
+        "version": "0.0.1"
     },
     "bibbliothon": {
         "cmdline": [],
