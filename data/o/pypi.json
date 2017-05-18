@@ -327,7 +327,7 @@
             "oandapyV20.types",
             "oandapyV20.types.types"
         ],
-        "version": "0.2.3"
+        "version": "0.2.4"
     },
     "oanpy": {
         "cmdline": [],
@@ -590,6 +590,196 @@
             "orangecontrib.xrayserver.widgets.xrayserver.ow_x0p"
         ],
         "version": "1.0.9"
+    },
+    "oasys1": {
+        "cmdline": [],
+        "modules": [
+            "oasys",
+            "oasys.canvas",
+            "oasys.canvas.conf",
+            "oasys.canvas.discovery",
+            "oasys.canvas.mainwindow",
+            "oasys.canvas.styles",
+            "oasys.canvas.widgetsscheme",
+            "oasys.menus",
+            "oasys.menus.menu",
+            "oasys.version",
+            "oasys.widgets",
+            "oasys.widgets.congruence",
+            "oasys.widgets.exchange",
+            "oasys.widgets.gui",
+            "oasys.widgets.tools",
+            "oasys.widgets.tools.ow_python_script",
+            "oasys.widgets.widget"
+        ],
+        "version": "1.0.4"
+    },
+    "oasys1-shadowoui": {
+        "cmdline": [],
+        "modules": [
+            "orangecontrib",
+            "orangecontrib.shadow",
+            "orangecontrib.shadow.menu",
+            "orangecontrib.shadow.menu.ow_shadow_tools_menu",
+            "orangecontrib.shadow.test",
+            "orangecontrib.shadow.test.altissimo",
+            "orangecontrib.shadow.test.annabianco",
+            "orangecontrib.shadow.test.fresnel_zone_plate",
+            "orangecontrib.shadow.util",
+            "orangecontrib.shadow.util.python_script",
+            "orangecontrib.shadow.util.shadow_objects",
+            "orangecontrib.shadow.util.shadow_util",
+            "orangecontrib.shadow.widgets",
+            "orangecontrib.shadow.widgets.compound_optical_elements",
+            "orangecontrib.shadow.widgets.compound_optical_elements.ow_crl",
+            "orangecontrib.shadow.widgets.compound_optical_elements.ow_dcm",
+            "orangecontrib.shadow.widgets.compound_optical_elements.ow_kb",
+            "orangecontrib.shadow.widgets.compound_optical_elements.ow_lens",
+            "orangecontrib.shadow.widgets.compound_optical_elements.ow_transfocator",
+            "orangecontrib.shadow.widgets.experimental_elements",
+            "orangecontrib.shadow.widgets.experimental_elements.ow_xrd_capillary",
+            "orangecontrib.shadow.widgets.experimental_elements.random_generator",
+            "orangecontrib.shadow.widgets.gui",
+            "orangecontrib.shadow.widgets.gui.ow_automatic_element",
+            "orangecontrib.shadow.widgets.gui.ow_compound_optical_element",
+            "orangecontrib.shadow.widgets.gui.ow_conic_coefficients_element",
+            "orangecontrib.shadow.widgets.gui.ow_curved_element",
+            "orangecontrib.shadow.widgets.gui.ow_ellipsoid_element",
+            "orangecontrib.shadow.widgets.gui.ow_generic_element",
+            "orangecontrib.shadow.widgets.gui.ow_hyperboloid_element",
+            "orangecontrib.shadow.widgets.gui.ow_optical_element",
+            "orangecontrib.shadow.widgets.gui.ow_paraboloid_element",
+            "orangecontrib.shadow.widgets.gui.ow_plane_element",
+            "orangecontrib.shadow.widgets.gui.ow_source",
+            "orangecontrib.shadow.widgets.gui.ow_spheric_element",
+            "orangecontrib.shadow.widgets.gui.ow_toroidal_element",
+            "orangecontrib.shadow.widgets.loop_management",
+            "orangecontrib.shadow.widgets.loop_management.ow_accumulating_node_point",
+            "orangecontrib.shadow.widgets.loop_management.ow_node_point",
+            "orangecontrib.shadow.widgets.loop_management.ow_pin",
+            "orangecontrib.shadow.widgets.optical_elements",
+            "orangecontrib.shadow.widgets.optical_elements.ow_conic_coefficients_crystal",
+            "orangecontrib.shadow.widgets.optical_elements.ow_conic_coefficients_grating",
+            "orangecontrib.shadow.widgets.optical_elements.ow_conic_coefficients_mirror",
+            "orangecontrib.shadow.widgets.optical_elements.ow_ellipsoid_mirror",
+            "orangecontrib.shadow.widgets.optical_elements.ow_ellispoid_crystal",
+            "orangecontrib.shadow.widgets.optical_elements.ow_ellispoid_grating",
+            "orangecontrib.shadow.widgets.optical_elements.ow_hyperboloid_crystal",
+            "orangecontrib.shadow.widgets.optical_elements.ow_hyperboloid_grating",
+            "orangecontrib.shadow.widgets.optical_elements.ow_hyperboloid_mirror",
+            "orangecontrib.shadow.widgets.optical_elements.ow_paraboloid_crystal",
+            "orangecontrib.shadow.widgets.optical_elements.ow_paraboloid_gratings",
+            "orangecontrib.shadow.widgets.optical_elements.ow_paraboloid_mirror",
+            "orangecontrib.shadow.widgets.optical_elements.ow_plane_crystal",
+            "orangecontrib.shadow.widgets.optical_elements.ow_plane_grating",
+            "orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror",
+            "orangecontrib.shadow.widgets.optical_elements.ow_screen_slits",
+            "orangecontrib.shadow.widgets.optical_elements.ow_spheric_crystal",
+            "orangecontrib.shadow.widgets.optical_elements.ow_spheric_grating",
+            "orangecontrib.shadow.widgets.optical_elements.ow_spheric_mirror",
+            "orangecontrib.shadow.widgets.optical_elements.ow_toroidal_crystal",
+            "orangecontrib.shadow.widgets.optical_elements.ow_toroidal_grating",
+            "orangecontrib.shadow.widgets.optical_elements.ow_toroidal_mirror",
+            "orangecontrib.shadow.widgets.optical_elements.ow_zone_plate",
+            "orangecontrib.shadow.widgets.plots",
+            "orangecontrib.shadow.widgets.plots.ow_focnew",
+            "orangecontrib.shadow.widgets.plots.ow_histogram",
+            "orangecontrib.shadow.widgets.plots.ow_info",
+            "orangecontrib.shadow.widgets.plots.ow_plot_xy",
+            "orangecontrib.shadow.widgets.preprocessor",
+            "orangecontrib.shadow.widgets.preprocessor.dabam_height_profile",
+            "orangecontrib.shadow.widgets.preprocessor.height_profile_simulator",
+            "orangecontrib.shadow.widgets.preprocessor.vls_pgm_coefficients_calculator",
+            "orangecontrib.shadow.widgets.preprocessor.xsh_bragg",
+            "orangecontrib.shadow.widgets.preprocessor.xsh_pre_mlayer",
+            "orangecontrib.shadow.widgets.preprocessor.xsh_prerefl",
+            "orangecontrib.shadow.widgets.preprocessor.xsh_waviness",
+            "orangecontrib.shadow.widgets.sources",
+            "orangecontrib.shadow.widgets.sources.ow_bending_magnet",
+            "orangecontrib.shadow.widgets.sources.ow_geometrical_source",
+            "orangecontrib.shadow.widgets.sources.ow_undulator_gaussian",
+            "orangecontrib.shadow.widgets.sources.ow_wiggler",
+            "orangecontrib.shadow.widgets.special_elements",
+            "orangecontrib.shadow.widgets.special_elements.hybrid_control",
+            "orangecontrib.shadow.widgets.special_elements.ow_conic_coefficients_refractor",
+            "orangecontrib.shadow.widgets.special_elements.ow_empty_element",
+            "orangecontrib.shadow.widgets.special_elements.ow_hybrid_screen",
+            "orangecontrib.shadow.widgets.utility",
+            "orangecontrib.shadow.widgets.utility.ow_beam_file_reader",
+            "orangecontrib.shadow.widgets.utility.ow_beam_file_writer",
+            "orangecontrib.shadow.widgets.utility.ow_image_converter",
+            "orangecontrib.shadow.widgets.utility.ow_merge_beams"
+        ],
+        "version": "1.4.5"
+    },
+    "oasys1-xoppy": {
+        "cmdline": [],
+        "modules": [
+            "orangecontrib",
+            "orangecontrib.xoppy",
+            "orangecontrib.xoppy.menu",
+            "orangecontrib.xoppy.menu.xoppy_tools_menu",
+            "orangecontrib.xoppy.util",
+            "orangecontrib.xoppy.util.script",
+            "orangecontrib.xoppy.util.script.itemmodels",
+            "orangecontrib.xoppy.util.script.python_script",
+            "orangecontrib.xoppy.util.script.value",
+            "orangecontrib.xoppy.util.script.variable",
+            "orangecontrib.xoppy.util.srundplug",
+            "orangecontrib.xoppy.util.xoppy_pymca_tools",
+            "orangecontrib.xoppy.util.xoppy_util",
+            "orangecontrib.xoppy.util.xoppy_xraylib_util",
+            "orangecontrib.xoppy.widgets",
+            "orangecontrib.xoppy.widgets.gui",
+            "orangecontrib.xoppy.widgets.gui.ow_xoppy_widget",
+            "orangecontrib.xoppy.widgets.optics",
+            "orangecontrib.xoppy.widgets.optics.mare",
+            "orangecontrib.xoppy.widgets.optics.mlayer",
+            "orangecontrib.xoppy.widgets.optics.xcrosssec",
+            "orangecontrib.xoppy.widgets.optics.xcrystal",
+            "orangecontrib.xoppy.widgets.optics.xf0",
+            "orangecontrib.xoppy.widgets.optics.xf1f2",
+            "orangecontrib.xoppy.widgets.optics.xfh",
+            "orangecontrib.xoppy.widgets.optics.xinpro",
+            "orangecontrib.xoppy.widgets.optics.xpowder_fml",
+            "orangecontrib.xoppy.widgets.optics.xpower",
+            "orangecontrib.xoppy.widgets.optics.xraylib_widget",
+            "orangecontrib.xoppy.widgets.optics.xxcom",
+            "orangecontrib.xoppy.widgets.source",
+            "orangecontrib.xoppy.widgets.source.black_body",
+            "orangecontrib.xoppy.widgets.source.bm",
+            "orangecontrib.xoppy.widgets.source.tc_slit",
+            "orangecontrib.xoppy.widgets.source.undulator_power_density",
+            "orangecontrib.xoppy.widgets.source.undulator_radiation",
+            "orangecontrib.xoppy.widgets.source.undulator_spectrum",
+            "orangecontrib.xoppy.widgets.source.ws",
+            "orangecontrib.xoppy.widgets.source.xtc",
+            "orangecontrib.xoppy.widgets.source.xtube_w",
+            "orangecontrib.xoppy.widgets.source.xtubes",
+            "orangecontrib.xoppy.widgets.source.xwiggler",
+            "orangecontrib.xoppy.widgets.tools",
+            "orangecontrib.xoppy.widgets.tools.plot_simple_exchange"
+        ],
+        "version": "1.0.18"
+    },
+    "oasys1-xrayserver": {
+        "cmdline": [],
+        "modules": [
+            "orangecontrib",
+            "orangecontrib.xrayserver",
+            "orangecontrib.xrayserver.util",
+            "orangecontrib.xrayserver.util.xrayserver_util",
+            "orangecontrib.xrayserver.widgets",
+            "orangecontrib.xrayserver.widgets.gui",
+            "orangecontrib.xrayserver.widgets.gui.ow_xrayserver_widget",
+            "orangecontrib.xrayserver.widgets.xrayserver",
+            "orangecontrib.xrayserver.widgets.xrayserver.list_utility",
+            "orangecontrib.xrayserver.widgets.xrayserver.ow_gid_sl",
+            "orangecontrib.xrayserver.widgets.xrayserver.ow_ter_sl",
+            "orangecontrib.xrayserver.widgets.xrayserver.ow_x0h",
+            "orangecontrib.xrayserver.widgets.xrayserver.ow_x0p"
+        ],
+        "version": "1.0.12"
     },
     "oath": {
         "cmdline": [],
@@ -1065,7 +1255,7 @@
             "obasync"
         ],
         "modules": [],
-        "version": "0.7"
+        "version": "0.10"
     },
     "obb": {
         "cmdline": [
@@ -2996,6 +3186,16 @@
         ],
         "version": "0.11.post46"
     },
+    "occa": {
+        "cmdline": [],
+        "modules": [
+            "occa",
+            "occa.device",
+            "occa.kernel",
+            "occa.memory"
+        ],
+        "version": "0.1.4"
+    },
     "occam": {
         "cmdline": [],
         "modules": [
@@ -3311,7 +3511,7 @@
             "oceansdb.utils",
             "oceansdb.woa"
         ],
-        "version": "0.7.2"
+        "version": "0.7.4"
     },
     "oceansound": {
         "cmdline": [],
@@ -3719,7 +3919,7 @@
             "ocrmypdf.pdfa",
             "ocrmypdf.pipeline"
         ],
-        "version": "5.0"
+        "version": "5.0.1"
     },
     "ocropy": {
         "cmdline": [],
@@ -4521,7 +4721,7 @@
             "octoprint_dashboard.services.loginService",
             "octoprint_dashboard.services.octoprintService"
         ],
-        "version": "0.2.dev1"
+        "version": "0.2.1.dev1"
     },
     "octoprint-grbl-plugin": {
         "cmdline": [],
@@ -4896,7 +5096,7 @@
             "odfi_templates.extensions.testext",
             "odfi_templates.mariana"
         ],
-        "version": "1.0.14"
+        "version": "1.0.18"
     },
     "odfit": {
         "cmdline": [],
@@ -5636,7 +5836,7 @@
             "account_balance_reporting.wizard",
             "account_balance_reporting.wizard.wizard_print"
         ],
-        "version": "10.0.1.0.0.99.dev4"
+        "version": "10.0.1.0.1"
     },
     "odoo10-addon-account-bank-statement-import-camt": {
         "cmdline": [],
@@ -5827,6 +6027,15 @@
         ],
         "version": "10.0.1.0.0"
     },
+    "odoo10-addon-account-due-list-aging-comments": {
+        "cmdline": [],
+        "modules": [
+            "account_due_list_aging_comments",
+            "account_due_list_aging_comments.models",
+            "account_due_list_aging_comments.models.account_move_line"
+        ],
+        "version": "10.0.1.0.0.99.dev2"
+    },
     "odoo10-addon-account-financial-report-qweb": {
         "cmdline": [],
         "modules": [
@@ -5921,6 +6130,15 @@
             "account_invoice_fiscal_position_update.tests.test_inv_fiscal_pos_update"
         ],
         "version": "10.0.1.0.0.99.dev4"
+    },
+    "odoo10-addon-account-invoice-force-number": {
+        "cmdline": [],
+        "modules": [
+            "account_invoice_force_number",
+            "account_invoice_force_number.tests",
+            "account_invoice_force_number.tests.test_account_force_number"
+        ],
+        "version": "10.0.1.0.0.99.dev2"
     },
     "odoo10-addon-account-invoice-refund-link": {
         "cmdline": [],
@@ -6233,7 +6451,7 @@
             "auditlog.tests.test_auditlog",
             "auditlog.tests.test_autovacuum"
         ],
-        "version": "10.0.1.0.0.99.dev5"
+        "version": "10.0.1.0.0.99.dev6"
     },
     "odoo10-addon-auth-signup-verify-email": {
         "cmdline": [],
@@ -6244,7 +6462,19 @@
             "auth_signup_verify_email.tests",
             "auth_signup_verify_email.tests.test_verify_email"
         ],
-        "version": "10.0.1.0.0.99.dev3"
+        "version": "10.0.1.0.0.99.dev4"
+    },
+    "odoo10-addon-auth-user-case-insensitive": {
+        "cmdline": [],
+        "modules": [
+            "auth_user_case_insensitive",
+            "auth_user_case_insensitive.hooks",
+            "auth_user_case_insensitive.models",
+            "auth_user_case_insensitive.models.res_users",
+            "auth_user_case_insensitive.tests",
+            "auth_user_case_insensitive.tests.test_res_users"
+        ],
+        "version": "10.0.1.0.0.99.dev2"
     },
     "odoo10-addon-auto-backup": {
         "cmdline": [],
@@ -6255,7 +6485,7 @@
             "auto_backup.tests",
             "auto_backup.tests.test_db_backup"
         ],
-        "version": "10.0.1.0.2.99.dev3"
+        "version": "10.0.1.0.2.99.dev4"
     },
     "odoo10-addon-barcodes-generator-abstract": {
         "cmdline": [],
@@ -6265,7 +6495,7 @@
             "barcodes_generator_abstract.models.barcode_generate_mixin",
             "barcodes_generator_abstract.models.barcode_rule"
         ],
-        "version": "10.0.1.0.0.99.dev6"
+        "version": "10.0.1.0.0.99.dev7"
     },
     "odoo10-addon-barcodes-generator-location": {
         "cmdline": [],
@@ -6313,7 +6543,7 @@
             "barcodes_generator_partner.tests",
             "barcodes_generator_partner.tests.test_barcodes_generator_partner"
         ],
-        "version": "10.0.1.0.0.99.dev3"
+        "version": "10.0.1.0.0.99.dev4"
     },
     "odoo10-addon-barcodes-generator-product": {
         "cmdline": [],
@@ -6326,7 +6556,7 @@
             "barcodes_generator_product.tests",
             "barcodes_generator_product.tests.test_barcodes_generator_product"
         ],
-        "version": "10.0.1.0.0.99.dev1"
+        "version": "10.0.1.0.0.99.dev2"
     },
     "odoo10-addon-base-delivery-carrier-label": {
         "cmdline": [],
@@ -6358,7 +6588,7 @@
             "base_exception.wizard",
             "base_exception.wizard.base_exception_confirm"
         ],
-        "version": "10.0.1.0.0.99.dev6"
+        "version": "10.0.1.0.0.99.dev7"
     },
     "odoo10-addon-base-external-dbsource": {
         "cmdline": [],
@@ -6370,7 +6600,7 @@
             "base_external_dbsource.tests",
             "base_external_dbsource.tests.test_base_external_dbsource"
         ],
-        "version": "10.0.2.0.0.99.dev6"
+        "version": "10.0.2.0.0.99.dev7"
     },
     "odoo10-addon-base-external-dbsource-firebird": {
         "cmdline": [],
@@ -6381,7 +6611,7 @@
             "base_external_dbsource_firebird.tests",
             "base_external_dbsource_firebird.tests.test_base_external_dbsource"
         ],
-        "version": "10.0.1.0.0.99.dev4"
+        "version": "10.0.1.0.0.99.dev5"
     },
     "odoo10-addon-base-external-dbsource-mssql": {
         "cmdline": [],
@@ -6392,7 +6622,7 @@
             "base_external_dbsource_mssql.tests",
             "base_external_dbsource_mssql.tests.test_base_external_dbsource"
         ],
-        "version": "10.0.1.0.0.99.dev2"
+        "version": "10.0.1.0.0.99.dev3"
     },
     "odoo10-addon-base-external-dbsource-mysql": {
         "cmdline": [],
@@ -6403,7 +6633,7 @@
             "base_external_dbsource_mysql.tests",
             "base_external_dbsource_mysql.tests.test_base_external_dbsource"
         ],
-        "version": "10.0.1.0.0.99.dev2"
+        "version": "10.0.1.0.0.99.dev3"
     },
     "odoo10-addon-base-external-dbsource-odbc": {
         "cmdline": [],
@@ -6414,7 +6644,7 @@
             "base_external_dbsource_odbc.tests",
             "base_external_dbsource_odbc.tests.test_base_external_dbsource"
         ],
-        "version": "10.0.1.0.0.99.dev2"
+        "version": "10.0.1.0.0.99.dev3"
     },
     "odoo10-addon-base-external-dbsource-oracle": {
         "cmdline": [],
@@ -6423,7 +6653,7 @@
             "base_external_dbsource_oracle.models",
             "base_external_dbsource_oracle.models.base_external_dbsource"
         ],
-        "version": "10.0.1.0.0.99.dev2"
+        "version": "10.0.1.0.0.99.dev3"
     },
     "odoo10-addon-base-external-dbsource-sqlite": {
         "cmdline": [],
@@ -6434,7 +6664,7 @@
             "base_external_dbsource_sqlite.tests",
             "base_external_dbsource_sqlite.tests.test_base_external_dbsource"
         ],
-        "version": "10.0.1.0.0.99.dev2"
+        "version": "10.0.1.0.0.99.dev3"
     },
     "odoo10-addon-base-geoengine": {
         "cmdline": [],
@@ -6480,7 +6710,7 @@
             "base_kanban_stage.tests.test_base_kanban_abstract",
             "base_kanban_stage.tests.test_base_kanban_stage"
         ],
-        "version": "10.0.1.0.0.99.dev10"
+        "version": "10.0.1.0.0.99.dev11"
     },
     "odoo10-addon-base-kanban-stage-state": {
         "cmdline": [],
@@ -6527,7 +6757,7 @@
             "base_multi_image.models.image",
             "base_multi_image.models.owner"
         ],
-        "version": "10.0.1.0.0.99.dev8"
+        "version": "10.0.1.0.0.99.dev9"
     },
     "odoo10-addon-base-optional-quick-create": {
         "cmdline": [],
@@ -6536,7 +6766,7 @@
             "base_optional_quick_create.models",
             "base_optional_quick_create.models.ir_model"
         ],
-        "version": "10.0.1.0.0.99.dev2"
+        "version": "10.0.1.0.0.99.dev3"
     },
     "odoo10-addon-base-partner-sequence": {
         "cmdline": [],
@@ -6695,7 +6925,7 @@
             "base_user_role.tests",
             "base_user_role.tests.test_user_role"
         ],
-        "version": "10.0.1.0.0.99.dev3"
+        "version": "10.0.1.0.0.99.dev4"
     },
     "odoo10-addon-base-vat-sanitized": {
         "cmdline": [],
@@ -6773,7 +7003,7 @@
             "contract.tests",
             "contract.tests.test_contract"
         ],
-        "version": "10.0.1.0.1.99.dev2"
+        "version": "10.0.1.0.1.99.dev3"
     },
     "odoo10-addon-contract-show-invoice": {
         "cmdline": [],
@@ -6832,6 +7062,7 @@
             "crm_phonecall",
             "crm_phonecall.models",
             "crm_phonecall.models.calendar",
+            "crm_phonecall.models.crm_lead",
             "crm_phonecall.models.crm_phonecall",
             "crm_phonecall.models.res_partner",
             "crm_phonecall.report",
@@ -6841,7 +7072,7 @@
             "crm_phonecall.wizard",
             "crm_phonecall.wizard.crm_phonecall_to_phonecall"
         ],
-        "version": "10.0.1.0.0.99.dev2"
+        "version": "10.0.1.0.0.99.dev3"
     },
     "odoo10-addon-currency-rate-update": {
         "cmdline": [],
@@ -6862,6 +7093,15 @@
             "currency_rate_update.services.update_service_YAHOO"
         ],
         "version": "10.0.1.0.0.99.dev7"
+    },
+    "odoo10-addon-customer-pricing-in-product-view": {
+        "cmdline": [],
+        "modules": [
+            "customer_pricing_in_product_view",
+            "customer_pricing_in_product_view.models",
+            "customer_pricing_in_product_view.models.res_partner"
+        ],
+        "version": "10.0.1.0.0"
     },
     "odoo10-addon-date-range": {
         "cmdline": [],
@@ -7243,7 +7483,7 @@
             "keychain.tests",
             "keychain.tests.test_keychain"
         ],
-        "version": "10.0.1.0.0.99.dev1"
+        "version": "10.0.1.0.0.99.dev2"
     },
     "odoo10-addon-knowledge": {
         "cmdline": [],
@@ -7666,7 +7906,7 @@
         "modules": [
             "l10n_it_account"
         ],
-        "version": "10.0.1.0.0.99.dev2"
+        "version": "10.0.1.0.0.99.dev3"
     },
     "odoo10-addon-l10n-it-ateco": {
         "cmdline": [],
@@ -7676,7 +7916,7 @@
             "l10n_it_ateco.model.ateco",
             "l10n_it_ateco.model.partner"
         ],
-        "version": "10.0.1.0.0.99.dev5"
+        "version": "10.0.1.0.0.99.dev6"
     },
     "odoo10-addon-l10n-it-base-location-geonames-import": {
         "cmdline": [],
@@ -7704,7 +7944,7 @@
             "l10n_it_ddt.wizard.ddt_from_picking",
             "l10n_it_ddt.wizard.ddt_invoicing"
         ],
-        "version": "10.0.1.2.3.99.dev1"
+        "version": "10.0.1.2.3.99.dev2"
     },
     "odoo10-addon-l10n-it-fiscalcode": {
         "cmdline": [],
@@ -7718,7 +7958,7 @@
             "l10n_it_fiscalcode.wizard",
             "l10n_it_fiscalcode.wizard.compute_fc"
         ],
-        "version": "10.0.1.0.0.99.dev16"
+        "version": "10.0.1.0.0.99.dev17"
     },
     "odoo10-addon-l10n-it-ipa": {
         "cmdline": [],
@@ -7727,7 +7967,7 @@
             "l10n_it_ipa.model",
             "l10n_it_ipa.model.partner"
         ],
-        "version": "10.0.1.0.0.99.dev1"
+        "version": "10.0.1.0.0.99.dev2"
     },
     "odoo10-addon-l10n-it-pec": {
         "cmdline": [],
@@ -7736,7 +7976,7 @@
             "l10n_it_pec.models",
             "l10n_it_pec.models.partner"
         ],
-        "version": "10.0.1.0.0.99.dev4"
+        "version": "10.0.1.0.0.99.dev5"
     },
     "odoo10-addon-l10n-it-rea": {
         "cmdline": [],
@@ -7745,7 +7985,7 @@
             "l10n_it_rea.models",
             "l10n_it_rea.models.res_partner"
         ],
-        "version": "10.0.1.0.0.99.dev2"
+        "version": "10.0.1.0.0.99.dev3"
     },
     "odoo10-addon-l10n-it-ricevute-bancarie": {
         "cmdline": [],
@@ -7769,7 +8009,7 @@
             "l10n_it_ricevute_bancarie.wizard.wizard_riba_issue",
             "l10n_it_ricevute_bancarie.wizard.wizard_unsolved"
         ],
-        "version": "10.0.0.1.3.99.dev1"
+        "version": "10.0.0.1.3.99.dev2"
     },
     "odoo10-addon-l10n-it-split-payment": {
         "cmdline": [],
@@ -7781,7 +8021,7 @@
             "l10n_it_split_payment.tests",
             "l10n_it_split_payment.tests.test_splitpayment"
         ],
-        "version": "10.0.1.0.0.99.dev4"
+        "version": "10.0.1.0.0.99.dev5"
     },
     "odoo10-addon-l10n-it-vat-registries": {
         "cmdline": [],
@@ -7797,7 +8037,7 @@
             "l10n_it_vat_registries.wizard",
             "l10n_it_vat_registries.wizard.print_registro_iva"
         ],
-        "version": "10.0.1.0.1"
+        "version": "10.0.1.0.1.99.dev1"
     },
     "odoo10-addon-l10n-lu-mis-reports": {
         "cmdline": [],
@@ -7919,6 +8159,20 @@
         ],
         "version": "10.0.1.0.0"
     },
+    "odoo10-addon-mail-optional-follower-notification": {
+        "cmdline": [],
+        "modules": [
+            "mail_optional_follower_notification",
+            "mail_optional_follower_notification.models",
+            "mail_optional_follower_notification.models.mail_message",
+            "mail_optional_follower_notification.models.res_partner",
+            "mail_optional_follower_notification.tests",
+            "mail_optional_follower_notification.tests.test_mail_optional_follower_notifications",
+            "mail_optional_follower_notification.wizard",
+            "mail_optional_follower_notification.wizard.mail_compose_message"
+        ],
+        "version": "10.0.1.0.0.99.dev1"
+    },
     "odoo10-addon-mail-restrict-follower-selection": {
         "cmdline": [],
         "modules": [
@@ -7967,13 +8221,14 @@
             "mass_editing",
             "mass_editing.hooks",
             "mass_editing.models",
+            "mass_editing.models.ir_model_fields",
             "mass_editing.models.mass_object",
             "mass_editing.tests",
             "mass_editing.tests.test_mass_editing",
             "mass_editing.wizard",
             "mass_editing.wizard.mass_editing_wizard"
         ],
-        "version": "10.0.1.0.0.99.dev6"
+        "version": "10.0.1.0.0.99.dev8"
     },
     "odoo10-addon-mass-sorting": {
         "cmdline": [],
@@ -7985,7 +8240,7 @@
             "mass_sorting.models.mass_sort_wizard",
             "mass_sorting.models.mass_sort_wizard_line"
         ],
-        "version": "10.0.1.0.0.99.dev5"
+        "version": "10.0.1.0.0.99.dev6"
     },
     "odoo10-addon-medical": {
         "cmdline": [],
@@ -8363,7 +8618,7 @@
             "printer_zpl2.wizard",
             "printer_zpl2.wizard.print_record_label"
         ],
-        "version": "10.0.1.0.0"
+        "version": "10.0.1.0.0.99.dev1"
     },
     "odoo10-addon-procurement-operating-unit": {
         "cmdline": [],
@@ -8379,7 +8634,7 @@
             "product_brand.models",
             "product_brand.models.product_brand"
         ],
-        "version": "10.0.1.0.0.99.dev5"
+        "version": "10.0.1.0.0.99.dev7"
     },
     "odoo10-addon-product-by-supplier": {
         "cmdline": [],
@@ -8443,6 +8698,19 @@
         ],
         "version": "10.0.1.0.0.99.dev1"
     },
+    "odoo10-addon-product-pricelist-tier": {
+        "cmdline": [],
+        "modules": [
+            "product_pricelist_tier",
+            "product_pricelist_tier.hooks",
+            "product_pricelist_tier.models",
+            "product_pricelist_tier.models.product_pricelist_item",
+            "product_pricelist_tier.tests",
+            "product_pricelist_tier.tests.test_hooks",
+            "product_pricelist_tier.tests.test_product_pricelist_item"
+        ],
+        "version": "10.0.1.0.0"
+    },
     "odoo10-addon-product-sequence": {
         "cmdline": [],
         "modules": [
@@ -8454,6 +8722,28 @@
             "product_sequence.tests.test_product_sequence"
         ],
         "version": "10.0.1.0.0.99.dev7"
+    },
+    "odoo10-addon-product-service-duration": {
+        "cmdline": [],
+        "modules": [
+            "product_service_duration",
+            "product_service_duration.models",
+            "product_service_duration.models.calendar_event",
+            "product_service_duration.models.product_product",
+            "product_service_duration.tests",
+            "product_service_duration.tests.test_calendar_event",
+            "product_service_duration.tests.test_product_product"
+        ],
+        "version": "10.0.1.0.0"
+    },
+    "odoo10-addon-product-state": {
+        "cmdline": [],
+        "modules": [
+            "product_state",
+            "product_state.models",
+            "product_state.models.product_template"
+        ],
+        "version": "10.0.1.0.0"
     },
     "odoo10-addon-product-uom": {
         "cmdline": [],
@@ -8593,7 +8883,7 @@
             "project_timesheet_time_control.tests",
             "project_timesheet_time_control.tests.test_project_timesheet_time_control"
         ],
-        "version": "10.0.1.0.0"
+        "version": "10.0.1.0.0.99.dev1"
     },
     "odoo10-addon-purchase-fiscal-position-update": {
         "cmdline": [],
@@ -8720,7 +9010,7 @@
             "report_wkhtmltopdf_param.tests",
             "report_wkhtmltopdf_param.tests.test_report_paperformat"
         ],
-        "version": "10.0.1.0.1"
+        "version": "10.0.1.0.1.99.dev1"
     },
     "odoo10-addon-report-xlsx": {
         "cmdline": [],
@@ -8747,7 +9037,7 @@
             "sale_automatic_workflow.tests",
             "sale_automatic_workflow.tests.test_flow"
         ],
-        "version": "10.0.1.0.0.99.dev6"
+        "version": "10.0.1.0.0.99.dev7"
     },
     "odoo10-addon-sale-exception": {
         "cmdline": [],
@@ -8760,7 +9050,7 @@
             "sale_exception.wizard",
             "sale_exception.wizard.sale_exception_confirm"
         ],
-        "version": "10.0.2.0.0.99.dev7"
+        "version": "10.0.2.0.0.99.dev8"
     },
     "odoo10-addon-sale-isolated-quotation": {
         "cmdline": [],
@@ -8772,7 +9062,7 @@
             "sale_isolated_quotation.tests",
             "sale_isolated_quotation.tests.test_sale_isolated_quotation"
         ],
-        "version": "10.0.1.0.0.99.dev3"
+        "version": "10.0.1.0.0.99.dev4"
     },
     "odoo10-addon-sale-operating-unit": {
         "cmdline": [],
@@ -8798,7 +9088,7 @@
             "sale_order_lot_generator.tests",
             "sale_order_lot_generator.tests.test_sale_order_lot_generator"
         ],
-        "version": "10.0.0.0.1.99.dev2"
+        "version": "10.0.0.0.1.99.dev3"
     },
     "odoo10-addon-sale-order-lot-selection": {
         "cmdline": [],
@@ -8811,7 +9101,7 @@
             "sale_order_lot_selection.tests",
             "sale_order_lot_selection.tests.test_sale_order_lot_selection"
         ],
-        "version": "10.0.1.0.0.99.dev1"
+        "version": "10.0.1.0.0.99.dev2"
     },
     "odoo10-addon-sale-order-variant-mgmt": {
         "cmdline": [],
@@ -8838,7 +9128,7 @@
             "sale_product_set.wizard",
             "sale_product_set.wizard.product_set_add"
         ],
-        "version": "10.0.1.0.0.99.dev1"
+        "version": "10.0.1.0.0.99.dev2"
     },
     "odoo10-addon-sale-product-set-layout": {
         "cmdline": [],
@@ -8850,6 +9140,30 @@
             "sale_product_set_layout.tests.test_product_set_layout",
             "sale_product_set_layout.wizard",
             "sale_product_set_layout.wizard.product_set_add"
+        ],
+        "version": "10.0.1.0.0.99.dev2"
+    },
+    "odoo10-addon-sale-rental": {
+        "cmdline": [],
+        "modules": [
+            "sale_rental",
+            "sale_rental.models",
+            "sale_rental.models.procurement_order",
+            "sale_rental.models.product",
+            "sale_rental.models.sale_order",
+            "sale_rental.models.sale_rental",
+            "sale_rental.models.stock",
+            "sale_rental.wizard",
+            "sale_rental.wizard.create_rental_product"
+        ],
+        "version": "10.0.1.0.0.99.dev1"
+    },
+    "odoo10-addon-sale-start-end-dates": {
+        "cmdline": [],
+        "modules": [
+            "sale_start_end_dates",
+            "sale_start_end_dates.models",
+            "sale_start_end_dates.models.sale"
         ],
         "version": "10.0.1.0.0.99.dev1"
     },
@@ -8877,7 +9191,7 @@
             "sale_validity.tests",
             "sale_validity.tests.test_sale_validity"
         ],
-        "version": "10.0.1.0.0.99.dev1"
+        "version": "10.0.1.0.0.99.dev2"
     },
     "odoo10-addon-sales-team-operating-unit": {
         "cmdline": [],
@@ -8921,7 +9235,7 @@
             "stock_available.tests",
             "stock_available.tests.test_stock_available"
         ],
-        "version": "10.0.1.0.0"
+        "version": "10.0.1.0.0.99.dev1"
     },
     "odoo10-addon-stock-available-immediately": {
         "cmdline": [],
@@ -8971,7 +9285,7 @@
             "stock_picking_package_preparation.tests",
             "stock_picking_package_preparation.tests.test_package_preparation"
         ],
-        "version": "10.0.1.0.1"
+        "version": "10.0.1.0.1.99.dev1"
     },
     "odoo10-addon-stock-picking-package-preparation-line": {
         "cmdline": [],
@@ -8986,7 +9300,7 @@
             "stock_picking_package_preparation_line.tests",
             "stock_picking_package_preparation_line.tests.test_package_preparation_line"
         ],
-        "version": "10.0.1.0.1"
+        "version": "10.0.1.0.1.99.dev1"
     },
     "odoo10-addon-stock-picking-show-return": {
         "cmdline": [],
@@ -9052,7 +9366,7 @@
             "users_ldap_mail.models",
             "users_ldap_mail.models.users_ldap_model"
         ],
-        "version": "10.0.1.0.0.99.dev1"
+        "version": "10.0.1.0.0.99.dev2"
     },
     "odoo10-addon-users-ldap-populate": {
         "cmdline": [],
@@ -9148,7 +9462,7 @@
         "modules": [
             "web_responsive"
         ],
-        "version": "10.0.1.0.0.99.dev13"
+        "version": "10.0.1.0.0.99.dev14"
     },
     "odoo10-addon-web-search-with-and": {
         "cmdline": [],
@@ -9225,7 +9539,7 @@
         "modules": [
             "website_crm_recaptcha"
         ],
-        "version": "10.0.1.0.0.99.dev1"
+        "version": "10.0.1.0.0.99.dev2"
     },
     "odoo10-addon-website-field-autocomplete": {
         "cmdline": [],
@@ -9234,7 +9548,7 @@
             "website_field_autocomplete.controllers",
             "website_field_autocomplete.controllers.main"
         ],
-        "version": "10.0.1.0.0.99.dev1"
+        "version": "10.0.1.0.0.99.dev2"
     },
     "odoo10-addon-website-form-recaptcha": {
         "cmdline": [],
@@ -9248,7 +9562,7 @@
             "website_form_recaptcha.tests",
             "website_form_recaptcha.tests.test_captcha"
         ],
-        "version": "10.0.1.0.0.99.dev2"
+        "version": "10.0.1.0.0.99.dev3"
     },
     "odoo10-addon-website-no-crawler": {
         "cmdline": [],
@@ -9433,7 +9747,7 @@
             "account_balance_reporting.wizard",
             "account_balance_reporting.wizard.wizard_print"
         ],
-        "version": "8.0.1.3.0.99.dev1"
+        "version": "8.0.1.3.0.99.dev2"
     },
     "odoo8-addon-account-balance-reporting-xls": {
         "cmdline": [],
@@ -9503,7 +9817,7 @@
             "account_bank_statement_import_mt940_base",
             "account_bank_statement_import_mt940_base.mt940"
         ],
-        "version": "8.0.1.1.1.99.dev1"
+        "version": "8.0.1.1.1.99.dev2"
     },
     "odoo8-addon-account-bank-statement-import-mt940-nl-ing": {
         "cmdline": [],
@@ -9839,7 +10153,7 @@
             "account_default_draft_move.tests",
             "account_default_draft_move.tests.test_account_default_draft_move"
         ],
-        "version": "8.0.1.0.0.99.dev12"
+        "version": "8.0.1.0.0.99.dev13"
     },
     "odoo8-addon-account-direct-debit": {
         "cmdline": [],
@@ -10163,6 +10477,15 @@
             "account_invoice_inter_company.tests.test_inter_company_invoice"
         ],
         "version": "8.0.1.0.0.99.dev26"
+    },
+    "odoo8-addon-account-invoice-kanban": {
+        "cmdline": [],
+        "modules": [
+            "account_invoice_kanban",
+            "account_invoice_kanban.models",
+            "account_invoice_kanban.models.account_invoice"
+        ],
+        "version": "8.0.1.0.0.99.dev5"
     },
     "odoo8-addon-account-invoice-line-description": {
         "cmdline": [],
@@ -10528,7 +10851,7 @@
         "modules": [
             "account_move_line_product"
         ],
-        "version": "8.0.1.0.0.99.dev3"
+        "version": "8.0.1.0.0.99.dev4"
     },
     "odoo8-addon-account-move-line-report-xls": {
         "cmdline": [],
@@ -11153,7 +11476,7 @@
             "attachment_metadata.models",
             "attachment_metadata.models.attachment"
         ],
-        "version": "8.0.1.0.0.99.dev32"
+        "version": "8.0.1.0.0.99.dev33"
     },
     "odoo8-addon-attachment-preview": {
         "cmdline": [],
@@ -11187,7 +11510,7 @@
             "auditlog.tests.test_auditlog",
             "auditlog.tests.test_autovacuum"
         ],
-        "version": "8.0.1.3.0.99.dev30"
+        "version": "8.0.1.3.0.99.dev31"
     },
     "odoo8-addon-auth-admin-passkey": {
         "cmdline": [],
@@ -11211,7 +11534,7 @@
             "auth_brute_force.models.res_authentication_attempt",
             "auth_brute_force.models.res_banned_remote"
         ],
-        "version": "8.0.1.0.0.99.dev35"
+        "version": "8.0.1.0.0.99.dev36"
     },
     "odoo8-addon-auth-dynamic-groups": {
         "cmdline": [],
@@ -11268,7 +11591,7 @@
             "auto_backup.tests",
             "auto_backup.tests.test_auto_backup"
         ],
-        "version": "8.0.1.0.3.99.dev2"
+        "version": "8.0.1.0.3.99.dev3"
     },
     "odoo8-addon-base-bank-account-number-unique": {
         "cmdline": [],
@@ -11509,7 +11832,7 @@
             "base_import_match.tests",
             "base_import_match.tests.test_import"
         ],
-        "version": "8.0.1.0.1.99.dev12"
+        "version": "8.0.1.0.1.99.dev13"
     },
     "odoo8-addon-base-import-security-group": {
         "cmdline": [],
@@ -11621,7 +11944,7 @@
             "base_multi_image.models.image",
             "base_multi_image.models.owner"
         ],
-        "version": "8.0.2.0.0.99.dev28"
+        "version": "8.0.2.0.0.99.dev29"
     },
     "odoo8-addon-base-name-search-improved": {
         "cmdline": [],
@@ -11632,7 +11955,7 @@
             "base_name_search_improved.tests",
             "base_name_search_improved.tests.test_name_search"
         ],
-        "version": "8.0.1.0.1.99.dev11"
+        "version": "8.0.1.0.1.99.dev12"
     },
     "odoo8-addon-base-optional-quick-create": {
         "cmdline": [],
@@ -11709,7 +12032,7 @@
             "base_report_to_printer.wizard",
             "base_report_to_printer.wizard.update_printers"
         ],
-        "version": "8.0.0.2.0.99.dev20"
+        "version": "8.0.0.2.0.99.dev21"
     },
     "odoo8-addon-base-search-fuzzy": {
         "cmdline": [],
@@ -11901,7 +12224,7 @@
             "business_requirement_deliverable.tests",
             "business_requirement_deliverable.tests.test_br"
         ],
-        "version": "8.0.5.0.1.99.dev1"
+        "version": "8.0.5.0.1.99.dev2"
     },
     "odoo8-addon-business-requirement-deliverable-categ": {
         "cmdline": [],
@@ -11923,7 +12246,7 @@
             "business_requirement_deliverable_cost.tests",
             "business_requirement_deliverable_cost.tests.test_br"
         ],
-        "version": "8.0.2.0.0.99.dev6"
+        "version": "8.0.2.0.0.99.dev7"
     },
     "odoo8-addon-business-requirement-deliverable-crm": {
         "cmdline": [],
@@ -11962,7 +12285,7 @@
             "business_requirement_deliverable_project.wizard",
             "business_requirement_deliverable_project.wizard.generate_projects"
         ],
-        "version": "8.0.4.0.5.99.dev9"
+        "version": "8.0.4.0.6"
     },
     "odoo8-addon-business-requirement-deliverable-project-categ": {
         "cmdline": [],
@@ -11982,7 +12305,7 @@
             "business_requirement_deliverable_project_task_categ.wizard",
             "business_requirement_deliverable_project_task_categ.wizard.generate_projects"
         ],
-        "version": "8.0.1.0.1.99.dev1"
+        "version": "8.0.1.0.2"
     },
     "odoo8-addon-business-requirement-deliverable-report": {
         "cmdline": [],
@@ -12001,7 +12324,16 @@
             "business_requirement_deliverable_resource_template.tests",
             "business_requirement_deliverable_resource_template.tests.test_br_resource_template"
         ],
-        "version": "8.0.1.0.0.99.dev2"
+        "version": "8.0.1.0.1"
+    },
+    "odoo8-addon-business-requirement-deliverable-resource-template-categ": {
+        "cmdline": [],
+        "modules": [
+            "business_requirement_deliverable_resource_template_categ",
+            "business_requirement_deliverable_resource_template_categ.models",
+            "business_requirement_deliverable_resource_template_categ.models.business_requirement_resource_template"
+        ],
+        "version": "8.0.1.0.0"
     },
     "odoo8-addon-business-requirement-earned-value": {
         "cmdline": [],
@@ -12813,7 +13145,7 @@
             "crm_rma_lot_mass_return.wizards",
             "crm_rma_lot_mass_return.wizards.returned_lines_from_serial"
         ],
-        "version": "8.0.1.0.0.99.dev30"
+        "version": "8.0.1.0.0.99.dev31"
     },
     "odoo8-addon-crm-rma-prodlot-invoice": {
         "cmdline": [],
@@ -12859,7 +13191,7 @@
             "crm_rma_stock_location.wizards.claim_make_picking",
             "crm_rma_stock_location.wizards.claim_make_picking_from_picking"
         ],
-        "version": "8.0.1.0.0.99.dev22"
+        "version": "8.0.1.0.0.99.dev23"
     },
     "odoo8-addon-crm-sale-marketing": {
         "cmdline": [],
@@ -13036,7 +13368,7 @@
             "dead_mans_switch_server.tests",
             "dead_mans_switch_server.tests.test_dead_mans_switch_server"
         ],
-        "version": "8.0.1.0.0.99.dev37"
+        "version": "8.0.1.0.0.99.dev38"
     },
     "odoo8-addon-delivery-carrier-b2c": {
         "cmdline": [],
@@ -13561,7 +13893,7 @@
             "fetchmail_attach_from_folder.wizard",
             "fetchmail_attach_from_folder.wizard.attach_mail_manually"
         ],
-        "version": "8.0.1.0.1.99.dev29"
+        "version": "8.0.1.0.1.99.dev30"
     },
     "odoo8-addon-fetchmail-notify-error-to-sender": {
         "cmdline": [],
@@ -13614,7 +13946,7 @@
             "framework_agreement.tests.test_on_change",
             "framework_agreement.tests.test_price_list"
         ],
-        "version": "8.0.2.0.0.99.dev26"
+        "version": "8.0.2.0.0.99.dev27"
     },
     "odoo8-addon-framework-agreement-department": {
         "cmdline": [],
@@ -13776,7 +14108,7 @@
             "help_online.tests",
             "help_online.tests.test_export_help_wizard"
         ],
-        "version": "8.0.1.0.0.99.dev29"
+        "version": "8.0.1.0.0.99.dev30"
     },
     "odoo8-addon-help-popup": {
         "cmdline": [],
@@ -15081,7 +15413,7 @@
             "l10n_ch_fds_postfinance.wizards.fds_key_generator_wizard",
             "l10n_ch_fds_postfinance.wizards.fds_key_import_wizard"
         ],
-        "version": "8.0.1.0.1.99.dev20"
+        "version": "8.0.1.0.1.99.dev21"
     },
     "odoo8-addon-l10n-ch-fds-upload-dd": {
         "cmdline": [],
@@ -15093,7 +15425,7 @@
             "l10n_ch_fds_upload_dd.wizards",
             "l10n_ch_fds_upload_dd.wizards.fds_inherit_post_dd_export_upload_wizard"
         ],
-        "version": "8.0.1.0.1.99.dev13"
+        "version": "8.0.1.0.1.99.dev14"
     },
     "odoo8-addon-l10n-ch-fds-upload-sepa": {
         "cmdline": [],
@@ -15105,7 +15437,7 @@
             "l10n_ch_fds_upload_sepa.wizards",
             "l10n_ch_fds_upload_sepa.wizards.fds_inherit_sepa_wizard"
         ],
-        "version": "8.0.1.0.1.99.dev14"
+        "version": "8.0.1.0.1.99.dev15"
     },
     "odoo8-addon-l10n-ch-hr-payroll": {
         "cmdline": [],
@@ -15119,7 +15451,7 @@
             "l10n_ch_hr_payroll.models.hr_payslip",
             "l10n_ch_hr_payroll.models.invoices"
         ],
-        "version": "8.0.1.2.0.99.dev18"
+        "version": "8.0.1.2.0.99.dev19"
     },
     "odoo8-addon-l10n-ch-import-cresus": {
         "cmdline": [],
@@ -15147,7 +15479,7 @@
             "l10n_ch_lsv_dd.wizard.invoice_free_wizard",
             "l10n_ch_lsv_dd.wizard.lsv_export_wizard"
         ],
-        "version": "8.0.1.0.0.99.dev46"
+        "version": "8.0.1.0.0.99.dev47"
     },
     "odoo8-addon-l10n-ch-payment-slip": {
         "cmdline": [],
@@ -15325,7 +15657,7 @@
             "l10n_es_account_financial_report.wizard",
             "l10n_es_account_financial_report.wizard.wizard_print_journal_entries"
         ],
-        "version": "8.0.1.0.0.99.dev4"
+        "version": "8.0.1.0.0.99.dev5"
     },
     "odoo8-addon-l10n-es-account-financial-report-xlsx": {
         "cmdline": [],
@@ -15371,7 +15703,7 @@
             "l10n_es_aeat.wizard",
             "l10n_es_aeat.wizard.export_to_boe"
         ],
-        "version": "8.0.1.9.1.99.dev1"
+        "version": "8.0.1.9.1.99.dev2"
     },
     "odoo8-addon-l10n-es-aeat-mod111": {
         "cmdline": [],
@@ -15380,7 +15712,7 @@
             "l10n_es_aeat_mod111.models",
             "l10n_es_aeat_mod111.models.mod111"
         ],
-        "version": "8.0.2.1.0.99.dev1"
+        "version": "8.0.2.1.0.99.dev2"
     },
     "odoo8-addon-l10n-es-aeat-mod115": {
         "cmdline": [],
@@ -15391,7 +15723,7 @@
             "l10n_es_aeat_mod115.wizard",
             "l10n_es_aeat_mod115.wizard.export_mod115_to_boe"
         ],
-        "version": "8.0.1.3.0.99.dev3"
+        "version": "8.0.1.3.0.99.dev4"
     },
     "odoo8-addon-l10n-es-aeat-mod130": {
         "cmdline": [],
@@ -15402,7 +15734,7 @@
             "l10n_es_aeat_mod130.wizard",
             "l10n_es_aeat_mod130.wizard.export_mod130_to_boe"
         ],
-        "version": "8.0.0.9.0.99.dev2"
+        "version": "8.0.0.9.0.99.dev3"
     },
     "odoo8-addon-l10n-es-aeat-mod216": {
         "cmdline": [],
@@ -15415,7 +15747,7 @@
             "l10n_es_aeat_mod216.wizard",
             "l10n_es_aeat_mod216.wizard.export_mod216_to_boe"
         ],
-        "version": "8.0.1.3.0.99.dev1"
+        "version": "8.0.1.3.0.99.dev2"
     },
     "odoo8-addon-l10n-es-aeat-mod296": {
         "cmdline": [],
@@ -15426,7 +15758,7 @@
             "l10n_es_aeat_mod296.wizard",
             "l10n_es_aeat_mod296.wizard.export_mod296_to_boe"
         ],
-        "version": "8.0.1.3.0.99.dev1"
+        "version": "8.0.1.3.0.99.dev2"
     },
     "odoo8-addon-l10n-es-aeat-mod303": {
         "cmdline": [],
@@ -15437,7 +15769,7 @@
             "l10n_es_aeat_mod303.tests",
             "l10n_es_aeat_mod303.tests.test_l10n_es_aeat_mod303"
         ],
-        "version": "8.0.1.10.0.99.dev2"
+        "version": "8.0.1.10.0.99.dev3"
     },
     "odoo8-addon-l10n-es-aeat-mod340": {
         "cmdline": [],
@@ -15453,7 +15785,7 @@
             "l10n_es_aeat_mod340.wizard.export_mod340_to_boe",
             "l10n_es_aeat_mod340.wizard.wizard_update_charts_accounts"
         ],
-        "version": "8.0.2.5.0.99.dev2"
+        "version": "8.0.2.5.0.99.dev3"
     },
     "odoo8-addon-l10n-es-aeat-mod340-cash-basis": {
         "cmdline": [],
@@ -15488,7 +15820,7 @@
             "l10n_es_aeat_mod347.wizard",
             "l10n_es_aeat_mod347.wizard.export_mod347_to_boe"
         ],
-        "version": "8.0.1.5.0.99.dev2"
+        "version": "8.0.1.5.0.99.dev3"
     },
     "odoo8-addon-l10n-es-aeat-mod349": {
         "cmdline": [],
@@ -15501,7 +15833,7 @@
             "l10n_es_aeat_mod349.wizard",
             "l10n_es_aeat_mod349.wizard.export_mod349_to_boe"
         ],
-        "version": "8.0.2.2.0.99.dev26"
+        "version": "8.0.2.2.0.99.dev27"
     },
     "odoo8-addon-l10n-es-aeat-vat-prorrate": {
         "cmdline": [],
@@ -15562,7 +15894,7 @@
             "l10n_es_fiscal_year_closing.wizard",
             "l10n_es_fiscal_year_closing.wizard.wizard_run"
         ],
-        "version": "8.0.1.0.0.99.dev18"
+        "version": "8.0.1.0.0.99.dev19"
     },
     "odoo8-addon-l10n-es-irnr": {
         "cmdline": [],
@@ -15643,7 +15975,7 @@
             "l10n_es_pos.models.pos_config",
             "l10n_es_pos.models.pos_order"
         ],
-        "version": "8.0.1.0.0.99.dev9"
+        "version": "8.0.1.0.0.99.dev10"
     },
     "odoo8-addon-l10n-es-subcontractor-certificate": {
         "cmdline": [],
@@ -16410,7 +16742,7 @@
             "l10n_ro_siruta.models.res_partner",
             "l10n_ro_siruta.models.siruta"
         ],
-        "version": "8.0.1.0.0.99.dev22"
+        "version": "8.0.1.0.0.99.dev23"
     },
     "odoo8-addon-l10n-ro-vat-on-payment": {
         "cmdline": [],
@@ -16683,7 +17015,7 @@
             "magentoerpconnect.unit.import_synchronizer",
             "magentoerpconnect.unit.mapper"
         ],
-        "version": "8.0.3.0.0.99.dev85"
+        "version": "8.0.3.0.0.99.dev89"
     },
     "odoo8-addon-magentoerpconnect-pricing": {
         "cmdline": [],
@@ -16756,7 +17088,7 @@
             "mail_follower_custom_notification.wizards",
             "mail_follower_custom_notification.wizards.mail_subtype_assign_custom_notifications"
         ],
-        "version": "8.0.1.0.0.99.dev20"
+        "version": "8.0.1.0.0.99.dev21"
     },
     "odoo8-addon-mail-footer-notified-partners": {
         "cmdline": [],
@@ -16779,14 +17111,14 @@
             "mail_forward.tests",
             "mail_forward.tests.test_compose_message"
         ],
-        "version": "8.0.7.0.0.99.dev26"
+        "version": "8.0.7.0.0.99.dev27"
     },
     "odoo8-addon-mail-full-expand": {
         "cmdline": [],
         "modules": [
             "mail_full_expand"
         ],
-        "version": "8.0.3.0.0.99.dev13"
+        "version": "8.0.3.0.0.99.dev14"
     },
     "odoo8-addon-mail-mandrill": {
         "cmdline": [],
@@ -16801,7 +17133,7 @@
             "mail_mandrill.tests",
             "mail_mandrill.tests.test_mail_mandrill"
         ],
-        "version": "8.0.1.0.0.99.dev23"
+        "version": "8.0.1.0.0.99.dev24"
     },
     "odoo8-addon-mail-notification-email-template": {
         "cmdline": [],
@@ -16838,14 +17170,14 @@
             "mail_optional_follower_notification.wizard",
             "mail_optional_follower_notification.wizard.mail_compose_message"
         ],
-        "version": "8.0.1.0.0.99.dev6"
+        "version": "8.0.1.0.0.99.dev7"
     },
     "odoo8-addon-mail-print": {
         "cmdline": [],
         "modules": [
             "mail_print"
         ],
-        "version": "8.0.1.0.0.99.dev11"
+        "version": "8.0.1.0.0.99.dev12"
     },
     "odoo8-addon-mail-read-new-window": {
         "cmdline": [],
@@ -16901,7 +17233,7 @@
             "mail_tracking.tests",
             "mail_tracking.tests.test_mail_tracking"
         ],
-        "version": "8.0.4.0.0.99.dev20"
+        "version": "8.0.4.0.0.99.dev21"
     },
     "odoo8-addon-mail-tracking-mailgun": {
         "cmdline": [],
@@ -16913,7 +17245,7 @@
             "mail_tracking_mailgun.tests",
             "mail_tracking_mailgun.tests.test_mailgun"
         ],
-        "version": "8.0.1.0.0.99.dev7"
+        "version": "8.0.1.0.0.99.dev8"
     },
     "odoo8-addon-mail-tracking-mass-mailing": {
         "cmdline": [],
@@ -16930,7 +17262,7 @@
             "mail_tracking_mass_mailing.tests",
             "mail_tracking_mass_mailing.tests.test_mass_mailing"
         ],
-        "version": "8.0.1.0.1.99.dev9"
+        "version": "8.0.1.0.1.99.dev10"
     },
     "odoo8-addon-marketing-crm-partner": {
         "cmdline": [],
@@ -16995,7 +17327,7 @@
             "mass_mailing_custom_unsubscribe.tests.test_mail_mail",
             "mass_mailing_custom_unsubscribe.tests.test_unsubscription"
         ],
-        "version": "8.0.2.1.0.99.dev5"
+        "version": "8.0.2.1.0.99.dev6"
     },
     "odoo8-addon-mass-mailing-event": {
         "cmdline": [],
@@ -17054,7 +17386,7 @@
             "mass_mailing_sending_queue.tests",
             "mass_mailing_sending_queue.tests.test_mass_mailing_sending"
         ],
-        "version": "8.0.1.0.0.99.dev10"
+        "version": "8.0.1.0.0.99.dev11"
     },
     "odoo8-addon-mass-mailing-statistic-extra": {
         "cmdline": [],
@@ -17066,7 +17398,7 @@
             "mass_mailing_statistic_extra.tests",
             "mass_mailing_statistic_extra.tests.test_mail_mail"
         ],
-        "version": "8.0.1.0.0.99.dev12"
+        "version": "8.0.1.0.0.99.dev13"
     },
     "odoo8-addon-mass-mailing-unique": {
         "cmdline": [],
@@ -17315,7 +17647,7 @@
             "membership_extension.tests",
             "membership_extension.tests.test_membership"
         ],
-        "version": "8.0.1.0.1.99.dev1"
+        "version": "8.0.1.0.1.99.dev2"
     },
     "odoo8-addon-membership-initial-fee": {
         "cmdline": [],
@@ -17577,7 +17909,7 @@
             "module_prototyper.wizard",
             "module_prototyper.wizard.module_prototyper_module_export"
         ],
-        "version": "8.0.0.3.0.99.dev33"
+        "version": "8.0.0.3.0.99.dev34"
     },
     "odoo8-addon-mrp-analytic": {
         "cmdline": [],
@@ -17615,7 +17947,7 @@
             "mrp_bom_reference_selection.wizards",
             "mrp_bom_reference_selection.wizards.mrp_product_produce"
         ],
-        "version": "8.0.1.1.0.99.dev33"
+        "version": "8.0.1.1.0.99.dev34"
     },
     "odoo8-addon-mrp-bom-structure-xls": {
         "cmdline": [],
@@ -17684,7 +18016,7 @@
             "mrp_operations_extension.wizard.mrp_work_order_produce",
             "mrp_operations_extension.wizard.workcenter_line_finish"
         ],
-        "version": "8.0.2.0.0.99.dev53"
+        "version": "8.0.2.0.0.99.dev56"
     },
     "odoo8-addon-mrp-operations-project": {
         "cmdline": [],
@@ -17746,7 +18078,7 @@
             "mrp_production_estimated_cost.wizard",
             "mrp_production_estimated_cost.wizard.wiz_create_virtual_mo"
         ],
-        "version": "8.0.1.2.0.99.dev23"
+        "version": "8.0.1.2.0.99.dev24"
     },
     "odoo8-addon-mrp-production-note": {
         "cmdline": [],
@@ -17817,7 +18149,7 @@
             "mrp_repair_discount.tests",
             "mrp_repair_discount.tests.test_mrp_repair_discount"
         ],
-        "version": "8.0.1.0.0.99.dev7"
+        "version": "8.0.1.0.0.99.dev8"
     },
     "odoo8-addon-mrp-repair-layout": {
         "cmdline": [],
@@ -18357,7 +18689,7 @@
             "partner_prospect.tests",
             "partner_prospect.tests.test_partner_prospect"
         ],
-        "version": "8.0.1.0.0.99.dev16"
+        "version": "8.0.1.0.0.99.dev17"
     },
     "odoo8-addon-partner-relations": {
         "cmdline": [],
@@ -18490,7 +18822,7 @@
             "payment_redsys.models",
             "payment_redsys.models.redsys"
         ],
-        "version": "8.0.1.0.2.99.dev23"
+        "version": "8.0.1.0.2.99.dev24"
     },
     "odoo8-addon-picking-dispatch": {
         "cmdline": [],
@@ -18510,7 +18842,7 @@
             "picking_dispatch.wizard.dispatch_assign_picker",
             "picking_dispatch.wizard.dispatch_start"
         ],
-        "version": "8.0.1.2.3.99.dev32"
+        "version": "8.0.1.2.3.99.dev33"
     },
     "odoo8-addon-portal-partner-merge": {
         "cmdline": [],
@@ -18623,7 +18955,7 @@
             "pos_order_load.models",
             "pos_order_load.models.pos_order"
         ],
-        "version": "8.0.1.0.0.99.dev10"
+        "version": "8.0.1.0.0.99.dev11"
     },
     "odoo8-addon-pos-order-picking-link": {
         "cmdline": [],
@@ -18752,7 +19084,7 @@
             "procurement_batch_generator.wizard",
             "procurement_batch_generator.wizard.procurement_batch_generator"
         ],
-        "version": "8.0.0.1.0.99.dev22"
+        "version": "8.0.0.1.0.99.dev23"
     },
     "odoo8-addon-procurement-jit-assign-move": {
         "cmdline": [],
@@ -18820,7 +19152,7 @@
             "product_barcode_generator.tests.test_sequence_configured_on_company",
             "product_barcode_generator.tests.test_sequence_configured_on_product"
         ],
-        "version": "8.0.1.0.0.99.dev22"
+        "version": "8.0.1.0.0.99.dev23"
     },
     "odoo8-addon-product-brand": {
         "cmdline": [],
@@ -18837,7 +19169,7 @@
             "product_by_supplier.models",
             "product_by_supplier.models.product_supplierinfo"
         ],
-        "version": "8.0.1.0.0.99.dev26"
+        "version": "8.0.1.0.0.99.dev27"
     },
     "odoo8-addon-product-code-builder": {
         "cmdline": [],
@@ -18962,7 +19294,7 @@
             "product_multi_ean.tests",
             "product_multi_ean.tests.test_product_multi_ean"
         ],
-        "version": "8.0.1.0.0.99.dev20"
+        "version": "8.0.1.0.0.99.dev21"
     },
     "odoo8-addon-product-multi-image": {
         "cmdline": [],
@@ -19058,7 +19390,7 @@
             "product_supplierinfo_discount.tests",
             "product_supplierinfo_discount.tests.test_product_supplierinfo_discount"
         ],
-        "version": "8.0.1.0.0.99.dev23"
+        "version": "8.0.1.0.0.99.dev24"
     },
     "odoo8-addon-product-supplierinfo-for-customer": {
         "cmdline": [],
@@ -19128,7 +19460,7 @@
             "product_variant_available_in_pos.tests",
             "product_variant_available_in_pos.tests.test_product_variant_available_in_pos"
         ],
-        "version": "8.0.1.0.0.99.dev7"
+        "version": "8.0.1.0.0.99.dev8"
     },
     "odoo8-addon-product-variant-cost-price": {
         "cmdline": [],
@@ -19141,7 +19473,7 @@
             "product_variant_cost_price.tests",
             "product_variant_cost_price.tests.test_product_product"
         ],
-        "version": "8.0.1.0.0.99.dev28"
+        "version": "8.0.1.0.0.99.dev30"
     },
     "odoo8-addon-product-variant-csv-import": {
         "cmdline": [],
@@ -19149,7 +19481,7 @@
             "product_variant_csv_import",
             "product_variant_csv_import.product"
         ],
-        "version": "8.0.1.0.0.99.dev13"
+        "version": "8.0.1.0.0.99.dev14"
     },
     "odoo8-addon-product-variant-inactive": {
         "cmdline": [],
@@ -19169,7 +19501,7 @@
             "product_variant_sale_price.tests",
             "product_variant_sale_price.tests.test_product_product"
         ],
-        "version": "8.0.1.0.0.99.dev21"
+        "version": "8.0.1.0.0.99.dev22"
     },
     "odoo8-addon-product-variant-search-by-attribute": {
         "cmdline": [],
@@ -19181,7 +19513,7 @@
             "product_variant_search_by_attribute.tests",
             "product_variant_search_by_attribute.tests.test_search"
         ],
-        "version": "8.0.1.0.0.99.dev10"
+        "version": "8.0.1.0.0.99.dev11"
     },
     "odoo8-addon-product-variant-supplierinfo": {
         "cmdline": [],
@@ -19195,7 +19527,7 @@
             "product_variant_supplierinfo.tests.test_procurement",
             "product_variant_supplierinfo.tests.test_product_supplierinfo"
         ],
-        "version": "8.0.1.0.0.99.dev20"
+        "version": "8.0.1.0.0.99.dev21"
     },
     "odoo8-addon-product-variant-weight": {
         "cmdline": [],
@@ -19207,7 +19539,7 @@
             "product_variant_weight.tests",
             "product_variant_weight.tests.test_product_variant_weight"
         ],
-        "version": "8.0.1.0.0.99.dev17"
+        "version": "8.0.1.0.0.99.dev18"
     },
     "odoo8-addon-product-warranty": {
         "cmdline": [],
@@ -19220,7 +19552,7 @@
             "product_warranty.tests",
             "product_warranty.tests.test_product_warranty"
         ],
-        "version": "8.0.1.0.0.99.dev21"
+        "version": "8.0.1.0.0.99.dev22"
     },
     "odoo8-addon-product-weight": {
         "cmdline": [],
@@ -19287,7 +19619,7 @@
             "project_classification",
             "project_classification.project_classification"
         ],
-        "version": "8.0.1.0.0.99.dev34"
+        "version": "8.0.1.0.0.99.dev35"
     },
     "odoo8-addon-project-closing": {
         "cmdline": [],
@@ -19395,7 +19727,7 @@
             "project_model_to_task.action",
             "project_model_to_task.project"
         ],
-        "version": "8.0.0.5.0.99.dev13"
+        "version": "8.0.0.5.0.99.dev14"
     },
     "odoo8-addon-project-recalculate": {
         "cmdline": [],
@@ -19430,7 +19762,7 @@
             "project_sla.tests",
             "project_sla.tests.test_compute_sla_date"
         ],
-        "version": "8.0.1.0.0.99.dev27"
+        "version": "8.0.1.0.0.99.dev28"
     },
     "odoo8-addon-project-stage-closed": {
         "cmdline": [],
@@ -19447,7 +19779,7 @@
             "project_stage_state",
             "project_stage_state.project"
         ],
-        "version": "8.0.1.1.0.99.dev14"
+        "version": "8.0.1.1.0.99.dev15"
     },
     "odoo8-addon-project-stage-state-issue": {
         "cmdline": [],
@@ -19486,7 +19818,7 @@
             "project_task_category.models.project_category",
             "project_task_category.models.project_task_category"
         ],
-        "version": "8.0.1.0.1.99.dev12"
+        "version": "8.0.1.0.1.99.dev13"
     },
     "odoo8-addon-project-task-code": {
         "cmdline": [],
@@ -19514,7 +19846,7 @@
             "project_task_materials.models",
             "project_task_materials.models.project"
         ],
-        "version": "8.0.1.0.0.99.dev20"
+        "version": "8.0.1.0.0.99.dev21"
     },
     "odoo8-addon-project-task-materials-analytic-partner": {
         "cmdline": [],
@@ -19536,7 +19868,7 @@
             "project_task_materials_stock.tests",
             "project_task_materials_stock.tests.test_task_materials"
         ],
-        "version": "8.0.1.0.0.99.dev31"
+        "version": "8.0.1.0.0.99.dev32"
     },
     "odoo8-addon-project-task-reassign": {
         "cmdline": [],
@@ -19630,7 +19962,7 @@
             "purchase_discount.tests",
             "purchase_discount.tests.test_purchase_discount"
         ],
-        "version": "8.0.1.1.0.99.dev20"
+        "version": "8.0.1.1.0.99.dev21"
     },
     "odoo8-addon-purchase-fiscal-position-update": {
         "cmdline": [],
@@ -19649,7 +19981,7 @@
             "purchase_last_price_info.tests",
             "purchase_last_price_info.tests.test_purchase_last_price_info"
         ],
-        "version": "8.0.1.0.0.99.dev15"
+        "version": "8.0.1.0.0.99.dev16"
     },
     "odoo8-addon-purchase-order-import": {
         "cmdline": [],
@@ -19712,7 +20044,7 @@
             "purchase_order_type.models.purchase_order_type",
             "purchase_order_type.models.res_partner"
         ],
-        "version": "8.0.1.0.0.99.dev21"
+        "version": "8.0.1.0.0.99.dev22"
     },
     "odoo8-addon-purchase-order-ubl": {
         "cmdline": [],
@@ -19761,7 +20093,7 @@
             "purchase_partial_invoicing.wizard.po_line_cancel_quantity",
             "purchase_partial_invoicing.wizard.po_line_invoice"
         ],
-        "version": "8.0.0.1.2.99.dev16"
+        "version": "8.0.0.1.2.99.dev17"
     },
     "odoo8-addon-purchase-partner-invoice-method": {
         "cmdline": [],
@@ -19811,7 +20143,7 @@
             "purchase_request.tests",
             "purchase_request.tests.test_purchase_request"
         ],
-        "version": "8.0.1.0.0.99.dev24"
+        "version": "8.0.1.0.0.99.dev25"
     },
     "odoo8-addon-purchase-request-procurement": {
         "cmdline": [],
@@ -19837,7 +20169,7 @@
             "purchase_request_to_requisition.wizard",
             "purchase_request_to_requisition.wizard.purchase_request_line_make_purchase_requisition"
         ],
-        "version": "8.0.1.0.0.99.dev25"
+        "version": "8.0.1.0.0.99.dev26"
     },
     "odoo8-addon-purchase-request-to-rfq": {
         "cmdline": [],
@@ -19852,7 +20184,7 @@
             "purchase_request_to_rfq.wizard",
             "purchase_request_to_rfq.wizard.purchase_request_line_make_purchase_order"
         ],
-        "version": "8.0.1.0.0.99.dev44"
+        "version": "8.0.1.0.0.99.dev45"
     },
     "odoo8-addon-purchase-requisition-auto-rfq": {
         "cmdline": [],
@@ -19890,7 +20222,7 @@
             "purchase_requisition_bid_selection.wizard.update_bid_internal_remark",
             "purchase_requisition_bid_selection.wizard.update_remark"
         ],
-        "version": "8.0.2.1.0.99.dev25"
+        "version": "8.0.2.1.0.99.dev26"
     },
     "odoo8-addon-purchase-requisition-delivery-address": {
         "cmdline": [],
@@ -19918,7 +20250,7 @@
             "purchase_requisition_multicurrency.model.purchase_order",
             "purchase_requisition_multicurrency.model.purchase_requisition"
         ],
-        "version": "8.0.0.1.0.99.dev17"
+        "version": "8.0.0.1.0.99.dev18"
     },
     "odoo8-addon-purchase-requisition-transport-document": {
         "cmdline": [],
@@ -19949,7 +20281,7 @@
             "purchase_requisition_type.tests",
             "purchase_requisition_type.tests.test_prepare_purchase_order"
         ],
-        "version": "8.0.1.0.0.99.dev10"
+        "version": "8.0.1.0.0.99.dev11"
     },
     "odoo8-addon-purchase-rfq-bid-workflow": {
         "cmdline": [],
@@ -19964,7 +20296,7 @@
             "purchase_rfq_bid_workflow.wizard.action_cancel_reason",
             "purchase_rfq_bid_workflow.wizard.modal"
         ],
-        "version": "8.0.0.3.0.99.dev21"
+        "version": "8.0.0.3.0.99.dev22"
     },
     "odoo8-addon-purchase-rfq-number": {
         "cmdline": [],
@@ -20042,7 +20374,7 @@
             "quality_control.wizard",
             "quality_control.wizard.qc_test_wizard"
         ],
-        "version": "8.0.1.3.0.99.dev1"
+        "version": "8.0.1.3.0.99.dev2"
     },
     "odoo8-addon-quality-control-force-valid": {
         "cmdline": [],
@@ -20065,7 +20397,7 @@
             "quality_control_mrp.tests",
             "quality_control_mrp.tests.test_quality_control_mrp"
         ],
-        "version": "8.0.1.0.0.99.dev32"
+        "version": "8.0.1.0.0.99.dev33"
     },
     "odoo8-addon-quality-control-stock": {
         "cmdline": [],
@@ -20080,7 +20412,7 @@
             "quality_control_stock.tests",
             "quality_control_stock.tests.test_quality_control_stock"
         ],
-        "version": "8.0.1.0.1.99.dev28"
+        "version": "8.0.1.0.1.99.dev29"
     },
     "odoo8-addon-qweb-usertime": {
         "cmdline": [],
@@ -20348,7 +20680,7 @@
             "sale_cancel_reason.wizard",
             "sale_cancel_reason.wizard.cancel_reason"
         ],
-        "version": "8.0.1.1.0.99.dev27"
+        "version": "8.0.1.1.0.99.dev28"
     },
     "odoo8-addon-sale-change-price": {
         "cmdline": [],
@@ -20359,7 +20691,7 @@
             "sale_change_price.tests",
             "sale_change_price.tests.test_sale_change_price"
         ],
-        "version": "8.0.1.0.0.99.dev8"
+        "version": "8.0.1.0.0.99.dev10"
     },
     "odoo8-addon-sale-comment-template": {
         "cmdline": [],
@@ -20398,7 +20730,7 @@
             "sale_commission.wizard.wizard_invoice",
             "sale_commission.wizard.wizard_settle"
         ],
-        "version": "8.0.3.0.0.99.dev25"
+        "version": "8.0.3.0.0.99.dev27"
     },
     "odoo8-addon-sale-commission-formula": {
         "cmdline": [],
@@ -20422,7 +20754,7 @@
             "sale_commission_product.models.product",
             "sale_commission_product.models.sale_order"
         ],
-        "version": "8.0.1.0.0.99.dev16"
+        "version": "8.0.1.0.1.99.dev1"
     },
     "odoo8-addon-sale-department": {
         "cmdline": [],
@@ -20464,7 +20796,7 @@
             "sale_last_price_info.tests",
             "sale_last_price_info.tests.test_sale_last_price_info"
         ],
-        "version": "8.0.1.0.0.99.dev13"
+        "version": "8.0.1.0.0.99.dev14"
     },
     "odoo8-addon-sale-line-quantity-properties-based": {
         "cmdline": [],
@@ -20473,7 +20805,7 @@
             "sale_line_quantity_properties_based.product",
             "sale_line_quantity_properties_based.sale_order_line"
         ],
-        "version": "8.0.1.0.0.99.dev9"
+        "version": "8.0.1.0.0.99.dev10"
     },
     "odoo8-addon-sale-order-add-variants": {
         "cmdline": [],
@@ -20484,7 +20816,7 @@
             "sale_order_add_variants.wizard",
             "sale_order_add_variants.wizard.sale_add_variants"
         ],
-        "version": "8.0.0.1.0.99.dev17"
+        "version": "8.0.0.1.0.99.dev18"
     },
     "odoo8-addon-sale-order-back2draft": {
         "cmdline": [],
@@ -20493,7 +20825,7 @@
             "sale_order_back2draft.models",
             "sale_order_back2draft.models.sale_order"
         ],
-        "version": "8.0.1.0.0.99.dev9"
+        "version": "8.0.1.0.0.99.dev10"
     },
     "odoo8-addon-sale-order-calendar-event": {
         "cmdline": [],
@@ -20566,7 +20898,7 @@
             "sale_order_line_variant_description.tests",
             "sale_order_line_variant_description.tests.test_sale_order_line_variant_description"
         ],
-        "version": "8.0.1.0.0.99.dev12"
+        "version": "8.0.1.0.0.99.dev13"
     },
     "odoo8-addon-sale-order-lot-selection": {
         "cmdline": [],
@@ -20638,7 +20970,7 @@
             "sale_order_type.tests",
             "sale_order_type.tests.test_sale_order_type"
         ],
-        "version": "8.0.1.0.1.99.dev43"
+        "version": "8.0.1.0.1.99.dev44"
     },
     "odoo8-addon-sale-order-type-sale-journal": {
         "cmdline": [],
@@ -20707,7 +21039,7 @@
             "sale_packaging_price.tests",
             "sale_packaging_price.tests.test_sale_packaging_price"
         ],
-        "version": "8.0.1.0.0.99.dev32"
+        "version": "8.0.1.0.0.99.dev33"
     },
     "odoo8-addon-sale-partner-incoterm": {
         "cmdline": [],
@@ -20789,7 +21121,7 @@
             "sale_pricelist_discount.model.pricelist",
             "sale_pricelist_discount.model.sale"
         ],
-        "version": "8.0.1.0.0.99.dev6"
+        "version": "8.0.1.0.0.99.dev7"
     },
     "odoo8-addon-sale-procurement-group-by-line": {
         "cmdline": [],
@@ -20812,7 +21144,7 @@
             "sale_product_set.wizard",
             "sale_product_set.wizard.product_set_add"
         ],
-        "version": "8.0.1.0.0.99.dev19"
+        "version": "8.0.1.0.0.99.dev20"
     },
     "odoo8-addon-sale-product-set-layout": {
         "cmdline": [],
@@ -20879,7 +21211,7 @@
             "sale_quotation_sourcing.wizard",
             "sale_quotation_sourcing.wizard.quotation_sourcing"
         ],
-        "version": "8.0.0.3.1.99.dev24"
+        "version": "8.0.0.3.1.99.dev25"
     },
     "odoo8-addon-sale-quotation-sourcing-stock-route-transit": {
         "cmdline": [],
@@ -20910,7 +21242,7 @@
             "sale_rental.wizard",
             "sale_rental.wizard.create_rental_product"
         ],
-        "version": "8.0.0.1.0.99.dev25"
+        "version": "8.0.0.1.0.99.dev26"
     },
     "odoo8-addon-sale-service-fleet": {
         "cmdline": [],
@@ -20945,7 +21277,7 @@
             "sale_service_project.wizard",
             "sale_service_project.wizard.product_price_service"
         ],
-        "version": "8.0.1.1.1.99.dev24"
+        "version": "8.0.1.1.1.99.dev25"
     },
     "odoo8-addon-sale-sourced-by-line": {
         "cmdline": [],
@@ -21044,7 +21376,7 @@
             "sales_team_security.tests",
             "sales_team_security.tests.test_sales_team_security"
         ],
-        "version": "8.0.1.0.0.99.dev1"
+        "version": "8.0.1.0.0.99.dev2"
     },
     "odoo8-addon-save-translation-file": {
         "cmdline": [],
@@ -21108,7 +21440,7 @@
             "service_desk.analytic_contact",
             "service_desk.project"
         ],
-        "version": "8.0.1.1.0.99.dev19"
+        "version": "8.0.1.1.0.99.dev20"
     },
     "odoo8-addon-service-desk-issue": {
         "cmdline": [],
@@ -21264,7 +21596,7 @@
             "stock_available.models.product_template",
             "stock_available.models.res_config"
         ],
-        "version": "8.0.3.1.0.99.dev15"
+        "version": "8.0.3.1.0.99.dev16"
     },
     "odoo8-addon-stock-available-immediately": {
         "cmdline": [],
@@ -21276,7 +21608,7 @@
             "stock_available_immediately.tests",
             "stock_available_immediately.tests.test_stock_available_immediately"
         ],
-        "version": "8.0.2.0.1.99.dev15"
+        "version": "8.0.2.0.1.99.dev16"
     },
     "odoo8-addon-stock-available-mrp": {
         "cmdline": [],
@@ -21288,7 +21620,7 @@
             "stock_available_mrp.tests",
             "stock_available_mrp.tests.test_potential_qty"
         ],
-        "version": "8.0.3.1.1.99.dev9"
+        "version": "8.0.3.1.1.99.dev10"
     },
     "odoo8-addon-stock-available-sale": {
         "cmdline": [],
@@ -21300,7 +21632,7 @@
             "stock_available_sale.tests",
             "stock_available_sale.tests.test_quoted_qty"
         ],
-        "version": "8.0.3.0.0.99.dev17"
+        "version": "8.0.3.0.0.99.dev18"
     },
     "odoo8-addon-stock-available-unreserved": {
         "cmdline": [],
@@ -21311,7 +21643,7 @@
             "stock_available_unreserved.tests",
             "stock_available_unreserved.tests.test_stock_available_unreserved"
         ],
-        "version": "8.0.1.0.0.99.dev7"
+        "version": "8.0.1.0.0.99.dev8"
     },
     "odoo8-addon-stock-change-qty-reason": {
         "cmdline": [],
@@ -21357,7 +21689,7 @@
             "stock_dropshipping_dual_invoice.wizard",
             "stock_dropshipping_dual_invoice.wizard.stock_invoice_onshipping"
         ],
-        "version": "8.0.0.1.0.99.dev22"
+        "version": "8.0.0.1.0.99.dev23"
     },
     "odoo8-addon-stock-inventory-barcode": {
         "cmdline": [],
@@ -21366,7 +21698,7 @@
             "stock_inventory_barcode.wizard",
             "stock_inventory_barcode.wizard.stock_inventory_barcode"
         ],
-        "version": "8.0.0.1.0.99.dev15"
+        "version": "8.0.0.1.0.99.dev16"
     },
     "odoo8-addon-stock-inventory-hierarchical": {
         "cmdline": [],
@@ -21414,7 +21746,7 @@
             "stock_inventory_preparation_filter.tests",
             "stock_inventory_preparation_filter.tests.test_stock_inventory_preparation_filter"
         ],
-        "version": "8.0.1.0.0.99.dev19"
+        "version": "8.0.1.0.0.99.dev20"
     },
     "odoo8-addon-stock-inventory-revaluation": {
         "cmdline": [],
@@ -21430,7 +21762,7 @@
             "stock_inventory_revaluation.wizards.stock_inventory_revaluation_get_quants",
             "stock_inventory_revaluation.wizards.stock_inventory_revaluation_mass_post"
         ],
-        "version": "8.0.1.1.0.99.dev11"
+        "version": "8.0.1.1.0.99.dev12"
     },
     "odoo8-addon-stock-location-area-data": {
         "cmdline": [],
@@ -21447,7 +21779,7 @@
             "stock_location_area_management.models.res_company",
             "stock_location_area_management.models.stock_location"
         ],
-        "version": "8.0.0.1.0.99.dev16"
+        "version": "8.0.0.1.0.99.dev17"
     },
     "odoo8-addon-stock-location-ownership": {
         "cmdline": [],
@@ -21473,7 +21805,7 @@
             "stock_lock_lot.wizard",
             "stock_lock_lot.wizard.wiz_lock_lot"
         ],
-        "version": "8.0.1.1.0.99.dev30"
+        "version": "8.0.1.1.0.99.dev31"
     },
     "odoo8-addon-stock-lot-quantity": {
         "cmdline": [],
@@ -21569,7 +21901,7 @@
             "stock_orderpoint_manual_procurement.wizards",
             "stock_orderpoint_manual_procurement.wizards.make_procurement_orderpoint"
         ],
-        "version": "8.0.1.0.0.99.dev7"
+        "version": "8.0.1.0.0.99.dev8"
     },
     "odoo8-addon-stock-orderpoint-uom": {
         "cmdline": [],
@@ -21638,7 +21970,7 @@
             "stock_picking_back2draft.tests",
             "stock_picking_back2draft.tests.test_picking"
         ],
-        "version": "8.0.1.0.0.99.dev11"
+        "version": "8.0.1.0.0.99.dev12"
     },
     "odoo8-addon-stock-picking-backorder-strategy": {
         "cmdline": [],
@@ -21660,7 +21992,7 @@
             "stock_picking_backorder_to_sale.tests",
             "stock_picking_backorder_to_sale.tests.test_stock_picking_backorder_to_sale"
         ],
-        "version": "8.0.1.0.0.99.dev1"
+        "version": "8.0.1.0.0.99.dev2"
     },
     "odoo8-addon-stock-picking-compute-delivery-date": {
         "cmdline": [],
@@ -21694,7 +22026,7 @@
             "stock_picking_invoice_link.tests",
             "stock_picking_invoice_link.tests.test_stock_picking_invoice_link"
         ],
-        "version": "8.0.2.0.0.99.dev18"
+        "version": "8.0.2.0.0.99.dev19"
     },
     "odoo8-addon-stock-picking-invoice-product-group": {
         "cmdline": [],
@@ -21782,7 +22114,7 @@
             "stock_picking_package_preparation.tests",
             "stock_picking_package_preparation.tests.test_package_preparation"
         ],
-        "version": "8.0.1.0.0.99.dev25"
+        "version": "8.0.1.0.0.99.dev26"
     },
     "odoo8-addon-stock-picking-package-preparation-line": {
         "cmdline": [],
@@ -21795,7 +22127,7 @@
             "stock_picking_package_preparation_line.tests",
             "stock_picking_package_preparation_line.tests.test_package_preparation_line"
         ],
-        "version": "8.0.1.0.0.99.dev44"
+        "version": "8.0.1.0.0.99.dev45"
     },
     "odoo8-addon-stock-picking-partner-lang": {
         "cmdline": [],
@@ -21847,7 +22179,7 @@
             "stock_putaway_product.wizard",
             "stock_putaway_product.wizard.stock_change_product_qty"
         ],
-        "version": "8.0.1.0.1.99.dev3"
+        "version": "8.0.1.0.1.99.dev4"
     },
     "odoo8-addon-stock-quant-manual-assign": {
         "cmdline": [],
@@ -21860,7 +22192,7 @@
             "stock_quant_manual_assign.wizard",
             "stock_quant_manual_assign.wizard.assign_manual_quants"
         ],
-        "version": "8.0.1.1.0.99.dev18"
+        "version": "8.0.1.1.0.99.dev19"
     },
     "odoo8-addon-stock-quant-merge": {
         "cmdline": [],
@@ -21881,7 +22213,7 @@
             "stock_reserve.model.product",
             "stock_reserve.model.stock_reserve"
         ],
-        "version": "8.0.0.2.0.99.dev25"
+        "version": "8.0.0.2.0.99.dev26"
     },
     "odoo8-addon-stock-reserve-sale": {
         "cmdline": [],
@@ -21893,7 +22225,7 @@
             "stock_reserve_sale.wizard",
             "stock_reserve_sale.wizard.sale_stock_reserve"
         ],
-        "version": "8.0.1.0.1.99.dev16"
+        "version": "8.0.1.0.1.99.dev17"
     },
     "odoo8-addon-stock-route-sales-team": {
         "cmdline": [],
@@ -21936,7 +22268,7 @@
             "stock_scanner.wizard",
             "stock_scanner.wizard.stock_scanner_config_wizard"
         ],
-        "version": "8.0.1.0.0.99.dev22"
+        "version": "8.0.1.0.0.99.dev23"
     },
     "odoo8-addon-stock-shipment-management": {
         "cmdline": [],
@@ -21985,7 +22317,7 @@
             "stock_traceability_operation.tests",
             "stock_traceability_operation.tests.test_traceability"
         ],
-        "version": "8.0.1.1.0.99.dev17"
+        "version": "8.0.1.1.0.99.dev18"
     },
     "odoo8-addon-stock-transfer-split-multi": {
         "cmdline": [],
@@ -22021,7 +22353,7 @@
             "stock_valuation_account_manual_adjustment.wizards",
             "stock_valuation_account_manual_adjustment.wizards.mass_create"
         ],
-        "version": "8.0.1.0.0.99.dev6"
+        "version": "8.0.1.0.0.99.dev7"
     },
     "odoo8-addon-stock-warehouse-orderpoint-stock-info": {
         "cmdline": [],
@@ -22032,7 +22364,7 @@
             "stock_warehouse_orderpoint_stock_info.tests",
             "stock_warehouse_orderpoint_stock_info.tests.test_stock_warehouse_orderpoint"
         ],
-        "version": "8.0.1.0.0.99.dev16"
+        "version": "8.0.1.0.0.99.dev17"
     },
     "odoo8-addon-super-calendar": {
         "cmdline": [],
@@ -22045,7 +22377,7 @@
             "super_calendar.tests",
             "super_calendar.tests.test_super_calendar"
         ],
-        "version": "8.0.0.2.0.99.dev40"
+        "version": "8.0.0.2.0.99.dev41"
     },
     "odoo8-addon-support-branding": {
         "cmdline": [],
@@ -22392,7 +22724,7 @@
         "modules": [
             "web_ir_actions_act_window_message"
         ],
-        "version": "8.0.1.0.0.99.dev14"
+        "version": "8.0.1.0.0.99.dev15"
     },
     "odoo8-addon-web-ir-actions-act-window-none": {
         "cmdline": [],
@@ -22798,7 +23130,7 @@
             "website_calendar_snippet.controllers",
             "website_calendar_snippet.controllers.main"
         ],
-        "version": "8.0.1.0.0.99.dev14"
+        "version": "8.0.1.0.0.99.dev15"
     },
     "odoo8-addon-website-canonical-url": {
         "cmdline": [],
@@ -22833,7 +23165,7 @@
             "website_country_localized_pages.controllers.main",
             "website_country_localized_pages.ir_ui_view"
         ],
-        "version": "8.0.1.0.0.99.dev8"
+        "version": "8.0.1.0.0.99.dev9"
     },
     "odoo8-addon-website-crm-address": {
         "cmdline": [],
@@ -22912,7 +23244,7 @@
             "website_event_register_free.model",
             "website_event_register_free.model.event_registration"
         ],
-        "version": "8.0.1.1.0.99.dev8"
+        "version": "8.0.1.1.0.99.dev9"
     },
     "odoo8-addon-website-event-register-free-with-sale": {
         "cmdline": [],
@@ -23110,7 +23442,7 @@
             "website_portal.controllers",
             "website_portal.controllers.main"
         ],
-        "version": "8.0.1.0.0.99.dev32"
+        "version": "8.0.1.0.0.99.dev33"
     },
     "odoo8-addon-website-portal-purchase": {
         "cmdline": [],
@@ -23119,7 +23451,7 @@
             "website_portal_purchase.controllers",
             "website_portal_purchase.controllers.main"
         ],
-        "version": "8.0.1.0.0.99.dev27"
+        "version": "8.0.1.0.0.99.dev28"
     },
     "odoo8-addon-website-portal-sale": {
         "cmdline": [],
@@ -23128,7 +23460,7 @@
             "website_portal_sale.controllers",
             "website_portal_sale.controllers.main"
         ],
-        "version": "8.0.1.0.0.99.dev32"
+        "version": "8.0.1.0.0.99.dev33"
     },
     "odoo8-addon-website-product-share": {
         "cmdline": [],
@@ -23349,7 +23681,7 @@
             "website_signup_legal_page_required.exceptions",
             "website_signup_legal_page_required.models"
         ],
-        "version": "8.0.1.0.0.99.dev25"
+        "version": "8.0.1.0.0.99.dev26"
     },
     "odoo8-addon-website-slides": {
         "cmdline": [],
@@ -23363,7 +23695,7 @@
             "website_slides.models.slides",
             "website_slides.models.website"
         ],
-        "version": "8.0.2.0.0.99.dev15"
+        "version": "8.0.2.0.0.99.dev16"
     },
     "odoo8-addon-website-snippet-anchor": {
         "cmdline": [],
@@ -23386,7 +23718,7 @@
             "website_snippet_contact_form.controllers",
             "website_snippet_contact_form.controllers.main"
         ],
-        "version": "8.0.1.0.0.99.dev33"
+        "version": "8.0.1.0.0.99.dev34"
     },
     "odoo8-addon-website-snippet-country-dropdown": {
         "cmdline": [],
@@ -23477,7 +23809,7 @@
             "account_balance_reporting.wizard",
             "account_balance_reporting.wizard.wizard_print"
         ],
-        "version": "9.0.1.0.0.99.dev10"
+        "version": "9.0.1.0.1"
     },
     "odoo9-addon-account-bank-statement-import-camt": {
         "cmdline": [],
@@ -23934,9 +24266,11 @@
             "account_invoice_supplier_ref_unique.models",
             "account_invoice_supplier_ref_unique.models.account_invoice",
             "account_invoice_supplier_ref_unique.tests",
-            "account_invoice_supplier_ref_unique.tests.test_account_invoice_supplier_ref_unique"
+            "account_invoice_supplier_ref_unique.tests.test_account_invoice_supplier_ref_unique",
+            "account_invoice_supplier_ref_unique.wizards",
+            "account_invoice_supplier_ref_unique.wizards.account_invoice_refund"
         ],
-        "version": "9.0.1.0.0.99.dev4"
+        "version": "9.0.1.0.0.99.dev6"
     },
     "odoo9-addon-account-invoice-tax-required": {
         "cmdline": [],
@@ -24036,7 +24370,7 @@
         "modules": [
             "account_move_line_product"
         ],
-        "version": "9.0.1.0.0.99.dev3"
+        "version": "9.0.1.0.0.99.dev4"
     },
     "odoo9-addon-account-move-line-purchase-info": {
         "cmdline": [],
@@ -24178,6 +24512,19 @@
             "account_payment_partner.models.res_partner"
         ],
         "version": "9.0.1.1.0.99.dev1"
+    },
+    "odoo9-addon-account-payment-purchase": {
+        "cmdline": [],
+        "modules": [
+            "account_payment_purchase",
+            "account_payment_purchase.models",
+            "account_payment_purchase.models.account_invoice",
+            "account_payment_purchase.models.procurement_order",
+            "account_payment_purchase.models.purchase_order",
+            "account_payment_purchase.tests",
+            "account_payment_purchase.tests.test_account_payment_purchase"
+        ],
+        "version": "9.0.1.0.0"
     },
     "odoo9-addon-account-payment-return": {
         "cmdline": [],
@@ -24381,7 +24728,7 @@
             "attachment_base_synchronize.tests",
             "attachment_base_synchronize.tests.test_attachment_base_synchronize"
         ],
-        "version": "9.0.1.0.0.99.dev16"
+        "version": "9.0.1.0.0.99.dev17"
     },
     "odoo9-addon-auditlog": {
         "cmdline": [],
@@ -24397,7 +24744,7 @@
             "auditlog.tests.test_auditlog",
             "auditlog.tests.test_autovacuum"
         ],
-        "version": "9.0.1.0.0.99.dev18"
+        "version": "9.0.1.0.0.99.dev19"
     },
     "odoo9-addon-auth-from-http-remote-user": {
         "cmdline": [],
@@ -24465,7 +24812,7 @@
             "auth_totp.wizards",
             "auth_totp.wizards.res_users_authenticator_create"
         ],
-        "version": "9.0.1.0.0.99.dev2"
+        "version": "9.0.1.0.0.99.dev3"
     },
     "odoo9-addon-auto-backup": {
         "cmdline": [],
@@ -24632,7 +24979,7 @@
             "base_import_match.tests",
             "base_import_match.tests.test_import"
         ],
-        "version": "9.0.1.0.0.99.dev9"
+        "version": "9.0.1.0.0.99.dev10"
     },
     "odoo9-addon-base-kanban-stage": {
         "cmdline": [],
@@ -24659,7 +25006,7 @@
             "base_location.tests",
             "base_location.tests.test_completion"
         ],
-        "version": "9.0.1.0.0.99.dev26"
+        "version": "9.0.1.0.0.99.dev27"
     },
     "odoo9-addon-base-location-geonames-import": {
         "cmdline": [],
@@ -24670,7 +25017,7 @@
             "base_location_geonames_import.wizard",
             "base_location_geonames_import.wizard.geonames_import"
         ],
-        "version": "9.0.1.0.1.99.dev7"
+        "version": "9.0.1.0.1.99.dev8"
     },
     "odoo9-addon-base-multi-image": {
         "cmdline": [],
@@ -24681,7 +25028,7 @@
             "base_multi_image.models.image",
             "base_multi_image.models.owner"
         ],
-        "version": "9.0.1.1.0.99.dev21"
+        "version": "9.0.1.1.0.99.dev22"
     },
     "odoo9-addon-base-name-search-improved": {
         "cmdline": [],
@@ -24711,7 +25058,7 @@
             "base_partner_merge.hooks",
             "base_partner_merge.validate_email"
         ],
-        "version": "9.0.1.0.0.99.dev22"
+        "version": "9.0.1.0.0.99.dev23"
     },
     "odoo9-addon-base-partner-sequence": {
         "cmdline": [],
@@ -25340,6 +25687,19 @@
             "contract_variable_quantity.tests.test_contract_variable_quantity"
         ],
         "version": "9.0.1.0.0.99.dev20"
+    },
+    "odoo9-addon-crm-action": {
+        "cmdline": [],
+        "modules": [
+            "crm_action",
+            "crm_action.models",
+            "crm_action.models.crm_action",
+            "crm_action.models.crm_action_type",
+            "crm_action.models.crm_lead",
+            "crm_action.tests",
+            "crm_action.tests.test_crm_action"
+        ],
+        "version": "9.0.1.0.0"
     },
     "odoo9-addon-crm-claim-code": {
         "cmdline": [],
@@ -26137,7 +26497,7 @@
             "invoice_comment_template",
             "invoice_comment_template.account_invoice"
         ],
-        "version": "9.0.1.0.0"
+        "version": "9.0.1.0.0.99.dev1"
     },
     "odoo9-addon-keychain": {
         "cmdline": [],
@@ -26170,7 +26530,7 @@
             "kpi.models.kpi_threshold",
             "kpi.models.kpi_threshold_range"
         ],
-        "version": "9.0.1.0.0.99.dev11"
+        "version": "9.0.1.0.0.99.dev12"
     },
     "odoo9-addon-l10n-ar-base-country-state": {
         "cmdline": [],
@@ -26306,7 +26666,7 @@
             "l10n_ch_fds_postfinance.wizards.fds_key_generator_wizard",
             "l10n_ch_fds_postfinance.wizards.fds_key_import_wizard"
         ],
-        "version": "9.0.1.0.0.99.dev16"
+        "version": "9.0.1.0.0.99.dev17"
     },
     "odoo9-addon-l10n-ch-fds-upload-sepa": {
         "cmdline": [],
@@ -26319,7 +26679,7 @@
             "l10n_ch_fds_upload_sepa.wizards",
             "l10n_ch_fds_upload_sepa.wizards.payment_order_upload_sepa_wizard"
         ],
-        "version": "9.0.1.0.0.99.dev6"
+        "version": "9.0.1.0.0.99.dev7"
     },
     "odoo9-addon-l10n-ch-hr-payroll": {
         "cmdline": [],
@@ -26342,7 +26702,7 @@
             "l10n_ch_import_cresus.wizard",
             "l10n_ch_import_cresus.wizard.l10n_ch_import_cresus"
         ],
-        "version": "9.0.1.0.0.99.dev79"
+        "version": "9.0.1.0.0.99.dev80"
     },
     "odoo9-addon-l10n-ch-import-winbiz": {
         "cmdline": [],
@@ -26357,7 +26717,7 @@
             "l10n_ch_import_winbiz.wizard",
             "l10n_ch_import_winbiz.wizard.l10n_ch_import_winbiz"
         ],
-        "version": "9.0.1.0.1.99.dev13"
+        "version": "9.0.1.0.1.99.dev14"
     },
     "odoo9-addon-l10n-ch-pain-base": {
         "cmdline": [],
@@ -26442,7 +26802,7 @@
             "l10n_cn_hr_payroll.tests",
             "l10n_cn_hr_payroll.tests.test_payroll"
         ],
-        "version": "9.0.2.0.0.99.dev15"
+        "version": "9.0.2.0.0.99.dev20"
     },
     "odoo9-addon-l10n-cn-partner": {
         "cmdline": [],
@@ -26743,7 +27103,7 @@
             "l10n_it_ddt.wizard.add_picking_to_ddt",
             "l10n_it_ddt.wizard.ddt_from_picking"
         ],
-        "version": "9.0.1.0.0.99.dev22"
+        "version": "9.0.1.0.0.99.dev23"
     },
     "odoo9-addon-l10n-it-rea": {
         "cmdline": [],
@@ -26869,7 +27229,7 @@
             "mail_optional_follower_notification.wizard",
             "mail_optional_follower_notification.wizard.mail_compose_message"
         ],
-        "version": "9.0.1.0.0.99.dev6"
+        "version": "9.0.1.0.0.99.dev7"
     },
     "odoo9-addon-mail-thread-medical-prescription": {
         "cmdline": [],
@@ -26901,7 +27261,7 @@
             "mail_tracking.tests",
             "mail_tracking.tests.test_mail_tracking"
         ],
-        "version": "9.0.3.0.1.99.dev18"
+        "version": "9.0.3.0.1.99.dev19"
     },
     "odoo9-addon-mail-tracking-mailgun": {
         "cmdline": [],
@@ -26913,7 +27273,7 @@
             "mail_tracking_mailgun.tests",
             "mail_tracking_mailgun.tests.test_mailgun"
         ],
-        "version": "9.0.1.0.0.99.dev3"
+        "version": "9.0.1.0.0.99.dev4"
     },
     "odoo9-addon-mail-tracking-mass-mailing": {
         "cmdline": [],
@@ -26929,7 +27289,7 @@
             "mail_tracking_mass_mailing.tests",
             "mail_tracking_mass_mailing.tests.test_mass_mailing"
         ],
-        "version": "9.0.1.0.0.99.dev2"
+        "version": "9.0.1.0.0.99.dev3"
     },
     "odoo9-addon-marketing-crm-partner": {
         "cmdline": [],
@@ -27271,7 +27631,7 @@
             "mgmtsystem_action.tests",
             "mgmtsystem_action.tests.test_create_action"
         ],
-        "version": "9.0.1.0.0.99.dev32"
+        "version": "9.0.1.0.0.99.dev33"
     },
     "odoo9-addon-mgmtsystem-audit": {
         "cmdline": [],
@@ -27287,7 +27647,7 @@
             "mgmtsystem_audit.wizard",
             "mgmtsystem_audit.wizard.copy_verification_lines"
         ],
-        "version": "9.0.1.0.0.99.dev20"
+        "version": "9.0.1.0.0.99.dev21"
     },
     "odoo9-addon-mgmtsystem-claim": {
         "cmdline": [],
@@ -27301,7 +27661,7 @@
             "mgmtsystem_claim.tests",
             "mgmtsystem_claim.tests.test_create_claim"
         ],
-        "version": "9.0.1.1.1.99.dev8"
+        "version": "9.0.1.1.1.99.dev9"
     },
     "odoo9-addon-mgmtsystem-hazard": {
         "cmdline": [],
@@ -27318,7 +27678,7 @@
             "mgmtsystem_hazard.models.mgmtsystem_hazard_type",
             "mgmtsystem_hazard.models.mgmtsystem_hazard_usage"
         ],
-        "version": "9.0.1.0.0.99.dev6"
+        "version": "9.0.1.0.0.99.dev7"
     },
     "odoo9-addon-mgmtsystem-info-security-manual": {
         "cmdline": [],
@@ -27360,7 +27720,7 @@
             "mgmtsystem_nonconformity.tests.test_nonconformity",
             "mgmtsystem_nonconformity.tests.test_origin"
         ],
-        "version": "9.0.1.0.0.99.dev69"
+        "version": "9.0.1.0.0.99.dev70"
     },
     "odoo9-addon-mgmtsystem-probability": {
         "cmdline": [],
@@ -27390,7 +27750,7 @@
             "mgmtsystem_review.tests",
             "mgmtsystem_review.tests.test_create_review"
         ],
-        "version": "9.0.1.0.0.99.dev21"
+        "version": "9.0.1.0.0.99.dev22"
     },
     "odoo9-addon-mgmtsystem-severity": {
         "cmdline": [],
@@ -27477,7 +27837,7 @@
             "mrp_bom_dismantling.wizards.dismantling_product_choice",
             "mrp_bom_dismantling.wizards.mrp_product_produce"
         ],
-        "version": "9.0.1.0.0.99.dev27"
+        "version": "9.0.1.0.0.99.dev28"
     },
     "odoo9-addon-mrp-bom-note": {
         "cmdline": [],
@@ -27896,7 +28256,7 @@
             "partner_address_street3.tests",
             "partner_address_street3.tests.test_street_3"
         ],
-        "version": "9.0.1.1.0.99.dev8"
+        "version": "9.0.1.1.0.99.dev9"
     },
     "odoo9-addon-partner-changeset": {
         "cmdline": [],
@@ -27913,7 +28273,7 @@
             "partner_changeset.tests.test_changeset_flow",
             "partner_changeset.tests.test_changeset_origin"
         ],
-        "version": "9.0.1.0.0.99.dev9"
+        "version": "9.0.1.0.0.99.dev10"
     },
     "odoo9-addon-partner-contact-birthdate": {
         "cmdline": [],
@@ -27968,7 +28328,7 @@
             "partner_contact_in_several_companies.tests",
             "partner_contact_in_several_companies.tests.test_partner_contact_in_several_companies"
         ],
-        "version": "9.0.1.0.0.99.dev45"
+        "version": "9.0.1.0.0.99.dev46"
     },
     "odoo9-addon-partner-contact-job-position": {
         "cmdline": [],
@@ -28201,7 +28561,7 @@
             "partner_multi_relation.tests.test_partner_relation_common",
             "partner_multi_relation.tests.test_partner_search"
         ],
-        "version": "9.0.1.1.1.99.dev12"
+        "version": "9.0.1.1.1.99.dev13"
     },
     "odoo9-addon-partner-ref-unique": {
         "cmdline": [],
@@ -28390,7 +28750,7 @@
             "product_by_supplier.models",
             "product_by_supplier.models.product_supplierinfo"
         ],
-        "version": "9.0.1.0.0.99.dev13"
+        "version": "9.0.1.0.0.99.dev14"
     },
     "odoo9-addon-product-dimension": {
         "cmdline": [],
@@ -28480,6 +28840,17 @@
         ],
         "version": "9.0.1.0.0.99.dev1"
     },
+    "odoo9-addon-product-pricelist-tax-included": {
+        "cmdline": [],
+        "modules": [
+            "product_pricelist_tax_included",
+            "product_pricelist_tax_included.models",
+            "product_pricelist_tax_included.models.product",
+            "product_pricelist_tax_included.tests",
+            "product_pricelist_tax_included.tests.test_product_list_price_tax"
+        ],
+        "version": "9.0.1.0.0"
+    },
     "odoo9-addon-product-sequence": {
         "cmdline": [],
         "modules": [
@@ -28504,7 +28875,20 @@
             "product_supplierinfo_discount.tests",
             "product_supplierinfo_discount.tests.test_product_supplierinfo_discount"
         ],
-        "version": "9.0.1.0.0.99.dev11"
+        "version": "9.0.1.0.0.99.dev12"
+    },
+    "odoo9-addon-product-supplierinfo-revision": {
+        "cmdline": [],
+        "modules": [
+            "product_supplierinfo_revision",
+            "product_supplierinfo_revision.models",
+            "product_supplierinfo_revision.models.product_supplierinfo",
+            "product_supplierinfo_revision.tests",
+            "product_supplierinfo_revision.tests.test_product_supplierinfo_revision",
+            "product_supplierinfo_revision.wizards",
+            "product_supplierinfo_revision.wizards.supplierinfo_duplicate_wizard"
+        ],
+        "version": "9.0.1.0.0.99.dev1"
     },
     "odoo9-addon-product-uom": {
         "cmdline": [],
@@ -28685,7 +29069,7 @@
             "project_task_default_stage.tests",
             "project_task_default_stage.tests.test_project_task_default_stage"
         ],
-        "version": "9.0.1.0.0.99.dev14"
+        "version": "9.0.1.0.0.99.dev15"
     },
     "odoo9-addon-project-task-dependency": {
         "cmdline": [],
@@ -28707,7 +29091,7 @@
             "project_task_materials.tests",
             "project_task_materials.tests.test_create_materials_lines"
         ],
-        "version": "9.0.1.0.0.99.dev7"
+        "version": "9.0.1.0.0.99.dev8"
     },
     "odoo9-addon-project-task-materials-stock": {
         "cmdline": [],
@@ -28718,7 +29102,7 @@
             "project_task_materials_stock.tests",
             "project_task_materials_stock.tests.test_task_materials"
         ],
-        "version": "9.0.1.0.0.99.dev5"
+        "version": "9.0.1.0.0.99.dev6"
     },
     "odoo9-addon-project-timesheet-time-control": {
         "cmdline": [],
@@ -28764,7 +29148,7 @@
             "purchase_discount.tests",
             "purchase_discount.tests.test_purchase_discount"
         ],
-        "version": "9.0.1.1.0.99.dev1"
+        "version": "9.0.1.1.0.99.dev2"
     },
     "odoo9-addon-purchase-fiscal-position-update": {
         "cmdline": [],
@@ -28827,7 +29211,7 @@
             "purchase_order_variant_mgmt.wizard",
             "purchase_order_variant_mgmt.wizard.purchase_manage_variant"
         ],
-        "version": "9.0.1.0.0.99.dev15"
+        "version": "9.0.1.0.0.99.dev16"
     },
     "odoo9-addon-purchase-picking-state": {
         "cmdline": [],
@@ -28857,7 +29241,7 @@
             "purchase_request.tests",
             "purchase_request.tests.test_purchase_request"
         ],
-        "version": "9.0.1.0.0.99.dev38"
+        "version": "9.0.1.0.0.99.dev39"
     },
     "odoo9-addon-purchase-request-department": {
         "cmdline": [],
@@ -28896,7 +29280,7 @@
             "purchase_request_to_requisition.wizard",
             "purchase_request_to_requisition.wizard.purchase_request_line_make_purchase_requisition"
         ],
-        "version": "9.0.1.0.0.99.dev5"
+        "version": "9.0.1.0.0.99.dev6"
     },
     "odoo9-addon-purchase-request-to-rfq": {
         "cmdline": [],
@@ -28911,7 +29295,7 @@
             "purchase_request_to_rfq.wizard",
             "purchase_request_to_rfq.wizard.purchase_request_line_make_purchase_order"
         ],
-        "version": "9.0.1.0.0.99.dev36"
+        "version": "9.0.1.0.0.99.dev37"
     },
     "odoo9-addon-purchase-stock-picking-return-invoicing": {
         "cmdline": [],
@@ -28992,7 +29376,7 @@
             "report_wkhtmltopdf_param.tests",
             "report_wkhtmltopdf_param.tests.test_report_paperformat"
         ],
-        "version": "9.0.1.0.0"
+        "version": "9.0.1.0.0.99.dev1"
     },
     "odoo9-addon-report-xlsx": {
         "cmdline": [],
@@ -29254,7 +29638,7 @@
             "sale_order_type.tests",
             "sale_order_type.tests.test_sale_order_type"
         ],
-        "version": "9.0.1.0.0.99.dev29"
+        "version": "9.0.1.0.0.99.dev30"
     },
     "odoo9-addon-sale-order-variant-mgmt": {
         "cmdline": [],
@@ -29281,7 +29665,7 @@
             "sale_packaging_price.tests",
             "sale_packaging_price.tests.test_sale_packaging_price"
         ],
-        "version": "9.0.1.0.0.99.dev16"
+        "version": "9.0.1.0.0.99.dev17"
     },
     "odoo9-addon-sale-procurement-group-by-line": {
         "cmdline": [],
@@ -29306,7 +29690,7 @@
             "sale_product_set.wizard",
             "sale_product_set.wizard.product_set_add"
         ],
-        "version": "9.0.1.0.0.99.dev1"
+        "version": "9.0.1.0.0.99.dev2"
     },
     "odoo9-addon-sale-proforma-report": {
         "cmdline": [],
@@ -29329,7 +29713,7 @@
             "sale_rental.wizard",
             "sale_rental.wizard.create_rental_product"
         ],
-        "version": "9.0.1.0.0.99.dev14"
+        "version": "9.0.1.0.0.99.dev15"
     },
     "odoo9-addon-sale-reporting-weight": {
         "cmdline": [],
@@ -29509,7 +29893,7 @@
             "stock_available.models.product_template",
             "stock_available.models.res_config"
         ],
-        "version": "9.0.1.1.0.99.dev19"
+        "version": "9.0.1.1.0.99.dev20"
     },
     "odoo9-addon-stock-available-immediately": {
         "cmdline": [],
@@ -29521,7 +29905,7 @@
             "stock_available_immediately.tests",
             "stock_available_immediately.tests.test_stock_available_immediately"
         ],
-        "version": "9.0.1.1.0.99.dev19"
+        "version": "9.0.1.1.0.99.dev20"
     },
     "odoo9-addon-stock-available-mrp": {
         "cmdline": [],
@@ -29533,7 +29917,7 @@
             "stock_available_mrp.tests",
             "stock_available_mrp.tests.test_potential_qty"
         ],
-        "version": "9.0.1.0.0.99.dev17"
+        "version": "9.0.1.0.0.99.dev18"
     },
     "odoo9-addon-stock-available-unreserved": {
         "cmdline": [],
@@ -29580,7 +29964,7 @@
             "stock_cycle_count.tests",
             "stock_cycle_count.tests.test_stock_cycle_count"
         ],
-        "version": "9.0.1.0.0.99.dev4"
+        "version": "9.0.1.0.0.99.dev5"
     },
     "odoo9-addon-stock-deposit": {
         "cmdline": [],
@@ -29652,7 +30036,7 @@
             "stock_inventory_revaluation.wizards.stock_inventory_revaluation_get_quants",
             "stock_inventory_revaluation.wizards.stock_inventory_revaluation_mass_post"
         ],
-        "version": "9.0.1.0.0.99.dev3"
+        "version": "9.0.1.0.0.99.dev4"
     },
     "odoo9-addon-stock-inventory-verification-request": {
         "cmdline": [],
@@ -29664,7 +30048,7 @@
             "stock_inventory_verification_request.tests",
             "stock_inventory_verification_request.tests.test_verification_request"
         ],
-        "version": "9.0.1.0.0.99.dev2"
+        "version": "9.0.1.0.0.99.dev3"
     },
     "odoo9-addon-stock-location-area-data": {
         "cmdline": [],
@@ -29722,7 +30106,7 @@
             "stock_orderpoint_generator.wizard",
             "stock_orderpoint_generator.wizard.orderpoint_generator"
         ],
-        "version": "9.0.1.0.0.99.dev10"
+        "version": "9.0.1.0.0.99.dev11"
     },
     "odoo9-addon-stock-orderpoint-manual-procurement": {
         "cmdline": [],
@@ -29735,7 +30119,7 @@
             "stock_orderpoint_manual_procurement.wizards",
             "stock_orderpoint_manual_procurement.wizards.make_procurement_orderpoint"
         ],
-        "version": "9.0.1.0.0.99.dev5"
+        "version": "9.0.1.0.0.99.dev6"
     },
     "odoo9-addon-stock-orderpoint-uom": {
         "cmdline": [],
@@ -29756,7 +30140,7 @@
             "stock_partner_lot.models",
             "stock_partner_lot.models.res_partner"
         ],
-        "version": "9.0.1.0.0.99.dev14"
+        "version": "9.0.1.0.0.99.dev15"
     },
     "odoo9-addon-stock-picking-delivery-rate": {
         "cmdline": [],
@@ -29853,7 +30237,7 @@
             "stock_picking_show_backorder.models",
             "stock_picking_show_backorder.models.stock"
         ],
-        "version": "9.0.1.0.0"
+        "version": "9.0.1.0.0.99.dev1"
     },
     "odoo9-addon-stock-picking-show-return": {
         "cmdline": [],
@@ -29906,7 +30290,7 @@
             "stock_putaway_product.wizard",
             "stock_putaway_product.wizard.stock_change_product_qty"
         ],
-        "version": "9.0.1.0.1.99.dev4"
+        "version": "9.0.1.0.1.99.dev5"
     },
     "odoo9-addon-stock-quant-manual-assign": {
         "cmdline": [],
@@ -29919,7 +30303,7 @@
             "stock_quant_manual_assign.wizard",
             "stock_quant_manual_assign.wizard.assign_manual_quants"
         ],
-        "version": "9.0.1.0.0.99.dev15"
+        "version": "9.0.1.0.0.99.dev16"
     },
     "odoo9-addon-stock-quant-merge": {
         "cmdline": [],
@@ -29951,7 +30335,7 @@
             "stock_reserve.model.product",
             "stock_reserve.model.stock_reserve"
         ],
-        "version": "9.0.1.0.0.99.dev15"
+        "version": "9.0.1.0.0.99.dev16"
     },
     "odoo9-addon-stock-scanner": {
         "cmdline": [],
@@ -30015,7 +30399,7 @@
             "stock_valuation_account_manual_adjustment.wizards",
             "stock_valuation_account_manual_adjustment.wizards.mass_create"
         ],
-        "version": "9.0.1.0.0.99.dev1"
+        "version": "9.0.1.0.0.99.dev2"
     },
     "odoo9-addon-stock-warehouse-orderpoint-stock-info": {
         "cmdline": [],
@@ -30465,7 +30849,7 @@
             "website_field_autocomplete.controllers",
             "website_field_autocomplete.controllers.main"
         ],
-        "version": "9.0.1.0.1.99.dev13"
+        "version": "9.0.1.0.1.99.dev14"
     },
     "odoo9-addon-website-form-recaptcha": {
         "cmdline": [],
@@ -30571,7 +30955,7 @@
             "website_portal_address.controllers",
             "website_portal_address.controllers.main"
         ],
-        "version": "9.0.1.0.0.99.dev2"
+        "version": "9.0.1.0.0.99.dev3"
     },
     "odoo9-addon-website-portal-contact": {
         "cmdline": [],
@@ -30582,7 +30966,7 @@
             "website_portal_contact.tests",
             "website_portal_contact.tests.test_ui"
         ],
-        "version": "9.0.1.0.0.99.dev8"
+        "version": "9.0.1.0.0.99.dev10"
     },
     "odoo9-addon-website-portal-purchase": {
         "cmdline": [],
@@ -30591,7 +30975,7 @@
             "website_portal_purchase.controllers",
             "website_portal_purchase.controllers.main"
         ],
-        "version": "9.0.1.0.0.99.dev11"
+        "version": "9.0.1.0.0.99.dev12"
     },
     "odoo9-addon-website-portal-sale-v10": {
         "cmdline": [],
@@ -30600,7 +30984,7 @@
             "website_portal_sale_v10.controllers",
             "website_portal_sale_v10.controllers.main"
         ],
-        "version": "9.0.1.0.0.99.dev5"
+        "version": "9.0.1.0.0.99.dev6"
     },
     "odoo9-addon-website-portal-v10": {
         "cmdline": [],
@@ -30609,7 +30993,7 @@
             "website_portal_v10.controllers",
             "website_portal_v10.controllers.main"
         ],
-        "version": "9.0.1.0.0.99.dev12"
+        "version": "9.0.1.0.0.99.dev13"
     },
     "odoo9-addon-website-sale-checkout-country-vat": {
         "cmdline": [],
@@ -33509,7 +33893,7 @@
             "okerrclient.taskproc",
             "okerrclient.taskseq"
         ],
-        "version": "2.0.66"
+        "version": "2.0.67"
     },
     "okgtreg": {
         "cmdline": [],
@@ -33660,7 +34044,7 @@
             "okonomiyaki.versions.tests.test_runtime_version",
             "okonomiyaki.versions.tests.test_semver"
         ],
-        "version": "0.16.9"
+        "version": "0.16.10"
     },
     "okpy": {
         "cmdline": [],
@@ -36032,6 +36416,18 @@
             "omnilog.wpanel"
         ],
         "version": "0.9.2"
+    },
+    "omnimole": {
+        "cmdline": [],
+        "modules": [
+            "omnimole",
+            "omnimole.color",
+            "omnimole.filter",
+            "omnimole.preprocess",
+            "omnimole.register",
+            "omnimole.segment"
+        ],
+        "version": "1.0.3"
     },
     "omnipresence": {
         "cmdline": [],
@@ -39059,7 +39455,7 @@
         "modules": [
             "applications"
         ],
-        "version": "2017.4.19"
+        "version": "2017.4.23"
     },
     "onegov.ballot": {
         "cmdline": [],
@@ -39233,6 +39629,7 @@
             "election_day.views.election.panachage",
             "election_day.views.election.parties",
             "election_day.views.election.statistics",
+            "election_day.views.exceptionviews",
             "election_day.views.locale",
             "election_day.views.manage",
             "election_day.views.manage.data_sources",
@@ -39250,7 +39647,7 @@
             "election_day.views.vote.data",
             "election_day.views.vote.main"
         ],
-        "version": "1.8.11"
+        "version": "1.8.14"
     },
     "onegov.event": {
         "cmdline": [],
@@ -39328,7 +39725,7 @@
             "feriennet.views.shared",
             "feriennet.views.userprofile"
         ],
-        "version": "0.11.0"
+        "version": "0.11.1"
     },
     "onegov.file": {
         "cmdline": [],
@@ -39553,7 +39950,7 @@
             "org.views.usermanagement",
             "org.views.userprofile"
         ],
-        "version": "0.8.1"
+        "version": "0.8.2"
     },
     "onegov.page": {
         "cmdline": [],
@@ -40813,9 +41210,12 @@
             "eiscp",
             "eiscp.commands",
             "eiscp.core",
-            "eiscp.script"
+            "eiscp.script",
+            "eiscp.utils",
+            "tests",
+            "tests.test_core"
         ],
-        "version": "1.1"
+        "version": "1.2"
     },
     "onkyoqt": {
         "cmdline": [
@@ -41201,33 +41601,8 @@
     },
     "ontobio": {
         "cmdline": [],
-        "modules": [
-            "ontobio",
-            "ontobio.assoc_factory",
-            "ontobio.assocmodel",
-            "ontobio.cgraph",
-            "ontobio.config",
-            "ontobio.golr",
-            "ontobio.golr.golr_associations",
-            "ontobio.golr.golr_entities",
-            "ontobio.golr.golr_matrix",
-            "ontobio.golr.golr_query",
-            "ontobio.golr.golr_sim",
-            "ontobio.golr.golr_stats",
-            "ontobio.graph_io",
-            "ontobio.lexmap",
-            "ontobio.obograph_util",
-            "ontobio.ontol",
-            "ontobio.ontol_factory",
-            "ontobio.slimmer",
-            "ontobio.sparql",
-            "ontobio.sparql.rdf2nx",
-            "ontobio.sparql.sparql_ontol_utils",
-            "ontobio.sparql.sparql_ontology",
-            "ontobio.vocabulary",
-            "ontobio.vocabulary.relations"
-        ],
-        "version": "0.1.6"
+        "modules": [],
+        "version": "0.2.1"
     },
     "ontocontext": {
         "cmdline": [],
@@ -41436,6 +41811,18 @@
             "onvif.client",
             "onvif.definition",
             "onvif.exceptions"
+        ],
+        "version": "0.1.3"
+    },
+    "onvif-py3": {
+        "cmdline": [],
+        "modules": [
+            "onvif",
+            "onvif.cli",
+            "onvif.client",
+            "onvif.definition",
+            "onvif.exceptions",
+            "onvif.wsdl"
         ],
         "version": "0.1.3"
     },
@@ -41983,6 +42370,7 @@
             "oommfc.examples.bar",
             "oommfc.examples.macrospin",
             "oommfc.hamiltonian",
+            "oommfc.hamiltonian.cubicanisotropy",
             "oommfc.hamiltonian.demag",
             "oommfc.hamiltonian.dmi",
             "oommfc.hamiltonian.exchange",
@@ -41993,8 +42381,8 @@
             "oommfc.oommf",
             "oommfc.system",
             "oommfc.tests",
-            "oommfc.tests.no_docker_running_raises_error",
             "oommfc.tests.test_consts",
+            "oommfc.tests.test_cubicanisotropy",
             "oommfc.tests.test_damping",
             "oommfc.tests.test_demag",
             "oommfc.tests.test_derive",
@@ -42006,8 +42394,10 @@
             "oommfc.tests.test_hysteresisdriver",
             "oommfc.tests.test_mesh",
             "oommfc.tests.test_mindriver",
+            "oommfc.tests.test_no_docker_running_raises_error",
             "oommfc.tests.test_oommf_overhead",
             "oommfc.tests.test_precession",
+            "oommfc.tests.test_skyrmion",
             "oommfc.tests.test_stdprob1",
             "oommfc.tests.test_stdprob3",
             "oommfc.tests.test_stdprob4",
@@ -42018,10 +42408,10 @@
             "oommfc.tests.test_timedriver",
             "oommfc.tests.test_uniaxialanisotropy",
             "oommfc.tests.test_zeeman",
-            "oommfc.tests.travis_test_oommf",
+            "oommfc.tests.tmpdisabled_travis_tst_oommf",
             "oommfc.tests.travis_test_performance"
         ],
-        "version": "0.7.1"
+        "version": "0.7.4"
     },
     "oommfodt": {
         "cmdline": [],
@@ -42031,7 +42421,7 @@
             "oommfodt.tests",
             "oommfodt.tests.test_oommfodt"
         ],
-        "version": "0.7.1"
+        "version": "0.7.2"
     },
     "oommftools": {
         "cmdline": [],
@@ -43216,88 +43606,6 @@
         ],
         "version": "0.1.1"
     },
-    "opbeat-ecometrica": {
-        "cmdline": [],
-        "modules": [
-            "opbeat",
-            "opbeat.base",
-            "opbeat.conf",
-            "opbeat.conf.defaults",
-            "opbeat.contrib",
-            "opbeat.contrib.async_worker",
-            "opbeat.contrib.asyncio",
-            "opbeat.contrib.asyncio.client",
-            "opbeat.contrib.celery",
-            "opbeat.contrib.django",
-            "opbeat.contrib.django.apps",
-            "opbeat.contrib.django.celery",
-            "opbeat.contrib.django.celery.models",
-            "opbeat.contrib.django.client",
-            "opbeat.contrib.django.handlers",
-            "opbeat.contrib.django.management",
-            "opbeat.contrib.django.management.commands",
-            "opbeat.contrib.django.management.commands.opbeat",
-            "opbeat.contrib.django.middleware",
-            "opbeat.contrib.django.middleware.wsgi",
-            "opbeat.contrib.django.models",
-            "opbeat.contrib.django.utils",
-            "opbeat.contrib.flask",
-            "opbeat.contrib.flask.utils",
-            "opbeat.contrib.paste",
-            "opbeat.contrib.pylons",
-            "opbeat.contrib.rq",
-            "opbeat.contrib.zerorpc",
-            "opbeat.events",
-            "opbeat.handlers",
-            "opbeat.handlers.logbook",
-            "opbeat.handlers.logging",
-            "opbeat.instrumentation",
-            "opbeat.instrumentation.control",
-            "opbeat.instrumentation.packages",
-            "opbeat.instrumentation.packages.base",
-            "opbeat.instrumentation.packages.dbapi2",
-            "opbeat.instrumentation.packages.django",
-            "opbeat.instrumentation.packages.django.template",
-            "opbeat.instrumentation.packages.jinja2",
-            "opbeat.instrumentation.packages.mysql",
-            "opbeat.instrumentation.packages.psycopg2",
-            "opbeat.instrumentation.packages.pylibmc",
-            "opbeat.instrumentation.packages.pymongo",
-            "opbeat.instrumentation.packages.python_memcached",
-            "opbeat.instrumentation.packages.redis",
-            "opbeat.instrumentation.packages.requests",
-            "opbeat.instrumentation.packages.sqlite",
-            "opbeat.instrumentation.packages.urllib3",
-            "opbeat.instrumentation.packages.zlib",
-            "opbeat.instrumentation.register",
-            "opbeat.middleware",
-            "opbeat.processors",
-            "opbeat.traces",
-            "opbeat.transport",
-            "opbeat.transport.asyncio",
-            "opbeat.transport.base",
-            "opbeat.transport.exceptions",
-            "opbeat.transport.http",
-            "opbeat.transport.http_urllib3",
-            "opbeat.utils",
-            "opbeat.utils.compat",
-            "opbeat.utils.deprecation",
-            "opbeat.utils.encoding",
-            "opbeat.utils.lru",
-            "opbeat.utils.module_import",
-            "opbeat.utils.opbeat_json",
-            "opbeat.utils.six",
-            "opbeat.utils.stacks",
-            "opbeat.utils.wrapt",
-            "opbeat.utils.wrapt.arguments",
-            "opbeat.utils.wrapt.decorators",
-            "opbeat.utils.wrapt.importer",
-            "opbeat.utils.wrapt.wrappers",
-            "opbeat.utils.wsgi",
-            "opbeat.version"
-        ],
-        "version": "3.4.1"
-    },
     "opbeat-pyramid": {
         "cmdline": [],
         "modules": [
@@ -44233,12 +44541,13 @@
         "cmdline": [],
         "modules": [
             "openbadges_bakery",
+            "openbadges_bakery.cli",
             "openbadges_bakery.png_bakery",
             "openbadges_bakery.svg_bakery",
             "openbadges_bakery.tests",
             "openbadges_bakery.utils"
         ],
-        "version": "0.4"
+        "version": "1.0.0b1"
     },
     "openbadgeslib": {
         "cmdline": [],
@@ -44933,9 +45242,9 @@
     "opencivicdata-divisions": {
         "cmdline": [],
         "modules": [
-            "opencivicdata.divisions"
+            "divisions"
         ],
-        "version": "2017.4.16"
+        "version": "2017.5.18"
     },
     "opencivicdata-django": {
         "cmdline": [],
@@ -48167,14 +48476,25 @@
             "openfisca_core.tools",
             "openfisca_core.tools.test_runner",
             "openfisca_core.variables",
-            "openfisca_web_api",
-            "openfisca_web_api.app",
-            "openfisca_web_api.loader",
-            "openfisca_web_api.loader.parameters",
-            "openfisca_web_api.loader.tax_benefit_system",
-            "openfisca_web_api.loader.variables"
+            "openfisca_web_api_preview",
+            "openfisca_web_api_preview.app",
+            "openfisca_web_api_preview.loader",
+            "openfisca_web_api_preview.loader.parameters",
+            "openfisca_web_api_preview.loader.tax_benefit_system",
+            "openfisca_web_api_preview.loader.variables"
         ],
-        "version": "12.1.0"
+        "version": "12.1.4"
+    },
+    "openfisca-country-template": {
+        "cmdline": [],
+        "modules": [
+            "openfisca_country_template",
+            "openfisca_country_template.entities",
+            "openfisca_country_template.reforms",
+            "openfisca_country_template.reforms.flat_social_security_contribution",
+            "openfisca_country_template.reforms.removal_basic_income"
+        ],
+        "version": "1.0.0"
     },
     "openfisca-dummy-country": {
         "cmdline": [],
@@ -48186,6 +48506,14 @@
             "openfisca_dummy_country.scenarios"
         ],
         "version": "0.1.6"
+    },
+    "openfisca-extension-template": {
+        "cmdline": [],
+        "modules": [
+            "openfisca_extension_template",
+            "openfisca_extension_template.local_benefit"
+        ],
+        "version": "1.0.0"
     },
     "openfisca-france": {
         "cmdline": [],
@@ -48339,7 +48667,7 @@
             "tests.test_yaml",
             "tests.utils"
         ],
-        "version": "18.2.1"
+        "version": "18.2.2"
     },
     "openfisca-france-indirect-taxation": {
         "cmdline": [],
@@ -50523,78 +50851,168 @@
     },
     "openlabs-customs-value": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.customs_value",
+            "trytond.modules.customs_value.product",
+            "trytond.modules.customs_value.tests",
+            "trytond.modules.customs_value.tests.test_product",
+            "trytond.modules.customs_value.tests.test_views_depends"
+        ],
+        "version": "3.4.0.1"
     },
     "openlabs-email-queue": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.email_queue",
+            "trytond.modules.email_queue.email_queue",
+            "trytond.modules.email_queue.tests",
+            "trytond.modules.email_queue.tests.test_email_queue",
+            "trytond.modules.email_queue.tests.test_views_depends"
+        ],
+        "version": "3.4.0.1"
     },
     "openlabs-gift-card": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.gift_card",
+            "trytond.modules.gift_card.configuration",
+            "trytond.modules.gift_card.gateway",
+            "trytond.modules.gift_card.gift_card",
+            "trytond.modules.gift_card.product",
+            "trytond.modules.gift_card.sale",
+            "trytond.modules.gift_card.tests",
+            "trytond.modules.gift_card.tests.test_base",
+            "trytond.modules.gift_card.tests.test_gift_card",
+            "trytond.modules.gift_card.tests.test_views_depends"
+        ],
+        "version": "3.4.1.4"
     },
     "openlabs-incoterm": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.incoterm",
+            "trytond.modules.incoterm.incoterm",
+            "trytond.modules.incoterm.invoice",
+            "trytond.modules.incoterm.sale",
+            "trytond.modules.incoterm.stock",
+            "trytond.modules.incoterm.tests",
+            "trytond.modules.incoterm.tests.test_incoterm",
+            "trytond.modules.incoterm.tests.test_sale"
+        ],
+        "version": "3.0.1.1"
     },
     "openlabs-incoterm-sale-opportunity": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.incoterm_sale_opportunity",
+            "trytond.modules.incoterm_sale_opportunity.opportunity",
+            "trytond.modules.incoterm_sale_opportunity.tests",
+            "trytond.modules.incoterm_sale_opportunity.tests.test_sale_opportunity",
+            "trytond.modules.incoterm_sale_opportunity.tests.test_view_depends"
+        ],
+        "version": "3.0.1.0"
     },
     "openlabs-inventory-report": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.inventory_report",
+            "trytond.modules.inventory_report.inventory",
+            "trytond.modules.inventory_report.tests",
+            "trytond.modules.inventory_report.tests.test_inventory",
+            "trytond.modules.inventory_report.tests.test_views_depends"
+        ],
+        "version": "3.4.0.1"
     },
     "openlabs-invoice-payment-gateway": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.invoice_payment_gateway",
+            "trytond.modules.invoice_payment_gateway.invoice",
+            "trytond.modules.invoice_payment_gateway.tests",
+            "trytond.modules.invoice_payment_gateway.tests.test_invoice",
+            "trytond.modules.invoice_payment_gateway.tests.test_views_depends"
+        ],
+        "version": "3.4.1.0"
     },
     "openlabs-mail": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.mail",
+            "trytond.modules.mail.mail",
+            "trytond.modules.mail.tests",
+            "trytond.modules.mail.tests.test_mail",
+            "trytond.modules.mail.tests.test_views_depends"
+        ],
+        "version": "3.4.0.1"
     },
     "openlabs-nereid-blog": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.nereid_blog",
+            "trytond.modules.nereid_blog.blog",
+            "trytond.modules.nereid_blog.tests",
+            "trytond.modules.nereid_blog.tests.test_blog"
+        ],
+        "version": "3.0.2.0"
     },
     "openlabs-nereid-catalog-variants": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.nereid_catalog_variants",
+            "trytond.modules.nereid_catalog_variants.product",
+            "trytond.modules.nereid_catalog_variants.tests",
+            "trytond.modules.nereid_catalog_variants.tests.test_product",
+            "trytond.modules.nereid_catalog_variants.tests.test_views_depends"
+        ],
+        "version": "3.4.0.3"
     },
     "openlabs-nereid-chat": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.nereid_chat",
+            "trytond.modules.nereid_chat.application",
+            "trytond.modules.nereid_chat.chat",
+            "trytond.modules.nereid_chat.tests",
+            "trytond.modules.nereid_chat.tests.test_chat"
+        ],
+        "version": "3.0.1.1"
     },
     "openlabs-nereid-passbook": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.nereid_passbook",
+            "trytond.modules.nereid_passbook.passbook",
+            "trytond.modules.nereid_passbook.tests",
+            "trytond.modules.nereid_passbook.tests.test_views_depends"
+        ],
+        "version": "3.4.0.1"
     },
     "openlabs-nereid-payment-gateway": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.nereid_payment_gateway",
+            "trytond.modules.nereid_payment_gateway.party",
+            "trytond.modules.nereid_payment_gateway.tests",
+            "trytond.modules.nereid_payment_gateway.tests.test_party",
+            "trytond.modules.nereid_payment_gateway.tests.test_views_depends",
+            "trytond.modules.nereid_payment_gateway.website"
+        ],
+        "version": "3.4.0.2"
     },
     "openlabs-nereid-rest": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "3.0.1.0dev1"
     },
     "openlabs-nereid-s3": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.nereid_s3",
+            "trytond.modules.nereid_s3.static_file",
+            "trytond.modules.nereid_s3.tests",
+            "trytond.modules.nereid_s3.tests.test_nereid_s3"
+        ],
+        "version": "3.4.2.0"
     },
     "openlabs-nereid-webshop": {
         "cmdline": [],
@@ -56077,6 +56495,11 @@
         ],
         "version": "0.1.1"
     },
+    "openvpn-status-parser": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "openvpn2alidns": {
         "cmdline": [],
         "modules": [
@@ -57250,6 +57673,11 @@
             "oprex.tests"
         ],
         "version": "0.9.3"
+    },
+    "oprint": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "ops": {
         "cmdline": [],
