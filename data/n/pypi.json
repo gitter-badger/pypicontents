@@ -7255,6 +7255,32 @@
         ],
         "version": "1.6.1"
     },
+    "ndd-panda": {
+        "cmdline": [],
+        "modules": [
+            "panda",
+            "panda.bench",
+            "panda.bench.discriminibility",
+            "panda.bench.metrics",
+            "panda.bench.transforms",
+            "panda.bench.utilities",
+            "panda.default_config",
+            "panda.methods",
+            "panda.methods.bad_chans",
+            "panda.methods.denoise",
+            "panda.methods.derivatives",
+            "panda.methods.interpolation",
+            "panda.methods.misc",
+            "panda.methods.pcp",
+            "panda.methods.signals",
+            "panda.methods.viz",
+            "panda.utils",
+            "panda.utils.bids_s3",
+            "panda.utils.set_keys",
+            "panda.utils.utils"
+        ],
+        "version": "1.4"
+    },
     "ndef": {
         "cmdline": [],
         "modules": [
@@ -20851,7 +20877,7 @@
             "netius.sh.smtp",
             "netius.test"
         ],
-        "version": "1.16.10"
+        "version": "1.16.11"
     },
     "netjsonconfig": {
         "cmdline": [
@@ -27113,9 +27139,7 @@
         "version": ""
     },
     "nfv-manager": {
-        "cmdline": [
-            "manager"
-        ],
+        "cmdline": [],
         "modules": [
             "eu",
             "eu.softfire",
@@ -27137,7 +27161,7 @@
             "tests.ob_test",
             "tests.test_os_utils"
         ],
-        "version": "0.1.1b2"
+        "version": "0.1.1b3"
     },
     "nfw": {
         "cmdline": [],
@@ -50575,7 +50599,7 @@
             "nuclitrack.uitracking",
             "nuclitrack.uitraining"
         ],
-        "version": "1.2.5"
+        "version": "1.2.6"
     },
     "nucoscr": {
         "cmdline": [
@@ -54819,7 +54843,6 @@
     "nylas": {
         "cmdline": [],
         "modules": [
-            "inbox",
             "nylas",
             "nylas._client_sdk_version",
             "nylas.client",
@@ -54841,7 +54864,7 @@
             "tests.test_search",
             "tests.test_send_error_handling"
         ],
-        "version": "1.2.3"
+        "version": "2.0.0"
     },
     "nylas-production-python": {
         "cmdline": [],
