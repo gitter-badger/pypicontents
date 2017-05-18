@@ -5930,7 +5930,7 @@
         "modules": [
             "tap_adwords"
         ],
-        "version": "0.0.4"
+        "version": "0.0.5"
     },
     "tap-braintree": {
         "cmdline": [],
@@ -6007,7 +6007,7 @@
         "modules": [
             "tap_hubspot"
         ],
-        "version": "0.7.4"
+        "version": "0.7.5"
     },
     "tap-marketo": {
         "cmdline": [],
@@ -68414,278 +68414,647 @@
     },
     "trytond-account-credit-limit": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_credit_limit",
+            "account_credit_limit.account",
+            "account_credit_limit.party",
+            "account_credit_limit.tests",
+            "account_credit_limit.tests.test_account_credit_limit"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-de-skr03": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_de_skr03",
+            "account_de_skr03.tests",
+            "account_de_skr03.tests.test_account_de_skr03"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-deposit": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_deposit",
+            "account_deposit.account",
+            "account_deposit.invoice",
+            "account_deposit.party",
+            "account_deposit.tests",
+            "account_deposit.tests.test_account_deposit",
+            "account_deposit.tests.tools"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-dunning": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_dunning",
+            "account_dunning.account",
+            "account_dunning.dunning",
+            "account_dunning.party",
+            "account_dunning.tests",
+            "account_dunning.tests.test_account_dunning"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-dunning-fee": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_dunning_fee",
+            "account_dunning_fee.account",
+            "account_dunning_fee.dunning",
+            "account_dunning_fee.tests",
+            "account_dunning_fee.tests.test_account_dunning_fee"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-dunning-letter": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_dunning_letter",
+            "account_dunning_letter.dunning",
+            "account_dunning_letter.tests",
+            "account_dunning_letter.tests.test_account_dunning_letter"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-fr": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_fr",
+            "account_fr.account",
+            "account_fr.tests",
+            "account_fr.tests.test_account_fr",
+            "account_fr.tests.tools"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-invoice": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_invoice",
+            "account_invoice.account",
+            "account_invoice.invoice",
+            "account_invoice.party",
+            "account_invoice.payment_term",
+            "account_invoice.tests",
+            "account_invoice.tests.test_account_invoice",
+            "account_invoice.tests.tools"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-invoice-correction": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_invoice_correction",
+            "account_invoice_correction.invoice",
+            "account_invoice_correction.tests",
+            "account_invoice_correction.tests.test_account_invoice_correction"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-invoice-history": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_invoice_history",
+            "account_invoice_history.invoice",
+            "account_invoice_history.party",
+            "account_invoice_history.payment_term"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-invoice-line-standalone": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_invoice_line_standalone",
+            "account_invoice_line_standalone.invoice",
+            "account_invoice_line_standalone.tests",
+            "account_invoice_line_standalone.tests.test_account_invoice_line_standalone"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-invoice-stock": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_invoice_stock",
+            "account_invoice_stock.account",
+            "account_invoice_stock.stock",
+            "account_invoice_stock.tests",
+            "account_invoice_stock.tests.test_account_invoice_stock"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-nl": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond",
+            "trytond.modules",
+            "trytond.modules.account_nl",
+            "trytond.modules.account_nl.__tryton__",
+            "trytond.modules.account_nl.converter"
+        ],
+        "version": "2.2.2"
     },
     "trytond-account-payment": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_payment",
+            "account_payment.account",
+            "account_payment.party",
+            "account_payment.payment",
+            "account_payment.tests",
+            "account_payment.tests.test_account_payment"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-payment-clearing": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_payment_clearing",
+            "account_payment_clearing.account",
+            "account_payment_clearing.payment",
+            "account_payment_clearing.statement",
+            "account_payment_clearing.tests",
+            "account_payment_clearing.tests.test_account_payment_clearing"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-payment-sepa": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_payment_sepa",
+            "account_payment_sepa.account",
+            "account_payment_sepa.party",
+            "account_payment_sepa.payment",
+            "account_payment_sepa.sepa_handler",
+            "account_payment_sepa.tests",
+            "account_payment_sepa.tests.test_account_payment_sepa"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-payment-sepa-cfonb": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_payment_sepa_cfonb",
+            "account_payment_sepa_cfonb.payment",
+            "account_payment_sepa_cfonb.tests",
+            "account_payment_sepa_cfonb.tests.test_account_payment_sepa_cfonb"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-payment-stripe": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_payment_stripe",
+            "account_payment_stripe.party",
+            "account_payment_stripe.payment",
+            "account_payment_stripe.routes",
+            "account_payment_stripe.tests",
+            "account_payment_stripe.tests.test_account_payment_stripe"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-product": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_product",
+            "account_product.configuration",
+            "account_product.product",
+            "account_product.tests",
+            "account_product.tests.test_account_product"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-statement": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_statement",
+            "account_statement.account",
+            "account_statement.journal",
+            "account_statement.party",
+            "account_statement.statement",
+            "account_statement.tests",
+            "account_statement.tests.test_account_statement"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-stock-anglo-saxon": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_stock_anglo_saxon",
+            "account_stock_anglo_saxon.account",
+            "account_stock_anglo_saxon.invoice",
+            "account_stock_anglo_saxon.product",
+            "account_stock_anglo_saxon.stock",
+            "account_stock_anglo_saxon.tests",
+            "account_stock_anglo_saxon.tests.test_account_stock_anglo_saxon",
+            "account_stock_anglo_saxon.tests.tools"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-stock-continental": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_stock_continental",
+            "account_stock_continental.account",
+            "account_stock_continental.product",
+            "account_stock_continental.stock",
+            "account_stock_continental.tests",
+            "account_stock_continental.tests.test_account_stock_continental",
+            "account_stock_continental.tests.tools"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-stock-landed-cost": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_stock_landed_cost",
+            "account_stock_landed_cost.account",
+            "account_stock_landed_cost.product",
+            "account_stock_landed_cost.stock",
+            "account_stock_landed_cost.tests",
+            "account_stock_landed_cost.tests.test_account_stock_landed_cost"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-stock-landed-cost-weight": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_stock_landed_cost_weight",
+            "account_stock_landed_cost_weight.account",
+            "account_stock_landed_cost_weight.tests",
+            "account_stock_landed_cost_weight.tests.test_account_stock_landed_cost_weight"
+        ],
+        "version": "4.4.0"
     },
     "trytond-account-tax-rule-country": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "account_tax_rule_country",
+            "account_tax_rule_country.account",
+            "account_tax_rule_country.purchase",
+            "account_tax_rule_country.sale",
+            "account_tax_rule_country.tests",
+            "account_tax_rule_country.tests.test_account_tax_rule_country"
+        ],
+        "version": "4.4.0"
     },
     "trytond-analytic-account": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "analytic_account",
+            "analytic_account.account",
+            "analytic_account.line",
+            "analytic_account.rule",
+            "analytic_account.tests",
+            "analytic_account.tests.test_analytic_account"
+        ],
+        "version": "4.4.0"
     },
     "trytond-analytic-invoice": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "analytic_invoice",
+            "analytic_invoice.asset",
+            "analytic_invoice.invoice",
+            "analytic_invoice.tests",
+            "analytic_invoice.tests.test_analytic_invoice"
+        ],
+        "version": "4.4.0"
     },
     "trytond-analytic-purchase": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "analytic_purchase",
+            "analytic_purchase.purchase",
+            "analytic_purchase.tests",
+            "analytic_purchase.tests.test_analytic_purchase"
+        ],
+        "version": "4.4.0"
     },
     "trytond-analytic-sale": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "analytic_sale",
+            "analytic_sale.sale",
+            "analytic_sale.tests",
+            "analytic_sale.tests.test_analytic_sale"
+        ],
+        "version": "4.4.0"
     },
     "trytond-attachment-s3": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.attachment_s3",
+            "trytond.modules.attachment_s3.attachment",
+            "trytond.modules.attachment_s3.field",
+            "trytond.modules.attachment_s3.tests",
+            "trytond.modules.attachment_s3.tests.test_view_and_depends"
+        ],
+        "version": "4.0.1.0"
     },
     "trytond-authentication-sms": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "authentication_sms",
+            "authentication_sms.res",
+            "authentication_sms.tests",
+            "authentication_sms.tests.test_authentication_sms"
+        ],
+        "version": "4.4.0"
     },
     "trytond-bank": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "bank",
+            "bank.bank",
+            "bank.party",
+            "bank.tests",
+            "bank.tests.test_bank"
+        ],
+        "version": "4.4.0"
     },
     "trytond-calendar": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "calendar",
+            "calendar.caldav",
+            "calendar.calendar_",
+            "calendar.res",
+            "calendar.tests",
+            "calendar.tests.scenario_calendar",
+            "calendar.tests.test_calendar",
+            "calendar.webdav"
+        ],
+        "version": "4.2.0"
     },
     "trytond-calendar-classification": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "calendar_classification",
+            "calendar_classification.calendar_"
+        ],
+        "version": "4.2.0"
     },
     "trytond-calendar-scheduling": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "calendar_scheduling",
+            "calendar_scheduling.caldav",
+            "calendar_scheduling.calendar_",
+            "calendar_scheduling.res",
+            "calendar_scheduling.tests",
+            "calendar_scheduling.tests.scenario_calendar_scheduling",
+            "calendar_scheduling.tests.test_calendar_scheduling"
+        ],
+        "version": "4.2.0"
     },
     "trytond-calendar-todo": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "calendar_todo",
+            "calendar_todo.caldav",
+            "calendar_todo.tests",
+            "calendar_todo.tests.test_calendar_todo",
+            "calendar_todo.todo",
+            "calendar_todo.webdav"
+        ],
+        "version": "4.2.0"
     },
     "trytond-carrier": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "carrier",
+            "carrier.carrier",
+            "carrier.party",
+            "carrier.tests",
+            "carrier.tests.test_carrier"
+        ],
+        "version": "4.4.0"
     },
     "trytond-carrier-percentage": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "carrier_percentage",
+            "carrier_percentage.carrier",
+            "carrier_percentage.sale",
+            "carrier_percentage.stock",
+            "carrier_percentage.tests",
+            "carrier_percentage.tests.test_carrier_percentage"
+        ],
+        "version": "4.4.0"
     },
     "trytond-carrier-weight": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "carrier_weight",
+            "carrier_weight.carrier",
+            "carrier_weight.common",
+            "carrier_weight.sale",
+            "carrier_weight.stock",
+            "carrier_weight.tests",
+            "carrier_weight.tests.test_carrier_weight"
+        ],
+        "version": "4.4.0"
     },
     "trytond-commission": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "commission",
+            "commission.commission",
+            "commission.invoice",
+            "commission.party",
+            "commission.product",
+            "commission.sale",
+            "commission.tests",
+            "commission.tests.test_commission"
+        ],
+        "version": "4.4.0"
     },
     "trytond-commission-waiting": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "commission_waiting",
+            "commission_waiting.account",
+            "commission_waiting.commission",
+            "commission_waiting.invoice",
+            "commission_waiting.tests",
+            "commission_waiting.tests.test_commission_waiting"
+        ],
+        "version": "4.4.0"
     },
     "trytond-company": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "company",
+            "company.company",
+            "company.cron",
+            "company.model",
+            "company.party",
+            "company.tests",
+            "company.tests.test_company",
+            "company.tests.tools"
+        ],
+        "version": "4.4.0"
     },
     "trytond-company-work-time": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "company_work_time",
+            "company_work_time.company",
+            "company_work_time.res",
+            "company_work_time.tests",
+            "company_work_time.tests.test_company_work_time"
+        ],
+        "version": "4.4.0"
     },
     "trytond-contract": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond",
+            "trytond.modules",
+            "trytond.modules.contract",
+            "trytond.modules.contract.__tryton__",
+            "trytond.modules.contract.configuration",
+            "trytond.modules.contract.contract",
+            "trytond.modules.contract.invoice",
+            "trytond.modules.contract.party",
+            "trytond.modules.contract.tests"
+        ],
+        "version": "2.2.2"
     },
     "trytond-country": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "country",
+            "country.country",
+            "country.tests",
+            "country.tests.test_country"
+        ],
+        "version": "4.4.0"
     },
     "trytond-currency": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "currency",
+            "currency.currency",
+            "currency.tests",
+            "currency.tests.test_currency",
+            "currency.tests.tools"
+        ],
+        "version": "4.4.0"
     },
     "trytond-customs": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "customs",
+            "customs.customs",
+            "customs.product",
+            "customs.tests",
+            "customs.tests.test_customs"
+        ],
+        "version": "4.4.0"
     },
     "trytond-dashboard": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "dashboard",
+            "dashboard.dashboard",
+            "dashboard.ir",
+            "dashboard.res",
+            "dashboard.tests",
+            "dashboard.tests.test_dashboard"
+        ],
+        "version": "4.4.0"
     },
     "trytond-ebay": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.ebay",
+            "trytond.modules.ebay.channel",
+            "trytond.modules.ebay.country",
+            "trytond.modules.ebay.party",
+            "trytond.modules.ebay.product",
+            "trytond.modules.ebay.sale",
+            "trytond.modules.ebay.tests",
+            "trytond.modules.ebay.tests.test_base",
+            "trytond.modules.ebay.tests.test_channel",
+            "trytond.modules.ebay.tests.test_country",
+            "trytond.modules.ebay.tests.test_party",
+            "trytond.modules.ebay.tests.test_product",
+            "trytond.modules.ebay.tests.test_sale",
+            "trytond.modules.ebay.tests.test_views"
+        ],
+        "version": "3.4.8.1"
     },
     "trytond-elastic-search": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.elastic_search",
+            "trytond.modules.elastic_search.configuration",
+            "trytond.modules.elastic_search.index",
+            "trytond.modules.elastic_search.tests",
+            "trytond.modules.elastic_search.tests.test_elastic_search"
+        ],
+        "version": "4.0.0.4"
     },
     "trytond-electronic-mail": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.electronic_mail",
+            "trytond.modules.electronic_mail.electronic_mail",
+            "trytond.modules.electronic_mail.tests",
+            "trytond.modules.electronic_mail.tests.test_electronic_mail"
+        ],
+        "version": "2.6.1.0"
     },
     "trytond-electronic-mail-template": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.electronic_mail_template",
+            "trytond.modules.electronic_mail_template.__tryton__",
+            "trytond.modules.electronic_mail_template.electronic_mail",
+            "trytond.modules.electronic_mail_template.template",
+            "trytond.modules.electronic_mail_template.tests.test_template",
+            "trytond.modules.electronic_mail_template.trigger"
+        ],
+        "version": "2.4.0.2"
     },
     "trytond-encrypted-field": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond_encrypted_field",
+            "trytond_encrypted_field.field"
+        ],
+        "version": "4.0.0.1"
     },
     "trytond-endicia-integration": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.endicia_integration",
+            "trytond.modules.endicia_integration.carrier",
+            "trytond.modules.endicia_integration.configuration",
+            "trytond.modules.endicia_integration.country",
+            "trytond.modules.endicia_integration.party",
+            "trytond.modules.endicia_integration.sale",
+            "trytond.modules.endicia_integration.shipment_bag",
+            "trytond.modules.endicia_integration.stock",
+            "trytond.modules.endicia_integration.tests",
+            "trytond.modules.endicia_integration.tests.test_carrier",
+            "trytond.modules.endicia_integration.tests.test_endicia",
+            "trytond.modules.endicia_integration.tests.test_stock"
+        ],
+        "version": "3.4.0.3"
     },
     "trytond-google-maps": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "google_maps",
+            "google_maps.address",
+            "google_maps.tests",
+            "google_maps.tests.test_google_maps"
+        ],
+        "version": "4.4.0"
     },
     "trytond-google-translate": {
         "cmdline": [],
@@ -68694,43 +69063,84 @@
     },
     "trytond-health": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.health",
+            "trytond.modules.health.health",
+            "trytond.modules.health.report",
+            "trytond.modules.health.report.health_report",
+            "trytond.modules.health.report.immunization_status_report",
+            "trytond.modules.health.tests",
+            "trytond.modules.health.tests.test_health",
+            "trytond.modules.health.wizard",
+            "trytond.modules.health.wizard.wizard_appointment_evaluation",
+            "trytond.modules.health.wizard.wizard_check_immunization_status"
+        ],
+        "version": "3.0.8"
     },
     "trytond-health-archives": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.health_archives",
+            "trytond.modules.health_archives.health_archives"
+        ],
+        "version": "3.0.8"
     },
     "trytond-health-calendar": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.health_calendar",
+            "trytond.modules.health_calendar.health_calendar",
+            "trytond.modules.health_calendar.tests",
+            "trytond.modules.health_calendar.tests.test_health_calendar",
+            "trytond.modules.health_calendar.wizard",
+            "trytond.modules.health_calendar.wizard.wizard_health_calendar"
+        ],
+        "version": "3.0.8"
     },
     "trytond-health-crypto": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.health_crypto",
+            "trytond.modules.health_crypto.health_crypto"
+        ],
+        "version": "3.0.8"
     },
     "trytond-health-disability": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.health_disability",
+            "trytond.modules.health_disability.health_disability"
+        ],
+        "version": "3.0.8"
     },
     "trytond-health-genetics": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.health_genetics",
+            "trytond.modules.health_genetics.health_genetics",
+            "trytond.modules.health_genetics.tests",
+            "trytond.modules.health_genetics.tests.test_health_genetics"
+        ],
+        "version": "3.0.8"
     },
     "trytond-health-gyneco": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.health_gyneco",
+            "trytond.modules.health_gyneco.health_gyneco",
+            "trytond.modules.health_gyneco.tests",
+            "trytond.modules.health_gyneco.tests.test_health_gyneco"
+        ],
+        "version": "3.0.8"
     },
     "trytond-health-history": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.health_history",
+            "trytond.modules.health_history.report",
+            "trytond.modules.health_history.report.patient_evaluation_report"
+        ],
+        "version": "3.0.8"
     },
     "trytond-health-icd10": {
         "cmdline": [],
