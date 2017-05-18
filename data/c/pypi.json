@@ -2553,19 +2553,33 @@
         "modules": [
             "cadcdata",
             "cadcdata.core",
+            "cadcdata.tests",
+            "cadcdata.tests.test_core",
+            "cadcdata.tests.test_transfer",
             "cadcdata.transfer",
             "cadcdata.version"
         ],
-        "version": "1.1a3"
+        "version": "1.1a4"
     },
     "cadcutils": {
         "cmdline": [],
         "modules": [
             "cadcutils",
             "cadcutils.exceptions",
+            "cadcutils.net",
+            "cadcutils.net.auth",
+            "cadcutils.net.ws",
+            "cadcutils.net.wscapabilities",
+            "cadcutils.util",
+            "cadcutils.util.config",
+            "cadcutils.util.tests",
+            "cadcutils.util.tests.setup_package",
+            "cadcutils.util.tests.test_config",
+            "cadcutils.util.tests.test_utils",
+            "cadcutils.util.utils",
             "cadcutils.version"
         ],
-        "version": "1.1.2a6"
+        "version": "1.1.2a7"
     },
     "cadenza": {
         "cmdline": [],
