@@ -51016,63 +51016,159 @@
     },
     "openlabs-nereid-webshop": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.nereid_webshop",
+            "trytond.modules.nereid_webshop.fabfile",
+            "trytond.modules.nereid_webshop.forms",
+            "trytond.modules.nereid_webshop.invoice",
+            "trytond.modules.nereid_webshop.party",
+            "trytond.modules.nereid_webshop.product",
+            "trytond.modules.nereid_webshop.sale",
+            "trytond.modules.nereid_webshop.shipment",
+            "trytond.modules.nereid_webshop.static_file",
+            "trytond.modules.nereid_webshop.tests",
+            "trytond.modules.nereid_webshop.tests.test_base",
+            "trytond.modules.nereid_webshop.tests.test_css",
+            "trytond.modules.nereid_webshop.tests.test_gift_card",
+            "trytond.modules.nereid_webshop.tests.test_invoice",
+            "trytond.modules.nereid_webshop.tests.test_templates",
+            "trytond.modules.nereid_webshop.tests.test_tree",
+            "trytond.modules.nereid_webshop.tests.test_views_depends",
+            "trytond.modules.nereid_webshop.tests.test_website",
+            "trytond.modules.nereid_webshop.tree",
+            "trytond.modules.nereid_webshop.webshop"
+        ],
+        "version": "3.4.4.6"
     },
     "openlabs-nereid-webshop-elastic-search": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.nereid_webshop_elastic_search",
+            "trytond.modules.nereid_webshop_elastic_search.pagination",
+            "trytond.modules.nereid_webshop_elastic_search.product",
+            "trytond.modules.nereid_webshop_elastic_search.tests",
+            "trytond.modules.nereid_webshop_elastic_search.tests.test_pagination",
+            "trytond.modules.nereid_webshop_elastic_search.tests.test_product",
+            "trytond.modules.nereid_webshop_elastic_search.tests.test_views_depends",
+            "trytond.modules.nereid_webshop_elastic_search.website"
+        ],
+        "version": "3.4.0.5"
     },
     "openlabs-nereid-wishlist": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.nereid_wishlist",
+            "trytond.modules.nereid_wishlist.tests",
+            "trytond.modules.nereid_wishlist.tests.test_views_depends",
+            "trytond.modules.nereid_wishlist.tests.test_wishlist",
+            "trytond.modules.nereid_wishlist.wishlist"
+        ],
+        "version": "3.4.0.2"
     },
     "openlabs-party-elasticsearch": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.party_elasticsearch",
+            "trytond.modules.party_elasticsearch.party",
+            "trytond.modules.party_elasticsearch.tests",
+            "trytond.modules.party_elasticsearch.tests.test_party",
+            "trytond.modules.party_elasticsearch.tests.test_views_depends"
+        ],
+        "version": "3.4.0.2"
     },
     "openlabs-party-merge": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.party_merge",
+            "trytond.modules.party_merge.party",
+            "trytond.modules.party_merge.tests",
+            "trytond.modules.party_merge.tests.test_party",
+            "trytond.modules.party_merge.tests.test_views_depends"
+        ],
+        "version": "3.4.0.1"
     },
     "openlabs-payment-gateway": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.payment_gateway",
+            "trytond.modules.payment_gateway.dummy",
+            "trytond.modules.payment_gateway.manual",
+            "trytond.modules.payment_gateway.tests",
+            "trytond.modules.payment_gateway.tests.test_transaction",
+            "trytond.modules.payment_gateway.tests.test_view_depends",
+            "trytond.modules.payment_gateway.transaction"
+        ],
+        "version": "3.4.3.0"
     },
     "openlabs-payment-gateway-authorize-net": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.payment_gateway_authorize_net",
+            "trytond.modules.payment_gateway_authorize_net.tests",
+            "trytond.modules.payment_gateway_authorize_net.tests.test_transaction",
+            "trytond.modules.payment_gateway_authorize_net.tests.test_view_depends",
+            "trytond.modules.payment_gateway_authorize_net.transaction"
+        ],
+        "version": "3.4.0.2"
     },
     "openlabs-payment-gateway-beanstream": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.payment_gateway_beanstream",
+            "trytond.modules.payment_gateway_beanstream.beanstream_api",
+            "trytond.modules.payment_gateway_beanstream.tests",
+            "trytond.modules.payment_gateway_beanstream.tests.test_transaction",
+            "trytond.modules.payment_gateway_beanstream.tests.test_view_depends",
+            "trytond.modules.payment_gateway_beanstream.transaction"
+        ],
+        "version": "3.0.1.2"
     },
     "openlabs-pos": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.pos",
+            "trytond.modules.pos.address",
+            "trytond.modules.pos.sale",
+            "trytond.modules.pos.shipment",
+            "trytond.modules.pos.tests",
+            "trytond.modules.pos.tests.test_address",
+            "trytond.modules.pos.tests.test_sale",
+            "trytond.modules.pos.tests.test_views_depends"
+        ],
+        "version": "3.4.1.2"
     },
     "openlabs-product-attribute-strict": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.product_attribute_strict",
+            "trytond.modules.product_attribute_strict.product",
+            "trytond.modules.product_attribute_strict.tests",
+            "trytond.modules.product_attribute_strict.tests.test_product",
+            "trytond.modules.product_attribute_strict.tests.test_views_depends"
+        ],
+        "version": "3.4.0.3"
     },
     "openlabs-product-category-price-list": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.product_category_price_list",
+            "trytond.modules.product_category_price_list.price_list",
+            "trytond.modules.product_category_price_list.tests",
+            "trytond.modules.product_category_price_list.tests.test_price_list",
+            "trytond.modules.product_category_price_list.tests.test_views_depends"
+        ],
+        "version": "3.4.0.1"
     },
     "openlabs-product-elasticsearch": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.product_elasticsearch",
+            "trytond.modules.product_elasticsearch.product",
+            "trytond.modules.product_elasticsearch.tests",
+            "trytond.modules.product_elasticsearch.tests.test_product",
+            "trytond.modules.product_elasticsearch.tests.test_views_depends"
+        ],
+        "version": "3.4.0.1"
     },
     "openlabs-product-notebook": {
         "cmdline": [],
