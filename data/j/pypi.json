@@ -2086,7 +2086,7 @@
             "janis",
             "janis.janis"
         ],
-        "version": "0.0.1"
+        "version": "0.0.2"
     },
     "janitor": {
         "cmdline": [],
@@ -3925,7 +3925,7 @@
             "jasmine_core.core",
             "jasmine_core.images"
         ],
-        "version": "2.6.1"
+        "version": "2.6.2"
     },
     "jasmine-splinter-runner": {
         "cmdline": [],
@@ -5989,8 +5989,24 @@
     },
     "jenkinsflow": {
         "cmdline": [],
-        "modules": [],
-        "version": "1.1.4"
+        "modules": [
+            "jenkinsflow",
+            "jenkinsflow.api_base",
+            "jenkinsflow.cli",
+            "jenkinsflow.cli.cli",
+            "jenkinsflow.cli.set_build_description",
+            "jenkinsflow.cli.set_build_result",
+            "jenkinsflow.flow",
+            "jenkinsflow.jenkins_api",
+            "jenkinsflow.jobload",
+            "jenkinsflow.ordered_enum",
+            "jenkinsflow.rest_api_wrapper",
+            "jenkinsflow.script_api",
+            "jenkinsflow.speed",
+            "jenkinsflow.ttt",
+            "jenkinsflow.unbuffered"
+        ],
+        "version": "2.0.0"
     },
     "jenkinshelper": {
         "cmdline": [],
@@ -7242,7 +7258,7 @@
             "jhtalib.volume_indicators",
             "jhtalib.volume_indicators.volume_indicators"
         ],
-        "version": "20170514.0"
+        "version": "20170517.0"
     },
     "ji18n": {
         "cmdline": [],
@@ -18075,6 +18091,13 @@
         ],
         "version": "1.0"
     },
+    "jsonfeed": {
+        "cmdline": [],
+        "modules": [
+            "jsonfeed"
+        ],
+        "version": "0.0.1"
+    },
     "jsonfield": {
         "cmdline": [],
         "modules": [
@@ -21579,7 +21602,7 @@
             "jumeaux.executor",
             "jumeaux.models"
         ],
-        "version": "0.6.1"
+        "version": "0.6.2"
     },
     "jumon": {
         "cmdline": [],
@@ -23824,7 +23847,7 @@
             "tests.test_everything",
             "tests.test_pacer"
         ],
-        "version": "1.4.21"
+        "version": "1.4.23"
     },
     "juruskupang": {
         "cmdline": [],
