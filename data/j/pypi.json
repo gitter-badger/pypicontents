@@ -1265,6 +1265,17 @@
         ],
         "version": "0.0.2"
     },
+    "jailconf": {
+        "cmdline": [],
+        "modules": [
+            "jailconf",
+            "jailconf.exceptions",
+            "jailconf.lexer",
+            "jailconf.parser",
+            "jailconf.structures"
+        ],
+        "version": "0.1.0"
+    },
     "jailconf-tools": {
         "cmdline": [],
         "modules": [
@@ -23424,7 +23435,7 @@
             "jupyterlab_launcher.app",
             "jupyterlab_launcher.handlers"
         ],
-        "version": "0.2.8"
+        "version": "0.2.9"
     },
     "jupyterlab-widgets": {
         "cmdline": [],
