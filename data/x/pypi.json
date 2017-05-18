@@ -2271,7 +2271,7 @@
             "xbus.error",
             "xbus.ldict"
         ],
-        "version": "0.1.2"
+        "version": "0.1.4"
     },
     "xbus.broker": {
         "cmdline": [],
@@ -3083,7 +3083,9 @@
         "version": "0.1.0"
     },
     "xdis": {
-        "cmdline": [],
+        "cmdline": [
+            "pydisasm"
+        ],
         "modules": [
             "xdis",
             "xdis.bytecode",
@@ -3094,8 +3096,6 @@
             "xdis.magics",
             "xdis.main",
             "xdis.marsh",
-            "xdis.namedtuple23",
-            "xdis.namedtuple24",
             "xdis.opcodes",
             "xdis.opcodes.base",
             "xdis.opcodes.opcode_15",
@@ -3126,7 +3126,7 @@
             "xdis.version",
             "xdis.wordcode"
         ],
-        "version": "3.3.0"
+        "version": "3.3.1"
     },
     "xdistutils": {
         "cmdline": [],
@@ -7760,6 +7760,11 @@
         "cmdline": [],
         "modules": [],
         "version": "0.1"
+    },
+    "xontrib-fzf-widgets": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.1"
     },
     "xontrib-powerline": {
         "cmdline": [],
