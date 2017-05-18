@@ -9831,7 +9831,7 @@
             "youtube_dl.utils",
             "youtube_dl.version"
         ],
-        "version": "2017.5.14"
+        "version": "2017.5.18.1"
     },
     "youtube-dl-plugin": {
         "cmdline": [],
@@ -12245,25 +12245,28 @@
         "cmdline": [],
         "modules": [
             "yuuno",
-            "yuuno.converter",
-            "yuuno.converter.converter",
-            "yuuno.converter.pilsave",
-            "yuuno.converter.vs_conv",
-            "yuuno.features",
-            "yuuno.formatters",
-            "yuuno.inspection",
-            "yuuno.magic",
-            "yuuno.magic.encode",
-            "yuuno.magic.install_magic",
-            "yuuno.magic.util",
-            "yuuno.settings",
-            "yuuno.variables",
-            "yuuno.widgets",
-            "yuuno.widgets.applications",
-            "yuuno.widgets.image",
-            "yuuno.widgets.widget"
+            "yuuno.core",
+            "yuuno.core.converter",
+            "yuuno.core.converter.manager",
+            "yuuno.core.converter.pilsave",
+            "yuuno.core.converter.vs_conv",
+            "yuuno.core.settings",
+            "yuuno.ipython",
+            "yuuno.ipython.features",
+            "yuuno.ipython.formatters",
+            "yuuno.ipython.magic",
+            "yuuno.ipython.magic.encode",
+            "yuuno.ipython.magic.settings",
+            "yuuno.ipython.magic.util",
+            "yuuno.ipython.magic.yuuno_command",
+            "yuuno.ipython.variables",
+            "yuuno.ipython.widgets",
+            "yuuno.ipython.widgets.applications",
+            "yuuno.ipython.widgets.image",
+            "yuuno.ipython.widgets.widget",
+            "yuuno.util"
         ],
-        "version": "0.3.4.2"
+        "version": "0.4.0"
     },
     "yux-nester": {
         "cmdline": [],
