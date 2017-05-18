@@ -120,7 +120,7 @@
             "i2b2_import.ppmi_extension",
             "i2b2_import.utils"
         ],
-        "version": "1.5.28"
+        "version": "1.6.0"
     },
     "i2c": {
         "cmdline": [],
@@ -3256,7 +3256,7 @@
             "icemac.addressbook.tests.test_testing",
             "icemac.addressbook.utils"
         ],
-        "version": "4.1"
+        "version": "4.1.1"
     },
     "icemac.callonchange": {
         "cmdline": [],
@@ -4646,7 +4646,7 @@
             "idigbio.pandas_client",
             "idigbio.util"
         ],
-        "version": "0.8.2"
+        "version": "0.8.3.3"
     },
     "idigbio-media-appliance": {
         "cmdline": [],
@@ -7294,7 +7294,7 @@
             "iland.exception",
             "iland.log"
         ],
-        "version": "0.7.1"
+        "version": "0.7.2"
     },
     "ilang": {
         "cmdline": [],
@@ -20278,7 +20278,7 @@
             "infoblox_client.objects",
             "infoblox_client.utils"
         ],
-        "version": "0.4.13"
+        "version": "0.4.14"
     },
     "infoblox-netmri": {
         "cmdline": [],
@@ -21475,6 +21475,13 @@
         "modules": [],
         "version": "0.8.0"
     },
+    "inireader": {
+        "cmdline": [],
+        "modules": [
+            "inireader"
+        ],
+        "version": "0.1.0"
+    },
     "inistry": {
         "cmdline": [],
         "modules": [],
@@ -22456,6 +22463,25 @@
         "modules": [],
         "version": ""
     },
+    "inqry": {
+        "cmdline": [],
+        "modules": [
+            "inqry",
+            "inqry.asset_qrcode",
+            "inqry.form_instructions",
+            "inqry.system_specs",
+            "inqry.system_specs.cfgutil",
+            "inqry.system_specs.diskutil",
+            "inqry.system_specs.ios_system_profiler",
+            "inqry.system_specs.mac_system_profiler",
+            "inqry.system_specs.macdisk",
+            "inqry.system_specs.systemspecs",
+            "inqry.system_specs.win_physical_disk",
+            "inqry.system_specs.windisk",
+            "inqry.system_specs.windows_system_profiler"
+        ],
+        "version": "1.2.3"
+    },
     "inquant.contentmirror": {
         "cmdline": [],
         "modules": [
@@ -23272,7 +23298,7 @@
             "InstaGaana",
             "InstaGaana.InstaGaana"
         ],
-        "version": "1.3.4"
+        "version": "1.3.5"
     },
     "instagram": {
         "cmdline": [],
@@ -23488,7 +23514,7 @@
             "tests.test_instaLooter",
             "tests.test_issues"
         ],
-        "version": "0.9.6"
+        "version": "0.9.7"
     },
     "instamedia": {
         "cmdline": [],
@@ -27149,7 +27175,7 @@
             "invenio_files_rest.views",
             "invenio_files_rest.wrappers"
         ],
-        "version": "1.0.0a15"
+        "version": "1.0.0a16"
     },
     "invenio-formatter": {
         "cmdline": [],
@@ -28382,7 +28408,7 @@
             "invoice2data.test.test_extraction",
             "invoice2data.utils"
         ],
-        "version": "0.2.51"
+        "version": "0.2.53"
     },
     "invoiced": {
         "cmdline": [],
@@ -28542,6 +28568,14 @@
             "invpy_libs.workbooks_dict"
         ],
         "version": "0.4.0"
+    },
+    "invrcptexporter": {
+        "cmdline": [],
+        "modules": [
+            "invrcpt",
+            "invrcpt.exporter"
+        ],
+        "version": "0.3"
     },
     "inxpect": {
         "cmdline": [],
@@ -31023,7 +31057,7 @@
             "ipamcli.commands.cmd_show",
             "ipamcli.commands.tools"
         ],
-        "version": "0.0.5"
+        "version": "0.0.6"
     },
     "ipandoc": {
         "cmdline": [],
@@ -31103,7 +31137,7 @@
             "parapheur.scripts.checkInstallationIP",
             "parapheur.scripts.recupArchives"
         ],
-        "version": "0.1.0.5224"
+        "version": "0.1.0.5898"
     },
     "ipark.ereporter": {
         "cmdline": [],
@@ -31193,6 +31227,15 @@
             "ipbec.widgets.SaveDialog"
         ],
         "version": "0.1.9"
+    },
+    "ipc": {
+        "cmdline": [],
+        "modules": [
+            "ipc",
+            "ipc.ipc",
+            "ipc.util"
+        ],
+        "version": "1.0.0"
     },
     "ipcalc": {
         "cmdline": [],
@@ -31684,6 +31727,17 @@
         "cmdline": [],
         "modules": [],
         "version": "v1.0.0"
+    },
+    "ipick": {
+        "cmdline": [],
+        "modules": [
+            "iPick",
+            "iPick.IcePick",
+            "iPick.demo",
+            "iPick.tests",
+            "iPick.utils"
+        ],
+        "version": "0.1.1"
     },
     "ipify": {
         "cmdline": [],
@@ -41561,6 +41615,7 @@
             "isogeo_pysdk",
             "isogeo_pysdk.isogeo_sdk",
             "isogeo_pysdk.samples",
+            "isogeo_pysdk.samples.attributes_frequency",
             "isogeo_pysdk.samples.download_batch_hosted_data",
             "isogeo_pysdk.samples.export_batch_xml19139",
             "isogeo_pysdk.samples.get_OpenCatalog",
@@ -41568,9 +41623,11 @@
             "isogeo_pysdk.samples.related_links",
             "isogeo_pysdk.samples.search",
             "isogeo_pysdk.samples.spatial_search",
+            "isogeo_pysdk.samples.store_api_responses",
+            "isogeo_pysdk.samples.udata_client_datagouvfr",
             "isogeo_pysdk.translator"
         ],
-        "version": "2.18.0.post490"
+        "version": "2.18.0.post491"
     },
     "isolcss": {
         "cmdline": [],
@@ -43346,6 +43403,11 @@
             "iterfu"
         ],
         "version": "0.1"
+    },
+    "iterfzf": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "iterm2-color-scheme": {
         "cmdline": [],
@@ -45353,7 +45415,7 @@
             "ixload.test.test_offline",
             "ixload.test.test_online"
         ],
-        "version": "0.9.0.2"
+        "version": "0.9.0.3"
     },
     "ixml": {
         "cmdline": [],
