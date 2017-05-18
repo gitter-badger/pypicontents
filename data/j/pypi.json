@@ -20285,7 +20285,7 @@
             "jtracker.worker",
             "jtracker.workflow"
         ],
-        "version": "0.1.0rc6"
+        "version": "0.1.0rc7"
     },
     "jtranslator": {
         "cmdline": [],
@@ -23408,9 +23408,11 @@
             "jupyterlab.commands",
             "jupyterlab.extension",
             "jupyterlab.labapp",
-            "jupyterlab.labextensions"
+            "jupyterlab.labextensions",
+            "jupyterlab.labhubapp",
+            "jupyterlab.selenium_check"
         ],
-        "version": "0.21.0"
+        "version": "0.22.0"
     },
     "jupyterlab-emrys": {
         "cmdline": [],
