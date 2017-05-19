@@ -11974,7 +11974,7 @@
         "modules": [
             "leap.bitmask_js"
         ],
-        "version": "0.1.201705161420"
+        "version": "0.1.201705191313"
     },
     "leap.bitmask-www": {
         "cmdline": [],
