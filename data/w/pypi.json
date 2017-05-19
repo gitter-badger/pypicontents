@@ -30675,7 +30675,7 @@
             "wotever.ExcutorMgr",
             "wotever.logger"
         ],
-        "version": "1.606"
+        "version": "1.607"
     },
     "wotwrapper": {
         "cmdline": [],
