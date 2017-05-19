@@ -17931,6 +17931,11 @@
         ],
         "version": "0.0.1.0"
     },
+    "geolink-formatter": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "geolinks": {
         "cmdline": [],
         "modules": [
@@ -63702,7 +63707,7 @@
             "guillotina_elasticsearch.utility",
             "guillotina_elasticsearch.utils"
         ],
-        "version": "1.0.21"
+        "version": "1.0.22"
     },
     "guillotina-gcloudstorage": {
         "cmdline": [],
