@@ -6823,7 +6823,7 @@
         "modules": [
             "target_stitch"
         ],
-        "version": "0.7.8"
+        "version": "0.7.9"
     },
     "targeter": {
         "cmdline": [],
@@ -19799,45 +19799,8 @@
     },
     "tensorflow-extenteten": {
         "cmdline": [],
-        "modules": [
-            "extenteten",
-            "extenteten.assertion",
-            "extenteten.attention",
-            "extenteten.batch",
-            "extenteten.classification",
-            "extenteten.classification_test",
-            "extenteten.cnn",
-            "extenteten.cnn.layer",
-            "extenteten.cnn.lenet",
-            "extenteten.cnn.lenet_test",
-            "extenteten.collections",
-            "extenteten.control",
-            "extenteten.dynamic_length",
-            "extenteten.dynamic_length_test",
-            "extenteten.embedding",
-            "extenteten.embedding.bidirectional",
-            "extenteten.embedding.embeddings",
-            "extenteten.embedding.unidirectional",
-            "extenteten.initializers",
-            "extenteten.invertible",
-            "extenteten.layer",
-            "extenteten.mask",
-            "extenteten.math",
-            "extenteten.mlp",
-            "extenteten.random",
-            "extenteten.regularization",
-            "extenteten.rnn",
-            "extenteten.rnn.cell",
-            "extenteten.rnn.rnn",
-            "extenteten.softmax",
-            "extenteten.summary",
-            "extenteten.train",
-            "extenteten.transform",
-            "extenteten.util",
-            "extenteten.variable",
-            "extenteten.variable_test"
-        ],
-        "version": "0.0.17"
+        "modules": [],
+        "version": "0.0.22"
     },
     "tensorflow-font2char2word2sent2doc": {
         "cmdline": [],
@@ -55999,7 +55962,7 @@
             "tpot.operator_utils",
             "tpot.tpot"
         ],
-        "version": "0.7.4"
+        "version": "0.7.5"
     },
     "tpq": {
         "cmdline": [
@@ -62452,11 +62415,12 @@
         "version": ""
     },
     "trashcaron": {
-        "cmdline": [
-            "trashcaron.py"
+        "cmdline": [],
+        "modules": [
+            "trashcaron",
+            "trashcaron.trashcaron"
         ],
-        "modules": [],
-        "version": "0.1.0"
+        "version": "0.1.6"
     },
     "trashman": {
         "cmdline": [],
@@ -65501,9 +65465,11 @@
     "trilateration": {
         "cmdline": [],
         "modules": [
-            "trilateration"
+            "trilateration",
+            "trilateration.test_trilateration",
+            "trilateration.trilateration"
         ],
-        "version": "0.1"
+        "version": "1.0"
     },
     "trileans": {
         "cmdline": [],
