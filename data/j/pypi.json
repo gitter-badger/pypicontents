@@ -4489,28 +4489,17 @@
     "jawaf": {
         "cmdline": [],
         "modules": [
+            "db",
+            "db.postgresql",
             "jawaf",
-            "jawaf.adapters",
-            "jawaf.adapters.db",
-            "jawaf.adapters.db.mysql",
-            "jawaf.adapters.db.postgresql",
             "jawaf.admin",
             "jawaf.admin.audit",
             "jawaf.admin.routes",
             "jawaf.admin.tables",
             "jawaf.admin.utils",
             "jawaf.admin.views",
-            "jawaf.auth",
-            "jawaf.auth.decorators",
-            "jawaf.auth.permissions",
-            "jawaf.auth.routes",
-            "jawaf.auth.tables",
-            "jawaf.auth.users",
-            "jawaf.auth.utils",
-            "jawaf.auth.views",
             "jawaf.conf",
             "jawaf.db",
-            "jawaf.db.orm",
             "jawaf.exceptions",
             "jawaf.mail",
             "jawaf.management",
@@ -4519,7 +4508,7 @@
             "jawaf.server",
             "jawaf.validators"
         ],
-        "version": "0.3.2"
+        "version": "0.3.3"
     },
     "jawanndenn": {
         "cmdline": [],
