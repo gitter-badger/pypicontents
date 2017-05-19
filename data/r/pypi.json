@@ -827,7 +827,7 @@
             "test_series.test_validate",
             "test_series.test_view_series"
         ],
-        "version": "2.1.1"
+        "version": "2.1.2"
     },
     "raccoontest": {
         "cmdline": [],
@@ -2363,7 +2363,7 @@
             "radiometric_normalization.transformation",
             "radiometric_normalization.validation"
         ],
-        "version": "0.1.154"
+        "version": "0.1.160"
     },
     "radiomics": {
         "cmdline": [],
@@ -11805,8 +11805,14 @@
     },
     "rayleigh": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "analysis",
+            "analysis.dsc_parser",
+            "analysis.frame_parser",
+            "analysis.plotter",
+            "analysis.rayleigh"
+        ],
+        "version": "0.3.0"
     },
     "rayleigh-module": {
         "cmdline": [],
@@ -19401,9 +19407,13 @@
         "version": "1.0"
     },
     "redis-grepper": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "redis-grep"
+        ],
+        "modules": [
+            "redisgrep"
+        ],
+        "version": "0.1.2"
     },
     "redis-hashring": {
         "cmdline": [],
@@ -20229,8 +20239,10 @@
     },
     "redisstore": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "RedisStore"
+        ],
+        "version": "0.1"
     },
     "redistools": {
         "cmdline": [],
@@ -23264,8 +23276,14 @@
     },
     "regen": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "c4",
+            "c4.regen",
+            "c4.regen.clang_utils",
+            "c4.regen.main",
+            "c4.regen.util"
+        ],
+        "version": "0.1.0"
     },
     "regendoc": {
         "cmdline": [],
@@ -27130,8 +27148,217 @@
     },
     "render-pipeline": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tobspr-RenderPipeline-fd47d90",
+            "tobspr-RenderPipeline-fd47d90.rpcore",
+            "tobspr-RenderPipeline-fd47d90.rpcore.common_resources",
+            "tobspr-RenderPipeline-fd47d90.rpcore.effect",
+            "tobspr-RenderPipeline-fd47d90.rpcore.globals",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gpu_command_queue",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui.buffer_viewer",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui.checkbox",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui.checkbox_collection",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui.debugger",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui.draggable_window",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui.error_message_display",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui.exposure_widget",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui.fps_chart",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui.labeled_checkbox",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui.loading_screen",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui.pipe_viewer",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui.pixel_inspector",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui.render_mode_selector",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui.slider",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui.sprite",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui.text",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui.text_node",
+            "tobspr-RenderPipeline-fd47d90.rpcore.gui.texture_preview",
+            "tobspr-RenderPipeline-fd47d90.rpcore.image",
+            "tobspr-RenderPipeline-fd47d90.rpcore.light_manager",
+            "tobspr-RenderPipeline-fd47d90.rpcore.loader",
+            "tobspr-RenderPipeline-fd47d90.rpcore.mount_manager",
+            "tobspr-RenderPipeline-fd47d90.rpcore.native",
+            "tobspr-RenderPipeline-fd47d90.rpcore.native.update_module_builder",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pluginbase",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pluginbase.base_plugin",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pluginbase.day_manager",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pluginbase.day_setting_types",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pluginbase.manager",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pluginbase.setting_types",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pynative",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pynative.gpu_command",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pynative.gpu_command_list",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pynative.ies_dataset",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pynative.internal_light_manager",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pynative.pointer_slot_storage",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pynative.pssm_camera_rig",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pynative.rp_light",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pynative.rp_point_light",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pynative.rp_spot_light",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pynative.shadow_atlas",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pynative.shadow_manager",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pynative.shadow_source",
+            "tobspr-RenderPipeline-fd47d90.rpcore.pynative.tag_state_manager",
+            "tobspr-RenderPipeline-fd47d90.rpcore.render_pipeline",
+            "tobspr-RenderPipeline-fd47d90.rpcore.render_stage",
+            "tobspr-RenderPipeline-fd47d90.rpcore.render_target",
+            "tobspr-RenderPipeline-fd47d90.rpcore.rpobject",
+            "tobspr-RenderPipeline-fd47d90.rpcore.stage_manager",
+            "tobspr-RenderPipeline-fd47d90.rpcore.stages",
+            "tobspr-RenderPipeline-fd47d90.rpcore.stages.ambient_stage",
+            "tobspr-RenderPipeline-fd47d90.rpcore.stages.apply_lights_stage",
+            "tobspr-RenderPipeline-fd47d90.rpcore.stages.collect_used_cells_stage",
+            "tobspr-RenderPipeline-fd47d90.rpcore.stages.combine_velocity_stage",
+            "tobspr-RenderPipeline-fd47d90.rpcore.stages.cull_lights_stage",
+            "tobspr-RenderPipeline-fd47d90.rpcore.stages.downscale_z_stage",
+            "tobspr-RenderPipeline-fd47d90.rpcore.stages.final_stage",
+            "tobspr-RenderPipeline-fd47d90.rpcore.stages.flag_used_cells_stage",
+            "tobspr-RenderPipeline-fd47d90.rpcore.stages.gbuffer_stage",
+            "tobspr-RenderPipeline-fd47d90.rpcore.stages.shadow_stage",
+            "tobspr-RenderPipeline-fd47d90.rpcore.stages.update_previous_pipes_stage",
+            "tobspr-RenderPipeline-fd47d90.rpcore.stages.upscale_stage",
+            "tobspr-RenderPipeline-fd47d90.rpcore.util",
+            "tobspr-RenderPipeline-fd47d90.rpcore.util.cubemap_filter",
+            "tobspr-RenderPipeline-fd47d90.rpcore.util.display_shader_builder",
+            "tobspr-RenderPipeline-fd47d90.rpcore.util.generic",
+            "tobspr-RenderPipeline-fd47d90.rpcore.util.ies_profile_loader",
+            "tobspr-RenderPipeline-fd47d90.rpcore.util.movement_controller",
+            "tobspr-RenderPipeline-fd47d90.rpcore.util.network_communication",
+            "tobspr-RenderPipeline-fd47d90.rpcore.util.post_process_region",
+            "tobspr-RenderPipeline-fd47d90.rpcore.util.shader_input_blocks",
+            "tobspr-RenderPipeline-fd47d90.rpcore.util.smooth_connected_curve",
+            "tobspr-RenderPipeline-fd47d90.rpcore.util.submodule_downloader",
+            "tobspr-RenderPipeline-fd47d90.rpcore.util.task_scheduler",
+            "tobspr-RenderPipeline-fd47d90.rplibs",
+            "tobspr-RenderPipeline-fd47d90.rplibs.colorama",
+            "tobspr-RenderPipeline-fd47d90.rplibs.colorama.ansi",
+            "tobspr-RenderPipeline-fd47d90.rplibs.colorama.ansitowin32",
+            "tobspr-RenderPipeline-fd47d90.rplibs.colorama.initialise",
+            "tobspr-RenderPipeline-fd47d90.rplibs.colorama.win32",
+            "tobspr-RenderPipeline-fd47d90.rplibs.colorama.winterm",
+            "tobspr-RenderPipeline-fd47d90.rplibs.progressbar",
+            "tobspr-RenderPipeline-fd47d90.rplibs.progressbar.compat",
+            "tobspr-RenderPipeline-fd47d90.rplibs.progressbar.widgets",
+            "tobspr-RenderPipeline-fd47d90.rplibs.pyqt_imports",
+            "tobspr-RenderPipeline-fd47d90.rplibs.six",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py2",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py2.composer",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py2.constructor",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py2.cyaml",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py2.dumper",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py2.emitter",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py2.error",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py2.events",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py2.loader",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py2.nodes",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py2.parser",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py2.reader",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py2.representer",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py2.resolver",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py2.scanner",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py2.serializer",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py2.tokens",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py3",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py3.composer",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py3.constructor",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py3.cyaml",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py3.dumper",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py3.emitter",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py3.error",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py3.events",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py3.loader",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py3.nodes",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py3.parser",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py3.reader",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py3.representer",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py3.resolver",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py3.scanner",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py3.serializer",
+            "tobspr-RenderPipeline-fd47d90.rplibs.yaml.yaml_py3.tokens",
+            "tobspr-RenderPipeline-fd47d90.rpplugins",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.ao",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.ao.ao_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.ao.plugin",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.bloom",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.bloom.bloom_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.bloom.plugin",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.clouds",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.clouds.apply_clouds_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.clouds.cloud_voxel_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.clouds.plugin",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.color_correction",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.color_correction.auto_exposure_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.color_correction.color_correction_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.color_correction.manual_exposure_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.color_correction.plugin",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.color_correction.sharpen_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.color_correction.tonemapping_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.dof",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.dof.dof_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.dof.plugin",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.env_probes",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.env_probes.apply_envprobes_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.env_probes.cull_probes_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.env_probes.environment_capture_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.env_probes.environment_probe",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.env_probes.plugin",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.env_probes.probe_manager",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.forward_shading",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.forward_shading.forward_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.forward_shading.plugin",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.fxaa",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.fxaa.fxaa_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.fxaa.plugin",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.motion_blur",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.motion_blur.motion_blur_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.motion_blur.plugin",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.plugin_prefab",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.plugin_prefab.demo_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.plugin_prefab.plugin",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.pssm",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.pssm.plugin",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.pssm.pssm_dist_shadow_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.pssm.pssm_scene_shadow_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.pssm.pssm_shadow_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.pssm.pssm_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.scattering",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.scattering.godray_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.scattering.plugin",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.scattering.scattering_envmap_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.scattering.scattering_methods",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.scattering.scattering_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.skin_shading",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.skin_shading.plugin",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.skin_shading.skin_shading_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.sky_ao",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.sky_ao.ao_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.sky_ao.capture_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.sky_ao.plugin",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.smaa",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.smaa.jitters",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.smaa.plugin",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.smaa.smaa_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.ssr",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.ssr.plugin",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.ssr.ssr_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.volumetrics",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.volumetrics.plugin",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.volumetrics.volumetrics_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.vxgi",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.vxgi.plugin",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.vxgi.voxelization_stage",
+            "tobspr-RenderPipeline-fd47d90.rpplugins.vxgi.vxgi_stage",
+            "tobspr-RenderPipeline-fd47d90.setup",
+            "tobspr-RenderPipeline-fd47d90.start_daytime_editor",
+            "tobspr-RenderPipeline-fd47d90.start_plugin_configurator",
+            "ui",
+            "ui.main_window_generated",
+            "ui.point_insert_dialog_generated",
+            "ui.resources_rc"
+        ],
+        "version": "2.0"
     },
     "renderconf": {
         "cmdline": [],
@@ -33035,8 +33262,11 @@
     },
     "resist-hotlinking": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "resist_hotlinking",
+            "resist_hotlinking.resist_hotlinking"
+        ],
+        "version": "0.1.0"
     },
     "resmonitor": {
         "cmdline": [],
@@ -33756,8 +33986,10 @@
     },
     "rest": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "Rest"
+        ],
+        "version": "0.1"
     },
     "rest-api-blueprint": {
         "cmdline": [],
@@ -34726,9 +34958,15 @@
         "version": "0.2.0"
     },
     "restguardian": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "restguardian"
+        ],
+        "modules": [
+            "restguardian",
+            "restguardian.backend",
+            "restguardian.handler"
+        ],
+        "version": "0.0.1"
     },
     "restifier": {
         "cmdline": [],
@@ -36199,8 +36437,12 @@
     },
     "rethinkdb-rdb": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "rethinkdb_rdb",
+            "rethinkdb_rdb.model",
+            "rethinkdb_rdb.utils"
+        ],
+        "version": "0.1.1"
     },
     "rethinkengine": {
         "cmdline": [],
@@ -36456,8 +36698,14 @@
     },
     "retro": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "retro",
+            "retro.core",
+            "retro.reloader",
+            "retro.web",
+            "retro.wsgi"
+        ],
+        "version": "2.7.0"
     },
     "retroactive": {
         "cmdline": [],
@@ -38550,7 +38798,7 @@
     "rex": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.9.0"
     },
     "rexconquer-nester": {
         "cmdline": [],
@@ -39422,7 +39670,7 @@
             "rfx.tabulate",
             "rfx.test"
         ],
-        "version": "1705.6"
+        "version": "1705.7"
     },
     "rfxcmd": {
         "cmdline": [],
@@ -39431,7 +39679,7 @@
             "rfxcmd.basic",
             "rfxcmd.demo"
         ],
-        "version": "1705.6"
+        "version": "1705.7"
     },
     "rfxcom": {
         "cmdline": [],
@@ -39466,7 +39714,7 @@
             "rfxengine.server.cherry",
             "rfxengine.server.endpoints"
         ],
-        "version": "1705.6"
+        "version": "1705.7"
     },
     "rfxtrx": {
         "cmdline": [],
@@ -43355,7 +43603,7 @@
     "ripplerest": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.1"
     },
     "rippletagger": {
         "cmdline": [],
@@ -43696,7 +43944,7 @@
             "rivescript.sorting",
             "rivescript.utils"
         ],
-        "version": "1.14.6"
+        "version": "1.14.7"
     },
     "rivescript-redis": {
         "cmdline": [],
@@ -53824,8 +54072,10 @@
     },
     "rpi.apds9960": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "apds9960"
+        ],
+        "version": "0.1.0"
     },
     "rpi.asthma-files-site": {
         "cmdline": [],
@@ -60389,7 +60639,7 @@
         "modules": [
             "rudra_nester"
         ],
-        "version": "1.1.0"
+        "version": "1.4.0"
     },
     "rudynester": {
         "cmdline": [],
@@ -60545,9 +60795,21 @@
         "version": "2.6.3"
     },
     "rugg": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "rugg"
+        ],
+        "modules": [
+            "rugg",
+            "rugg.core",
+            "rugg.language",
+            "rugg.logger",
+            "rugg.main",
+            "rugg.operations",
+            "rugg.tpg",
+            "rugg.typecast",
+            "rugg.typesystem"
+        ],
+        "version": "0.2.2"
     },
     "rugplot": {
         "cmdline": [],
@@ -61970,8 +62232,16 @@
     },
     "rutimeparser": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "rutimeparser",
+            "rutimeparser.get_cat",
+            "rutimeparser.get_words",
+            "rutimeparser.numbers",
+            "rutimeparser.reducers",
+            "rutimeparser.rules",
+            "rutimeparser.utils"
+        ],
+        "version": "1.0.0"
     },
     "rutter": {
         "cmdline": [],
@@ -62535,9 +62805,46 @@
         "version": "0.1.0"
     },
     "rx4rdf": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "run-raccoon",
+            "zml"
+        ],
+        "modules": [
+            "rx",
+            "rx.Caching",
+            "rx.ContentProcessors",
+            "rx.DomStore",
+            "rx.DomTree",
+            "rx.ExtFunctions",
+            "rx.MRUCache",
+            "rx.RhizomeAuth",
+            "rx.RhizomeBase",
+            "rx.RhizomeCmds",
+            "rx.RhizomeContent",
+            "rx.RxPath",
+            "rx.RxPathDom",
+            "rx.RxPathModel",
+            "rx.RxPathQuery",
+            "rx.RxPathSchema",
+            "rx.RxPathUtils",
+            "rx.Server",
+            "rx.UriResolvers",
+            "rx.XUpdate",
+            "rx.XhtmlWriter",
+            "rx.akismet",
+            "rx.glock",
+            "rx.htmldiff",
+            "rx.htmlfilter",
+            "rx.metakitdriver",
+            "rx.raccoon",
+            "rx.rhizome",
+            "rx.rxml",
+            "rx.transactions",
+            "rx.utils",
+            "rx.zml",
+            "rx.zml07"
+        ],
+        "version": "0.6.0"
     },
     "rxjson": {
         "cmdline": [],

@@ -57,7 +57,7 @@
 [INFO] (rabx) This package is up to date.
 [INFO] (rac) This package is up to date.
 [INFO] (racconto) This package is up to date.
-[INFO] (raccoon) This package is up to date.
+[INFO] (raccoon) Data has been updated for this package.
 [INFO] (raccoontest) This package is up to date.
 [INFO] (racedata) This package is up to date.
 [INFO] (rache) This package is up to date.
@@ -113,7 +113,7 @@
 [INFO] (radiocut-downloader) This package is up to date.
 [INFO] (radioflux) This package is up to date.
 [INFO] (radioglobo) This package is up to date.
-[INFO] (radiometric-normalization) This package is up to date.
+[INFO] (radiometric-normalization) Data has been updated for this package.
 [INFO] (radiomics) This package is up to date.
 [INFO] (radiopadre) This package is up to date.
 [INFO] (radiopy) This package is up to date.
@@ -162,7 +162,7 @@
 [INFO] (rafutils) This package is up to date.
 [ERROR] (ragamuffin) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -182,7 +182,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ragent) This package is up to date.
 [ERROR] (ragnarok) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -220,7 +220,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (railroadtracks) This package does not have downloadable releases.
 [INFO] (rails) This package is up to date.
 [ERROR] (rain) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://api.github.com/repos/rich-pixley/rain/tarball"
 [INFO] (rain-disagg) This package is up to date.
 [INFO] (rainbarrel) This package is up to date.
 [INFO] (rainbow) This package is up to date.
@@ -272,7 +272,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rake-nltk) This package is up to date.
 [ERROR] (rake-workflow) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -292,10 +292,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 Unsupported package directory structure.
 [INFO] (rakov) This package is up to date.
 [ERROR] (rakun) Could not extract data from this package. See below for details.
-".php?group_id=155736" extension not supported.
+".php" extension not supported.
 [ERROR] (rakun-xml-application-platform) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -605,7 +605,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (raredecay) This package is up to date.
 [INFO] (rarfile) This package is up to date.
 [ERROR] (ras2map.py) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://ubuntuone.com/5yrSVAI1z9LYf0Tm2xTdsV"
 [INFO] (rasa) This package is up to date.
 [INFO] (rasa-nlu) This package is up to date.
 [INFO] (rasa-nlu-latest) This package is up to date.
@@ -637,7 +637,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (raspberry-sdk) This package is up to date.
 [ERROR] (raspberrycloud) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -745,7 +745,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ravenenv) This package is up to date.
 [ERROR] (ravi) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -813,25 +813,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (raygun4py) This package is up to date.
 [INFO] (raygun4py-alt) This package is up to date.
 [INFO] (rayle) This package is up to date.
-[ERROR] (rayleigh) Could not extract data from this package. See below for details.
-"https://codeload.github.com/GuiltyDolphin/RAYLEIGH/legacy.tar.gz/rayleigh-0.3.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (rayleigh) Data has been updated for this package.
 [INFO] (rayleigh-module) This package is up to date.
 [INFO] (rayopt) This package is up to date.
 [INFO] (rayqt-timetable) This package is up to date.
@@ -857,7 +839,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rbc-tools) This package is up to date.
 [ERROR] (rbcm) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1012,7 +994,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rdir) This package is up to date.
 [INFO] (rdisq) This package is up to date.
 [ERROR] (rdkit) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/rdkit/downloads/list"
 [INFO] (rdl) This package is up to date.
 [INFO] (rdlm) This package is up to date.
 [INFO] (rdlm-py) This package is up to date.
@@ -1037,7 +1019,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rdt-calculator) This package is up to date.
 [INFO] (rdtsc) This package is up to date.
 [ERROR] (re) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://pypi.python.org/pypi/RE"
 [INFO] (re-1) This package is up to date.
 [INFO] (re-3-stuff) This package is up to date.
 [INFO] (re-4-stuff) This package is up to date.
@@ -1153,7 +1135,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (realfast) This package is up to date.
 [ERROR] (realife) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1224,9 +1206,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (receptive) This package is up to date.
 [ERROR] (recess) This package does not have downloadable releases.
 [ERROR] (recfile) Could not extract data from this package. See below for details.
-"http://recfile.googlecode.com/files/recfile-0.41.tar.gz" file couldnt be downloaded. See below for details.
+"http://recfile.googlecode.com/files/recfile-0.41.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1253,9 +1235,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (recipy) This package is up to date.
 [INFO] (reckless) This package is up to date.
 [ERROR] (reclaim) Could not extract data from this package. See below for details.
-"https://codeload.github.com/rhblind/reclaim.git/legacy.tar.gz/reclaim-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/rhblind/reclaim.git/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1297,7 +1279,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (record-ip-to-dnspod) This package is up to date.
 [INFO] (record-recommender) This package is up to date.
 [ERROR] (recordarray) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://bitbucket.org/intellimath/recordarray"
 [INFO] (recordclass) This package is up to date.
 [INFO] (recordconvert) This package is up to date.
 [INFO] (recordeggs) This package is up to date.
@@ -1424,8 +1406,8 @@ OSError: Not a gzipped file (b'<!')
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 130, in get_tar_topdir
-    with compressed(tarpath, tarmode) as tar:
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 131, in get_tar_topdir
+    with closing(compressed(tarpath, tarmode)) as tar:
   File "/usr/lib/python3.5/tarfile.py", line 1577, in open
     return func(name, filemode, fileobj, **kwargs)
   File "/usr/lib/python3.5/tarfile.py", line 1635, in gzopen
@@ -1471,25 +1453,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (redis-file) This package is up to date.
 [INFO] (redis-gadgets) This package is up to date.
 [INFO] (redis-graph) This package is up to date.
-[ERROR] (redis-grepper) Could not extract data from this package. See below for details.
-"https://codeload.github.com/igstan/redis-grep/legacy.tar.gz/redis-grepper-0.1.2.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (redis-grepper) Data has been updated for this package.
 [INFO] (redis-hashring) This package is up to date.
 [INFO] (redis-helper) This package is up to date.
 [ERROR] (redis-info) This package does not have downloadable releases.
@@ -1567,9 +1531,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (redisq-py) This package is up to date.
 [INFO] (redisqueue) This package is up to date.
 [ERROR] (redisrpc) Could not extract data from this package. See below for details.
-"https://codeload.github.com/downloads/nfarring/legacy.tar.gz/redisrpc-0.3.4.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/downloads/nfarring/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1588,25 +1552,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (redisrwlock) This package is up to date.
 [INFO] (redisscheduler) This package is up to date.
 [INFO] (redissentry-core) This package is up to date.
-[ERROR] (redisstore) Could not extract data from this package. See below for details.
-"https://codeload.github.com/timothycrosley/RedisStore/legacy.tar.gz/redisstore-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (redisstore) Data has been updated for this package.
 [INFO] (redistools) This package is up to date.
 [INFO] (redistruct) This package is up to date.
 [INFO] (redisworker) This package is up to date.
@@ -1791,7 +1737,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (reframe) This package is up to date.
 [ERROR] (refresh) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1824,25 +1770,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (regart) This package is up to date.
 [INFO] (regcore) This package is up to date.
 [INFO] (regd) This package is up to date.
-[ERROR] (regen) Could not extract data from this package. See below for details.
-"https://codeload.github.com/biojppm/regen/legacy.tar.gz/regen-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (regen) Data has been updated for this package.
 [INFO] (regendoc) This package is up to date.
 [INFO] (regenwolken) This package is up to date.
 [ERROR] (regerberate) This package does not have downloadable releases.
@@ -1857,7 +1785,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (regexf) This package is up to date.
 [INFO] (regexlint) This package is up to date.
 [ERROR] (regexplace) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/473828/index_txt"
 [INFO] (regexpy) This package is up to date.
 [INFO] (regextester) This package is up to date.
 [INFO] (reggae) This package is up to date.
@@ -1900,9 +1828,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (reindent) This package is up to date.
 [INFO] (reinforce) This package is up to date.
 [ERROR] (reinforcement-learning-toolkit) Could not extract data from this package. See below for details.
-"http://www.cs.ualberta.ca/%7Esteph/RLtoolkit1.0b6.tgz" file couldnt be downloaded. See below for details.
+"http://www.cs.ualberta.ca/%7Esteph/RLtoolkit1.0b6.tgz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1930,7 +1858,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (reinhardt) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1993,7 +1921,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (reldi) This package is up to date.
 [ERROR] (release) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2018,7 +1946,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (releasemaker) This package is up to date.
 [ERROR] (releaseman) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2050,7 +1978,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (relevant) This package is up to date.
 [ERROR] (relevantxkcd) This package does not have downloadable releases.
 [ERROR] (reliafree) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://sourceforge.net/projects/reliafree/"
 [INFO] (relic) This package is up to date.
 [INFO] (relief) This package is up to date.
 [INFO] (relieff) This package is up to date.
@@ -2058,7 +1986,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (reliure) This package is up to date.
 [ERROR] (relman) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2078,7 +2006,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (relmanager) This package does not have downloadable releases.
 [ERROR] (relnet) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2115,17 +2043,17 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (reltime) This package is up to date.
 [INFO] (relvalconsumer) This package is up to date.
 [ERROR] (rem) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://pypi.python.org/pypi/rem/"
 [ERROR] (remand) This package does not have downloadable releases.
 [ERROR] (remap) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://esmfcontrib.cvs.sourceforge.net/viewvc/esmfcontrib/python/"
 [INFO] (remark) This package is up to date.
 [INFO] (remarkable) This package is up to date.
 [INFO] (remarker) This package is up to date.
 [INFO] (rematch) This package is up to date.
 [ERROR] (rematch-idaplugin) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2143,7 +2071,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (rematch-server) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2210,7 +2138,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (remotecv) This package is up to date.
 [INFO] (remotecv-aws) This package is up to date.
 [ERROR] (remoted) Could not extract data from this package. See below for details.
-".php?group_id=90707" extension not supported.
+".php" extension not supported.
 [INFO] (remotediff) This package is up to date.
 [INFO] (remoteexec) This package is up to date.
 [INFO] (remotefreebox) This package is up to date.
@@ -2246,9 +2174,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (rename-files) This package does not have downloadable releases.
 [INFO] (rename-package-files) This package is up to date.
 [ERROR] (renamer) Could not extract data from this package. See below for details.
-"http://www.ebi.ac.uk/~hoffman/software/renamer/Renamer-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
+"http://www.ebi.ac.uk/~hoffman/software/renamer/Renamer-0.1.0.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2267,25 +2195,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rencode) This package is up to date.
 [INFO] (render) This package is up to date.
 [INFO] (render-d3-fdg) This package is up to date.
-[ERROR] (render-pipeline) Could not extract data from this package. See below for details.
-"https://codeload.github.com/tobspr/RenderPipeline/legacy.tar.gz/render-pipeline-2.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (render-pipeline) Data has been updated for this package.
 [INFO] (renderconf) This package is up to date.
 [INFO] (renderjs-ipyextension) This package is up to date.
 [INFO] (renderjs-nbextension) This package is up to date.
@@ -2451,7 +2361,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (repoze.what) This package is up to date.
 [ERROR] (repoze.what-django) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2535,7 +2445,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (reps) This package is up to date.
 [ERROR] (repst) This package does not have downloadable releases.
 [ERROR] (repsys) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://svn.mandriva.com/svn/packages/cooker/repsys/current/SOURCES/"
 [INFO] (repubmqtt) This package is up to date.
 [INFO] (repurpose) This package is up to date.
 [INFO] (repustate) This package is up to date.
@@ -2548,7 +2458,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (reqcli) This package is up to date.
 [ERROR] (reqests) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2684,7 +2594,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (requirements-tools) This package is up to date.
 [ERROR] (requirements.json) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2703,7 +2613,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (requirements.pip) This package does not have downloadable releases.
 [ERROR] (requirements.yaml) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2721,7 +2631,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (requirements.yml) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2749,7 +2659,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (requrests) This package does not have downloadable releases.
 [ERROR] (requsts) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2814,25 +2724,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (resif) This package is up to date.
 [INFO] (resin) This package is up to date.
 [INFO] (resin-sdk) This package is up to date.
-[ERROR] (resist-hotlinking) Could not extract data from this package. See below for details.
-"https://codeload.github.com/duoduo369/resist_hotlinking/legacy.tar.gz/resist-hotlinking-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (resist-hotlinking) Data has been updated for this package.
 [INFO] (resmonitor) This package is up to date.
 [INFO] (resn) This package is up to date.
 [ERROR] (resolutions) This package does not have downloadable releases.
@@ -2854,9 +2746,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (resource-api-http) This package is up to date.
 [INFO] (resource-api-http-client) This package is up to date.
 [ERROR] (resourcedownloader) Could not extract data from this package. See below for details.
-"https://codeload.github.com/dwdunn/resourcedownloader/legacy.tar.gz/resourcedownloader-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/dwdunn/resourcedownloader/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2875,7 +2767,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (resourceguruscripts) This package is up to date.
 [INFO] (resourcemutexmanagement) This package is up to date.
 [ERROR] (resourcepackage) Could not extract data from this package. See below for details.
-".php?group_id=71287" extension not supported.
+".php" extension not supported.
 [INFO] (resourcereservation) This package is up to date.
 [INFO] (resourceset-for-execo) This package is up to date.
 [INFO] (resourcevalidator) This package is up to date.
@@ -2893,25 +2785,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (responsys-client) This package is up to date.
 [INFO] (respy) This package is up to date.
 [INFO] (ressl) This package is up to date.
-[ERROR] (rest) Could not extract data from this package. See below for details.
-"https://codeload.github.com/timothycrosley/RestClient/legacy.tar.gz/rest-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (rest) Data has been updated for this package.
 [INFO] (rest-api-blueprint) This package is up to date.
 [INFO] (rest-arch) This package is up to date.
 [INFO] (rest-bootstraptable-pagination) This package is up to date.
@@ -2938,24 +2812,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rest-toolkit) This package is up to date.
 [INFO] (rest.py) This package is up to date.
 [ERROR] (rest2web) Could not extract data from this package. See below for details.
-"http://www.voidspace.org.uk/cgi-bin/voidspace/downman.py?file=rest2web-0.5.0beta.zip" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 500: Internal Server Error
-
+".py" extension not supported.
 [INFO] (restable) This package is up to date.
 [INFO] (restack) This package is up to date.
 [INFO] (restafari) This package is up to date.
@@ -3005,25 +2862,7 @@ urllib.error.HTTPError: HTTP Error 500: Internal Server Error
 [INFO] (restfulie) This package is up to date.
 [INFO] (restfulpy) This package is up to date.
 [INFO] (restgate) This package is up to date.
-[ERROR] (restguardian) Could not extract data from this package. See below for details.
-"https://codeload.github.com/michaelcontento/RESTGuardian/legacy.tar.gz/restguardian-0.0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (restguardian) Data has been updated for this package.
 [INFO] (restifier) This package is up to date.
 [INFO] (restify) This package is up to date.
 [INFO] (restin) This package is up to date.
@@ -3048,7 +2887,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (restmapper) This package is up to date.
 [ERROR] (restmastr) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3134,31 +2973,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (retdec-python) This package is up to date.
 [INFO] (reteach) This package is up to date.
 [ERROR] (retest) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://cthedot.de/retest/"
 [INFO] (retext) This package is up to date.
 [INFO] (retexto) This package is up to date.
 [INFO] (rethinkdb) This package is up to date.
 [INFO] (rethinkdb-next) This package is up to date.
 [INFO] (rethinkdb-py3) This package is up to date.
-[ERROR] (rethinkdb-rdb) Could not extract data from this package. See below for details.
-"https://codeload.github.com/caoimhghin/rethink/legacy.tar.gz/rethinkdb-rdb-0.1.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (rethinkdb-rdb) Data has been updated for this package.
 [INFO] (rethinkengine) This package is up to date.
 [INFO] (rethinkframework) This package is up to date.
 [INFO] (rethinkorm) This package is up to date.
@@ -3176,25 +2997,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (retries) This package is up to date.
 [INFO] (retriever) This package is up to date.
 [INFO] (retrievestack) This package is up to date.
-[ERROR] (retro) Could not extract data from this package. See below for details.
-"https://codeload.github.com/sebastien/retro/legacy.tar.gz/retro-2.7.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (retro) Data has been updated for this package.
 [INFO] (retroactive) This package is up to date.
 [INFO] (retrofix) This package is up to date.
 [INFO] (retrosheet-pitch-sequences) This package is up to date.
@@ -3222,7 +3025,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (reusables) This package is up to date.
 [ERROR] (reuse) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3299,25 +3102,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rewind) This package is up to date.
 [INFO] (rewind-client) This package is up to date.
 [INFO] (rewritebody) This package is up to date.
-[ERROR] (rex) Could not extract data from this package. See below for details.
-"https://codeload.github.com/jimzhan/rex/legacy.tar.gz/rex-0.9.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (rex) Data has been updated for this package.
 [INFO] (rexconquer-nester) This package is up to date.
 [INFO] (rexlex) This package is up to date.
 [INFO] (rexmenu) This package is up to date.
@@ -3348,7 +3133,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rfalke-fibo-pyb) This package is up to date.
 [INFO] (rfapi) This package is up to date.
 [ERROR] (rfb) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://sourceforge.net/projects/rfb/files/latest/download"
 [INFO] (rfc) This package is up to date.
 [INFO] (rfc-reader) This package is up to date.
 [INFO] (rfc2397) This package is up to date.
@@ -3379,9 +3164,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rfm12-mqtt-gateway) This package is up to date.
 [INFO] (rfm69) This package is up to date.
 [ERROR] (rfoo) Could not extract data from this package. See below for details.
-"http://rfoo.googlecode.com/files/rfoo-1.3.0.tar.gz" file couldnt be downloaded. See below for details.
+"http://rfoo.googlecode.com/files/rfoo-1.3.0.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3401,13 +3186,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rfour) This package is up to date.
 [INFO] (rft1d) This package is up to date.
 [INFO] (rfw) This package is up to date.
-[INFO] (rfx) This package is up to date.
-[INFO] (rfxcmd) This package is up to date.
+[INFO] (rfx) Data has been updated for this package.
+[INFO] (rfxcmd) Data has been updated for this package.
 [INFO] (rfxcom) This package is up to date.
-[INFO] (rfxengine) This package is up to date.
+[INFO] (rfxengine) Data has been updated for this package.
 [ERROR] (rfxtrx) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3555,7 +3340,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ricloud) This package is up to date.
 [INFO] (ricotta) This package is up to date.
 [ERROR] (ride-tab-editor) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://dexrowem.blogspot.com/search?q=ride+tab+editor"
 [INFO] (rider) This package is up to date.
 [ERROR] (rie) This package does not have downloadable releases.
 [INFO] (rieapie) This package is up to date.
@@ -3592,7 +3377,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rikeripsum) This package is up to date.
 [INFO] (rikeripsum-test) This package is up to date.
 [ERROR] (rikiki) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://downloads.reviewboard.org/nightlies/"
 [INFO] (rikiri) This package is up to date.
 [INFO] (rikiz-nester) This package is up to date.
 [INFO] (riko) This package is up to date.
@@ -3682,25 +3467,7 @@ Unsupported package directory structure.
 [INFO] (ripple) This package is up to date.
 [INFO] (ripple-federation) This package is up to date.
 [INFO] (ripple-python) This package is up to date.
-[ERROR] (ripplerest) Could not extract data from this package. See below for details.
-"https://codeload.github.com/robertocatini/python-ripplerest/legacy.tar.gz/ripplerest-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (ripplerest) Data has been updated for this package.
 [INFO] (rippletagger) This package is up to date.
 [INFO] (rippletxt) This package is up to date.
 [INFO] (riprova) This package is up to date.
@@ -3718,9 +3485,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (riskiq) This package is up to date.
 [INFO] (risky) This package is up to date.
 [ERROR] (rison) Could not extract data from this package. See below for details.
-"https://codeload.github.com/stdbrouw/rison/legacy.tar.gz/rison-1.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/stdbrouw/rison/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3747,8 +3514,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (river) This package does not have downloadable releases.
 [INFO] (riverpy) This package is up to date.
 [ERROR] (riverrun) Could not extract data from this package. See below for details.
-"" extension not supported.
-[INFO] (rivescript) This package is up to date.
+This package download URL does not point to a valid file: "http://pypi.python.org/pypi/riverrun"
+[INFO] (rivescript) Data has been updated for this package.
 [INFO] (rivescript-redis) This package is up to date.
 [INFO] (rivets) This package is up to date.
 [INFO] (rivr) This package is up to date.
@@ -3790,7 +3557,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rlist) This package is up to date.
 [ERROR] (rlite) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3829,8 +3596,8 @@ tarfile.EmptyHeaderError: empty header
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 130, in get_tar_topdir
-    with compressed(tarpath, tarmode) as tar:
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 131, in get_tar_topdir
+    with closing(compressed(tarpath, tarmode)) as tar:
   File "/usr/lib/python3.5/tarfile.py", line 1577, in open
     return func(name, filemode, fileobj, **kwargs)
   File "/usr/lib/python3.5/tarfile.py", line 1631, in gzopen
@@ -3913,8 +3680,8 @@ OSError: Not a gzipped file (b'<!')
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 130, in get_tar_topdir
-    with compressed(tarpath, tarmode) as tar:
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 131, in get_tar_topdir
+    with closing(compressed(tarpath, tarmode)) as tar:
   File "/usr/lib/python3.5/tarfile.py", line 1577, in open
     return func(name, filemode, fileobj, **kwargs)
   File "/usr/lib/python3.5/tarfile.py", line 1635, in gzopen
@@ -3947,7 +3714,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (roadmap) This package is up to date.
 [ERROR] (roadmaptool) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3976,11 +3743,43 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (robberslang) This package is up to date.
 [ERROR] (robby) This package does not have downloadable releases.
 [ERROR] (robin) Could not extract data from this package. See below for details.
-".tar.gz?download" extension not supported.
+Could not extract tarball. See below for details.
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/tarfile.py", line 1631, in gzopen
+    t = cls.taropen(name, mode, fileobj, **kwargs)
+  File "/usr/lib/python3.5/tarfile.py", line 1607, in taropen
+    return cls(name, mode, fileobj, **kwargs)
+  File "/usr/lib/python3.5/tarfile.py", line 1470, in __init__
+    self.firstmember = self.next()
+  File "/usr/lib/python3.5/tarfile.py", line 2281, in next
+    tarinfo = self.tarinfo.fromtarfile(self)
+  File "/usr/lib/python3.5/tarfile.py", line 1082, in fromtarfile
+    buf = tarfile.fileobj.read(BLOCKSIZE)
+  File "/usr/lib/python3.5/gzip.py", line 274, in read
+    return self._buffer.read(size)
+  File "/usr/lib/python3.5/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/usr/lib/python3.5/gzip.py", line 461, in read
+    if not self._read_gzip_header():
+  File "/usr/lib/python3.5/gzip.py", line 409, in _read_gzip_header
+    raise OSError('Not a gzipped file (%r)' % magic)
+OSError: Not a gzipped file (b'<!')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 131, in get_tar_topdir
+    with closing(compressed(tarpath, tarmode)) as tar:
+  File "/usr/lib/python3.5/tarfile.py", line 1577, in open
+    return func(name, filemode, fileobj, **kwargs)
+  File "/usr/lib/python3.5/tarfile.py", line 1635, in gzopen
+    raise ReadError("not a gzip file")
+tarfile.ReadError: not a gzip file
+
 [INFO] (robinester) This package is up to date.
 [ERROR] (robinhood) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4042,7 +3841,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (robotframework-aircvlibrary) This package is up to date.
 [ERROR] (robotframework-allure) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4182,7 +3981,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (roboticia-first) This package is up to date.
 [INFO] (roboticia-quattro) This package is up to date.
 [ERROR] (robotics-toolbox) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://bitbucket.org/yeisoneng/robotics-toolbox-python/downloads"
 [INFO] (robotlogger) This package is up to date.
 [INFO] (robotnik) This package is up to date.
 [INFO] (robotonotebook) This package is up to date.
@@ -4213,7 +4012,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (robust-graphite-client) This package is up to date.
 [ERROR] (robust-lda) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4264,7 +4063,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rockinglists) This package is up to date.
 [ERROR] (rockit) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4307,11 +4106,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (roetsjbaan) This package is up to date.
 [INFO] (rof-rcon-client) This package is up to date.
 [ERROR] (roger-mbiama-assogo) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://sourceforge.net/projects/angosso/"
 [ERROR] (rogerthat-nagios-notifier) Could not extract data from this package. See below for details.
-"http://redmine.djagios.org/attachments/download/78/Rogerthat_nagios_notifier-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"http://redmine.djagios.org/attachments/download/78/Rogerthat_nagios_notifier-0.1.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4560,7 +4359,7 @@ Unsupported package directory structure.
 [INFO] (rpclient) This package is up to date.
 [INFO] (rpcpdb) This package is up to date.
 [ERROR] (rpcservices) Could not extract data from this package. See below for details.
-".php?group_id=156524&package_id=174640" extension not supported.
+".php" extension not supported.
 [INFO] (rpctools) This package is up to date.
 [INFO] (rpcudp) This package is up to date.
 [INFO] (rpcviaredis) This package is up to date.
@@ -4592,25 +4391,7 @@ Unsupported package directory structure.
 [ERROR] (rpi-tm1638) This package does not have downloadable releases.
 [INFO] (rpi-ws281x) This package is up to date.
 [INFO] (rpi-xmpp) This package is up to date.
-[ERROR] (rpi.apds9960) Could not extract data from this package. See below for details.
-"https://codeload.github.com/rm-hull/apds9960/legacy.tar.gz/rpi.apds9960-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (rpi.apds9960) Data has been updated for this package.
 [INFO] (rpi.asthma-files-site) This package is up to date.
 [INFO] (rpi.bme280) This package is up to date.
 [INFO] (rpi.gpio) This package is up to date.
@@ -4651,7 +4432,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rpmdeplint) This package is up to date.
 [INFO] (rpmfile) This package is up to date.
 [ERROR] (rpmlint) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://people.mandriva.com/~flepied/projects/rpmlint/dist/"
 [INFO] (rpmspectool) This package is up to date.
 [ERROR] (rpmtools) This package does not have downloadable releases.
 [INFO] (rpmvenv) This package is up to date.
@@ -4672,7 +4453,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rpx) This package is up to date.
 [INFO] (rpx-hw) This package is up to date.
 [ERROR] (rpy) Could not extract data from this package. See below for details.
-".php?group_id=48422" extension not supported.
+".php" extension not supported.
 [INFO] (rpy2) This package is up to date.
 [INFO] (rpy2-bioconductor-extensions) This package is up to date.
 [INFO] (rpybeacon) This package is up to date.
@@ -4712,9 +4493,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rrbob) This package is up to date.
 [INFO] (rrd-service) This package is up to date.
 [ERROR] (rrdigitalocean) Could not extract data from this package. See below for details.
-"https://codeload.github.com/remirobert/DigitalOcean.git/legacy.tar.gz/rrdigitalocean-1.0dev.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/remirobert/DigitalOcean.git/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4793,12 +4574,32 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rsq) This package is up to date.
 [INFO] (rsquarelabs) This package is up to date.
 [ERROR] (rsquarelabs-core) Could not extract data from this package. See below for details.
-"https://codeload.github.com/rsquarelabs/rsquarelabs-core/legacy.tar.gz/rsquarelabs-core-0.0.7dev.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/rsquarelabs/rsquarelabs-core/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 504, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 696, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 504, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 696, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.5/urllib/request.py", line 472, in open
     response = meth(req, response)
   File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
@@ -4826,9 +4627,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rsslib) This package is up to date.
 [INFO] (rssmailer) This package is up to date.
 [ERROR] (rsspanel) Could not extract data from this package. See below for details.
-"http://home.comcast.net/~faulkner612/programming/python/rsspanel.zip" file couldnt be downloaded. See below for details.
+"http://home.comcast.net/~faulkner612/programming/python/rsspanel.zip" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4882,7 +4683,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rst2marsedit) This package is up to date.
 [INFO] (rst2odp) This package is up to date.
 [ERROR] (rst2pdf) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/rst2pdf/downloads/list"
 [INFO] (rst2pptx) This package is up to date.
 [INFO] (rst2rst) This package is up to date.
 [INFO] (rst2slides) This package is up to date.
@@ -5062,13 +4863,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rudix) This package is up to date.
 [INFO] (rudnev) This package is up to date.
 [INFO] (rudolf) This package is up to date.
-[INFO] (rudra-nester) This package is up to date.
+[INFO] (rudra-nester) Data has been updated for this package.
 [INFO] (rudynester) This package is up to date.
 [INFO] (rueckenwind) This package is up to date.
 [INFO] (ruffruffs) This package is up to date.
 [INFO] (ruffus) This package is up to date.
-[ERROR] (rugg) Could not extract data from this package. See below for details.
-".tar.gz?download" extension not supported.
+[INFO] (rugg) Data has been updated for this package.
 [INFO] (rugplot) This package is up to date.
 [INFO] (rui) This package is up to date.
 [INFO] (ruidaren) This package is up to date.
@@ -5076,7 +4876,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rule30) This package is up to date.
 [INFO] (rulebox) This package is up to date.
 [ERROR] (rulecore) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "www.sourceforge.net/projects/rulecore"
 [INFO] (ruledxml) This package is up to date.
 [INFO] (rules) This package is up to date.
 [INFO] (rullet) This package is up to date.
@@ -5130,12 +4930,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (runipy) This package is up to date.
 [ERROR] (runjop) This package does not have downloadable releases.
 [ERROR] (runlens) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.florian-diesch.de/software/runlens/"
 [INFO] (runlike) This package is up to date.
 [INFO] (runlog) This package is up to date.
 [INFO] (runm) This package is up to date.
 [ERROR] (runmanager) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://bitbucket.org/labscript_suite/runmanager"
 [INFO] (runner) This package is up to date.
 [INFO] (runner-pytest) This package is up to date.
 [INFO] (runnerbean) This package is up to date.
@@ -5163,7 +4963,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (runtime-stats) This package is up to date.
 [INFO] (runtype) This package is up to date.
 [ERROR] (runviewer) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://bitbucket.org/labscript_suite/runviewer"
 [INFO] (runwsgi) This package is up to date.
 [INFO] (rup) This package is up to date.
 [INFO] (ruper-detector) This package is up to date.
@@ -5171,7 +4971,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rupture) This package is up to date.
 [INFO] (rupyexample) This package is up to date.
 [ERROR] (rur-ple) Could not extract data from this package. See below for details.
-".php?group_id=125834" extension not supported.
+".php" extension not supported.
 [INFO] (rural) This package is up to date.
 [INFO] (ruruki) This package is up to date.
 [INFO] (ruruki-eye) This package is up to date.
@@ -5204,32 +5004,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rutextcorrector) This package is up to date.
 [ERROR] (rutgers-repoutils) This package does not have downloadable releases.
 [INFO] (rutherford) This package is up to date.
-[ERROR] (rutimeparser) Could not extract data from this package. See below for details.
-"https://codeload.github.com/orsinium/rutimeparser/legacy.tar.gz/rutimeparser-1.0.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (rutimeparser) Data has been updated for this package.
 [INFO] (rutter) This package is up to date.
 [INFO] (ruuvitag-sensor) This package is up to date.
 [INFO] (rux) This package is up to date.
 [INFO] (ruxitools) This package is up to date.
 [INFO] (ruxxisimo) This package is up to date.
 [ERROR] (ruya) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://sourceforge.net/projects/ruya/"
 [INFO] (rvcm) This package is up to date.
 [INFO] (rvect) This package is up to date.
 [INFO] (rvenv) This package is up to date.
@@ -5242,7 +5024,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rw) This package is up to date.
 [ERROR] (rw-nester) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -5279,8 +5061,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rwuser) This package is up to date.
 [INFO] (rx) This package is up to date.
 [INFO] (rx-data-validate) This package is up to date.
-[ERROR] (rx4rdf) Could not extract data from this package. See below for details.
-".tar.gz?download" extension not supported.
+[INFO] (rx4rdf) Data has been updated for this package.
 [INFO] (rxjson) This package is up to date.
 [INFO] (rxncon) This package is up to date.
 [INFO] (rxncon-workbench) This package is up to date.
@@ -5296,7 +5077,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ryport) This package is up to date.
 [INFO] (rypy) This package is up to date.
 [ERROR] (ryser) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://pypi.python.org/pypi/ryser/"
 [ERROR] (rythem) This package does not have downloadable releases.
 [INFO] (rython) This package is up to date.
 [INFO] (ryu) This package is up to date.
@@ -5309,12 +5090,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] 
 [INFO] Total packages: 4026
 [INFO]     Packages processed: 4026
-[INFO]         Packages updated: 0
-[INFO]         Packages up-to-date: 3657
+[INFO]         Packages updated: 23
+[INFO]         Packages up-to-date: 3650
 [INFO]         Packages without response: 32
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 261
-[INFO]         Packages with data errors: 76
+[INFO]         Packages with data errors: 60
 [INFO]     Packages not processed: 0
 [INFO] 
 [INFO] 
