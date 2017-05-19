@@ -37963,7 +37963,6 @@
             "bob.bio.spear.config.database.asvspoof",
             "bob.bio.spear.config.database.asvspoof2017",
             "bob.bio.spear.config.database.avspoof",
-            "bob.bio.spear.config.database.banca_audio_G",
             "bob.bio.spear.config.database.mobio_audio_female",
             "bob.bio.spear.config.database.mobio_audio_male",
             "bob.bio.spear.config.database.timit",
@@ -38017,7 +38016,7 @@
             "bob.bio.spear.utils",
             "bob.bio.spear.utils.extraction"
         ],
-        "version": "3.0.1"
+        "version": "3.0.5"
     },
     "bob.bio.video": {
         "cmdline": [],
