@@ -32674,7 +32674,7 @@
             "ippy",
             "ippy.ippy"
         ],
-        "version": "0.2.3"
+        "version": "0.3.0"
     },
     "ipquery": {
         "cmdline": [],
@@ -34220,7 +34220,7 @@
             "ipywidgets.widgets.widget_string",
             "ipywidgets.widgets.widget_style"
         ],
-        "version": "7.0.0a2"
+        "version": "7.0.0a3"
     },
     "ipyxact": {
         "cmdline": [],
@@ -43398,8 +43398,10 @@
     },
     "iterfzf": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "iterfzf"
+        ],
+        "version": "0.1.0.16.7"
     },
     "iterm2-color-scheme": {
         "cmdline": [],
