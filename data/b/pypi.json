@@ -39351,7 +39351,7 @@
             "bob.pad.voice.utils.extraction",
             "bob.pad.voice.utils.scores"
         ],
-        "version": "1.0.3"
+        "version": "1.0.4"
     },
     "bob.palmvein": {
         "cmdline": [],
@@ -49422,7 +49422,7 @@
             "bpc8583.tools",
             "bpc8583.transaction"
         ],
-        "version": "1.27"
+        "version": "1.33"
     },
     "bpch": {
         "cmdline": [],
