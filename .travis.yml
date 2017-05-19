@@ -44,50 +44,53 @@ before_script:
         git config --global user.email "${GITUSERMAIL}"
         git fetch origin contents:contents
         git checkout contents
-
 script:
     - |
-        docker run -v ${PWD}:${PWD} -w ${PWD} -u $(id -u):$(id -g) \
-            dockershelf/pypicontents:2.7-3.5 \
-                pypicontents pypi -o data/${LRANGE}/pypi.json \
-                    -f logs/${LRANGE}/pypi.log -R ${LRANGE}
-
+        if [ "${TRAVIS_EVENT_TYPE}" == "cron" ]; then
+            docker run -v ${PWD}:${PWD} -w ${PWD} -u $(id -u):$(id -g) \
+                dockershelf/pypicontents:2.7-3.5 \
+                    pypicontents pypi -o data/${LRANGE}/pypi.json \
+                        -f logs/${LRANGE}/pypi.log -R ${LRANGE}
+        fi
 jobs:
     include:
         - stage: merge and generate statistics
           env: STDLIB="true"
           script:
             - |
-                for PYVER in 2.6 2.7 3.2 3.4 3.5 3.6; do
+                if [ "${TRAVIS_EVENT_TYPE}" == "cron" ]; then
+                    for PYVER in 2.6 2.7 3.2 3.4 3.5 3.6; do
+                        docker run -v ${PWD}:${PWD} -w ${PWD} -u $(id -u):$(id -g) \
+                            dockershelf/pypicontents:${PYVER} \
+                                pypicontents stdlib -o stdlib/${PYVER}/stdlib.json
+                    done
+
                     docker run -v ${PWD}:${PWD} -w ${PWD} -u $(id -u):$(id -g) \
-                        dockershelf/pypicontents:${PYVER} \
-                            pypicontents stdlib -o stdlib/${PYVER}/stdlib.json
-                done
-
-                docker run -v ${PWD}:${PWD} -w ${PWD} -u $(id -u):$(id -g) \
-                    dockershelf/pypicontents:2.7 \
-                        pypicontents merge -o pypi.json -i data
-                docker run -v ${PWD}:${PWD} -w ${PWD} -u $(id -u):$(id -g) \
-                    dockershelf/pypicontents:2.7 \
-                        pypicontents merge -o stdlib.json -i stdlib
-                docker run -v ${PWD}:${PWD} -w ${PWD} -u $(id -u):$(id -g) \
-                    dockershelf/pypicontents:2.7 \
-                        pypicontents errors -o errors.json -i logs
-                docker run -v ${PWD}:${PWD} -w ${PWD} -u $(id -u):$(id -g) \
-                    dockershelf/pypicontents:2.7 \
-                        pypicontents stats -o stats.txt -i logs
-
+                        dockershelf/pypicontents:2.7 \
+                            pypicontents merge -o pypi.json -i data
+                    docker run -v ${PWD}:${PWD} -w ${PWD} -u $(id -u):$(id -g) \
+                        dockershelf/pypicontents:2.7 \
+                            pypicontents merge -o stdlib.json -i stdlib
+                    docker run -v ${PWD}:${PWD} -w ${PWD} -u $(id -u):$(id -g) \
+                        dockershelf/pypicontents:2.7 \
+                            pypicontents errors -o errors.json -i logs
+                    docker run -v ${PWD}:${PWD} -w ${PWD} -u $(id -u):$(id -g) \
+                        dockershelf/pypicontents:2.7 \
+                            pypicontents stats -o stats.txt -i logs
+                fi
 after_success:
     - |
-        if [ -n "${LRANGE}" ]; then
-            COMMITMSG="[ci skip] Updating PyPIContents index (PyPI letter ${LRANGE})."
-        fi
+        if [ "${TRAVIS_EVENT_TYPE}" == "cron" ]; then
+            if [ -n "${LRANGE}" ]; then
+                COMMITMSG="[ci skip] Updating PyPIContents index (PyPI letter ${LRANGE})."
+            fi
 
-        if [ -n "${STDLIB}" ]; then
-            COMMITMSG="Updating PyPIContents index (stdlib and merge)."
-        fi
+            if [ -n "${STDLIB}" ]; then
+                COMMITMSG="Updating PyPIContents index (stdlib and merge)."
+            fi
 
-        git add --all .
-        git commit -a -m "${COMMITMSG}"
-        git pull --rebase origin contents
-        git push -q "https://${GHTOKEN}@${GHREPO#*//}" contents > /dev/null 2>&1
+            git add --all .
+            git commit -a -m "${COMMITMSG}"
+            git pull --rebase origin contents
+            git push -q "https://${GHTOKEN}@${GHREPO#*//}" contents > /dev/null 2>&1
+        fi
