@@ -12656,7 +12656,7 @@
             "gear.tests.test_functional",
             "gear.tests.test_gear"
         ],
-        "version": "0.9.0"
+        "version": "0.9.1"
     },
     "gearbox": {
         "cmdline": [],
@@ -43506,9 +43506,7 @@
         "version": "0.1.0"
     },
     "google-endpoints": {
-        "cmdline": [
-            "endpointscfg.py"
-        ],
+        "cmdline": [],
         "modules": [
             "endpoints",
             "endpoints._endpointscfg_setup",
@@ -43552,7 +43550,7 @@
             "endpoints.users_id_token",
             "endpoints.util"
         ],
-        "version": "2.0.5"
+        "version": "2.0.6"
     },
     "google-endpoints-api-management": {
         "cmdline": [],
@@ -43587,6 +43585,34 @@
             "endpoints_management.gen",
             "endpoints_management.gen.servicecontrol_v1_client",
             "endpoints_management.gen.servicecontrol_v1_messages",
+            "google",
+            "google.api",
+            "google.api.auth",
+            "google.api.auth.caches",
+            "google.api.auth.suppliers",
+            "google.api.auth.tokens",
+            "google.api.config",
+            "google.api.config.service_config",
+            "google.api.control",
+            "google.api.control.caches",
+            "google.api.control.check_request",
+            "google.api.control.client",
+            "google.api.control.compat",
+            "google.api.control.distribution",
+            "google.api.control.label_descriptor",
+            "google.api.control.metric_descriptor",
+            "google.api.control.metric_value",
+            "google.api.control.money",
+            "google.api.control.operation",
+            "google.api.control.path_template",
+            "google.api.control.report_request",
+            "google.api.control.service",
+            "google.api.control.signing",
+            "google.api.control.timestamp",
+            "google.api.control.vendor",
+            "google.api.control.vendor.py3",
+            "google.api.control.vendor.py3.sched",
+            "google.api.control.wsgi",
             "test",
             "test.integration",
             "test.integration.test_auth",
@@ -43610,7 +43636,7 @@
             "test.test_wsgi",
             "test.token_utils"
         ],
-        "version": "1.1.1"
+        "version": "1.1.2"
     },
     "google-finance": {
         "cmdline": [],
@@ -60655,13 +60681,6 @@
         "modules": [],
         "version": "0.7.10"
     },
-    "gsearch": {
-        "cmdline": [],
-        "modules": [
-            "gsearch"
-        ],
-        "version": "1.0.0"
-    },
     "gserver": {
         "cmdline": [],
         "modules": [
@@ -63649,7 +63668,7 @@
             "guillotina.traversal",
             "guillotina.utils"
         ],
-        "version": "1.0.0a27"
+        "version": "1.0.0a28"
     },
     "guillotina-dbusers": {
         "cmdline": [],
@@ -63675,14 +63694,15 @@
             "guillotina_elasticsearch",
             "guillotina_elasticsearch.api",
             "guillotina_elasticsearch.commands",
-            "guillotina_elasticsearch.commands.reindex",
+            "guillotina_elasticsearch.commands.migrate",
             "guillotina_elasticsearch.events",
             "guillotina_elasticsearch.manager",
-            "guillotina_elasticsearch.reindex",
+            "guillotina_elasticsearch.migration",
             "guillotina_elasticsearch.schema",
-            "guillotina_elasticsearch.utility"
+            "guillotina_elasticsearch.utility",
+            "guillotina_elasticsearch.utils"
         ],
-        "version": "1.0.19"
+        "version": "1.0.20"
     },
     "guillotina-gcloudstorage": {
         "cmdline": [],
