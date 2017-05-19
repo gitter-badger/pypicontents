@@ -5376,7 +5376,7 @@
     "gands": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "1.0"
     },
     "gang": {
         "cmdline": [],
@@ -13421,7 +13421,7 @@
     "gemdeps": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "1.0.0"
     },
     "gemeente": {
         "cmdline": [
@@ -14252,8 +14252,10 @@
     },
     "generatewordcloud": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "generatewordcloud"
+        ],
+        "version": "0.3"
     },
     "generator": {
         "cmdline": [],
@@ -15326,9 +15328,6 @@
             "genometools.gdc",
             "genometools.gdc.download",
             "genometools.gdc.tcga",
-            "genometools.geo",
-            "genometools.geo.functions",
-            "genometools.geo.generate_sample_sheet",
             "genometools.gtf",
             "genometools.misc",
             "genometools.misc.download",
@@ -15336,6 +15335,12 @@
             "genometools.misc.log",
             "genometools.ncbi",
             "genometools.ncbi.extract_entrez2gene",
+            "genometools.ncbi.geo",
+            "genometools.ncbi.geo.functions",
+            "genometools.ncbi.geo.generate_sample_sheet",
+            "genometools.ncbi.sra",
+            "genometools.ncbi.sra.find_experiment_runs",
+            "genometools.ncbi.sra.util",
             "genometools.ncbi.taxonomy",
             "genometools.ontology",
             "genometools.ontology.annotation",
@@ -15348,12 +15353,9 @@
             "genometools.seq",
             "genometools.seq.fasta",
             "genometools.seq.sequence",
-            "genometools.seq.trim_fastq",
-            "genometools.sra",
-            "genometools.sra.find_experiment_runs",
-            "genometools.sra.util"
+            "genometools.seq.trim_fastq"
         ],
-        "version": "0.2.6"
+        "version": "0.2.7"
     },
     "genometreetk": {
         "cmdline": [
@@ -17772,8 +17774,36 @@
     },
     "geokey-checklist": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "geokey_checklist",
+            "geokey_checklist.base",
+            "geokey_checklist.management",
+            "geokey_checklist.management.commands",
+            "geokey_checklist.management.commands.expired_reminders",
+            "geokey_checklist.migrations",
+            "geokey_checklist.migrations.0001_initial",
+            "geokey_checklist.migrations.0002_auto_20151020_0205",
+            "geokey_checklist.migrations.0003_auto_20151023_2108",
+            "geokey_checklist.migrations.0004_checklist_category",
+            "geokey_checklist.migrations.0005_checklistitem_field",
+            "geokey_checklist.migrations.0006_auto_20151025_0011",
+            "geokey_checklist.migrations.0007_auto_20151026_0305",
+            "geokey_checklist.migrations.0008_auto_20151026_0425",
+            "geokey_checklist.migrations.0009_auto_20151029_0237",
+            "geokey_checklist.migrations.0010_auto_20151029_0651",
+            "geokey_checklist.migrations.0011_auto_20151101_0021",
+            "geokey_checklist.migrations.0012_auto_20151101_0026",
+            "geokey_checklist.migrations.0013_auto_20151101_0116",
+            "geokey_checklist.migrations.0014_auto_20151104_0111",
+            "geokey_checklist.models",
+            "geokey_checklist.urls",
+            "geokey_checklist.views",
+            "travis_ci",
+            "travis_ci.manage",
+            "travis_ci.settings",
+            "travis_ci.wsgi"
+        ],
+        "version": "0.1.0"
     },
     "geokey-dataimports": {
         "cmdline": [],
@@ -17933,8 +17963,13 @@
     },
     "geolink-formatter": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "geolink_formatter",
+            "geolink_formatter.entity",
+            "geolink_formatter.format",
+            "geolink_formatter.parser"
+        ],
+        "version": "1.0.0a1"
     },
     "geolinks": {
         "cmdline": [],
@@ -19124,13 +19159,21 @@
     },
     "geopy.jp": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "geopy",
+            "geopy.location"
+        ],
+        "version": "0.1.0"
     },
     "geopy.jp-2.7": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "geopy",
+            "geopy.address",
+            "geopy.location",
+            "geopy.status"
+        ],
+        "version": "0.1.0"
     },
     "geopython": {
         "cmdline": [],
@@ -20300,7 +20343,7 @@
     "gestalt": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.0.1"
     },
     "gestionatr": {
         "cmdline": [],
@@ -20406,8 +20449,14 @@
     },
     "get-config": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "parse_config",
+            "parse_config.parse_ini_config",
+            "parse_config.parse_json_config",
+            "parse_config.parse_ssh_config",
+            "parse_config.parse_xml_config"
+        ],
+        "version": "0.11"
     },
     "get-env-var": {
         "cmdline": [],
@@ -20774,8 +20823,10 @@
     },
     "getid-tools": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "getid_tool"
+        ],
+        "version": "1.2"
     },
     "getip": {
         "cmdline": [],
@@ -24456,8 +24507,11 @@
     },
     "giantbomb": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "giantbomb",
+            "giantbomb.tests"
+        ],
+        "version": "0.7"
     },
     "giaola-role-permissions": {
         "cmdline": [],
@@ -26590,7 +26644,7 @@
     "gistie": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "1.0"
     },
     "gistimporter": {
         "cmdline": [],
@@ -30234,8 +30288,23 @@
     },
     "gitnet": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "gitnet",
+            "gitnet.commit_log",
+            "gitnet.exceptions",
+            "gitnet.get_log",
+            "gitnet.gitnet_tests",
+            "gitnet.gitnet_tests.test_commit_log",
+            "gitnet.gitnet_tests.test_get",
+            "gitnet.gitnet_tests.test_helpers",
+            "gitnet.gitnet_tests.test_log",
+            "gitnet.gitnet_tests.test_netgen",
+            "gitnet.gitnet_tests.test_network",
+            "gitnet.helpers",
+            "gitnet.log",
+            "gitnet.multigraph"
+        ],
+        "version": "0.1.1"
     },
     "gitnotifs": {
         "cmdline": [
@@ -33738,7 +33807,7 @@
             "tests.unit.test_transfer_client_manager",
             "tests.unit.test_transfer_client_shared"
         ],
-        "version": "1.1.0"
+        "version": "1.1.1"
     },
     "globusonline-transfer-api-client": {
         "cmdline": [],
@@ -36016,8 +36085,14 @@
     },
     "gmdhpy": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "gmdhpy",
+            "gmdhpy.data_preprocessing",
+            "gmdhpy.gmdh",
+            "gmdhpy.gmdh_model",
+            "gmdhpy.plot_gmdh"
+        ],
+        "version": "0.1.1"
     },
     "gmdownloader": {
         "cmdline": [],
@@ -36465,8 +36540,10 @@
     },
     "gmx-script": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "gmxscript"
+        ],
+        "version": "1"
     },
     "gmx-wrapper": {
         "cmdline": [],
@@ -38401,8 +38478,26 @@
     },
     "gnuplot-py": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "Gnuplot",
+            "Gnuplot.Errors",
+            "Gnuplot.PlotItems",
+            "Gnuplot._Gnuplot",
+            "Gnuplot.demo",
+            "Gnuplot.funcutils",
+            "Gnuplot.gnuplot_Suites",
+            "Gnuplot.gp",
+            "Gnuplot.gp_cygwin",
+            "Gnuplot.gp_java",
+            "Gnuplot.gp_mac",
+            "Gnuplot.gp_macosx",
+            "Gnuplot.gp_unix",
+            "Gnuplot.gp_win32",
+            "Gnuplot.termdefs",
+            "Gnuplot.test",
+            "Gnuplot.utils"
+        ],
+        "version": "1.8"
     },
     "gnuplotlib": {
         "cmdline": [],
@@ -38802,8 +38897,24 @@
     },
     "gobpersist": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "gobpersist",
+            "gobpersist.backends",
+            "gobpersist.backends.cache",
+            "gobpersist.backends.gobkvbackend",
+            "gobpersist.backends.gobkvquerent",
+            "gobpersist.backends.memcached",
+            "gobpersist.backends.pools",
+            "gobpersist.backends.tokyotyrant",
+            "gobpersist.exception",
+            "gobpersist.field",
+            "gobpersist.gob",
+            "gobpersist.schema",
+            "gobpersist.session",
+            "gobpersist.storage",
+            "gobpersist.test"
+        ],
+        "version": "0.1dev"
     },
     "goby": {
         "cmdline": [
@@ -41691,7 +41802,7 @@
             "GoodTests.py"
         ],
         "modules": [],
-        "version": "2.1.0"
+        "version": "2.1.1"
     },
     "goodvibes": {
         "cmdline": [],
@@ -41700,6 +41811,19 @@
             "goodvibes.GoodVibes"
         ],
         "version": "1.0.1"
+    },
+    "gooee": {
+        "cmdline": [],
+        "modules": [
+            "gooee",
+            "gooee.client",
+            "gooee.compat",
+            "gooee.decorators",
+            "gooee.exceptions",
+            "gooee.models",
+            "gooee.utils"
+        ],
+        "version": "0.0.2"
     },
     "gooey": {
         "cmdline": [],
@@ -44941,6 +45065,7 @@
             "gopca.cli.arguments",
             "gopca.cli.combine_signatures",
             "gopca.cli.convert_to_matlab",
+            "gopca.cli.extract_go_gene_sets",
             "gopca.cli.extract_signature_matrix",
             "gopca.cli.extract_signatures",
             "gopca.cli.extract_signatures_excel",
@@ -44956,7 +45081,7 @@
             "gopca.signature_matrix",
             "gopca.util"
         ],
-        "version": "0.2.3"
+        "version": "0.2.4"
     },
     "gopca-server": {
         "cmdline": [],
@@ -45329,9 +45454,17 @@
         "version": "0.3.0"
     },
     "gorillabot": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "make_docs.py"
+        ],
+        "modules": [
+            "gorillabot",
+            "gorillabot.bot",
+            "gorillabot.configure",
+            "gorillabot.executor",
+            "gorillabot.message"
+        ],
+        "version": "3.0"
     },
     "gorinich": {
         "cmdline": [],
@@ -52099,8 +52232,15 @@
     },
     "graphite-pymetrics": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "metrics",
+            "metrics.graphite",
+            "metrics.helpers",
+            "metrics.test",
+            "metrics.test.mock_server",
+            "metrics.test.test_graphite"
+        ],
+        "version": "0.1.1"
     },
     "graphite-query": {
         "cmdline": [],
@@ -60304,9 +60444,16 @@
         "version": "0.1"
     },
     "grub2-theme-preview": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "grub2-theme-preview"
+        ],
+        "modules": [
+            "grub2_theme_preview",
+            "grub2_theme_preview.cli",
+            "grub2_theme_preview.version",
+            "grub2_theme_preview.which"
+        ],
+        "version": "1.3.0"
     },
     "grudge": {
         "cmdline": [],
@@ -63271,9 +63418,22 @@
         "version": ""
     },
     "guibuilder": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "guiBuilder",
+            "webElementDocs"
+        ],
+        "modules": [
+            "GuiBuilder",
+            "GuiBuilder.GuiBuilder",
+            "GuiBuilder.GuiBuilderConfig",
+            "GuiBuilder.GuiBuilderView",
+            "GuiBuilder.GuiBuilderViewPyQt",
+            "GuiBuilder.Session",
+            "GuiBuilder.WebElementDocs",
+            "GuiBuilder.WebElementDocsView",
+            "GuiBuilder.WebElementDocsViewPyQt"
+        ],
+        "version": "0.9.9"
     },
     "guid-tool": {
         "cmdline": [
@@ -63360,7 +63520,7 @@
             "guide_search.esearch",
             "guide_search.exceptions"
         ],
-        "version": "0.0.51"
+        "version": "0.0.52"
     },
     "guidebox": {
         "cmdline": [],
@@ -63715,9 +63875,12 @@
             "guillotina_gcloudstorage",
             "guillotina_gcloudstorage.events",
             "guillotina_gcloudstorage.interfaces",
-            "guillotina_gcloudstorage.storage"
+            "guillotina_gcloudstorage.storage",
+            "guillotina_gcloudstorage.tests",
+            "guillotina_gcloudstorage.tests.conftest",
+            "guillotina_gcloudstorage.tests.test_storage"
         ],
-        "version": "1.0.10"
+        "version": "1.0.11"
     },
     "guillotina-mailer": {
         "cmdline": [],
@@ -63987,8 +64150,14 @@
     },
     "gulis": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "gulis",
+            "gulis.process",
+            "gulis.utils",
+            "tests",
+            "tests.test_utils"
+        ],
+        "version": "0.1.0"
     },
     "gullikson-scripts": {
         "cmdline": [],

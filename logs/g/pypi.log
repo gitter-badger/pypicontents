@@ -67,7 +67,7 @@
 [INFO] (gaelic) This package is up to date.
 [ERROR] (gaema) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -86,7 +86,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gaend) This package is up to date.
 [INFO] (gaenv) This package is up to date.
 [ERROR] (gaeo) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/google-app-engine-oil/"
 [INFO] (gaepagseguro) This package is up to date.
 [INFO] (gaepermission) This package is up to date.
 [INFO] (gaepsi) This package is up to date.
@@ -166,7 +166,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gallery-get) This package is up to date.
 [INFO] (gallery-uploader) This package is up to date.
 [ERROR] (gallery2.py) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.net-es.dk/~pj/python/development/"
 [INFO] (galleryremote) This package is up to date.
 [INFO] (galleryserve) This package is up to date.
 [INFO] (galley) This package is up to date.
@@ -200,7 +200,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (gamekit) This package does not have downloadable releases.
 [INFO] (gamelanpy) This package is up to date.
 [ERROR] (gameobjects) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/gameobjects/downloads/list"
 [INFO] (gameoflife) This package is up to date.
 [INFO] (gamepadinfo) This package is up to date.
 [INFO] (gameprog.theme) This package is up to date.
@@ -211,7 +211,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gamesave) This package is up to date.
 [ERROR] (gamescalecli) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -254,25 +254,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gandalf-client) This package is up to date.
 [INFO] (gandi.cli) This package is up to date.
 [INFO] (gandlf) This package is up to date.
-[ERROR] (gands) Could not extract data from this package. See below for details.
-"https://codeload.github.com/ismaeelsameed/GANDS/legacy.tar.gz/gands-1.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (gands) Data has been updated for this package.
 [INFO] (gang) This package is up to date.
 [INFO] (ganga) This package is up to date.
 [INFO] (ganggang) This package is up to date.
@@ -290,9 +272,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ganymede) This package is up to date.
 [INFO] (gap) This package is up to date.
 [ERROR] (gapbuffer) Could not extract data from this package. See below for details.
-"http://gapbuffer.googlecode.com/files/gapbuffer-1.03.zip" file couldnt be downloaded. See below for details.
+"http://gapbuffer.googlecode.com/files/gapbuffer-1.03.zip" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -346,7 +328,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (gar) This package does not have downloadable releases.
 [ERROR] (garage) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -398,12 +380,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (gary) This package does not have downloadable releases.
 [INFO] (gas) This package is up to date.
 [ERROR] (gasclouddevtools) Could not extract data from this package. See below for details.
-".net:8000" extension not supported.
+This package download URL does not point to a valid file: "http://gascloud.net:8000"
 [INFO] (gash) This package is up to date.
 [INFO] (gasket) This package is up to date.
 [ERROR] (gasket-core) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -477,7 +459,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gax-google-cloud-vision-v1) This package is up to date.
 [ERROR] (gax-google-devtools-cloudtrace-v1) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -565,7 +547,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gcap) This package is up to date.
 [ERROR] (gcat) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -601,9 +583,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gchart) This package is up to date.
 [INFO] (gcharts) This package is up to date.
 [ERROR] (gchartwrapper) Could not extract data from this package. See below for details.
-"http://google-chartwrapper.googlecode.com/files/GChartWrapper-0.9.tar.gz" file couldnt be downloaded. See below for details.
+"http://google-chartwrapper.googlecode.com/files/GChartWrapper-0.9.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -668,7 +650,7 @@ Unsupported package directory structure.
 [INFO] (gcspypi) This package is up to date.
 [ERROR] (gcstream) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -770,7 +752,7 @@ Unsupported package directory structure.
 [INFO] (gears-stylus) This package is up to date.
 [INFO] (gears-uglifyjs) This package is up to date.
 [ERROR] (gearshift) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/python-gearshift/downloads/list"
 [INFO] (gearstore) This package is up to date.
 [INFO] (gearthonic) This package is up to date.
 [ERROR] (geats) This package does not have downloadable releases.
@@ -790,7 +772,7 @@ Unsupported package directory structure.
 [INFO] (gee) This package is up to date.
 [ERROR] (geebee) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -820,7 +802,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (geezeo) This package is up to date.
 [ERROR] (gef-cli) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -851,25 +833,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gelutils) This package is up to date.
 [INFO] (gem) This package is up to date.
 [INFO] (gem-migrator) This package is up to date.
-[ERROR] (gemdeps) Could not extract data from this package. See below for details.
-"https://gitlab.com/balasankarc/gemdeps/repository/gemdeps-1.0.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 401: Unauthorized
-
+[INFO] (gemdeps) Data has been updated for this package.
 [INFO] (gemeente) This package is up to date.
 [INFO] (gemfileparser) This package is up to date.
 [INFO] (gemfire-rest) This package is up to date.
@@ -934,25 +898,7 @@ urllib.error.HTTPError: HTTP Error 401: Unauthorized
 [INFO] (generatecube) This package is up to date.
 [INFO] (generateds) This package is up to date.
 [INFO] (generates) This package is up to date.
-[ERROR] (generatewordcloud) Could not extract data from this package. See below for details.
-"https://codeload.github.com/Naereen/generate-word-cloud.py/legacy.tar.gz/generatewordcloud-0.3.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (generatewordcloud) Data has been updated for this package.
 [ERROR] (generator) This package does not have downloadable releases.
 [ERROR] (generator-tools) Could not extract data from this package. See below for details.
 Execution of /usr/bin/python3.5 -m pypicontents.wrapper /tmp/pypic-extract/generator-tools/generator_tools-0.3.6 failed with the following messages:
@@ -993,7 +939,7 @@ OSError: [Errno 13] Permission denied: '/tmp/pypic-extract/generator-tools/gener
 [INFO] (genesis-pyapi) This package is up to date.
 [ERROR] (genesis3) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1031,7 +977,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (genius) This package is up to date.
 [ERROR] (geniusql) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1062,7 +1008,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (genomes) This package is up to date.
 [INFO] (genomespaceio) This package is up to date.
 [INFO] (genometk) This package is up to date.
-[INFO] (genometools) This package is up to date.
+[INFO] (genometools) Data has been updated for this package.
 [INFO] (genometreetk) This package is up to date.
 [INFO] (genomfart) This package is up to date.
 [INFO] (genomicassertions) This package is up to date.
@@ -1090,10 +1036,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (genshi-forms) This package is up to date.
 [INFO] (genshi-view) This package is up to date.
 [ERROR] (genshi2js) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://dev.codeflow.org/trac/genshi2js/wiki/download"
 [ERROR] (genshi3) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1155,7 +1101,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (geobrickscommon) This package is up to date.
 [ERROR] (geobricksdatamanager) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1273,33 +1219,15 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (geokey) This package is up to date.
 [INFO] (geokey-airquality) This package is up to date.
 [INFO] (geokey-cartodb) This package is up to date.
-[ERROR] (geokey-checklist) Could not extract data from this package. See below for details.
-"https://codeload.github.com/ExCiteS/geokey-checklist/legacy.tar.gz/geokey-checklist-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (geokey-checklist) Data has been updated for this package.
 [INFO] (geokey-dataimports) This package is up to date.
 [INFO] (geokey-epicollect) This package is up to date.
 [INFO] (geokey-export) This package is up to date.
 [INFO] (geokey-geotagx) This package is up to date.
 [ERROR] (geokey-import) Could not extract data from this package. See below for details.
-"https://codeload.github.com/ExCiteS/geokey-import/legacy.tar.gz/geokey-import-0.1.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/ExCiteS/geokey-import/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1320,34 +1248,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (geokit) This package is up to date.
 [INFO] (geolang) This package is up to date.
 [INFO] (geoleaflet) This package is up to date.
-[ERROR] (geolink-formatter) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 504, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 696, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (geolink-formatter) Data has been updated for this package.
 [INFO] (geolinks) This package is up to date.
 [INFO] (geolocate) This package is up to date.
 [ERROR] (geolocated) This package does not have downloadable releases.
@@ -1406,44 +1307,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (geoprisma-config) This package is up to date.
 [INFO] (geoprobe) This package is up to date.
 [INFO] (geopy) This package is up to date.
-[ERROR] (geopy.jp) Could not extract data from this package. See below for details.
-"https://codeload.github.com/green-latte/geopy.jp/legacy.tar.gz/geopy.jp-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
-[ERROR] (geopy.jp-2.7) Could not extract data from this package. See below for details.
-"https://codeload.github.com/green-latte/geopy.jp-2.7/legacy.tar.gz/geopy.jp-2.7-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (geopy.jp) Data has been updated for this package.
+[INFO] (geopy.jp-2.7) Data has been updated for this package.
 [INFO] (geopython) This package is up to date.
 [INFO] (geoql) This package is up to date.
 [INFO] (georaptor) This package is up to date.
@@ -1521,25 +1386,7 @@ Unsupported package directory structure.
 [INFO] (gerrittest) This package is up to date.
 [INFO] (gerrymander) This package is up to date.
 [INFO] (gertty) This package is up to date.
-[ERROR] (gestalt) Could not extract data from this package. See below for details.
-"https://codeload.github.com/claws/gestalt/legacy.tar.gz/gestalt-0.0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (gestalt) Data has been updated for this package.
 [INFO] (gestionatr) This package is up to date.
 [INFO] (gestpypay) This package is up to date.
 [INFO] (gestus) This package is up to date.
@@ -1547,25 +1394,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (get) This package is up to date.
 [INFO] (get-cached) This package is up to date.
 [INFO] (get-captcha) This package is up to date.
-[ERROR] (get-config) Could not extract data from this package. See below for details.
-"https://codeload.github.com/lineuman/get_config/legacy.tar.gz/get-config-0.11.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (get-config) Data has been updated for this package.
 [INFO] (get-env-var) This package is up to date.
 [INFO] (get-every-list) This package is up to date.
 [INFO] (get-list) This package is up to date.
@@ -1577,7 +1406,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (getalbum) This package is up to date.
 [INFO] (getan) This package is up to date.
 [ERROR] (getargs) Could not extract data from this package. See below for details.
-"http://iamroot.beigetower.org/pkgs/getargs-2.0.tar.bz2" file couldnt be downloaded. See below for details.
+"http://iamroot.beigetower.org/pkgs/getargs-2.0.tar.bz2" file could not be downloaded. See below for details.
 Traceback (most recent call last):
   File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
     h.request(req.get_method(), req.selector, req.data, headers)
@@ -1602,7 +1431,7 @@ ConnectionRefusedError: [Errno 111] Connection refused
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1645,25 +1474,7 @@ urllib.error.URLError: <urlopen error [Errno 111] Connection refused>
 [INFO] (getgithub) This package is up to date.
 [INFO] (getgrowth) This package is up to date.
 [INFO] (gethub) This package is up to date.
-[ERROR] (getid-tools) Could not extract data from this package. See below for details.
-"https://codeload.github.com/SilverLiningSystems/testbench/legacy.tar.gz/getid-tools-1.2.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (getid-tools) Data has been updated for this package.
 [ERROR] (getip) This package does not have downloadable releases.
 [INFO] (getit) This package is up to date.
 [INFO] (getitem) This package is up to date.
@@ -1858,9 +1669,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ghalton) This package is up to date.
 [INFO] (ghaminer) This package is up to date.
 [ERROR] (ghcl) Could not extract data from this package. See below for details.
-"https://codeload.github.com/jakebasile/ghcl/legacy.tar.gz/ghcl-0.2.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/jakebasile/ghcl/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1877,7 +1688,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (ghcli) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://pypi.python.org/pypi/githubcli"
 [INFO] (ghcloneall) This package is up to date.
 [INFO] (ghcmodbear) This package is up to date.
 [INFO] (ghcndextractor) This package is up to date.
@@ -1909,7 +1720,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ghost.py) This package is up to date.
 [ERROR] (ghoster) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1941,7 +1752,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ghpublish) This package is up to date.
 [INFO] (ghrelease) This package is up to date.
 [ERROR] (ghrml) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.ghrml.org/download/"
 [INFO] (ghscard) This package is up to date.
 [INFO] (ghstat) This package is up to date.
 [INFO] (ghstats) This package is up to date.
@@ -1956,25 +1767,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gi) This package is up to date.
 [INFO] (gi-camel) This package is up to date.
 [INFO] (gi-eagle) This package is up to date.
-[ERROR] (giantbomb) Could not extract data from this package. See below for details.
-"https://codeload.github.com/JasonAUnrein/giantbomb/legacy.tar.gz/giantbomb-0.7.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (giantbomb) Data has been updated for this package.
 [INFO] (giaola-role-permissions) This package is up to date.
 [INFO] (gibberisch) This package is up to date.
 [INFO] (gibberish) This package is up to date.
@@ -2000,7 +1793,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gift-grab) This package is up to date.
 [INFO] (gifted) This package is up to date.
 [ERROR] (giftfile-system) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://giftfile.org/development#software"
 [INFO] (giftiffloader) This package is up to date.
 [INFO] (giftman-nester) This package is up to date.
 [INFO] (giftrocket-python) This package is up to date.
@@ -2011,7 +1804,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (giganews) This package is up to date.
 [ERROR] (gigapod) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2032,23 +1825,38 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gignore) This package is up to date.
 [INFO] (gigya-server-lib) This package is up to date.
 [ERROR] (gik) Could not extract data from this package. See below for details.
-"https://codeload.github.com/devfeng/gik/legacy.tar.gz/gik-0.0.1.tar.gz" file couldnt be downloaded. See below for details.
+Could not extract tarball. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
+  File "/usr/lib/python3.5/tarfile.py", line 1631, in gzopen
+    t = cls.taropen(name, mode, fileobj, **kwargs)
+  File "/usr/lib/python3.5/tarfile.py", line 1607, in taropen
+    return cls(name, mode, fileobj, **kwargs)
+  File "/usr/lib/python3.5/tarfile.py", line 1470, in __init__
+    self.firstmember = self.next()
+  File "/usr/lib/python3.5/tarfile.py", line 2281, in next
+    tarinfo = self.tarinfo.fromtarfile(self)
+  File "/usr/lib/python3.5/tarfile.py", line 1082, in fromtarfile
+    buf = tarfile.fileobj.read(BLOCKSIZE)
+  File "/usr/lib/python3.5/gzip.py", line 274, in read
+    return self._buffer.read(size)
+  File "/usr/lib/python3.5/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/usr/lib/python3.5/gzip.py", line 461, in read
+    if not self._read_gzip_header():
+  File "/usr/lib/python3.5/gzip.py", line 409, in _read_gzip_header
+    raise OSError('Not a gzipped file (%r)' % magic)
+OSError: Not a gzipped file (b'\n\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 131, in get_tar_topdir
+    with closing(compressed(tarpath, tarmode)) as tar:
+  File "/usr/lib/python3.5/tarfile.py", line 1577, in open
+    return func(name, filemode, fileobj, **kwargs)
+  File "/usr/lib/python3.5/tarfile.py", line 1635, in gzopen
+    raise ReadError("not a gzip file")
+tarfile.ReadError: not a gzip file
 
 [INFO] (giki) This package is up to date.
 [INFO] (gil-load) This package is up to date.
@@ -2133,25 +1941,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gister) This package is up to date.
 [INFO] (gistey) This package is up to date.
 [INFO] (gistfetch) This package is up to date.
-[ERROR] (gistie) Could not extract data from this package. See below for details.
-"https://codeload.github.com/vivekiitkgp/gistie/legacy.tar.gz/gistie-1.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (gistie) Data has been updated for this package.
 [INFO] (gistimporter) This package is up to date.
 [INFO] (gistit) This package is up to date.
 [INFO] (gistore) This package is up to date.
@@ -2192,9 +1982,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (git-dlist) This package is up to date.
 [INFO] (git-edit-index) This package is up to date.
 [ERROR] (git-eval) Could not extract data from this package. See below for details.
-"https://codeload.github.com/tav/git-eval/legacy.tar.gz/git-eval-0.0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/tav/git-eval/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2374,7 +2164,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gitgud) This package is up to date.
 [ERROR] (gitgui) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2419,9 +2209,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (github-contributions) This package is up to date.
 [INFO] (github-contributors) This package is up to date.
 [ERROR] (github-distutils) Could not extract data from this package. See below for details.
-"https://codeload.github.com/downloads/dahlia/legacy.tar.gz/github-distutils-0.1.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/downloads/dahlia/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2507,7 +2297,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (githubxml) This package is up to date.
 [ERROR] (githubxmllls) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2539,23 +2329,38 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gitissius) This package is up to date.
 [INFO] (gitjobs) This package is up to date.
 [ERROR] (gitkeeper) Could not extract data from this package. See below for details.
-"https://codeload.github.com/devfeng/gitkeeper/legacy.tar.gz/gitkeeper-0.0.1.tar.gz" file couldnt be downloaded. See below for details.
+Could not extract tarball. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
+  File "/usr/lib/python3.5/tarfile.py", line 1631, in gzopen
+    t = cls.taropen(name, mode, fileobj, **kwargs)
+  File "/usr/lib/python3.5/tarfile.py", line 1607, in taropen
+    return cls(name, mode, fileobj, **kwargs)
+  File "/usr/lib/python3.5/tarfile.py", line 1470, in __init__
+    self.firstmember = self.next()
+  File "/usr/lib/python3.5/tarfile.py", line 2281, in next
+    tarinfo = self.tarinfo.fromtarfile(self)
+  File "/usr/lib/python3.5/tarfile.py", line 1082, in fromtarfile
+    buf = tarfile.fileobj.read(BLOCKSIZE)
+  File "/usr/lib/python3.5/gzip.py", line 274, in read
+    return self._buffer.read(size)
+  File "/usr/lib/python3.5/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/usr/lib/python3.5/gzip.py", line 461, in read
+    if not self._read_gzip_header():
+  File "/usr/lib/python3.5/gzip.py", line 409, in _read_gzip_header
+    raise OSError('Not a gzipped file (%r)' % magic)
+OSError: Not a gzipped file (b'\n\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 131, in get_tar_topdir
+    with closing(compressed(tarpath, tarmode)) as tar:
+  File "/usr/lib/python3.5/tarfile.py", line 1577, in open
+    return func(name, filemode, fileobj, **kwargs)
+  File "/usr/lib/python3.5/tarfile.py", line 1635, in gzopen
+    raise ReadError("not a gzip file")
+tarfile.ReadError: not a gzip file
 
 [INFO] (gitlab-client) This package is up to date.
 [INFO] (gitlab-freak) This package is up to date.
@@ -2581,33 +2386,15 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gitmit) This package is up to date.
 [ERROR] (gitmon) This package does not have downloadable releases.
 [INFO] (gitmsg) This package is up to date.
-[ERROR] (gitnet) Could not extract data from this package. See below for details.
-"https://codeload.github.com/networks-lab/gitnet/legacy.tar.gz/gitnet-0.1.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (gitnet) Data has been updated for this package.
 [INFO] (gitnotifs) This package is up to date.
 [INFO] (gitnotus) This package is up to date.
 [INFO] (gito) This package is up to date.
 [INFO] (gitobox) This package is up to date.
 [ERROR] (gitolite-manager) Could not extract data from this package. See below for details.
-"https://codeload.github.com/downloads/smailq/legacy.tar.gz/gitolite-manager-0.0.0.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/downloads/smailq/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2710,7 +2497,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gjertsentweet) This package is up to date.
 [ERROR] (gjo3al) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2760,7 +2547,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (glams) This package is up to date.
 [ERROR] (glance) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2783,7 +2570,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (glare) This package does not have downloadable releases.
 [INFO] (glare-dev) This package is up to date.
 [ERROR] (glarf) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://sjbrown.users.geeky.net/w/Downloads"
 [INFO] (glashammer) This package is up to date.
 [INFO] (glask) This package is up to date.
 [INFO] (glasnaegel) This package is up to date.
@@ -2797,7 +2584,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (glb) This package is up to date.
 [INFO] (glb-slave) This package is up to date.
 [ERROR] (glcaccounts) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://bitbucket.org/aquavitae/glcaccounts/downloads"
 [INFO] (glcd-sdk) This package is up to date.
 [INFO] (gldas) This package is up to date.
 [INFO] (gleam) This package is up to date.
@@ -2808,7 +2595,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (glespy) This package is up to date.
 [INFO] (gletscher) This package is up to date.
 [ERROR] (glewpy) Could not extract data from this package. See below for details.
-".php?group_id=126548&package_id=138459" extension not supported.
+".php" extension not supported.
 [INFO] (glfw) This package is up to date.
 [INFO] (glfw-cffi) This package is up to date.
 [INFO] (glglue) This package is up to date.
@@ -2828,9 +2615,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (glint-service) This package is up to date.
 [INFO] (glioma) This package is up to date.
 [ERROR] (glipy) Could not extract data from this package. See below for details.
-"http://www.loria.fr/~rougier/glipy/dist/glipy-beta.tar.gz" file couldnt be downloaded. See below for details.
+"http://www.loria.fr/~rougier/glipy/dist/glipy-beta.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2887,7 +2674,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (globus-cli) This package is up to date.
 [INFO] (globus-nexus-client) This package is up to date.
 [INFO] (globus-provision) This package is up to date.
-[INFO] (globus-sdk) This package is up to date.
+[INFO] (globus-sdk) Data has been updated for this package.
 [INFO] (globusonline-transfer-api-client) This package is up to date.
 [INFO] (globussh) This package is up to date.
 [INFO] (glocate) This package is up to date.
@@ -2907,7 +2694,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (glosarium) This package is up to date.
 [ERROR] (gloss) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2970,9 +2757,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (glver) This package is up to date.
 [INFO] (glwindow) This package is up to date.
 [ERROR] (glycomesite.policy) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://oodt.jpl.nasa.gov/dist/glycomesite-policy"
 [ERROR] (glycomesite.theme) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://oodt.jpl.nasa.gov/dist/glycomesite-theme"
 [INFO] (glycon) This package is up to date.
 [INFO] (glycon-disqus) This package is up to date.
 [INFO] (glymur) This package is up to date.
@@ -2983,7 +2770,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (glypy) This package is up to date.
 [ERROR] (gm) This package does not have downloadable releases.
 [ERROR] (gm2addon) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://uberdev.org/gm2addon/trunk/dist/"
 [INFO] (gmail) This package is up to date.
 [INFO] (gmail-client) This package is up to date.
 [INFO] (gmail-notify) This package is up to date.
@@ -3006,25 +2793,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gmapsbounds) This package is up to date.
 [INFO] (gmatch) This package is up to date.
 [INFO] (gmcquillan-mimic) This package is up to date.
-[ERROR] (gmdhpy) Could not extract data from this package. See below for details.
-"https://codeload.github.com/kvoyager/GmdhPy/legacy.tar.gz/gmdhpy-0.1.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (gmdhpy) Data has been updated for this package.
 [INFO] (gmdownloader) This package is up to date.
 [INFO] (gmisclib) This package is up to date.
 [INFO] (gmls) This package is up to date.
@@ -3055,25 +2824,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gmusicapi-wrapper) This package is up to date.
 [INFO] (gmusicsync) This package is up to date.
 [INFO] (gmvault) This package is up to date.
-[ERROR] (gmx-script) Could not extract data from this package. See below for details.
-"https://codeload.github.com/pslacerda/gmx/legacy.tar.gz/gmx-script-1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (gmx-script) Data has been updated for this package.
 [INFO] (gmx-wrapper) This package is up to date.
 [INFO] (gmxscript) This package is up to date.
 [INFO] (gnacs) This package is up to date.
@@ -3149,10 +2900,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gnupg) This package is up to date.
 [INFO] (gnupg-securedrop) This package is up to date.
 [ERROR] (gnupginterface) Could not extract data from this package. See below for details.
-".php?group_id=29555" extension not supported.
+".php" extension not supported.
 [INFO] (gnuplot-kernel) This package is up to date.
-[ERROR] (gnuplot-py) Could not extract data from this package. See below for details.
-".tar.gz?download" extension not supported.
+[INFO] (gnuplot-py) Data has been updated for this package.
 [INFO] (gnuplotlib) This package is up to date.
 [INFO] (gnureadline) This package is up to date.
 [INFO] (gnusocial) This package is up to date.
@@ -3169,7 +2919,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (go-optouts) This package is up to date.
 [INFO] (go-proxy-client) This package is up to date.
 [ERROR] (go-scale) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.govorun.org/downloads"
 [INFO] (go-strong-auth-cli) This package is up to date.
 [INFO] (go-vies) This package is up to date.
 [INFO] (go-vncdriver) This package is up to date.
@@ -3185,25 +2935,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gobject) This package is up to date.
 [INFO] (goblet) This package is up to date.
 [INFO] (goblin) This package is up to date.
-[ERROR] (gobpersist) Could not extract data from this package. See below for details.
-"https://codeload.github.com/accellion/gobpersist/legacy.tar.gz/gobpersist-0.1dev.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (gobpersist) Data has been updated for this package.
 [INFO] (goby) This package is up to date.
 [INFO] (gocardless) This package is up to date.
 [INFO] (gocardless-pro) This package is up to date.
@@ -3415,8 +3147,9 @@ Unsupported package directory structure.
 [INFO] (goodruns) This package is up to date.
 [INFO] (goodtables) This package is up to date.
 [ERROR] (goodtables-server) This package does not have downloadable releases.
-[INFO] (goodtests) This package is up to date.
+[INFO] (goodtests) Data has been updated for this package.
 [INFO] (goodvibes) This package is up to date.
+[INFO] (gooee) Data has been updated for this package.
 [INFO] (gooey) This package is up to date.
 [INFO] (gooeydist) This package is up to date.
 [INFO] (gooeypip) This package is up to date.
@@ -3530,7 +3263,7 @@ Unsupported package directory structure.
 [INFO] (googleanalytics) This package is up to date.
 [ERROR] (googleapiclient) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3554,7 +3287,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (googleappsauth) This package is up to date.
 [ERROR] (googlecalc) This package does not have downloadable releases.
 [ERROR] (googlecalendar) Could not extract data from this package. See below for details.
-"http://www.hlod-wig.org/gcpi/v0.6/GoogleCalendar-0.6.tar.gz" file couldnt be downloaded. See below for details.
+"http://www.hlod-wig.org/gcpi/v0.6/GoogleCalendar-0.6.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
   File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
     h.request(req.get_method(), req.selector, req.data, headers)
@@ -3579,7 +3312,7 @@ socket.timeout: timed out
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3596,7 +3329,7 @@ Traceback (most recent call last):
 urllib.error.URLError: <urlopen error timed out>
 
 [ERROR] (googlecalendar.py) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/google-calendar-helper/downloads/list"
 [INFO] (googlecalendarsync) This package is up to date.
 [INFO] (googlecalendarv3) This package is up to date.
 [INFO] (googlecl) This package is up to date.
@@ -3626,7 +3359,7 @@ urllib.error.URLError: <urlopen error timed out>
 [INFO] (googlescraper) This package is up to date.
 [ERROR] (googlesearch) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3651,7 +3384,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (googlevoice) This package does not have downloadable releases.
 [ERROR] (googstyle) This package does not have downloadable releases.
 [ERROR] (googsystray) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://sourceforge.net/projects/googsystray/files/"
 [INFO] (gooh) This package is up to date.
 [INFO] (gooimage) This package is up to date.
 [INFO] (goolabs) This package is up to date.
@@ -3666,7 +3399,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (goparser) This package is up to date.
 [INFO] (gopay) This package is up to date.
 [INFO] (gopay-django-api) This package is up to date.
-[INFO] (gopca) This package is up to date.
+[INFO] (gopca) Data has been updated for this package.
 [ERROR] (gopca-server) This package does not have downloadable releases.
 [INFO] (gopher) This package is up to date.
 [INFO] (gopherfeed) This package is up to date.
@@ -3693,28 +3426,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gorgou) This package is up to date.
 [INFO] (goriachev) This package is up to date.
 [INFO] (gorilla) This package is up to date.
-[ERROR] (gorillabot) Could not extract data from this package. See below for details.
-"https://codeload.github.com/molly/gorillabot/legacy.tar.gz/gorillabot-3.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (gorillabot) Data has been updated for this package.
 [ERROR] (gorinich) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3750,7 +3465,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gospel-pdf) This package is up to date.
 [ERROR] (gossamer) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3844,9 +3559,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gpi) This package is up to date.
 [ERROR] (gpib-devices) This package does not have downloadable releases.
 [ERROR] (gpib82357a) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://sourceforge.net/projects/gpib82357a/"
 [ERROR] (gpicsync) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/gpicsync"
 [INFO] (gping) This package is up to date.
 [INFO] (gpio) This package is up to date.
 [INFO] (gpio3) This package is up to date.
@@ -3920,9 +3635,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gpxutils) This package is up to date.
 [INFO] (gpy) This package is up to date.
 [ERROR] (gpycompile) Could not extract data from this package. See below for details.
-"http://gpycompile.googlecode.com/files/gpycompile-0.1.1.tar.gz" file couldnt be downloaded. See below for details.
+"http://gpycompile.googlecode.com/files/gpycompile-0.1.1.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4018,7 +3733,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (grampg) This package is up to date.
 [ERROR] (gramps) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4038,9 +3753,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (granary) This package is up to date.
 [INFO] (grandalf) This package is up to date.
 [ERROR] (grandcentral) Could not extract data from this package. See below for details.
-"https://codeload.github.com/arcus-io/grandcentral/legacy.tar.gz/grandcentral-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/arcus-io/grandcentral/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4079,7 +3794,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (graph-stitcher) This package is up to date.
 [INFO] (graph-talk) This package is up to date.
 [ERROR] (graph-tool) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://graph-tool.skewed.de/download"
 [INFO] (graph-tool-nn) This package is up to date.
 [INFO] (graph2vec) This package is up to date.
 [INFO] (graphagus) This package is up to date.
@@ -4093,7 +3808,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (graphdat) This package is up to date.
 [ERROR] (grapheap) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4149,25 +3864,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (graphite-metrics) This package is up to date.
 [INFO] (graphite-mineshaft) This package is up to date.
 [INFO] (graphite-opentsdb) This package is up to date.
-[ERROR] (graphite-pymetrics) Could not extract data from this package. See below for details.
-"https://codeload.github.com/esnme/graphite-pymetrics/legacy.tar.gz/graphite-pymetrics-0.1.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (graphite-pymetrics) Data has been updated for this package.
 [INFO] (graphite-query) This package is up to date.
 [INFO] (graphite-to-zabbix) This package is up to date.
 [INFO] (graphite-web) This package is up to date.
@@ -4227,7 +3924,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (graphviz) This package is up to date.
 [INFO] (graphviz-datasource) This package is up to date.
 [ERROR] (graphviz-python) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.graphviz.org/"
 [INFO] (graphvizanim) This package is up to date.
 [INFO] (graphwalker) This package is up to date.
 [INFO] (graphy) This package is up to date.
@@ -4250,9 +3947,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (grasshopper) This package is up to date.
 [INFO] (grasshopper-web) This package is up to date.
 [ERROR] (grassyknoll) Could not extract data from this package. See below for details.
-"http://grassyknoll.googlecode.com/files/GrassyKnoll-0.3.tar.gz" file couldnt be downloaded. See below for details.
+"http://grassyknoll.googlecode.com/files/GrassyKnoll-0.3.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4463,7 +4160,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (groestl-hash) This package is up to date.
 [ERROR] (groestl-hashs) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4575,7 +4272,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (grpc-google-cloud-vision-v1) This package is up to date.
 [ERROR] (grpc-google-datastore-v1beta3) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4593,7 +4290,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (grpc-google-devtools-cloudtrace-v1) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4636,28 +4333,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (grs) This package is up to date.
 [INFO] (grsearch) This package is up to date.
 [ERROR] (grstemmer) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://bitbucket.org/akalapodis/grstemmer"
 [INFO] (grstools) This package is up to date.
 [INFO] (grt) This package is up to date.
-[ERROR] (grub2-theme-preview) Could not extract data from this package. See below for details.
-"https://codeload.github.com/hartwork/grub2-theme-preview/legacy.tar.gz/grub2-theme-preview-1.3.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (grub2-theme-preview) Data has been updated for this package.
 [ERROR] (grudge) This package does not have downloadable releases.
 [INFO] (gruf) This package is up to date.
 [INFO] (gruffy) This package is up to date.
@@ -4670,7 +4349,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (grunt4django) This package is up to date.
 [ERROR] (grup-client) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4748,7 +4427,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gssapi-console) This package is up to date.
 [ERROR] (gssapi-socket) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4824,7 +4503,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gtkchartlib) This package is up to date.
 [INFO] (gtkeggdeps) This package is up to date.
 [ERROR] (gtkfalse) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.florian-diesch.de/software/gtkfalse/"
 [ERROR] (gtkforms) This package does not have downloadable releases.
 [INFO] (gtkme) This package is up to date.
 [INFO] (gtlaunch) This package is up to date.
@@ -4836,9 +4515,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gtp) This package is up to date.
 [INFO] (gtr) This package is up to date.
 [ERROR] (gtranslate) Could not extract data from this package. See below for details.
-"https://codeload.github.com/Quard/gtranslate/legacy.tar.gz/gtranslate-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/Quard/gtranslate/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4873,9 +4552,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (guacamole) This package is up to date.
 [INFO] (guacamole-cli) This package is up to date.
 [ERROR] (guacamolebank) Could not extract data from this package. See below for details.
-"https://codeload.github.com/edravis/archive/legacy.tar.gz/guacamolebank-0.1dev.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/edravis/archive/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4930,30 +4609,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gui2py) This package is up to date.
 [ERROR] (guibible) Could not extract data from this package. See below for details.
 ".1.4-0.src.rpm" extension not supported.
-[ERROR] (guibuilder) Could not extract data from this package. See below for details.
-"https://codeload.github.com/timothycrosley/GuiBuilder/legacy.tar.gz/guibuilder-0.9.9.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (guibuilder) Data has been updated for this package.
 [INFO] (guid-tool) This package is up to date.
 [INFO] (guidata) This package is up to date.
 [INFO] (guidb) This package is up to date.
 [INFO] (guide-md) This package is up to date.
-[INFO] (guide-search) This package is up to date.
+[INFO] (guide-search) Data has been updated for this package.
 [INFO] (guidebox) This package is up to date.
 [INFO] (guider) This package is up to date.
 [ERROR] (guideseq) This package does not have downloadable releases.
@@ -4964,7 +4625,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (guillotina) This package is up to date.
 [INFO] (guillotina-dbusers) This package is up to date.
 [INFO] (guillotina-elasticsearch) This package is up to date.
-[INFO] (guillotina-gcloudstorage) This package is up to date.
+[INFO] (guillotina-gcloudstorage) Data has been updated for this package.
 [INFO] (guillotina-mailer) This package is up to date.
 [INFO] (guillotina-oauth) This package is up to date.
 [INFO] (guillotina-pgcatalog) This package is up to date.
@@ -4983,25 +4644,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (guizero) This package is up to date.
 [INFO] (gulag) This package is up to date.
 [INFO] (guliaev) This package is up to date.
-[ERROR] (gulis) Could not extract data from this package. See below for details.
-"https://codeload.github.com/maxis1718/gulis/legacy.tar.gz/gulis-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (gulis) Data has been updated for this package.
 [INFO] (gullikson-scripts) This package is up to date.
 [ERROR] (gulliver) This package does not have downloadable releases.
 [INFO] (gulp) This package is up to date.
@@ -5022,7 +4665,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gunicorn-websocket) This package is up to date.
 [ERROR] (gunmetal) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -5058,7 +4701,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (gust) This package does not have downloadable releases.
 [ERROR] (gut) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -5135,7 +4778,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gyagp) This package is up to date.
 [ERROR] (gybote) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -5173,7 +4816,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gyr) This package is up to date.
 [INFO] (gyr-nester) This package is up to date.
 [ERROR] (gyrfalcon) Could not extract data from this package. See below for details.
-".sourceforge.net" extension not supported.
+This package download URL does not point to a valid file: "http://gyrfalcon.sourceforge.net"
 [INFO] (gyroid) This package is up to date.
 [INFO] (gyt) This package is up to date.
 [INFO] (gython) This package is up to date.
@@ -5187,14 +4830,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gzlog) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 3751
-[INFO]     Packages processed: 3751
-[INFO]         Packages updated: 0
-[INFO]         Packages up-to-date: 3342
-[INFO]         Packages without response: 35
+[INFO] Total packages: 3752
+[INFO]     Packages processed: 3752
+[INFO]         Packages updated: 29
+[INFO]         Packages up-to-date: 3336
+[INFO]         Packages without response: 34
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 287
-[INFO]         Packages with data errors: 87
+[INFO]         Packages with data errors: 66
 [INFO]     Packages not processed: 0
 [INFO] 
 [INFO] 
