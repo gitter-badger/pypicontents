@@ -8978,7 +8978,7 @@
             "addit",
             "addit.addit"
         ],
-        "version": "0.1.7"
+        "version": "0.2.0"
     },
     "addlyrics": {
         "cmdline": [],
@@ -20409,7 +20409,7 @@
             "aiosparql.syntax",
             "aiosparql.test_utils"
         ],
-        "version": "0.3.1"
+        "version": "0.4.0"
     },
     "aiostatsd": {
         "cmdline": [],
