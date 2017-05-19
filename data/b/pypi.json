@@ -44007,7 +44007,6 @@
         "modules": [
             "boron",
             "boron.binary_utils",
-            "boron.binarytools",
             "boron.django_utils",
             "boron.django_utils.decorators",
             "boron.django_utils.plugins",
@@ -44015,19 +44014,11 @@
             "boron.django_utils.plugins.boot_grid",
             "boron.django_utils.plugins.jquery_grid",
             "boron.django_utils.query_utils",
-            "boron.djtools",
-            "boron.djtools.decorators",
-            "boron.djtools.plugins",
-            "boron.djtools.plugins.amap",
-            "boron.djtools.plugins.boot_grid",
-            "boron.djtools.plugins.jquery_grid",
-            "boron.djtools.querytools",
             "boron.structures",
             "boron.structures.base",
-            "boron.structures.choices",
-            "boron.structures.obj2json"
+            "boron.structures.choices"
         ],
-        "version": "0.9.1"
+        "version": "0.9.2"
     },
     "boruta": {
         "cmdline": [],
