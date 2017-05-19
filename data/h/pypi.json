@@ -33208,8 +33208,10 @@
     },
     "hycc": {
         "cmdline": [],
-        "modules": [],
-        "version": "0.0.1"
+        "modules": [
+            "activate_hycc"
+        ],
+        "version": "0.0.2"
     },
     "hyde": {
         "cmdline": [],
