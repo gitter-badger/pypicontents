@@ -3407,7 +3407,7 @@
             "bagua.test",
             "bagua.utils"
         ],
-        "version": "0.1.4"
+        "version": "0.1.5"
     },
     "bahai.theme": {
         "cmdline": [],
@@ -39523,7 +39523,7 @@
             "bob.paper.interspeech_2016.scripts.pad_process_scores",
             "bob.paper.interspeech_2016.scripts.pad_stats_summary"
         ],
-        "version": "1.0.4"
+        "version": "1.0.6"
     },
     "bob.paper.jstsp-2017": {
         "cmdline": [],
