@@ -4940,6 +4940,17 @@
         ],
         "version": "0.11"
     },
+    "fakeuserdata": {
+        "cmdline": [],
+        "modules": [
+            "fakeUserData",
+            "fakeUserData.ccgen",
+            "fakeUserData.dataClean",
+            "fakeUserData.generator",
+            "fakeUserData.loadData"
+        ],
+        "version": "2.0"
+    },
     "fakezopeinterface": {
         "cmdline": [],
         "modules": [
