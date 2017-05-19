@@ -3058,8 +3058,11 @@
     },
     "facebook-wda": {
         "cmdline": [],
-        "modules": [],
-        "version": "0.1.1.dev4"
+        "modules": [
+            "wda",
+            "wda.xcui_element_types"
+        ],
+        "version": "0.1.1.dev5"
     },
     "facebook-wordcloud": {
         "cmdline": [],
@@ -6482,7 +6485,7 @@
             "fanfoucli.config",
             "fanfoucli.fan"
         ],
-        "version": "0.1.3"
+        "version": "0.1.4"
     },
     "fang": {
         "cmdline": [],
