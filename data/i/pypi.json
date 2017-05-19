@@ -22425,6 +22425,24 @@
         ],
         "version": "0.1b"
     },
+    "inqbus.rainflow": {
+        "cmdline": [],
+        "modules": [
+            "inqbus",
+            "inqbus.rainflow",
+            "inqbus.rainflow.data_formats",
+            "inqbus.rainflow.data_formats.hdf5",
+            "inqbus.rainflow.examples",
+            "inqbus.rainflow.examples.create_hdf5_testfile",
+            "inqbus.rainflow.examples.example_hdf5",
+            "inqbus.rainflow.examples.example_numpy",
+            "inqbus.rainflow.helpers",
+            "inqbus.rainflow.rainflow_algorithm",
+            "inqbus.rainflow.rainflow_algorithm.classification",
+            "inqbus.rainflow.run_rainflow"
+        ],
+        "version": "0.1"
+    },
     "inqbus.tagging": {
         "cmdline": [],
         "modules": [
