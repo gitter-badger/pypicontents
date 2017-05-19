@@ -24163,9 +24163,7 @@
             "limbo.plugins.commit",
             "limbo.plugins.emoji",
             "limbo.plugins.emojicodedict",
-            "limbo.plugins.eno",
             "limbo.plugins.flip",
-            "limbo.plugins.genesis",
             "limbo.plugins.geocities",
             "limbo.plugins.gif",
             "limbo.plugins.github",
@@ -24179,12 +24177,13 @@
             "limbo.plugins.stockphoto",
             "limbo.plugins.urban",
             "limbo.plugins.weather",
+            "limbo.plugins.welcome",
             "limbo.plugins.wiki",
             "limbo.plugins.youtube",
             "limbo.server",
             "limbo.slack"
         ],
-        "version": "5.3.0"
+        "version": "5.4.0"
     },
     "limbs": {
         "cmdline": [],
@@ -29336,11 +29335,12 @@
             "liota.lib.utilities.filters.windowing_scheme",
             "liota.lib.utilities.filters.windowing_scheme.windowing_scheme",
             "liota.lib.utilities.identity",
+            "liota.lib.utilities.log_formatter",
             "liota.lib.utilities.si_unit",
             "liota.lib.utilities.tls_conf",
             "liota.lib.utilities.utility"
         ],
-        "version": "0.2.6"
+        "version": "0.2.7"
     },
     "lip": {
         "cmdline": [],
