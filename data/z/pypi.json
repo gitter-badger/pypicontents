@@ -4353,7 +4353,7 @@
             "zc_events.tests",
             "zc_events.utils"
         ],
-        "version": "0.1.11b0"
+        "version": "0.2"
     },
     "zc-zookeeper-static": {
         "cmdline": [],
@@ -22186,7 +22186,7 @@
             "zzzeeksphinx.util",
             "zzzeeksphinx.viewsource"
         ],
-        "version": "1.0.18"
+        "version": "1.0.20"
     },
     "zzzfs": {
         "cmdline": [],
