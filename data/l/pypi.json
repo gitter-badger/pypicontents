@@ -18763,6 +18763,10 @@
             "libcnmc.cir_4_2015.F9",
             "libcnmc.cir_4_2015.create_celles",
             "libcnmc.cli",
+            "libcnmc.cli_4131",
+            "libcnmc.cli_4666",
+            "libcnmc.cli_4667",
+            "libcnmc.cli_4_2015",
             "libcnmc.core",
             "libcnmc.core.backend",
             "libcnmc.core.cnmc_inventari",
@@ -18872,7 +18876,7 @@
             "libcnmc.res_4771.SUB",
             "libcnmc.utils"
         ],
-        "version": "0.18.0"
+        "version": "0.18.1"
     },
     "libcnmc1048": {
         "cmdline": [],
