@@ -6592,6 +6592,22 @@
         ],
         "version": "1.0.7"
     },
+    "zencore-zabbix": {
+        "cmdline": [
+            "simple_mitem_collector",
+            "simple_mitem_collector.py",
+            "simple_mitem_collector.yaml",
+            "zabbix_get",
+            "zabbix_get.py"
+        ],
+        "modules": [
+            "zencore",
+            "zencore.zabbix",
+            "zencore.zabbix.protocol",
+            "zencore.zabbix.server"
+        ],
+        "version": "1.0.9"
+    },
     "zendesk": {
         "cmdline": [],
         "modules": [
