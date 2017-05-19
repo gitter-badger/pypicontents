@@ -23559,6 +23559,14 @@
         ],
         "version": "0.1.0"
     },
+    "vyper-bot": {
+        "cmdline": [],
+        "modules": [
+            "vyper.vyper",
+            "vyper.vyperconfig"
+        ],
+        "version": "0.9"
+    },
     "vyperlogixpyaxlib": {
         "cmdline": [],
         "modules": [],
