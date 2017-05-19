@@ -2,25 +2,7 @@
 [INFO] Downloading package list from PyPI ...
 [INFO] (w) This package is up to date.
 [INFO] (w-nester) This package is up to date.
-[ERROR] (w.i.l.l) Could not extract data from this package. See below for details.
-"https://codeload.github.com/ironman5366/W.I.L.L/legacy.tar.gz/w.i.l.l-3.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (w.i.l.l) Data has been updated for this package.
 [INFO] (w1) This package is up to date.
 [INFO] (w1thermsensor) This package is up to date.
 [ERROR] (w20e.buildoutskel) This package does not have downloadable releases.
@@ -51,9 +33,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wadl2swagger) This package is up to date.
 [INFO] (wadllib) This package is up to date.
 [ERROR] (wadofstuff-django-forms) Could not extract data from this package. See below for details.
-"http://wadofstuff.googlecode.com/files/wadofstuff-django-forms-1.1.0.tar.gz" file couldnt be downloaded. See below for details.
+"http://wadofstuff.googlecode.com/files/wadofstuff-django-forms-1.1.0.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -72,9 +54,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wadofstuff-django-serializers) This package is up to date.
 [INFO] (wadofstuff-django-serializers-op) This package is up to date.
 [ERROR] (wadofstuff-django-views) Could not extract data from this package. See below for details.
-"http://wadofstuff.googlecode.com/files/wadofstuff-django-views-1.0.1.tar.gz" file couldnt be downloaded. See below for details.
+"http://wadofstuff.googlecode.com/files/wadofstuff-django-views-1.0.1.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -91,9 +73,9 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (wadofstuff-ip) Could not extract data from this package. See below for details.
-"http://wadofstuff.googlecode.com/files/wadofstuff-ip-1.0.0.tar.gz" file couldnt be downloaded. See below for details.
+"http://wadofstuff.googlecode.com/files/wadofstuff-ip-1.0.0.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -134,7 +116,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wagent) This package is up to date.
 [INFO] (wagon) This package is up to date.
 [INFO] (wagoner) This package is up to date.
-[INFO] (wagtail) Data has been updated for this package.
+[INFO] (wagtail) This package is up to date.
 [INFO] (wagtail-accessibility) This package is up to date.
 [INFO] (wagtail-asciinema) This package is up to date.
 [ERROR] (wagtail-autofixtures) This package does not have downloadable releases.
@@ -236,9 +218,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wagtailtranslations) This package is up to date.
 [INFO] (wagtailvideos) This package is up to date.
 [ERROR] (wah-cade) Could not extract data from this package. See below for details.
-"http://www.anti-particle.com/projects/wahcade/wahcade-0.19.tar.gz" file couldnt be downloaded. See below for details.
+"http://www.anti-particle.com/projects/wahcade/wahcade-0.19.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -256,7 +238,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (wahji) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -275,7 +257,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wahlrecht) This package is up to date.
 [ERROR] (wai) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -344,7 +326,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wallclock) This package is up to date.
 [ERROR] (walle-pyzmq) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -407,7 +389,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wanderer) This package is up to date.
 [ERROR] (wanderer-test) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -446,7 +428,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (want) This package is up to date.
 [ERROR] (wapi) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -482,7 +464,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (warehaus) This package does not have downloadable releases.
 [ERROR] (warehouse) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -501,7 +483,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wareweb) This package is up to date.
 [ERROR] (warf) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -521,7 +503,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (warlock) This package is up to date.
 [ERROR] (warlock-isa) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -595,7 +577,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (watch-rsync) This package is up to date.
 [ERROR] (watchall) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -624,7 +606,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (watchit) This package is up to date.
 [INFO] (watchlion) This package is up to date.
 [INFO] (watchlist) This package is up to date.
-[INFO] (watchmaker) This package is up to date.
+[INFO] (watchmaker) Data has been updated for this package.
 [INFO] (watchman) This package is up to date.
 [INFO] (watchntouch) This package is up to date.
 [INFO] (watchpaths) This package is up to date.
@@ -688,9 +670,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (wavelet-calculations) Could not extract data from this package. See below for details.
 ".html" extension not supported.
 [ERROR] (wavelets) Could not extract data from this package. See below for details.
-"https://codeload.github.com/sjoerdvansteenkiste/wavelets.git/legacy.tar.gz/wavelets-0.0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/sjoerdvansteenkiste/wavelets.git/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -708,25 +690,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (wavemaker) This package is up to date.
 [INFO] (waveplot-scanner) This package is up to date.
-[ERROR] (waverest) Could not extract data from this package. See below for details.
-"https://codeload.github.com/ronaldguillen/wave/legacy.tar.gz/waverest-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (waverest) Data has been updated for this package.
 [INFO] (waves-adaptors) This package is up to date.
 [INFO] (waves-galaxy-adaptors) This package is up to date.
 [INFO] (wavesync) This package is up to date.
@@ -736,9 +700,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wawa) This package is up to date.
 [INFO] (wawalib) This package is up to date.
 [ERROR] (wax) Could not extract data from this package. See below for details.
-"http://zephyrfalcon.org/download/wax-0.1.44.zip" file couldnt be downloaded. See below for details.
+"http://zephyrfalcon.org/download/wax-0.1.44.zip" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -810,7 +774,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wcag-contrast-ratio) This package is up to date.
 [INFO] (wcag-zoo) This package is up to date.
 [ERROR] (wcatalog) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.emilas.com/wcatalog/download/"
 [INFO] (wccls) This package is up to date.
 [INFO] (wcfg) This package is up to date.
 [INFO] (wchartype) This package is up to date.
@@ -884,14 +848,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (weave-minimal-uberspace) This package is up to date.
 [INFO] (weaver) This package is up to date.
 [ERROR] (web) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.pythonweb.org/web/release/"
 [INFO] (web-cache) This package is up to date.
 [INFO] (web-fragments) This package is up to date.
 [INFO] (web-gamepad) This package is up to date.
 [INFO] (web-imagery) This package is up to date.
 [ERROR] (web-kindle) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -910,7 +874,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (web-malware-scanner) This package does not have downloadable releases.
 [INFO] (web-mocker) This package is up to date.
 [ERROR] (web-modules) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.pythonweb.org/projects/webmodules/release/current/"
 [INFO] (web-pdb) This package is up to date.
 [INFO] (web-rich-object) This package is up to date.
 [ERROR] (web-search) This package does not have downloadable releases.
@@ -938,9 +902,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webapi) This package is up to date.
 [INFO] (webapi-active-query-builder) This package is up to date.
 [ERROR] (webapp) Could not extract data from this package. See below for details.
-"https://codeload.github.com/alectramell/webapp.git/legacy.tar.gz/webapp-1.0.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/alectramell/webapp.git/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -987,7 +951,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webb) This package is up to date.
 [ERROR] (webbbench) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1014,10 +978,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webchuan) This package is up to date.
 [INFO] (webcitation) This package is up to date.
 [ERROR] (webcleaner) Could not extract data from this package. See below for details.
-".php?group_id=7692" extension not supported.
+".php" extension not supported.
 [ERROR] (webcli) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1057,7 +1021,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (webdriver) This package does not have downloadable releases.
 [ERROR] (webdriver-chauffeur) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1091,25 +1055,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webdry) This package is up to date.
 [INFO] (webelement-highlighter) This package is up to date.
 [INFO] (webelemental) This package is up to date.
-[ERROR] (webelements) Could not extract data from this package. See below for details.
-"https://codeload.github.com/timothycrosley/webelements/legacy.tar.gz/webelements-1.0.0-beta.2.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (webelements) Data has been updated for this package.
 [INFO] (webencodings) This package is up to date.
 [INFO] (webenv) This package is up to date.
 [ERROR] (weber) This package does not have downloadable releases.
@@ -1172,7 +1118,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (weblog) This package is up to date.
 [ERROR] (weblogic) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1204,9 +1150,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webmock) This package is up to date.
 [INFO] (webmocker) This package is up to date.
 [ERROR] (webmocker-deprecated) Could not extract data from this package. See below for details.
-"https://codeload.github.com/sheltonpaul89/webmocker/legacy.tar.gz/webmocker-deprecated-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/sheltonpaul89/webmocker/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1247,7 +1193,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webpandoc) This package is up to date.
 [ERROR] (webparse) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1281,16 +1227,16 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webpype) This package is up to date.
 [INFO] (webpype-django) This package is up to date.
 [ERROR] (webpyte) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/webpyte/downloads/list"
 [ERROR] (webpython) Could not extract data from this package. See below for details.
-".php?group_id=145474&package_id=160008" extension not supported.
+".php" extension not supported.
 [INFO] (webpyutils) This package is up to date.
 [INFO] (webqresp) This package is up to date.
 [INFO] (webracer) This package is up to date.
 [INFO] (webreview) This package is up to date.
 [INFO] (webrpc) This package is up to date.
 [ERROR] (webrtc-audio-processing) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://pypi.python.org/pypi/webrtc_audio_processing"
 [INFO] (webrtcvad) This package is up to date.
 [INFO] (webrunner) This package is up to date.
 [INFO] (webs) This package is up to date.
@@ -1353,9 +1299,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webtestrunner) This package is up to date.
 [INFO] (webtimer) This package is up to date.
 [ERROR] (webtk) Could not extract data from this package. See below for details.
-"http://webtk.org/download/webtk-0.alpha1.tgz" file couldnt be downloaded. See below for details.
+"http://webtk.org/download/webtk-0.alpha1.tgz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1398,8 +1344,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webvirtmgr) This package is up to date.
 [INFO] (webvtt-py) This package is up to date.
 [ERROR] (webwall) This package does not have downloadable releases.
-[ERROR] (webware) Could not extract data from this package. See below for details.
-".tar.gz?download" extension not supported.
+[INFO] (webware) Data has been updated for this package.
 [INFO] (webware-for-python) This package is up to date.
 [ERROR] (webway) This package does not have downloadable releases.
 [INFO] (webwol) This package is up to date.
@@ -1502,7 +1447,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (wenxuan-nester) This package does not have downloadable releases.
 [ERROR] (weogeoapi) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1596,7 +1541,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wfront) This package is up to date.
 [ERROR] (wfuzzer) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1757,7 +1702,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (whiskers) This package is up to date.
 [ERROR] (whiskey) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1827,7 +1772,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (whydtogo) This package is up to date.
 [ERROR] (whyteboard) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1922,25 +1867,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wikimapia-api) This package is up to date.
 [INFO] (wikimarkup) This package is up to date.
 [INFO] (wikimon) This package is up to date.
-[ERROR] (wikimon-bot) Could not extract data from this package. See below for details.
-"https://codeload.github.com/facerecog/wikimon/legacy.tar.gz/wikimon-bot-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (wikimon-bot) Data has been updated for this package.
 [INFO] (wikimonbot) This package is up to date.
 [INFO] (wikiparser) This package is up to date.
 [INFO] (wikipedia) This package is up to date.
@@ -1948,9 +1875,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wikipedia-ner) This package is up to date.
 [INFO] (wikipedia-parser) This package is up to date.
 [ERROR] (wikipedia-parser-api) Could not extract data from this package. See below for details.
-"https://codeload.github.com/feliperuhland/wikipedia-parser/legacy.tar.gz/wikipedia-parser-api-1.1.0.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/feliperuhland/wikipedia-parser/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1969,7 +1896,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wikipedia-template-parser) This package is up to date.
 [ERROR] (wikipedia2vec) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2002,9 +1929,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wikiwords) This package is up to date.
 [INFO] (wikked) This package is up to date.
 [ERROR] (wikklytext) Could not extract data from this package. See below for details.
-"http://wikklytext.googlecode.com/files/WikklyText-1.6.0.tar.gz" file couldnt be downloaded. See below for details.
+"http://wikklytext.googlecode.com/files/WikklyText-1.6.0.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2024,7 +1951,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wild-sphinx-theme) This package is up to date.
 [ERROR] (wildcard) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2073,15 +2000,25 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wim) This package is up to date.
 [INFO] (wimms) This package is up to date.
 [ERROR] (wimpiggy) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://partiwm.org/static/downloads/"
 [INFO] (wimpy) This package is up to date.
 [ERROR] (win) Could not extract data from this package. See below for details.
-"https://codeload.github.com/Gallopsled/pwntools/legacy.tar.gz/win-1.0.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/Gallopsled/pwntools/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 504, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 696, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.5/urllib/request.py", line 472, in open
     response = meth(req, response)
   File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
@@ -2122,13 +2059,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (windmills) This package does not have downloadable releases.
 [INFO] (window) This package is up to date.
 [ERROR] (windowgram) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://pypi.python.org/pypi/windowgram"
 [INFO] (windownow) This package is up to date.
 [ERROR] (windows) This package does not have downloadable releases.
 [INFO] (windows-gui-automation) This package is up to date.
 [ERROR] (windowsazure) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2174,9 +2111,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (winpaths) This package is up to date.
 [INFO] (winpcapy) This package is up to date.
 [ERROR] (winpdb) Could not extract data from this package. See below for details.
-"http://winpdb.googlecode.com/files/winpdb-1.4.8.tar.gz" file couldnt be downloaded. See below for details.
+"http://winpdb.googlecode.com/files/winpdb-1.4.8.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2218,9 +2155,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wintximporter-grib) This package is up to date.
 [INFO] (wintxrest) This package is up to date.
 [ERROR] (winwallpaper) Could not extract data from this package. See below for details.
-"http://www.techb.zxq.net/Windesktop.zip" file couldnt be downloaded. See below for details.
+"http://www.techb.zxq.net/Windesktop.zip" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2238,7 +2175,7 @@ urllib.error.HTTPError: HTTP Error 403: Forbidden
 
 [ERROR] (wio) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2359,7 +2296,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wizdict) This package is up to date.
 [ERROR] (wizeline-flow) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2421,7 +2358,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wm.sampledata) This package is up to date.
 [INFO] (wm.showhidecolumns) This package is up to date.
 [ERROR] (wmainfo-py) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://badcomputer.org/unix/code/wmainfo/"
 [ERROR] (wmap) This package does not have downloadable releases.
 [INFO] (wmcore) This package is up to date.
 [INFO] (wmctrl) This package is up to date.
@@ -2520,7 +2457,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wordabulary) This package is up to date.
 [INFO] (wordai) This package is up to date.
 [ERROR] (wordaxe) Could not extract data from this package. See below for details.
-".php?group_id=105867" extension not supported.
+".php" extension not supported.
 [INFO] (wordbatch) This package is up to date.
 [INFO] (wordbuilder) This package is up to date.
 [ERROR] (wordbyword) This package does not have downloadable releases.
@@ -2557,8 +2494,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (wordpress-python-library) Could not extract data from this package. See below for details.
 Could not extract tarball. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 130, in get_tar_topdir
-    with compressed(tarpath, tarmode) as tar:
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 131, in get_tar_topdir
+    with closing(compressed(tarpath, tarmode)) as tar:
   File "/usr/lib/python3.5/zipfile.py", line 1026, in __init__
     self._RealGetContents()
   File "/usr/lib/python3.5/zipfile.py", line 1094, in _RealGetContents
@@ -2635,7 +2572,7 @@ zipfile.BadZipFile: File is not a zip file
 [INFO] (worldpay) This package is up to date.
 [ERROR] (worldshifter) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2669,7 +2606,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (worq) This package is up to date.
 [ERROR] (worrpt) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2695,7 +2632,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (woudc-qa) This package is up to date.
 [ERROR] (wound) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2742,7 +2679,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wpd.mmxi.countdown) This package is up to date.
 [ERROR] (wpd.policy) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2824,7 +2761,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (wrestle) This package does not have downloadable releases.
 [ERROR] (wretch) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2857,7 +2794,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (writeup-tool) This package is up to date.
 [ERROR] (writewiki) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2895,7 +2832,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wsapi4plone.client) This package is up to date.
 [INFO] (wsapi4plone.core) This package is up to date.
 [INFO] (wsappy) This package is up to date.
-[INFO] (wscelery) Data has been updated for this package.
+[INFO] (wscelery) This package is up to date.
 [INFO] (wscheck) This package is up to date.
 [INFO] (wsconfig) This package is up to date.
 [INFO] (wscore) This package is up to date.
@@ -2918,7 +2855,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wsgi-kerberos) This package is up to date.
 [ERROR] (wsgi-lag) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2975,9 +2912,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wsgidav) This package is up to date.
 [INFO] (wsgidelegator) This package is up to date.
 [ERROR] (wsgifileserver) Could not extract data from this package. See below for details.
-"http://steidten.de/steffen/website-wsgi.zip" file couldnt be downloaded. See below for details.
+"http://steidten.de/steffen/website-wsgi.zip" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3006,9 +2943,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wsgifilter) This package is up to date.
 [INFO] (wsgiform) This package is up to date.
 [ERROR] (wsgifront) Could not extract data from this package. See below for details.
-"http://wsgifront.googlecode.com/files/wsgifront-0.9.9.tar.gz" file couldnt be downloaded. See below for details.
+"http://wsgifront.googlecode.com/files/wsgifront-0.9.9.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3101,7 +3038,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wsrpc-tornado) This package is up to date.
 [ERROR] (wsseauth) This package does not have downloadable releases.
 [INFO] (wssh) This package is up to date.
-[INFO] (wssplugin-integration) This package is up to date.
+[INFO] (wssplugin-integration) Data has been updated for this package.
 [INFO] (wsssimpletest) This package is up to date.
 [INFO] (wsstat) This package is up to date.
 [INFO] (wstan) This package is up to date.
@@ -3165,7 +3102,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wudaodict) This package is up to date.
 [INFO] (wufenglibs) This package is up to date.
 [ERROR] (wugeo) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://wubook.net/labs/"
 [INFO] (wuguannan) This package is up to date.
 [INFO] (wukong) This package is up to date.
 [INFO] (wumappy) This package is up to date.
@@ -3190,7 +3127,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wuzhengyatest) This package is up to date.
 [INFO] (wva) This package is up to date.
 [ERROR] (wvianey) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://cheeseshop.python.org/pypi/Louie"
 [ERROR] (wvlet) This package does not have downloadable releases.
 [INFO] (ww) This package is up to date.
 [INFO] (wwchartlib) This package is up to date.
@@ -3216,27 +3153,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (wxaddons) Could not extract data from this package. See below for details.
 ".php" extension not supported.
 [INFO] (wxanythread) This package is up to date.
-[ERROR] (wxapi) Could not extract data from this package. See below for details.
-"https://codeload.github.com/lc4t/python-wxAPI/legacy.tar.gz/wxapi-0.0.4.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (wxapi) Data has been updated for this package.
 [ERROR] (wxappbar) Could not extract data from this package. See below for details.
-".php?group_id=102251" extension not supported.
+".php" extension not supported.
 [INFO] (wxb-fuxi) This package is up to date.
 [INFO] (wxb-nester) This package is up to date.
 [ERROR] (wxcast) This package does not have downloadable releases.
@@ -3246,12 +3165,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wxgoodies) This package is up to date.
 [INFO] (wxmplot) This package is up to date.
 [ERROR] (wxoo) Could not extract data from this package. See below for details.
-".php?group_id=50588" extension not supported.
+".php" extension not supported.
 [INFO] (wxoptparse) This package is up to date.
 [INFO] (wxpay) This package is up to date.
 [INFO] (wxpay-sdk) This package is up to date.
 [ERROR] (wxpropertygrid) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://wxpropgrid.sourceforge.net/cgi-bin/index?page=download#wxpython"
 [INFO] (wxpy) This package is up to date.
 [INFO] (wxpygamevideoplayer) This package is up to date.
 [INFO] (wxpython) This package is up to date.
@@ -3263,7 +3182,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 ".html" extension not supported.
 [INFO] (wxr-parser) This package is up to date.
 [ERROR] (wxremind) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.duke.edu/~dgraham/wxRemind"
 [INFO] (wxrobot) This package is up to date.
 [ERROR] (wxsftp) Could not extract data from this package. See below for details.
 ".html" extension not supported.
@@ -3275,7 +3194,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wxyalice) This package is up to date.
 [INFO] (wxyellen) This package is up to date.
 [INFO] (wy-nester) This package is up to date.
-[INFO] (wyatt) This package is up to date.
+[INFO] (wyatt) Data has been updated for this package.
 [INFO] (wykop-sdk) This package is up to date.
 [INFO] (wylie) This package is up to date.
 [INFO] (wylog) This package is up to date.
@@ -3293,12 +3212,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] 
 [INFO] Total packages: 2247
 [INFO]     Packages processed: 2247
-[INFO]         Packages updated: 2
-[INFO]         Packages up-to-date: 1978
+[INFO]         Packages updated: 9
+[INFO]         Packages up-to-date: 1977
 [INFO]         Packages without response: 31
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 187
-[INFO]         Packages with data errors: 49
+[INFO]         Packages with data errors: 43
 [INFO]     Packages not processed: 0
 [INFO] 
 [INFO] 

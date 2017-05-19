@@ -31,8 +31,14 @@
     },
     "w.i.l.l": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "core",
+            "core.interface_deprecated",
+            "core.notification",
+            "core.parser",
+            "core.plugin_handler"
+        ],
+        "version": "3.1"
     },
     "w1": {
         "cmdline": [],
@@ -6847,7 +6853,7 @@
             "watchmaker.workers.salt",
             "watchmaker.workers.yum"
         ],
-        "version": "0.4.1"
+        "version": "0.4.2"
     },
     "watchman": {
         "cmdline": [],
@@ -7802,8 +7808,29 @@
     },
     "waverest": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "wave",
+            "wave.authentication",
+            "wave.compat",
+            "wave.decorators",
+            "wave.exceptions",
+            "wave.fields",
+            "wave.metadata",
+            "wave.methods",
+            "wave.negotiation",
+            "wave.parsers",
+            "wave.relations",
+            "wave.renderers",
+            "wave.request",
+            "wave.response",
+            "wave.reverse",
+            "wave.serializers",
+            "wave.settings",
+            "wave.status",
+            "wave.validators",
+            "wave.views"
+        ],
+        "version": "0.1"
     },
     "waves-adaptors": {
         "cmdline": [],
@@ -11407,8 +11434,42 @@
     },
     "webelements": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "WebElements",
+            "WebElements.All",
+            "WebElements.Base",
+            "WebElements.Buttons",
+            "WebElements.Charts",
+            "WebElements.ClientSide",
+            "WebElements.CodeDocumentation",
+            "WebElements.Connectable",
+            "WebElements.Containers",
+            "WebElements.DOM",
+            "WebElements.DataViews",
+            "WebElements.DictUtils",
+            "WebElements.Display",
+            "WebElements.Document",
+            "WebElements.Factory",
+            "WebElements.HiddenInputs",
+            "WebElements.Inputs",
+            "WebElements.IteratorUtils",
+            "WebElements.JsonParser",
+            "WebElements.Layout",
+            "WebElements.MethodUtils",
+            "WebElements.MultiplePythonSupport",
+            "WebElements.Navigation",
+            "WebElements.Parser",
+            "WebElements.PositionController",
+            "WebElements.Printing",
+            "WebElements.Resources",
+            "WebElements.Social",
+            "WebElements.StringUtils",
+            "WebElements.Types",
+            "WebElements.UITemplate",
+            "WebElements.Validators",
+            "WebElements.shpaml"
+        ],
+        "version": "1.0.0-beta.2"
     },
     "webencodings": {
         "cmdline": [],
@@ -14389,7 +14450,7 @@
     "webware": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.8.1"
     },
     "webware-for-python": {
         "cmdline": [],
@@ -21226,9 +21287,30 @@
         "version": "0.6.2"
     },
     "wikimon-bot": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "wikimon-cli"
+        ],
+        "modules": [
+            "wikimon_bot",
+            "wikimon_bot.config",
+            "wikimon_bot.layers",
+            "wikimon_bot.layers.notifications",
+            "wikimon_bot.layers.notifications.notification_layer",
+            "wikimon_bot.router",
+            "wikimon_bot.utils",
+            "wikimon_bot.utils.media_sender",
+            "wikimon_bot.utils.session",
+            "wikimon_bot.views",
+            "wikimon_bot.views.basic_views",
+            "wikimon_bot.views.bing",
+            "wikimon_bot.views.google",
+            "wikimon_bot.views.group_admin",
+            "wikimon_bot.views.media",
+            "wikimon_bot.views.quiz",
+            "wikimon_bot.views.req",
+            "wikimon_bot.views.super_views"
+        ],
+        "version": "0.1"
     },
     "wikimonbot": {
         "cmdline": [],
@@ -34215,7 +34297,7 @@
             "plugin",
             "plugin.WssPythonPlugin"
         ],
-        "version": "1.1.0"
+        "version": "1.1.1"
     },
     "wsssimpletest": {
         "cmdline": [],
@@ -36246,7 +36328,7 @@
     "wxapi": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.0.4"
     },
     "wxappbar": {
         "cmdline": [],
@@ -36905,7 +36987,7 @@
         "modules": [
             "will"
         ],
-        "version": "0.1.14"
+        "version": "0.1.19"
     },
     "wykop-sdk": {
         "cmdline": [],
