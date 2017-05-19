@@ -4535,7 +4535,7 @@
             "abtools.sequence",
             "abtools.stats"
         ],
-        "version": "0.1.8"
+        "version": "0.1.9"
     },
     "abu": {
         "cmdline": [],
@@ -35536,7 +35536,7 @@
             "amg.sanitize",
             "amg.tag"
         ],
-        "version": "0.4.4"
+        "version": "0.4.5"
     },
     "ami-organizer": {
         "cmdline": [],
@@ -57707,7 +57707,7 @@
         "modules": [
             "arcgis_sdk"
         ],
-        "version": "0.0.4"
+        "version": "0.0.6"
     },
     "arch": {
         "cmdline": [],
@@ -66127,13 +66127,14 @@
             "asgi_redis.local",
             "asgi_redis.sentinel",
             "asgi_redis.tests",
+            "asgi_redis.tests.constants",
             "asgi_redis.tests.test_core",
             "asgi_redis.tests.test_local",
             "asgi_redis.tests.test_sentinel",
             "asgi_redis.tests.test_twisted",
             "asgi_redis.twisted_utils"
         ],
-        "version": "1.3.0"
+        "version": "1.4.0"
     },
     "asgiref": {
         "cmdline": [],
@@ -87806,7 +87807,7 @@
             "awscli.topictags",
             "awscli.utils"
         ],
-        "version": "1.11.88"
+        "version": "1.11.89"
     },
     "awscli-cwlogs": {
         "cmdline": [],
@@ -90500,7 +90501,7 @@
             "interactive.commands",
             "interactive.custom"
         ],
-        "version": "0.3.1"
+        "version": "0.3.2"
     },
     "azure-cli-iot": {
         "cmdline": [],
@@ -91111,6 +91112,31 @@
         ],
         "version": "4.0.0"
     },
+    "azure-mgmt-billing": {
+        "cmdline": [],
+        "modules": [
+            "billing",
+            "billing.billing_management_client",
+            "billing.models",
+            "billing.models.billing_period",
+            "billing.models.billing_period_paged",
+            "billing.models.download_url",
+            "billing.models.error_details",
+            "billing.models.error_response",
+            "billing.models.invoice",
+            "billing.models.invoice_paged",
+            "billing.models.operation",
+            "billing.models.operation_display",
+            "billing.models.operation_paged",
+            "billing.models.resource",
+            "billing.operations",
+            "billing.operations.billing_periods_operations",
+            "billing.operations.invoices_operations",
+            "billing.operations.operations",
+            "billing.version"
+        ],
+        "version": "0.1.0"
+    },
     "azure-mgmt-cdn": {
         "cmdline": [],
         "modules": [
@@ -91585,6 +91611,28 @@
             "compute.version"
         ],
         "version": "1.0.0"
+    },
+    "azure-mgmt-consumption": {
+        "cmdline": [],
+        "modules": [
+            "consumption",
+            "consumption.consumption_management_client",
+            "consumption.models",
+            "consumption.models.error_details",
+            "consumption.models.error_response",
+            "consumption.models.meter_details",
+            "consumption.models.operation",
+            "consumption.models.operation_display",
+            "consumption.models.operation_paged",
+            "consumption.models.resource",
+            "consumption.models.usage_detail",
+            "consumption.models.usage_detail_paged",
+            "consumption.operations",
+            "consumption.operations.operations",
+            "consumption.operations.usage_details_operations",
+            "consumption.version"
+        ],
+        "version": "0.1.0"
     },
     "azure-mgmt-containerregistry": {
         "cmdline": [],
