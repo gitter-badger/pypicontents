@@ -19043,6 +19043,18 @@
         ],
         "version": "0.1.0"
     },
+    "aiomongodel": {
+        "cmdline": [],
+        "modules": [
+            "aiomongodel",
+            "aiomongodel.document",
+            "aiomongodel.errors",
+            "aiomongodel.fields",
+            "aiomongodel.queryset",
+            "aiomongodel.utils"
+        ],
+        "version": "0.1.0"
+    },
     "aiomonitor": {
         "cmdline": [],
         "modules": [
@@ -28154,7 +28166,7 @@
             "alignak_module_backend.scheduler",
             "alignak_module_backend.scheduler.module"
         ],
-        "version": "0.5.0"
+        "version": "0.6.0"
     },
     "alignak-module-example": {
         "cmdline": [],
