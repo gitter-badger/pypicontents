@@ -15,7 +15,7 @@
 [INFO] (o365) This package is up to date.
 [ERROR] (o3manage) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -49,12 +49,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (oanda-trading-environment) This package is up to date.
 [INFO] (oandapyv20) This package is up to date.
 [ERROR] (oanpy) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://bitbucket.org/blais/oanpy"
 [INFO] (oao-nester) This package is up to date.
 [INFO] (oapackage) This package is up to date.
 [ERROR] (oapy) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -146,7 +146,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (objdiff) This package is up to date.
 [ERROR] (object) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -191,7 +191,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (objpool) This package is up to date.
 [INFO] (objproxies) This package is up to date.
 [ERROR] (objson) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/objson/"
 [INFO] (objtrack) This package is up to date.
 [INFO] (oblb) This package is up to date.
 [INFO] (obliquity) This package is up to date.
@@ -274,7 +274,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ocstyle) This package is up to date.
 [ERROR] (ocstyle-bxk) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -326,7 +326,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (octopie) This package is up to date.
 [ERROR] (octoprint) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2759,7 +2759,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ogame) This package is up to date.
 [INFO] (ogg-theora-vorbis) This package is up to date.
 [ERROR] (oggpy) Could not extract data from this package. See below for details.
-"http://dingoskidneys.com/oggpy/oggpy-0.5.tar.gz" file couldnt be downloaded. See below for details.
+"http://dingoskidneys.com/oggpy/oggpy-0.5.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
   File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
     h.request(req.get_method(), req.selector, req.data, headers)
@@ -2784,7 +2784,7 @@ OSError: [Errno 101] Network is unreachable
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2847,7 +2847,7 @@ urllib.error.URLError: <urlopen error [Errno 101] Network is unreachable>
 [INFO] (oii) This package is up to date.
 [ERROR] (oil) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2883,7 +2883,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (okapi) This package is up to date.
 [ERROR] (okay) This package does not have downloadable releases.
 [ERROR] (okayrpclib) Could not extract data from this package. See below for details.
-"http://pyhacks.suddenthinks.com/okayrpc/okayrpclib-0.0.3.tar.gz" file couldnt be downloaded. See below for details.
+"http://pyhacks.suddenthinks.com/okayrpc/okayrpclib-0.0.3.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
   File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
     h.request(req.get_method(), req.selector, req.data, headers)
@@ -2908,7 +2908,7 @@ socket.gaierror: [Errno -2] Name or service not known
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2984,7 +2984,7 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (ollehtv) This package is up to date.
 [ERROR] (ollix) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3045,7 +3045,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (omicexperiment) This package is up to date.
 [INFO] (omics) This package is up to date.
 [ERROR] (omics-pipe) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://pypi.python.org/pypi/omics_pipe"
 [INFO] (omicsintegrator) This package is up to date.
 [INFO] (omidentd) This package is up to date.
 [INFO] (omise) This package is up to date.
@@ -3056,9 +3056,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (oml) This package is up to date.
 [INFO] (oml4py) This package is up to date.
 [ERROR] (omlite) Could not extract data from this package. See below for details.
-"https://codeload.github.com/krisztianfekete/omlite.git/legacy.tar.gz/omlite-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/krisztianfekete/omlite.git/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3081,7 +3081,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (omni-api) This package is up to date.
 [ERROR] (omni-blocks) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3110,9 +3110,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (omni-gumshoe) This package is up to date.
 [INFO] (omni2re) This package is up to date.
 [ERROR] (omnibus-driver) Could not extract data from this package. See below for details.
-"https://omnibus-filetransfer.googlecode.com/files/omnibus-driver-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
+"https://omnibus-filetransfer.googlecode.com/files/omnibus-driver-0.1.0.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3151,7 +3151,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (omnisync) This package is up to date.
 [INFO] (omnitagger) This package is up to date.
 [INFO] (omniture) This package is up to date.
-[INFO] (omnium) This package is up to date.
+[INFO] (omnium) Data has been updated for this package.
 [ERROR] (omnivor) This package does not have downloadable releases.
 [INFO] (omnivore) This package is up to date.
 [INFO] (omnl) This package is up to date.
@@ -3233,25 +3233,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (onegov.user) This package is up to date.
 [INFO] (oneid-cli) This package is up to date.
 [INFO] (oneid-connect) This package is up to date.
-[ERROR] (oneline) Could not extract data from this package. See below for details.
-"https://codeload.github.com/nadirhamid/oneline/legacy.tar.gz/oneline-1.0.0RC1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (oneline) Data has been updated for this package.
 [INFO] (oneliner) This package is up to date.
 [INFO] (onelogin-aws-cli) This package is up to date.
 [INFO] (onelogin-duo-sync) This package is up to date.
@@ -3296,7 +3278,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ongeza) This package is up to date.
 [ERROR] (onion) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3351,7 +3333,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ontosrv) This package is up to date.
 [INFO] (ontv) This package is up to date.
 [ERROR] (onty) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://pypi.python.org/pypi/onty"
 [INFO] (onvif) This package is up to date.
 [INFO] (onvif-py3) This package is up to date.
 [INFO] (onyx) This package is up to date.
@@ -3391,7 +3373,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ooop) This package is up to date.
 [INFO] (ooopy) This package is up to date.
 [ERROR] (oootemplate) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://oootemplate.argolinux.org/download/"
 [INFO] (oopen) This package is up to date.
 [INFO] (oopgrade) This package is up to date.
 [INFO] (oops) This package is up to date.
@@ -3429,7 +3411,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (op-return) This package is up to date.
 [ERROR] (op-utils) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3479,9 +3461,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (opcua-widgets) This package is up to date.
 [INFO] (opcvm-sdk-python) This package is up to date.
 [ERROR] (open) Could not extract data from this package. See below for details.
-"http://www.mired.org/downloads/open-0.3.tgz" file couldnt be downloaded. See below for details.
+"http://www.mired.org/downloads/open-0.3.tgz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3497,25 +3479,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[ERROR] (open-cli) Could not extract data from this package. See below for details.
-"https://codeload.github.com/Mufasa/Commando/legacy.tar.gz/open-cli-v2.1.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (open-cli) Data has been updated for this package.
 [INFO] (open-cnl) This package is up to date.
 [INFO] (open-data) This package is up to date.
 [INFO] (open-drop) This package is up to date.
@@ -3565,7 +3529,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (openarc) This package is up to date.
 [INFO] (openassets) This package is up to date.
 [ERROR] (openastro.org) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.openastro.org/?Download"
 [INFO] (openaustralia) This package is up to date.
 [INFO] (openbabel) This package is up to date.
 [INFO] (openbadge) This package is up to date.
@@ -3614,7 +3578,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (opencv-cffi) This package is up to date.
 [INFO] (opencv-contrib-python) This package is up to date.
 [ERROR] (opencv-cython) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/opencv-cython/"
 [INFO] (opencv-engine) This package is up to date.
 [INFO] (opencv-helpers) This package is up to date.
 [INFO] (opencv-python) This package is up to date.
@@ -3630,7 +3594,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (opendiscovery) This package is up to date.
 [ERROR] (opendnc) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3670,7 +3634,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (openelectrons-i2c) This package does not have downloadable releases.
 [INFO] (openelectrons-imubreakout) This package is up to date.
 [ERROR] (openelectrons-lsm303) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "Openelctrons, i2c, LSM303, accelerometer, magnetometer"
 [INFO] (openelectrophy) This package is up to date.
 [INFO] (openergy) This package is up to date.
 [INFO] (openerp-account) This package is up to date.
@@ -4035,7 +3999,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (openmultimedia.imagewatchdog) This package is up to date.
 [ERROR] (openname) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4058,13 +4022,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (openobject-library) This package does not have downloadable releases.
 [ERROR] (openobject-mirliton) This package does not have downloadable releases.
 [ERROR] (openoffice) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://openoffice-python.origo.ethz.ch/download"
 [ERROR] (openoffice-python) This package does not have downloadable releases.
 [INFO] (openoffice.interact) This package is up to date.
 [ERROR] (openomy) Could not extract data from this package. See below for details.
-"http://openomy-python.googlecode.com/files/openomy-0.6.0.tar.gz" file couldnt be downloaded. See below for details.
+"http://openomy-python.googlecode.com/files/openomy-0.6.0.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4119,7 +4083,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (openregister-client) This package is up to date.
 [INFO] (openregister-entry) This package is up to date.
 [INFO] (openrem) This package is up to date.
-[INFO] (openreview-py) This package is up to date.
+[INFO] (openreview-py) Data has been updated for this package.
 [INFO] (openreviewpy) This package is up to date.
 [INFO] (openross) This package is up to date.
 [INFO] (openrtb) This package is up to date.
@@ -4227,9 +4191,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (openvas-tasks) This package is up to date.
 [INFO] (openvas-to-report) This package is up to date.
 [ERROR] (openvas.oaplib) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://wald.intevation.org/frs/?group_id=29"
 [ERROR] (openvas.omplib) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://wald.intevation.org/frs/?group_id=29"
 [INFO] (openvcdiff) This package is up to date.
 [INFO] (openvisualizer) This package is up to date.
 [INFO] (openvpn-manager) This package is up to date.
@@ -4259,7 +4223,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (operalib) This package is up to date.
 [ERROR] (operations) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4313,7 +4277,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (opmysql) This package is up to date.
 [ERROR] (opn) This package does not have downloadable releases.
 [ERROR] (opnfv-parser) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://gerrit.opnfv.org/gerrit/parser"
 [ERROR] (opoge-pusher) This package does not have downloadable releases.
 [INFO] (opopgadget) This package is up to date.
 [INFO] (opp) This package is up to date.
@@ -4355,7 +4319,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (opt-einsum) This package is up to date.
 [INFO] (optbuild) This package is up to date.
 [ERROR] (optcomplete) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://bitbucket.org/blais/optcomplete"
 [INFO] (optdict) This package is up to date.
 [INFO] (opterator) This package is up to date.
 [INFO] (optfn) This package is up to date.
@@ -4365,7 +4329,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (opticalutil) This package is up to date.
 [INFO] (opticspy) This package is up to date.
 [ERROR] (optik) Could not extract data from this package. See below for details.
-".php?group_id=38019" extension not supported.
+".php" extension not supported.
 [INFO] (optim) This package is up to date.
 [INFO] (optimage) This package is up to date.
 [ERROR] (optimal) This package does not have downloadable releases.
@@ -4374,7 +4338,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (optimix) This package is up to date.
 [ERROR] (optimize) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4420,9 +4384,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (optlib) This package is up to date.
 [INFO] (opto) This package is up to date.
 [ERROR] (optopuss) Could not extract data from this package. See below for details.
-"https://codeload.github.com/kvoss/opto-puss/legacy.tar.gz/optopuss-0.1.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/kvoss/opto-puss/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4472,7 +4436,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (oracle) This package does not have downloadable releases.
 [ERROR] (oracle-ct) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4552,7 +4516,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (orcastorm) This package is up to date.
 [INFO] (orcfxapi) This package is up to date.
 [ERROR] (orch-library-logging) Could not extract data from this package. See below for details.
-"https://kbajra@bitbucket.org/kbajra/test-library/orch_library_logging.0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://kbajra@bitbucket.org/kbajra/test-library/orch_library_logging.0.1.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
   File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
     h.request(req.get_method(), req.selector, req.data, headers)
@@ -4579,7 +4543,7 @@ socket.gaierror: [Errno -2] Name or service not known
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4658,10 +4622,10 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (org.asm) This package is up to date.
 [INFO] (org.geppetto.recording) This package is up to date.
 [ERROR] (org.keyphrene) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.keyphrene.com/products/org.keyphrene/"
 [INFO] (organ) This package is up to date.
 [ERROR] (organdesigner) Could not extract data from this package. See below for details.
-".php?group_id=173387" extension not supported.
+".php" extension not supported.
 [INFO] (organic) This package is up to date.
 [INFO] (organization-chart-of-inpe) This package is up to date.
 [INFO] (organization-extractor) This package is up to date.
@@ -4675,18 +4639,18 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (orgreport) This package is up to date.
 [INFO] (orgtblfilter) This package is up to date.
 [ERROR] (orgtool) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://bitbucket.org/neithere/orgtool/src/"
 [INFO] (orgtup) This package is up to date.
 [INFO] (orgviz) This package is up to date.
 [ERROR] (orichalcum) This package does not have downloadable releases.
 [INFO] (oricreate) This package is up to date.
 [INFO] (origami) This package is up to date.
 [ERROR] (origapy) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.decalage.info/python/origapy"
 [INFO] (origheart) This package is up to date.
 [INFO] (origin) This package is up to date.
 [ERROR] (original-gamer-s-client) Could not extract data from this package. See below for details.
-".php?group_id=39218&release_id=121757" extension not supported.
+".php" extension not supported.
 [ERROR] (origins) This package does not have downloadable releases.
 [ERROR] (origins-rest) This package does not have downloadable releases.
 [INFO] (oriole) This package is up to date.
@@ -4710,7 +4674,7 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (ormithorynque) This package is up to date.
 [ERROR] (ormur) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4745,25 +4709,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (ortools-gce-debian) Could not extract data from this package. See below for details.
 
 [INFO] (ortp) This package is up to date.
-[ERROR] (orun) Could not extract data from this package. See below for details.
-"https://codeload.github.com/katrid/orun/legacy.tar.gz/orun-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (orun) Data has been updated for this package.
 [INFO] (orvibo) This package is up to date.
 [ERROR] (orwell) This package does not have downloadable releases.
 [ERROR] (os) Could not extract data from this package. See below for details.
@@ -4853,7 +4799,7 @@ OSError: [Errno 13] Permission denied: '/tmp/pypic-extract/os/os'
 [INFO] (osdbinfos) This package is up to date.
 [INFO] (osdcquery) This package is up to date.
 [ERROR] (osdetect) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://osdetect.malte-bublitz.de/download/"
 [INFO] (osdf-python) This package is up to date.
 [ERROR] (oseq) This package does not have downloadable releases.
 [INFO] (oset) This package is up to date.
@@ -4865,7 +4811,7 @@ OSError: [Errno 13] Permission denied: '/tmp/pypic-extract/os/os'
 [INFO] (osg-gratia-viewer) This package is up to date.
 [INFO] (osgb) This package is up to date.
 [ERROR] (osh) Could not extract data from this package. See below for details.
-"http://geophile.com/osh/osh-1.0.3.tar.gz" file couldnt be downloaded. See below for details.
+"http://geophile.com/osh/osh-1.0.3.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
   File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
     h.request(req.get_method(), req.selector, req.data, headers)
@@ -4890,7 +4836,7 @@ socket.timeout: timed out
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4999,49 +4945,7 @@ urllib.error.URLError: <urlopen error timed out>
 [INFO] (ostat) This package is up to date.
 [INFO] (ostinato-light) This package is up to date.
 [ERROR] (ostri) Could not extract data from this package. See below for details.
-"https://wiki.fu-manchu.org/lib/exe/fetch.php?media=projects:ostri-0.1.0.tgz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
-    h.request(req.get_method(), req.selector, req.data, headers)
-  File "/usr/lib/python3.5/http/client.py", line 1107, in request
-    self._send_request(method, url, body, headers)
-  File "/usr/lib/python3.5/http/client.py", line 1152, in _send_request
-    self.endheaders(body)
-  File "/usr/lib/python3.5/http/client.py", line 1103, in endheaders
-    self._send_output(message_body)
-  File "/usr/lib/python3.5/http/client.py", line 934, in _send_output
-    self.send(msg)
-  File "/usr/lib/python3.5/http/client.py", line 877, in send
-    self.connect()
-  File "/usr/lib/python3.5/http/client.py", line 1253, in connect
-    super().connect()
-  File "/usr/lib/python3.5/http/client.py", line 849, in connect
-    (self.host,self.port), self.timeout, self.source_address)
-  File "/usr/lib/python3.5/socket.py", line 694, in create_connection
-    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
-  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-socket.gaierror: [Errno -2] Name or service not known
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
-    response = self._open(req, data)
-  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
-    '_open', req)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
-    context=self._context, check_hostname=self._check_hostname)
-  File "/usr/lib/python3.5/urllib/request.py", line 1256, in do_open
-    raise URLError(err)
-urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
-
+".php" extension not supported.
 [INFO] (ostrich) This package is up to date.
 [INFO] (ostrichlib) This package is up to date.
 [INFO] (ostrovskii) This package is up to date.
@@ -5069,10 +4973,10 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (osxstrap) This package is up to date.
 [INFO] (osxtrash) This package is up to date.
 [ERROR] (osync) Could not extract data from this package. See below for details.
-".php?group_id=176341" extension not supported.
+".php" extension not supported.
 [ERROR] (ot) This package does not have downloadable releases.
 [ERROR] (ot-simulator) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/ornamental-lathe-simulator/downloads/list"
 [INFO] (otamapy) This package is up to date.
 [INFO] (otazkovac) This package is up to date.
 [INFO] (otb) This package is up to date.
@@ -5092,7 +4996,7 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (otomap) This package is up to date.
 [ERROR] (otp) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -5138,7 +5042,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ottawacityjobs) This package is up to date.
 [ERROR] (otter) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -5170,7 +5074,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (oursql) This package is up to date.
 [ERROR] (oursql-py3k) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -5230,7 +5134,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (overalls) This package is up to date.
 [INFO] (overc) This package is up to date.
 [ERROR] (overcast) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://code.launchpad.net/overcast"
 [ERROR] (overdrive) This package does not have downloadable releases.
 [INFO] (overdub) This package is up to date.
 [ERROR] (overfeat-gui) This package does not have downloadable releases.
@@ -5340,12 +5244,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] 
 [INFO] Total packages: 4554
 [INFO]     Packages processed: 4554
-[INFO]         Packages updated: 0
-[INFO]         Packages up-to-date: 4311
+[INFO]         Packages updated: 5
+[INFO]         Packages up-to-date: 4309
 [INFO]         Packages without response: 19
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 182
-[INFO]         Packages with data errors: 42
+[INFO]         Packages with data errors: 39
 [INFO]     Packages not processed: 0
 [INFO] 
 [INFO] 
