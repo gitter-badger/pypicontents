@@ -24,9 +24,9 @@
 [INFO] (ka-lite-static) This package is up to date.
 [INFO] (ka-nester) This package is up to date.
 [ERROR] (kaa) Could not extract data from this package. See below for details.
-"http://zephyrfalcon.org/download/kaa-0.9.zip" file couldnt be downloaded. See below for details.
+"http://zephyrfalcon.org/download/kaa-0.9.zip" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -118,7 +118,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kajiki) This package is up to date.
 [ERROR] (kakao) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -139,7 +139,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (kakaos) This package does not have downloadable releases.
 [ERROR] (kakaotalk) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -190,7 +190,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kan) This package is up to date.
 [ERROR] (kana) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -242,9 +242,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kappacuda) This package is up to date.
 [INFO] (kapre) This package is up to date.
 [ERROR] (kapri) Could not extract data from this package. See below for details.
-"https://codeload.github.com/Oscailt/kapri.git/legacy.tar.gz/kapri-1.0.0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/Oscailt/kapri.git/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -291,7 +291,7 @@ Unsupported package directory structure.
 [INFO] (karnickel) This package is up to date.
 [INFO] (karpov) This package is up to date.
 [ERROR] (karrigell) Could not extract data from this package. See below for details.
-".3.9.gz&can=2&q=" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/karrigell/downloads/detail?name=Karrigell-4.3.9.gz&can=2&q="
 [INFO] (karta) This package is up to date.
 [INFO] (kartashov) This package is up to date.
 [ERROR] (kartograph) This package does not have downloadable releases.
@@ -331,7 +331,7 @@ Unsupported package directory structure.
 [INFO] (kawasemi) This package is up to date.
 [ERROR] (kayak-antfarm) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -490,25 +490,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kennyg) This package is up to date.
 [ERROR] (kenozooid) This package does not have downloadable releases.
 [INFO] (kentest) This package is up to date.
-[ERROR] (keops) Could not extract data from this package. See below for details.
-"https://codeload.github.com/katrid/keops/legacy.tar.gz/keops-0.4.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (keops) Data has been updated for this package.
 [INFO] (kepub-toolbox) This package is up to date.
 [INFO] (keputils) This package is up to date.
 [INFO] (kepython) This package is up to date.
@@ -565,7 +547,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kervi-hal-rpi) This package is up to date.
 [INFO] (kervi-ui) This package is up to date.
 [ERROR] (keryx) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://keryxproject.org/download/"
 [INFO] (kesmarag-toolbox) This package is up to date.
 [INFO] (kessel) This package is up to date.
 [INFO] (kestrel-cli) This package is up to date.
@@ -610,13 +592,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (keymaze-300-downloader) This package is up to date.
 [INFO] (keyme) This package is up to date.
 [ERROR] (keynote) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/pykeynote/"
 [INFO] (keyor) This package is up to date.
 [ERROR] (keyparse) This package does not have downloadable releases.
 [INFO] (keypath) This package is up to date.
 [ERROR] (keypipe) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -797,8 +779,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (kiloeyes) This package does not have downloadable releases.
 [INFO] (kilometer) This package is up to date.
 [INFO] (kim) This package is up to date.
-[ERROR] (kimboot) Could not extract data from this package. See below for details.
-".00.zip?use_mirror=switch" extension not supported.
+[INFO] (kimboot) Data has been updated for this package.
 [INFO] (kimchi) This package is up to date.
 [INFO] (kimo) This package is up to date.
 [INFO] (kimono) This package is up to date.
@@ -823,7 +804,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kineticlib) This package is up to date.
 [ERROR] (kineticmulti) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -870,9 +851,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kinto-wizard) This package is up to date.
 [INFO] (kinto2xml) This package is up to date.
 [ERROR] (kiowa) Could not extract data from this package. See below for details.
-"http://os4d.org/pypi/kiowa/Kiowa-0.2w.rc12.tar.gz" file couldnt be downloaded. See below for details.
+"http://os4d.org/pypi/kiowa/Kiowa-0.2w.rc12.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -897,9 +878,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kira) This package is up to date.
 [INFO] (kirb) This package is up to date.
 [ERROR] (kirbybase) Could not extract data from this package. See below for details.
-"http://www.netpromi.com/files/KirbyBase_Python_1.9.zip" file couldnt be downloaded. See below for details.
+"http://www.netpromi.com/files/KirbyBase_Python_1.9.zip" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -950,7 +931,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kitchensinkrpc) This package is up to date.
 [ERROR] (kite) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -994,25 +975,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kivy.deps.gstreamer-dev) This package is up to date.
 [INFO] (kivy.deps.sdl2) This package is up to date.
 [INFO] (kivy.deps.sdl2-dev) This package is up to date.
-[ERROR] (kivy.garden.garden-nspace) Could not extract data from this package. See below for details.
-"https://codeload.github.com/kivy-garden/garden_nspace/legacy.tar.gz/kivy.garden.garden-nspace-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (kivy.garden.garden-nspace) Data has been updated for this package.
 [INFO] (kivycalendar) This package is up to date.
 [INFO] (kivymd) This package is up to date.
 [ERROR] (kivymvp) This package does not have downloadable releases.
@@ -1041,7 +1004,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kl) This package is up to date.
 [ERROR] (kl-first) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1125,7 +1088,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kmodpy) This package is up to date.
 [INFO] (kmorinester) This package is up to date.
 [INFO] (kmpp) This package is up to date.
-[INFO] (kms-encryption-toolbox) This package is up to date.
+[INFO] (kms-encryption-toolbox) Data has been updated for this package.
 [INFO] (kmsauth) This package is up to date.
 [INFO] (kmsclient) This package is up to date.
 [INFO] (kmstool) This package is up to date.
@@ -1163,7 +1126,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (knock) This package is up to date.
 [ERROR] (knock-models) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1221,25 +1184,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (koalausers) This package is up to date.
 [INFO] (koalaverify) This package is up to date.
 [INFO] (koality-cli) This package is up to date.
-[ERROR] (koalixcrm) Could not extract data from this package. See below for details.
-"https://codeload.github.com/tfroehlich82/koalixcrm/legacy.tar.gz/koalixcrm-0.5.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (koalixcrm) Data has been updated for this package.
 [INFO] (koansys.django.authradius) This package is up to date.
 [INFO] (koansys.recipe.elasticsearch) This package is up to date.
 [INFO] (koansys.recipe.hooks) This package is up to date.
@@ -1379,7 +1324,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (koresz-nester) This package is up to date.
 [INFO] (korg) This package is up to date.
 [ERROR] (korgwslib) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://chrisarndt.de/projects/korgwslib/download/"
 [INFO] (korneev) This package is up to date.
 [INFO] (kornev) This package is up to date.
 [INFO] (kornilov) This package is up to date.
@@ -1471,7 +1416,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kotti-wysihtml5) This package is up to date.
 [INFO] (kou) This package is up to date.
 [ERROR] (kouvert) Could not extract data from this package. See below for details.
-".php?content=15185&id=1" extension not supported.
+".php" extension not supported.
 [INFO] (kovalev) This package is up to date.
 [INFO] (koverse) This package is up to date.
 [INFO] (kozai) This package is up to date.
@@ -1500,7 +1445,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kpygithub) This package is up to date.
 [ERROR] (kpylogger) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1657,7 +1602,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ktextsurfacewriter) This package is up to date.
 [INFO] (kthresher) This package is up to date.
 [ERROR] (ktiny) Could not extract data from this package. See below for details.
-".php?group_id=192038" extension not supported.
+".php" extension not supported.
 [INFO] (ktm) This package is up to date.
 [ERROR] (ktools) This package does not have downloadable releases.
 [INFO] (ktorrent) This package is up to date.
@@ -1716,7 +1661,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kunits) This package is up to date.
 [ERROR] (kunstkopf) This package does not have downloadable releases.
 [ERROR] (kunyittst) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/kunyittst/downloads/list"
 [INFO] (kuoliang-nester) This package is up to date.
 [INFO] (kuorra) This package is up to date.
 [INFO] (kupfer-plugin-aftership) This package is up to date.
@@ -1784,7 +1729,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kw-ppjp.chat) This package is up to date.
 [INFO] (kwalitee) This package is up to date.
 [INFO] (kwallet-dump) This package is up to date.
-[INFO] (kwant) This package is up to date.
+[INFO] (kwant) Data has been updated for this package.
 [INFO] (kwapi-g5k) This package is up to date.
 [INFO] (kwargify) This package is up to date.
 [INFO] (kwargs-obj) This package is up to date.
@@ -1811,7 +1756,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kyd) This package is up to date.
 [ERROR] (kyk) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1862,7 +1807,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (kzkggaara) This package does not have downloadable releases.
 [ERROR] (kzw) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1882,12 +1827,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] 
 [INFO] Total packages: 1497
 [INFO]     Packages processed: 1497
-[INFO]         Packages updated: 0
-[INFO]         Packages up-to-date: 1337
+[INFO]         Packages updated: 6
+[INFO]         Packages up-to-date: 1335
 [INFO]         Packages without response: 12
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 130
-[INFO]         Packages with data errors: 18
+[INFO]         Packages with data errors: 14
 [INFO]     Packages not processed: 0
 [INFO] 
 [INFO] 

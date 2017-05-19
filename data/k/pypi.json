@@ -12605,8 +12605,66 @@
     },
     "keops": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "keops",
+            "keops.admin",
+            "keops.api",
+            "keops.api.decorators",
+            "keops.api.registry",
+            "keops.api.services",
+            "keops.api.views",
+            "keops.api.views.io",
+            "keops.api.views.io.images",
+            "keops.api.views.rpc",
+            "keops.apps",
+            "keops.contrib",
+            "keops.contrib.base",
+            "keops.contrib.base.admin",
+            "keops.contrib.base.apps",
+            "keops.contrib.base.migrations",
+            "keops.contrib.base.migrations.0001_initial",
+            "keops.contrib.base.migrations.0002_reportaction_report",
+            "keops.contrib.base.models",
+            "keops.contrib.base.models.actions",
+            "keops.contrib.base.models.base",
+            "keops.contrib.base.models.security",
+            "keops.contrib.base.models.ui",
+            "keops.core",
+            "keops.core.serializers",
+            "keops.core.serializers.xml_serializer",
+            "keops.management",
+            "keops.management.commands",
+            "keops.management.commands.upgrade",
+            "keops.middleware",
+            "keops.migrations",
+            "keops.migrations.0001_initial",
+            "keops.migrations.0002_userreport_report",
+            "keops.models",
+            "keops.models.base",
+            "keops.models.fields",
+            "keops.models.reports",
+            "keops.report_urls",
+            "keops.tests",
+            "keops.urls",
+            "keops.utils",
+            "keops.views",
+            "keops.views.auth",
+            "keops.views.i18n",
+            "keops.views.reports",
+            "keops.views.web",
+            "testapp",
+            "testapp.api",
+            "testapp.migrations",
+            "testapp.migrations.0001_initial",
+            "testapp.models",
+            "testapp.views",
+            "testproj",
+            "testproj.settings",
+            "testproj.urls",
+            "tests",
+            "tests.crud"
+        ],
+        "version": "0.4"
     },
     "kepub-toolbox": {
         "cmdline": [
@@ -17013,7 +17071,7 @@
     "kimboot": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "1.0"
     },
     "kimchi": {
         "cmdline": [],
@@ -19712,8 +19770,12 @@
     },
     "kivy.garden.garden-nspace": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "kivy",
+            "kivy.garden",
+            "kivy.garden.garden_nspace"
+        ],
+        "version": "0.1.0"
     },
     "kivycalendar": {
         "cmdline": [],
@@ -21099,7 +21161,7 @@
         "modules": [
             "kmsencryption"
         ],
-        "version": "0.0.3"
+        "version": "0.0.4"
     },
     "kmsauth": {
         "cmdline": [],
@@ -22339,8 +22401,47 @@
     },
     "koalixcrm": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tfroehlich82-koalixcrm-27a66ee",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.admin",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.const",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.const.postaladdressprefix",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.const.purpose",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.const.states",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.custom",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.custom.custom_columns",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.custom.mixins",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.forms",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.migrations",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.migrations.0001_initial",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.migrations.0002_auto_20150903_2104",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.migrations.0003_auto_20150905_0153",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.migrations.shop",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.migrations.shop.0001_initial",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.migrations.shop.0002_auto_20141227_1331",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.migrations.shop.0003_emailfield",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.migrations.shop.0004_productimage_file_field",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.migrations.shop.0005_auto_20150527_1127",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.migrations.shop.0006_auto_20150811_2053",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.models",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.tables",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.templatetags",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.templatetags.admin_backup_tags",
+            "tfroehlich82-koalixcrm-27a66ee.crm_core.views",
+            "tfroehlich82-koalixcrm-27a66ee.international",
+            "tfroehlich82-koalixcrm-27a66ee.international.forms",
+            "tfroehlich82-koalixcrm-27a66ee.international.migrations",
+            "tfroehlich82-koalixcrm-27a66ee.international.migrations.0001_initial",
+            "tfroehlich82-koalixcrm-27a66ee.international.models",
+            "tfroehlich82-koalixcrm-27a66ee.international.settings",
+            "tfroehlich82-koalixcrm-27a66ee.local_settings",
+            "tfroehlich82-koalixcrm-27a66ee.manage",
+            "tfroehlich82-koalixcrm-27a66ee.settings",
+            "tfroehlich82-koalixcrm-27a66ee.urls",
+            "tfroehlich82-koalixcrm-27a66ee.wsgi"
+        ],
+        "version": "0.5"
     },
     "koansys.django.authradius": {
         "cmdline": [],
@@ -31995,9 +32096,16 @@
         "cmdline": [],
         "modules": [
             "kwant",
+            "kwant._colormaps",
             "kwant._common",
             "kwant._kwant_version",
             "kwant.builder",
+            "kwant.continuum",
+            "kwant.continuum._common",
+            "kwant.continuum.discretizer",
+            "kwant.continuum.tests",
+            "kwant.continuum.tests.test_common",
+            "kwant.continuum.tests.test_discretizer",
             "kwant.digest",
             "kwant.graph",
             "kwant.graph.defs",
@@ -32008,6 +32116,7 @@
             "kwant.graph.tests.test_scotch",
             "kwant.graph.tests.test_slicer",
             "kwant.graph.tests.test_utils",
+            "kwant.kpm",
             "kwant.lattice",
             "kwant.linalg",
             "kwant.linalg.cmumps",
@@ -32027,10 +32136,12 @@
             "kwant.physics.dispersion",
             "kwant.physics.leads",
             "kwant.physics.noise",
+            "kwant.physics.symmetry",
             "kwant.physics.tests",
             "kwant.physics.tests.test_dispersion",
             "kwant.physics.tests.test_leads",
             "kwant.physics.tests.test_noise",
+            "kwant.physics.tests.test_symmetry",
             "kwant.plotter",
             "kwant.rmt",
             "kwant.solvers",
@@ -32046,12 +32157,17 @@
             "kwant.tests",
             "kwant.tests.test_builder",
             "kwant.tests.test_comprehensive",
+            "kwant.tests.test_kpm",
             "kwant.tests.test_lattice",
+            "kwant.tests.test_operator",
             "kwant.tests.test_plotter",
             "kwant.tests.test_rmt",
-            "kwant.tests.test_system"
+            "kwant.tests.test_system",
+            "kwant.tests.test_wraparound",
+            "kwant.version",
+            "kwant.wraparound"
         ],
-        "version": "1.2.3"
+        "version": "1.3.0"
     },
     "kwapi-g5k": {
         "cmdline": [],
