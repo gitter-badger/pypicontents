@@ -24183,6 +24183,7 @@
             "limbo.plugins.banner",
             "limbo.plugins.calc",
             "limbo.plugins.commit",
+            "limbo.plugins.define",
             "limbo.plugins.emoji",
             "limbo.plugins.emojicodedict",
             "limbo.plugins.flip",
@@ -24205,7 +24206,7 @@
             "limbo.server",
             "limbo.slack"
         ],
-        "version": "5.4.0"
+        "version": "5.5.0"
     },
     "limbs": {
         "cmdline": [],
