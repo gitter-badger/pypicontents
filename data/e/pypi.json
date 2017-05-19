@@ -31894,7 +31894,7 @@
             "esiosdata.prettyprinting",
             "esiosdata.pvpcplot"
         ],
-        "version": "0.6.7"
+        "version": "0.6.9"
     },
     "esipy": {
         "cmdline": [],
