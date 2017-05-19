@@ -42273,15 +42273,12 @@
         "version": "0.1"
     },
     "mico-cube": {
-        "cmdline": [
-            "mico-cube.reg",
-            "post-script.py"
-        ],
+        "cmdline": [],
         "modules": [
             "mico",
             "mico.mico"
         ],
-        "version": "1.0.7"
+        "version": "1.0.0"
     },
     "micom": {
         "cmdline": [],
@@ -42652,6 +42649,7 @@
             "microcosm_flask.conventions.discovery",
             "microcosm_flask.conventions.encoding",
             "microcosm_flask.conventions.health",
+            "microcosm_flask.conventions.logging_level",
             "microcosm_flask.conventions.registry",
             "microcosm_flask.conventions.relation",
             "microcosm_flask.conventions.swagger",
@@ -42689,7 +42687,7 @@
             "microcosm_flask.sync.push",
             "microcosm_flask.sync.toposort"
         ],
-        "version": "0.70.1"
+        "version": "0.71.0"
     },
     "microcosm-logging": {
         "cmdline": [],
