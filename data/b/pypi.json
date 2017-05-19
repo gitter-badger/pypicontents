@@ -56089,7 +56089,7 @@
             "btrfs_backup.endpoint",
             "btrfs_backup.util"
         ],
-        "version": "0.2"
+        "version": "0.2.1"
     },
     "btrfs-sxbackup": {
         "cmdline": [],
