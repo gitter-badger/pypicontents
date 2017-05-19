@@ -5995,15 +5995,30 @@
         ],
         "version": "10.0.1.0.0.99.dev5"
     },
+    "odoo10-addon-account-cutoff-accrual-base": {
+        "cmdline": [],
+        "modules": [
+            "account_cutoff_accrual_base",
+            "account_cutoff_accrual_base.models",
+            "account_cutoff_accrual_base.models.account",
+            "account_cutoff_accrual_base.models.account_cutoff",
+            "account_cutoff_accrual_base.models.company",
+            "account_cutoff_accrual_base.tests",
+            "account_cutoff_accrual_base.tests.test_account_cutoff"
+        ],
+        "version": "10.0.0.1.0.99.dev4"
+    },
     "odoo10-addon-account-cutoff-base": {
         "cmdline": [],
         "modules": [
             "account_cutoff_base",
             "account_cutoff_base.models",
             "account_cutoff_base.models.account_cutoff",
-            "account_cutoff_base.models.company"
+            "account_cutoff_base.models.company",
+            "account_cutoff_base.tests",
+            "account_cutoff_base.tests.test_account_cutoff"
         ],
-        "version": "10.0.1.0.0.99.dev3"
+        "version": "10.0.1.0.0.99.dev4"
     },
     "odoo10-addon-account-cutoff-prepaid": {
         "cmdline": [],
@@ -6747,6 +6762,20 @@
             "base_location_geonames_import.wizard.geonames_import"
         ],
         "version": "10.0.1.0.1.99.dev1"
+    },
+    "odoo10-addon-base-multi-company": {
+        "cmdline": [],
+        "modules": [
+            "base_multi_company",
+            "base_multi_company.hooks",
+            "base_multi_company.models",
+            "base_multi_company.models.multi_company_abstract",
+            "base_multi_company.models.res_company_assignment",
+            "base_multi_company.tests",
+            "base_multi_company.tests.test_multi_company_abstract",
+            "base_multi_company.tests.test_res_company_assignment"
+        ],
+        "version": "10.0.1.0.0.99.dev4"
     },
     "odoo10-addon-base-multi-image": {
         "cmdline": [],
@@ -8051,9 +8080,11 @@
         "modules": [
             "l10n_nl_bsn",
             "l10n_nl_bsn.models",
-            "l10n_nl_bsn.models.res_partner"
+            "l10n_nl_bsn.models.res_partner",
+            "l10n_nl_bsn.tests",
+            "l10n_nl_bsn.tests.test_l10n_nl_bsn"
         ],
-        "version": "10.0.0.1.0.99.dev2"
+        "version": "10.0.0.1.0.99.dev3"
     },
     "odoo10-addon-l10n-nl-postcodeapi": {
         "cmdline": [],
@@ -8954,6 +8985,21 @@
         ],
         "version": "10.0.1.0.0.99.dev3"
     },
+    "odoo10-addon-purchase-request-to-rfq": {
+        "cmdline": [],
+        "modules": [
+            "purchase_request_to_rfq",
+            "purchase_request_to_rfq.models",
+            "purchase_request_to_rfq.models.purchase_order",
+            "purchase_request_to_rfq.models.purchase_request",
+            "purchase_request_to_rfq.models.stock",
+            "purchase_request_to_rfq.tests",
+            "purchase_request_to_rfq.tests.test_purchase_request_to_rfq",
+            "purchase_request_to_rfq.wizard",
+            "purchase_request_to_rfq.wizard.purchase_request_line_make_purchase_order"
+        ],
+        "version": "10.0.1.0.0.99.dev19"
+    },
     "odoo10-addon-queue-job": {
         "cmdline": [],
         "modules": [
@@ -9462,7 +9508,7 @@
         "modules": [
             "web_responsive"
         ],
-        "version": "10.0.1.0.0.99.dev14"
+        "version": "10.0.1.0.0.99.dev15"
     },
     "odoo10-addon-web-search-with-and": {
         "cmdline": [],
@@ -9491,6 +9537,18 @@
             "web_sheet_full_width"
         ],
         "version": "10.0.1.0.1"
+    },
+    "odoo10-addon-web-shortcut": {
+        "cmdline": [],
+        "modules": [
+            "web_shortcut",
+            "web_shortcut.models",
+            "web_shortcut.models.ir_ui_menu",
+            "web_shortcut.models.web_shortcut",
+            "web_shortcut.tests",
+            "web_shortcut.tests.test_web_shortcut"
+        ],
+        "version": "10.0.1.0.0"
     },
     "odoo10-addon-web-translate-dialog": {
         "cmdline": [],
@@ -16110,6 +16168,19 @@
         ],
         "version": "8.0.0.1.0.99.dev6"
     },
+    "odoo8-addon-l10n-fr-ecotaxe": {
+        "cmdline": [],
+        "modules": [
+            "l10n_fr_ecotaxe",
+            "l10n_fr_ecotaxe.models",
+            "l10n_fr_ecotaxe.models.account",
+            "l10n_fr_ecotaxe.models.account_invoice",
+            "l10n_fr_ecotaxe.models.product",
+            "l10n_fr_ecotaxe.models.purchase",
+            "l10n_fr_ecotaxe.models.sale"
+        ],
+        "version": "8.0.0.1.0.99.dev3"
+    },
     "odoo8-addon-l10n-fr-fec": {
         "cmdline": [],
         "modules": [
@@ -17968,7 +18039,7 @@
             "mrp_bom_version.tests",
             "mrp_bom_version.tests.test_mrp_bom_version"
         ],
-        "version": "8.0.1.0.0.99.dev32"
+        "version": "8.0.1.0.0.99.dev33"
     },
     "odoo8-addon-mrp-calendar-view": {
         "cmdline": [],
@@ -29873,6 +29944,17 @@
         ],
         "version": "9.0.1.0.0.99.dev8"
     },
+    "odoo9-addon-stock-account-deposit": {
+        "cmdline": [],
+        "modules": [
+            "stock_account_deposit",
+            "stock_account_deposit.tests",
+            "stock_account_deposit.tests.test_stock_account_deposit",
+            "stock_account_deposit.wizards",
+            "stock_account_deposit.wizards.stock_quant_wizard"
+        ],
+        "version": "9.0.1.0.0"
+    },
     "odoo9-addon-stock-account-quant-merge": {
         "cmdline": [],
         "modules": [
@@ -31028,6 +31110,18 @@
             "website_sale_product_brand.models.website"
         ],
         "version": "9.0.1.1.0.99.dev4"
+    },
+    "odoo9-addon-website-sale-qty": {
+        "cmdline": [],
+        "modules": [
+            "website_sale_qty",
+            "website_sale_qty.models",
+            "website_sale_qty.models.product_template",
+            "website_sale_qty.tests",
+            "website_sale_qty.tests.test_js",
+            "website_sale_qty.tests.test_product_template"
+        ],
+        "version": "9.0.1.0.0"
     },
     "odoo9-addon-website-sale-require-legal": {
         "cmdline": [],
