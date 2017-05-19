@@ -42273,12 +42273,15 @@
         "version": "0.1"
     },
     "mico-cube": {
-        "cmdline": [],
+        "cmdline": [
+            "mico-cube.reg",
+            "post-script.py"
+        ],
         "modules": [
             "mico",
             "mico.mico"
         ],
-        "version": "1.0.0"
+        "version": "1.0.9"
     },
     "micom": {
         "cmdline": [],
