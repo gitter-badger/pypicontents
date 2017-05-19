@@ -25001,7 +25001,7 @@
             "kolibri_exercise_perseus_plugin",
             "kolibri_exercise_perseus_plugin.kolibri_plugin"
         ],
-        "version": "0.6.7"
+        "version": "0.6.8"
     },
     "kolibri-exercise-perseus-renderer": {
         "cmdline": [],
