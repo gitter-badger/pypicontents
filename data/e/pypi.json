@@ -7214,7 +7214,7 @@
             "ecs_deplojo.task_definitions",
             "ecs_deplojo.utils"
         ],
-        "version": "0.2.0"
+        "version": "0.3.0"
     },
     "ecs-deploy": {
         "cmdline": [],
@@ -28930,7 +28930,7 @@
             "eprl.util",
             "eprl.vargs"
         ],
-        "version": "0.8"
+        "version": "0.9"
     },
     "eps": {
         "cmdline": [],
