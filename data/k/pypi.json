@@ -21091,6 +21091,16 @@
         "modules": [],
         "version": "1.0.0b1"
     },
+    "kms-encryption-toolbox": {
+        "cmdline": [
+            "decrypt-and-start.sh",
+            "terraform-decrypt.sh"
+        ],
+        "modules": [
+            "kmsencryption"
+        ],
+        "version": "0.0.3"
+    },
     "kmsauth": {
         "cmdline": [],
         "modules": [
