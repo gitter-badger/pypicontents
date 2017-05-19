@@ -39307,6 +39307,7 @@
             "bob.pad.voice.algorithm.gmm_algorithm",
             "bob.pad.voice.algorithm.histdistance_algorithm",
             "bob.pad.voice.algorithm.logregr_algorithm",
+            "bob.pad.voice.algorithm.tensorflow_algorithm",
             "bob.pad.voice.config",
             "bob.pad.voice.config.algorithm",
             "bob.pad.voice.config.algorithm.gmm_scfc",
@@ -39314,6 +39315,7 @@
             "bob.pad.voice.config.algorithm.pcalogregr_algorithm",
             "bob.pad.voice.config.database",
             "bob.pad.voice.config.database.asvspoof",
+            "bob.pad.voice.config.database.asvspoof2017",
             "bob.pad.voice.config.database.avspoof",
             "bob.pad.voice.config.database.voicepa",
             "bob.pad.voice.config.extractor",
@@ -39325,12 +39327,15 @@
             "bob.pad.voice.config.preprocessor",
             "bob.pad.voice.database",
             "bob.pad.voice.database.asvspoof",
+            "bob.pad.voice.database.asvspoof2017",
             "bob.pad.voice.database.avspoof",
             "bob.pad.voice.database.database",
             "bob.pad.voice.database.replay",
             "bob.pad.voice.database.replaymobile",
             "bob.pad.voice.database.voicepa",
             "bob.pad.voice.extractor",
+            "bob.pad.voice.extractor.audio_tensorflow",
+            "bob.pad.voice.extractor.dummy_tensorflow",
             "bob.pad.voice.extractor.glcms",
             "bob.pad.voice.extractor.lbp_histograms",
             "bob.pad.voice.extractor.lbps",
@@ -39346,7 +39351,7 @@
             "bob.pad.voice.utils.extraction",
             "bob.pad.voice.utils.scores"
         ],
-        "version": "1.0.2"
+        "version": "1.0.3"
     },
     "bob.palmvein": {
         "cmdline": [],
