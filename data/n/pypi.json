@@ -5333,6 +5333,17 @@
         ],
         "version": "0.2.0"
     },
+    "nbclean": {
+        "cmdline": [],
+        "modules": [
+            "nbclean",
+            "nbclean.clean",
+            "nbclean.preprocessors",
+            "nbclean.run",
+            "nbclean.utils"
+        ],
+        "version": "0.1"
+    },
     "nbconvert": {
         "cmdline": [],
         "modules": [
@@ -6361,7 +6372,7 @@
             "NCBITK.get_resources",
             "NCBITK.sync"
         ],
-        "version": "1.0a4"
+        "version": "1.0a5"
     },
     "ncbs": {
         "cmdline": [],
@@ -7278,9 +7289,9 @@
             "panda.methods.viz",
             "panda.utils",
             "panda.utils.bids_s3",
-            "panda.utils.utils"
+            "panda.utils.system"
         ],
-        "version": "1.6"
+        "version": "1.11"
     },
     "ndef": {
         "cmdline": [],
@@ -33589,7 +33600,7 @@
             "n_utils.maven_utils",
             "n_utils.volumes"
         ],
-        "version": "0.98"
+        "version": "0.99"
     },
     "nitor-vault": {
         "cmdline": [],
@@ -52696,7 +52707,7 @@
             "numpydoc.plot_directive",
             "numpydoc.traitsdoc"
         ],
-        "version": "1.13.0rc1"
+        "version": "1.13.0rc2"
     },
     "numpy-display": {
         "cmdline": [],
