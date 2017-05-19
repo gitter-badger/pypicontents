@@ -12752,7 +12752,7 @@
             "effigy.QNodeSceneNode",
             "effigy.QNodeView"
         ],
-        "version": "0.3.10"
+        "version": "0.3.11"
     },
     "effipy": {
         "cmdline": [],
@@ -26210,16 +26210,18 @@
         "version": "0.0.4"
     },
     "envie": {
-        "cmdline": [],
+        "cmdline": [
+            "envie",
+            "envie-tmp",
+            "envie-tools"
+        ],
         "modules": [
             "envie",
             "envie.activate_closest",
             "envie.filters",
-            "envie.guessing_envie",
-            "envie.require",
             "envie.utils"
         ],
-        "version": "0.4.33"
+        "version": "0.4.34"
     },
     "envious": {
         "cmdline": [],
@@ -39065,7 +39067,7 @@
             "evrm.stats",
             "evrm.version"
         ],
-        "version": "25"
+        "version": "26"
     },
     "evseev": {
         "cmdline": [],
