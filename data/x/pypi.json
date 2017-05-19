@@ -2513,6 +2513,33 @@
         ],
         "version": "0.2.0-alpha"
     },
+    "xcessiv": {
+        "cmdline": [],
+        "modules": [
+            "xcessiv",
+            "xcessiv.config",
+            "xcessiv.constants",
+            "xcessiv.exceptions",
+            "xcessiv.functions",
+            "xcessiv.models",
+            "xcessiv.presets",
+            "xcessiv.presets.learnersetting",
+            "xcessiv.presets.learnersource",
+            "xcessiv.presets.metricsetting",
+            "xcessiv.rqtasks",
+            "xcessiv.scripts",
+            "xcessiv.scripts.runapp",
+            "xcessiv.server",
+            "xcessiv.tests",
+            "xcessiv.tests.extractmaindataset",
+            "xcessiv.tests.myrf",
+            "xcessiv.tests.test_functions",
+            "xcessiv.tests.test_models",
+            "xcessiv.tests.test_views",
+            "xcessiv.views"
+        ],
+        "version": "0.1.0.dev1"
+    },
     "xcffib": {
         "cmdline": [],
         "modules": [
@@ -9557,6 +9584,29 @@
             "xsconnect.xsconnect"
         ],
         "version": "0.1.4"
+    },
+    "xscrypto": {
+        "cmdline": [],
+        "modules": [
+            "XsCrypto",
+            "XsCrypto.AES",
+            "XsCrypto.Affine",
+            "XsCrypto.Des",
+            "XsCrypto.Morse",
+            "XsCrypto.RSA",
+            "XsCrypto.RSA_Common_Modulus_Attack",
+            "XsCrypto.RSA_Wiener_Arithmetic",
+            "XsCrypto.RSA_Wiener_Attack",
+            "XsCrypto.RSA_Wiener_ContinuedFractions",
+            "XsCrypto.Strings",
+            "XsCrypto.Substitution",
+            "XsCrypto.Vigenere",
+            "XsCrypto.base36",
+            "XsCrypto.jinzhi",
+            "XsCrypto.test_data",
+            "XsCrypto.zhanzhuanxc"
+        ],
+        "version": "2.1.0"
     },
     "xsdb": {
         "cmdline": [],
