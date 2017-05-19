@@ -5348,7 +5348,7 @@
     "ve": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "2013-03-21"
     },
     "veb": {
         "cmdline": [],
@@ -11379,7 +11379,7 @@
             "vireo.model",
             "vireo.observer"
         ],
-        "version": "0.7.3"
+        "version": "0.7.4"
     },
     "virgil-crypto": {
         "cmdline": [],
@@ -18390,8 +18390,17 @@
     },
     "volodymyr": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "preview",
+            "preview.admin",
+            "preview.forms",
+            "preview.listeners",
+            "preview.managers",
+            "preview.models",
+            "preview.urls",
+            "preview.views"
+        ],
+        "version": "0.1"
     },
     "voloshin": {
         "cmdline": [],
