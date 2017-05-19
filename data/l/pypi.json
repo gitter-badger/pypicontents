@@ -8219,13 +8219,14 @@
             "lawes.test.all_doctest",
             "lawes.test.test_db_models_base",
             "lawes.test.test_db_models_fields",
+            "lawes.test.test_db_models_query_utils_q",
             "lawes.test.test_start",
             "lawes.utils",
             "lawes.utils.encoding",
             "lawes.utils.six",
             "lawes.utils.tree"
         ],
-        "version": "1.9.2.16"
+        "version": "1.9.2.17"
     },
     "lawliet": {
         "cmdline": [],
@@ -19285,7 +19286,7 @@
             "tests",
             "tests.api"
         ],
-        "version": "0.2.1"
+        "version": "0.3.0"
     },
     "libepub": {
         "cmdline": [],
