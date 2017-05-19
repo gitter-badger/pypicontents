@@ -22768,6 +22768,15 @@
         ],
         "version": "0.2.1"
     },
+    "libzbar-ctypes": {
+        "cmdline": [],
+        "modules": [
+            "libzbar",
+            "libzbar._zbar",
+            "libzbar.zbar"
+        ],
+        "version": "0.1.2"
+    },
     "libzfs": {
         "cmdline": [],
         "modules": [],
