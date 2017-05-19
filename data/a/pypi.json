@@ -1858,13 +1858,30 @@
     },
     "a4t-party-contact": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.party_contact",
+            "trytond.modules.party_contact.address",
+            "trytond.modules.party_contact.contact_mechanism",
+            "trytond.modules.party_contact.party",
+            "trytond.modules.party_contact.tests",
+            "trytond.modules.party_contact.tests.test_party_contact"
+        ],
+        "version": "3.0.0"
     },
     "a4t-sale-tax-included": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "trytond.modules.sale_tax_included",
+            "trytond.modules.sale_tax_included.invoice",
+            "trytond.modules.sale_tax_included.party",
+            "trytond.modules.sale_tax_included.product",
+            "trytond.modules.sale_tax_included.sale",
+            "trytond.modules.sale_tax_included.shop",
+            "trytond.modules.sale_tax_included.tax",
+            "trytond.modules.sale_tax_included.tests",
+            "trytond.modules.sale_tax_included.tests.test_sale_tax_included"
+        ],
+        "version": "3.4.1"
     },
     "a8": {
         "cmdline": [],
@@ -1939,8 +1956,16 @@
     },
     "aa": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "an_example_pypi_project",
+            "an_example_pypi_project.useful",
+            "an_example_pypi_project.useful_1",
+            "an_example_pypi_project.useful_2",
+            "tests",
+            "tests.run_all",
+            "tests.test0"
+        ],
+        "version": "aa"
     },
     "aa-zwb": {
         "cmdline": [],
@@ -5137,7 +5162,7 @@
             "accesspanel.extensions.history",
             "accesspanel.extensions.lock_input"
         ],
-        "version": "0.15"
+        "version": "0.16"
     },
     "accessstatsapi": {
         "cmdline": [],
@@ -17115,6 +17140,17 @@
         ],
         "version": "0.6.1"
     },
+    "aio-space-track-api": {
+        "cmdline": [],
+        "modules": [
+            "aio_space_track_api",
+            "aio_space_track_api.client",
+            "aio_space_track_api.exc",
+            "aio_space_track_api.log",
+            "aio_space_track_api.query"
+        ],
+        "version": "1.0.3"
+    },
     "aio-tinder": {
         "cmdline": [],
         "modules": [
@@ -18271,8 +18307,23 @@
     },
     "aiohttp-admin": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "aiohttp_admin",
+            "aiohttp_admin.admin",
+            "aiohttp_admin.backends",
+            "aiohttp_admin.backends.mongo",
+            "aiohttp_admin.backends.mongo_utils",
+            "aiohttp_admin.backends.sa",
+            "aiohttp_admin.backends.sa_utils",
+            "aiohttp_admin.cli",
+            "aiohttp_admin.consts",
+            "aiohttp_admin.exceptions",
+            "aiohttp_admin.layout_utils",
+            "aiohttp_admin.resource",
+            "aiohttp_admin.security",
+            "aiohttp_admin.utils"
+        ],
+        "version": "0.0.1"
     },
     "aiohttp-apiset": {
         "cmdline": [],
@@ -20473,10 +20524,9 @@
     "aiotask-context": {
         "cmdline": [],
         "modules": [
-            "aiotask_context",
-            "aiotask_context.context"
+            "aiotask_context"
         ],
-        "version": "0.3"
+        "version": "0.4"
     },
     "aiotasks": {
         "cmdline": [],
@@ -22104,7 +22154,7 @@
     "airflow-plugin-honeypot": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "1.0.0"
     },
     "airflow-utils": {
         "cmdline": [],
@@ -26736,9 +26786,20 @@
         "version": "0.4.2"
     },
     "alertlogic-cli": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "alertlogic-cli"
+        ],
+        "modules": [
+            "alertlogic",
+            "alertlogic.auth",
+            "alertlogic.dynapi",
+            "alertlogiccli",
+            "alertlogiccli.commands",
+            "alertlogiccli.commands.environment",
+            "alertlogiccli.commands.environment.deployment_mode",
+            "alertlogiccli.config"
+        ],
+        "version": "1.0.0"
     },
     "alertme": {
         "cmdline": [
@@ -34134,7 +34195,7 @@
             "altuscli.utils",
             "altuscli.validate"
         ],
-        "version": "0.9.3"
+        "version": "0.9.4"
     },
     "aludel": {
         "cmdline": [],
@@ -35751,7 +35812,7 @@
             "amibuilder.cli",
             "amibuilder.local"
         ],
-        "version": "0.5.4"
+        "version": "0.5.6"
     },
     "amico": {
         "cmdline": [],
@@ -36805,8 +36866,14 @@
     },
     "amqp-shrapnel": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "amqp_shrapnel",
+            "amqp_shrapnel.amqp",
+            "amqp_shrapnel.rpc",
+            "amqp_shrapnel.spec",
+            "amqp_shrapnel.wire"
+        ],
+        "version": "0.5"
     },
     "amqp-storm": {
         "cmdline": [],
@@ -44023,7 +44090,7 @@
     "antiparser": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "2.0"
     },
     "antipathy": {
         "cmdline": [],
@@ -56035,7 +56102,7 @@
     "aps-api-lite": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.1"
     },
     "aps-cli": {
         "cmdline": [],
@@ -56221,7 +56288,7 @@
     "apt-depends": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.1"
     },
     "apt-deps": {
         "cmdline": [],
@@ -62701,8 +62768,11 @@
     },
     "array-devices": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "array_devices",
+            "array_devices.array3710"
+        ],
+        "version": "1.0.2"
     },
     "array-foriger": {
         "cmdline": [],
@@ -68369,7 +68439,7 @@
             "aspic.qounter",
             "aspic.reply"
         ],
-        "version": "2017.4.25"
+        "version": "2017.5.19"
     },
     "aspio": {
         "cmdline": [],
@@ -71592,9 +71662,11 @@
         "version": "0.1"
     },
     "astrokml": {
-        "cmdline": [],
+        "cmdline": [
+            "AstroKML.py"
+        ],
         "modules": [],
-        "version": ""
+        "version": "1.0.2"
     },
     "astrolabe": {
         "cmdline": [],
@@ -74864,8 +74936,11 @@
     },
     "asyncleverbot": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "cleverbot",
+            "cleverbot.cleverbot"
+        ],
+        "version": "1.0.0"
     },
     "asynclib": {
         "cmdline": [],
@@ -77366,12 +77441,12 @@
     "atomix": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.01"
     },
     "atomix-3d": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.02"
     },
     "atomize": {
         "cmdline": [],
@@ -79930,7 +80005,7 @@
             "hosts.interfaces.uihost",
             "hosts.output"
         ],
-        "version": "1.2.0"
+        "version": "1.3.0"
     },
     "auth": {
         "cmdline": [],
@@ -83011,8 +83086,11 @@
     },
     "automiko": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "Automiko",
+            "Automiko.Execute"
+        ],
+        "version": "1.0"
     },
     "automium": {
         "cmdline": [],
@@ -83069,6 +83147,24 @@
             "views.web.project"
         ],
         "version": "0.1.1"
+    },
+    "automl": {
+        "cmdline": [],
+        "modules": [
+            "auto_ml",
+            "auto_ml.DataFrameVectorizer",
+            "auto_ml._version",
+            "auto_ml.predictor",
+            "auto_ml.utils",
+            "auto_ml.utils_categorical_ensembling",
+            "auto_ml.utils_data_cleaning",
+            "auto_ml.utils_feature_selection",
+            "auto_ml.utils_model_training",
+            "auto_ml.utils_models",
+            "auto_ml.utils_scaling",
+            "auto_ml.utils_scoring"
+        ],
+        "version": "2.1.5"
     },
     "automodel": {
         "cmdline": [],
@@ -84137,7 +84233,7 @@
             "autowrap.tools",
             "autowrap.version"
         ],
-        "version": "0.10.0"
+        "version": "0.11.0"
     },
     "autowrapt": {
         "cmdline": [],
@@ -84419,7 +84515,7 @@
             "auxygen.scripo.motor",
             "auxygen.utils"
         ],
-        "version": "2017.4.27"
+        "version": "2017.5.19"
     },
     "av": {
         "cmdline": [],
@@ -86726,7 +86822,7 @@
     "aws-architect": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.0"
     },
     "aws-auth-helper": {
         "cmdline": [],
@@ -90717,6 +90813,7 @@
             "ml._acs_util",
             "ml._aml_help_formatter",
             "ml._az_util",
+            "ml._constants",
             "ml._help",
             "ml._k8s_util",
             "ml._params",
@@ -90731,7 +90828,7 @@
             "ml.service.batch",
             "ml.service.realtime"
         ],
-        "version": "0.1.0a9"
+        "version": "0.1.0a10"
     },
     "azure-cli-monitor": {
         "cmdline": [],

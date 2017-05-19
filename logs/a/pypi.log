@@ -14,50 +14,13 @@
 [INFO] (a2svm) This package is up to date.
 [INFO] (a2x) This package is up to date.
 [INFO] (a3mio) This package is up to date.
-[ERROR] (a4t-party-contact) Could not extract data from this package. See below for details.
-"https://gitlab.com/ate_modules/a4t-party_contact/repository/a4t-party-contact-3.0.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 401: Unauthorized
-
-[ERROR] (a4t-sale-tax-included) Could not extract data from this package. See below for details.
-"https://gitlab.com/ate_modules/a4t-sale_tax_included/repository/a4t-sale-tax-included-3.4.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 401: Unauthorized
-
+[INFO] (a4t-party-contact) Data has been updated for this package.
+[INFO] (a4t-sale-tax-included) Data has been updated for this package.
 [INFO] (a8) This package is up to date.
 [ERROR] (a8ctl) This package does not have downloadable releases.
 [INFO] (a8e) This package is up to date.
 [INFO] (a99) This package is up to date.
-[ERROR] (aa) Could not extract data from this package. See below for details.
-".0.5-py2.6.egg#md5=623389831dc9f7298418bb71c6329711" extension not supported.
+[INFO] (aa) Data has been updated for this package.
 [ERROR] (aa-zwb) This package does not have downloadable releases.
 [ERROR] (aaa) This package does not have downloadable releases.
 [INFO] (aaa103439) This package is up to date.
@@ -163,7 +126,7 @@ urllib.error.HTTPError: HTTP Error 401: Unauthorized
 [INFO] (abmishra-nester) This package is up to date.
 [ERROR] (abmtools) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -184,7 +147,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (abnester) This package is up to date.
 [INFO] (abo-generator) This package is up to date.
 [ERROR] (abo-s-pysync) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://minkirri.apana.org.au/pub/python/pysync/"
 [INFO] (aboardly) This package is up to date.
 [INFO] (abofly) This package is up to date.
 [INFO] (aboki) This package is up to date.
@@ -194,7 +157,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (about-file) This package is up to date.
 [ERROR] (about-numtest) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -222,7 +185,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (about-pandoc) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -281,8 +244,8 @@ OSError: Not a gzipped file (b'<s')
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 130, in get_tar_topdir
-    with compressed(tarpath, tarmode) as tar:
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 131, in get_tar_topdir
+    with closing(compressed(tarpath, tarmode)) as tar:
   File "/usr/lib/python3.5/tarfile.py", line 1577, in open
     return func(name, filemode, fileobj, **kwargs)
   File "/usr/lib/python3.5/tarfile.py", line 1635, in gzopen
@@ -321,7 +284,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (abu.admin) This package is up to date.
 [ERROR] (abu.rpc) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -374,7 +337,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (accessibility) This package is up to date.
 [INFO] (accessible-output) This package is up to date.
 [INFO] (accessor) This package is up to date.
-[INFO] (accesspanel) This package is up to date.
+[INFO] (accesspanel) Data has been updated for this package.
 [INFO] (accessstatsapi) This package is up to date.
 [INFO] (accfifo) This package is up to date.
 [INFO] (accio) This package is up to date.
@@ -411,7 +374,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (aci) This package is up to date.
 [ERROR] (acid) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -505,9 +468,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (actioncablezwei) This package is up to date.
 [INFO] (actionform) This package is up to date.
 [ERROR] (actionkit) Could not extract data from this package. See below for details.
-"https://codeload.github.com/palmer/actionkit.git/legacy.tar.gz/actionkit-0.0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/palmer/actionkit.git/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -722,7 +685,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (admin-bootstrap) This package is up to date.
 [ERROR] (admin-extra-url) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -752,7 +715,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (adminish) This package is up to date.
 [INFO] (adminish-categories) This package is up to date.
 [ERROR] (adminkit) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.lepied.com/fred/adminkit/files/"
 [INFO] (adminlettuce) This package is up to date.
 [INFO] (admiral) This package is up to date.
 [INFO] (admitad) This package is up to date.
@@ -761,9 +724,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (adnpy) This package is up to date.
 [INFO] (adns) This package is up to date.
 [ERROR] (adns-python) Could not extract data from this package. See below for details.
-"http://adns-python.googlecode.com/files/adns-python-1.2.1.tar.gz" file couldnt be downloaded. See below for details.
+"http://adns-python.googlecode.com/files/adns-python-1.2.1.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -783,7 +746,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (adobecolor) This package is up to date.
 [INFO] (adodbapi) This package is up to date.
 [ERROR] (adol-py) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.sourceforge.net/projects/adolpy/"
 [INFO] (adopt) This package is up to date.
 [INFO] (adp-connection) This package is up to date.
 [INFO] (adp-userinfo) This package is up to date.
@@ -826,7 +789,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (advancedlangconv) This package is up to date.
 [INFO] (advancedsearchdiscovery) This package is up to date.
 [ERROR] (advas-advanced-search) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://sourceforge.net/projects/advas"
 [ERROR] (advene) This package does not have downloadable releases.
 [INFO] (advent-of-code-data) This package is up to date.
 [INFO] (advento) This package is up to date.
@@ -880,7 +843,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (aes256gcm-nacl) This package is up to date.
 [ERROR] (aescalante-nester) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1025,7 +988,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (agfusion) This package is up to date.
 [INFO] (agg2567) This package is up to date.
 [ERROR] (aggdraw) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.effbot.org/downloads#aggdraw"
 [INFO] (agglomcluster) This package is up to date.
 [INFO] (aggregate6) This package is up to date.
 [INFO] (aggregator) This package is up to date.
@@ -1122,7 +1085,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ahsay) This package is up to date.
 [ERROR] (ahsoka) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1185,6 +1148,7 @@ Unsupported package directory structure.
 [INFO] (aio-s3) This package is up to date.
 [ERROR] (aio-service) This package does not have downloadable releases.
 [INFO] (aio-service-client) This package is up to date.
+[INFO] (aio-space-track-api) Data has been updated for this package.
 [INFO] (aio-tinder) This package is up to date.
 [INFO] (aio-yamlconfig) This package is up to date.
 [INFO] (aio.app) This package is up to date.
@@ -1271,25 +1235,7 @@ Unsupported package directory structure.
 [INFO] (aiohttp) This package is up to date.
 [INFO] (aiohttp-ac-hipchat) This package is up to date.
 [INFO] (aiohttp-ac-hipchat-postgre) This package is up to date.
-[ERROR] (aiohttp-admin) Could not extract data from this package. See below for details.
-"https://codeload.github.com/jettify/aiohttp_admin/legacy.tar.gz/aiohttp-admin-0.0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (aiohttp-admin) Data has been updated for this package.
 [INFO] (aiohttp-apiset) This package is up to date.
 [INFO] (aiohttp-auth) This package is up to date.
 [INFO] (aiohttp-auth-autz) This package is up to date.
@@ -1355,7 +1301,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (aiomemcache) This package does not have downloadable releases.
 [INFO] (aiometrics) This package is up to date.
 [INFO] (aiomock) This package is up to date.
-[INFO] (aiomongodel) Data has been updated for this package.
+[INFO] (aiomongodel) This package is up to date.
 [INFO] (aiomonitor) This package is up to date.
 [INFO] (aiompd) This package is up to date.
 [INFO] (aiomultiprocessing) This package is up to date.
@@ -1423,7 +1369,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (aiostream) This package is up to date.
 [INFO] (aiotarantool) This package is up to date.
 [INFO] (aiotarantool-queue) This package is up to date.
-[INFO] (aiotask-context) This package is up to date.
+[INFO] (aiotask-context) Data has been updated for this package.
 [INFO] (aiotasks) This package is up to date.
 [INFO] (aiotelebot) This package is up to date.
 [INFO] (aiotelegram) This package is up to date.
@@ -1448,7 +1394,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (aiovk) This package is up to date.
 [ERROR] (aioweb) This package does not have downloadable releases.
 [ERROR] (aiowebrtc) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://pypi.python.org/pypi/aiowebrtc"
 [INFO] (aiowebsocketclient) This package is up to date.
 [INFO] (aiowerkzeug) This package is up to date.
 [ERROR] (aiowhoosh) This package does not have downloadable releases.
@@ -1466,7 +1412,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (aip) This package is up to date.
 [ERROR] (aipat) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1501,7 +1447,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (airflow) This package is up to date.
 [ERROR] (airflow-contrib) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1518,25 +1464,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (airflow-imaging-plugins) This package is up to date.
-[ERROR] (airflow-plugin-honeypot) Could not extract data from this package. See below for details.
-"https://codeload.github.com/gregorymfoster/honeypot/legacy.tar.gz/airflow-plugin-honeypot-1.0.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (airflow-plugin-honeypot) Data has been updated for this package.
 [INFO] (airflow-utils) This package is up to date.
 [ERROR] (airflowonthedumptruck) This package does not have downloadable releases.
 [INFO] (airframe) This package is up to date.
@@ -1546,9 +1474,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (airi) This package is up to date.
 [INFO] (airlock) This package is up to date.
 [ERROR] (airoscriptng) Could not extract data from this package. See below for details.
-"https://codeload.github.com/XayOn/airoscriptng/legacy.tar.gz/airoscriptng-0.0.3.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/XayOn/airoscriptng/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1636,7 +1564,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (ajrnester) This package does not have downloadable releases.
 [ERROR] (ak) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1667,7 +1595,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (aka) This package is up to date.
 [INFO] (akadata) This package is up to date.
 [ERROR] (akadav) Could not extract data from this package. See below for details.
-".php?group_id=122191" extension not supported.
+".php" extension not supported.
 [INFO] (akagi) This package is up to date.
 [INFO] (akamai-authtoken) This package is up to date.
 [INFO] (akamaikickstart) This package is up to date.
@@ -1679,7 +1607,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (akcli) This package is up to date.
 [INFO] (akdata) This package is up to date.
 [ERROR] (ake) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://pypi.python.org/pypi/ake"
 [INFO] (akerun-sum) This package is up to date.
 [INFO] (akhet) This package is up to date.
 [INFO] (akhilesh) This package is up to date.
@@ -1691,9 +1619,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (akiokio-django-geoposition) This package is up to date.
 [INFO] (akismet) This package is up to date.
 [ERROR] (akispy) Could not extract data from this package. See below for details.
-"https://codeload.github.com/downloads/ryanleland/legacy.tar.gz/akispy-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/downloads/ryanleland/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1719,7 +1647,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (akshay-choche-nester) This package is up to date.
 [INFO] (akshell) This package is up to date.
 [ERROR] (aksy) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://walco.n--tree.net/downloads/snapshots/"
 [ERROR] (aktos) This package does not have downloadable releases.
 [INFO] (aktos-dcs) This package is up to date.
 [ERROR] (al-application-launcher) Could not extract data from this package. See below for details.
@@ -1755,9 +1683,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (albatross-extras) This package is up to date.
 [INFO] (albatross3) This package is up to date.
 [ERROR] (albero) Could not extract data from this package. See below for details.
-"https://codeload.github.com/armish/albero/legacy.tar.gz/albero-0.0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/armish/albero/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1797,7 +1725,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (alchy) This package is up to date.
 [ERROR] (alcman) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1859,7 +1787,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (aldryn-pypi-stats) This package is up to date.
 [ERROR] (aldryn-quote) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1909,25 +1837,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (alerta-slack) This package is up to date.
 [INFO] (alerta-syslog) This package is up to date.
 [INFO] (alertlogic) This package is up to date.
-[ERROR] (alertlogic-cli) Could not extract data from this package. See below for details.
-"https://codeload.github.com/alertlogic/alertlogic-cli/legacy.tar.gz/alertlogic-cli-1.0.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (alertlogic-cli) Data has been updated for this package.
 [INFO] (alertme) This package is up to date.
 [INFO] (aleshin) This package is up to date.
 [ERROR] (alex) This package does not have downloadable releases.
@@ -2018,7 +1928,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (alignak-checks-wmi) This package is up to date.
 [INFO] (alignak-demo) This package is up to date.
 [INFO] (alignak-mod-surveil-config) This package is up to date.
-[INFO] (alignak-module-backend) Data has been updated for this package.
+[INFO] (alignak-module-backend) This package is up to date.
 [INFO] (alignak-module-example) This package is up to date.
 [INFO] (alignak-module-external-commands) This package is up to date.
 [INFO] (alignak-module-logs) This package is up to date.
@@ -2091,7 +2001,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (aliyunoss) This package is up to date.
 [ERROR] (aljex) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2198,7 +2108,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (alp) This package is up to date.
 [ERROR] (alp-proj) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2266,13 +2176,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (altmetric) This package is up to date.
 [INFO] (alto) This package is up to date.
 [ERROR] (altpty) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://home.mn.rr.com/raynorj/"
 [INFO] (altpy) This package is up to date.
 [INFO] (altslice) This package is up to date.
 [INFO] (alttex) This package is up to date.
 [INFO] (altugssecondtest) This package is up to date.
 [ERROR] (altugstestpackage) This package does not have downloadable releases.
-[INFO] (altuscli) This package is up to date.
+[INFO] (altuscli) Data has been updated for this package.
 [INFO] (aludel) This package is up to date.
 [INFO] (alurinium-image-processing) This package is up to date.
 [ERROR] (alvi) This package does not have downloadable releases.
@@ -2295,7 +2205,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (amaptor) This package is up to date.
 [INFO] (amara) This package is up to date.
 [ERROR] (amara-xml-toolkit) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "ftp://ftp.4suite.org/pub/Amara/"
 [INFO] (amara3-iri) This package is up to date.
 [INFO] (amara3-xml) This package is up to date.
 [INFO] (amarokhola) This package is up to date.
@@ -2309,9 +2219,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (amazon-kclpy-test) This package is up to date.
 [INFO] (amazon-mws) This package is up to date.
 [ERROR] (amazon-pay) Could not extract data from this package. See below for details.
-"https://codeload.github.com/amzn/amazon-pay-sdk-python.git/legacy.tar.gz/amazon-pay-2.0.0.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/amzn/amazon-pay-sdk-python.git/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2377,7 +2287,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ami-push) This package is up to date.
 [INFO] (amiandopy) This package is up to date.
 [INFO] (amibaker) This package is up to date.
-[INFO] (amibuilder) This package is up to date.
+[INFO] (amibuilder) Data has been updated for this package.
 [INFO] (amico) This package is up to date.
 [INFO] (amieraser) This package is up to date.
 [INFO] (amifinder) This package is up to date.
@@ -2387,7 +2297,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (amigrations) This package is up to date.
 [ERROR] (amilstead-test-python) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2421,7 +2331,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ammoo) This package is up to date.
 [ERROR] (ammunition) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2447,7 +2357,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (amodem) This package is up to date.
 [ERROR] (amoeba) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2486,7 +2396,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ampl) This package is up to date.
 [INFO] (amplecode.recipe.template) This package is up to date.
 [ERROR] (amplee) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.defuze.org/oss/amplee/"
 [INFO] (amplify) This package is up to date.
 [ERROR] (amplifyit) This package does not have downloadable releases.
 [ERROR] (amplifyme) This package does not have downloadable releases.
@@ -2494,7 +2404,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (amplikyzer2) This package is up to date.
 [INFO] (amplipy) This package is up to date.
 [ERROR] (amplitude) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://repository.tyndale.com/repository/webdev/trunk/amplitude/"
 [ERROR] (amply) This package does not have downloadable releases.
 [INFO] (ampoule) This package is up to date.
 [INFO] (ampr) This package is up to date.
@@ -2503,30 +2413,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (amqp) This package is up to date.
 [INFO] (amqp-client-cli) This package is up to date.
 [INFO] (amqp-dispatcher) This package is up to date.
-[ERROR] (amqp-shrapnel) Could not extract data from this package. See below for details.
-"https://codeload.github.com/samrushing/amqp-shrapnel/legacy.tar.gz/amqp-shrapnel-0.5.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (amqp-shrapnel) Data has been updated for this package.
 [INFO] (amqp-storm) This package is up to date.
 [INFO] (amqp-worker) This package is up to date.
 [ERROR] (amqp1.0) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2609,7 +2501,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ananev) This package is up to date.
 [ERROR] (anansi) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2639,7 +2531,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (anchcloud-sdk) This package is up to date.
 [ERROR] (ancho) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2696,9 +2588,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (android-resource-remover) This package is up to date.
 [INFO] (android-sdk-updater) This package is up to date.
 [ERROR] (android-sms-exporter) Could not extract data from this package. See below for details.
-"http://www.compulife.com.pk/downloads/android_sms_exporter-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"http://www.compulife.com.pk/downloads/android_sms_exporter-0.1.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2722,7 +2614,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (androidresr) This package is up to date.
 [ERROR] (androiduitest) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2774,7 +2666,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (angr-utils) This package is up to date.
 [ERROR] (angr-z3) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2852,7 +2744,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (annobase) This package is up to date.
 [INFO] (annogesic) This package is up to date.
 [ERROR] (annohub) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://pypi.python.org/pypi/annohub"
 [INFO] (annopyte) This package is up to date.
 [INFO] (annotald) This package is up to date.
 [INFO] (annotate) This package is up to date.
@@ -2866,9 +2758,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (annots) This package is up to date.
 [INFO] (annoy) This package is up to date.
 [ERROR] (anntools) Could not extract data from this package. See below for details.
-"http://anntools.googlecode.com/files/anntools-0.5.1-src.zip" file couldnt be downloaded. See below for details.
+"http://anntools.googlecode.com/files/anntools-0.5.1-src.zip" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2895,7 +2787,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (anom) This package is up to date.
 [ERROR] (anomaly) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2985,9 +2877,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ansible-vault) This package is up to date.
 [INFO] (ansible-windows-compat) This package is up to date.
 [ERROR] (ansibleapi) Could not extract data from this package. See below for details.
-"https://codeload.github.com/donnydavis/ansibleapi/legacy.tar.gz/ansibleapi-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/donnydavis/ansibleapi/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3055,8 +2947,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (antimony) This package is up to date.
 [INFO] (antiorm) This package is up to date.
 [ERROR] (antiparking) This package does not have downloadable releases.
-[ERROR] (antiparser) Could not extract data from this package. See below for details.
-".tar.gz?download" extension not supported.
+[INFO] (antiparser) Data has been updated for this package.
 [INFO] (antipathy) This package is up to date.
 [INFO] (antipov) This package is up to date.
 [INFO] (antiseptic) This package is up to date.
@@ -3078,7 +2969,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (antispoofing.verification.gmm) This package is up to date.
 [ERROR] (antistandby) This package does not have downloadable releases.
 [ERROR] (antiweb) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://pypi.python.org/pypi/antiweb"
 [INFO] (antk) This package is up to date.
 [INFO] (antlerinator) This package is up to date.
 [INFO] (antlr-ast) This package is up to date.
@@ -3087,7 +2978,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (antlr-tsql) This package is up to date.
 [ERROR] (antlr4-python) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3105,7 +2996,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (antlr4-python-alt) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3135,9 +3026,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (antz) This package is up to date.
 [INFO] (anubha-nester) This package is up to date.
 [ERROR] (anubis) Could not extract data from this package. See below for details.
-"https://codeload.github.com/anubis/anubis/legacy.tar.gz/anubis-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/anubis/anubis/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3154,7 +3045,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (anuga) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://sourceforge.net/projects/anuga/"
 [INFO] (anuket) This package is up to date.
 [INFO] (anvil) This package is up to date.
 [INFO] (anvil-build) This package is up to date.
@@ -3214,7 +3105,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (anyway112) This package is up to date.
 [ERROR] (anywherelibrary) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3405,7 +3296,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (apis) This package is up to date.
 [ERROR] (apischema) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3440,7 +3331,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (aplazame-sdk) This package is up to date.
 [ERROR] (apldx) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3577,7 +3468,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (appleremote.py) This package is up to date.
 [ERROR] (appli) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3660,7 +3551,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (appstate) This package is up to date.
 [ERROR] (apptemplate) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3692,9 +3583,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (appypod) This package is up to date.
 [INFO] (aprendendopythonrafael) This package is up to date.
 [ERROR] (apricot) Could not extract data from this package. See below for details.
-"http://jamwt.com/downloads/apricot/apricot-0.2.tar.gz" file couldnt be downloaded. See below for details.
+"http://jamwt.com/downloads/apricot/apricot-0.2.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3717,25 +3608,7 @@ urllib.error.HTTPError: HTTP Error 403: Forbidden
 [INFO] (aprsfi) This package is up to date.
 [INFO] (aprsgate) This package is up to date.
 [INFO] (aprslib) This package is up to date.
-[ERROR] (aps-api-lite) Could not extract data from this package. See below for details.
-"https://codeload.github.com/brsgr/APS_api_lite/legacy.tar.gz/aps-api-lite-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (aps-api-lite) Data has been updated for this package.
 [INFO] (aps-cli) This package is up to date.
 [INFO] (apscheduler) This package is up to date.
 [INFO] (apsconnectcli) This package is up to date.
@@ -3746,26 +3619,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (apsw) This package is up to date.
 [INFO] (apsw-cledoux) This package is up to date.
 [ERROR] (apt) Could not extract data from this package. See below for details.
-"" extension not supported.
-[ERROR] (apt-depends) Could not extract data from this package. See below for details.
-"https://codeload.github.com/wbonnet/apt-depends/legacy.tar.gz/apt-depends-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+This package download URL does not point to a valid file: "https://launchpad.net/python-apt/+download"
+[INFO] (apt-depends) Data has been updated for this package.
 [INFO] (apt-deps) This package is up to date.
 [INFO] (apt-git) This package is up to date.
 [INFO] (apt-history) This package is up to date.
@@ -3807,9 +3662,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (aqua-io) This package is up to date.
 [INFO] (aquaduct) This package is up to date.
 [ERROR] (aquais) Could not extract data from this package. See below for details.
-"https://codeload.github.com/James-Gallagher/Aquais.git/legacy.tar.gz/aquais-0.3.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/James-Gallagher/Aquais.git/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3829,7 +3684,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (aquamesh) This package is up to date.
 [INFO] (aquantoolbox) This package is up to date.
 [ERROR] (aquarium) Could not extract data from this package. See below for details.
-".php?group_id=5453&package_id=5495" extension not supported.
+".php" extension not supported.
 [INFO] (aquarius) This package is up to date.
 [ERROR] (aqueduct) This package does not have downloadable releases.
 [INFO] (aquests) This package is up to date.
@@ -3851,9 +3706,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (arakhne) This package is up to date.
 [INFO] (araldo) This package is up to date.
 [ERROR] (araldo-redis) Could not extract data from this package. See below for details.
-"https://bitbucket.org/ganymed/araldo/downloads/araldo-redis-latest.tar.gz" file couldnt be downloaded. See below for details.
+"https://bitbucket.org/ganymed/araldo/downloads/araldo-redis-latest.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3870,9 +3725,9 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (araldo-websocket) Could not extract data from this package. See below for details.
-"https://bitbucket.org/ganymed/araldo/downloads/araldo-websocket-latest.tar.gz" file couldnt be downloaded. See below for details.
+"https://bitbucket.org/ganymed/araldo/downloads/araldo-websocket-latest.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4000,9 +3855,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (arcrest-package) This package is up to date.
 [INFO] (arcrstats) This package is up to date.
 [ERROR] (arcs.gsi) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.arcs.org.au/pypi/simple/arcs.gsi/"
 [ERROR] (arcs.project) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.arcs.org.au/pypi/arcs.project/"
 [ERROR] (arcs.shibboleth.client) This package does not have downloadable releases.
 [INFO] (arcsightrest) This package is up to date.
 [INFO] (arctic) This package is up to date.
@@ -4018,9 +3873,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ardpy) This package is up to date.
 [INFO] (ardtools) This package is up to date.
 [ERROR] (ardu) Could not extract data from this package. See below for details.
-"https://codeload.github.com/RashadGarayev/ardu/legacy.tar.gz/ardu-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/RashadGarayev/ardu/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4149,7 +4004,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ari) This package is up to date.
 [ERROR] (ari2) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4180,9 +4035,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (arip) This package is up to date.
 [INFO] (aris-nester) This package is up to date.
 [ERROR] (arista) Could not extract data from this package. See below for details.
-"http://programmer-art.org/media/releases/arista-transcoder/arista-0.9.7.tar.gz" file couldnt be downloaded. See below for details.
+"http://programmer-art.org/media/releases/arista-transcoder/arista-0.9.7.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4215,7 +4070,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (arkcserver) This package is up to date.
 [ERROR] (arke) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4240,7 +4095,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (arky) This package is up to date.
 [ERROR] (arle) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4272,7 +4127,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (armory) This package is up to date.
 [ERROR] (armsd) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4344,25 +4199,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (arq) This package is up to date.
 [ERROR] (arqlib) This package does not have downloadable releases.
 [INFO] (arquiapgw) This package is up to date.
-[ERROR] (array-devices) Could not extract data from this package. See below for details.
-"https://codeload.github.com/sacherjj/array_devices/legacy.tar.gz/array-devices-1.0.2.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (array-devices) Data has been updated for this package.
 [INFO] (array-foriger) This package is up to date.
 [INFO] (array-split) This package is up to date.
 [INFO] (array-to-latex) This package is up to date.
@@ -4371,7 +4208,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (arraybuffer) This package is up to date.
 [ERROR] (arrayent) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4394,7 +4231,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (arrayterator) This package is up to date.
 [INFO] (arrogant) This package is up to date.
 [ERROR] (arronax) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.florian-diesch.de/software/arronax/"
 [INFO] (arrow) This package is up to date.
 [INFO] (arrow-fatisar) This package is up to date.
 [INFO] (arrow-ng) This package is up to date.
@@ -4402,7 +4239,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (arrowhead) This package is up to date.
 [ERROR] (arrowsmith) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4450,7 +4287,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (article) This package is up to date.
 [ERROR] (article-downloader) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4533,7 +4370,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (asasa-nester) This package is up to date.
 [ERROR] (asbestos) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4660,7 +4497,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (asparagus) This package is up to date.
 [INFO] (aspath-graph) This package is up to date.
 [ERROR] (aspect) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://pypi.python.org/pypi/aspect"
 [INFO] (aspectlib) This package is up to date.
 [ERROR] (aspectpy) This package does not have downloadable releases.
 [ERROR] (aspects) This package does not have downloadable releases.
@@ -4685,7 +4522,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (asphalt-sqlalchemy) This package is up to date.
 [INFO] (asphalt-templating) This package is up to date.
 [INFO] (asphalt-wamp) This package is up to date.
-[INFO] (aspic) This package is up to date.
+[INFO] (aspic) Data has been updated for this package.
 [INFO] (aspio) This package is up to date.
 [INFO] (aspose-barcode-java-for-jython) This package is up to date.
 [ERROR] (aspose-cells-java-for-jython) This package does not have downloadable releases.
@@ -4761,9 +4598,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (assetpackager) This package is up to date.
 [INFO] (assetreload) This package is up to date.
 [ERROR] (assets) Could not extract data from this package. See below for details.
-"https://codeload.github.com/simone/assets/legacy.tar.gz/assets-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/simone/assets/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4838,13 +4675,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (astraea) This package is up to date.
 [INFO] (astral) This package is up to date.
 [ERROR] (astralnetworking) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://astralnetworking.googlecode.com/hg/"
 [INFO] (astratomo) This package is up to date.
 [INFO] (astraviso) This package is up to date.
 [ERROR] (astrid) This package does not have downloadable releases.
 [ERROR] (astrid-phlyo) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4862,7 +4699,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (astrid-phylo) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4901,25 +4738,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (astrogrid) This package is up to date.
 [INFO] (astroid) This package is up to date.
 [INFO] (astroimtools) This package is up to date.
-[ERROR] (astrokml) Could not extract data from this package. See below for details.
-"https://codeload.github.com/rsawtell/AstroKML/legacy.tar.gz/astrokml-1.0.2.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (astrokml) Data has been updated for this package.
 [INFO] (astrolabe) This package is up to date.
 [INFO] (astrolabels) This package is up to date.
 [INFO] (astrolib.coords) This package is up to date.
@@ -5008,7 +4827,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (async-timeout) This package is up to date.
 [ERROR] (async-tokio) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -5035,7 +4854,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (asyncdef.interfaces) This package is up to date.
 [ERROR] (asyncdgt) This package does not have downloadable releases.
 [ERROR] (asyncdns) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/asyncdns/downloads/list"
 [INFO] (asyncdynamo) This package is up to date.
 [INFO] (asynces) This package is up to date.
 [ERROR] (asyncflux) This package does not have downloadable releases.
@@ -5075,25 +4894,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (asyncirc) This package is up to date.
 [INFO] (asyncjisho) This package is up to date.
 [INFO] (asynckit) This package is up to date.
-[ERROR] (asyncleverbot) Could not extract data from this package. See below for details.
-"https://codeload.github.com/Twentysix26/asyncleverbot.py/legacy.tar.gz/asyncleverbot-1.0.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (asyncleverbot) Data has been updated for this package.
 [INFO] (asynclib) This package is up to date.
 [INFO] (asyncluster) This package is up to date.
 [INFO] (asyncmc) This package is up to date.
@@ -5258,44 +5059,8 @@ Unsupported package directory structure.
 [INFO] (atomisator.parser) This package is up to date.
 [INFO] (atomisator.readers) This package is up to date.
 [INFO] (atomistica) This package is up to date.
-[ERROR] (atomix) Could not extract data from this package. See below for details.
-"https://codeload.github.com/kulprit-001/atomix/legacy.tar.gz/atomix-0.01.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
-[ERROR] (atomix-3d) Could not extract data from this package. See below for details.
-"https://codeload.github.com/kulprit-001/atomix3d/legacy.tar.gz/atomix-3d-0.02.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (atomix) Data has been updated for this package.
+[INFO] (atomix-3d) Data has been updated for this package.
 [INFO] (atomize) This package is up to date.
 [INFO] (atomman) This package is up to date.
 [INFO] (atomos) This package is up to date.
@@ -5314,7 +5079,7 @@ Unsupported package directory structure.
 [INFO] (atpublic) This package is up to date.
 [INFO] (atpy) This package is up to date.
 [ERROR] (atrack) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://repo.cat-v.org/atrack/download/"
 [INFO] (atramhasis) This package is up to date.
 [INFO] (atrcopy) This package is up to date.
 [INFO] (atreal.cmfeditions.unlocker) This package is up to date.
@@ -5393,7 +5158,7 @@ Unsupported package directory structure.
 [ERROR] (audio-batch-processor) This package does not have downloadable releases.
 [INFO] (audio-display) This package is up to date.
 [ERROR] (audio-enriched-links) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.sourceforge.net/projects/uncassist"
 [INFO] (audio-offset-finder) This package is up to date.
 [INFO] (audio.bitstream) This package is up to date.
 [INFO] (audio.coders) This package is up to date.
@@ -5420,9 +5185,9 @@ Unsupported package directory structure.
 [INFO] (audiorename) This package is up to date.
 [INFO] (audioscrape) This package is up to date.
 [ERROR] (audioscrobblerws) Could not extract data from this package. See below for details.
-"http://python-audioscrobblerws.googlecode.com/files/audioscrobblerws-0.1.1.tar.gz" file couldnt be downloaded. See below for details.
+"http://python-audioscrobblerws.googlecode.com/files/audioscrobblerws-0.1.1.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -5477,7 +5242,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (auromat) This package is up to date.
 [ERROR] (aurora) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -5512,7 +5277,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (auset) This package is up to date.
 [ERROR] (ausgang) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -5537,7 +5302,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (austin) This package is up to date.
 [INFO] (austin-data-catalog) This package is up to date.
 [INFO] (australian-ntv2-grid-conversion) This package is up to date.
-[INFO] (autest) This package is up to date.
+[INFO] (autest) Data has been updated for this package.
 [INFO] (auth) This package is up to date.
 [INFO] (auth-functional) This package is up to date.
 [INFO] (auth-jwt) This package is up to date.
@@ -5663,7 +5428,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (autodebug) This package is up to date.
 [ERROR] (autodep) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -5704,23 +5469,38 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (autohook) This package is up to date.
 [INFO] (autoimp) This package is up to date.
 [ERROR] (autoinfra) Could not extract data from this package. See below for details.
-"https://codeload.github.com/sammydc/autoinfra/legacy.tar.gz/autoinfra-0.0.1.dev1.tar.gz" file couldnt be downloaded. See below for details.
+Could not extract tarball. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
+  File "/usr/lib/python3.5/tarfile.py", line 1631, in gzopen
+    t = cls.taropen(name, mode, fileobj, **kwargs)
+  File "/usr/lib/python3.5/tarfile.py", line 1607, in taropen
+    return cls(name, mode, fileobj, **kwargs)
+  File "/usr/lib/python3.5/tarfile.py", line 1470, in __init__
+    self.firstmember = self.next()
+  File "/usr/lib/python3.5/tarfile.py", line 2281, in next
+    tarinfo = self.tarinfo.fromtarfile(self)
+  File "/usr/lib/python3.5/tarfile.py", line 1082, in fromtarfile
+    buf = tarfile.fileobj.read(BLOCKSIZE)
+  File "/usr/lib/python3.5/gzip.py", line 274, in read
+    return self._buffer.read(size)
+  File "/usr/lib/python3.5/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/usr/lib/python3.5/gzip.py", line 461, in read
+    if not self._read_gzip_header():
+  File "/usr/lib/python3.5/gzip.py", line 409, in _read_gzip_header
+    raise OSError('Not a gzipped file (%r)' % magic)
+OSError: Not a gzipped file (b'\n\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 131, in get_tar_topdir
+    with closing(compressed(tarpath, tarmode)) as tar:
+  File "/usr/lib/python3.5/tarfile.py", line 1577, in open
+    return func(name, filemode, fileobj, **kwargs)
+  File "/usr/lib/python3.5/tarfile.py", line 1635, in gzopen
+    raise ReadError("not a gzip file")
+tarfile.ReadError: not a gzip file
 
 [INFO] (autoinstall) This package is up to date.
 [INFO] (autoinstaller) This package is up to date.
@@ -5762,11 +5542,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (automatic) This package does not have downloadable releases.
 [INFO] (automaticapi) This package is up to date.
 [ERROR] (automating-catia-v5-or-dmu-navigator-with-python) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://win32com.goermezer.de/content/view/29/186/"
 [INFO] (automation) This package is up to date.
 [ERROR] (automation-hsep) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -5797,27 +5577,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (automatron-sql) This package does not have downloadable releases.
 [ERROR] (automatron-youtube-playlist) This package does not have downloadable releases.
 [ERROR] (automigrate) This package does not have downloadable releases.
-[ERROR] (automiko) Could not extract data from this package. See below for details.
-"https://codeload.github.com/gdisneyleugers/automiko/legacy.tar.gz/automiko-1.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (automiko) Data has been updated for this package.
 [INFO] (automium) This package is up to date.
 [INFO] (automium-web) This package is up to date.
+[INFO] (automl) Data has been updated for this package.
 [INFO] (automodel) This package is up to date.
 [INFO] (automodel-server) This package is up to date.
 [INFO] (automodinit) This package is up to date.
@@ -5832,7 +5595,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (autopilot) This package is up to date.
 [ERROR] (autopilot-gtk-emulator) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -5913,7 +5676,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (autowebgl) This package is up to date.
 [INFO] (autowire) This package is up to date.
 [INFO] (autoworker) This package is up to date.
-[INFO] (autowrap) This package is up to date.
+[INFO] (autowrap) Data has been updated for this package.
 [INFO] (autowrapt) This package is up to date.
 [INFO] (autowsgiserver) This package is up to date.
 [INFO] (autoxinit) This package is up to date.
@@ -5923,7 +5686,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (auxi) This package is up to date.
 [INFO] (auxlib) This package is up to date.
 [INFO] (auxly) This package is up to date.
-[INFO] (auxygen) This package is up to date.
+[INFO] (auxygen) Data has been updated for this package.
 [INFO] (av) This package is up to date.
 [INFO] (av2hdf5) This package is up to date.
 [INFO] (ava) This package is up to date.
@@ -5952,9 +5715,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (avcaesar-api) This package is up to date.
 [INFO] (avchd-toolkit) This package is up to date.
 [ERROR] (avdata) Could not extract data from this package. See below for details.
-"http://www.wayforward.net/avdata/avdata-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
+"http://www.wayforward.net/avdata/avdata-0.1.0.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -6019,7 +5782,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (avro-python3-snapshot) This package is up to date.
 [ERROR] (avro-registry) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -6087,7 +5850,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (awhois) This package is up to date.
 [INFO] (awk) This package is up to date.
 [ERROR] (awkwardduet) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://launchpad.net/awkwardduet/+download"
 [INFO] (awlsim) This package is up to date.
 [INFO] (awordaday) This package is up to date.
 [INFO] (awpa) This package is up to date.
@@ -6095,25 +5858,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (aws-acl-helper) This package is up to date.
 [INFO] (aws-adfs) This package is up to date.
 [INFO] (aws-amicleaner) This package is up to date.
-[ERROR] (aws-architect) Could not extract data from this package. See below for details.
-"https://codeload.github.com/wparad/AWS-Architect/legacy.tar.gz/aws-architect-0.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (aws-architect) Data has been updated for this package.
 [INFO] (aws-auth-helper) This package is up to date.
 [INFO] (aws-autodiscovery-templater) This package is up to date.
 [INFO] (aws-backup-client) This package is up to date.
@@ -6345,7 +6090,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (azure-cli-iot) This package is up to date.
 [INFO] (azure-cli-keyvault) This package is up to date.
 [INFO] (azure-cli-lab) This package is up to date.
-[INFO] (azure-cli-ml) This package is up to date.
+[INFO] (azure-cli-ml) Data has been updated for this package.
 [INFO] (azure-cli-monitor) This package is up to date.
 [INFO] (azure-cli-network) This package is up to date.
 [INFO] (azure-cli-nspkg) This package is up to date.
@@ -6430,14 +6175,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (azuresshconfig) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 4825
-[INFO]     Packages processed: 4825
-[INFO]         Packages updated: 2
-[INFO]         Packages up-to-date: 4316
+[INFO] Total packages: 4827
+[INFO]     Packages processed: 4827
+[INFO]         Packages updated: 28
+[INFO]         Packages up-to-date: 4309
 [INFO]         Packages without response: 48
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 379
-[INFO]         Packages with data errors: 80
+[INFO]         Packages with data errors: 63
 [INFO]     Packages not processed: 0
 [INFO] 
 [INFO] 
