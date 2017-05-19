@@ -33600,7 +33600,7 @@
             "n_utils.maven_utils",
             "n_utils.volumes"
         ],
-        "version": "0.100"
+        "version": "0.101"
     },
     "nitor-vault": {
         "cmdline": [],
