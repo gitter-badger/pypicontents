@@ -3731,7 +3731,7 @@
             "zappa.wsgi",
             "zappa.zappa"
         ],
-        "version": "0.41.3"
+        "version": "0.42.0"
     },
     "zappa-file-widget": {
         "cmdline": [],
