@@ -8835,7 +8835,7 @@
             "jira_metrics_extract.cycletime",
             "jira_metrics_extract.query"
         ],
-        "version": "0.28"
+        "version": "0.29"
     },
     "jira-releaser": {
         "cmdline": [],
