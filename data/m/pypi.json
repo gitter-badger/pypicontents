@@ -2515,6 +2515,14 @@
         ],
         "version": "0.011"
     },
+    "macho-parser": {
+        "cmdline": [],
+        "modules": [
+            "macho_parser",
+            "macho_parser.macho_parser"
+        ],
+        "version": "1.0.0"
+    },
     "machobot": {
         "cmdline": [],
         "modules": [
@@ -8323,7 +8331,7 @@
             "makiki.redis",
             "makiki.schema"
         ],
-        "version": "0.2.11"
+        "version": "0.2.12"
     },
     "makimono": {
         "cmdline": [],
@@ -11995,7 +12003,7 @@
             "maple.worker.request",
             "maple.worker.worker"
         ],
-        "version": "2.2.73"
+        "version": "2.3.1"
     },
     "maple-cluster-statsd": {
         "cmdline": [],
@@ -32683,7 +32691,7 @@
             "mendeleev.tables",
             "mendeleev.utils"
         ],
-        "version": "0.3.2"
+        "version": "0.3.3"
     },
     "mendeley": {
         "cmdline": [],
