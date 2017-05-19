@@ -4227,7 +4227,7 @@
             "walkingliberty",
             "walkingliberty.cli"
         ],
-        "version": "0.0.3"
+        "version": "0.0.4"
     },
     "walkscore-api-binding": {
         "cmdline": [],
@@ -9481,9 +9481,9 @@
         "cmdline": [],
         "modules": [
             "weather",
-            "weather.Weather"
+            "weather.weather"
         ],
-        "version": "0.2.3"
+        "version": "1.0.0"
     },
     "weather-notifier": {
         "cmdline": [],
@@ -20234,7 +20234,7 @@
             "widgetsnbextension",
             "widgetsnbextension._version"
         ],
-        "version": "3.0.0a5"
+        "version": "3.0.0a6"
     },
     "widgy-blog": {
         "cmdline": [],
@@ -22403,8 +22403,65 @@
     "win32core": {
         "cmdline": [],
         "modules": [
+            "functional",
+            "functional.GenTestScripts",
+            "functional.bak_test_Exchange",
+            "functional.bak_test_Explorer",
+            "functional.bak_test_Marshal",
+            "functional.bak_test_Persist",
+            "functional.bak_test_Servers",
+            "functional.bak_test_sspi",
+            "functional.bak_test_win32gui",
+            "functional.bak_test_win32guistruct",
+            "functional.daodump",
+            "functional.errorSemantics",
+            "functional.excluded_test_PyComTest",
+            "functional.excluded_test_vbscript_regexp",
+            "functional.handles",
+            "functional.pippo_server",
+            "functional.policySemantics",
+            "functional.test_ADOEvents",
+            "functional.test_AXScript",
+            "functional.test_Access",
+            "functional.test_Arrays",
+            "functional.test_Clipboard",
+            "functional.test_Collections",
+            "functional.test_DCOM",
+            "functional.test_Dictionary",
+            "functional.test_Dynamic",
+            "functional.test_GIT",
+            "functional.test_GatewayAddresses",
+            "functional.test_Iterators",
+            "functional.test_MSOffice",
+            "functional.test_MSOfficeEvents",
+            "functional.test_Netscape",
+            "functional.test_Pippo",
+            "functional.test_ROT",
+            "functional.test_Shell",
+            "functional.test_Storage",
+            "functional.test_Streams",
+            "functional.test_WMI",
+            "functional.test_exceptions",
+            "functional.test_makepy",
+            "functional.test_odbc",
+            "functional.test_pycomtest",
+            "functional.test_pywintypes",
+            "functional.test_security",
+            "functional.test_vb",
+            "functional.test_win32api",
+            "functional.test_win32crypt",
+            "functional.test_win32event",
+            "functional.test_win32file",
+            "functional.test_win32inet",
+            "functional.test_win32net",
+            "functional.test_win32pipe",
+            "functional.test_win32rcparser",
+            "functional.test_win32timezone",
+            "functional.test_win32trace",
+            "functional.test_win32wnet",
+            "functional.test_xslt",
+            "functional.util",
             "win32",
-            "win32._version",
             "win32.afxres",
             "win32.api",
             "win32.authorization",
@@ -22422,6 +22479,7 @@
             "win32.com.client.selecttlb",
             "win32.com.client.tlbrowse",
             "win32.com.client.util",
+            "win32.com.gen_py",
             "win32.com.makegw",
             "win32.com.makegw.makegw",
             "win32.com.makegw.makegwenum",
@@ -22437,14 +22495,12 @@
             "win32.com.server.register",
             "win32.com.server.util",
             "win32.com.servers",
-            "win32.com.servers.PythonTools",
             "win32.com.servers.dictionary",
             "win32.com.servers.interp",
             "win32.com.servers.perfmon",
-            "win32.com.servers.test_pycomtest",
-            "win32.com.shell",
-            "win32.com.shell.constants",
-            "win32.com.storagecon",
+            "win32.com.servers.tools",
+            "win32.com.storage",
+            "win32.com.storage.constants",
             "win32.com.universal",
             "win32.com.util",
             "win32.commctrl",
@@ -22455,11 +22511,11 @@
             "win32.cryptography.constants",
             "win32.dbi",
             "win32.directsound",
+            "win32.error",
             "win32.event",
             "win32.eventlog",
             "win32.eventlog.util",
             "win32.file",
-            "win32.gui_struct",
             "win32.help",
             "win32.inet",
             "win32.inet.constants",
@@ -22470,16 +22526,18 @@
             "win32.mmsystem",
             "win32.net",
             "win32.net.constants",
-            "win32.netbios",
             "win32.pdh",
-            "win32.pdhquery",
-            "win32.pdhutil",
+            "win32.pdh.query",
+            "win32.pdh.util",
+            "win32.perfmon",
+            "win32.perfmon.constants",
             "win32.pipe",
             "win32.print",
             "win32.process",
             "win32.profile",
             "win32.propsys",
             "win32.ras",
+            "win32.ras.util",
             "win32.rasutil",
             "win32.rcparser",
             "win32.regcheck",
@@ -22487,9 +22545,10 @@
             "win32.security",
             "win32.security.constants",
             "win32.service",
+            "win32.service.util",
             "win32.servicemanager",
-            "win32.serviceutil",
             "win32.shell",
+            "win32.shell.constants",
             "win32.sspi",
             "win32.sspi.constants",
             "win32.sysloader",
@@ -22497,18 +22556,16 @@
             "win32.timer",
             "win32.timezone",
             "win32.trace",
-            "win32.traceutil",
+            "win32.trace.util",
             "win32.transaction",
             "win32.ts",
             "win32.verstamp",
-            "win32.winerror",
             "win32.winioctlcon",
             "win32.winnt",
-            "win32.winperf",
-            "win32.winxptheme",
-            "win32.wnet"
+            "win32.wnet",
+            "win32.wnet.constants"
         ],
-        "version": "221.16"
+        "version": "221.18"
     },
     "win32ext": {
         "cmdline": [],
@@ -32741,6 +32798,11 @@
         ],
         "version": "0.10.20"
     },
+    "wsdiscovery": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.2"
+    },
     "wsdl2interface": {
         "cmdline": [],
         "modules": [],
@@ -35141,7 +35203,7 @@
             "wuschl"
         ],
         "modules": [],
-        "version": "0.2.0"
+        "version": "0.2.1"
     },
     "wutang": {
         "cmdline": [],
@@ -36841,7 +36903,7 @@
         "modules": [
             "will"
         ],
-        "version": "0.1.13"
+        "version": "0.1.14"
     },
     "wykop-sdk": {
         "cmdline": [],
