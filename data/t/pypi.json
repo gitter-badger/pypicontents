@@ -345,8 +345,13 @@
     },
     "taarifaapi": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "taarifa_api",
+            "taarifa_api.schemas",
+            "taarifa_api.settings",
+            "taarifa_api.taarifa_api"
+        ],
+        "version": "0.1.0"
     },
     "taatik": {
         "cmdline": [
@@ -3675,8 +3680,29 @@
     },
     "tai5-uan5-gian5-gi2-tsu1-liau7-khoo3-hok8-bu7": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.admin",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.management",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.management.commands",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.management.commands.\u532f\u5165\u8cc7\u6599",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.management.commands.\u6aa2\u67e5\u5916\u8a9e\u4f6e\u6587\u672c\u6709\u7b26\u5408\u5206\u8a5e\u683c\u5f0f\u7121",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.management.commands.\u986f\u793a\u8cc7\u6599\u6578\u91cf",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.migrations",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.migrations.0001_initial",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.migrations.0002_\u52a0\u5b57\u8a5e\u3001\u8a9e\u53e5\u7a2e\u985e",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.migrations.0003_auto_20151009_0731_\u7248\u6b0a\u52a0\u9577\u5ea6",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.migrations.0004_\u6587\u672c\u8868_\u97f3\u6a19\u8cc7\u6599",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.migrations.0005_\u83ab\u7db2\u9801\u5f71\u97f3\u8cc7\u6599",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.migrations.0006_delete_\u8cc7\u6599\u985e\u578b\u8868",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.migrations.0007_auto_20161121_2017",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.models",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.\u532f\u51fa\u5165",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.\u6b04\u4f4d\u8cc7\u8a0a",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.\u8cc7\u6599\u6a21\u578b",
+            "\u81fa\u7063\u8a00\u8a9e\u8cc7\u6599\u5eab.\u95dc\u4fc2\u6a21\u578b"
+        ],
+        "version": "0.1.0"
     },
     "tai5-uan5-gian5-gi2-tsu1-liau7-khoo3-kau3-tui3": {
         "cmdline": [],
@@ -4725,7 +4751,7 @@
     "tal0n": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "1.0"
     },
     "talalprotocol": {
         "cmdline": [],
@@ -6177,8 +6203,12 @@
     },
     "tapioca-bookingsync": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tapioca_bookingsync",
+            "tapioca_bookingsync.resource_mapping",
+            "tapioca_bookingsync.tapioca_bookingsync"
+        ],
+        "version": "0.1"
     },
     "tapioca-braspag": {
         "cmdline": [],
@@ -6191,8 +6221,14 @@
     },
     "tapioca-cartola": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tapioca_cartola",
+            "tapioca_cartola.auth",
+            "tapioca_cartola.cartola",
+            "tapioca_cartola.override",
+            "tapioca_cartola.resources"
+        ],
+        "version": "0.1"
     },
     "tapioca-circleci": {
         "cmdline": [],
@@ -6993,7 +7029,7 @@
     "tarot-cards": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "1"
     },
     "tarou-plugin": {
         "cmdline": [],
@@ -10473,9 +10509,37 @@
         "version": "1.0.12"
     },
     "tcal": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "electron_flux_single_ccd_ffi_to_simulated_raw",
+            "raw_single_ccd_ffi_to_calibrated_electron_flux"
+        ],
+        "modules": [
+            "httm",
+            "httm.data_structures",
+            "httm.data_structures.common",
+            "httm.data_structures.documentation",
+            "httm.data_structures.electron_flux_converter",
+            "httm.data_structures.metadata",
+            "httm.data_structures.raw_converter",
+            "httm.fits_utilities",
+            "httm.fits_utilities.electron_flux_fits",
+            "httm.fits_utilities.header_tools",
+            "httm.fits_utilities.raw_fits",
+            "httm.resource_utilities",
+            "httm.system",
+            "httm.system.command_line",
+            "httm.system.command_line.metadata",
+            "httm.system.config_file",
+            "httm.transformations",
+            "httm.transformations.common",
+            "httm.transformations.constants",
+            "httm.transformations.electron_flux_converters_to_raw",
+            "httm.transformations.electron_flux_slices_to_raw",
+            "httm.transformations.metadata",
+            "httm.transformations.raw_converters_to_calibrated",
+            "httm.transformations.raw_slices_to_calibrated"
+        ],
+        "version": "0.2.2"
     },
     "tcc": {
         "cmdline": [],
@@ -11508,8 +11572,11 @@
     },
     "tdebuilder": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tdeBuilder",
+            "tdeBuilder.tdeBuilder"
+        ],
+        "version": "0.1"
     },
     "tdewitt-ac-flask-hipchat": {
         "cmdline": [],
@@ -11886,8 +11953,10 @@
     },
     "te-ai-subt": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "man"
+        ],
+        "version": "1.3"
     },
     "tea": {
         "cmdline": [],
@@ -13430,8 +13499,16 @@
     },
     "telegram-bot-api": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "telegram.botapi",
+            "telegram.botapi.actions",
+            "telegram.botapi.api",
+            "telegram.botapi.bot",
+            "telegram.botapi.botbuilder",
+            "telegram.botapi.connector",
+            "telegram.botapi.util"
+        ],
+        "version": "0.2"
     },
     "telegram-game": {
         "cmdline": [],
@@ -15351,8 +15428,21 @@
     },
     "tembodb": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tembodb",
+            "tembodb.codecs",
+            "tembodb.codecs.base",
+            "tembodb.codecs.xml",
+            "tembodb.codecs.yaml",
+            "tembodb.errors",
+            "tembodb.file_type",
+            "tembodb.metadata",
+            "tembodb.metadata.base",
+            "tembodb.metadata.fields",
+            "tembodb.query",
+            "tembodb.tembo"
+        ],
+        "version": "0.0.1.dev1"
     },
     "temboz": {
         "cmdline": [
@@ -23642,8 +23732,10 @@
     },
     "testinggame": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "testinggame"
+        ],
+        "version": "1.0.0"
     },
     "testino": {
         "cmdline": [],
@@ -29227,7 +29319,7 @@
     "the-backdoor-factory": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "2.2.0"
     },
     "the-big-picture": {
         "cmdline": [],
@@ -30351,7 +30443,7 @@
             "TheCannon.model",
             "TheCannon.train_model"
         ],
-        "version": "0.6.5"
+        "version": "0.6.7"
     },
     "thechristmaspig": {
         "cmdline": [],
@@ -30440,8 +30532,42 @@
     },
     "thedom": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "WebElements",
+            "WebElements.All",
+            "WebElements.Base",
+            "WebElements.Buttons",
+            "WebElements.Charts",
+            "WebElements.ClientSide",
+            "WebElements.CodeDocumentation",
+            "WebElements.Connectable",
+            "WebElements.Containers",
+            "WebElements.DOM",
+            "WebElements.DataViews",
+            "WebElements.DictUtils",
+            "WebElements.Display",
+            "WebElements.Document",
+            "WebElements.Factory",
+            "WebElements.HiddenInputs",
+            "WebElements.Inputs",
+            "WebElements.IteratorUtils",
+            "WebElements.JsonParser",
+            "WebElements.Layout",
+            "WebElements.MethodUtils",
+            "WebElements.MultiplePythonSupport",
+            "WebElements.Navigation",
+            "WebElements.Parser",
+            "WebElements.PositionController",
+            "WebElements.Printing",
+            "WebElements.Resources",
+            "WebElements.Social",
+            "WebElements.StringUtils",
+            "WebElements.Types",
+            "WebElements.UITemplate",
+            "WebElements.Validators",
+            "WebElements.shpaml"
+        ],
+        "version": "0.0.1"
     },
     "thedonald": {
         "cmdline": [],
@@ -31066,8 +31192,10 @@
     },
     "thenumbersofmagic": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "TheNumbersOfMagic"
+        ],
+        "version": "0.1"
     },
     "theo.recipe.cmd": {
         "cmdline": [],
@@ -31339,7 +31467,7 @@
             "thermotools.callback",
             "thermotools.cset"
         ],
-        "version": "0.2.5"
+        "version": "0.2.6"
     },
     "therpy": {
         "cmdline": [],
@@ -35046,9 +35174,37 @@
         "version": "0.1.0"
     },
     "tical": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "electron_flux_single_ccd_ffi_to_simulated_raw",
+            "raw_single_ccd_ffi_to_calibrated_electron_flux"
+        ],
+        "modules": [
+            "httm",
+            "httm.data_structures",
+            "httm.data_structures.common",
+            "httm.data_structures.documentation",
+            "httm.data_structures.electron_flux_converter",
+            "httm.data_structures.metadata",
+            "httm.data_structures.raw_converter",
+            "httm.fits_utilities",
+            "httm.fits_utilities.electron_flux_fits",
+            "httm.fits_utilities.header_tools",
+            "httm.fits_utilities.raw_fits",
+            "httm.resource_utilities",
+            "httm.system",
+            "httm.system.command_line",
+            "httm.system.command_line.metadata",
+            "httm.system.config_file",
+            "httm.transformations",
+            "httm.transformations.common",
+            "httm.transformations.constants",
+            "httm.transformations.electron_flux_converters_to_raw",
+            "httm.transformations.electron_flux_slices_to_raw",
+            "httm.transformations.metadata",
+            "httm.transformations.raw_converters_to_calibrated",
+            "httm.transformations.raw_slices_to_calibrated"
+        ],
+        "version": "0.2.2"
     },
     "ticdat": {
         "cmdline": [],
@@ -38842,8 +38998,11 @@
     },
     "timestamp-content": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "timestamp_content",
+            "timestamp_content.date_maker"
+        ],
+        "version": "0.4"
     },
     "timestream": {
         "cmdline": [],
@@ -41732,8 +41891,15 @@
     },
     "tirith-server": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tirith",
+            "tirith.client",
+            "tirith.components",
+            "tirith.components.monitor",
+            "tirith.components.sensor",
+            "tirith.monitor"
+        ],
+        "version": "0.1.0"
     },
     "tiro": {
         "cmdline": [],
@@ -41855,7 +42021,7 @@
             "titanic2",
             "titanic2.titanic2"
         ],
-        "version": "2.1.1"
+        "version": "2.1.2"
     },
     "titanium": {
         "cmdline": [],
@@ -41919,7 +42085,7 @@
             "titlecase",
             "titlecase.tests"
         ],
-        "version": "0.9.0"
+        "version": "0.10.0"
     },
     "titlemarkdown": {
         "cmdline": [],
@@ -43799,8 +43965,11 @@
     },
     "tmdb-api": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tmdbv3api",
+            "tmdbv3api.tmdb"
+        ],
+        "version": "0.1"
     },
     "tmdb3": {
         "cmdline": [],
@@ -49802,7 +49971,7 @@
     "topogram": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.0.9a"
     },
     "topographica": {
         "cmdline": [
@@ -53800,8 +53969,21 @@
     },
     "tory": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tory",
+            "tory.cpu",
+            "tory.flaskr",
+            "tory.human_read",
+            "tory.inventory",
+            "tory.network",
+            "tory.pack",
+            "tory.ram",
+            "tory.setup",
+            "tory.simple",
+            "tory.user",
+            "tory.util"
+        ],
+        "version": "0.1"
     },
     "tory-client": {
         "cmdline": [],
@@ -53865,7 +54047,9 @@
             "tosker.software_manager",
             "tosker.template",
             "tosker.tests",
+            "tosker.tests.test_docker_interface",
             "tosker.tests.test_graph",
+            "tosker.tests.test_orchestration",
             "tosker.tests.test_tosca_base",
             "tosker.tests.test_tosca_csar",
             "tosker.tests.test_tosca_dockerfile",
@@ -53882,14 +54066,17 @@
             "tosker.tests.test_tosca_wordpress_ligth",
             "tosker.tests.test_tosca_wordpress_theme",
             "tosker.tests.test_tosca_wordpress_volume",
+            "tosker.tests.test_ui",
+            "tosker.tosca_parser",
             "tosker.tosca_utility",
             "tosker.types",
             "tosker.types.nodes",
             "tosker.types.template",
+            "tosker.ui",
             "tosker.utility",
             "tosker.volume_manager"
         ],
-        "version": "0.2.0"
+        "version": "0.3.2"
     },
     "tosr0x": {
         "cmdline": [],
@@ -57017,7 +57204,7 @@
             "tracetools.tests",
             "tracetools.tracetools"
         ],
-        "version": "1.12"
+        "version": "1.22"
     },
     "traceurl": {
         "cmdline": [
@@ -57046,7 +57233,7 @@
     "tracey": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.1"
     },
     "tracfakeusername": {
         "cmdline": [],
@@ -68277,11 +68464,7 @@
         "version": "3.4.5"
     },
     "trytond": {
-        "cmdline": [
-            "trytond",
-            "trytond-admin",
-            "trytond-cron"
-        ],
+        "cmdline": [],
         "modules": [
             "trytond",
             "trytond.admin",
@@ -68446,7 +68629,7 @@
             "trytond.wizard.wizard",
             "trytond.wsgi"
         ],
-        "version": "4.4.0"
+        "version": "4.4.1"
     },
     "trytond-account": {
         "cmdline": [],
@@ -84092,8 +84275,11 @@
     },
     "twx.mtproto": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "twx",
+            "twx.twx"
+        ],
+        "version": "0.0.1a1.dev1"
     },
     "twyg": {
         "cmdline": [],
@@ -87431,8 +87617,10 @@
     },
     "typedbytes": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typedbytes"
+        ],
+        "version": "0.3.8"
     },
     "typedcols": {
         "cmdline": [],
