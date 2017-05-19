@@ -38879,7 +38879,7 @@
             "gocardless_pro.services.refunds_service",
             "gocardless_pro.services.subscriptions_service"
         ],
-        "version": "0.3.0"
+        "version": "1.0.0"
     },
     "gocd": {
         "cmdline": [],
