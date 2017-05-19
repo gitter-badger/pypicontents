@@ -39547,9 +39547,10 @@
     "onegov.applications": {
         "cmdline": [],
         "modules": [
-            "applications"
+            "onegov",
+            "onegov.applications"
         ],
-        "version": "2017.4.23"
+        "version": "2017.4.24"
     },
     "onegov.ballot": {
         "cmdline": [],
