@@ -73,7 +73,7 @@
 [INFO] (nagparser) This package is up to date.
 [INFO] (nagplug) This package is up to date.
 [ERROR] (nagpy) Could not extract data from this package. See below for details.
-"ftp://ftp.cdc.noaa.gov/Public/jsw/nagpy.tar.gz" file couldnt be downloaded. See below for details.
+"ftp://ftp.cdc.noaa.gov/Public/jsw/nagpy.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
   File "/usr/lib/python3.5/urllib/request.py", line 1471, in ftp_open
     fw = self.connect_ftp(user, passwd, host, port, dirs, req.timeout)
@@ -96,7 +96,7 @@ ftplib.error_perm: 550 Failed to change directory.
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -129,25 +129,7 @@ urllib.error.URLError: <urlopen error ftp error: error_perm('550 Failed to chang
 [INFO] (nagpyrc) This package is up to date.
 [INFO] (nahpackpy) This package is up to date.
 [INFO] (nahum-debug-utils) This package is up to date.
-[ERROR] (naiad) Could not extract data from this package. See below for details.
-"https://codeload.github.com/bartfeenstra/naiad/legacy.tar.gz/naiad-1.0.dev.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (naiad) Data has been updated for this package.
 [INFO] (nailbox) This package is up to date.
 [INFO] (nailer) This package is up to date.
 [INFO] (nailgun) This package is up to date.
@@ -160,7 +142,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (naivede) This package is up to date.
 [INFO] (naivetcp) This package is up to date.
 [ERROR] (naja) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.keyphrene.com/products/naja"
 [INFO] (najdisi-sms) This package is up to date.
 [INFO] (nakadi-end2end) This package is up to date.
 [INFO] (naked) This package is up to date.
@@ -217,7 +199,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nameko-redis) This package is up to date.
 [ERROR] (nameko-rethinkdb) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -300,7 +282,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nanshe) This package is up to date.
 [INFO] (nanstats) This package is up to date.
 [ERROR] (nantic-activity) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://bitbucket.org/nantic/trytond-activity"
 [INFO] (nantic-party-relationship) This package is up to date.
 [INFO] (nanyetian-nester) This package is up to date.
 [INFO] (nao) This package is up to date.
@@ -364,7 +346,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (natcap.versioner) This package is up to date.
 [ERROR] (natex-ads-api) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -524,7 +506,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nbxmpp) This package is up to date.
 [INFO] (ncalc) This package is up to date.
 [ERROR] (ncbi) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "ftp://ftp.ncbi.nih.gov/toolbox/ncbi_tools++/2008/Mar_17_2008/Python/"
 [INFO] (ncbi-genome-download) This package is up to date.
 [INFO] (ncbitk) This package is up to date.
 [ERROR] (ncbs) This package does not have downloadable releases.
@@ -705,7 +687,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nekrobox) This package is up to date.
 [ERROR] (nektar) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -732,25 +714,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (nekumo) This package is up to date.
-[ERROR] (nekumo-cloud) Could not extract data from this package. See below for details.
-"https://codeload.github.com/Nekmo/nekumo-cloud/legacy.tar.gz/nekumo-cloud-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (nekumo-cloud) Data has been updated for this package.
 [INFO] (nele) This package is up to date.
 [INFO] (neleval) This package is up to date.
 [INFO] (nelkit) This package is up to date.
@@ -773,7 +737,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nemu) This package is up to date.
 [ERROR] (nemunemuhello) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -795,6 +759,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nengo-dl) This package is up to date.
 [INFO] (nengo-gui) This package is up to date.
 [INFO] (nengo-ocl) This package is up to date.
+[INFO] (nengo-spa) Data has been updated for this package.
 [INFO] (nengo-spinnaker) This package is up to date.
 [INFO] (nensbuild) This package is up to date.
 [INFO] (nensskel) This package is up to date.
@@ -817,9 +782,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (neodjango) This package is up to date.
 [INFO] (neodym) This package is up to date.
 [ERROR] (neodymium) Could not extract data from this package. See below for details.
-"https://codeload.github.com/biwin/neodymium/legacy.tar.gz/neodymium-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/biwin/neodymium/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -879,7 +844,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (nerd-reviewer) This package does not have downloadable releases.
 [INFO] (nerdirc) This package is up to date.
 [ERROR] (nerdy) Could not extract data from this package. See below for details.
-"http://packages.nerdyland.org/nerdy-0.1.dev.tar.gz" file couldnt be downloaded. See below for details.
+"http://packages.nerdyland.org/nerdy-0.1.dev.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
   File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
     h.request(req.get_method(), req.selector, req.data, headers)
@@ -904,7 +869,7 @@ socket.timeout: timed out
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -950,7 +915,7 @@ urllib.error.URLError: <urlopen error timed out>
 [INFO] (nest-api) This package is up to date.
 [ERROR] (nest-cx) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -996,7 +961,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nestcecil) This package is up to date.
 [ERROR] (neste) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1035,7 +1000,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nestedjos) This package is up to date.
 [ERROR] (nestedlist) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1093,7 +1058,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nester-6504) This package is up to date.
 [ERROR] (nester-9641) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1121,7 +1086,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (nester-9644) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1214,7 +1179,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nester-djbt) This package is up to date.
 [ERROR] (nester-djf) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1248,7 +1213,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nester-eji5024) This package is up to date.
 [ERROR] (nester-el-pone) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1307,7 +1272,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nester-hl) This package is up to date.
 [ERROR] (nester-hoc) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1353,7 +1318,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nester-jessy) This package is up to date.
 [ERROR] (nester-jian) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1385,7 +1350,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (nester-jonny) This package does not have downloadable releases.
 [ERROR] (nester-joulgo) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1419,7 +1384,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nester-justin-lin) This package is up to date.
 [ERROR] (nester-jwjun) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1533,7 +1498,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nester-qmn) This package is up to date.
 [ERROR] (nester-quark21) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1589,7 +1554,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nester-sherlockyang) This package is up to date.
 [ERROR] (nester-shihaoxu) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1624,7 +1589,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nester-slayer) This package is up to date.
 [ERROR] (nester-smc) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1787,9 +1752,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nester123) This package is up to date.
 [INFO] (nester123-321) This package is up to date.
 [ERROR] (nester12312312) Could not extract data from this package. See below for details.
-"https://codeload.github.com/neal0892/nester123.git/legacy.tar.gz/nester12312312-1.0.0.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/neal0892/nester123.git/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1819,14 +1784,58 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nester1986) This package is up to date.
 [INFO] (nester198882) This package is up to date.
 [INFO] (nester1990xing) This package is up to date.
-[INFO] (nester1991) This package is up to date.
+[ERROR] (nester1991) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1107, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1152, in _send_request
+    self.endheaders(body)
+  File "/usr/lib/python3.5/http/client.py", line 1103, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/usr/lib/python3.5/http/client.py", line 1261, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python3.5/ssl.py", line 385, in wrap_socket
+    _context=self)
+  File "/usr/lib/python3.5/ssl.py", line 760, in __init__
+    self.do_handshake()
+  File "/usr/lib/python3.5/ssl.py", line 996, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib/python3.5/ssl.py", line 641, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
+    '_open', req)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/usr/lib/python3.5/urllib/request.py", line 1256, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 104] Connection reset by peer>
+
 [INFO] (nester1py) This package is up to date.
 [INFO] (nester1testing) This package is up to date.
 [ERROR] (nester1z1) This package does not have downloadable releases.
 [ERROR] (nester2) This package does not have downloadable releases.
 [ERROR] (nester20111001) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1844,7 +1853,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (nester201409092324) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1902,7 +1911,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nester7758) This package is up to date.
 [ERROR] (nester7863) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1947,7 +1956,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nesterchenchengkuan) This package is up to date.
 [ERROR] (nesterchy) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1967,7 +1976,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nestercjg) This package is up to date.
 [ERROR] (nesterck) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2043,7 +2052,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nesterkkk) This package is up to date.
 [ERROR] (nesterkw) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2115,7 +2124,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nesterrrzzz041) This package is up to date.
 [ERROR] (nesters) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2158,7 +2167,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nestertest123) This package is up to date.
 [ERROR] (nestertest20140111) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2187,7 +2196,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nesterv) This package is up to date.
 [ERROR] (nestervgb2017) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2215,7 +2224,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (nestervictor) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2289,7 +2298,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nestprinter) This package is up to date.
 [ERROR] (nestrer) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2385,7 +2394,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (netifaces-py3) This package does not have downloadable releases.
 [ERROR] (netifaces-ya) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2414,7 +2423,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netify) This package is up to date.
 [ERROR] (netipsum) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2479,7 +2488,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netstr) This package is up to date.
 [INFO] (netstream) This package is up to date.
 [ERROR] (netstring) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/netstring/downloads/list"
 [INFO] (netstruct) This package is up to date.
 [INFO] (netsu) This package is up to date.
 [INFO] (netsu-plugin-connectivitycheck) This package is up to date.
@@ -2506,7 +2515,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (network-meeting-example-karl) This package is up to date.
 [ERROR] (network-meeting-example-kg) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2597,7 +2606,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netzob) This package is up to date.
 [ERROR] (neuauth) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2666,7 +2675,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (neutron-beam) This package is up to date.
 [ERROR] (neutron-dynamic-routing) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2698,8 +2707,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (neutronbraggedge) This package is up to date.
 [INFO] (neutronpy) This package is up to date.
 [INFO] (neverbounce) This package is up to date.
-[ERROR] (neveredit) Could not extract data from this package. See below for details.
-".tar.gz?download" extension not supported.
+[INFO] (neveredit) Data has been updated for this package.
 [INFO] (neverfails) This package is up to date.
 [INFO] (nevermore) This package is up to date.
 [INFO] (nevow) This package is up to date.
@@ -2744,7 +2752,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (newsapi-cli) This package is up to date.
 [ERROR] (newsblur-api) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2783,7 +2791,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (newsstand-db) This package is up to date.
 [ERROR] (newster) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2826,7 +2834,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nextf1race) This package is up to date.
 [ERROR] (nexttest) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2994,7 +3002,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ngs-plumbing) This package is up to date.
 [ERROR] (ngsbq.main) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3102,7 +3110,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nik4) This package is up to date.
 [ERROR] (nikeplus) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3127,25 +3135,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nikolaev) This package is up to date.
 [INFO] (nikolskii) This package is up to date.
 [INFO] (nikonov) This package is up to date.
-[ERROR] (nikopackage) Could not extract data from this package. See below for details.
-"https://codeload.github.com/nikoyeah/work2/legacy.tar.gz/nikopackage-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (nikopackage) Data has been updated for this package.
 [INFO] (niku) This package is up to date.
 [INFO] (nikulin) This package is up to date.
 [INFO] (nikunjlistfunctions) This package is up to date.
@@ -3155,25 +3145,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nilas) This package is up to date.
 [INFO] (nilearn) This package is up to date.
 [ERROR] (nilm) This package does not have downloadable releases.
-[ERROR] (nilm-metadata) Could not extract data from this package. See below for details.
-"https://codeload.github.com/nilmtk/nilm_metadata/legacy.tar.gz/nilm-metadata-0.2.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (nilm-metadata) Data has been updated for this package.
 [INFO] (nilo.webgallery) This package is up to date.
 [INFO] (nilsimsa) This package is up to date.
 [INFO] (nim) This package is up to date.
@@ -3187,7 +3159,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nimbus-sat) This package is up to date.
 [ERROR] (nimbusdrivers) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3217,9 +3189,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ninepatch) This package is up to date.
 [INFO] (ninja) This package is up to date.
 [ERROR] (ninja-ide) Could not extract data from this package. See below for details.
-"http://ninja-ide.googlecode.com/files/ninja-ide-1.0b2.tar.gz" file couldnt be downloaded. See below for details.
+"http://ninja-ide.googlecode.com/files/ninja-ide-1.0b2.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3327,7 +3299,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nlnormaliz) This package is up to date.
 [ERROR] (nlog) This package does not have downloadable releases.
 [ERROR] (nlp) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://pypi.python.org/pypi/nlp"
 [INFO] (nlp-services) This package is up to date.
 [ERROR] (nlp-sketch) This package does not have downloadable releases.
 [INFO] (nlpbox) This package is up to date.
@@ -3440,9 +3412,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (nodebox) This package does not have downloadable releases.
 [INFO] (nodebox-color) This package is up to date.
 [ERROR] (nodebox-for-opengl) Could not extract data from this package. See below for details.
-"https://codeload.github.com/downloads/nodebox/legacy.tar.gz/nodebox-for-opengl-1.7.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/downloads/nodebox/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3479,7 +3451,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nodeenv) This package is up to date.
 [ERROR] (nodehunter) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3504,25 +3476,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nodenet) This package is up to date.
 [INFO] (nodepool) This package is up to date.
 [INFO] (nodepy) This package is up to date.
-[ERROR] (nodered) Could not extract data from this package. See below for details.
-"https://codeload.github.com/d3f0/pynodered/legacy.tar.gz/nodered-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (nodered) Data has been updated for this package.
 [INFO] (noderoot) This package is up to date.
 [INFO] (nodes) This package is up to date.
 [INFO] (nodeshot) This package is up to date.
@@ -3558,7 +3512,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nolearn-utils) This package is up to date.
 [ERROR] (nolp) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3636,7 +3590,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (noophttp) This package is up to date.
 [ERROR] (noor) This package does not have downloadable releases.
 [ERROR] (noora) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://sourceforge.net/projects/noora/files/noora_0.0.9.tar.gz/download"
 [INFO] (noorm) This package is up to date.
 [INFO] (nop) This package is up to date.
 [INFO] (nopassword) This package is up to date.
@@ -3746,7 +3700,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nose-numpyseterr) This package is up to date.
 [ERROR] (nose-nyancat) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3778,25 +3732,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nose-priority) This package is up to date.
 [INFO] (nose-profile) This package is up to date.
 [INFO] (nose-progressive) This package is up to date.
-[ERROR] (nose-psprofile) Could not extract data from this package. See below for details.
-"https://codeload.github.com/atejeda/nose-psprofile/legacy.tar.gz/nose-psprofile-1.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (nose-psprofile) Data has been updated for this package.
 [INFO] (nose-pudb) This package is up to date.
 [ERROR] (nose-pynotify) Could not extract data from this package. See below for details.
 
@@ -3896,7 +3832,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nosetests-json-extended-parallel) This package is up to date.
 [INFO] (nosetp) This package is up to date.
 [ERROR] (nosetrim) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://nosetrim.googlecode.com/svn/trunk/#egg=nosetrim-dev"
 [INFO] (nosetty) This package is up to date.
 [INFO] (nosetwilio) This package is up to date.
 [INFO] (nosexcover) This package is up to date.
@@ -3986,7 +3922,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (notizen) This package is up to date.
 [ERROR] (notmm) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4057,7 +3993,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nowsync) This package is up to date.
 [ERROR] (nox) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4104,7 +4040,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (npmdownloader) This package is up to date.
 [ERROR] (npmln) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4170,7 +4106,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nsequoter) This package is up to date.
 [ERROR] (nserver.db) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4217,31 +4153,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nsqs) This package is up to date.
 [INFO] (nsqworker) This package is up to date.
 [INFO] (nssjson) This package is up to date.
-[ERROR] (nstats) Could not extract data from this package. See below for details.
-"https://codeload.github.com/zickyzazang/NStats/legacy.tar.gz/nstats-1.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (nstats) Data has been updated for this package.
 [INFO] (nster) This package is up to date.
 [INFO] (nstruct) This package is up to date.
 [INFO] (nsupdate) This package is up to date.
 [ERROR] (nsupdate-web) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4351,7 +4269,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (num2words) This package is up to date.
 [INFO] (numa) This package is up to date.
 [ERROR] (numarray) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://sourceforge.net/projects/numpy"
 [INFO] (numaster) This package is up to date.
 [INFO] (numba) This package is up to date.
 [ERROR] (numbagg) This package does not have downloadable releases.
@@ -4359,11 +4277,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (number-converter) This package is up to date.
 [INFO] (number-recognizer) This package is up to date.
 [ERROR] (number-shortener) Could not extract data from this package. See below for details.
-".py?dl=0" extension not supported.
+".py" extension not supported.
 [INFO] (number-verifier) This package is up to date.
 [INFO] (number2name-es) This package is up to date.
 [ERROR] (numbergen) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://ioam.github.io/param"
 [INFO] (numberguesser) This package is up to date.
 [INFO] (numberify) This package is up to date.
 [INFO] (numberjack) This package is up to date.
@@ -4409,7 +4327,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (numpy-groupies) This package is up to date.
 [INFO] (numpy-indexed) This package is up to date.
 [ERROR] (numpy-mkl) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://sourceforge.net/projects/numpy/files/NumPy/"
 [INFO] (numpy-pypy) This package is up to date.
 [INFO] (numpy-quaternion) This package is up to date.
 [INFO] (numpy-ringbuffer) This package is up to date.
@@ -4438,7 +4356,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nupack) This package is up to date.
 [INFO] (nupic) This package is up to date.
 [INFO] (nupic-studio) This package is up to date.
-[INFO] (nupic.bindings) This package is up to date.
+[INFO] (nupic.bindings) Data has been updated for this package.
 [ERROR] (nupicpipdemo) This package does not have downloadable releases.
 [INFO] (nupis) This package is up to date.
 [INFO] (nuplone) This package is up to date.
@@ -4484,7 +4402,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nwanime-dl) This package is up to date.
 [ERROR] (nway) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4509,7 +4427,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nwsclient) This package is up to date.
 [INFO] (nwsserver) This package is up to date.
 [ERROR] (nwu) Could not extract data from this package. See below for details.
-"http://cetico.org/nwu-latest.tar.gz" file couldnt be downloaded. See below for details.
+"http://cetico.org/nwu-latest.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
   File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
     h.request(req.get_method(), req.selector, req.data, headers)
@@ -4534,7 +4452,7 @@ socket.timeout: timed out
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4617,14 +4535,14 @@ urllib.error.URLError: <urlopen error timed out>
 [INFO] (nzmath) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 3234
-[INFO]     Packages processed: 3234
-[INFO]         Packages updated: 0
-[INFO]         Packages up-to-date: 2814
-[INFO]         Packages without response: 49
+[INFO] Total packages: 3235
+[INFO]     Packages processed: 3235
+[INFO]         Packages updated: 10
+[INFO]         Packages up-to-date: 2812
+[INFO]         Packages without response: 50
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 342
-[INFO]         Packages with data errors: 29
+[INFO]         Packages with data errors: 21
 [INFO]     Packages not processed: 0
 [INFO] 
 [INFO] 

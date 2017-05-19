@@ -1047,8 +1047,14 @@
     },
     "naiad": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "naiad",
+            "naiad.bootstrap",
+            "naiad.cli",
+            "naiad.core",
+            "naiad.example"
+        ],
+        "version": "1.0.dev"
     },
     "nailbox": {
         "cmdline": [],
@@ -9145,9 +9151,44 @@
         "version": "0.1.2"
     },
     "nekumo-cloud": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "nekumo"
+        ],
+        "modules": [
+            "nekumo",
+            "nekumo.conf",
+            "nekumo.conf.base",
+            "nekumo.core",
+            "nekumo.core.api",
+            "nekumo.core.events",
+            "nekumo.core.i18n",
+            "nekumo.core.management",
+            "nekumo.core.nekumo",
+            "nekumo.core.pubsub",
+            "nekumo.exceptions",
+            "nekumo.gateways",
+            "nekumo.gateways.base",
+            "nekumo.gateways.fs",
+            "nekumo.gateways.fs.watcher",
+            "nekumo.ifaces",
+            "nekumo.ifaces.angular_web",
+            "nekumo.ifaces.angular_web.api",
+            "nekumo.ifaces.angular_web.events",
+            "nekumo.ifaces.angular_web.views",
+            "nekumo.ifaces.base",
+            "nekumo.ifaces.simple_web",
+            "nekumo.ifaces.simple_web.api",
+            "nekumo.ifaces.simple_web.exceptions",
+            "nekumo.ifaces.simple_web.jinja",
+            "nekumo.ifaces.simple_web.views",
+            "nekumo.models",
+            "nekumo.plugins",
+            "nekumo.plugins.encode",
+            "nekumo.plugins.thumbs",
+            "nekumo.utils",
+            "nekumo.utils.modules"
+        ],
+        "version": "0.1.0"
     },
     "nele": {
         "cmdline": [],
@@ -9742,6 +9783,50 @@
             "nengo_ocl.version"
         ],
         "version": "1.2.0"
+    },
+    "nengo-spa": {
+        "cmdline": [],
+        "modules": [
+            "nengo_spa",
+            "nengo_spa.actions",
+            "nengo_spa.ast",
+            "nengo_spa.config",
+            "nengo_spa.conftest",
+            "nengo_spa.examine",
+            "nengo_spa.exceptions",
+            "nengo_spa.math",
+            "nengo_spa.modules",
+            "nengo_spa.modules.assoc_mem",
+            "nengo_spa.modules.basalganglia",
+            "nengo_spa.modules.bind",
+            "nengo_spa.modules.compare",
+            "nengo_spa.modules.input",
+            "nengo_spa.modules.product",
+            "nengo_spa.modules.scalar",
+            "nengo_spa.modules.state",
+            "nengo_spa.modules.thalamus",
+            "nengo_spa.network",
+            "nengo_spa.networks",
+            "nengo_spa.networks.circularconvolution",
+            "nengo_spa.networks.identity_ensemble_array",
+            "nengo_spa.networks.selection",
+            "nengo_spa.networks.tests",
+            "nengo_spa.networks.tests.test_circularconv",
+            "nengo_spa.networks.tests.test_selection",
+            "nengo_spa.pointer",
+            "nengo_spa.tests",
+            "nengo_spa.tests.test_actions",
+            "nengo_spa.tests.test_ast",
+            "nengo_spa.tests.test_examine",
+            "nengo_spa.tests.test_examples",
+            "nengo_spa.tests.test_math",
+            "nengo_spa.tests.test_network",
+            "nengo_spa.tests.test_pointer",
+            "nengo_spa.tests.test_vocabulary",
+            "nengo_spa.version",
+            "nengo_spa.vocab"
+        ],
+        "version": "0.1.1"
     },
     "nengo-spinnaker": {
         "cmdline": [],
@@ -24960,9 +25045,84 @@
         "version": "0.2.0"
     },
     "neveredit": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "nevercommand",
+            "neveredit",
+            "nevererf",
+            "neverscript"
+        ],
+        "modules": [
+            "neveredit",
+            "neveredit.file",
+            "neveredit.file.BIFFile",
+            "neveredit.file.BinaryDataHandler",
+            "neveredit.file.CExoLocString",
+            "neveredit.file.ERFFile",
+            "neveredit.file.GFFFile",
+            "neveredit.file.KeyFile",
+            "neveredit.file.MDLFile",
+            "neveredit.file.NeverFile",
+            "neveredit.file.TalkTableFile",
+            "neveredit.file.TileSetFile",
+            "neveredit.file.TwoDAFile",
+            "neveredit.game",
+            "neveredit.game.Area",
+            "neveredit.game.ChangeNotification",
+            "neveredit.game.Conversation",
+            "neveredit.game.Creature",
+            "neveredit.game.Door",
+            "neveredit.game.Item",
+            "neveredit.game.Module",
+            "neveredit.game.NeverData",
+            "neveredit.game.Palette",
+            "neveredit.game.Placeable",
+            "neveredit.game.ResourceManager",
+            "neveredit.game.Script",
+            "neveredit.game.SituatedObject",
+            "neveredit.game.Tile",
+            "neveredit.makebundle",
+            "neveredit.openglcontext",
+            "neveredit.openglcontext.quaternion",
+            "neveredit.openglcontext.utilities",
+            "neveredit.openglcontext.vectorutilities",
+            "neveredit.resources",
+            "neveredit.resources.images",
+            "neveredit.resources.images.neveredit_logo_init_jpg",
+            "neveredit.resources.images.neveredit_logo_init_psd",
+            "neveredit.resources.images.neveredit_logo_jpg",
+            "neveredit.resources.images.neveredit_logo_psd",
+            "neveredit.resources.images.paint_icon_png",
+            "neveredit.resources.images.paint_icon_sel_png",
+            "neveredit.resources.images.rotate_icon_png",
+            "neveredit.resources.images.rotate_icon_sel_png",
+            "neveredit.resources.images.select_icon_png",
+            "neveredit.resources.images.select_icon_sel_png",
+            "neveredit.resources.xrc",
+            "neveredit.resources.xrc.PreferencesDialog_xrc",
+            "neveredit.ui",
+            "neveredit.ui.ConversationWindow",
+            "neveredit.ui.GLWindow",
+            "neveredit.ui.HelpViewer",
+            "neveredit.ui.MapWindow",
+            "neveredit.ui.ModelWindow",
+            "neveredit.ui.NeverEditMainApp",
+            "neveredit.ui.Notebook",
+            "neveredit.ui.PreferencesDialog",
+            "neveredit.ui.PropWindow",
+            "neveredit.ui.ScriptEditor",
+            "neveredit.ui.TilingWindow",
+            "neveredit.ui.ToolPalette",
+            "neveredit.ui.WxUtils",
+            "neveredit.util",
+            "neveredit.util.Loggers",
+            "neveredit.util.Preferences",
+            "neveredit.util.Progressor",
+            "neveredit.util.Utils",
+            "neveredit.util.check_versions",
+            "neveredit.util.neverglobals",
+            "neveredit.util.plistlib"
+        ],
+        "version": "0.8.1"
     },
     "neverfails": {
         "cmdline": [],
@@ -30609,7 +30769,7 @@
     "nikopackage": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.1"
     },
     "niku": {
         "cmdline": [],
@@ -30811,8 +30971,20 @@
     },
     "nilm-metadata": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "nilm_metadata",
+            "nilm_metadata.central_metadata",
+            "nilm_metadata.central_metadata.appliance_types",
+            "nilm_metadata.convert_yaml_to_hdf5",
+            "nilm_metadata.file_management",
+            "nilm_metadata.object_concatenation",
+            "nilm_metadata.tests",
+            "nilm_metadata.tests.test_convert_yaml_to_hdf5",
+            "nilm_metadata.tests.test_nilm_metadata",
+            "nilm_metadata.tests.test_object_concatenation",
+            "nilm_metadata.version"
+        ],
+        "version": "0.2.0"
     },
     "nilo.webgallery": {
         "cmdline": [],
@@ -42146,8 +42318,11 @@
     },
     "nodered": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "D3f0-pynodered-0b9be0e",
+            "D3f0-pynodered-0b9be0e.setup"
+        ],
+        "version": "0.1"
     },
     "noderoot": {
         "cmdline": [],
@@ -44749,7 +44924,7 @@
     "nose-psprofile": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "1.0"
     },
     "nose-pudb": {
         "cmdline": [],
@@ -49602,7 +49777,7 @@
     "nstats": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "1.0"
     },
     "nster": {
         "cmdline": [],
@@ -53514,21 +53689,13 @@
             "bindings.regions",
             "bindings.regions.PyRegion",
             "bindings.regions.TestNode",
-            "proto",
-            "tests",
-            "tests.array_algorithms_test",
-            "tests.cast_mode_test",
-            "tests.check_test",
-            "tests.connections_test",
-            "tests.network_test",
-            "tests.nupic_random_test",
-            "tests.pyregion_test",
-            "tests.segment_sparse_matrix_test",
-            "tests.sparse_binary_matrix_test",
-            "tests.sparse_matrix_test",
-            "tests.temporal_memory_test"
+            "bindings.tools",
+            "bindings.tools.cyclical_serialization_perf",
+            "bindings.tools.random_serialization_perf",
+            "bindings.tools.serialization_test_py_region",
+            "proto"
         ],
-        "version": "0.6.1"
+        "version": "0.6.2"
     },
     "nupicpipdemo": {
         "cmdline": [],
