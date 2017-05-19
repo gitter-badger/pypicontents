@@ -2363,7 +2363,7 @@
             "radiometric_normalization.transformation",
             "radiometric_normalization.validation"
         ],
-        "version": "0.1.153"
+        "version": "0.1.154"
     },
     "radiomics": {
         "cmdline": [],
@@ -25361,7 +25361,7 @@
             "releases.models",
             "releases.util"
         ],
-        "version": "1.3.0"
+        "version": "1.3.1"
     },
     "releasetasks": {
         "cmdline": [],
@@ -25827,13 +25827,9 @@
         "version": "0.1"
     },
     "reloadr": {
-        "cmdline": [
-            "reloadr.py"
-        ],
-        "modules": [
-            "reloadr"
-        ],
-        "version": "0.2.0"
+        "cmdline": [],
+        "modules": [],
+        "version": "0.3.0"
     },
     "reloadwsgi": {
         "cmdline": [],
@@ -39666,7 +39662,7 @@
     "rglogger": {
         "cmdline": [],
         "modules": [],
-        "version": "1.4.0"
+        "version": "1.5.0"
     },
     "rglogger-fdh": {
         "cmdline": [],
@@ -41135,7 +41131,7 @@
             "ricecooker.utils.html",
             "ricecooker.utils.zip"
         ],
-        "version": "0.5.7"
+        "version": "0.5.8"
     },
     "ricerca": {
         "cmdline": [],
