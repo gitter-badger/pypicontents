@@ -16776,6 +16776,16 @@
         ],
         "version": "0.6.4"
     },
+    "fh": {
+        "cmdline": [],
+        "modules": [
+            "fh",
+            "fh.annotations",
+            "fh.feed",
+            "fh.util"
+        ],
+        "version": "0.0.2"
+    },
     "fh-django-assetmanager": {
         "cmdline": [],
         "modules": [
