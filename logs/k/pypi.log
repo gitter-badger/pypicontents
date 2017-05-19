@@ -1,0 +1,1894 @@
+[INFO] Starting execution.
+[INFO] Downloading package list from PyPI ...
+[INFO] (k) This package is up to date.
+[INFO] (k-index-calculator) This package is up to date.
+[INFO] (k-means-plus-plus) This package is up to date.
+[INFO] (k2catalogue) This package is up to date.
+[INFO] (k2d) This package is up to date.
+[INFO] (k2ephem) This package is up to date.
+[INFO] (k2flix) This package is up to date.
+[INFO] (k2fov) This package is up to date.
+[INFO] (k2mosaic) This package is up to date.
+[INFO] (k2plr) This package is up to date.
+[INFO] (k3d) This package is up to date.
+[ERROR] (k5dstatus) This package does not have downloadable releases.
+[INFO] (k5test) This package is up to date.
+[INFO] (k5viz) This package is up to date.
+[INFO] (k8env) This package is up to date.
+[INFO] (k8s-helper) This package is up to date.
+[INFO] (k8sdc) This package is up to date.
+[INFO] (k8senv) This package is up to date.
+[INFO] (k8svag) This package is up to date.
+[INFO] (ka-lite) This package is up to date.
+[INFO] (ka-lite-gtk) This package is up to date.
+[INFO] (ka-lite-static) This package is up to date.
+[INFO] (ka-nester) This package is up to date.
+[ERROR] (kaa) Could not extract data from this package. See below for details.
+"http://zephyrfalcon.org/download/kaa-0.9.zip" file couldnt be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (kaa-base) This package is up to date.
+[INFO] (kaa-candy) This package is up to date.
+[INFO] (kaa-display) This package is up to date.
+[INFO] (kaa-imlib2) This package is up to date.
+[INFO] (kaa-metadata) This package is up to date.
+[INFO] (kaadbg) This package is up to date.
+[INFO] (kaaedit) This package is up to date.
+[INFO] (kaathletelist) This package is up to date.
+[INFO] (kabaret) This package is up to date.
+[INFO] (kabaret.core) This package is up to date.
+[INFO] (kabaret.flow) This package is up to date.
+[INFO] (kabaret.gui) This package is up to date.
+[INFO] (kabaret.naming) This package is up to date.
+[INFO] (kabaret.studio) This package is up to date.
+[INFO] (kaboom) This package is up to date.
+[INFO] (kabuki) This package is up to date.
+[INFO] (kabutopy) This package is up to date.
+[INFO] (kache) This package is up to date.
+[INFO] (kaching) This package is up to date.
+[ERROR] (kacho) This package does not have downloadable releases.
+[INFO] (kacors485) This package is up to date.
+[INFO] (kaczmarz) This package is up to date.
+[INFO] (kad.py) This package is up to date.
+[INFO] (kadabra) This package is up to date.
+[INFO] (kademlia) This package is up to date.
+[INFO] (kadot) This package is up to date.
+[INFO] (kaeru-parser) This package is up to date.
+[INFO] (kafe) This package is up to date.
+[INFO] (kafka) This package is up to date.
+[INFO] (kafka-bus-python) This package is up to date.
+[INFO] (kafka-connector) This package is up to date.
+[INFO] (kafka-dev-tools) This package is up to date.
+[INFO] (kafka-helper) This package is up to date.
+[INFO] (kafka-influxdb) This package is up to date.
+[INFO] (kafka-log-handler) This package is up to date.
+[INFO] (kafka-logger) This package is up to date.
+[INFO] (kafka-python) This package is up to date.
+[INFO] (kafka-quixey) This package is up to date.
+[INFO] (kafka-replayer) This package is up to date.
+[INFO] (kafka-rest) This package is up to date.
+[INFO] (kafka-rest-client) This package is up to date.
+[INFO] (kafka-scanner) This package is up to date.
+[INFO] (kafka-store) This package is up to date.
+[INFO] (kafka-tools) This package is up to date.
+[INFO] (kafka-utils) This package is up to date.
+[INFO] (kafkaka) This package is up to date.
+[INFO] (kafkatos3) This package is up to date.
+[INFO] (kafnafparserpy) This package is up to date.
+[INFO] (kaftools) This package is up to date.
+[INFO] (kafx) This package is up to date.
+[INFO] (kaggle-cli) This package is up to date.
+[INFO] (kaggle-tools) This package is up to date.
+[INFO] (kaggler) This package is up to date.
+[INFO] (kagin) This package is up to date.
+[INFO] (kagiso-django-auth) This package is up to date.
+[INFO] (kagiso-flake8) This package is up to date.
+[INFO] (kagiso-image) This package is up to date.
+[INFO] (kagiso-search) This package is up to date.
+[INFO] (kagiso-sitemap) This package is up to date.
+[INFO] (kagiso-smart-404) This package is up to date.
+[INFO] (kagiso-wagtail-slack) This package is up to date.
+[INFO] (kahgean) This package is up to date.
+[INFO] (kai) This package is up to date.
+[ERROR] (kaia) This package does not have downloadable releases.
+[INFO] (kaichu) This package is up to date.
+[INFO] (kaif) This package is up to date.
+[INFO] (kaiju) This package is up to date.
+[INFO] (kaipy) This package is up to date.
+[INFO] (kairios) This package is up to date.
+[INFO] (kairos) This package is up to date.
+[INFO] (kaiso) This package is up to date.
+[INFO] (kaitaistruct) This package is up to date.
+[INFO] (kaizen) This package is up to date.
+[INFO] (kajiki) This package is up to date.
+[ERROR] (kakao) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (kakaoa) This package does not have downloadable releases.
+[INFO] (kakaobot) This package is up to date.
+[ERROR] (kakaos) This package does not have downloadable releases.
+[ERROR] (kakaotalk) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (kakasi-utils) This package is up to date.
+[INFO] (kakuro) This package is up to date.
+[INFO] (kalachev) This package is up to date.
+[INFO] (kalapy) This package is up to date.
+[INFO] (kalashnikov) This package is up to date.
+[INFO] (kale) This package is up to date.
+[INFO] (kaleo) This package is up to date.
+[INFO] (kales) This package is up to date.
+[ERROR] (kali) This package does not have downloadable releases.
+[INFO] (kalibrate) This package is up to date.
+[INFO] (kalibro-client) This package is up to date.
+[INFO] (kalinin) This package is up to date.
+[INFO] (kallankallan-nester) This package is up to date.
+[INFO] (kallikrein) This package is up to date.
+[INFO] (kalliope) This package is up to date.
+[INFO] (kallithea) This package is up to date.
+[INFO] (kallithea-auth-container-internal) This package is up to date.
+[INFO] (kallithea-auth-google) This package is up to date.
+[INFO] (kalman) This package is up to date.
+[INFO] (kalmykov) This package is up to date.
+[INFO] (kalsimplenester) This package is up to date.
+[INFO] (kalugin) This package is up to date.
+[INFO] (kamaelia) This package is up to date.
+[INFO] (kamaki) This package is up to date.
+[INFO] (kambo) This package is up to date.
+[INFO] (kamer) This package is up to date.
+[INFO] (kamidana) This package is up to date.
+[INFO] (kamikaze) This package is up to date.
+[INFO] (kamnanditestfile) This package is up to date.
+[INFO] (kamo) This package is up to date.
+[ERROR] (kampuchea) This package does not have downloadable releases.
+[INFO] (kamy) This package is up to date.
+[INFO] (kan) This package is up to date.
+[ERROR] (kana) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (kanaconv) This package is up to date.
+[INFO] (kanagata) This package is up to date.
+[INFO] (kanban-simulator) This package is up to date.
+[INFO] (kanboard) This package is up to date.
+[INFO] (kanboard-cli) This package is up to date.
+[INFO] (kanboard-gitlab) This package is up to date.
+[INFO] (kanc) This package is up to date.
+[INFO] (kandilli) This package is up to date.
+[INFO] (kando) This package is up to date.
+[INFO] (kandu) This package is up to date.
+[INFO] (kandy) This package is up to date.
+[INFO] (kaneda) This package is up to date.
+[INFO] (kanedama) This package is up to date.
+[INFO] (kangkangpy-nester) This package is up to date.
+[INFO] (kangrouter-py) This package is up to date.
+[INFO] (kanit) This package is up to date.
+[INFO] (kanjinetworks) This package is up to date.
+[INFO] (kankube) This package is up to date.
+[INFO] (kanone) This package is up to date.
+[INFO] (kanpy) This package is up to date.
+[INFO] (kanren) This package is up to date.
+[ERROR] (kansas) This package does not have downloadable releases.
+[INFO] (kansha) This package is up to date.
+[INFO] (kantanpage) This package is up to date.
+[INFO] (kanten) This package is up to date.
+[INFO] (kantonzugpdf) This package is up to date.
+[INFO] (kaolibrary) This package is up to date.
+[INFO] (kaoru) This package is up to date.
+[INFO] (kaos) This package is up to date.
+[INFO] (kaoz) This package is up to date.
+[ERROR] (kapellmeister-ansible) This package does not have downloadable releases.
+[INFO] (kaplot) This package is up to date.
+[INFO] (kappa) This package is up to date.
+[INFO] (kappacuda) This package is up to date.
+[INFO] (kapre) This package is up to date.
+[ERROR] (kapri) Could not extract data from this package. See below for details.
+"https://codeload.github.com/Oscailt/kapri.git/legacy.tar.gz/kapri-1.0.0.1.tar.gz" file couldnt be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (kapsel) This package is up to date.
+[INFO] (kaptan) This package is up to date.
+[INFO] (kapteyn) This package is up to date.
+[INFO] (kaptl) This package is up to date.
+[INFO] (kapustin) This package is up to date.
+[INFO] (karaage) This package is up to date.
+[INFO] (karaage-cluster-tools) This package is up to date.
+[INFO] (karait) This package is up to date.
+[INFO] (karakuri) This package is up to date.
+[INFO] (karasev) This package is up to date.
+[INFO] (karatsuba) This package is up to date.
+[INFO] (karbor) This package is up to date.
+[INFO] (karbor-dashboard) This package is up to date.
+[INFO] (karellen-geventws) This package is up to date.
+[INFO] (karellen-kombu-ext) This package is up to date.
+[INFO] (karellen-pyb-plugin) This package is up to date.
+[INFO] (karellen-sqlite) This package is up to date.
+[INFO] (karellen-stack-core) This package is up to date.
+[INFO] (karellen-testing) This package is up to date.
+[ERROR] (karesansui) This package does not have downloadable releases.
+[INFO] (kargo) This package is up to date.
+[ERROR] (karim-distribution) This package does not have downloadable releases.
+[INFO] (karld) This package is up to date.
+[ERROR] (karlooper) This package does not have downloadable releases.
+[ERROR] (karma) This package does not have downloadable releases.
+[INFO] (karmadbg) This package is up to date.
+[ERROR] (karmapi) Could not extract data from this package. See below for details.
+Unsupported package directory structure.
+[INFO] (karnickel) This package is up to date.
+[INFO] (karpov) This package is up to date.
+[ERROR] (karrigell) Could not extract data from this package. See below for details.
+".3.9.gz&can=2&q=" extension not supported.
+[INFO] (karta) This package is up to date.
+[INFO] (kartashov) This package is up to date.
+[ERROR] (kartograph) This package does not have downloadable releases.
+[INFO] (karton) This package is up to date.
+[INFO] (kartskrape) This package is up to date.
+[INFO] (kasami) This package is up to date.
+[INFO] (kasatkin) This package is up to date.
+[INFO] (kash) This package is up to date.
+[INFO] (kasianov) This package is up to date.
+[INFO] (kasner) This package is up to date.
+[INFO] (kassis-numbering) This package is up to date.
+[INFO] (kat) This package is up to date.
+[INFO] (katabankocr) This package is up to date.
+[INFO] (katagami) This package is up to date.
+[INFO] (katal) This package is up to date.
+[INFO] (katana) This package is up to date.
+[INFO] (katana-sdk-python2) This package is up to date.
+[INFO] (katana-sdk-python3) This package is up to date.
+[INFO] (katapayadi) This package is up to date.
+[INFO] (katastrophe) This package is up to date.
+[INFO] (katcli) This package is up to date.
+[INFO] (katcp) This package is up to date.
+[INFO] (katcr) This package is up to date.
+[INFO] (katdal) This package is up to date.
+[INFO] (kate-plugins) This package is up to date.
+[INFO] (katello-cli) This package is up to date.
+[ERROR] (katipo) This package does not have downloadable releases.
+[INFO] (katnip) This package is up to date.
+[INFO] (katoadhocexpress) This package is up to date.
+[INFO] (katpoint) This package is up to date.
+[INFO] (katpy) This package is up to date.
+[INFO] (katversion) This package is up to date.
+[INFO] (kau-nested-list) This package is up to date.
+[INFO] (kavahq-api) This package is up to date.
+[INFO] (kaviar) This package is up to date.
+[INFO] (kawaiisync) This package is up to date.
+[INFO] (kawasemi) This package is up to date.
+[ERROR] (kayak-antfarm) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 504, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 696, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (kayako) This package is up to date.
+[INFO] (kaylee) This package is up to date.
+[INFO] (kayleevc) This package is up to date.
+[INFO] (kayvee) This package is up to date.
+[INFO] (kazakov) This package is up to date.
+[INFO] (kazantsev) This package is up to date.
+[INFO] (kazoo) This package is up to date.
+[INFO] (kazoo-api) This package is up to date.
+[INFO] (kazoo-eventlet-handler) This package is up to date.
+[INFO] (kazoo.yandex) This package is up to date.
+[INFO] (kazookid) This package is up to date.
+[INFO] (kazurator) This package is up to date.
+[INFO] (kazy) This package is up to date.
+[INFO] (kb) This package is up to date.
+[ERROR] (kbdgen) This package does not have downloadable releases.
+[INFO] (kbhit) This package is up to date.
+[INFO] (kbinterface) This package is up to date.
+[INFO] (kbkdna) This package is up to date.
+[INFO] (kc-sanitize) This package is up to date.
+[INFO] (kcat) This package is up to date.
+[INFO] (kcbo) This package is up to date.
+[INFO] (kcem) This package is up to date.
+[INFO] (kclboot) This package is up to date.
+[INFO] (kcli) This package is up to date.
+[INFO] (kclist) This package is up to date.
+[INFO] (kclpy) This package is up to date.
+[INFO] (kcm-nester) This package is up to date.
+[INFO] (kcmapp) This package is up to date.
+[INFO] (kcommonmodule) This package is up to date.
+[INFO] (kcorrect-python) This package is up to date.
+[INFO] (kcrw.nprapi) This package is up to date.
+[INFO] (kcshell) This package is up to date.
+[INFO] (kd100) This package is up to date.
+[INFO] (kdb) This package is up to date.
+[INFO] (kdbq-kernel) This package is up to date.
+[INFO] (kdcount) This package is up to date.
+[INFO] (kdcproxy) This package is up to date.
+[INFO] (kddcup2015-cli) This package is up to date.
+[INFO] (kddg) This package is up to date.
+[ERROR] (kdenlive-tools) This package does not have downloadable releases.
+[INFO] (kdense) This package is up to date.
+[INFO] (kdf) This package is up to date.
+[ERROR] (kdic-project) This package does not have downloadable releases.
+[INFO] (kdniao) This package is up to date.
+[INFO] (kdotp-symmetry) This package is up to date.
+[INFO] (kdr) This package is up to date.
+[INFO] (kdsearch) This package is up to date.
+[INFO] (kdtree) This package is up to date.
+[INFO] (kdvs) This package is up to date.
+[INFO] (kea) This package is up to date.
+[INFO] (kea2) This package is up to date.
+[INFO] (keas.build) This package is up to date.
+[INFO] (keas.googlemap) This package is up to date.
+[INFO] (keas.kmi) This package is up to date.
+[INFO] (keas.pbpersist) This package is up to date.
+[INFO] (keas.pbstate) This package is up to date.
+[INFO] (keas.profile) This package is up to date.
+[INFO] (keas.unit) This package is up to date.
+[ERROR] (kebab) This package does not have downloadable releases.
+[ERROR] (kebap) This package does not have downloadable releases.
+[INFO] (kedo-facebook-sdk) This package is up to date.
+[INFO] (kedo-kazoo) This package is up to date.
+[INFO] (kedo-oauthlib) This package is up to date.
+[ERROR] (kedpm) This package does not have downloadable releases.
+[ERROR] (kee) This package does not have downloadable releases.
+[INFO] (keen) This package is up to date.
+[INFO] (keen-softlayer) This package is up to date.
+[INFO] (keenmqtt) This package is up to date.
+[INFO] (keep) This package is up to date.
+[INFO] (keep-iam-creds-fresh) This package is up to date.
+[INFO] (keep-running) This package is up to date.
+[INFO] (keepaapi) This package is up to date.
+[INFO] (keepalive) This package is up to date.
+[INFO] (keepaneyeon) This package is up to date.
+[INFO] (keepass) This package is up to date.
+[INFO] (keepass-cli) This package is up to date.
+[INFO] (keepass-http) This package is up to date.
+[INFO] (keepassc) This package is up to date.
+[INFO] (keepassdb) This package is up to date.
+[INFO] (keepassx) This package is up to date.
+[INFO] (keepboo-bookmarksparser) This package is up to date.
+[INFO] (keepboo-opengraph) This package is up to date.
+[INFO] (keeper) This package is up to date.
+[INFO] (keepercommander) This package is up to date.
+[INFO] (keepify-py) This package is up to date.
+[INFO] (keepkey) This package is up to date.
+[INFO] (keepkey-agent) This package is up to date.
+[INFO] (keepluggable) This package is up to date.
+[INFO] (keepmeposted) This package is up to date.
+[INFO] (keepnote) This package is up to date.
+[ERROR] (keepup) This package does not have downloadable releases.
+[INFO] (keepuppy) This package is up to date.
+[INFO] (kees) This package is up to date.
+[INFO] (keg) This package is up to date.
+[INFO] (keg-mail) This package is up to date.
+[INFO] (kegberry) This package is up to date.
+[INFO] (kegbot) This package is up to date.
+[INFO] (kegbot-api) This package is up to date.
+[INFO] (kegbot-kegboard) This package is up to date.
+[INFO] (kegbot-pycore) This package is up to date.
+[INFO] (kegbot-pyutils) This package is up to date.
+[INFO] (kegbouncer) This package is up to date.
+[INFO] (kegelements) This package is up to date.
+[INFO] (keggm) This package is up to date.
+[INFO] (keggrest) This package is up to date.
+[INFO] (keglogin) This package is up to date.
+[INFO] (kegmeter-app) This package is up to date.
+[INFO] (kegmeter-common) This package is up to date.
+[INFO] (kegmeter-web) This package is up to date.
+[INFO] (keiko) This package is up to date.
+[INFO] (keithster) This package is up to date.
+[ERROR] (kel) This package does not have downloadable releases.
+[INFO] (kel-cluster) This package is up to date.
+[ERROR] (kel-python) This package does not have downloadable releases.
+[INFO] (kelctl) This package is up to date.
+[INFO] (kelly-criterion) This package is up to date.
+[ERROR] (kelp) This package does not have downloadable releases.
+[INFO] (kelvin-nester) This package is up to date.
+[INFO] (kem) This package is up to date.
+[INFO] (kemlglearn) This package is up to date.
+[INFO] (kemmering) This package is up to date.
+[INFO] (kemptech-openstack-lbaas) This package is up to date.
+[INFO] (kemvi) This package is up to date.
+[INFO] (ken) This package is up to date.
+[INFO] (kenessa) This package is up to date.
+[INFO] (kenji-nester) This package is up to date.
+[INFO] (kenjutsu) This package is up to date.
+[INFO] (kenkou) This package is up to date.
+[INFO] (kennitala) This package is up to date.
+[INFO] (kenny-loggings) This package is up to date.
+[INFO] (kennyg) This package is up to date.
+[ERROR] (kenozooid) This package does not have downloadable releases.
+[INFO] (kentest) This package is up to date.
+[ERROR] (keops) Could not extract data from this package. See below for details.
+"https://codeload.github.com/katrid/keops/legacy.tar.gz/keops-0.4.tar.gz" file couldnt be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (kepub-toolbox) This package is up to date.
+[INFO] (keputils) This package is up to date.
+[INFO] (kepython) This package is up to date.
+[INFO] (keraflow) This package is up to date.
+[INFO] (kerapu) This package is up to date.
+[INFO] (keras) This package is up to date.
+[INFO] (keras-adversarial) This package is up to date.
+[INFO] (keras-cli) This package is up to date.
+[INFO] (keras-diagram) This package is up to date.
+[INFO] (keras-elastic-callback) This package is up to date.
+[INFO] (keras-resnet) This package is up to date.
+[INFO] (keras-rl) This package is up to date.
+[INFO] (keras-rtst) This package is up to date.
+[INFO] (keras-squeezenet) This package is up to date.
+[INFO] (keras-toolbox) This package is up to date.
+[INFO] (keras-tqdm) This package is up to date.
+[INFO] (keras-vgg-buddy) This package is up to date.
+[INFO] (keras-vggface) This package is up to date.
+[INFO] (keras-vis) This package is up to date.
+[INFO] (keras2pmml) This package is up to date.
+[INFO] (kerasglove) This package is up to date.
+[INFO] (kerasio) This package is up to date.
+[INFO] (kerasmodelzoo) This package is up to date.
+[INFO] (kerasvis) This package is up to date.
+[INFO] (kerb-sts) This package is up to date.
+[INFO] (kerberos) This package is up to date.
+[INFO] (kerberos-py23) This package is up to date.
+[INFO] (kerberos-sspi) This package is up to date.
+[INFO] (kerecsen.chen) This package is up to date.
+[INFO] (keres) This package is up to date.
+[INFO] (kerio-api) This package is up to date.
+[INFO] (kerlib) This package is up to date.
+[ERROR] (kermit) This package does not have downloadable releases.
+[INFO] (kern) This package is up to date.
+[INFO] (kerncraft) This package is up to date.
+[INFO] (kernda) This package is up to date.
+[ERROR] (kernel) This package does not have downloadable releases.
+[INFO] (kernel-eca) This package is up to date.
+[INFO] (kernel-tuner) This package is up to date.
+[INFO] (kernelcheck) This package is up to date.
+[INFO] (kernelchecker) This package is up to date.
+[ERROR] (kernelclient) This package does not have downloadable releases.
+[INFO] (kernelconfig) This package is up to date.
+[ERROR] (kernels) This package does not have downloadable releases.
+[INFO] (kerno) This package is up to date.
+[INFO] (kerosene) This package is up to date.
+[INFO] (kershaw) This package is up to date.
+[INFO] (kerutils) This package is up to date.
+[INFO] (kervi) This package is up to date.
+[INFO] (kervi-cli) This package is up to date.
+[ERROR] (kervi-component-library) This package does not have downloadable releases.
+[INFO] (kervi-device-library) This package is up to date.
+[INFO] (kervi-hal-generic) This package is up to date.
+[INFO] (kervi-hal-rpi) This package is up to date.
+[INFO] (kervi-ui) This package is up to date.
+[ERROR] (keryx) Could not extract data from this package. See below for details.
+"" extension not supported.
+[INFO] (kesmarag-toolbox) This package is up to date.
+[INFO] (kessel) This package is up to date.
+[INFO] (kestrel-cli) This package is up to date.
+[INFO] (keteparaha) This package is up to date.
+[ERROR] (kettle) This package does not have downloadable releases.
+[INFO] (kettleparser) This package is up to date.
+[INFO] (kev) This package is up to date.
+[INFO] (kevin) This package is up to date.
+[ERROR] (kevin-scraper-engine) This package does not have downloadable releases.
+[INFO] (kevin-test) This package is up to date.
+[INFO] (kevinarpe-rambutan3) This package is up to date.
+[INFO] (kevindongtest2) This package is up to date.
+[INFO] (kevinlist) This package is up to date.
+[INFO] (kevinnester) This package is up to date.
+[INFO] (kevlar) This package is up to date.
+[INFO] (key) This package is up to date.
+[INFO] (key-mon) This package is up to date.
+[INFO] (key-train) This package is up to date.
+[INFO] (keyard) This package is up to date.
+[INFO] (keybase) This package is up to date.
+[INFO] (keybase-api) This package is up to date.
+[INFO] (keybaseio-api) This package is up to date.
+[INFO] (keybin-client) This package is up to date.
+[INFO] (keyboard) This package is up to date.
+[INFO] (keybone) This package is up to date.
+[INFO] (keybox) This package is up to date.
+[INFO] (keybump) This package is up to date.
+[INFO] (keycat) This package is up to date.
+[INFO] (keycdn) This package is up to date.
+[INFO] (keychain) This package is up to date.
+[INFO] (keychain-manager) This package is up to date.
+[INFO] (keycmd) This package is up to date.
+[INFO] (keyctl) This package is up to date.
+[INFO] (keycut) This package is up to date.
+[INFO] (keyfree) This package is up to date.
+[INFO] (keyholer) This package is up to date.
+[INFO] (keyinfo) This package is up to date.
+[INFO] (keyjen) This package is up to date.
+[INFO] (keyless-fernet) This package is up to date.
+[INFO] (keylib) This package is up to date.
+[INFO] (keymaker) This package is up to date.
+[INFO] (keymaze-300-downloader) This package is up to date.
+[INFO] (keyme) This package is up to date.
+[ERROR] (keynote) Could not extract data from this package. See below for details.
+"" extension not supported.
+[INFO] (keyor) This package is up to date.
+[ERROR] (keyparse) This package does not have downloadable releases.
+[INFO] (keypath) This package is up to date.
+[ERROR] (keypipe) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (keypool) This package is up to date.
+[INFO] (keypy) This package is up to date.
+[INFO] (keyriban) This package is up to date.
+[INFO] (keyring) This package is up to date.
+[INFO] (keyring-vault-backend) This package is up to date.
+[INFO] (keyringcookiejar) This package is up to date.
+[INFO] (keyrings.alt) This package is up to date.
+[ERROR] (keys) This package does not have downloadable releases.
+[INFO] (keyserver) This package is up to date.
+[INFO] (keyserver-ng) This package is up to date.
+[INFO] (keysight) This package is up to date.
+[INFO] (keysmith) This package is up to date.
+[INFO] (keystok) This package is up to date.
+[ERROR] (keystonauth5) This package does not have downloadable releases.
+[INFO] (keystone) This package is up to date.
+[INFO] (keystone-crux) This package is up to date.
+[INFO] (keystone-engine) This package is up to date.
+[ERROR] (keystone-finance) This package does not have downloadable releases.
+[ERROR] (keystone-mapper) This package does not have downloadable releases.
+[INFO] (keystone-redis) This package is up to date.
+[INFO] (keystone-sdk) This package is up to date.
+[INFO] (keystone-voms) This package is up to date.
+[ERROR] (keystoneath6) This package does not have downloadable releases.
+[INFO] (keystoneauth) This package is up to date.
+[INFO] (keystoneauth-oidc-authz-code) This package is up to date.
+[ERROR] (keystoneauth-saml2) This package does not have downloadable releases.
+[INFO] (keystoneauth1) This package is up to date.
+[ERROR] (keystoneauth2) This package does not have downloadable releases.
+[ERROR] (keystoneauth3) This package does not have downloadable releases.
+[ERROR] (keystoneauth4) This package does not have downloadable releases.
+[ERROR] (keystoneauth5) This package does not have downloadable releases.
+[ERROR] (keystoneauth7) This package does not have downloadable releases.
+[ERROR] (keystoneclient) This package does not have downloadable releases.
+[INFO] (keystonemiddleware) This package is up to date.
+[INFO] (keystore) This package is up to date.
+[INFO] (keysync) This package is up to date.
+[INFO] (keytree) This package is up to date.
+[INFO] (keyutils) This package is up to date.
+[INFO] (keyvalueformatter) This package is up to date.
+[ERROR] (keyvalues) This package does not have downloadable releases.
+[INFO] (keyw) This package is up to date.
+[INFO] (keyword-density) This package is up to date.
+[INFO] (keyword-only-args) This package is up to date.
+[INFO] (keywordbear) This package is up to date.
+[INFO] (keywords) This package is up to date.
+[INFO] (keywordtree) This package is up to date.
+[INFO] (keywrapper) This package is up to date.
+[INFO] (kez) This package is up to date.
+[INFO] (kezmenu) This package is up to date.
+[INFO] (kezmenu3) This package is up to date.
+[INFO] (kf) This package is up to date.
+[INFO] (kf5py) This package is up to date.
+[INFO] (kfij) This package is up to date.
+[INFO] (kfirst) This package is up to date.
+[INFO] (kfits) This package is up to date.
+[INFO] (kflogs) This package is up to date.
+[INFO] (kforge) This package is up to date.
+[INFO] (kforgeinstall) This package is up to date.
+[INFO] (kfreader-cffi) This package is up to date.
+[INFO] (kg) This package is up to date.
+[ERROR] (kg.locationfield) This package does not have downloadable releases.
+[INFO] (kgame) This package is up to date.
+[INFO] (kgb) This package is up to date.
+[INFO] (kgit) This package is up to date.
+[INFO] (kgitb) This package is up to date.
+[INFO] (kglib) This package is up to date.
+[ERROR] (khafra) This package does not have downloadable releases.
+[INFO] (khaki) This package is up to date.
+[INFO] (khakilet) This package is up to date.
+[INFO] (khal) This package is up to date.
+[INFO] (khan) This package is up to date.
+[INFO] (khan-mongo) This package is up to date.
+[INFO] (khard) This package is up to date.
+[INFO] (kharitonov) This package is up to date.
+[INFO] (khartoum) This package is up to date.
+[INFO] (khayyam) This package is up to date.
+[INFO] (khayyam3) This package is up to date.
+[INFO] (khepri) This package is up to date.
+[INFO] (khipu) This package is up to date.
+[INFO] (khl-team) This package is up to date.
+[INFO] (khll) This package is up to date.
+[INFO] (khmer) This package is up to date.
+[ERROR] (khoj) This package does not have downloadable releases.
+[INFO] (khokhlov) This package is up to date.
+[INFO] (khole) This package is up to date.
+[INFO] (khomiakov) This package is up to date.
+[INFO] (khooshe) This package is up to date.
+[INFO] (khromov) This package is up to date.
+[INFO] (khronos) This package is up to date.
+[ERROR] (khteditor) This package does not have downloadable releases.
+[INFO] (khudiakov) This package is up to date.
+[INFO] (khufu-deform) This package is up to date.
+[INFO] (khufu-javascript) This package is up to date.
+[INFO] (khufu-opinion) This package is up to date.
+[INFO] (khufu-script) This package is up to date.
+[INFO] (khufu-siteview) This package is up to date.
+[INFO] (khufu-sqlalchemy) This package is up to date.
+[INFO] (khufu-traversal) This package is up to date.
+[ERROR] (khweeteur) This package does not have downloadable releases.
+[INFO] (kia) This package is up to date.
+[INFO] (kian) This package is up to date.
+[INFO] (kianscache) This package is up to date.
+[INFO] (kibana) This package is up to date.
+[INFO] (kibana-logger) This package is up to date.
+[INFO] (kibit) This package is up to date.
+[INFO] (kibitzr) This package is up to date.
+[INFO] (kibitzr-keyring) This package is up to date.
+[ERROR] (kicad) This package does not have downloadable releases.
+[INFO] (kicad-bom) This package is up to date.
+[INFO] (kicad-netlist-reader) This package is up to date.
+[INFO] (kicadsearch) This package is up to date.
+[INFO] (kickapp) This package is up to date.
+[ERROR] (kickass) This package does not have downloadable releases.
+[INFO] (kickass-get) This package is up to date.
+[INFO] (kickass-redis) This package is up to date.
+[INFO] (kickassapi) This package is up to date.
+[INFO] (kickbox) This package is up to date.
+[ERROR] (kickflip) This package does not have downloadable releases.
+[INFO] (kickscraper) This package is up to date.
+[INFO] (kickstand) This package is up to date.
+[INFO] (kickstart) This package is up to date.
+[INFO] (kicost) This package is up to date.
+[INFO] (kid) This package is up to date.
+[INFO] (kida) This package is up to date.
+[INFO] (kiddiepool) This package is up to date.
+[INFO] (kide) This package is up to date.
+[INFO] (kidibox-py) This package is up to date.
+[INFO] (kidme) This package is up to date.
+[INFO] (kidraw) This package is up to date.
+[INFO] (kids) This package is up to date.
+[INFO] (kids.ansi) This package is up to date.
+[INFO] (kids.cache) This package is up to date.
+[INFO] (kids.cfg) This package is up to date.
+[INFO] (kids.cmd) This package is up to date.
+[INFO] (kids.common) This package is up to date.
+[INFO] (kids.data) This package is up to date.
+[INFO] (kids.file) This package is up to date.
+[INFO] (kids.sh) This package is up to date.
+[INFO] (kids.test) This package is up to date.
+[INFO] (kids.txt) This package is up to date.
+[INFO] (kids.vcs) This package is up to date.
+[INFO] (kids.xml) This package is up to date.
+[INFO] (kidslearn) This package is up to date.
+[INFO] (kiefer) This package is up to date.
+[INFO] (kiek) This package is up to date.
+[INFO] (kiel) This package is up to date.
+[INFO] (kifield) This package is up to date.
+[INFO] (kiga-plugin) This package is up to date.
+[INFO] (kii) This package is up to date.
+[INFO] (kii-blog) This package is up to date.
+[INFO] (kiji-bento-cluster) This package is up to date.
+[INFO] (kiji-rest) This package is up to date.
+[INFO] (kik) This package is up to date.
+[INFO] (kikola) This package is up to date.
+[INFO] (kill) This package is up to date.
+[INFO] (killbill) This package is up to date.
+[INFO] (killdupes) This package is up to date.
+[INFO] (killit) This package is up to date.
+[INFO] (killlock) This package is up to date.
+[INFO] (killproc) This package is up to date.
+[ERROR] (killprogram-dictionary) This package does not have downloadable releases.
+[INFO] (kiln) This package is up to date.
+[ERROR] (kiloeyes) This package does not have downloadable releases.
+[INFO] (kilometer) This package is up to date.
+[INFO] (kim) This package is up to date.
+[ERROR] (kimboot) Could not extract data from this package. See below for details.
+".00.zip?use_mirror=switch" extension not supported.
+[INFO] (kimchi) This package is up to date.
+[INFO] (kimo) This package is up to date.
+[INFO] (kimono) This package is up to date.
+[INFO] (kimura) This package is up to date.
+[INFO] (kin) This package is up to date.
+[INFO] (kincluster) This package is up to date.
+[INFO] (kindel) This package is up to date.
+[INFO] (kinder) This package is up to date.
+[ERROR] (kindle) This package does not have downloadable releases.
+[INFO] (kindlecomicconverter) This package is up to date.
+[INFO] (kindled) This package is up to date.
+[INFO] (kindlepush) This package is up to date.
+[INFO] (kindlepy) This package is up to date.
+[INFO] (kindlereader) This package is up to date.
+[INFO] (kindlestrip) This package is up to date.
+[INFO] (kinesis-logs-reader) This package is up to date.
+[INFO] (kinesis-producer) This package is up to date.
+[INFO] (kinesis-python) This package is up to date.
+[INFO] (kinetic) This package is up to date.
+[INFO] (kinetic-scales) This package is up to date.
+[INFO] (kineticdatanator) This package is up to date.
+[INFO] (kineticlib) This package is up to date.
+[ERROR] (kineticmulti) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (kineticpool) This package is up to date.
+[INFO] (kingbird) This package is up to date.
+[INFO] (kingman) This package is up to date.
+[INFO] (kingpin) This package is up to date.
+[INFO] (kingsnake) This package is up to date.
+[INFO] (kingwangjingyi) This package is up to date.
+[INFO] (kinisot) This package is up to date.
+[ERROR] (kinko) This package does not have downloadable releases.
+[ERROR] (kinohash) This package does not have downloadable releases.
+[INFO] (kinopoiskpy) This package is up to date.
+[ERROR] (kinoshell) This package does not have downloadable releases.
+[INFO] (kinoutils) This package is up to date.
+[INFO] (kinto) This package is up to date.
+[INFO] (kinto-amo) This package is up to date.
+[INFO] (kinto-attachment) This package is up to date.
+[INFO] (kinto-changes) This package is up to date.
+[INFO] (kinto-client) This package is up to date.
+[INFO] (kinto-dist) This package is up to date.
+[INFO] (kinto-emailer) This package is up to date.
+[INFO] (kinto-fxa) This package is up to date.
+[INFO] (kinto-github-token) This package is up to date.
+[INFO] (kinto-http) This package is up to date.
+[INFO] (kinto-ldap) This package is up to date.
+[INFO] (kinto-migrations) This package is up to date.
+[INFO] (kinto-portier) This package is up to date.
+[INFO] (kinto-pusher) This package is up to date.
+[INFO] (kinto-redis) This package is up to date.
+[INFO] (kinto-signer) This package is up to date.
+[INFO] (kinto-wizard) This package is up to date.
+[INFO] (kinto2xml) This package is up to date.
+[ERROR] (kiowa) Could not extract data from this package. See below for details.
+"http://os4d.org/pypi/kiowa/Kiowa-0.2w.rc12.tar.gz" file couldnt be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (kip) This package is up to date.
+[INFO] (kipart) This package is up to date.
+[INFO] (kipavois) This package is up to date.
+[INFO] (kippo-extra) This package is up to date.
+[INFO] (kippt) This package is up to date.
+[INFO] (kipsupin-doc2yaml) This package is up to date.
+[INFO] (kira) This package is up to date.
+[INFO] (kirb) This package is up to date.
+[ERROR] (kirbybase) Could not extract data from this package. See below for details.
+"http://www.netpromi.com/files/KirbyBase_Python_1.9.zip" file couldnt be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 504, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 696, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (kireev) This package is up to date.
+[INFO] (kirillov) This package is up to date.
+[INFO] (kiroku) This package is up to date.
+[INFO] (kirrupt-tv) This package is up to date.
+[INFO] (kiselev) This package is up to date.
+[INFO] (kiseru) This package is up to date.
+[INFO] (kishimenpy) This package is up to date.
+[INFO] (kiss) This package is up to date.
+[INFO] (kiss.py) This package is up to date.
+[INFO] (kissanime-dl) This package is up to date.
+[INFO] (kissanime-downloader) This package is up to date.
+[INFO] (kisscartoon-api) This package is up to date.
+[INFO] (kissdownloader) This package is up to date.
+[INFO] (kissmetrics) This package is up to date.
+[INFO] (kissxml) This package is up to date.
+[INFO] (kiste) This package is up to date.
+[INFO] (kit) This package is up to date.
+[INFO] (kitch.data) This package is up to date.
+[INFO] (kitch.numerical) This package is up to date.
+[INFO] (kitchen) This package is up to date.
+[INFO] (kitchen-blender) This package is up to date.
+[INFO] (kitchensink) This package is up to date.
+[INFO] (kitchensinkrpc) This package is up to date.
+[ERROR] (kite) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (kite-mail) This package is up to date.
+[INFO] (kite-string) This package is up to date.
+[INFO] (kiteapi) This package is up to date.
+[INFO] (kiteconnect) This package is up to date.
+[INFO] (kith) This package is up to date.
+[INFO] (kitnirc) This package is up to date.
+[INFO] (kitt) This package is up to date.
+[INFO] (kittenpaint) This package is up to date.
+[INFO] (kittens) This package is up to date.
+[INFO] (kitti2bag) This package is up to date.
+[INFO] (kitty) This package is up to date.
+[INFO] (kittyfuzzer) This package is up to date.
+[INFO] (kittystore) This package is up to date.
+[INFO] (kivish) This package is up to date.
+[INFO] (kivmob) This package is up to date.
+[INFO] (kivy) This package is up to date.
+[INFO] (kivy-automate) This package is up to date.
+[INFO] (kivy-django) This package is up to date.
+[INFO] (kivy-examples) This package is up to date.
+[INFO] (kivy-garden) This package is up to date.
+[INFO] (kivy-okapi) This package is up to date.
+[INFO] (kivy.deps.angle) This package is up to date.
+[INFO] (kivy.deps.glew) This package is up to date.
+[INFO] (kivy.deps.glew-dev) This package is up to date.
+[INFO] (kivy.deps.gstreamer) This package is up to date.
+[INFO] (kivy.deps.gstreamer-dev) This package is up to date.
+[INFO] (kivy.deps.sdl2) This package is up to date.
+[INFO] (kivy.deps.sdl2-dev) This package is up to date.
+[ERROR] (kivy.garden.garden-nspace) Could not extract data from this package. See below for details.
+"https://codeload.github.com/kivy-garden/garden_nspace/legacy.tar.gz/kivy.garden.garden-nspace-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (kivycalendar) This package is up to date.
+[INFO] (kivymd) This package is up to date.
+[ERROR] (kivymvp) This package does not have downloadable releases.
+[INFO] (kivyoav) This package is up to date.
+[INFO] (kivyunittest) This package is up to date.
+[INFO] (kiwi) This package is up to date.
+[INFO] (kiwi-gtk) This package is up to date.
+[INFO] (kiwi-project) This package is up to date.
+[INFO] (kiwidist) This package is up to date.
+[INFO] (kiwilite) This package is up to date.
+[INFO] (kiwimasher) This package is up to date.
+[INFO] (kiwisolver) This package is up to date.
+[INFO] (kiyon) This package is up to date.
+[INFO] (kj-nester) This package is up to date.
+[INFO] (kjlib) This package is up to date.
+[INFO] (kkb) This package is up to date.
+[INFO] (kkconst) This package is up to date.
+[INFO] (kkdcpasn1) This package is up to date.
+[INFO] (kkermylib) This package is up to date.
+[ERROR] (kkg-nester) This package does not have downloadable releases.
+[INFO] (kkk) This package is up to date.
+[INFO] (kkknester) This package is up to date.
+[INFO] (kkkr) This package is up to date.
+[INFO] (kknest) This package is up to date.
+[INFO] (kks) This package is up to date.
+[INFO] (kl) This package is up to date.
+[ERROR] (kl-first) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 504, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 696, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (klab) This package is up to date.
+[INFO] (klag) This package is up to date.
+[INFO] (klak21-nester) This package is up to date.
+[INFO] (klamar-buildutils) This package is up to date.
+[INFO] (klar) This package is up to date.
+[INFO] (klarna-api) This package is up to date.
+[INFO] (klarnacheckout) This package is up to date.
+[INFO] (klassify) This package is up to date.
+[INFO] (klaus) This package is up to date.
+[INFO] (klaviyo) This package is up to date.
+[INFO] (kleenex) This package is up to date.
+[INFO] (klein) This package is up to date.
+[INFO] (kleinspace) This package is up to date.
+[INFO] (kleio) This package is up to date.
+[INFO] (kleptes) This package is up to date.
+[INFO] (klepto) This package is up to date.
+[INFO] (kleverklog) This package is up to date.
+[INFO] (kli) This package is up to date.
+[INFO] (kliko) This package is up to date.
+[INFO] (klimalogger) This package is up to date.
+[INFO] (klimov) This package is up to date.
+[INFO] (klink) This package is up to date.
+[INFO] (klip) This package is up to date.
+[INFO] (kliuev) This package is up to date.
+[ERROR] (klm) This package does not have downloadable releases.
+[INFO] (kloc) This package is up to date.
+[ERROR] (klog) Could not extract data from this package. See below for details.
+
+[INFO] (klogger) This package is up to date.
+[ERROR] (klok) This package does not have downloadable releases.
+[INFO] (kloudbuster) This package is up to date.
+[INFO] (kloudi) This package is up to date.
+[INFO] (kloudless) This package is up to date.
+[INFO] (klout) This package is up to date.
+[INFO] (klout-to-graphite) This package is up to date.
+[INFO] (kloutpy) This package is up to date.
+[INFO] (klue-client-server) This package is up to date.
+[INFO] (klugman) This package is up to date.
+[INFO] (klusta) This package is up to date.
+[INFO] (klustakwik2) This package is up to date.
+[INFO] (klustaviewa) This package is up to date.
+[INFO] (klv) This package is up to date.
+[INFO] (km2pg) This package is up to date.
+[INFO] (km3pipe) This package is up to date.
+[INFO] (kmatch) This package is up to date.
+[INFO] (kmc2) This package is up to date.
+[INFO] (kmd) This package is up to date.
+[INFO] (kmeans) This package is up to date.
+[INFO] (kmer) This package is up to date.
+[INFO] (kmers) This package is up to date.
+[INFO] (kml2geojson) This package is up to date.
+[INFO] (kmlogger) This package is up to date.
+[INFO] (kmltrack) This package is up to date.
+[INFO] (kmod) This package is up to date.
+[INFO] (kmodes) This package is up to date.
+[INFO] (kmodpy) This package is up to date.
+[INFO] (kmorinester) This package is up to date.
+[INFO] (kmpp) This package is up to date.
+[INFO] (kms-encryption-toolbox) This package is up to date.
+[INFO] (kmsauth) This package is up to date.
+[INFO] (kmsclient) This package is up to date.
+[INFO] (kmstool) This package is up to date.
+[INFO] (kmsurvival) This package is up to date.
+[INFO] (kmtools) This package is up to date.
+[INFO] (kn3) This package is up to date.
+[INFO] (knackhq) This package is up to date.
+[INFO] (knapsack) This package is up to date.
+[ERROR] (knapsack01) This package does not have downloadable releases.
+[INFO] (knave) This package is up to date.
+[INFO] (kneaddata) This package is up to date.
+[INFO] (knee-nester) This package is up to date.
+[INFO] (knesset-data) This package is up to date.
+[INFO] (knesset-data-django) This package is up to date.
+[ERROR] (knester) This package does not have downloadable releases.
+[INFO] (kniazev) This package is up to date.
+[INFO] (knife) This package is up to date.
+[INFO] (knight-001) This package is up to date.
+[INFO] (knighted) This package is up to date.
+[INFO] (knights-templater) This package is up to date.
+[INFO] (knightswhosay) This package is up to date.
+[INFO] (knit) This package is up to date.
+[INFO] (kniteditor) This package is up to date.
+[ERROR] (knitlib) This package does not have downloadable releases.
+[INFO] (knitpy) This package is up to date.
+[INFO] (knitter) This package is up to date.
+[INFO] (knittingpattern) This package is up to date.
+[INFO] (knitty-gritty) This package is up to date.
+[INFO] (knmi-py) This package is up to date.
+[INFO] (knmt) This package is up to date.
+[INFO] (knn) This package is up to date.
+[ERROR] (knn-x) This package does not have downloadable releases.
+[INFO] (knnimpute) This package is up to date.
+[INFO] (knobs) This package is up to date.
+[INFO] (knock) This package is up to date.
+[ERROR] (knock-models) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (knocker) This package is up to date.
+[INFO] (knockprobe) This package is up to date.
+[INFO] (knossos) This package is up to date.
+[INFO] (knot) This package is up to date.
+[INFO] (knot-injector) This package is up to date.
+[INFO] (knotr) This package is up to date.
+[INFO] (knotter) This package is up to date.
+[INFO] (know-its-ok) This package is up to date.
+[INFO] (knowingness) This package is up to date.
+[INFO] (knowit) This package is up to date.
+[INFO] (knowledge) This package is up to date.
+[ERROR] (knowledge-app) This package does not have downloadable releases.
+[INFO] (knowledge-repo) This package is up to date.
+[INFO] (knowlify) This package is up to date.
+[INFO] (knp-utils) This package is up to date.
+[INFO] (knpackage) This package is up to date.
+[INFO] (knpay-plugin) This package is up to date.
+[INFO] (knun-movies) This package is up to date.
+[INFO] (knurko) This package is up to date.
+[INFO] (knuverse) This package is up to date.
+[INFO] (knuverse-cli) This package is up to date.
+[INFO] (knx) This package is up to date.
+[INFO] (knxip) This package is up to date.
+[INFO] (knxpy) This package is up to date.
+[INFO] (knxsonos) This package is up to date.
+[INFO] (knyfe) This package is up to date.
+[INFO] (ko-po-check) This package is up to date.
+[INFO] (koa) This package is up to date.
+[INFO] (koach) This package is up to date.
+[ERROR] (koala) This package does not have downloadable releases.
+[INFO] (koala2) This package is up to date.
+[INFO] (koalacompanies) This package is up to date.
+[INFO] (koalacore) This package is up to date.
+[INFO] (koalacounter) This package is up to date.
+[ERROR] (koalad) This package does not have downloadable releases.
+[INFO] (koalaecommerce) This package is up to date.
+[INFO] (koalamail) This package is up to date.
+[INFO] (koalaoauth2) This package is up to date.
+[INFO] (koalasendgrid) This package is up to date.
+[INFO] (koalausers) This package is up to date.
+[INFO] (koalaverify) This package is up to date.
+[INFO] (koality-cli) This package is up to date.
+[ERROR] (koalixcrm) Could not extract data from this package. See below for details.
+"https://codeload.github.com/tfroehlich82/koalixcrm/legacy.tar.gz/koalixcrm-0.5.tar.gz" file couldnt be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (koansys.django.authradius) This package is up to date.
+[INFO] (koansys.recipe.elasticsearch) This package is up to date.
+[INFO] (koansys.recipe.hooks) This package is up to date.
+[INFO] (koansys.recipe.pybsddb) This package is up to date.
+[INFO] (koara) This package is up to date.
+[INFO] (koball) This package is up to date.
+[INFO] (kobato) This package is up to date.
+[INFO] (kobe) This package is up to date.
+[INFO] (kobin) This package is up to date.
+[INFO] (kobo) This package is up to date.
+[INFO] (kobold) This package is up to date.
+[INFO] (koboldfs) This package is up to date.
+[INFO] (koch) This package is up to date.
+[INFO] (kochergin) This package is up to date.
+[INFO] (kochetkov) This package is up to date.
+[INFO] (kochetov) This package is up to date.
+[INFO] (kochmorse) This package is up to date.
+[INFO] (kociemba) This package is up to date.
+[INFO] (kodai-modules) This package is up to date.
+[INFO] (koday-modules) This package is up to date.
+[INFO] (koday-ontology-processor) This package is up to date.
+[ERROR] (kodetest) This package does not have downloadable releases.
+[INFO] (kodi-json) This package is up to date.
+[INFO] (kodi-voice) This package is up to date.
+[INFO] (kodicontroller) This package is up to date.
+[INFO] (kodijsonrpc) This package is up to date.
+[INFO] (kodipydent) This package is up to date.
+[INFO] (kodiswift) This package is up to date.
+[INFO] (kodo) This package is up to date.
+[ERROR] (kodos) This package does not have downloadable releases.
+[INFO] (kodrive) This package is up to date.
+[INFO] (kofconfig) This package is up to date.
+[INFO] (kogniserver) This package is up to date.
+[INFO] (koheron) This package is up to date.
+[INFO] (koheron-tcp-client) This package is up to date.
+[INFO] (kohlrabi) This package is up to date.
+[INFO] (kohonen) This package is up to date.
+[INFO] (koi) This package is up to date.
+[INFO] (koine-nlp) This package is up to date.
+[INFO] (kojistatus) This package is up to date.
+[INFO] (kokki) This package is up to date.
+[ERROR] (koko) This package does not have downloadable releases.
+[INFO] (kokolog) This package is up to date.
+[INFO] (kokoropy) This package is up to date.
+[INFO] (kokusai-pp-pack) This package is up to date.
+[INFO] (kola) This package is up to date.
+[ERROR] (kola-bottle) This package does not have downloadable releases.
+[ERROR] (kolekti-agent-python-flask) This package does not have downloadable releases.
+[ERROR] (kolekti-server) This package does not have downloadable releases.
+[INFO] (kolekto) This package is up to date.
+[INFO] (kolesnikov) This package is up to date.
+[INFO] (kolesov) This package is up to date.
+[INFO] (kolibri) This package is up to date.
+[INFO] (kolibri-exercise-perseus-plugin) This package is up to date.
+[INFO] (kolibri-exercise-perseus-renderer) This package is up to date.
+[INFO] (kolla) This package is up to date.
+[INFO] (kolla-ansible) This package is up to date.
+[ERROR] (kolla-k8s) This package does not have downloadable releases.
+[ERROR] (kolla-kubernetes) This package does not have downloadable releases.
+[ERROR] (kollari) This package does not have downloadable releases.
+[INFO] (kolm) This package is up to date.
+[INFO] (kolosov) This package is up to date.
+[INFO] (kolpakov) This package is up to date.
+[INFO] (koltsov) This package is up to date.
+[INFO] (komandr) This package is up to date.
+[INFO] (komar) This package is up to date.
+[INFO] (komarov) This package is up to date.
+[INFO] (kombilo) This package is up to date.
+[INFO] (kombinat.decogrid) This package is up to date.
+[INFO] (kombine) This package is up to date.
+[INFO] (kombu) This package is up to date.
+[INFO] (kombu-django-json-serializer) This package is up to date.
+[INFO] (kombu-fernet-serializers) This package is up to date.
+[INFO] (kombu-multibroker) This package is up to date.
+[INFO] (kombu-redis-priority) This package is up to date.
+[INFO] (kombu-sqlalchemy) This package is up to date.
+[INFO] (kombu-stomp) This package is up to date.
+[INFO] (komissarov) This package is up to date.
+[INFO] (komlogd) This package is up to date.
+[ERROR] (komodo) This package does not have downloadable releases.
+[INFO] (komodo-google-auth) This package is up to date.
+[INFO] (komodo-python-dbgp) This package is up to date.
+[INFO] (komodo-python3-dbgp) This package is up to date.
+[INFO] (konami) This package is up to date.
+[INFO] (konch) This package is up to date.
+[INFO] (kondrashov) This package is up to date.
+[INFO] (kondratev) This package is up to date.
+[INFO] (kondratov) This package is up to date.
+[INFO] (konf) This package is up to date.
+[INFO] (konfig) This package is up to date.
+[INFO] (konfikjure) This package is up to date.
+[INFO] (konfoo) This package is up to date.
+[INFO] (kong) This package is up to date.
+[INFO] (kong-cli) This package is up to date.
+[INFO] (kongconsumer) This package is up to date.
+[INFO] (kongfu-plugs) This package is up to date.
+[ERROR] (konig) This package does not have downloadable releases.
+[INFO] (koning) This package is up to date.
+[INFO] (koningrijk) This package is up to date.
+[INFO] (konira) This package is up to date.
+[INFO] (konlpy) This package is up to date.
+[INFO] (kononov) This package is up to date.
+[INFO] (konovalov) This package is up to date.
+[INFO] (konstantinov) This package is up to date.
+[INFO] (konstrukteur) This package is up to date.
+[INFO] (kontocheck) This package is up to date.
+[INFO] (konval) This package is up to date.
+[INFO] (koodaamo.pas.browseronlyredirect) This package is up to date.
+[INFO] (koodaus) This package is up to date.
+[INFO] (koodous-py) This package is up to date.
+[INFO] (koofr) This package is up to date.
+[INFO] (kook) This package is up to date.
+[INFO] (kooki) This package is up to date.
+[INFO] (kooki-slides) This package is up to date.
+[INFO] (kooki-slides-easymov) This package is up to date.
+[INFO] (kooki-tex) This package is up to date.
+[INFO] (kooki-web) This package is up to date.
+[INFO] (koordinates) This package is up to date.
+[INFO] (koppeltaal) This package is up to date.
+[INFO] (koptool) This package is up to date.
+[INFO] (kopylov) This package is up to date.
+[INFO] (korail) This package is up to date.
+[INFO] (korail2) This package is up to date.
+[INFO] (korbit) This package is up to date.
+[INFO] (korbit-api) This package is up to date.
+[INFO] (korchagin) This package is up to date.
+[INFO] (kordic) This package is up to date.
+[INFO] (kore) This package is up to date.
+[INFO] (kore-plugins-beaker) This package is up to date.
+[INFO] (kore-plugins-celery) This package is up to date.
+[INFO] (kore-plugins-flask) This package is up to date.
+[INFO] (kore-plugins-flask-admin) This package is up to date.
+[INFO] (kore-plugins-ini) This package is up to date.
+[INFO] (kore-shell) This package is up to date.
+[INFO] (korean) This package is up to date.
+[INFO] (koremutake) This package is up to date.
+[INFO] (koresz-nester) This package is up to date.
+[INFO] (korg) This package is up to date.
+[ERROR] (korgwslib) Could not extract data from this package. See below for details.
+"" extension not supported.
+[INFO] (korneev) This package is up to date.
+[INFO] (kornev) This package is up to date.
+[INFO] (kornilov) This package is up to date.
+[INFO] (korobi-docs-theme) This package is up to date.
+[INFO] (korolev) This package is up to date.
+[INFO] (korolishut) This package is up to date.
+[INFO] (korolkov) This package is up to date.
+[INFO] (korona) This package is up to date.
+[INFO] (korotkov) This package is up to date.
+[INFO] (korovic) This package is up to date.
+[INFO] (korovin) This package is up to date.
+[INFO] (korpokkur) This package is up to date.
+[INFO] (korpus) This package is up to date.
+[INFO] (korshunov) This package is up to date.
+[INFO] (korta) This package is up to date.
+[INFO] (kosarev) This package is up to date.
+[INFO] (kosh) This package is up to date.
+[INFO] (koshelev) This package is up to date.
+[INFO] (koslab.messengerbot) This package is up to date.
+[INFO] (koslab.recipe.zipapp) This package is up to date.
+[INFO] (kostin) This package is up to date.
+[INFO] (koto) This package is up to date.
+[INFO] (kotoba) This package is up to date.
+[INFO] (kotocore) This package is up to date.
+[INFO] (kotov) This package is up to date.
+[INFO] (kotsms) This package is up to date.
+[INFO] (kotti) This package is up to date.
+[INFO] (kotti-accounts) This package is up to date.
+[INFO] (kotti-alert) This package is up to date.
+[INFO] (kotti-analytics) This package is up to date.
+[INFO] (kotti-backend) This package is up to date.
+[INFO] (kotti-blog) This package is up to date.
+[INFO] (kotti-bootswatch) This package is up to date.
+[INFO] (kotti-calendar) This package is up to date.
+[INFO] (kotti-contactform) This package is up to date.
+[INFO] (kotti-content-proxy) This package is up to date.
+[INFO] (kotti-contentpreview) This package is up to date.
+[INFO] (kotti-contenttypes) This package is up to date.
+[INFO] (kotti-controlpanel) This package is up to date.
+[INFO] (kotti-disqus) This package is up to date.
+[INFO] (kotti-dkbase) This package is up to date.
+[INFO] (kotti-docit) This package is up to date.
+[INFO] (kotti-docs-theme) This package is up to date.
+[INFO] (kotti-etherpad) This package is up to date.
+[INFO] (kotti-events) This package is up to date.
+[INFO] (kotti-feed) This package is up to date.
+[INFO] (kotti-filestore) This package is up to date.
+[INFO] (kotti-gallery) This package is up to date.
+[INFO] (kotti-google-analytics) This package is up to date.
+[INFO] (kotti-grid) This package is up to date.
+[INFO] (kotti-history) This package is up to date.
+[ERROR] (kotti-icons) This package does not have downloadable releases.
+[INFO] (kotti-image) This package is up to date.
+[INFO] (kotti-image-gallery) This package is up to date.
+[INFO] (kotti-link) This package is up to date.
+[INFO] (kotti-lms-theme) This package is up to date.
+[INFO] (kotti-mapreduce) This package is up to date.
+[INFO] (kotti-media) This package is up to date.
+[INFO] (kotti-multilingual) This package is up to date.
+[INFO] (kotti-navigation) This package is up to date.
+[INFO] (kotti-newsitem) This package is up to date.
+[INFO] (kotti-paster) This package is up to date.
+[INFO] (kotti-pdf) This package is up to date.
+[INFO] (kotti-quiz) This package is up to date.
+[INFO] (kotti-restful-api) This package is up to date.
+[INFO] (kotti-rstdocument) This package is up to date.
+[INFO] (kotti-settings) This package is up to date.
+[INFO] (kotti-site-gallery) This package is up to date.
+[INFO] (kotti-site-settings) This package is up to date.
+[INFO] (kotti-sitemap) This package is up to date.
+[INFO] (kotti-socialbuttons) This package is up to date.
+[INFO] (kotti-software) This package is up to date.
+[INFO] (kotti-solr) This package is up to date.
+[INFO] (kotti-splashpage) This package is up to date.
+[INFO] (kotti-survey) This package is up to date.
+[INFO] (kotti-tagcloud) This package is up to date.
+[INFO] (kotti-theme-amelia) This package is up to date.
+[INFO] (kotti-theme-cerulean) This package is up to date.
+[INFO] (kotti-theme-cosmo) This package is up to date.
+[INFO] (kotti-theme-cyborg) This package is up to date.
+[INFO] (kotti-theme-readable) This package is up to date.
+[INFO] (kotti-theme-sbadmin) This package is up to date.
+[INFO] (kotti-theme-slate) This package is up to date.
+[INFO] (kotti-theme-spruce) This package is up to date.
+[INFO] (kotti-tinymce) This package is up to date.
+[INFO] (kotti-twitter) This package is up to date.
+[INFO] (kotti-velruse) This package is up to date.
+[INFO] (kotti-video) This package is up to date.
+[INFO] (kotti-wysihtml5) This package is up to date.
+[INFO] (kou) This package is up to date.
+[ERROR] (kouvert) Could not extract data from this package. See below for details.
+".php?content=15185&id=1" extension not supported.
+[INFO] (kovalev) This package is up to date.
+[INFO] (koverse) This package is up to date.
+[INFO] (kozai) This package is up to date.
+[INFO] (kozhevnikov) This package is up to date.
+[INFO] (kozin) This package is up to date.
+[INFO] (kozinaki) This package is up to date.
+[INFO] (kozlov) This package is up to date.
+[INFO] (kozlovskii) This package is up to date.
+[ERROR] (kozyrev) This package does not have downloadable releases.
+[INFO] (kpages) This package is up to date.
+[INFO] (kpal) This package is up to date.
+[INFO] (kpconsole) This package is up to date.
+[INFO] (kph) This package is up to date.
+[INFO] (kpl) This package is up to date.
+[INFO] (kploy) This package is up to date.
+[INFO] (kplr) This package is up to date.
+[INFO] (kpm) This package is up to date.
+[INFO] (kpop) This package is up to date.
+[INFO] (kppy) This package is up to date.
+[INFO] (kprint) This package is up to date.
+[INFO] (kpss-py3) This package is up to date.
+[INFO] (kptool) This package is up to date.
+[INFO] (kpush) This package is up to date.
+[INFO] (kpwrapper) This package is up to date.
+[INFO] (kpy) This package is up to date.
+[INFO] (kpygithub) This package is up to date.
+[ERROR] (kpylogger) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (kq) This package is up to date.
+[INFO] (kr-numerical-analysis) This package is up to date.
+[INFO] (kr580) This package is up to date.
+[INFO] (kraconvert) This package is up to date.
+[INFO] (kraken) This package is up to date.
+[INFO] (kraken-biom) This package is up to date.
+[INFO] (krakenex) This package is up to date.
+[INFO] (krakenio) This package is up to date.
+[INFO] (krakenous) This package is up to date.
+[INFO] (kram) This package is up to date.
+[ERROR] (krampus) This package does not have downloadable releases.
+[INFO] (krankshaft) This package is up to date.
+[INFO] (krasnov) This package is up to date.
+[INFO] (kratelabs) This package is up to date.
+[INFO] (krater) This package is up to date.
+[INFO] (krauler) This package is up to date.
+[INFO] (kravtsov) This package is up to date.
+[INFO] (krawl) This package is up to date.
+[INFO] (krawlermodels) This package is up to date.
+[INFO] (krbcontext) This package is up to date.
+[INFO] (kreagroup.jsi18n) This package is up to date.
+[INFO] (krebszones) This package is up to date.
+[INFO] (kregistrar) This package is up to date.
+[ERROR] (kreissy) This package does not have downloadable releases.
+[INFO] (krest) This package is up to date.
+[INFO] (kreveik) This package is up to date.
+[INFO] (kriegspiel) This package is up to date.
+[INFO] (krill) This package is up to date.
+[INFO] (krinker) This package is up to date.
+[INFO] (kriptman) This package is up to date.
+[INFO] (krischen) This package is up to date.
+[INFO] (krisk) This package is up to date.
+[INFO] (krispackage) This package is up to date.
+[ERROR] (kriss) This package does not have downloadable releases.
+[INFO] (kritha) This package is up to date.
+[INFO] (kriuchkov) This package is up to date.
+[INFO] (kriukov) This package is up to date.
+[INFO] (krlio) This package is up to date.
+[INFO] (krnet) This package is up to date.
+[INFO] (kroman) This package is up to date.
+[INFO] (kron) This package is up to date.
+[INFO] (kronos) This package is up to date.
+[INFO] (kronos-pipeliner) This package is up to date.
+[INFO] (krovetzstemmer) This package is up to date.
+[INFO] (krpc) This package is up to date.
+[INFO] (krpc.clientgen) This package is up to date.
+[INFO] (krpctools) This package is up to date.
+[INFO] (krt) This package is up to date.
+[INFO] (kruglov) This package is up to date.
+[INFO] (krull) This package is up to date.
+[INFO] (kruskals) This package is up to date.
+[INFO] (krux-boto) This package is up to date.
+[INFO] (krux-redis) This package is up to date.
+[INFO] (krux-scheduler) This package is up to date.
+[INFO] (krux-stdlib) This package is up to date.
+[INFO] (kruxstatsd) This package is up to date.
+[INFO] (krwordrank) This package is up to date.
+[INFO] (krxholiday) This package is up to date.
+[INFO] (krylov) This package is up to date.
+[INFO] (kryptal) This package is up to date.
+[INFO] (kryptomime) This package is up to date.
+[INFO] (krypton) This package is up to date.
+[INFO] (kryptonite) This package is up to date.
+[INFO] (kryptonium) This package is up to date.
+[INFO] (krypy) This package is up to date.
+[INFO] (krysa) This package is up to date.
+[INFO] (kryten) This package is up to date.
+[INFO] (ks) This package is up to date.
+[INFO] (ks-email-parser) This package is up to date.
+[ERROR] (ks.adapter.sqlindex2pagedsource) This package does not have downloadable releases.
+[INFO] (ks.captcha) This package is up to date.
+[INFO] (ks.channel) This package is up to date.
+[INFO] (ks.channelsmtp) This package is up to date.
+[ERROR] (ks.containerconstraints) This package does not have downloadable releases.
+[ERROR] (ks.content) This package does not have downloadable releases.
+[ERROR] (ks.contentclass2resource) This package does not have downloadable releases.
+[ERROR] (ks.formkeeper) This package does not have downloadable releases.
+[ERROR] (ks.hivurtcms) This package does not have downloadable releases.
+[ERROR] (ks.hivurtcmscfg) This package does not have downloadable releases.
+[ERROR] (ks.hivurtcmsfrontenddemoskin) This package does not have downloadable releases.
+[ERROR] (ks.hivurtskin) This package does not have downloadable releases.
+[ERROR] (ks.hivurtskin.event) This package does not have downloadable releases.
+[ERROR] (ks.hivurtskin.eventfolder) This package does not have downloadable releases.
+[ERROR] (ks.hivurtskin.formfolder) This package does not have downloadable releases.
+[ERROR] (ks.hivurtskin.news) This package does not have downloadable releases.
+[ERROR] (ks.hivurtskin.newsfolder) This package does not have downloadable releases.
+[ERROR] (ks.hivurtskin.site) This package does not have downloadable releases.
+[ERROR] (ks.hivurtskin.textdocument) This package does not have downloadable releases.
+[INFO] (ks.installtool) This package is up to date.
+[ERROR] (ks.interfaceswitcher) This package does not have downloadable releases.
+[INFO] (ks.lib) This package is up to date.
+[INFO] (ks.mailer) This package is up to date.
+[INFO] (ks.mailersmtp) This package is up to date.
+[ERROR] (ks.menu) This package does not have downloadable releases.
+[ERROR] (ks.page) This package does not have downloadable releases.
+[INFO] (ks.pager) This package is up to date.
+[INFO] (ks.reference) This package is up to date.
+[INFO] (ks.schema) This package is up to date.
+[ERROR] (ks.script) This package does not have downloadable releases.
+[INFO] (ks.smartimage) This package is up to date.
+[ERROR] (ks.sqltools) This package does not have downloadable releases.
+[INFO] (ks.zcml.smartmenuitem) This package is up to date.
+[INFO] (ksamsok) This package is up to date.
+[INFO] (ksana) This package is up to date.
+[INFO] (ksc-sdk-python) This package is up to date.
+[INFO] (ksellikepython) This package is up to date.
+[INFO] (kshramt) This package is up to date.
+[INFO] (ksmtp) This package is up to date.
+[INFO] (kson) This package is up to date.
+[INFO] (ksp-login) This package is up to date.
+[INFO] (kspalculator) This package is up to date.
+[INFO] (ksr) This package is up to date.
+[INFO] (ksrgh) This package is up to date.
+[INFO] (kss.base) This package is up to date.
+[INFO] (kss.core) This package is up to date.
+[INFO] (kss.demo) This package is up to date.
+[INFO] (kss.django) This package is up to date.
+[INFO] (kss.plugin.cacheability) This package is up to date.
+[INFO] (kss.plugin.cns) This package is up to date.
+[INFO] (kss.plugin.jsmath) This package is up to date.
+[INFO] (kss.plugin.livesearch) This package is up to date.
+[INFO] (kss.plugin.timer) This package is up to date.
+[INFO] (kss.plugin.yuidnd) This package is up to date.
+[INFO] (kss.templates) This package is up to date.
+[INFO] (kssh) This package is up to date.
+[ERROR] (ksspider) This package does not have downloadable releases.
+[INFO] (kstats) This package is up to date.
+[ERROR] (ksui) This package does not have downloadable releases.
+[INFO] (ksvd) This package is up to date.
+[INFO] (ksx1026) This package is up to date.
+[ERROR] (kt-flask-sessions) This package does not have downloadable releases.
+[INFO] (kt.testing) This package is up to date.
+[INFO] (ktagz) This package is up to date.
+[INFO] (ktail) This package is up to date.
+[INFO] (ktasync) This package is up to date.
+[INFO] (ktbs) This package is up to date.
+[INFO] (ktcal2) This package is up to date.
+[INFO] (ktest) This package is up to date.
+[INFO] (ktextsurfacewriter) This package is up to date.
+[INFO] (kthresher) This package is up to date.
+[ERROR] (ktiny) Could not extract data from this package. See below for details.
+".php?group_id=192038" extension not supported.
+[INFO] (ktm) This package is up to date.
+[ERROR] (ktools) This package does not have downloadable releases.
+[INFO] (ktorrent) This package is up to date.
+[INFO] (ktransit) This package is up to date.
+[INFO] (ktrlpy) This package is up to date.
+[INFO] (ktuple) This package is up to date.
+[INFO] (ktuvitdownloader) This package is up to date.
+[ERROR] (ku.stella) This package does not have downloadable releases.
+[INFO] (kua) This package is up to date.
+[INFO] (kuaipandriver) This package is up to date.
+[INFO] (kuankr) This package is up to date.
+[INFO] (kube) This package is up to date.
+[INFO] (kube-shields) This package is up to date.
+[INFO] (kubeform) This package is up to date.
+[INFO] (kubefuse) This package is up to date.
+[INFO] (kubelib) This package is up to date.
+[INFO] (kubepy) This package is up to date.
+[INFO] (kuberender) This package is up to date.
+[INFO] (kubernetes) This package is up to date.
+[INFO] (kubernetes-downward-api) This package is up to date.
+[INFO] (kubernetes-py) This package is up to date.
+[INFO] (kubeshift) This package is up to date.
+[INFO] (kubetemplate) This package is up to date.
+[INFO] (kubetop) This package is up to date.
+[INFO] (kubewait) This package is up to date.
+[INFO] (kubey) This package is up to date.
+[ERROR] (kubos) This package does not have downloadable releases.
+[INFO] (kubos-cli) This package is up to date.
+[INFO] (kubos-sdk) This package is up to date.
+[ERROR] (kubrick) This package does not have downloadable releases.
+[INFO] (kudriashov) This package is up to date.
+[INFO] (kudriavtsev) This package is up to date.
+[INFO] (kudu-python) This package is up to date.
+[INFO] (kudubot) This package is up to date.
+[INFO] (kudzu) This package is up to date.
+[INFO] (kuga) This package is up to date.
+[INFO] (kugou) This package is up to date.
+[INFO] (kujenga) This package is up to date.
+[INFO] (kukushkin) This package is up to date.
+[INFO] (kulagin) This package is up to date.
+[INFO] (kulakov) This package is up to date.
+[INFO] (kule) This package is up to date.
+[INFO] (kuleshov) This package is up to date.
+[INFO] (kulikov) This package is up to date.
+[INFO] (kuliza-ip2location) This package is up to date.
+[INFO] (kulka) This package is up to date.
+[INFO] (kumaresh-package) This package is up to date.
+[INFO] (kumo) This package is up to date.
+[INFO] (kumpel) This package is up to date.
+[INFO] (kunai) This package is up to date.
+[INFO] (kundalini) This package is up to date.
+[INFO] (kundart.socialpublisher) This package is up to date.
+[INFO] (kundo-common) This package is up to date.
+[INFO] (kung) This package is up to date.
+[INFO] (kungfu) This package is up to date.
+[INFO] (kunits) This package is up to date.
+[ERROR] (kunstkopf) This package does not have downloadable releases.
+[ERROR] (kunyittst) Could not extract data from this package. See below for details.
+"" extension not supported.
+[INFO] (kuoliang-nester) This package is up to date.
+[INFO] (kuorra) This package is up to date.
+[INFO] (kupfer-plugin-aftership) This package is up to date.
+[INFO] (kupfer-plugin-android-controller) This package is up to date.
+[INFO] (kupfer-plugin-credit-card-generator) This package is up to date.
+[INFO] (kupfer-plugin-curreios) This package is up to date.
+[INFO] (kupfer-plugin-empathetic) This package is up to date.
+[INFO] (kupfer-plugin-gerador-de-cpf) This package is up to date.
+[INFO] (kupfer-plugin-git) This package is up to date.
+[INFO] (kupfer-plugin-gtkicons) This package is up to date.
+[INFO] (kupfer-plugin-jira-plugin) This package is up to date.
+[INFO] (kupfer-plugin-kupfer-keyring) This package is up to date.
+[INFO] (kupfer-plugin-marketplace) This package is up to date.
+[INFO] (kupfer-plugin-mpris-2) This package is up to date.
+[INFO] (kupfer-plugin-name) This package is up to date.
+[INFO] (kupfer-plugin-pidgin-smiley) This package is up to date.
+[INFO] (kupfer-plugin-remmina) This package is up to date.
+[INFO] (kupfer-plugin-restart-app) This package is up to date.
+[INFO] (kupfer-plugin-show-qrcode) This package is up to date.
+[INFO] (kupfer-plugin-trackingmore) This package is up to date.
+[INFO] (kupfer-plugin-url-encode) This package is up to date.
+[INFO] (kupriianov) This package is up to date.
+[INFO] (kupu.mashups) This package is up to date.
+[INFO] (kur) This package is up to date.
+[INFO] (kurochkin) This package is up to date.
+[INFO] (kuroko) This package is up to date.
+[ERROR] (kurrent) This package does not have downloadable releases.
+[INFO] (kurt) This package is up to date.
+[INFO] (kurye) This package is up to date.
+[ERROR] (kuryr) This package does not have downloadable releases.
+[ERROR] (kuryr-kubernetes) This package does not have downloadable releases.
+[INFO] (kuryr-lib) This package is up to date.
+[ERROR] (kuryr-libnetwork) This package does not have downloadable releases.
+[INFO] (kurzfile) This package is up to date.
+[INFO] (kuvalda) This package is up to date.
+[INFO] (kuyruk) This package is up to date.
+[INFO] (kuyruk-manager) This package is up to date.
+[INFO] (kuyruk-requeue) This package is up to date.
+[INFO] (kuyruk-sentry) This package is up to date.
+[INFO] (kuzin) This package is up to date.
+[INFO] (kuzmin) This package is up to date.
+[INFO] (kuznetsov) This package is up to date.
+[INFO] (kv) This package is up to date.
+[INFO] (kv-progrid) This package is up to date.
+[ERROR] (kv-server) This package does not have downloadable releases.
+[INFO] (kvadratnet) This package is up to date.
+[INFO] (kvasirapi) This package is up to date.
+[INFO] (kvasirhgt) This package is up to date.
+[INFO] (kvaut) This package is up to date.
+[INFO] (kvcomcon) This package is up to date.
+[INFO] (kvdnc) This package is up to date.
+[INFO] (kvhosting) This package is up to date.
+[INFO] (kvigall) This package is up to date.
+[INFO] (kvipytools) This package is up to date.
+[INFO] (kvkit) This package is up to date.
+[INFO] (kvlayer) This package is up to date.
+[INFO] (kvlayer-mysql) This package is up to date.
+[INFO] (kvlite) This package is up to date.
+[INFO] (kvm) This package is up to date.
+[INFO] (kvminstall) This package is up to date.
+[INFO] (kvndb) This package is up to date.
+[INFO] (kvpbase) This package is up to date.
+[INFO] (kvpio-python) This package is up to date.
+[INFO] (kvstore) This package is up to date.
+[INFO] (kw-ppjp.chat) This package is up to date.
+[INFO] (kwalitee) This package is up to date.
+[INFO] (kwallet-dump) This package is up to date.
+[INFO] (kwant) This package is up to date.
+[INFO] (kwapi-g5k) This package is up to date.
+[INFO] (kwargify) This package is up to date.
+[INFO] (kwargs-obj) This package is up to date.
+[INFO] (kwartzite) This package is up to date.
+[INFO] (kwattr) This package is up to date.
+[INFO] (kweisamx-nester) This package is up to date.
+[INFO] (kwickmapi-python) This package is up to date.
+[INFO] (kwiklib) This package is up to date.
+[INFO] (kwipy) This package is up to date.
+[ERROR] (kwl) Could not extract data from this package. See below for details.
+
+[INFO] (kwonly) This package is up to date.
+[INFO] (kwonly-args) This package is up to date.
+[INFO] (kwpbar) This package is up to date.
+[INFO] (kwplayer) This package is up to date.
+[INFO] (kwsearch) This package is up to date.
+[ERROR] (kwtest) This package does not have downloadable releases.
+[ERROR] (kx) This package does not have downloadable releases.
+[INFO] (kxg) This package is up to date.
+[ERROR] (kya) This package does not have downloadable releases.
+[INFO] (kyantoolkit) This package is up to date.
+[INFO] (kyber) This package is up to date.
+[INFO] (kyber-k8s) This package is up to date.
+[INFO] (kyd) This package is up to date.
+[ERROR] (kyk) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 504, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 696, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (kyklop) This package is up to date.
+[INFO] (kyle) This package is up to date.
+[ERROR] (kyle-demo) This package does not have downloadable releases.
+[INFO] (kylehfpy) This package is up to date.
+[INFO] (kylie) This package is up to date.
+[INFO] (kyoka) This package is up to date.
+[ERROR] (kyoto) This package does not have downloadable releases.
+[INFO] (kyotocabinet) This package is up to date.
+[INFO] (kyoukai) This package is up to date.
+[INFO] (kyp) This package is up to date.
+[INFO] (kyper) This package is up to date.
+[INFO] (kyper.data) This package is up to date.
+[INFO] (kyper.util) This package is up to date.
+[INFO] (kypy) This package is up to date.
+[INFO] (kyra) This package is up to date.
+[INFO] (kytea) This package is up to date.
+[INFO] (kytos) This package is up to date.
+[INFO] (kytos-utils) This package is up to date.
+[INFO] (kytten) This package is up to date.
+[INFO] (kyu-ar-kowd-jenereytor) This package is up to date.
+[ERROR] (kyx) This package does not have downloadable releases.
+[INFO] (kzidane-test) This package is up to date.
+[ERROR] (kzkggaara) This package does not have downloadable releases.
+[ERROR] (kzw) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] 
+[INFO] 
+[INFO] Total packages: 1497
+[INFO]     Packages processed: 1497
+[INFO]         Packages updated: 0
+[INFO]         Packages up-to-date: 1337
+[INFO]         Packages without response: 12
+[INFO]         Packages without urls: 0
+[INFO]         Packages without downloads: 130
+[INFO]         Packages with data errors: 18
+[INFO]     Packages not processed: 0
+[INFO] 
+[INFO] 
+[INFO] Ending execution.
