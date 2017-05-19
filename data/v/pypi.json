@@ -2338,14 +2338,16 @@
         "modules": [
             "VAPr",
             "VAPr.MongoDB_querying",
-            "VAPr.annovar_suprocess",
+            "VAPr.annovar",
+            "VAPr.base",
             "VAPr.definitions",
             "VAPr.file_writer",
-            "VAPr.parser_models",
+            "VAPr.models",
+            "VAPr.parsers",
             "VAPr.validation",
             "VAPr.vcf_parsing"
         ],
-        "version": "1.5"
+        "version": "1.8.3"
     },
     "vaquero": {
         "cmdline": [],
@@ -11377,7 +11379,7 @@
             "vireo.model",
             "vireo.observer"
         ],
-        "version": "0.7.1"
+        "version": "0.7.3"
     },
     "virgil-crypto": {
         "cmdline": [],
@@ -17720,8 +17722,6 @@
             "vofs.CacheMetaData",
             "vofs.CadcCache",
             "vofs.SharedLock",
-            "vofs._astropy_init",
-            "vofs.conftest",
             "vofs.mountvofs",
             "vofs.tests",
             "vofs.tests.setup_package",
@@ -17733,7 +17733,7 @@
             "vofs.version",
             "vofs.vofs"
         ],
-        "version": "3.0.0b1"
+        "version": "3.0.0b2"
     },
     "vogeler": {
         "cmdline": [],
@@ -18937,7 +18937,6 @@
         "modules": [
             "vos",
             "vos.NodeCache",
-            "vos._astropy_init",
             "vos.commands",
             "vos.commands.vcat",
             "vos.commands.vchmod",
@@ -18952,14 +18951,12 @@
             "vos.commands.vsync",
             "vos.commands.vtag",
             "vos.commonparser",
-            "vos.conftest",
             "vos.logExceptions",
             "vos.md5_cache",
-            "vos.setup_package",
             "vos.version",
             "vos.vos"
         ],
-        "version": "3.0.0b1"
+        "version": "3.0.0b2"
     },
     "vosh": {
         "cmdline": [],
