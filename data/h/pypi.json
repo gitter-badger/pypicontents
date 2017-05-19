@@ -16313,6 +16313,7 @@
             "hgext3rd.evolve.obscache",
             "hgext3rd.evolve.obsdiscovery",
             "hgext3rd.evolve.obsexchange",
+            "hgext3rd.evolve.obshistory",
             "hgext3rd.evolve.safeguard",
             "hgext3rd.evolve.serveronly",
             "hgext3rd.evolve.stablerange",
@@ -16326,7 +16327,7 @@
             "hgext3rd.topic.stack",
             "hgext3rd.topic.topicmap"
         ],
-        "version": "6.1.0"
+        "version": "6.2.0"
     },
     "hg-fingerprint": {
         "cmdline": [],
@@ -19743,6 +19744,15 @@
             "hjplugin.NoseHjPlugin"
         ],
         "version": "1.2"
+    },
+    "hjs": {
+        "cmdline": [],
+        "modules": [
+            "hjs",
+            "hjs.tests",
+            "hjs.tests.test_hjs"
+        ],
+        "version": "0.0.7"
     },
     "hjson": {
         "cmdline": [],
@@ -31486,7 +31496,7 @@
             "hupper.winapi",
             "hupper.worker"
         ],
-        "version": "0.5"
+        "version": "1.0"
     },
     "hupwatch": {
         "cmdline": [],
