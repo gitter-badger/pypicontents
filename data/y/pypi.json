@@ -12266,7 +12266,7 @@
             "yuuno.ipython.widgets.widget",
             "yuuno.util"
         ],
-        "version": "0.4.0"
+        "version": "0.4.0.1"
     },
     "yux-nester": {
         "cmdline": [],
