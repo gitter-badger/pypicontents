@@ -3273,7 +3273,7 @@
             "vaspy.matstudio",
             "vaspy.plotter"
         ],
-        "version": "0.8.0"
+        "version": "0.8.1"
     },
     "vassal-deployer": {
         "cmdline": [],
