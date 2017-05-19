@@ -18876,7 +18876,7 @@
             "libcnmc.res_4771.SUB",
             "libcnmc.utils"
         ],
-        "version": "0.18.1"
+        "version": "0.18.2"
     },
     "libcnmc1048": {
         "cmdline": [],
