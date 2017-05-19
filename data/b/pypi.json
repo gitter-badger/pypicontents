@@ -57233,6 +57233,11 @@
         ],
         "version": "0.1"
     },
+    "bug-crowd-api-client": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.1.dev1"
+    },
     "bug-predict": {
         "cmdline": [],
         "modules": [],
@@ -63201,10 +63206,15 @@
         "modules": [],
         "version": "0.3.0"
     },
-    "byte-format-json": {
+    "byte-apsw": {
         "cmdline": [],
         "modules": [],
-        "version": "0.1.1"
+        "version": ""
+    },
+    "byte-pysqlite": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "byte-sqlite": {
         "cmdline": [],
