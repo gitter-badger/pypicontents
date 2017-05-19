@@ -4148,9 +4148,10 @@
         "cmdline": [],
         "modules": [
             "id2xml",
+            "id2xml.debug",
             "id2xml.parser"
         ],
-        "version": "0.9.3"
+        "version": "1.0.0-rc1"
     },
     "id3encodingconverter": {
         "cmdline": [],
@@ -4247,8 +4248,22 @@
     },
     "idb": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "iDB",
+            "iDB.Boolean",
+            "iDB.Dict",
+            "iDB.Float",
+            "iDB.Hex",
+            "iDB.Integer",
+            "iDB.Item",
+            "iDB.Numberic",
+            "iDB.Object",
+            "iDB.String",
+            "iDB.helpers",
+            "iDB.iDB",
+            "iDB.utils"
+        ],
+        "version": "0.0.2"
     },
     "idbiaas": {
         "cmdline": [],
@@ -7815,9 +7830,11 @@
         "version": "0.9.2.1"
     },
     "image-cleaner": {
-        "cmdline": [],
+        "cmdline": [
+            "image_cleaner"
+        ],
         "modules": [],
-        "version": ""
+        "version": "0.1.0"
     },
     "image-compressor": {
         "cmdline": [],
@@ -8429,8 +8446,14 @@
     },
     "imagemetatag": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "ImageMetaTag",
+            "ImageMetaTag.db",
+            "ImageMetaTag.img_dict",
+            "ImageMetaTag.savefig",
+            "ImageMetaTag.webpage"
+        ],
+        "version": "0.1"
     },
     "imagemounter": {
         "cmdline": [],
@@ -14048,9 +14071,11 @@
         "version": "0.2.0"
     },
     "indian-company-prices": {
-        "cmdline": [],
+        "cmdline": [
+            "indian_company_price"
+        ],
         "modules": [],
-        "version": ""
+        "version": "0.0.0"
     },
     "indianrailways": {
         "cmdline": [],
@@ -15358,8 +15383,11 @@
     },
     "ineqpy": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "ineqpy",
+            "ineqpy.ineqpy"
+        ],
+        "version": "0.0.2"
     },
     "ines": {
         "cmdline": [],
@@ -20136,7 +20164,7 @@
             "influxgraph.templates",
             "influxgraph.utils"
         ],
-        "version": "1.3.3"
+        "version": "1.3.4"
     },
     "influxhtm": {
         "cmdline": [],
@@ -22430,18 +22458,18 @@
         "modules": [
             "inqbus",
             "inqbus.rainflow",
-            "inqbus.rainflow.data_formats",
-            "inqbus.rainflow.data_formats.hdf5",
+            "inqbus.rainflow.data_sources",
+            "inqbus.rainflow.data_sources.hdf5",
             "inqbus.rainflow.examples",
             "inqbus.rainflow.examples.create_hdf5_testfile",
             "inqbus.rainflow.examples.example_hdf5",
             "inqbus.rainflow.examples.example_numpy",
             "inqbus.rainflow.helpers",
-            "inqbus.rainflow.rainflow_algorithm",
-            "inqbus.rainflow.rainflow_algorithm.classification",
+            "inqbus.rainflow.rfc_base",
+            "inqbus.rainflow.rfc_base.classification",
             "inqbus.rainflow.run_rainflow"
         ],
-        "version": "0.2"
+        "version": "0.3"
     },
     "inqbus.tagging": {
         "cmdline": [],
@@ -28404,12 +28432,13 @@
             "invocations.packaging.release",
             "invocations.packaging.semantic_version_monkey",
             "invocations.packaging.vendorize",
+            "invocations.pytest",
             "invocations.testing",
             "invocations.travis",
             "invocations.util",
             "invocations.watch"
         ],
-        "version": "0.18.0"
+        "version": "0.19.0"
     },
     "invoice2data": {
         "cmdline": [],
@@ -28935,12 +28964,13 @@
         "modules": [
             "ioex",
             "ioex.calcex",
+            "ioex.classex",
             "ioex.cursesex",
             "ioex.datetimeex",
             "ioex.reex",
             "ioex.shell"
         ],
-        "version": "0.14.0"
+        "version": "0.15.0"
     },
     "ioflo": {
         "cmdline": [
@@ -33033,7 +33063,7 @@
             "ipwb.replay",
             "ipwb.util"
         ],
-        "version": "0.2017.5.18.1306"
+        "version": "0.2017.5.19.1553"
     },
     "ipwhois": {
         "cmdline": [
@@ -35863,8 +35893,10 @@
     },
     "irq-reeler": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "irq_reeler"
+        ],
+        "version": "0.2"
     },
     "irregular": {
         "cmdline": [],
@@ -44468,8 +44500,36 @@
     },
     "ivao-status": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "modules",
+            "modules.BuildDB",
+            "modules.Build_UI",
+            "modules.ControllerInfo_UI",
+            "modules.Controllers",
+            "modules.FOLME",
+            "modules.FOLME_UI",
+            "modules.Friends",
+            "modules.MainWindow_UI",
+            "modules.MapView",
+            "modules.PilotInfo_UI",
+            "modules.Pilots",
+            "modules.SQL_queries",
+            "modules.Schedule",
+            "modules.SettingWindow_UI",
+            "modules.StatusFlight",
+            "modules.distance",
+            "modules.format",
+            "modules.point",
+            "modules.units",
+            "modules.util",
+            "modules.windows",
+            "modules.windows._elementpath",
+            "modules.x64",
+            "modules.x64._elementpath",
+            "modules.x86",
+            "modules.x86._elementpath"
+        ],
+        "version": "1.0"
     },
     "ivaylo-tfl": {
         "cmdline": [],
