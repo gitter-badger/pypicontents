@@ -43453,6 +43453,18 @@
         ],
         "version": "0.8.1"
     },
+    "opal-observations": {
+        "cmdline": [],
+        "modules": [
+            "obs",
+            "obs.admin",
+            "obs.models",
+            "obs.plugin",
+            "obs.urls",
+            "obs.views"
+        ],
+        "version": "0.3.0"
+    },
     "opal-referral": {
         "cmdline": [],
         "modules": [
