@@ -20700,15 +20700,16 @@
             "findex_common",
             "findex_common.bytes2human",
             "findex_common.cfg",
+            "findex_common.colors",
             "findex_common.exceptions",
             "findex_common.filetypes",
-            "findex_common.parseurl",
+            "findex_common.logo",
             "findex_common.resourcetypes",
             "findex_common.static_variables",
             "findex_common.utils",
             "findex_common.utils_time"
         ],
-        "version": "0.5.1"
+        "version": "0.5.11"
     },
     "findex-gui": {
         "cmdline": [],
@@ -20780,7 +20781,7 @@
             "findex_gui.orm.queries",
             "findex_gui.web"
         ],
-        "version": "0.2.11"
+        "version": "0.2.12"
     },
     "findfiles": {
         "cmdline": [],
