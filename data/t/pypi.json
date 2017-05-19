@@ -15283,7 +15283,7 @@
             "temboardagent.usermgmt",
             "temboardagent.workers"
         ],
-        "version": "1.0a1"
+        "version": "1.0a2"
     },
     "tembodb": {
         "cmdline": [],
@@ -76277,7 +76277,7 @@
             "tvlinker.settings",
             "tvlinker.threads"
         ],
-        "version": "3.8.5"
+        "version": "3.9.0"
     },
     "tvnamer": {
         "cmdline": [],
