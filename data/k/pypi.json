@@ -5824,7 +5824,7 @@
             "kadabra.publishers",
             "kadabra.utils"
         ],
-        "version": "0.4.0"
+        "version": "0.5.0"
     },
     "kademlia": {
         "cmdline": [],
@@ -21091,6 +21091,16 @@
         "modules": [],
         "version": "1.0.0b1"
     },
+    "kms-encryption-toolbox": {
+        "cmdline": [
+            "decrypt-and-start.sh",
+            "terraform-decrypt.sh"
+        ],
+        "modules": [
+            "kmsencryption"
+        ],
+        "version": "0.0.3"
+    },
     "kmsauth": {
         "cmdline": [],
         "modules": [
@@ -22667,7 +22677,7 @@
             "kodi_voice",
             "kodi_voice.kodi"
         ],
-        "version": "0.7.8"
+        "version": "0.7.9"
     },
     "kodicontroller": {
         "cmdline": [],
@@ -25001,7 +25011,7 @@
             "kolibri_exercise_perseus_plugin",
             "kolibri_exercise_perseus_plugin.kolibri_plugin"
         ],
-        "version": "0.6.7"
+        "version": "0.6.8"
     },
     "kolibri-exercise-perseus-renderer": {
         "cmdline": [],

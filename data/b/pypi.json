@@ -3407,7 +3407,7 @@
             "bagua.test",
             "bagua.utils"
         ],
-        "version": "0.1.4"
+        "version": "0.1.5"
     },
     "bahai.theme": {
         "cmdline": [],
@@ -16408,7 +16408,7 @@
             "beedriver.printStatusThread",
             "beedriver.transferThread"
         ],
-        "version": "0.3.12"
+        "version": "0.3.13"
     },
     "beef": {
         "cmdline": [],
@@ -37963,7 +37963,6 @@
             "bob.bio.spear.config.database.asvspoof",
             "bob.bio.spear.config.database.asvspoof2017",
             "bob.bio.spear.config.database.avspoof",
-            "bob.bio.spear.config.database.banca_audio_G",
             "bob.bio.spear.config.database.mobio_audio_female",
             "bob.bio.spear.config.database.mobio_audio_male",
             "bob.bio.spear.config.database.timit",
@@ -38017,7 +38016,7 @@
             "bob.bio.spear.utils",
             "bob.bio.spear.utils.extraction"
         ],
-        "version": "3.0.1"
+        "version": "3.0.5"
     },
     "bob.bio.video": {
         "cmdline": [],
@@ -39308,6 +39307,7 @@
             "bob.pad.voice.algorithm.gmm_algorithm",
             "bob.pad.voice.algorithm.histdistance_algorithm",
             "bob.pad.voice.algorithm.logregr_algorithm",
+            "bob.pad.voice.algorithm.tensorflow_algorithm",
             "bob.pad.voice.config",
             "bob.pad.voice.config.algorithm",
             "bob.pad.voice.config.algorithm.gmm_scfc",
@@ -39315,6 +39315,7 @@
             "bob.pad.voice.config.algorithm.pcalogregr_algorithm",
             "bob.pad.voice.config.database",
             "bob.pad.voice.config.database.asvspoof",
+            "bob.pad.voice.config.database.asvspoof2017",
             "bob.pad.voice.config.database.avspoof",
             "bob.pad.voice.config.database.voicepa",
             "bob.pad.voice.config.extractor",
@@ -39326,12 +39327,15 @@
             "bob.pad.voice.config.preprocessor",
             "bob.pad.voice.database",
             "bob.pad.voice.database.asvspoof",
+            "bob.pad.voice.database.asvspoof2017",
             "bob.pad.voice.database.avspoof",
             "bob.pad.voice.database.database",
             "bob.pad.voice.database.replay",
             "bob.pad.voice.database.replaymobile",
             "bob.pad.voice.database.voicepa",
             "bob.pad.voice.extractor",
+            "bob.pad.voice.extractor.audio_tensorflow",
+            "bob.pad.voice.extractor.dummy_tensorflow",
             "bob.pad.voice.extractor.glcms",
             "bob.pad.voice.extractor.lbp_histograms",
             "bob.pad.voice.extractor.lbps",
@@ -39347,7 +39351,7 @@
             "bob.pad.voice.utils.extraction",
             "bob.pad.voice.utils.scores"
         ],
-        "version": "1.0.2"
+        "version": "1.0.4"
     },
     "bob.palmvein": {
         "cmdline": [],
@@ -39519,7 +39523,7 @@
             "bob.paper.interspeech_2016.scripts.pad_process_scores",
             "bob.paper.interspeech_2016.scripts.pad_stats_summary"
         ],
-        "version": "1.0.4"
+        "version": "1.0.6"
     },
     "bob.paper.jstsp-2017": {
         "cmdline": [],
@@ -44008,7 +44012,6 @@
         "modules": [
             "boron",
             "boron.binary_utils",
-            "boron.binarytools",
             "boron.django_utils",
             "boron.django_utils.decorators",
             "boron.django_utils.plugins",
@@ -44016,19 +44019,11 @@
             "boron.django_utils.plugins.boot_grid",
             "boron.django_utils.plugins.jquery_grid",
             "boron.django_utils.query_utils",
-            "boron.djtools",
-            "boron.djtools.decorators",
-            "boron.djtools.plugins",
-            "boron.djtools.plugins.amap",
-            "boron.djtools.plugins.boot_grid",
-            "boron.djtools.plugins.jquery_grid",
-            "boron.djtools.querytools",
             "boron.structures",
             "boron.structures.base",
-            "boron.structures.choices",
-            "boron.structures.obj2json"
+            "boron.structures.choices"
         ],
-        "version": "0.9.1"
+        "version": "0.9.2"
     },
     "boruta": {
         "cmdline": [],
@@ -49427,7 +49422,7 @@
             "bpc8583.tools",
             "bpc8583.transaction"
         ],
-        "version": "1.27"
+        "version": "1.33"
     },
     "bpch": {
         "cmdline": [],
@@ -56094,7 +56089,7 @@
             "btrfs_backup.endpoint",
             "btrfs_backup.util"
         ],
-        "version": "0.2"
+        "version": "0.2.1"
     },
     "btrfs-sxbackup": {
         "cmdline": [],
@@ -57232,6 +57227,11 @@
             "bug"
         ],
         "version": "0.1"
+    },
+    "bug-crowd-api-client": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.1.dev1"
     },
     "bug-predict": {
         "cmdline": [],
@@ -63199,12 +63199,22 @@
     "byte": {
         "cmdline": [],
         "modules": [],
-        "version": "0.2.0"
+        "version": "0.3.0"
     },
-    "byte-format-json": {
+    "byte-apsw": {
         "cmdline": [],
         "modules": [],
-        "version": "0.1.1"
+        "version": ""
+    },
+    "byte-pysqlite": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "byte-sqlite": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.3.0"
     },
     "byte-to-humanity": {
         "cmdline": [],

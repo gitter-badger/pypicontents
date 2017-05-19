@@ -23906,9 +23906,12 @@
         "cmdline": [],
         "modules": [
             "hornet",
-            "hornet.hornet"
+            "hornet.hornet",
+            "hornet.nest",
+            "hornet.tests",
+            "hornet.tests.test_hornet"
         ],
-        "version": "0.1.0"
+        "version": "0.1.1"
     },
     "horntell": {
         "cmdline": [],
@@ -28679,6 +28682,13 @@
         "modules": [],
         "version": "1.0.2"
     },
+    "httpie-odps-auth": {
+        "cmdline": [],
+        "modules": [
+            "httpie_odps_auth"
+        ],
+        "version": "0.2.1"
+    },
     "httpie-plex": {
         "cmdline": [],
         "modules": [
@@ -33203,6 +33213,13 @@
         ],
         "version": "0.1.1"
     },
+    "hycc": {
+        "cmdline": [],
+        "modules": [
+            "activate_hycc"
+        ],
+        "version": "0.0.2"
+    },
     "hyde": {
         "cmdline": [],
         "modules": [
@@ -34931,6 +34948,15 @@
             "hypercube.version"
         ],
         "version": "0.3.3"
+    },
+    "hyperd": {
+        "cmdline": [],
+        "modules": [
+            "hyperd",
+            "hyperd.types_pb2",
+            "hyperd.types_pb2_grpc"
+        ],
+        "version": "0.1.0"
     },
     "hyperdns-flask": {
         "cmdline": [],

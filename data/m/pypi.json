@@ -2515,6 +2515,14 @@
         ],
         "version": "0.011"
     },
+    "macho-parser": {
+        "cmdline": [],
+        "modules": [
+            "macho_parser",
+            "macho_parser.macho_parser"
+        ],
+        "version": "1.0.0"
+    },
     "machobot": {
         "cmdline": [],
         "modules": [
@@ -8323,7 +8331,7 @@
             "makiki.redis",
             "makiki.schema"
         ],
-        "version": "0.2.11"
+        "version": "0.2.12"
     },
     "makimono": {
         "cmdline": [],
@@ -11995,7 +12003,7 @@
             "maple.worker.request",
             "maple.worker.worker"
         ],
-        "version": "2.2.73"
+        "version": "2.3.1"
     },
     "maple-cluster-statsd": {
         "cmdline": [],
@@ -27413,7 +27421,7 @@
         "modules": [
             "mdx_showable"
         ],
-        "version": "0.1.3"
+        "version": "0.1.4"
     },
     "mdx-smartypants": {
         "cmdline": [],
@@ -32683,7 +32691,7 @@
             "mendeleev.tables",
             "mendeleev.utils"
         ],
-        "version": "0.3.2"
+        "version": "0.3.3"
     },
     "mendeley": {
         "cmdline": [],
@@ -42281,7 +42289,7 @@
             "mico",
             "mico.mico"
         ],
-        "version": "1.0.7"
+        "version": "1.0.9"
     },
     "micom": {
         "cmdline": [],
@@ -42652,6 +42660,7 @@
             "microcosm_flask.conventions.discovery",
             "microcosm_flask.conventions.encoding",
             "microcosm_flask.conventions.health",
+            "microcosm_flask.conventions.logging_level",
             "microcosm_flask.conventions.registry",
             "microcosm_flask.conventions.relation",
             "microcosm_flask.conventions.swagger",
@@ -42689,7 +42698,7 @@
             "microcosm_flask.sync.push",
             "microcosm_flask.sync.toposort"
         ],
-        "version": "0.70.1"
+        "version": "0.71.0"
     },
     "microcosm-logging": {
         "cmdline": [],
@@ -62219,7 +62228,7 @@
             "molo.core.wagtailsearch.backends.elasticsearch",
             "molo.core.wagtailsearch.backends.elasticsearch2"
         ],
-        "version": "5.2.5"
+        "version": "5.3.0"
     },
     "molo.polls": {
         "cmdline": [],
@@ -67423,6 +67432,13 @@
             "monthdelta"
         ],
         "version": "1.0b"
+    },
+    "monthly-returns-heatmap": {
+        "cmdline": [],
+        "modules": [
+            "monthly_returns_heatmap"
+        ],
+        "version": "0.0.1"
     },
     "months": {
         "cmdline": [],

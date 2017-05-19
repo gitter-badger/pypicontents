@@ -5995,15 +5995,30 @@
         ],
         "version": "10.0.1.0.0.99.dev5"
     },
+    "odoo10-addon-account-cutoff-accrual-base": {
+        "cmdline": [],
+        "modules": [
+            "account_cutoff_accrual_base",
+            "account_cutoff_accrual_base.models",
+            "account_cutoff_accrual_base.models.account",
+            "account_cutoff_accrual_base.models.account_cutoff",
+            "account_cutoff_accrual_base.models.company",
+            "account_cutoff_accrual_base.tests",
+            "account_cutoff_accrual_base.tests.test_account_cutoff"
+        ],
+        "version": "10.0.0.1.0.99.dev4"
+    },
     "odoo10-addon-account-cutoff-base": {
         "cmdline": [],
         "modules": [
             "account_cutoff_base",
             "account_cutoff_base.models",
             "account_cutoff_base.models.account_cutoff",
-            "account_cutoff_base.models.company"
+            "account_cutoff_base.models.company",
+            "account_cutoff_base.tests",
+            "account_cutoff_base.tests.test_account_cutoff"
         ],
-        "version": "10.0.1.0.0.99.dev3"
+        "version": "10.0.1.0.0.99.dev4"
     },
     "odoo10-addon-account-cutoff-prepaid": {
         "cmdline": [],
@@ -6747,6 +6762,20 @@
             "base_location_geonames_import.wizard.geonames_import"
         ],
         "version": "10.0.1.0.1.99.dev1"
+    },
+    "odoo10-addon-base-multi-company": {
+        "cmdline": [],
+        "modules": [
+            "base_multi_company",
+            "base_multi_company.hooks",
+            "base_multi_company.models",
+            "base_multi_company.models.multi_company_abstract",
+            "base_multi_company.models.res_company_assignment",
+            "base_multi_company.tests",
+            "base_multi_company.tests.test_multi_company_abstract",
+            "base_multi_company.tests.test_res_company_assignment"
+        ],
+        "version": "10.0.1.0.0.99.dev4"
     },
     "odoo10-addon-base-multi-image": {
         "cmdline": [],
@@ -8051,9 +8080,11 @@
         "modules": [
             "l10n_nl_bsn",
             "l10n_nl_bsn.models",
-            "l10n_nl_bsn.models.res_partner"
+            "l10n_nl_bsn.models.res_partner",
+            "l10n_nl_bsn.tests",
+            "l10n_nl_bsn.tests.test_l10n_nl_bsn"
         ],
-        "version": "10.0.0.1.0.99.dev2"
+        "version": "10.0.0.1.0.99.dev3"
     },
     "odoo10-addon-l10n-nl-postcodeapi": {
         "cmdline": [],
@@ -8954,6 +8985,21 @@
         ],
         "version": "10.0.1.0.0.99.dev3"
     },
+    "odoo10-addon-purchase-request-to-rfq": {
+        "cmdline": [],
+        "modules": [
+            "purchase_request_to_rfq",
+            "purchase_request_to_rfq.models",
+            "purchase_request_to_rfq.models.purchase_order",
+            "purchase_request_to_rfq.models.purchase_request",
+            "purchase_request_to_rfq.models.stock",
+            "purchase_request_to_rfq.tests",
+            "purchase_request_to_rfq.tests.test_purchase_request_to_rfq",
+            "purchase_request_to_rfq.wizard",
+            "purchase_request_to_rfq.wizard.purchase_request_line_make_purchase_order"
+        ],
+        "version": "10.0.1.0.0.99.dev19"
+    },
     "odoo10-addon-queue-job": {
         "cmdline": [],
         "modules": [
@@ -9462,7 +9508,7 @@
         "modules": [
             "web_responsive"
         ],
-        "version": "10.0.1.0.0.99.dev14"
+        "version": "10.0.1.0.0.99.dev15"
     },
     "odoo10-addon-web-search-with-and": {
         "cmdline": [],
@@ -9491,6 +9537,18 @@
             "web_sheet_full_width"
         ],
         "version": "10.0.1.0.1"
+    },
+    "odoo10-addon-web-shortcut": {
+        "cmdline": [],
+        "modules": [
+            "web_shortcut",
+            "web_shortcut.models",
+            "web_shortcut.models.ir_ui_menu",
+            "web_shortcut.models.web_shortcut",
+            "web_shortcut.tests",
+            "web_shortcut.tests.test_web_shortcut"
+        ],
+        "version": "10.0.1.0.0"
     },
     "odoo10-addon-web-translate-dialog": {
         "cmdline": [],
@@ -16110,6 +16168,19 @@
         ],
         "version": "8.0.0.1.0.99.dev6"
     },
+    "odoo8-addon-l10n-fr-ecotaxe": {
+        "cmdline": [],
+        "modules": [
+            "l10n_fr_ecotaxe",
+            "l10n_fr_ecotaxe.models",
+            "l10n_fr_ecotaxe.models.account",
+            "l10n_fr_ecotaxe.models.account_invoice",
+            "l10n_fr_ecotaxe.models.product",
+            "l10n_fr_ecotaxe.models.purchase",
+            "l10n_fr_ecotaxe.models.sale"
+        ],
+        "version": "8.0.0.1.0.99.dev3"
+    },
     "odoo8-addon-l10n-fr-fec": {
         "cmdline": [],
         "modules": [
@@ -17968,7 +18039,7 @@
             "mrp_bom_version.tests",
             "mrp_bom_version.tests.test_mrp_bom_version"
         ],
-        "version": "8.0.1.0.0.99.dev32"
+        "version": "8.0.1.0.0.99.dev33"
     },
     "odoo8-addon-mrp-calendar-view": {
         "cmdline": [],
@@ -29873,6 +29944,17 @@
         ],
         "version": "9.0.1.0.0.99.dev8"
     },
+    "odoo9-addon-stock-account-deposit": {
+        "cmdline": [],
+        "modules": [
+            "stock_account_deposit",
+            "stock_account_deposit.tests",
+            "stock_account_deposit.tests.test_stock_account_deposit",
+            "stock_account_deposit.wizards",
+            "stock_account_deposit.wizards.stock_quant_wizard"
+        ],
+        "version": "9.0.1.0.0"
+    },
     "odoo9-addon-stock-account-quant-merge": {
         "cmdline": [],
         "modules": [
@@ -31028,6 +31110,18 @@
             "website_sale_product_brand.models.website"
         ],
         "version": "9.0.1.1.0.99.dev4"
+    },
+    "odoo9-addon-website-sale-qty": {
+        "cmdline": [],
+        "modules": [
+            "website_sale_qty",
+            "website_sale_qty.models",
+            "website_sale_qty.models.product_template",
+            "website_sale_qty.tests",
+            "website_sale_qty.tests.test_js",
+            "website_sale_qty.tests.test_product_template"
+        ],
+        "version": "9.0.1.0.0"
     },
     "odoo9-addon-website-sale-require-legal": {
         "cmdline": [],
@@ -39448,14 +39542,15 @@
             "activity.upgrade",
             "activity.utils"
         ],
-        "version": "0.8.9"
+        "version": "0.8.10"
     },
     "onegov.applications": {
         "cmdline": [],
         "modules": [
-            "applications"
+            "onegov",
+            "onegov.applications"
         ],
-        "version": "2017.4.23"
+        "version": "2017.4.24"
     },
     "onegov.ballot": {
         "cmdline": [],
@@ -39548,106 +39643,107 @@
     "onegov.election-day": {
         "cmdline": [],
         "modules": [
-            "election_day",
-            "election_day.app",
-            "election_day.cli",
-            "election_day.collections",
-            "election_day.collections.archived_results",
-            "election_day.collections.data_sources",
-            "election_day.collections.notifications",
-            "election_day.collections.subscribers",
-            "election_day.formats",
-            "election_day.formats.common",
-            "election_day.formats.election",
-            "election_day.formats.election.internal",
-            "election_day.formats.election.parties",
-            "election_day.formats.election.sesam",
-            "election_day.formats.election.wabsti_majorz",
-            "election_day.formats.election.wabsti_proporz",
-            "election_day.formats.election.wabstic_majorz",
-            "election_day.formats.election.wabstic_proporz",
-            "election_day.formats.vote",
-            "election_day.formats.vote.default",
-            "election_day.formats.vote.internal",
-            "election_day.formats.vote.wabsti",
-            "election_day.formats.vote.wabstic",
-            "election_day.forms",
-            "election_day.forms.data_source",
-            "election_day.forms.election",
-            "election_day.forms.subscribe",
-            "election_day.forms.upload",
-            "election_day.forms.validators",
-            "election_day.forms.vote",
-            "election_day.layout",
-            "election_day.models",
-            "election_day.models.archived_result",
-            "election_day.models.data_source",
-            "election_day.models.notification",
-            "election_day.models.principal",
-            "election_day.models.subscriber",
-            "election_day.path",
-            "election_day.tests",
-            "election_day.tests.conftest",
-            "election_day.tests.test_app",
-            "election_day.tests.test_cli",
-            "election_day.tests.test_collections",
-            "election_day.tests.test_election_views",
-            "election_day.tests.test_formats",
-            "election_day.tests.test_formats_common",
-            "election_day.tests.test_formats_wabstic_majorz",
-            "election_day.tests.test_formats_wabstic_proporz",
-            "election_day.tests.test_formats_wabstic_vote",
-            "election_day.tests.test_forms",
-            "election_day.tests.test_layouts",
-            "election_day.tests.test_media_generator",
-            "election_day.tests.test_models",
-            "election_day.tests.test_pdf_document",
-            "election_day.tests.test_sms_processor",
-            "election_day.tests.test_utils",
-            "election_day.tests.test_views",
-            "election_day.tests.test_views_upload_election",
-            "election_day.tests.test_views_upload_vote",
-            "election_day.tests.test_views_upload_wabstic",
-            "election_day.tests.test_vote_views",
-            "election_day.theme",
-            "election_day.theme.election_day_theme",
-            "election_day.upgrade",
-            "election_day.utils",
-            "election_day.utils.media_generator",
-            "election_day.utils.pdf",
-            "election_day.utils.sms_processor",
-            "election_day.views",
-            "election_day.views.archive",
-            "election_day.views.auth",
-            "election_day.views.election",
-            "election_day.views.election.candidates",
-            "election_day.views.election.connections",
-            "election_day.views.election.data",
-            "election_day.views.election.districts",
-            "election_day.views.election.lists",
-            "election_day.views.election.main",
-            "election_day.views.election.panachage",
-            "election_day.views.election.parties",
-            "election_day.views.election.statistics",
-            "election_day.views.exceptionviews",
-            "election_day.views.locale",
-            "election_day.views.manage",
-            "election_day.views.manage.data_sources",
-            "election_day.views.manage.elections",
-            "election_day.views.manage.errors",
-            "election_day.views.manage.subscribers",
-            "election_day.views.manage.votes",
-            "election_day.views.subscription",
-            "election_day.views.upload",
-            "election_day.views.upload.election",
-            "election_day.views.upload.vote",
-            "election_day.views.upload.wabsti_exporter",
-            "election_day.views.vote",
-            "election_day.views.vote.ballot_map",
-            "election_day.views.vote.data",
-            "election_day.views.vote.main"
+            "onegov",
+            "onegov.election_day",
+            "onegov.election_day.app",
+            "onegov.election_day.cli",
+            "onegov.election_day.collections",
+            "onegov.election_day.collections.archived_results",
+            "onegov.election_day.collections.data_sources",
+            "onegov.election_day.collections.notifications",
+            "onegov.election_day.collections.subscribers",
+            "onegov.election_day.formats",
+            "onegov.election_day.formats.common",
+            "onegov.election_day.formats.election",
+            "onegov.election_day.formats.election.internal",
+            "onegov.election_day.formats.election.parties",
+            "onegov.election_day.formats.election.sesam",
+            "onegov.election_day.formats.election.wabsti_majorz",
+            "onegov.election_day.formats.election.wabsti_proporz",
+            "onegov.election_day.formats.election.wabstic_majorz",
+            "onegov.election_day.formats.election.wabstic_proporz",
+            "onegov.election_day.formats.vote",
+            "onegov.election_day.formats.vote.default",
+            "onegov.election_day.formats.vote.internal",
+            "onegov.election_day.formats.vote.wabsti",
+            "onegov.election_day.formats.vote.wabstic",
+            "onegov.election_day.forms",
+            "onegov.election_day.forms.data_source",
+            "onegov.election_day.forms.election",
+            "onegov.election_day.forms.subscribe",
+            "onegov.election_day.forms.upload",
+            "onegov.election_day.forms.validators",
+            "onegov.election_day.forms.vote",
+            "onegov.election_day.layout",
+            "onegov.election_day.models",
+            "onegov.election_day.models.archived_result",
+            "onegov.election_day.models.data_source",
+            "onegov.election_day.models.notification",
+            "onegov.election_day.models.principal",
+            "onegov.election_day.models.subscriber",
+            "onegov.election_day.path",
+            "onegov.election_day.tests",
+            "onegov.election_day.tests.conftest",
+            "onegov.election_day.tests.test_app",
+            "onegov.election_day.tests.test_cli",
+            "onegov.election_day.tests.test_collections",
+            "onegov.election_day.tests.test_election_views",
+            "onegov.election_day.tests.test_formats",
+            "onegov.election_day.tests.test_formats_common",
+            "onegov.election_day.tests.test_formats_wabstic_majorz",
+            "onegov.election_day.tests.test_formats_wabstic_proporz",
+            "onegov.election_day.tests.test_formats_wabstic_vote",
+            "onegov.election_day.tests.test_forms",
+            "onegov.election_day.tests.test_layouts",
+            "onegov.election_day.tests.test_media_generator",
+            "onegov.election_day.tests.test_models",
+            "onegov.election_day.tests.test_pdf_document",
+            "onegov.election_day.tests.test_sms_processor",
+            "onegov.election_day.tests.test_utils",
+            "onegov.election_day.tests.test_views",
+            "onegov.election_day.tests.test_views_upload_election",
+            "onegov.election_day.tests.test_views_upload_vote",
+            "onegov.election_day.tests.test_views_upload_wabstic",
+            "onegov.election_day.tests.test_vote_views",
+            "onegov.election_day.theme",
+            "onegov.election_day.theme.election_day_theme",
+            "onegov.election_day.upgrade",
+            "onegov.election_day.utils",
+            "onegov.election_day.utils.media_generator",
+            "onegov.election_day.utils.pdf",
+            "onegov.election_day.utils.sms_processor",
+            "onegov.election_day.views",
+            "onegov.election_day.views.archive",
+            "onegov.election_day.views.auth",
+            "onegov.election_day.views.election",
+            "onegov.election_day.views.election.candidates",
+            "onegov.election_day.views.election.connections",
+            "onegov.election_day.views.election.data",
+            "onegov.election_day.views.election.districts",
+            "onegov.election_day.views.election.lists",
+            "onegov.election_day.views.election.main",
+            "onegov.election_day.views.election.panachage",
+            "onegov.election_day.views.election.parties",
+            "onegov.election_day.views.election.statistics",
+            "onegov.election_day.views.exceptionviews",
+            "onegov.election_day.views.locale",
+            "onegov.election_day.views.manage",
+            "onegov.election_day.views.manage.data_sources",
+            "onegov.election_day.views.manage.elections",
+            "onegov.election_day.views.manage.errors",
+            "onegov.election_day.views.manage.subscribers",
+            "onegov.election_day.views.manage.votes",
+            "onegov.election_day.views.subscription",
+            "onegov.election_day.views.upload",
+            "onegov.election_day.views.upload.election",
+            "onegov.election_day.views.upload.vote",
+            "onegov.election_day.views.upload.wabsti_exporter",
+            "onegov.election_day.views.vote",
+            "onegov.election_day.views.vote.ballot_map",
+            "onegov.election_day.views.vote.data",
+            "onegov.election_day.views.vote.main"
         ],
-        "version": "1.8.14"
+        "version": "1.8.15"
     },
     "onegov.event": {
         "cmdline": [],
@@ -43358,6 +43454,18 @@
             "opal.views"
         ],
         "version": "0.8.1"
+    },
+    "opal-observations": {
+        "cmdline": [],
+        "modules": [
+            "obs",
+            "obs.admin",
+            "obs.models",
+            "obs.plugin",
+            "obs.urls",
+            "obs.views"
+        ],
+        "version": "0.3.0"
     },
     "opal-referral": {
         "cmdline": [],
@@ -68869,19 +68977,8 @@
     "ossos": {
         "cmdline": [],
         "modules": [
-            "manual_inspection",
-            "manual_inspection.context",
-            "manual_inspection.insp_certificate_dialog",
-            "manual_inspection.insp_colormap",
-            "manual_inspection.insp_dialogs",
-            "manual_inspection.insp_finishedview",
-            "manual_inspection.insp_mainview",
-            "manual_inspection.insp_mplview",
-            "manual_inspection.insp_navview",
-            "manual_inspection.insp_processed_src_dialogs",
-            "manual_inspection.insp_retry_download_dialog",
-            "manual_inspection.insp_validationview",
             "ossos",
+            "ossos.__version__",
             "ossos.astrom",
             "ossos.auth",
             "ossos.cadc",
@@ -68942,6 +69039,7 @@
             "ossos.gui.views.navigation",
             "ossos.gui.views.validation",
             "ossos.horizons",
+            "ossos.junk_keywords",
             "ossos.kbo",
             "ossos.match",
             "ossos.mop_file",
@@ -68952,7 +69050,12 @@
             "ossos.orbfit",
             "ossos.parameters",
             "ossos.parsers",
+            "ossos.ph2",
             "ossos.pipeline",
+            "ossos.pipeline.mk_mopheader",
+            "ossos.pipeline.mkpsf",
+            "ossos.pipeline.slow",
+            "ossos.pipeline.step1",
             "ossos.planning",
             "ossos.planning.ObsStatus",
             "ossos.planning.fieldSelection",
@@ -68962,75 +69065,29 @@
             "ossos.planning.location_at_time",
             "ossos.planning.megacam",
             "ossos.planning.mpcread",
+            "ossos.planning.obs_planner",
+            "ossos.planning.optimize_pointings",
+            "ossos.planning.ph2",
             "ossos.planning.plotting",
             "ossos.planning.plotting.deluxe_table_formatter",
             "ossos.planning.plotting.mpcread",
             "ossos.planning.plotting.plot_fanciness",
             "ossos.planning.plotting.utils",
+            "ossos.planning.program_ph2",
             "ossos.planning.triplet_and_processing_notes",
             "ossos.planning.triplet_and_processing_notes.output_discovery_triplets",
             "ossos.planning.usnoB1",
             "ossos.plant",
-            "ossos.psf",
             "ossos.ssos",
             "ossos.storage",
+            "ossos.tools",
+            "ossos.tools.postage_stamp_builder",
+            "ossos.tools.validate",
             "ossos.util",
             "ossos.vospace",
-            "ossos.wcs",
-            "test_integration",
-            "test_integration.test_app",
-            "test_integration.test_controllers",
-            "test_integration.test_models",
-            "test_integration.test_snapshot",
-            "test_ossos",
-            "test_ossos.test_MOPHeader",
-            "test_ossos.test_downloads",
-            "test_ossos.test_downloads.test_async",
-            "test_ossos.test_downloads.test_cutout_downloader",
-            "test_ossos.test_downloads.test_focus",
-            "test_ossos.test_downloads.test_grid",
-            "test_ossos.test_downloads.test_image",
-            "test_ossos.test_ephem_target",
-            "test_ossos.test_fitsviewer",
-            "test_ossos.test_fitsviewer.test_displayable",
-            "test_ossos.test_fitsviewer.test_interaction",
-            "test_ossos.test_fitsviewer.test_marker",
-            "test_ossos.test_fitsviewer.test_singlet_viewer",
-            "test_ossos.test_gui",
-            "test_ossos.test_gui.test_config",
-            "test_ossos.test_gui.test_context",
-            "test_ossos.test_gui.test_controllers",
-            "test_ossos.test_gui.test_errorhandling",
-            "test_ossos.test_gui.test_models",
-            "test_ossos.test_gui.test_progress",
-            "test_ossos.test_gui.test_snapshot",
-            "test_ossos.test_gui.test_sync",
-            "test_ossos.test_gui.test_views",
-            "test_ossos.test_gui.test_views.test_appview",
-            "test_ossos.test_gui.test_views.test_dialogs",
-            "test_ossos.test_gui.test_views.test_keyboardcompletecombobox",
-            "test_ossos.test_gui.test_views.test_listview",
-            "test_ossos.test_gui.test_views.test_navview",
-            "test_ossos.test_gui.test_views.test_sourcevalidationview",
-            "test_ossos.test_gui.test_views.test_validationview",
-            "test_ossos.test_gui.test_views.test_wxutil",
-            "test_ossos.test_gui.test_workload",
-            "test_ossos.test_orbfit",
-            "test_ossos.test_tools",
-            "test_ossos.test_tools.test_astrom",
-            "test_ossos.test_tools.test_auth",
-            "test_ossos.test_tools.test_coding",
-            "test_ossos.test_tools.test_cutouts",
-            "test_ossos.test_tools.test_daophot",
-            "test_ossos.test_tools.test_mpc",
-            "test_ossos.test_tools.test_naming",
-            "test_ossos.test_tools.test_storage",
-            "test_ossos.test_tools.test_wcs",
-            "test_vospace",
-            "test_vospace.test_vospace_context",
-            "test_vospace.test_vospace_persistence"
+            "ossos.wcs"
         ],
-        "version": "0.9.2"
+        "version": "1.3.0"
     },
     "osssdk": {
         "cmdline": [],

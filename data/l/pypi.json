@@ -8219,13 +8219,14 @@
             "lawes.test.all_doctest",
             "lawes.test.test_db_models_base",
             "lawes.test.test_db_models_fields",
+            "lawes.test.test_db_models_query_utils_q",
             "lawes.test.test_start",
             "lawes.utils",
             "lawes.utils.encoding",
             "lawes.utils.six",
             "lawes.utils.tree"
         ],
-        "version": "1.9.2.16"
+        "version": "1.9.2.18"
     },
     "lawliet": {
         "cmdline": [],
@@ -11973,7 +11974,7 @@
         "modules": [
             "leap.bitmask_js"
         ],
-        "version": "0.1.201705161420"
+        "version": "0.1.201705191313"
     },
     "leap.bitmask-www": {
         "cmdline": [],
@@ -13867,6 +13868,14 @@
         "cmdline": [],
         "modules": [],
         "version": "0.4.0"
+    },
+    "lektor-shortcodes": {
+        "cmdline": [],
+        "modules": [
+            "lektor_shortcodes",
+            "lektor_shortcodes.scodes"
+        ],
+        "version": "0.1.4"
     },
     "lektor-static-search": {
         "cmdline": [],
@@ -18762,6 +18771,10 @@
             "libcnmc.cir_4_2015.F9",
             "libcnmc.cir_4_2015.create_celles",
             "libcnmc.cli",
+            "libcnmc.cli_4131",
+            "libcnmc.cli_4666",
+            "libcnmc.cli_4667",
+            "libcnmc.cli_4_2015",
             "libcnmc.core",
             "libcnmc.core.backend",
             "libcnmc.core.cnmc_inventari",
@@ -18871,7 +18884,7 @@
             "libcnmc.res_4771.SUB",
             "libcnmc.utils"
         ],
-        "version": "0.18.0"
+        "version": "0.18.2"
     },
     "libcnmc1048": {
         "cmdline": [],
@@ -19285,7 +19298,7 @@
             "tests",
             "tests.api"
         ],
-        "version": "0.2.1"
+        "version": "0.3.0"
     },
     "libepub": {
         "cmdline": [],
@@ -22755,6 +22768,15 @@
         ],
         "version": "0.2.1"
     },
+    "libzbar-ctypes": {
+        "cmdline": [],
+        "modules": [
+            "libzbar",
+            "libzbar._zbar",
+            "libzbar.zbar"
+        ],
+        "version": "0.1.2"
+    },
     "libzfs": {
         "cmdline": [],
         "modules": [],
@@ -24163,9 +24185,7 @@
             "limbo.plugins.commit",
             "limbo.plugins.emoji",
             "limbo.plugins.emojicodedict",
-            "limbo.plugins.eno",
             "limbo.plugins.flip",
-            "limbo.plugins.genesis",
             "limbo.plugins.geocities",
             "limbo.plugins.gif",
             "limbo.plugins.github",
@@ -24179,12 +24199,13 @@
             "limbo.plugins.stockphoto",
             "limbo.plugins.urban",
             "limbo.plugins.weather",
+            "limbo.plugins.welcome",
             "limbo.plugins.wiki",
             "limbo.plugins.youtube",
             "limbo.server",
             "limbo.slack"
         ],
-        "version": "5.3.0"
+        "version": "5.4.0"
     },
     "limbs": {
         "cmdline": [],
@@ -29336,11 +29357,12 @@
             "liota.lib.utilities.filters.windowing_scheme",
             "liota.lib.utilities.filters.windowing_scheme.windowing_scheme",
             "liota.lib.utilities.identity",
+            "liota.lib.utilities.log_formatter",
             "liota.lib.utilities.si_unit",
             "liota.lib.utilities.tls_conf",
             "liota.lib.utilities.utility"
         ],
-        "version": "0.2.6"
+        "version": "0.2.7"
     },
     "lip": {
         "cmdline": [],
@@ -29393,7 +29415,7 @@
             "lipd.pkg_resources.unittests",
             "lipd.pkg_resources.unittests.test_csv"
         ],
-        "version": "0.2.0.8"
+        "version": "0.2.0.9"
     },
     "lipidconverter": {
         "cmdline": [

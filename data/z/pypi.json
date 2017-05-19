@@ -6305,6 +6305,13 @@
         ],
         "version": "0.37.2"
     },
+    "zebu": {
+        "cmdline": [],
+        "modules": [
+            "zebu"
+        ],
+        "version": "2017.5.0"
+    },
     "zed": {
         "cmdline": [],
         "modules": [],
@@ -6591,6 +6598,22 @@
             "zencore.utils.validator"
         ],
         "version": "1.0.7"
+    },
+    "zencore-zabbix": {
+        "cmdline": [
+            "simple_mitem_collector",
+            "simple_mitem_collector.py",
+            "simple_mitem_collector.yaml",
+            "zabbix_get",
+            "zabbix_get.py"
+        ],
+        "modules": [
+            "zencore",
+            "zencore.zabbix",
+            "zencore.zabbix.protocol",
+            "zencore.zabbix.server"
+        ],
+        "version": "1.0.9"
     },
     "zendesk": {
         "cmdline": [],
@@ -21302,7 +21325,7 @@
             "zutils.models",
             "zutils.views"
         ],
-        "version": "0.0.7"
+        "version": "0.0.9"
     },
     "zuul": {
         "cmdline": [],

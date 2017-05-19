@@ -3733,7 +3733,7 @@
             "jasmin.vendor.txredisapi",
             "sphinx_rtd_theme"
         ],
-        "version": "0.9rc22"
+        "version": "0.9rc23"
     },
     "jasmin-cis": {
         "cmdline": [
@@ -4489,28 +4489,17 @@
     "jawaf": {
         "cmdline": [],
         "modules": [
+            "db",
+            "db.postgresql",
             "jawaf",
-            "jawaf.adapters",
-            "jawaf.adapters.db",
-            "jawaf.adapters.db.mysql",
-            "jawaf.adapters.db.postgresql",
             "jawaf.admin",
             "jawaf.admin.audit",
             "jawaf.admin.routes",
             "jawaf.admin.tables",
             "jawaf.admin.utils",
             "jawaf.admin.views",
-            "jawaf.auth",
-            "jawaf.auth.decorators",
-            "jawaf.auth.permissions",
-            "jawaf.auth.routes",
-            "jawaf.auth.tables",
-            "jawaf.auth.users",
-            "jawaf.auth.utils",
-            "jawaf.auth.views",
             "jawaf.conf",
             "jawaf.db",
-            "jawaf.db.orm",
             "jawaf.exceptions",
             "jawaf.mail",
             "jawaf.management",
@@ -4519,7 +4508,7 @@
             "jawaf.server",
             "jawaf.validators"
         ],
-        "version": "0.3.2"
+        "version": "0.3.3"
     },
     "jawanndenn": {
         "cmdline": [],
@@ -8846,7 +8835,7 @@
             "jira_metrics_extract.cycletime",
             "jira_metrics_extract.query"
         ],
-        "version": "0.27"
+        "version": "0.29"
     },
     "jira-releaser": {
         "cmdline": [],
@@ -12653,7 +12642,7 @@
             "jparser.region",
             "jparser.tags_util"
         ],
-        "version": "0.0.11"
+        "version": "0.0.15"
     },
     "jpass": {
         "cmdline": [],
@@ -18114,6 +18103,15 @@
         ],
         "version": "0.0.1"
     },
+    "jsonfeedvalidator": {
+        "cmdline": [],
+        "modules": [
+            "jsonfeedvalidator",
+            "jsonfeedvalidator.exceptions",
+            "jsonfeedvalidator.validator"
+        ],
+        "version": "0.0.1"
+    },
     "jsonfield": {
         "cmdline": [],
         "modules": [
@@ -19565,7 +19563,7 @@
             "jsonthrift.jsonthrift",
             "jsonthrift.thriftstruct"
         ],
-        "version": "0.1.3"
+        "version": "0.1.4"
     },
     "jsontocsv": {
         "cmdline": [

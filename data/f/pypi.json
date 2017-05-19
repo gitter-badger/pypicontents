@@ -3058,8 +3058,11 @@
     },
     "facebook-wda": {
         "cmdline": [],
-        "modules": [],
-        "version": "0.1.1.dev4"
+        "modules": [
+            "wda",
+            "wda.xcui_element_types"
+        ],
+        "version": "0.1.1.dev5"
     },
     "facebook-wordcloud": {
         "cmdline": [],
@@ -4926,7 +4929,7 @@
         "modules": [
             "faketime"
         ],
-        "version": "0.9.6.7"
+        "version": "0.9.6.8"
     },
     "faketrumpgen": {
         "cmdline": [],
@@ -4942,10 +4945,11 @@
         "modules": [
             "fakeUserData",
             "fakeUserData.ccgen",
+            "fakeUserData.dataClean",
             "fakeUserData.generator",
             "fakeUserData.loadData"
         ],
-        "version": "0.1"
+        "version": "2.0"
     },
     "fakezopeinterface": {
         "cmdline": [],
@@ -6492,7 +6496,7 @@
             "fanfoucli.config",
             "fanfoucli.fan"
         ],
-        "version": "0.1.2"
+        "version": "0.1.5"
     },
     "fang": {
         "cmdline": [],
@@ -16783,6 +16787,16 @@
         ],
         "version": "0.6.4"
     },
+    "fh": {
+        "cmdline": [],
+        "modules": [
+            "fh",
+            "fh.annotations",
+            "fh.feed",
+            "fh.util"
+        ],
+        "version": "0.0.2"
+    },
     "fh-django-assetmanager": {
         "cmdline": [],
         "modules": [
@@ -20700,24 +20714,88 @@
             "findex_common",
             "findex_common.bytes2human",
             "findex_common.cfg",
+            "findex_common.colors",
             "findex_common.exceptions",
             "findex_common.filetypes",
-            "findex_common.parseurl",
+            "findex_common.logo",
             "findex_common.resourcetypes",
             "findex_common.static_variables",
             "findex_common.utils",
             "findex_common.utils_time"
         ],
-        "version": "0.5.1"
+        "version": "0.5.11"
     },
     "findex-gui": {
         "cmdline": [],
         "modules": [
             "findex_gui",
+            "findex_gui.bin",
+            "findex_gui.bin.config",
+            "findex_gui.bin.misc",
+            "findex_gui.bin.startup",
+            "findex_gui.bin.utils",
+            "findex_gui.controllers",
+            "findex_gui.controllers.admin",
+            "findex_gui.controllers.admin.api",
+            "findex_gui.controllers.admin.routes",
+            "findex_gui.controllers.auth",
+            "findex_gui.controllers.auth.auth",
+            "findex_gui.controllers.auth.permissions",
+            "findex_gui.controllers.browse",
+            "findex_gui.controllers.browse.api",
+            "findex_gui.controllers.browse.browse",
+            "findex_gui.controllers.browse.converters",
+            "findex_gui.controllers.browse.routes",
+            "findex_gui.controllers.helpers",
+            "findex_gui.controllers.meta_imdb",
+            "findex_gui.controllers.meta_imdb.api",
+            "findex_gui.controllers.meta_imdb.controller",
+            "findex_gui.controllers.meta_imdb.converters",
+            "findex_gui.controllers.meta_imdb.populate",
+            "findex_gui.controllers.meta_imdb.routes",
+            "findex_gui.controllers.options",
+            "findex_gui.controllers.options.options",
+            "findex_gui.controllers.posts",
+            "findex_gui.controllers.posts.api",
+            "findex_gui.controllers.posts.posts",
+            "findex_gui.controllers.relay",
+            "findex_gui.controllers.relay.relay",
+            "findex_gui.controllers.relay.routes",
+            "findex_gui.controllers.resources",
+            "findex_gui.controllers.resources.api",
+            "findex_gui.controllers.resources.forms",
+            "findex_gui.controllers.resources.resources",
+            "findex_gui.controllers.routes",
+            "findex_gui.controllers.routes.before_request",
+            "findex_gui.controllers.routes.errors",
+            "findex_gui.controllers.routes.static",
+            "findex_gui.controllers.search",
+            "findex_gui.controllers.search.api",
+            "findex_gui.controllers.search.converters",
+            "findex_gui.controllers.search.routes",
+            "findex_gui.controllers.search.search",
+            "findex_gui.controllers.session",
+            "findex_gui.controllers.session.api",
+            "findex_gui.controllers.tasks",
+            "findex_gui.controllers.tasks.api",
+            "findex_gui.controllers.tasks.tasks",
+            "findex_gui.controllers.themes",
+            "findex_gui.controllers.user",
+            "findex_gui.controllers.user.api",
+            "findex_gui.controllers.user.decorators",
+            "findex_gui.controllers.user.forms",
+            "findex_gui.controllers.user.roles",
+            "findex_gui.controllers.user.routes",
+            "findex_gui.controllers.user.user",
             "findex_gui.main",
+            "findex_gui.orm",
+            "findex_gui.orm.connect",
+            "findex_gui.orm.events",
+            "findex_gui.orm.models",
+            "findex_gui.orm.queries",
             "findex_gui.web"
         ],
-        "version": "0.2.0"
+        "version": "0.2.12"
     },
     "findfiles": {
         "cmdline": [],
@@ -49170,10 +49248,9 @@
     "frankensteinplot": {
         "cmdline": [],
         "modules": [
-            "frankensteinplot",
-            "frankensteinplot.frankensteinplot"
+            "frankensteinplot"
         ],
-        "version": "0.0.2.1"
+        "version": "0.0.2.2"
     },
     "frankensvg": {
         "cmdline": [],
@@ -59095,7 +59172,7 @@
             "funcat.time_series",
             "funcat.utils"
         ],
-        "version": "0.2.6"
+        "version": "0.2.7"
     },
     "funcbrows": {
         "cmdline": [],

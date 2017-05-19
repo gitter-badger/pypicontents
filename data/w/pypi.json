@@ -12391,7 +12391,7 @@
             "weblyzard_api.xml_content.parsers.xml_2013",
             "weblyzard_api.xml_content.parsers.xml_deprecated"
         ],
-        "version": "0.7.20170323"
+        "version": "0.7.20170515"
     },
     "webm": {
         "cmdline": [],
@@ -15185,7 +15185,7 @@
             "weapp_cli.sample",
             "weapp_cli.wegene_utils"
         ],
-        "version": "0.0.3"
+        "version": "0.0.5"
     },
     "wego": {
         "cmdline": [],
@@ -20206,7 +20206,7 @@
             "widgetastic.widget",
             "widgetastic.xpath"
         ],
-        "version": "0.6.0"
+        "version": "0.6.1"
     },
     "widgetastic.patternfly": {
         "cmdline": [],
@@ -30675,7 +30675,7 @@
             "wotever.ExcutorMgr",
             "wotever.logger"
         ],
-        "version": "1.604"
+        "version": "1.607"
     },
     "wotwrapper": {
         "cmdline": [],
@@ -32819,6 +32819,13 @@
         ],
         "version": "0.1.0"
     },
+    "wsgi-aws-unproxy": {
+        "cmdline": [],
+        "modules": [
+            "wsgi_aws_unproxy"
+        ],
+        "version": "0.0.1"
+    },
     "wsgi-basic-auth": {
         "cmdline": [],
         "modules": [],
@@ -33947,6 +33954,15 @@
             "wsl.wslh.text2objects"
         ],
         "version": "0.12"
+    },
+    "wslexplorer": {
+        "cmdline": [],
+        "modules": [
+            "wslexplorer",
+            "wslexplorer.config",
+            "wslexplorer.win_explorer"
+        ],
+        "version": "0.1.1"
     },
     "wsman": {
         "cmdline": [],

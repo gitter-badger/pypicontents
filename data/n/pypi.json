@@ -20310,7 +20310,7 @@
             "netdevice.junos",
             "netdevice.linux"
         ],
-        "version": "0.9"
+        "version": "0.11"
     },
     "netdiff": {
         "cmdline": [],
@@ -33579,6 +33579,7 @@
             "lastpass-login.sh",
             "lastpass-logout.sh",
             "letsencrypt.sh",
+            "list-jobs.sh",
             "lpssh",
             "s3-role-download.sh",
             "setup-fetch-secrets.sh",
@@ -33600,7 +33601,7 @@
             "n_utils.maven_utils",
             "n_utils.volumes"
         ],
-        "version": "0.99"
+        "version": "0.102"
     },
     "nitor-vault": {
         "cmdline": [],
@@ -48959,13 +48960,8 @@
     },
     "nsetools": {
         "cmdline": [],
-        "modules": [
-            "nsetools",
-            "nsetools.bases",
-            "nsetools.nse",
-            "nsetools.utils"
-        ],
-        "version": "1.0.1"
+        "modules": [],
+        "version": "1.0.2"
     },
     "nsga2": {
         "cmdline": [],

@@ -581,11 +581,12 @@
         "modules": [
             "scanner",
             "scanner.chan_info",
-            "scanner.download",
+            "scanner.download_old",
+            "scanner.downloader",
             "scanner.dupecheck",
             "scanner.scanner"
         ],
-        "version": "1.3.3"
+        "version": "1.3.4"
     },
     "4suite": {
         "cmdline": [],

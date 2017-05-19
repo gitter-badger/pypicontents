@@ -15159,7 +15159,7 @@
             "genmod.vcf_tools.print_variants",
             "genmod.vcf_tools.sort_variants"
         ],
-        "version": "3.7"
+        "version": "3.7.1"
     },
     "genologics": {
         "cmdline": [],
@@ -17930,6 +17930,11 @@
             "geoleaflet.geoleaflet"
         ],
         "version": "0.0.1.0"
+    },
+    "geolink-formatter": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "geolinks": {
         "cmdline": [],
@@ -27534,7 +27539,7 @@
             "git_pylint_commit_hook",
             "git_pylint_commit_hook.commit_hook"
         ],
-        "version": "2.2.1"
+        "version": "2.2.2"
     },
     "git-qdiff": {
         "cmdline": [
@@ -38879,7 +38884,7 @@
             "gocardless_pro.services.refunds_service",
             "gocardless_pro.services.subscriptions_service"
         ],
-        "version": "0.3.0"
+        "version": "1.0.0"
     },
     "gocd": {
         "cmdline": [],
@@ -63702,7 +63707,7 @@
             "guillotina_elasticsearch.utility",
             "guillotina_elasticsearch.utils"
         ],
-        "version": "1.0.20"
+        "version": "1.0.22"
     },
     "guillotina-gcloudstorage": {
         "cmdline": [],

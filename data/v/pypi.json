@@ -3273,7 +3273,7 @@
             "vaspy.matstudio",
             "vaspy.plotter"
         ],
-        "version": "0.8.0"
+        "version": "0.8.1"
     },
     "vassal-deployer": {
         "cmdline": [],
@@ -4066,7 +4066,7 @@
             "vcfped",
             "vcfped.vcfped"
         ],
-        "version": "1.1.0"
+        "version": "1.2.0"
     },
     "vcfplt": {
         "cmdline": [],
@@ -23558,6 +23558,14 @@
             "vyper.watch"
         ],
         "version": "0.1.0"
+    },
+    "vyper-bot": {
+        "cmdline": [],
+        "modules": [
+            "vyper.vyper",
+            "vyper.vyperconfig"
+        ],
+        "version": "0.9"
     },
     "vyperlogixpyaxlib": {
         "cmdline": [],

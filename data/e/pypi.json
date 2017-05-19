@@ -6287,7 +6287,7 @@
     "eclcli": {
         "cmdline": [],
         "modules": [],
-        "version": "1.0.7"
+        "version": "1.0.8"
     },
     "eclectica": {
         "cmdline": [],
@@ -7214,7 +7214,7 @@
             "ecs_deplojo.task_definitions",
             "ecs_deplojo.utils"
         ],
-        "version": "0.2.0"
+        "version": "0.3.0"
     },
     "ecs-deploy": {
         "cmdline": [],
@@ -16731,26 +16731,40 @@
         "cmdline": [],
         "modules": [
             "elfi",
-            "elfi.async",
             "elfi.bo",
             "elfi.bo.acquisition",
-            "elfi.bo.gpy_model",
+            "elfi.bo.gpy_regression",
             "elfi.bo.utils",
-            "elfi.core",
-            "elfi.distributions",
-            "elfi.env",
-            "elfi.graph",
-            "elfi.inference_task",
+            "elfi.client",
+            "elfi.clients",
+            "elfi.clients.ipyparallel",
+            "elfi.clients.native",
+            "elfi.compiler",
+            "elfi.examples",
+            "elfi.examples.bdm",
+            "elfi.examples.ma2",
+            "elfi.executor",
+            "elfi.graphical_model",
+            "elfi.loader",
+            "elfi.mcmc",
             "elfi.methods",
-            "elfi.posteriors",
-            "elfi.result",
-            "elfi.storage",
-            "elfi.tools",
+            "elfi.methods.methods",
+            "elfi.methods.posteriors",
+            "elfi.methods.utils",
+            "elfi.model",
+            "elfi.model.elfi_model",
+            "elfi.model.extensions",
+            "elfi.model.tools",
+            "elfi.model.utils",
+            "elfi.results",
+            "elfi.results.result",
+            "elfi.store",
             "elfi.utils",
             "elfi.visualization",
-            "elfi.wrapper"
+            "elfi.visualization.interactive",
+            "elfi.visualization.visualization"
         ],
-        "version": "0.3.1"
+        "version": "0.5.0"
     },
     "elfinder": {
         "cmdline": [],
@@ -28926,10 +28940,11 @@
             "eprl.colors",
             "eprl.dbstore",
             "eprl.resolver",
+            "eprl.restore",
             "eprl.util",
             "eprl.vargs"
         ],
-        "version": "0.7"
+        "version": "0.9"
     },
     "eps": {
         "cmdline": [],
@@ -29336,7 +29351,7 @@
             "epydemiology.phjRROR",
             "epydemiology.phjSelectData"
         ],
-        "version": "0.1.15"
+        "version": "0.1.16"
     },
     "epydoc": {
         "cmdline": [
@@ -31045,7 +31060,7 @@
             "es_cli.cli",
             "es_cli.utils"
         ],
-        "version": "0.0.5"
+        "version": "0.0.6"
     },
     "es-commons": {
         "cmdline": [],
@@ -38853,7 +38868,7 @@
             "evoalgos.selection",
             "evoalgos.sorting"
         ],
-        "version": "0.7"
+        "version": "0.8"
     },
     "evodag": {
         "cmdline": [],
