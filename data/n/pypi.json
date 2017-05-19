@@ -20310,7 +20310,7 @@
             "netdevice.junos",
             "netdevice.linux"
         ],
-        "version": "0.9"
+        "version": "0.10"
     },
     "netdiff": {
         "cmdline": [],
@@ -33579,6 +33579,7 @@
             "lastpass-login.sh",
             "lastpass-logout.sh",
             "letsencrypt.sh",
+            "list-jobs.sh",
             "lpssh",
             "s3-role-download.sh",
             "setup-fetch-secrets.sh",
@@ -33600,7 +33601,7 @@
             "n_utils.maven_utils",
             "n_utils.volumes"
         ],
-        "version": "0.101"
+        "version": "0.102"
     },
     "nitor-vault": {
         "cmdline": [],
