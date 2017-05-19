@@ -3733,7 +3733,7 @@
             "jasmin.vendor.txredisapi",
             "sphinx_rtd_theme"
         ],
-        "version": "0.9rc22"
+        "version": "0.9rc23"
     },
     "jasmin-cis": {
         "cmdline": [
