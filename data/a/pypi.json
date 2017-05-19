@@ -20408,7 +20408,7 @@
             "aiosparql.syntax",
             "aiosparql.test_utils"
         ],
-        "version": "0.4.0"
+        "version": "0.5.0"
     },
     "aiostatsd": {
         "cmdline": [],
@@ -85734,21 +85734,24 @@
             "avx.controller.Controller",
             "avx.controller.ControllerHttp",
             "avx.devices",
-            "avx.devices.CoriogenEclipse",
             "avx.devices.Device",
-            "avx.devices.ETCUnison",
-            "avx.devices.Inline3808",
-            "avx.devices.Kramer602",
-            "avx.devices.KramerVP703",
-            "avx.devices.KramerVP88",
-            "avx.devices.SerialDevice",
-            "avx.devices.SerialRelayCard",
-            "avx.devices.Tivo",
-            "avx.devices.VISCACamera",
-            "avx.devices.ambx",
-            "avx.devices.milight"
+            "avx.devices.net",
+            "avx.devices.net.Tivo",
+            "avx.devices.net.milight",
+            "avx.devices.serial",
+            "avx.devices.serial.CoriogenEclipse",
+            "avx.devices.serial.ETCUnison",
+            "avx.devices.serial.Inline3808",
+            "avx.devices.serial.Kramer602",
+            "avx.devices.serial.KramerVP703",
+            "avx.devices.serial.KramerVP88",
+            "avx.devices.serial.SerialDevice",
+            "avx.devices.serial.SerialRelayCard",
+            "avx.devices.serial.VISCACamera",
+            "avx.devices.usb",
+            "avx.devices.usb.ambx"
         ],
-        "version": "0.99.1"
+        "version": "1.0.0rc1"
     },
     "avython": {
         "cmdline": [],
