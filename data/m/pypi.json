@@ -67433,6 +67433,13 @@
         ],
         "version": "1.0b"
     },
+    "monthly-returns-heatmap": {
+        "cmdline": [],
+        "modules": [
+            "monthly_returns_heatmap"
+        ],
+        "version": "0.0.1"
+    },
     "months": {
         "cmdline": [],
         "modules": [
