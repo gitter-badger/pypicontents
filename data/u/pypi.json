@@ -952,7 +952,7 @@
             "uber_cli",
             "uber_cli.writers"
         ],
-        "version": "0.0.1"
+        "version": "0.0.3"
     },
     "uber-rides": {
         "cmdline": [],
