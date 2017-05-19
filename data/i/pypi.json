@@ -26858,7 +26858,7 @@
             "invenio_classifier.utils",
             "invenio_classifier.version"
         ],
-        "version": "1.1.0"
+        "version": "1.1.1"
     },
     "invenio-client": {
         "cmdline": [],
