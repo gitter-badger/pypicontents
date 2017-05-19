@@ -12653,7 +12653,7 @@
             "jparser.region",
             "jparser.tags_util"
         ],
-        "version": "0.0.11"
+        "version": "0.0.12"
     },
     "jpass": {
         "cmdline": [],
@@ -18111,6 +18111,15 @@
         "cmdline": [],
         "modules": [
             "jsonfeed"
+        ],
+        "version": "0.0.1"
+    },
+    "jsonfeedvalidator": {
+        "cmdline": [],
+        "modules": [
+            "jsonfeedvalidator",
+            "jsonfeedvalidator.exceptions",
+            "jsonfeedvalidator.validator"
         ],
         "version": "0.0.1"
     },
