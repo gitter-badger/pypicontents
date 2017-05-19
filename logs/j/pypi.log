@@ -34,9 +34,9 @@
 [INFO] (j5basic) This package is up to date.
 [INFO] (j5test) This package is up to date.
 [ERROR] (jab) Could not extract data from this package. See below for details.
-"http://jab.pythonanywhere.com/static/downloads/jab-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"http://jab.pythonanywhere.com/static/downloads/jab-0.1.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -63,7 +63,7 @@ urllib.error.HTTPError: HTTP Error 500: Internal Server Error
 [INFO] (jabbercracky) This package is up to date.
 [INFO] (jabbergram) This package is up to date.
 [ERROR] (jabberokayrpclib) Could not extract data from this package. See below for details.
-"http://pyhacks.suddenthinks.com/jabberrpc/jabberokayrpclib-0.0.1.tar.gz" file couldnt be downloaded. See below for details.
+"http://pyhacks.suddenthinks.com/jabberrpc/jabberokayrpclib-0.0.1.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
   File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
     h.request(req.get_method(), req.selector, req.data, headers)
@@ -88,7 +88,7 @@ socket.gaierror: [Errno -2] Name or service not known
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -105,7 +105,7 @@ Traceback (most recent call last):
 urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 
 [ERROR] (jabberxmlrpclib) Could not extract data from this package. See below for details.
-"http://pyhacks.suddenthinks.com/jabberrpc/jabberxmlrpclib-0.0.2.tar.gz" file couldnt be downloaded. See below for details.
+"http://pyhacks.suddenthinks.com/jabberrpc/jabberxmlrpclib-0.0.2.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
   File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
     h.request(req.get_method(), req.selector, req.data, headers)
@@ -130,7 +130,7 @@ socket.gaierror: [Errno -2] Name or service not known
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -169,7 +169,7 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (jackstools) This package is up to date.
 [ERROR] (jackyhobingotest) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -204,7 +204,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jacquev6-development-cycle) This package is up to date.
 [ERROR] (jade) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -276,9 +276,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jambi) This package is up to date.
 [INFO] (jamendo-api) This package is up to date.
 [ERROR] (james) Could not extract data from this package. See below for details.
-"http://wsgiarea.pocoo.org/james/dist/James-0.7.1.tar.gz" file couldnt be downloaded. See below for details.
+"http://wsgiarea.pocoo.org/james/dist/James-0.7.1.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -310,72 +310,10 @@ urllib.error.HTTPError: HTTP Error 410: Gone
 [INFO] (janeliasig) This package is up to date.
 [INFO] (janezhang-nester) This package is up to date.
 [INFO] (janis) This package is up to date.
-[ERROR] (janitor) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
-    response = self._open(req, data)
-  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
-    '_open', req)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
-    context=self._context, check_hostname=self._check_hostname)
-  File "/usr/lib/python3.5/urllib/request.py", line 1257, in do_open
-    r = h.getresponse()
-  File "/usr/lib/python3.5/http/client.py", line 1198, in getresponse
-    response.begin()
-  File "/usr/lib/python3.5/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/usr/lib/python3.5/http/client.py", line 258, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/usr/lib/python3.5/socket.py", line 576, in readinto
-    return self._sock.recv_into(b)
-  File "/usr/lib/python3.5/ssl.py", line 937, in recv_into
-    return self.read(nbytes, buffer)
-  File "/usr/lib/python3.5/ssl.py", line 799, in read
-    return self._sslobj.read(len, buffer)
-  File "/usr/lib/python3.5/ssl.py", line 583, in read
-    v = self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
-
+[INFO] (janitor) This package is up to date.
 [ERROR] (jank) This package does not have downloadable releases.
 [INFO] (jankflix) This package is up to date.
-[ERROR] (janky-post) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
-    response = self._open(req, data)
-  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
-    '_open', req)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
-    context=self._context, check_hostname=self._check_hostname)
-  File "/usr/lib/python3.5/urllib/request.py", line 1257, in do_open
-    r = h.getresponse()
-  File "/usr/lib/python3.5/http/client.py", line 1198, in getresponse
-    response.begin()
-  File "/usr/lib/python3.5/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/usr/lib/python3.5/http/client.py", line 258, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/usr/lib/python3.5/socket.py", line 576, in readinto
-    return self._sock.recv_into(b)
-  File "/usr/lib/python3.5/ssl.py", line 937, in recv_into
-    return self.read(nbytes, buffer)
-  File "/usr/lib/python3.5/ssl.py", line 799, in read
-    return self._sslobj.read(len, buffer)
-  File "/usr/lib/python3.5/ssl.py", line 583, in read
-    v = self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
-
+[INFO] (janky-post) This package is up to date.
 [INFO] (janome) This package is up to date.
 [INFO] (janrain-datalib) This package is up to date.
 [INFO] (janrain-django) This package is up to date.
@@ -399,7 +337,7 @@ socket.timeout: The read operation timed out
 [INFO] (japronto-jinja2) This package is up to date.
 [ERROR] (jar) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -493,7 +431,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jasper) This package is up to date.
 [INFO] (jasper-judy) This package is up to date.
 [ERROR] (jasphandlers) Could not extract data from this package. See below for details.
-"http://pyhacks.suddenthinks.com/JASPlogging/jasphandlers-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
+"http://pyhacks.suddenthinks.com/JASPlogging/jasphandlers-0.1.0.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
   File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
     h.request(req.get_method(), req.selector, req.data, headers)
@@ -518,7 +456,7 @@ socket.gaierror: [Errno -2] Name or service not known
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -544,9 +482,9 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [ERROR] (java) This package does not have downloadable releases.
 [INFO] (java-random) This package is up to date.
 [ERROR] (java2python) Could not extract data from this package. See below for details.
-"https://codeload.github.com/downloads/natural/legacy.tar.gz/java2python-0.5.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/downloads/natural/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -598,7 +536,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jaydebeapi3) This package is up to date.
 [ERROR] (jazzband) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -665,7 +603,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jeb) This package is up to date.
 [ERROR] (jeb-nester) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -729,8 +667,8 @@ OSError: Not a gzipped file (b'Ra')
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 130, in get_tar_topdir
-    with compressed(tarpath, tarmode) as tar:
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 131, in get_tar_topdir
+    with closing(compressed(tarpath, tarmode)) as tar:
   File "/usr/lib/python3.5/tarfile.py", line 1577, in open
     return func(name, filemode, fileobj, **kwargs)
   File "/usr/lib/python3.5/tarfile.py", line 1635, in gzopen
@@ -754,38 +692,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (jenkins-autojobs) This package is up to date.
 [INFO] (jenkins-build) This package is up to date.
 [INFO] (jenkins-cli) This package is up to date.
-[ERROR] (jenkins-client) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
-    response = self._open(req, data)
-  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
-    '_open', req)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
-    context=self._context, check_hostname=self._check_hostname)
-  File "/usr/lib/python3.5/urllib/request.py", line 1257, in do_open
-    r = h.getresponse()
-  File "/usr/lib/python3.5/http/client.py", line 1198, in getresponse
-    response.begin()
-  File "/usr/lib/python3.5/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/usr/lib/python3.5/http/client.py", line 258, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/usr/lib/python3.5/socket.py", line 576, in readinto
-    return self._sock.recv_into(b)
-  File "/usr/lib/python3.5/ssl.py", line 937, in recv_into
-    return self.read(nbytes, buffer)
-  File "/usr/lib/python3.5/ssl.py", line 799, in read
-    return self._sslobj.read(len, buffer)
-  File "/usr/lib/python3.5/ssl.py", line 583, in read
-    v = self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
-
+[INFO] (jenkins-client) This package is up to date.
 [INFO] (jenkins-epo) This package is up to date.
 [INFO] (jenkins-ghp) This package is up to date.
 [INFO] (jenkins-job-builder) This package is up to date.
@@ -814,7 +721,7 @@ socket.timeout: The read operation timed out
 [INFO] (jenkinsapi) This package is up to date.
 [INFO] (jenkinscli) This package is up to date.
 [INFO] (jenkinsconnector) This package is up to date.
-[INFO] (jenkinsflow) This package is up to date.
+[INFO] (jenkinsflow) Data has been updated for this package.
 [INFO] (jenkinshelper) This package is up to date.
 [INFO] (jenkinsreport) This package is up to date.
 [INFO] (jenkinsyamlconfigs) This package is up to date.
@@ -857,7 +764,7 @@ socket.timeout: The read operation timed out
 [INFO] (jftools) This package is up to date.
 [ERROR] (jfuentes) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -895,9 +802,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jian-nester) This package is up to date.
 [INFO] (jianester) This package is up to date.
 [ERROR] (jianfan) Could not extract data from this package. See below for details.
-"http://python-jianfan.googlecode.com/files/jianfan-0.0.2.zip" file couldnt be downloaded. See below for details.
+"http://python-jianfan.googlecode.com/files/jianfan-0.0.2.zip" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -937,7 +844,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jiebawebapi) This package is up to date.
 [ERROR] (jiemo-utils) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1095,7 +1002,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jismesh) This package is up to date.
 [INFO] (jit-open) This package is up to date.
 [ERROR] (jitbit-helpdesk) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://www.jitbit.com/helpdesk/"
 [INFO] (jitcdde) This package is up to date.
 [INFO] (jitcode) This package is up to date.
 [INFO] (jitcxde-common) This package is up to date.
@@ -1144,7 +1051,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jldssdp) This package is up to date.
 [INFO] (jldzeromq) This package is up to date.
 [ERROR] (jlib) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.defuze.org/oss/jlib/"
 [INFO] (jlle) This package is up to date.
 [INFO] (jlog) This package is up to date.
 [INFO] (jltool) This package is up to date.
@@ -1203,9 +1110,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (jmx4py) This package does not have downloadable releases.
 [INFO] (jn-import) This package is up to date.
 [ERROR] (jnc) Could not extract data from this package. See below for details.
-"https://codeload.github.com/Juniper/jnc/legacy.tar.gz/jnc-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/Juniper/jnc/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1223,7 +1130,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (jnester) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1315,7 +1222,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (joker-cast) This package is up to date.
 [ERROR] (joker-nightly) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1366,31 +1273,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jottacloudclient) This package is up to date.
 [INFO] (jottalib) This package is up to date.
 [ERROR] (jotweb2) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://jotweb.tummy.com/"
 [INFO] (jouets) This package is up to date.
 [INFO] (journal) This package is up to date.
 [INFO] (journal-brief) This package is up to date.
 [INFO] (journal-dates) This package is up to date.
 [INFO] (journal-of-official-statistics) This package is up to date.
-[ERROR] (journal.py) Could not extract data from this package. See below for details.
-"https://codeload.github.com/ramstush/journal.py/legacy.tar.gz/journal.py-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (journal.py) Data has been updated for this package.
 [INFO] (journal2gelf) This package is up to date.
 [INFO] (journaler) This package is up to date.
 [INFO] (journalism) This package is up to date.
@@ -1414,9 +1303,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jpath) This package is up to date.
 [ERROR] (jpathdb) This package does not have downloadable releases.
 [ERROR] (jpc) Could not extract data from this package. See below for details.
-"http://python-jpc.googlecode.com/files/jpc-1.0.7.tar.gz" file couldnt be downloaded. See below for details.
+"http://python-jpc.googlecode.com/files/jpc-1.0.7.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1442,16 +1331,16 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jpl.mcl.site.policy) This package is up to date.
 [INFO] (jpl.mcl.site.sciencedata) This package is up to date.
 [ERROR] (jpl.ngtheme) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://oodt.jpl.nasa.gov/dist/jpl-theme"
 [ERROR] (jpl.paster) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://oodt.jpl.nasa.gov/dist/jpl-paster"
 [ERROR] (jpl.theme) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://oodt.jpl.nasa.gov/dist/jpl-theme"
 [INFO] (jplephem) This package is up to date.
 [ERROR] (jplestd.policy) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://oodt.jpl.nasa.gov/dist/jplestd"
 [ERROR] (jplestd.theme) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://oodt.jpl.nasa.gov/dist/jplestd"
 [INFO] (jpmynumber) This package is up to date.
 [INFO] (jpnetkit) This package is up to date.
 [INFO] (jpp) This package is up to date.
@@ -1709,7 +1598,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (js.yui) This package is up to date.
 [ERROR] (js.yui3) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1768,7 +1657,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jsjquery) This package is up to date.
 [INFO] (jsl) This package is up to date.
 [INFO] (jsl-elasticsearch) This package is up to date.
-[INFO] (jsl-mwm-search-strategy-analysis) This package is up to date.
+[INFO] (jsl-mwm-search-strategy-analysis) Data has been updated for this package.
 [INFO] (jsl10n) This package is up to date.
 [INFO] (jslex) This package is up to date.
 [INFO] (jslibs) This package is up to date.
@@ -1782,7 +1671,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jsobject) This package is up to date.
 [ERROR] (jsoc) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1835,7 +1724,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (json-manipulate) This package is up to date.
 [INFO] (json-mapper) This package is up to date.
 [INFO] (json-merge-patch) This package is up to date.
-[INFO] (json-merger) This package is up to date.
+[INFO] (json-merger) Data has been updated for this package.
 [INFO] (json-nn) This package is up to date.
 [INFO] (json-object-factory) This package is up to date.
 [INFO] (json-patch) This package is up to date.
@@ -1863,7 +1752,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (json-store) This package is up to date.
 [ERROR] (json-stream) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2055,9 +1944,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jsonrpccmd) This package is up to date.
 [ERROR] (jsonrpclib) This package does not have downloadable releases.
 [ERROR] (jsonrpclib-ned14) Could not extract data from this package. See below for details.
-"https://codeload.github.com/downloads/ned14/legacy.tar.gz/jsonrpclib-ned14-0.1.4-ned14.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/downloads/ned14/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2090,7 +1979,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jsonserver) This package is up to date.
 [ERROR] (jsonsettings) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2145,25 +2034,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (jsonx) This package does not have downloadable releases.
 [ERROR] (jsonxmlconverter) This package does not have downloadable releases.
 [INFO] (jsonxs) This package is up to date.
-[ERROR] (jsov) Could not extract data from this package. See below for details.
-"https://codeload.github.com/linostar/pypi-JSOV/legacy.tar.gz/jsov-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (jsov) Data has been updated for this package.
 [INFO] (jsox-code-retreat) This package is up to date.
 [INFO] (jspack) This package is up to date.
 [INFO] (jsplit) This package is up to date.
@@ -2216,7 +2087,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (jtx) This package does not have downloadable releases.
 [ERROR] (jtypes) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2235,18 +2106,18 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jtypes.javabridge) This package is up to date.
 [INFO] (jtypes.jcc) This package is up to date.
 [ERROR] (jtypes.jep) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://pypi.python.org/pypi/jtypes.jep/"
 [ERROR] (jtypes.jpy) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://pypi.python.org/pypi/jtypes.jpy/"
 [INFO] (jtypes.jpype) This package is up to date.
 [ERROR] (jtypes.jtypes) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://pypi.python.org/pypi/jtypes.jtypes/"
 [ERROR] (jtypes.jvm) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://python.pl/jtypes.jvm/"
 [ERROR] (jtypes.jython) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://pypi.python.org/pypi/jtypes.jython/"
 [ERROR] (jtypes.py4j) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://pypi.python.org/pypi/jtypes.py4j/"
 [INFO] (jtypes.pyjava) This package is up to date.
 [INFO] (jtypes.pyjnius) This package is up to date.
 [INFO] (jubakit) This package is up to date.
@@ -2258,9 +2129,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (judge) This package is up to date.
 [INFO] (judge-toolbox) This package is up to date.
 [ERROR] (judy) Could not extract data from this package. See below for details.
-"http://py-judy.googlecode.com/files/judy-1.0.2.tar.gz" file couldnt be downloaded. See below for details.
+"http://py-judy.googlecode.com/files/judy-1.0.2.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2339,7 +2210,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jumprun) This package is up to date.
 [INFO] (jumpscale-core) This package is up to date.
 [ERROR] (jumpscale-core9) This package does not have downloadable releases.
-[INFO] (jumpserver-python-sdk) This package is up to date.
+[INFO] (jumpserver-python-sdk) Data has been updated for this package.
 [INFO] (jumpstart) This package is up to date.
 [INFO] (junction) This package is up to date.
 [ERROR] (june) This package does not have downloadable releases.
@@ -2463,7 +2334,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jupyterlab-launcher) This package is up to date.
 [INFO] (jupyterlab-widgets) This package is up to date.
 [INFO] (jupyterlmod) This package is up to date.
-[INFO] (jupyterpathway) This package is up to date.
+[INFO] (jupyterpathway) Data has been updated for this package.
 [INFO] (jupyterthemes) This package is up to date.
 [INFO] (jupyterviz) This package is up to date.
 [INFO] (jupytoc) This package is up to date.
@@ -2477,9 +2348,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (just-another-settings) This package is up to date.
 [INFO] (just-columns) This package is up to date.
 [ERROR] (just-salesforce) Could not extract data from this package. See below for details.
-"https://codeload.github.com/codingrhythm/just-salesforce/legacy.tar.gz/just-salesforce-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/codingrhythm/just-salesforce/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2532,7 +2403,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jutsu) This package is up to date.
 [ERROR] (juyo) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2619,25 +2490,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jycalc) This package is up to date.
 [INFO] (jycat) This package is up to date.
 [INFO] (jydev) This package is up to date.
-[ERROR] (jyni) Could not extract data from this package. See below for details.
-"https://codeload.github.com/Stewori/JyNI/legacy.tar.gz/jyni-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (jyni) Data has been updated for this package.
 [INFO] (jynx) This package is up to date.
 [INFO] (jyplotter) This package is up to date.
 [INFO] (jyquickhelper) This package is up to date.
@@ -2663,12 +2516,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] 
 [INFO] Total packages: 1901
 [INFO]     Packages processed: 1901
-[INFO]         Packages updated: 0
-[INFO]         Packages up-to-date: 1692
-[INFO]         Packages without response: 18
+[INFO]         Packages updated: 8
+[INFO]         Packages up-to-date: 1690
+[INFO]         Packages without response: 15
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 157
-[INFO]         Packages with data errors: 34
+[INFO]         Packages with data errors: 31
 [INFO]     Packages not processed: 0
 [INFO] 
 [INFO] 

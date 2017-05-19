@@ -5996,6 +5996,7 @@
             "jenkinsflow.cli.cli",
             "jenkinsflow.cli.set_build_description",
             "jenkinsflow.cli.set_build_result",
+            "jenkinsflow.cli.utils",
             "jenkinsflow.flow",
             "jenkinsflow.jenkins_api",
             "jenkinsflow.jobload",
@@ -6006,7 +6007,7 @@
             "jenkinsflow.ttt",
             "jenkinsflow.unbuffered"
         ],
-        "version": "2.0.0"
+        "version": "1.1.5"
     },
     "jenkinshelper": {
         "cmdline": [],
@@ -12438,7 +12439,7 @@
     "journal.py": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.1.0"
     },
     "journal2gelf": {
         "cmdline": [],
@@ -16497,7 +16498,7 @@
             "searchStrategyAnalysis.py"
         ],
         "modules": [],
-        "version": "1.0.0a1"
+        "version": "1.0.6a1"
     },
     "jsl10n": {
         "cmdline": [],
@@ -16978,7 +16979,7 @@
             "json_merger.utils",
             "json_merger.version"
         ],
-        "version": "0.2.3"
+        "version": "0.2.4"
     },
     "json-nn": {
         "cmdline": [],
@@ -19784,8 +19785,10 @@
     },
     "jsov": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "JSOV"
+        ],
+        "version": "0.1"
     },
     "jsox-code-retreat": {
         "cmdline": [],
@@ -21991,18 +21994,8 @@
     },
     "jumpserver-python-sdk": {
         "cmdline": [],
-        "modules": [
-            "jms",
-            "jms.authentication",
-            "jms.compat",
-            "jms.config",
-            "jms.exceptions",
-            "jms.mixin",
-            "jms.service",
-            "jms.tasks",
-            "jms.utils"
-        ],
-        "version": "0.0.12"
+        "modules": [],
+        "version": "0.0.14"
     },
     "jumpstart": {
         "cmdline": [],
@@ -23464,7 +23457,7 @@
             "jupyterPathway",
             "jupyterPathway.jupyterPathwayFunctions"
         ],
-        "version": "0.0.4"
+        "version": "0.0.6"
     },
     "jupyterthemes": {
         "cmdline": [],
@@ -24932,7 +24925,7 @@
     "jyni": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.1"
     },
     "jynx": {
         "cmdline": [],
