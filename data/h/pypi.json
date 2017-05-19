@@ -28682,6 +28682,13 @@
         "modules": [],
         "version": "1.0.2"
     },
+    "httpie-odps-auth": {
+        "cmdline": [],
+        "modules": [
+            "httpie_odps_auth"
+        ],
+        "version": "0.2.1"
+    },
     "httpie-plex": {
         "cmdline": [],
         "modules": [
