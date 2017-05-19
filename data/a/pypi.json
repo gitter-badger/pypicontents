@@ -12009,7 +12009,7 @@
         "modules": [
             "aenum"
         ],
-        "version": "2.0.6"
+        "version": "2.0.7"
     },
     "aeon": {
         "cmdline": [],
@@ -31319,7 +31319,7 @@
             "allegro.rpc",
             "allegro.service"
         ],
-        "version": "1.0.7"
+        "version": "1.0.8"
     },
     "allegrordf": {
         "cmdline": [],
@@ -34122,7 +34122,7 @@
             "altuscli.utils",
             "altuscli.validate"
         ],
-        "version": "0.9.2"
+        "version": "0.9.3"
     },
     "aludel": {
         "cmdline": [],
