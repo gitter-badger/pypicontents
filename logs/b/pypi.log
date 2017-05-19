@@ -47,7 +47,7 @@
 [INFO] (baanlib) This package is up to date.
 [ERROR] (baanpowerscan) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -90,7 +90,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (babel-vue-extractor) This package is up to date.
 [ERROR] (babel3k) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -140,15 +140,15 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (baciphacs) This package is up to date.
 [INFO] (backache) This package is up to date.
 [ERROR] (backalaika) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://sourceforge.net/projects/backalaika/files"
 [INFO] (backasa) This package is up to date.
 [ERROR] (backblaze-b2) This package does not have downloadable releases.
 [ERROR] (backbone) This package does not have downloadable releases.
 [INFO] (backcall) This package is up to date.
 [ERROR] (backdoor) Could not extract data from this package. See below for details.
-"http://www.techb.zxq.net/BackDoor.zip" file couldnt be downloaded. See below for details.
+"http://www.techb.zxq.net/BackDoor.zip" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -422,7 +422,7 @@ urllib.error.HTTPError: HTTP Error 403: Forbidden
 [INFO] (bandar) This package is up to date.
 [ERROR] (bandcamp) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -487,7 +487,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (baobab) This package is up to date.
 [INFO] (baojinhuan) This package is up to date.
 [ERROR] (baow) Could not extract data from this package. See below for details.
-".baow.com" extension not supported.
+This package download URL does not point to a valid file: "http://www.baow.com"
 [INFO] (bap) This package is up to date.
 [INFO] (bapdatabase) This package is up to date.
 [INFO] (bar) This package is up to date.
@@ -581,7 +581,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (base58-encoded) This package is up to date.
 [ERROR] (base62) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -667,9 +667,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (basicanalysis) This package is up to date.
 [INFO] (basicauth) This package is up to date.
 [ERROR] (basiccas) Could not extract data from this package. See below for details.
-"http://tangentspace.net/sw/basicCAS-1.0.zip" file couldnt be downloaded. See below for details.
+"http://tangentspace.net/sw/basicCAS-1.0.zip" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -705,7 +705,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (basico) This package is up to date.
 [INFO] (basicprop) This package is up to date.
 [ERROR] (basicproperty) Could not extract data from this package. See below for details.
-".php?group_id=87034" extension not supported.
+".php" extension not supported.
 [INFO] (basicpublisher) This package is up to date.
 [INFO] (basicrpc) This package is up to date.
 [ERROR] (basics) This package does not have downloadable releases.
@@ -775,7 +775,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (battalion) This package is up to date.
 [ERROR] (batteries) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -826,7 +826,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bayeslite-apsw) This package is up to date.
 [INFO] (bayesloop) This package is up to date.
 [ERROR] (bayesnet) Could not extract data from this package. See below for details.
-"http://ziyang.ece.northwestern.edu/~dickrp/python/bayesnet-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"http://ziyang.ece.northwestern.edu/~dickrp/python/bayesnet-0.1.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
   File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
     h.request(req.get_method(), req.selector, req.data, headers)
@@ -851,7 +851,7 @@ socket.gaierror: [Errno -2] Name or service not known
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -918,7 +918,7 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (bbfreeze-loader) This package is up to date.
 [INFO] (bbgateway) This package is up to date.
 [ERROR] (bbgun) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/bbgun/downloads/list"
 [INFO] (bbking) This package is up to date.
 [INFO] (bblame) This package is up to date.
 [INFO] (bbnotify) This package is up to date.
@@ -960,25 +960,7 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (bcoding) This package is up to date.
 [INFO] (bcolors) This package is up to date.
 [INFO] (bcolz) This package is up to date.
-[ERROR] (bcra-chart) Could not extract data from this package. See below for details.
-"https://codeload.github.com/dcrochi/BCRA/legacy.tar.gz/bcra-chart-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (bcra-chart) Data has been updated for this package.
 [INFO] (bcresolver) This package is up to date.
 [INFO] (bcrypt) This package is up to date.
 [INFO] (bcryptor) This package is up to date.
@@ -1016,14 +998,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bdateutil) This package is up to date.
 [INFO] (bdbcontrib) This package is up to date.
 [INFO] (bdbdatastore) This package is up to date.
-[INFO] (bdcli) This package is up to date.
+[INFO] (bdcli) Data has been updated for this package.
 [INFO] (bdd) This package is up to date.
 [INFO] (bdd4django) This package is up to date.
 [INFO] (bddocs) This package is up to date.
 [ERROR] (bdec) Could not extract data from this package. See below for details.
-"http://www.protocollogic.com/files/bdec-0.8.0.tar.gz" file couldnt be downloaded. See below for details.
+"http://www.protocollogic.com/files/bdec-0.8.0.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1040,25 +1022,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (bdecode) This package is up to date.
-[ERROR] (bdf) Could not extract data from this package. See below for details.
-"https://codeload.github.com/binjitsu/binjitsu/legacy.tar.gz/bdf-2.2.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (bdf) Data has been updated for this package.
 [INFO] (bdflib) This package is up to date.
 [INFO] (bdfu) This package is up to date.
 [INFO] (bdgt) This package is up to date.
@@ -1088,9 +1052,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (beacon) This package does not have downloadable releases.
 [INFO] (beacontools) This package is up to date.
 [ERROR] (beadcalculator) Could not extract data from this package. See below for details.
-"https://codeload.github.com/HarryLoofah/bead-calculator.git/legacy.tar.gz/beadcalculator-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/HarryLoofah/bead-calculator.git/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1206,7 +1170,24 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (becca) This package is up to date.
 [INFO] (becca-test) This package is up to date.
 [ERROR] (becer-gae) Could not extract data from this package. See below for details.
-".zip?a=download" extension not supported.
+"http://www.freedodo.com/media/agxmcmVlZG9kb2Jsb2dyDQsSBU1lZGlhGKOTBAw/becer.zip?a=download" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+
 [INFO] (bechdel) This package is up to date.
 [INFO] (beckett) This package is up to date.
 [ERROR] (bed) This package does not have downloadable releases.
@@ -1258,16 +1239,16 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (beetle-s3uploader) This package is up to date.
 [INFO] (beetle-sass) This package is up to date.
 [INFO] (beetle-sitemap) This package is up to date.
-[INFO] (beetmoverscript) This package is up to date.
+[INFO] (beetmoverscript) Data has been updated for this package.
 [INFO] (beets) This package is up to date.
 [INFO] (beets-artistcountry) This package is up to date.
 [INFO] (beets-bandcamp) This package is up to date.
 [INFO] (beets-bbq) This package is up to date.
 [INFO] (beets-copyartifacts) This package is up to date.
 [ERROR] (beets-follow) Could not extract data from this package. See below for details.
-"https://codeload.github.com/nolsto/beets-follow.git/legacy.tar.gz/beets-follow-1.0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/nolsto/beets-follow.git/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1351,9 +1332,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (benchbase) This package is up to date.
 [INFO] (benchbuild) This package is up to date.
 [ERROR] (bencher) Could not extract data from this package. See below for details.
-"https://codeload.github.com/Clivern/bencher/legacy.tar.gz/bencher-1.0.0.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/Clivern/bencher/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1405,9 +1386,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (benri.client) This package is up to date.
 [INFO] (benry) This package is up to date.
 [ERROR] (benterm) Could not extract data from this package. See below for details.
-"http://home.comcast.net/~faulkner612/programming/python/benterm.tgz" file couldnt be downloaded. See below for details.
+"http://home.comcast.net/~faulkner612/programming/python/benterm.tgz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1539,9 +1520,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (better-verilog) This package is up to date.
 [INFO] (betterast) This package is up to date.
 [ERROR] (betterbatch) Could not extract data from this package. See below for details.
-"http://betterbatch.googlecode.com/files/betterbatch-1.3.2.zip" file couldnt be downloaded. See below for details.
+"http://betterbatch.googlecode.com/files/betterbatch-1.3.2.zip" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1578,8 +1559,6 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (beu) This package is up to date.
 [INFO] (beval) This package is up to date.
 [INFO] (bewth) This package is up to date.
-[INFO] (bewype) This package is up to date.
-[INFO] (bewype.foo.bar) This package is up to date.
 [ERROR] (bexml) This package does not have downloadable releases.
 [INFO] (beyond) This package is up to date.
 [INFO] (beyondskins.ploneday.site) This package is up to date.
@@ -1596,7 +1575,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bf) This package is up to date.
 [ERROR] (bf-lc3) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1676,7 +1655,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bibbreviate) This package is up to date.
 [INFO] (bibcleaner) This package is up to date.
 [ERROR] (bibconverter) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.bibconverter.net/download/"
 [INFO] (bibfix) This package is up to date.
 [INFO] (bibgen) This package is up to date.
 [INFO] (bibi) This package is up to date.
@@ -1856,7 +1835,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (binio) This package is up to date.
 [ERROR] (binjitsu) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2059,8 +2038,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bit.recipe.android-ndk) This package is up to date.
 [INFO] (bit.recipe.android-sdk) This package is up to date.
 [INFO] (bit.recipe.python-for-android) This package is up to date.
-[ERROR] (bit2darray) Could not extract data from this package. See below for details.
-".tar.gz?download" extension not supported.
+[INFO] (bit2darray) Data has been updated for this package.
 [INFO] (bit9-api) This package is up to date.
 [INFO] (bitaddress) This package is up to date.
 [INFO] (bitalino) This package is up to date.
@@ -2090,7 +2068,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bitcoinacceptor) This package is up to date.
 [ERROR] (bitcoinapi) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2112,7 +2090,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bitcoinpaygate) This package is up to date.
 [ERROR] (bitcoinpy) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2132,7 +2110,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bitcoinscript) This package is up to date.
 [ERROR] (bitcoinspend) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2154,7 +2132,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bitdock) This package is up to date.
 [ERROR] (bite) This package does not have downloadable releases.
 [ERROR] (bitemporal) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://svn.ervacon.com/public/projects/bitemporal/trunk/src/main/python/"
 [INFO] (bitevery) This package is up to date.
 [INFO] (bitex) This package is up to date.
 [INFO] (bitey) This package is up to date.
@@ -2256,6 +2234,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bk) This package is up to date.
 [INFO] (bk-flower) This package is up to date.
 [ERROR] (bk-orbfit) This package does not have downloadable releases.
+[INFO] (bkcharts) Data has been updated for this package.
 [ERROR] (bkgen) This package does not have downloadable releases.
 [INFO] (bkheatmap) This package is up to date.
 [INFO] (bkkcsirip) This package is up to date.
@@ -2296,7 +2275,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (blacktie) This package is up to date.
 [INFO] (blackwidow) This package is up to date.
 [ERROR] (blacs) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://bitbucket.org/labscript_suite/blacs"
 [INFO] (blade) This package is up to date.
 [INFO] (bladepy) This package is up to date.
 [INFO] (bladerunner) This package is up to date.
@@ -2307,7 +2286,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (blair-nn) This package is up to date.
 [ERROR] (blake) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2350,9 +2329,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (blanche) This package is up to date.
 [INFO] (blancmange) This package is up to date.
 [ERROR] (blanket) Could not extract data from this package. See below for details.
-"https://codeload.github.com/timothycrosley/blanket/legacy.tar.gz/blanket-0.0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/timothycrosley/blanket/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2397,7 +2376,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bleep) This package is up to date.
 [ERROR] (blehblah123) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2439,7 +2418,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (blhello) This package is up to date.
 [ERROR] (blib.t) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2484,12 +2463,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (blis) This package is up to date.
 [ERROR] (bliss) This package does not have downloadable releases.
 [ERROR] (blisslib) Could not extract data from this package. See below for details.
-".blissgarden.org" extension not supported.
+This package download URL does not point to a valid file: "http://www.blissgarden.org"
 [INFO] (blist) This package is up to date.
 [ERROR] (blit) Could not extract data from this package. See below for details.
-"https://codeload.github.com/downloads/migurski/legacy.tar.gz/blit-1.4.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/downloads/migurski/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2523,9 +2502,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (blob) This package is up to date.
 [INFO] (blob-app) This package is up to date.
 [ERROR] (blobdetector) Could not extract data from this package. See below for details.
-"https://codeload.github.com/downloads/migurski/legacy.tar.gz/blobdetector-1.0.0.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/downloads/migurski/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2557,9 +2536,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (blockade) This package is up to date.
 [INFO] (blockade-toolkit) This package is up to date.
 [ERROR] (blockcanvas) Could not extract data from this package. See below for details.
-"http://www.enthought.com/repo/ets/blockcanvas-4.0.3.tar.gz" file couldnt be downloaded. See below for details.
+"http://www.enthought.com/repo/ets/blockcanvas-4.0.3.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2642,7 +2621,7 @@ urllib.error.HTTPError: HTTP Error 404: NOT FOUND
 [INFO] (blog.policy) This package is up to date.
 [INFO] (blog.post) This package is up to date.
 [ERROR] (blogbackup) Could not extract data from this package. See below for details.
-"http://www.doughellmann.com/downloads/BlogBackup-1.4.tar.gz" file couldnt be downloaded. See below for details.
+"http://www.doughellmann.com/downloads/BlogBackup-1.4.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
   File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
     h.request(req.get_method(), req.selector, req.data, headers)
@@ -2671,7 +2650,7 @@ ssl.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2727,7 +2706,7 @@ urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certifica
 [INFO] (bloggertool) This package is up to date.
 [ERROR] (blogging) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2830,9 +2809,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (blurb) This package does not have downloadable releases.
 [INFO] (bluread) This package is up to date.
 [ERROR] (blutils) Could not extract data from this package. See below for details.
-"https://codeload.github.com/anbaalo/util/legacy.tar.gz/blutils-0.4.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/anbaalo/util/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2858,7 +2837,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bmail) This package is up to date.
 [ERROR] (bmark) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2891,7 +2870,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bmv) This package is up to date.
 [ERROR] (bmw) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2913,7 +2892,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (bnd) This package does not have downloadable releases.
 [ERROR] (bndl) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3194,9 +3173,9 @@ Unsupported package directory structure.
 [INFO] (booby) This package is up to date.
 [INFO] (booby-ng) This package is up to date.
 [ERROR] (boodebr) Could not extract data from this package. See below for details.
-"http://boodebr.googlecode.com/files/boodebr-1.5.1.tar.gz" file couldnt be downloaded. See below for details.
+"http://boodebr.googlecode.com/files/boodebr-1.5.1.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3255,9 +3234,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (books) This package is up to date.
 [INFO] (bookscraper) This package is up to date.
 [ERROR] (bookshelf) Could not extract data from this package. See below for details.
-"http://twextjs.googlecode.com/files/bookshelf-0.0.1dev_r41-py2.4.egg" file couldnt be downloaded. See below for details.
+"http://twextjs.googlecode.com/files/bookshelf-0.0.1dev_r41-py2.4.egg" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3402,7 +3381,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (botec) This package is up to date.
 [INFO] (botf) This package is up to date.
 [INFO] (bothub) This package is up to date.
-[INFO] (bothub-cli) This package is up to date.
+[INFO] (bothub-cli) Data has been updated for this package.
 [INFO] (botibal) This package is up to date.
 [INFO] (botify) This package is up to date.
 [INFO] (botilab-init-ubuntu-server) This package is up to date.
@@ -3455,7 +3434,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (botparse) This package is up to date.
 [ERROR] (botpy) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3473,7 +3452,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (bots) This package is up to date.
 [ERROR] (bots-open-source-edi-translator) Could not extract data from this package. See below for details.
-".sourceforge.net" extension not supported.
+This package download URL does not point to a valid file: "http://bots.sourceforge.net"
 [INFO] (botsock) This package is up to date.
 [INFO] (botsocket) This package is up to date.
 [INFO] (botstory) This package is up to date.
@@ -3611,7 +3590,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bowtie) This package is up to date.
 [ERROR] (box) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3643,9 +3622,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (boxed) This package is up to date.
 [INFO] (boxeeremotelib) This package is up to date.
 [ERROR] (boxer) Could not extract data from this package. See below for details.
-"https://codeload.github.com/bgolden/boxer/legacy.tar.gz/boxer-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/bgolden/boxer/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3700,9 +3679,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bpf4) This package is up to date.
 [INFO] (bpformation) This package is up to date.
 [ERROR] (bpgsql) Could not extract data from this package. See below for details.
-"http://barryp.org/static/software/download/bpgsql/2.0%20alpha%202/bpgsql-2.0alpha2.tgz" file couldnt be downloaded. See below for details.
+"http://barryp.org/static/software/download/bpgsql/2.0%20alpha%202/bpgsql-2.0alpha2.tgz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3734,7 +3713,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bpm) This package is up to date.
 [ERROR] (bpmaapers-ok) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3823,7 +3802,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (brainy-mind) This package is up to date.
 [ERROR] (brainy78) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3848,9 +3827,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (brandelion) This package is up to date.
 [INFO] (brap) This package is up to date.
 [ERROR] (brapbrap) Could not extract data from this package. See below for details.
-"https://codeload.github.com/incognito/brapbrap/legacy.tar.gz/brapbrap-0.0.0.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/incognito/brapbrap/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3926,7 +3905,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (brequire) This package is up to date.
 [INFO] (bresenham) This package is up to date.
 [ERROR] (breve) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://breve.twisty-industries.com/downloads/"
 [ERROR] (brevetool) This package does not have downloadable releases.
 [INFO] (brevis) This package is up to date.
 [INFO] (brevity) This package is up to date.
@@ -3952,10 +3931,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (brickpi-python) This package is up to date.
 [INFO] (brickpython) This package is up to date.
 [ERROR] (bricks) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.pythonweb.org/bricks/release/"
 [ERROR] (bricksink) This package does not have downloadable releases.
 [ERROR] (bridge) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.defuze.org/oss/bridge/"
 [INFO] (bridgedb) This package is up to date.
 [INFO] (bridgepython) This package is up to date.
 [INFO] (bridson) This package is up to date.
@@ -4057,7 +4036,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (browler) This package is up to date.
 [INFO] (brownant) This package is up to date.
 [INFO] (brownbat) This package is up to date.
-[INFO] (browndog) This package is up to date.
+[INFO] (browndog) Data has been updated for this package.
 [INFO] (brownfox) This package is up to date.
 [INFO] (brownie) This package is up to date.
 [INFO] (brownstone) This package is up to date.
@@ -4092,7 +4071,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (brubeck-service) This package is up to date.
 [INFO] (brubeck-uploader) This package is up to date.
 [ERROR] (bruce) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/bruce-tpt/downloads/list"
 [INFO] (bruges) This package is up to date.
 [INFO] (brukva) This package is up to date.
 [INFO] (brume) This package is up to date.
@@ -4342,7 +4321,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (buildboticon) This package is up to date.
 [ERROR] (buildbotstatusshields) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4518,7 +4497,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (buptlogin) This package is up to date.
 [ERROR] (bureaucracy) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4575,7 +4554,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (burstlogging) This package is up to date.
 [ERROR] (bus) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4595,7 +4574,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (busbus) This package is up to date.
 [INFO] (busby) This package is up to date.
 [ERROR] (busca) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://launchpad.net/busca"
 [INFO] (buscacep) This package is up to date.
 [INFO] (bushy) This package is up to date.
 [INFO] (business-calendar) This package is up to date.
@@ -4615,12 +4594,22 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (buster) This package is up to date.
 [INFO] (buster-selenium) This package is up to date.
 [ERROR] (busticate) Could not extract data from this package. See below for details.
-"https://codeload.github.com/Gallopsled/pwntools/legacy.tar.gz/busticate-1.0.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/Gallopsled/pwntools/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 504, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 696, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.5/urllib/request.py", line 472, in open
     response = meth(req, response)
   File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
@@ -4635,7 +4624,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (busticati) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4674,8 +4663,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (buttshock) This package is up to date.
 [INFO] (buu) This package is up to date.
 [ERROR] (buxfer) This package does not have downloadable releases.
-[ERROR] (buzhug) Could not extract data from this package. See below for details.
-".8.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fbuzhug%2Ffiles%2F&ts=1285445021&use_mirror=switch" extension not supported.
+[INFO] (buzhug) Data has been updated for this package.
 [INFO] (buzz-agent) This package is up to date.
 [ERROR] (buzz-python-client) This package does not have downloadable releases.
 [INFO] (buzzalgotrade) This package is up to date.
@@ -4684,9 +4672,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (buzzer-as-a-service.message) This package is up to date.
 [INFO] (buzzfizz) This package is up to date.
 [ERROR] (buzzweb2pdf) Could not extract data from this package. See below for details.
-"https://codeload.github.com/downloads/buzztroll/legacy.tar.gz/buzzweb2pdf-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/downloads/buzztroll/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4796,7 +4784,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bzero) This package is up to date.
 [ERROR] (bzip2) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4819,9 +4807,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (bzr-cia) This package does not have downloadable releases.
 [INFO] (bzr-colo) This package is up to date.
 [ERROR] (bzr-fastimport) Could not extract data from this package. See below for details.
-"http://launchpad.net/bzr-fastimport/trunk/0.12.0.dev.0/+download/bzr-fastimport-0.12.0.dev.0.tar.gz" file couldnt be downloaded. See below for details.
+"http://launchpad.net/bzr-fastimport/trunk/0.12.0.dev.0/+download/bzr-fastimport-0.12.0.dev.0.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4844,11 +4832,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bzr-pqm) This package is up to date.
 [ERROR] (bzr-push-back) This package does not have downloadable releases.
 [ERROR] (bzr-rebase) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://bazaar-vcs.org/Rebase"
 [ERROR] (bzr-rewrite) Could not extract data from this package. See below for details.
-"http://samba.org/~jelmer/bzr/bzr-rewrite-0.6.4.tar.gz" file couldnt be downloaded. See below for details.
+"http://samba.org/~jelmer/bzr/bzr-rewrite-0.6.4.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -4893,14 +4881,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bzz) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 3749
-[INFO]     Packages processed: 3749
-[INFO]         Packages updated: 0
-[INFO]         Packages up-to-date: 3370
+[INFO] Total packages: 3748
+[INFO]     Packages processed: 3748
+[INFO]         Packages updated: 9
+[INFO]         Packages up-to-date: 3364
 [INFO]         Packages without response: 26
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 295
-[INFO]         Packages with data errors: 58
+[INFO]         Packages with data errors: 54
 [INFO]     Packages not processed: 0
 [INFO] 
 [INFO] 

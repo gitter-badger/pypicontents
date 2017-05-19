@@ -13117,8 +13117,11 @@
     },
     "bcra-chart": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "bcra_chart",
+            "bcra_chart.bcra_chart"
+        ],
+        "version": "0.1"
     },
     "bcresolver": {
         "cmdline": [],
@@ -13619,7 +13622,7 @@
             "bdcli.bd",
             "bdcli.key_token"
         ],
-        "version": "0.5.1a0"
+        "version": "0.5.0a0"
     },
     "bdd": {
         "cmdline": [],
@@ -13674,7 +13677,7 @@
     "bdf": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "2.2.0"
     },
     "bdflib": {
         "cmdline": [
@@ -16967,7 +16970,7 @@
             "beetmoverscript.test.test_utils",
             "beetmoverscript.utils"
         ],
-        "version": "0.0.13"
+        "version": "0.5.3"
     },
     "beets": {
         "cmdline": [],
@@ -20916,164 +20919,6 @@
         "cmdline": [],
         "modules": [],
         "version": "v0.0.1-alpha"
-    },
-    "bewype": {
-        "cmdline": [],
-        "modules": [
-            "bewype",
-            "bewype.core",
-            "bewype.core.cache",
-            "bewype.core.cache.page_manager",
-            "bewype.core.component",
-            "bewype.core.component.button_box",
-            "bewype.core.component.button_box.button_box",
-            "bewype.core.component.button_box.tmpl",
-            "bewype.core.component.color_picker",
-            "bewype.core.component.color_picker.color_picker",
-            "bewype.core.component.color_picker.tmpl",
-            "bewype.core.component.component",
-            "bewype.core.component.date_picker",
-            "bewype.core.component.date_picker.date_picker",
-            "bewype.core.component.date_picker.tmpl",
-            "bewype.core.component.entry",
-            "bewype.core.component.entry.entry",
-            "bewype.core.component.entry.tmpl",
-            "bewype.core.component.file_editor",
-            "bewype.core.component.file_editor.file_editor",
-            "bewype.core.component.file_editor.tmpl",
-            "bewype.core.component.file_picker",
-            "bewype.core.component.file_picker.file_picker",
-            "bewype.core.component.file_picker.tmpl",
-            "bewype.core.component.file_viewer",
-            "bewype.core.component.file_viewer.file_viewer",
-            "bewype.core.component.file_viewer.tmpl",
-            "bewype.core.component.form_children",
-            "bewype.core.component.form_children.form_children",
-            "bewype.core.component.form_children.tmpl",
-            "bewype.core.component.form_field",
-            "bewype.core.component.image",
-            "bewype.core.component.image.image",
-            "bewype.core.component.image.tmpl",
-            "bewype.core.component.layout",
-            "bewype.core.component.list",
-            "bewype.core.component.list.list",
-            "bewype.core.component.list.tmpl",
-            "bewype.core.component.menu",
-            "bewype.core.component.menu.horizontal",
-            "bewype.core.component.menu.horizontal.menu_horizontal",
-            "bewype.core.component.menu.horizontal.tmpl",
-            "bewype.core.component.menu.linear",
-            "bewype.core.component.menu.linear.menu_linear",
-            "bewype.core.component.menu.linear.tmpl",
-            "bewype.core.component.menu.menu",
-            "bewype.core.component.menu.vertical",
-            "bewype.core.component.menu.vertical.menu_vertical",
-            "bewype.core.component.menu.vertical.tmpl",
-            "bewype.core.component.page",
-            "bewype.core.component.re_captcha",
-            "bewype.core.component.re_captcha.re_captcha",
-            "bewype.core.component.re_captcha.tmpl",
-            "bewype.core.component.text_editor",
-            "bewype.core.component.text_editor.text_editor",
-            "bewype.core.component.text_editor.tmpl",
-            "bewype.core.component.text_view",
-            "bewype.core.component.text_view.text_view",
-            "bewype.core.component.text_view.tmpl",
-            "bewype.core.component.text_viewer",
-            "bewype.core.component.text_viewer.text_viewer",
-            "bewype.core.component.text_viewer.tmpl",
-            "bewype.core.component.title",
-            "bewype.core.config",
-            "bewype.core.config.config",
-            "bewype.core.data",
-            "bewype.core.data.yaml_base_loader",
-            "bewype.core.data.yaml_config_loader",
-            "bewype.core.data.yaml_db_loader",
-            "bewype.core.db",
-            "bewype.core.db.model",
-            "bewype.core.db.query",
-            "bewype.core.db.session_manager",
-            "bewype.core.email",
-            "bewype.core.email.sender",
-            "bewype.core.message",
-            "bewype.core.message.rpc_message",
-            "bewype.core.message.rpc_result",
-            "bewype.core.resource",
-            "bewype.core.resource.i18n_updater",
-            "bewype.core.resource.path",
-            "bewype.core.resource.resource",
-            "bewype.core.resource.static_updater",
-            "bewype.core.template",
-            "bewype.core.template.template",
-            "bewype.core.tests",
-            "bewype.core.tests._db_manager",
-            "bewype.core.tests.main",
-            "bewype.core.tests.test_data_yaml_loader",
-            "bewype.core.tests.test_db_query",
-            "bewype.core.tests.test_email",
-            "bewype.core.tests.test_path",
-            "bewype.core.tests.test_resource_updater",
-            "bewype.core.ui",
-            "bewype.core.ui.bin",
-            "bewype.core.ui.box",
-            "bewype.core.ui.button",
-            "bewype.core.ui.button_box",
-            "bewype.core.ui.cell",
-            "bewype.core.ui.cell_layout",
-            "bewype.core.ui.cell_renderer",
-            "bewype.core.ui.combo_box",
-            "bewype.core.ui.container",
-            "bewype.core.ui.editable",
-            "bewype.core.ui.entry",
-            "bewype.core.ui.frame",
-            "bewype.core.ui.html",
-            "bewype.core.ui.image",
-            "bewype.core.ui.label",
-            "bewype.core.ui.menu",
-            "bewype.core.ui.picker",
-            "bewype.core.ui.re_captcha",
-            "bewype.core.ui.text_view",
-            "bewype.core.ui.tree_view",
-            "bewype.core.ui.tree_view_column",
-            "bewype.core.ui.widget",
-            "bewype.core.utils",
-            "bewype.core.utils.utils",
-            "bewype.core.web",
-            "bewype.core.web.application",
-            "bewype.core.web.portal",
-            "bewype.core.web.ssl_context",
-            "bewype.core.web.start",
-            "bewype.db",
-            "bewype.db.repository",
-            "bewype.db.repository.manage",
-            "bewype.db.repository.versions",
-            "bewype.db.repository.versions.001_init_database",
-            "bewype.js",
-            "bewype.js.resource",
-            "bewype.js.resource.css",
-            "bewype.js.resource.img",
-            "bewype.js.resource.script",
-            "builder",
-            "builder.builders",
-            "builder.util"
-        ],
-        "version": "0.1"
-    },
-    "bewype.foo.bar": {
-        "cmdline": [],
-        "modules": [
-            "bewype",
-            "bewype.widget",
-            "bewype.widget.hello",
-            "bewype.widget.hello.world",
-            "bewype.widget.hello.world.widget_hello_world",
-            "bewype.widget.sample",
-            "bewype.widget.sample.ajax",
-            "bewype.widget.sample.ajax.widget_sample_ajax",
-            "bewype.widget.sample.ui",
-            "bewype.widget.sample.ui.widget_sample_ui"
-        ],
-        "version": "0.1"
     },
     "bexml": {
         "cmdline": [],
@@ -29480,8 +29325,11 @@
     },
     "bit2darray": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "Bit2DArray",
+            "BitVector"
+        ],
+        "version": "2.0"
     },
     "bit9-api": {
         "cmdline": [],
@@ -31518,6 +31366,53 @@
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "bkcharts": {
+        "cmdline": [],
+        "modules": [
+            "bkcharts",
+            "bkcharts.attributes",
+            "bkcharts.builder",
+            "bkcharts.builders",
+            "bkcharts.builders.area_builder",
+            "bkcharts.builders.bar_builder",
+            "bkcharts.builders.boxplot_builder",
+            "bkcharts.builders.chord_builder",
+            "bkcharts.builders.donut_builder",
+            "bkcharts.builders.dot_builder",
+            "bkcharts.builders.heatmap_builder",
+            "bkcharts.builders.histogram_builder",
+            "bkcharts.builders.horizon_builder",
+            "bkcharts.builders.line_builder",
+            "bkcharts.builders.scatter_builder",
+            "bkcharts.builders.step_builder",
+            "bkcharts.builders.tests",
+            "bkcharts.builders.tests.test_bar_builder",
+            "bkcharts.builders.tests.test_boxplot_builder",
+            "bkcharts.builders.tests.test_chord_builder",
+            "bkcharts.builders.tests.test_histogram_builder",
+            "bkcharts.builders.tests.test_line_builder",
+            "bkcharts.builders.tests.test_scatter_builder",
+            "bkcharts.builders.timeseries_builder",
+            "bkcharts.chart",
+            "bkcharts.conftest",
+            "bkcharts.data_source",
+            "bkcharts.glyphs",
+            "bkcharts.models",
+            "bkcharts.operations",
+            "bkcharts.properties",
+            "bkcharts.stats",
+            "bkcharts.tests",
+            "bkcharts.tests.test_attributes",
+            "bkcharts.tests.test_builder",
+            "bkcharts.tests.test_chart",
+            "bkcharts.tests.test_chart_utils",
+            "bkcharts.tests.test_comp_glyphs",
+            "bkcharts.tests.test_data_source",
+            "bkcharts.tests.test_stats",
+            "bkcharts.utils"
+        ],
+        "version": "0.1"
     },
     "bkgen": {
         "cmdline": [],
@@ -44562,7 +44457,7 @@
             "bothub_cli.template",
             "bothub_cli.utils"
         ],
-        "version": "0.1.4"
+        "version": "0.1.5"
     },
     "botibal": {
         "cmdline": [],
@@ -54299,7 +54194,7 @@
             "browndog",
             "browndog.bd"
         ],
-        "version": "0.7.1a0"
+        "version": "0.7.0a0"
     },
     "brownfox": {
         "cmdline": [],
@@ -61931,8 +61826,16 @@
     },
     "buzhug": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "buzhug",
+            "buzhug.buzhug",
+            "buzhug.buzhug_algos",
+            "buzhug.buzhug_files",
+            "buzhug.buzhug_info",
+            "buzhug.buzhug_test",
+            "buzhug.conversion_float"
+        ],
+        "version": "1.8"
     },
     "buzz-agent": {
         "cmdline": [
