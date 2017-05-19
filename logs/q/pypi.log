@@ -14,27 +14,9 @@
 [INFO] (qanat) This package is up to date.
 [INFO] (qanda) This package is up to date.
 [INFO] (qap) This package is up to date.
-[ERROR] (qapplicationtemplate) Could not extract data from this package. See below for details.
-"https://codeload.github.com/goanpeca/QApplicationTemplate/legacy.tar.gz/qapplicationtemplate-0.1.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (qapplicationtemplate) Data has been updated for this package.
 [ERROR] (qarbon) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://pypi.python.org/packages/source/d/qarbon"
 [INFO] (qarg) This package is up to date.
 [INFO] (qarnot) This package is up to date.
 [INFO] (qasino-client) This package is up to date.
@@ -102,8 +84,8 @@ OSError: Not a gzipped file (b'<h')
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 130, in get_tar_topdir
-    with compressed(tarpath, tarmode) as tar:
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 131, in get_tar_topdir
+    with closing(compressed(tarpath, tarmode)) as tar:
   File "/usr/lib/python3.5/tarfile.py", line 1577, in open
     return func(name, filemode, fileobj, **kwargs)
   File "/usr/lib/python3.5/tarfile.py", line 1635, in gzopen
@@ -131,7 +113,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (qdutaportal) This package is up to date.
 [INFO] (qdyn) This package is up to date.
 [ERROR] (qecalc) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://danse.cacr.caltech.edu/packages/dev_danse_us/"
 [ERROR] (qed) This package does not have downloadable releases.
 [ERROR] (qemud) This package does not have downloadable releases.
 [INFO] (qet-tb-generator) This package is up to date.
@@ -271,12 +253,11 @@ tarfile.ReadError: not a gzip file
 [INFO] (qpm) This package is up to date.
 [INFO] (qprocessing) This package is up to date.
 [INFO] (qprompt) This package is up to date.
-[ERROR] (qps) Could not extract data from this package. See below for details.
-".tar.gz?download" extension not supported.
+[INFO] (qps) Data has been updated for this package.
 [INFO] (qpth) This package is up to date.
 [ERROR] (qpy) This package does not have downloadable releases.
 [ERROR] (qpyprofiler) Could not extract data from this package. See below for details.
-"http://www.digitalfox.org/projets/download/qPyProfiler.tar.gz" file couldnt be downloaded. See below for details.
+"http://www.digitalfox.org/projets/download/qPyProfiler.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
   File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
     h.request(req.get_method(), req.selector, req.data, headers)
@@ -301,7 +282,7 @@ ConnectionRefusedError: [Errno 111] Connection refused
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -336,25 +317,7 @@ urllib.error.URLError: <urlopen error [Errno 111] Connection refused>
 [INFO] (qr-codec) This package is up to date.
 [INFO] (qr-io) This package is up to date.
 [INFO] (qr2scad) This package is up to date.
-[ERROR] (qr3d) Could not extract data from this package. See below for details.
-"https://codeload.github.com/XayOn/Qr3D/legacy.tar.gz/qr3d-1.0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (qr3d) Data has been updated for this package.
 [INFO] (qrangeslider) This package is up to date.
 [INFO] (qraphql-py) This package is up to date.
 [INFO] (qrc) This package is up to date.
@@ -383,7 +346,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qs) This package is up to date.
 [ERROR] (qs-nester) This package does not have downloadable releases.
 [ERROR] (qs-vod-metadata) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://bitbucket.org/quicksisver_dev_phase_1/metadata_gen/src"
 [INFO] (qscan) This package is up to date.
 [INFO] (qscintilla) This package is up to date.
 [INFO] (qscollect) This package is up to date.
@@ -402,7 +365,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qsupervisorcontrol) This package is up to date.
 [ERROR] (qt) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -439,7 +402,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qt4-gengui) This package is up to date.
 [INFO] (qt4imagelabel) This package is up to date.
 [INFO] (qt4reactor) This package is up to date.
-[INFO] (qt5reactor) This package is up to date.
+[INFO] (qt5reactor) Data has been updated for this package.
 [INFO] (qt5reactor-fork) This package is up to date.
 [INFO] (qtalchemy) This package is up to date.
 [INFO] (qtargselector) This package is up to date.
@@ -452,7 +415,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qtconsole) This package is up to date.
 [INFO] (qtdjango) This package is up to date.
 [ERROR] (qte) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://bitbucket.org/aquavitae/qte/downloads"
 [ERROR] (qtest) This package does not have downloadable releases.
 [INFO] (qtfaststart) This package is up to date.
 [INFO] (qtgui) This package is up to date.
@@ -463,7 +426,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qtip) This package is up to date.
 [ERROR] (qtip-api) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -481,7 +444,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (qtip-cli) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -541,25 +504,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quali-testing-helpers) This package is up to date.
 [INFO] (qualicscli) This package is up to date.
 [INFO] (qualification) This package is up to date.
-[ERROR] (qualilab-cli) Could not extract data from this package. See below for details.
-"https://codeload.github.com/QualiSystemsLab/QualiLab-CLI/legacy.tar.gz/qualilab-cli-1.0.5.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (qualilab-cli) Data has been updated for this package.
 [INFO] (qualipy) This package is up to date.
 [INFO] (qualisys) This package is up to date.
 [ERROR] (quality) This package does not have downloadable releases.
@@ -608,7 +553,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quantnode) This package is up to date.
 [INFO] (quantopian-tools) This package is up to date.
 [INFO] (quantquesttoolbox) This package is up to date.
-[INFO] (quantrocket-client) This package is up to date.
+[INFO] (quantrocket-client) Data has been updated for this package.
 [ERROR] (quantstack) This package does not have downloadable releases.
 [INFO] (quanttus-api) This package is up to date.
 [INFO] (quantulum) This package is up to date.
@@ -627,7 +572,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quark) This package is up to date.
 [INFO] (quark-hash) This package is up to date.
 [INFO] (quark-sphinx-theme) This package is up to date.
-[INFO] (quarkutilities) Data has been updated for this package.
+[INFO] (quarkutilities) This package is up to date.
 [INFO] (quarry) This package is up to date.
 [ERROR] (quarry-io) This package does not have downloadable releases.
 [ERROR] (quart) This package does not have downloadable releases.
@@ -653,7 +598,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qubit-hash) This package is up to date.
 [ERROR] (qubit-hashs) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -709,7 +654,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quetzalcoatl) This package is up to date.
 [ERROR] (queue) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -826,7 +771,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quickweb) This package is up to date.
 [INFO] (quickwiki) This package is up to date.
 [ERROR] (quickwikievoque) Could not extract data from this package. See below for details.
-"http://gizmojo.org/dist/QuickWikiEvoque-0.1.1.tar.gz" file couldnt be downloaded. See below for details.
+"http://gizmojo.org/dist/QuickWikiEvoque-0.1.1.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
   File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
     h.request(req.get_method(), req.selector, req.data, headers)
@@ -851,7 +796,7 @@ socket.timeout: timed out
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -911,7 +856,7 @@ urllib.error.URLError: <urlopen error timed out>
 [INFO] (quintagroup.sunrain.policy) This package is up to date.
 [ERROR] (quintagroup.theme.brio) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -963,7 +908,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qunitsuite) This package is up to date.
 [ERROR] (quodlibet) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1035,12 +980,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] 
 [INFO] Total packages: 727
 [INFO]     Packages processed: 727
-[INFO]         Packages updated: 1
-[INFO]         Packages up-to-date: 652
+[INFO]         Packages updated: 6
+[INFO]         Packages up-to-date: 651
 [INFO]         Packages without response: 7
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 55
-[INFO]         Packages with data errors: 12
+[INFO]         Packages with data errors: 8
 [INFO]     Packages not processed: 0
 [INFO] 
 [INFO] 

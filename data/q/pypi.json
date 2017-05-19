@@ -195,8 +195,17 @@
     },
     "qapplicationtemplate": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "qapplicationtemplate",
+            "qapplicationtemplate.api",
+            "qapplicationtemplate.api.forms",
+            "qapplicationtemplate.app",
+            "qapplicationtemplate.app.forms",
+            "qapplicationtemplate.app.main",
+            "qapplicationtemplate.app.main_window",
+            "qapplicationtemplate.app.settings"
+        ],
+        "version": "0.1.0"
     },
     "qarbon": {
         "cmdline": [],
@@ -5053,9 +5062,35 @@
         "version": "0.9.1"
     },
     "qps": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "qps_create_site"
+        ],
+        "modules": [
+            "qps",
+            "qps.qBricks",
+            "qps.qBricks.qBase",
+            "qps.qBricks.qSQL",
+            "qps.qBricks.qStatic",
+            "qps.qCommands",
+            "qps.qDB",
+            "qps.qDB.qInterbase",
+            "qps.qDB.qMySQL",
+            "qps.qDB.qPgSQL",
+            "qps.qDB.qPyGreSQL",
+            "qps.qDB.qSQL",
+            "qps.qEdit",
+            "qps.qFieldTypes",
+            "qps.qHTTP",
+            "qps.qMail",
+            "qps.qMake",
+            "qps.qPath",
+            "qps.qSecurity",
+            "qps.qSite",
+            "qps.qUtils",
+            "qps.qVirtual",
+            "qps.qWebUtils"
+        ],
+        "version": "2.6"
     },
     "qpth": {
         "cmdline": [],
@@ -5281,7 +5316,7 @@
     "qr3d": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "1.0.1"
     },
     "qrangeslider": {
         "cmdline": [],
@@ -5984,8 +6019,10 @@
     },
     "qt5reactor": {
         "cmdline": [],
-        "modules": [],
-        "version": "0.3"
+        "modules": [
+            "qt5reactor"
+        ],
+        "version": "0.4"
     },
     "qt5reactor-fork": {
         "cmdline": [],
@@ -7242,8 +7279,11 @@
     },
     "qualilab-cli": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "QualiLab_CLI",
+            "QualiLab_CLI.Cli_Lib"
+        ],
+        "version": "1.0.5"
     },
     "qualipy": {
         "cmdline": [],
@@ -8556,7 +8596,7 @@
             "quantrocket.houston",
             "quantrocket.launchpad"
         ],
-        "version": "0.12.1"
+        "version": "0.12.2"
     },
     "quantstack": {
         "cmdline": [],
