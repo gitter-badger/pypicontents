@@ -6475,6 +6475,19 @@
         ],
         "version": "1.87"
     },
+    "kaftools": {
+        "cmdline": [],
+        "modules": [
+            "kaftools",
+            "kaftools.filters",
+            "kaftools.kernels",
+            "kaftools.sparsifiers",
+            "kaftools.utils",
+            "kaftools.utils.data",
+            "kaftools.utils.shortcuts"
+        ],
+        "version": "0.1.1"
+    },
     "kafx": {
         "cmdline": [],
         "modules": [],
@@ -8061,9 +8074,11 @@
         "modules": [
             "kamidana",
             "kamidana.cmd",
-            "kamidana.driver"
+            "kamidana.driver",
+            "kamidana.interfaces",
+            "kamidana.loader"
         ],
-        "version": "0.1.1"
+        "version": "0.2.1"
     },
     "kamikaze": {
         "cmdline": [],
@@ -31607,7 +31622,7 @@
             "tests",
             "tests.basic_tests"
         ],
-        "version": "0.63.3"
+        "version": "0.6.6"
     },
     "kvaut": {
         "cmdline": [],
