@@ -22441,7 +22441,7 @@
             "inqbus.rainflow.rainflow_algorithm.classification",
             "inqbus.rainflow.run_rainflow"
         ],
-        "version": "0.1"
+        "version": "0.2"
     },
     "inqbus.tagging": {
         "cmdline": [],
