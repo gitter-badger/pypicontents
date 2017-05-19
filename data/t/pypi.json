@@ -24788,7 +24788,7 @@
             "tethys_dataset_services.utilities",
             "tethys_dataset_services.valid_engines"
         ],
-        "version": "1.5.2"
+        "version": "1.6.0"
     },
     "tethyscluster": {
         "cmdline": [],
@@ -86360,13 +86360,31 @@
     },
     "txsockjs-client": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txsockjs_client"
+        ],
+        "version": "0.1.0"
     },
     "txsocksx": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txsocksx",
+            "txsocksx._version",
+            "txsocksx.client",
+            "txsocksx.constants",
+            "txsocksx.errors",
+            "txsocksx.grammar",
+            "txsocksx.http",
+            "txsocksx.ssl",
+            "txsocksx.test",
+            "txsocksx.test.test_client",
+            "txsocksx.test.test_grammar",
+            "txsocksx.test.test_http",
+            "txsocksx.test.test_tls",
+            "txsocksx.test.util",
+            "txsocksx.tls"
+        ],
+        "version": "1.15.0.2"
     },
     "txsphinx": {
         "cmdline": [],
@@ -86375,33 +86393,149 @@
     },
     "txspinneret": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txspinneret",
+            "txspinneret._version",
+            "txspinneret.interfaces",
+            "txspinneret.query",
+            "txspinneret.resource",
+            "txspinneret.route",
+            "txspinneret.test",
+            "txspinneret.test.test_query",
+            "txspinneret.test.test_resource",
+            "txspinneret.test.test_route",
+            "txspinneret.test.test_util",
+            "txspinneret.test.util",
+            "txspinneret.util"
+        ],
+        "version": "0.1.3"
     },
     "txspore": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txspore",
+            "txspore.client",
+            "txspore.exception",
+            "txspore.meta",
+            "txspore.model",
+            "txspore.original",
+            "txspore.original.SporeAPICoreUtils",
+            "txspore.testing",
+            "txspore.testing.base",
+            "txspore.testing.payload",
+            "txspore.testing.suite",
+            "txspore.tests",
+            "txspore.tests.test_client",
+            "txspore.tests.test_model",
+            "txspore.tests.test_util",
+            "txspore.url",
+            "txspore.url.atom",
+            "txspore.url.data",
+            "txspore.url.rest",
+            "txspore.util",
+            "txspore.util.dist"
+        ],
+        "version": "0.0.2"
     },
     "txssmi": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txssmi",
+            "txssmi.builder",
+            "txssmi.commands",
+            "txssmi.constants",
+            "txssmi.protocol"
+        ],
+        "version": "0.3.0"
     },
     "txstathat": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txstathat"
+        ],
+        "version": "0.2.0"
     },
     "txstatsd": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "twisted.plugins.distinct_plugin",
+            "twisted.plugins.sli_plugin",
+            "twisted.plugins.txstatsd_plugin",
+            "txstatsd",
+            "txstatsd.client",
+            "txstatsd.hashing",
+            "txstatsd.itxstatsd",
+            "txstatsd.metrics",
+            "txstatsd.metrics.countermetric",
+            "txstatsd.metrics.distinctmetric",
+            "txstatsd.metrics.extendedmetrics",
+            "txstatsd.metrics.gaugemetric",
+            "txstatsd.metrics.histogrammetric",
+            "txstatsd.metrics.imetrics",
+            "txstatsd.metrics.metermetric",
+            "txstatsd.metrics.metric",
+            "txstatsd.metrics.metrics",
+            "txstatsd.metrics.slimetric",
+            "txstatsd.metrics.timermetric",
+            "txstatsd.process",
+            "txstatsd.protocol",
+            "txstatsd.report",
+            "txstatsd.server",
+            "txstatsd.server.configurableprocessor",
+            "txstatsd.server.httpinfo",
+            "txstatsd.server.loggingprocessor",
+            "txstatsd.server.processor",
+            "txstatsd.server.protocol",
+            "txstatsd.server.router",
+            "txstatsd.service",
+            "txstatsd.stats",
+            "txstatsd.stats.ewma",
+            "txstatsd.stats.exponentiallydecayingsample",
+            "txstatsd.stats.uniformsample",
+            "txstatsd.tests",
+            "txstatsd.tests.helper",
+            "txstatsd.tests.metrics",
+            "txstatsd.tests.metrics.test_distinct",
+            "txstatsd.tests.metrics.test_histogrammetric",
+            "txstatsd.tests.metrics.test_metermetric",
+            "txstatsd.tests.metrics.test_sli",
+            "txstatsd.tests.metrics.test_timermetric",
+            "txstatsd.tests.stats",
+            "txstatsd.tests.stats.test_ewma",
+            "txstatsd.tests.stats.test_exponentiallydecayingsample",
+            "txstatsd.tests.stats.test_uniformsample",
+            "txstatsd.tests.test_client",
+            "txstatsd.tests.test_configurableprocessor",
+            "txstatsd.tests.test_httpinfo",
+            "txstatsd.tests.test_loggingprocessor",
+            "txstatsd.tests.test_metrics",
+            "txstatsd.tests.test_process",
+            "txstatsd.tests.test_processor",
+            "txstatsd.tests.test_report",
+            "txstatsd.tests.test_router",
+            "txstatsd.tests.test_service",
+            "txstatsd.version"
+        ],
+        "version": "1.0.0"
     },
     "txstripe": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "stripe",
+            "stripe.api_requestor",
+            "stripe.error",
+            "stripe.http_client",
+            "stripe.importer",
+            "stripe.multipart_data_generator",
+            "stripe.resource",
+            "stripe.util",
+            "stripe.version",
+            "txstripe",
+            "txstripe.error",
+            "txstripe.resource",
+            "txstripe.util"
+        ],
+        "version": "0.0.6"
     },
     "txsuds-py3": {
         "cmdline": [],
@@ -86410,8 +86544,19 @@
     },
     "txsyncml": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "twisted.plugins.txsyncml_plugin",
+            "txsyncml",
+            "txsyncml.codecs",
+            "txsyncml.commands",
+            "txsyncml.constants",
+            "txsyncml.parser",
+            "txsyncml.resource",
+            "txsyncml.service",
+            "txsyncml.syncml",
+            "txsyncml.wbxml"
+        ],
+        "version": "0.0.1"
     },
     "txt": {
         "cmdline": [],
@@ -86420,33 +86565,89 @@
     },
     "txt-wrangler": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txt_wrangler"
+        ],
+        "version": "0.0.1dev"
     },
     "txt2boil": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "test",
+            "test.test_langs",
+            "test.testgen",
+            "test.testpython",
+            "test.testracket",
+            "txt2boil",
+            "txt2boil._version",
+            "txt2boil.cmi",
+            "txt2boil.comments",
+            "txt2boil.core",
+            "txt2boil.core.extractor",
+            "txt2boil.core.gen",
+            "txt2boil.core.hookedre",
+            "txt2boil.generic_gen",
+            "txt2boil.langs",
+            "txt2boil.linegen",
+            "txt2boil.main",
+            "txt2boil.pygen",
+            "txt2boil.test",
+            "txt2boil.test.testgen",
+            "txt2boil.test.testpython",
+            "txt2boil.test.testracket",
+            "txt2boil.version"
+        ],
+        "version": "0.7.2"
     },
     "txt2bootstrap": {
-        "cmdline": [],
+        "cmdline": [
+            "txt2bootstrap"
+        ],
         "modules": [],
-        "version": ""
+        "version": "2.0"
     },
     "txt2contincd": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txt2contincd",
+            "txt2contincd.args",
+            "txt2contincd.conf",
+            "txt2contincd.console",
+            "txt2contincd.main",
+            "txt2contincd.utils"
+        ],
+        "version": "0.1.0"
     },
     "txt2mobi": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txt2mobi",
+            "txt2mobi.exceptions",
+            "txt2mobi.main",
+            "txt2mobi.scaffold",
+            "txt2mobi.txt2html",
+            "txt2mobi.utilities"
+        ],
+        "version": "0.0.3"
     },
     "txt2xls": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txt2xls",
+            "txt2xls.args",
+            "txt2xls.compat",
+            "txt2xls.conf",
+            "txt2xls.console",
+            "txt2xls.function",
+            "txt2xls.function.builtin",
+            "txt2xls.function.builtin.baseline_function",
+            "txt2xls.function.builtin.classify_function",
+            "txt2xls.function.builtin.unite_function",
+            "txt2xls.reader",
+            "txt2xls.writer",
+            "txt2xls.writer.utils"
+        ],
+        "version": "0.2.2"
     },
     "txtable": {
         "cmdline": [],
@@ -86455,103 +86656,294 @@
     },
     "txtarantool": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txtarantool"
+        ],
+        "version": "0.6"
     },
     "txtbudget": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "txtbudget"
+        ],
+        "modules": [
+            "txtbudget",
+            "txtbudget.commands",
+            "txtbudget.config",
+            "txtbudget.queries",
+            "txtbudget.simplecmd",
+            "txtbudget.tests",
+            "txtbudget.utils"
+        ],
+        "version": "1.0.4"
     },
     "txtelegraf": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txtelegraf",
+            "txtelegraf.measurement",
+            "txtelegraf.tcp",
+            "txtelegraf.udp"
+        ],
+        "version": "0.2.2"
     },
     "txtelegrambot": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "TelegramBot",
+            "TelegramBot.plugin",
+            "TelegramBot.plugin.message",
+            "TelegramBot.service",
+            "TelegramBot.service.bot"
+        ],
+        "version": "0.2"
     },
     "txtemplate": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txtemplate",
+            "txtemplate.clearsilver",
+            "txtemplate.itemplate",
+            "txtemplate.templates",
+            "txtemplate.test",
+            "txtemplate.test.test_adapters",
+            "txtemplate.test.test_clearsilver",
+            "txtemplate.test.test_templates"
+        ],
+        "version": "1.0.4"
     },
     "txthings": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txthings",
+            "txthings.coap",
+            "txthings.error",
+            "txthings.ext",
+            "txthings.ext.link_header",
+            "txthings.resource"
+        ],
+        "version": "0.2.0"
     },
     "txthoonk": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txthoonk",
+            "txthoonk.client",
+            "txthoonk.types"
+        ],
+        "version": "0.1"
     },
     "txtorcon": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "test",
+            "test.profile_startup",
+            "test.py3_torstate",
+            "test.test_addrmap",
+            "test.test_attacher",
+            "test.test_circuit",
+            "test.test_controller",
+            "test.test_endpoints",
+            "test.test_fsm",
+            "test.test_log",
+            "test.test_microdesc",
+            "test.test_onion",
+            "test.test_router",
+            "test.test_socks",
+            "test.test_stream",
+            "test.test_torconfig",
+            "test.test_torcontrolprotocol",
+            "test.test_torinfo",
+            "test.test_torstate",
+            "test.test_util",
+            "test.test_util_imports",
+            "test.test_web",
+            "test.util",
+            "test.verify-release",
+            "twisted.plugins.txtorcon_endpoint_parser",
+            "txtorcon",
+            "txtorcon._metadata",
+            "txtorcon._microdesc_parser",
+            "txtorcon.addrmap",
+            "txtorcon.attacher",
+            "txtorcon.circuit",
+            "txtorcon.controller",
+            "txtorcon.endpoints",
+            "txtorcon.interface",
+            "txtorcon.log",
+            "txtorcon.onion",
+            "txtorcon.router",
+            "txtorcon.socks",
+            "txtorcon.spaghetti",
+            "txtorcon.stream",
+            "txtorcon.torconfig",
+            "txtorcon.torcontrolprotocol",
+            "txtorcon.torinfo",
+            "txtorcon.torstate",
+            "txtorcon.util",
+            "txtorcon.web"
+        ],
+        "version": "0.19.2"
     },
     "txtr": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "txtr"
+        ],
+        "modules": [
+            "txtr",
+            "txtr.child",
+            "txtr.greet",
+            "txtr.handler",
+            "txtr.linenumbers",
+            "txtr.menubar",
+            "txtr.notebook",
+            "txtr.run",
+            "txtr.statusbar",
+            "txtr.textview",
+            "txtr.toolbar",
+            "txtr.window"
+        ],
+        "version": "2.1"
     },
     "txtstyle": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "txts"
+        ],
+        "modules": [
+            "txtstyle",
+            "txtstyle.confparser",
+            "txtstyle.linestyleprocessor",
+            "txtstyle.palette",
+            "txtstyle.test_txtstyle",
+            "txtstyle.transformer",
+            "txtstyle.txtsconf",
+            "txtstyle.version"
+        ],
+        "version": "1.0.0"
     },
     "txttk": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txttk",
+            "txttk.feature",
+            "txttk.nlptools",
+            "txttk.retools",
+            "txttk.txttk"
+        ],
+        "version": "0.8.7"
     },
     "txttobitmap": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txttobitmap"
+        ],
+        "version": "1.0.1"
     },
     "txtulip": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "twisted.plugins",
+            "twisted.plugins.txtulip_reactor",
+            "txtulip",
+            "txtulip.eventloop",
+            "txtulip.reactor"
+        ],
+        "version": "0.1.0"
     },
     "txtwitter": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txtwitter",
+            "txtwitter.error",
+            "txtwitter.messagetools",
+            "txtwitter.streamservice",
+            "txtwitter.tests",
+            "txtwitter.tests.fake_agent",
+            "txtwitter.tests.fake_twitter",
+            "txtwitter.tests.test_do_not_commit",
+            "txtwitter.tests.test_fake_agent",
+            "txtwitter.tests.test_fake_twitter",
+            "txtwitter.tests.test_messagetools",
+            "txtwitter.tests.test_streamservice",
+            "txtwitter.tests.test_twitter",
+            "txtwitter.twitter"
+        ],
+        "version": "0.1.6"
     },
     "txtwitterstream": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txtwitterstream",
+            "txtwitterstream.client",
+            "txtwitterstream.test",
+            "txtwitterstream.test.test_client",
+            "txtwitterstream.util"
+        ],
+        "version": "0.0.3"
     },
     "txu1": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txu1",
+            "txu1.api_v1",
+            "txu1.cli_tool"
+        ],
+        "version": "13.06.0"
     },
     "txurwid": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txurwid"
+        ],
+        "version": "0.2"
     },
     "txwac": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txwac"
+        ],
+        "version": "0.2"
     },
     "txwatcher": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txwatcher"
+        ],
+        "version": "0.1.2"
     },
     "txweb": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txweb",
+            "txweb.alipay",
+            "txweb.apiutils",
+            "txweb.beansmq",
+            "txweb.btforms",
+            "txweb.btforms.dataform",
+            "txweb.btforms.net",
+            "txweb.btforms.rules",
+            "txweb.choosereactor",
+            "txweb.config",
+            "txweb.dbutils",
+            "txweb.dispatch",
+            "txweb.logger",
+            "txweb.mail",
+            "txweb.mcache",
+            "txweb.paginator",
+            "txweb.permit",
+            "txweb.redis_cache",
+            "txweb.redis_conf",
+            "txweb.redis_session",
+            "txweb.storage",
+            "txweb.taskd",
+            "txweb.tests",
+            "txweb.txappctl",
+            "txweb.txwebctl",
+            "txweb.utils",
+            "txweb.validate",
+            "txweb.web",
+            "txweb.wxpay"
+        ],
+        "version": "0.0.8"
     },
     "txwinrm": {
         "cmdline": [],
@@ -86560,38 +86952,104 @@
     },
     "txws": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txws"
+        ],
+        "version": "0.9.1"
     },
     "txxbee": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.0.4"
     },
     "txyam": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txyam",
+            "txyam.client",
+            "txyam.factory",
+            "txyam.tests",
+            "txyam.tests.test_client",
+            "txyam.tests.test_factory",
+            "txyam.tests.utils",
+            "txyam.utils"
+        ],
+        "version": "1.2"
     },
     "txzmq": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txzmq",
+            "txzmq.compat",
+            "txzmq.connection",
+            "txzmq.factory",
+            "txzmq.pubsub",
+            "txzmq.pushpull",
+            "txzmq.req_rep",
+            "txzmq.router_dealer",
+            "txzmq.test",
+            "txzmq.test.test_connection",
+            "txzmq.test.test_factory",
+            "txzmq.test.test_pubsub",
+            "txzmq.test.test_reactor_shutdown",
+            "txzmq.test.test_reqrep",
+            "txzmq.test.test_router_dealer"
+        ],
+        "version": "0.8.0"
     },
     "txzookeeper": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "txzookeeper",
+            "txzookeeper.client",
+            "txzookeeper.lock",
+            "txzookeeper.managed",
+            "txzookeeper.node",
+            "txzookeeper.queue",
+            "txzookeeper.retry",
+            "txzookeeper.tests",
+            "txzookeeper.tests.common",
+            "txzookeeper.tests.mocker",
+            "txzookeeper.tests.proxy",
+            "txzookeeper.tests.test_client",
+            "txzookeeper.tests.test_conn_failure",
+            "txzookeeper.tests.test_lock",
+            "txzookeeper.tests.test_managed",
+            "txzookeeper.tests.test_node",
+            "txzookeeper.tests.test_queue",
+            "txzookeeper.tests.test_retry",
+            "txzookeeper.tests.test_security",
+            "txzookeeper.tests.test_session",
+            "txzookeeper.tests.test_utils",
+            "txzookeeper.tests.utils",
+            "txzookeeper.utils"
+        ],
+        "version": "0.9.8"
     },
     "tyf": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "Tyf",
+            "Tyf.decoders",
+            "Tyf.encoders",
+            "Tyf.gkd",
+            "Tyf.ifd",
+            "Tyf.tags",
+            "Tyf.values"
+        ],
+        "version": "1.3.2"
     },
     "tyler": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tyler",
+            "tyler.forms",
+            "tyler.models",
+            "tyler.urls",
+            "tyler.version",
+            "tyler.views"
+        ],
+        "version": "0.1.6"
     },
     "tylerhello": {
         "cmdline": [],
@@ -86600,18 +87058,30 @@
     },
     "tylinkmap": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tylinkmap",
+            "tylinkmap.cli",
+            "tylinkmap.linkmap",
+            "tylinkmap.version"
+        ],
+        "version": "0.1.0"
     },
     "tymed": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tymed",
+            "tymed.tymedmain"
+        ],
+        "version": "0.0.2"
     },
     "tymeventure": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tymeventure",
+            "unicurses",
+            "unicurses.setup"
+        ],
+        "version": "0.1.2"
     },
     "tynamo": {
         "cmdline": [],
@@ -86620,8 +87090,13 @@
     },
     "tyoi.oauth2": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tyoi",
+            "tyoi.oauth2",
+            "tyoi.oauth2.authenticators",
+            "tyoi.oauth2.grants"
+        ],
+        "version": "0.2.1"
     },
     "typ": {
         "cmdline": [],
@@ -86635,18 +87110,27 @@
     },
     "type-constraint": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "type_constraint"
+        ],
+        "version": "0.0.10"
     },
     "type-goes-first": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tgf",
+            "tgf.scripts",
+            "tgf.scripts.cli"
+        ],
+        "version": "0.0.3"
     },
     "type-safety": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typesafety",
+            "typesafety.typesafety"
+        ],
+        "version": "0.4"
     },
     "typeannotations": {
         "cmdline": [],
@@ -86655,8 +87139,10 @@
     },
     "typeargs": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typeargs"
+        ],
+        "version": "1.1.0"
     },
     "typecase": {
         "cmdline": [],
@@ -86665,103 +87151,215 @@
     },
     "typecast": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typecast",
+            "typecast.converter",
+            "typecast.date",
+            "typecast.formats",
+            "typecast.guess",
+            "typecast.name",
+            "typecast.value"
+        ],
+        "version": "0.3.3"
     },
     "typecaster": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typecaster",
+            "typecaster.models",
+            "typecaster.ssml",
+            "typecaster.utils"
+        ],
+        "version": "0.1.0"
     },
     "typecastsimple": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "TypeCastSimple"
+        ],
+        "version": "1.0.1"
     },
     "typecheck": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typecheck",
+            "typecheck.doctest_support",
+            "typecheck.mixins",
+            "typecheck.sets",
+            "typecheck.typeclasses"
+        ],
+        "version": "0.3.5"
     },
     "typecheck-decorator": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typecheck",
+            "typecheck.decorators",
+            "typecheck.framework",
+            "typecheck.tc_predicates",
+            "typecheck.test_new",
+            "typecheck.test_tc_predicates",
+            "typecheck.test_typecheck_basics",
+            "typecheck.test_typing_annotations",
+            "typecheck.testhelper",
+            "typecheck.typing_predicates"
+        ],
+        "version": "1.3"
     },
     "typecheck-decorator-stable": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typecheck",
+            "typecheck.test_typecheck_decorator",
+            "typecheck.typecheck_decorator"
+        ],
+        "version": "1.0"
     },
     "typecheck3": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.1.0"
     },
     "typechecker": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typechecker",
+            "typechecker.typeinfo",
+            "typechecker.utils"
+        ],
+        "version": "0.1.1"
     },
     "typechecking": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typechecking"
+        ],
+        "version": "1.0.0a1"
     },
     "typechecks": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typechecks"
+        ],
+        "version": "0.0.2"
     },
     "typeconverter": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typeconverter"
+        ],
+        "version": "0.1.1"
     },
     "typecorrector": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typecorrector",
+            "typecorrector.corrector"
+        ],
+        "version": "0.2.2"
     },
     "typecraft-python": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tests",
+            "tests.test_basic",
+            "tests.test_models",
+            "tests.test_parser",
+            "typecraft_python",
+            "typecraft_python.exceptions",
+            "typecraft_python.exceptions.parsing",
+            "typecraft_python.globals",
+            "typecraft_python.models",
+            "typecraft_python.parsing",
+            "typecraft_python.parsing.parser"
+        ],
+        "version": "0.5.1"
     },
     "typed": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typed"
+        ],
+        "version": "0.6"
     },
     "typed-ast": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typed_ast",
+            "typed_ast.ast27",
+            "typed_ast.ast3",
+            "typed_ast.conversions"
+        ],
+        "version": "1.0.3"
     },
     "typed-astunparse": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "test",
+            "test.examples",
+            "test.test_dump",
+            "test.test_unparse",
+            "typed_astunparse",
+            "typed_astunparse._version",
+            "typed_astunparse.printer",
+            "typed_astunparse.unparser"
+        ],
+        "version": "2.0.0"
     },
     "typed-env": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typed_env",
+            "typed_env.environ",
+            "typed_env.initialize",
+            "typed_env.read_dot_env"
+        ],
+        "version": "0.2.1"
     },
     "typed.py": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typed",
+            "typed.specialize",
+            "typed.types"
+        ],
+        "version": "1.0.0.1"
     },
     "typedargs": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typedargs",
+            "typedargs.annotate",
+            "typedargs.exceptions",
+            "typedargs.shell",
+            "typedargs.typeinfo",
+            "typedargs.types",
+            "typedargs.types.basic_dict",
+            "typedargs.types.bool",
+            "typedargs.types.bytes",
+            "typedargs.types.float",
+            "typedargs.types.integer",
+            "typedargs.types.list",
+            "typedargs.types.map",
+            "typedargs.types.path",
+            "typedargs.types.string"
+        ],
+        "version": "0.9.2"
     },
     "typedate": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typedate",
+            "typedate.compat",
+            "typedate.tests",
+            "typedate.tests.test_type",
+            "typedate.type",
+            "typedate.type.date",
+            "typedate.type.delta",
+            "typedate.type.zone",
+            "typedate.utils"
+        ],
+        "version": "1.0.0"
     },
     "typedbytes": {
         "cmdline": [],
@@ -86770,38 +87368,70 @@
     },
     "typedcols": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typedcols"
+        ],
+        "version": "0.1.7"
     },
     "typedecorator": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typedecorator"
+        ],
+        "version": "0.0.4"
     },
     "typedef": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typedef",
+            "typedef.api",
+            "typedef.constants",
+            "typedef.core_utils",
+            "typedef.errors",
+            "typedef.json_encoder",
+            "typedef.pragma",
+            "typedef.primitives",
+            "typedef.type_creation",
+            "typedef.type_definition",
+            "typedef.utils"
+        ],
+        "version": "0.9.0.5"
     },
     "typedinterpolation": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typedinterpolation"
+        ],
+        "version": "0.0.5"
     },
     "typedjsonrpc": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typedjsonrpc",
+            "typedjsonrpc._version",
+            "typedjsonrpc.errors",
+            "typedjsonrpc.method_info",
+            "typedjsonrpc.parameter_checker",
+            "typedjsonrpc.registry",
+            "typedjsonrpc.server"
+        ],
+        "version": "0.4.0"
     },
     "typednamedtuple": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tests",
+            "tests.test_basic",
+            "tests.test_namedtuple"
+        ],
+        "version": "0.2.0"
     },
     "typedtuple": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typedtuple"
+        ],
+        "version": "0.1.0"
     },
     "typeflow": {
         "cmdline": [],
@@ -86810,108 +87440,324 @@
     },
     "typeform": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typeform",
+            "typeform.client",
+            "typeform.compat",
+            "typeform.errors",
+            "typeform.form",
+            "typeform.form_answer",
+            "typeform.form_question",
+            "typeform.form_response",
+            "typeform.test",
+            "typeform.test.fixtures",
+            "typeform.test.suite",
+            "typeform.test.test_form"
+        ],
+        "version": "0.1.0"
     },
     "typegenius": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typegenius",
+            "typegenius.dates",
+            "typegenius.localization",
+            "typegenius.parsers",
+            "typegenius.test_parsers",
+            "typegenius.util"
+        ],
+        "version": "1.0.3"
     },
     "typeguard": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typeguard"
+        ],
+        "version": "2.1.3"
     },
     "typeguess": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typeguess",
+            "typeguess.guess_core"
+        ],
+        "version": "0.0.2"
     },
     "typeinfo": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typeinfo"
+        ],
+        "version": "0.1"
     },
     "typejudge": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typejudge"
+        ],
+        "version": "0.3.0"
     },
     "typekit": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typekit",
+            "typekit._version",
+            "typekit.exceptions",
+            "typekit.request",
+            "typekit.typekit"
+        ],
+        "version": "0.0.4"
     },
     "typelanguage": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typelanguage",
+            "typelanguage.constraintgen",
+            "typelanguage.constraintsolve",
+            "typelanguage.enforce",
+            "typelanguage.lexer",
+            "typelanguage.parser",
+            "typelanguage.types"
+        ],
+        "version": "0.3"
     },
     "typelib": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "clean_install.sh",
+            "package.sh"
+        ],
+        "modules": [
+            "typelib",
+            "typelib.annotations",
+            "typelib.core",
+            "typelib.enums",
+            "typelib.errors",
+            "typelib.functions",
+            "typelib.generics",
+            "typelib.records",
+            "typelib.registry",
+            "typelib.utils"
+        ],
+        "version": "0.0.10"
     },
     "typelift": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typelift",
+            "typelift.dewoff"
+        ],
+        "version": "0.2"
     },
     "typeopt": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typeopt",
+            "typeopt.arguments",
+            "typeopt.parsing"
+        ],
+        "version": "0.1"
     },
     "typepad": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typepad",
+            "typepad.api",
+            "typepad.fields",
+            "typepad.tpclient",
+            "typepad.tpobject"
+        ],
+        "version": "2.0"
     },
     "typepad-motion": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "motion",
+            "motion.ajax",
+            "motion.feeds",
+            "motion.forms",
+            "motion.models",
+            "motion.settings",
+            "motion.templatetags",
+            "motion.templatetags.twittilize",
+            "motion.tests",
+            "motion.urls",
+            "motion.views"
+        ],
+        "version": "1.1.3"
     },
     "typepad2blogger": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.0.2"
     },
     "typepadapp": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typepadapp",
+            "typepadapp.admin",
+            "typepadapp.auth",
+            "typepadapp.cached_templates",
+            "typepadapp.caching",
+            "typepadapp.context_processors",
+            "typepadapp.decorators",
+            "typepadapp.forms",
+            "typepadapp.management",
+            "typepadapp.management.base",
+            "typepadapp.management.commands",
+            "typepadapp.management.commands.refreshwsgi",
+            "typepadapp.management.commands.tpappcreate",
+            "typepadapp.management.commands.tpsubcreate",
+            "typepadapp.management.commands.tpsubdelete",
+            "typepadapp.management.commands.tpsubinfo",
+            "typepadapp.management.commands.tpsubupdate",
+            "typepadapp.management.commands.typepadproject",
+            "typepadapp.middleware",
+            "typepadapp.middleware.config",
+            "typepadapp.middleware.debug",
+            "typepadapp.models",
+            "typepadapp.models.assets",
+            "typepadapp.models.auth",
+            "typepadapp.models.db",
+            "typepadapp.models.feedsub",
+            "typepadapp.models.groups",
+            "typepadapp.models.kv",
+            "typepadapp.models.profiles",
+            "typepadapp.models.users",
+            "typepadapp.settings",
+            "typepadapp.signals",
+            "typepadapp.templatetags",
+            "typepadapp.templatetags.date_filters",
+            "typepadapp.templatetags.formfieldvalue",
+            "typepadapp.templatetags.generic_filters",
+            "typepadapp.templatetags.ifinstalled",
+            "typepadapp.templatetags.typepad_filters",
+            "typepadapp.templatetags.withblock",
+            "typepadapp.tests",
+            "typepadapp.urls",
+            "typepadapp.utils",
+            "typepadapp.utils.loading",
+            "typepadapp.utils.paginator",
+            "typepadapp.views",
+            "typepadapp.views.admin",
+            "typepadapp.views.auth",
+            "typepadapp.views.base",
+            "typepadapp.views.exception",
+            "typepadapp.views.feedsub",
+            "typepadapp.views.generic",
+            "typepadapp.views.generic.simple"
+        ],
+        "version": "1.2.1"
     },
     "typepadapp-moderation": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "moderation",
+            "moderation.ajax",
+            "moderation.context_processors",
+            "moderation.models",
+            "moderation.urls",
+            "moderation.views"
+        ],
+        "version": "1.0.3"
     },
     "typepy": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typepy",
+            "typepy._const",
+            "typepy._error",
+            "typepy._function",
+            "typepy._typecode",
+            "typepy.checker",
+            "typepy.checker._bool",
+            "typepy.checker._checker",
+            "typepy.checker._common",
+            "typepy.checker._datetime",
+            "typepy.checker._dictionary",
+            "typepy.checker._infinity",
+            "typepy.checker._integer",
+            "typepy.checker._interface",
+            "typepy.checker._list",
+            "typepy.checker._nan",
+            "typepy.checker._none",
+            "typepy.checker._realnumber",
+            "typepy.checker._string",
+            "typepy.converter",
+            "typepy.converter._bool",
+            "typepy.converter._datetime",
+            "typepy.converter._dictionary",
+            "typepy.converter._integer",
+            "typepy.converter._interface",
+            "typepy.converter._list",
+            "typepy.converter._nop",
+            "typepy.converter._realnumber",
+            "typepy.converter._string",
+            "typepy.type",
+            "typepy.type._base",
+            "typepy.type._bool",
+            "typepy.type._datetime",
+            "typepy.type._dictionary",
+            "typepy.type._infinity",
+            "typepy.type._integer",
+            "typepy.type._list",
+            "typepy.type._nan",
+            "typepy.type._none",
+            "typepy.type._realnumber",
+            "typepy.type._string"
+        ],
+        "version": "0.0.10"
     },
     "typequery": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typequery",
+            "typequery_tests"
+        ],
+        "version": "0.1.5"
     },
     "types4yaml": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "1.3"
     },
     "typesafe": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typesafe",
+            "typesafe.test",
+            "typesafe.typesafe"
+        ],
+        "version": "0.9.1"
     },
     "typesafe-conductr-cli": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typesafe_conductr_cli",
+            "typesafe_conductr_cli.bundle_utils",
+            "typesafe_conductr_cli.conduct",
+            "typesafe_conductr_cli.conduct_info",
+            "typesafe_conductr_cli.conduct_load",
+            "typesafe_conductr_cli.conduct_logging",
+            "typesafe_conductr_cli.conduct_run",
+            "typesafe_conductr_cli.conduct_services",
+            "typesafe_conductr_cli.conduct_stop",
+            "typesafe_conductr_cli.conduct_unload",
+            "typesafe_conductr_cli.conduct_url",
+            "typesafe_conductr_cli.conduct_version",
+            "typesafe_conductr_cli.shazar",
+            "typesafe_conductr_cli.test",
+            "typesafe_conductr_cli.test.cli_test_case",
+            "typesafe_conductr_cli.test.test_bundle_utils",
+            "typesafe_conductr_cli.test.test_conduct",
+            "typesafe_conductr_cli.test.test_conduct_info",
+            "typesafe_conductr_cli.test.test_conduct_load",
+            "typesafe_conductr_cli.test.test_conduct_run",
+            "typesafe_conductr_cli.test.test_conduct_services",
+            "typesafe_conductr_cli.test.test_conduct_stop",
+            "typesafe_conductr_cli.test.test_conduct_unload",
+            "typesafe_conductr_cli.test.test_shazar"
+        ],
+        "version": "0.12"
     },
     "typesafe-hints": {
         "cmdline": [],
@@ -86920,38 +87766,91 @@
     },
     "typesafety": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typesafety",
+            "typesafety.autodecorator",
+            "typesafety.finder",
+            "typesafety.noseplugin",
+            "typesafety.pytest_typesafety",
+            "typesafety.sphinxautodoc",
+            "typesafety.validator"
+        ],
+        "version": "1.0.3"
     },
     "typeschema": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typeschema",
+            "typeschema.decorators",
+            "typeschema.properties",
+            "typeschema.properties.location",
+            "typeschema.properties.network",
+            "typeschema.properties.time",
+            "typeschema.types",
+            "typeschema.types.location",
+            "typeschema.types.network",
+            "typeschema.types.time",
+            "typeschema.typeschema"
+        ],
+        "version": "0.0.2"
     },
     "typesentry": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typesentry",
+            "typesentry.checks",
+            "typesentry.config",
+            "typesentry.signature"
+        ],
+        "version": "0.1.3"
     },
     "typeshed-client": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typeshed_client",
+            "typeshed_client.finder",
+            "typeshed_client.parser",
+            "typeshed_client.resolver"
+        ],
+        "version": "0.1"
     },
     "typespec": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typespec"
+        ],
+        "version": "1.0.0"
     },
     "typesys": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typesys",
+            "typesys.type_system"
+        ],
+        "version": "0.2.9"
     },
     "typetrainer": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typetrainer",
+            "typetrainer.config",
+            "typetrainer.generator",
+            "typetrainer.i18n",
+            "typetrainer.run",
+            "typetrainer.stat",
+            "typetrainer.tutors",
+            "typetrainer.tutors.common",
+            "typetrainer.tutors.en",
+            "typetrainer.tutors.help",
+            "typetrainer.tutors.ru",
+            "typetrainer.tutors.uk",
+            "typetrainer.ui",
+            "typetrainer.ui.kbd",
+            "typetrainer.ui.main",
+            "typetrainer.ui.stat",
+            "typetrainer.util"
+        ],
+        "version": "0.5.2"
     },
     "typewriter": {
         "cmdline": [],
@@ -86960,8 +87859,66 @@
     },
     "typhon": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typhon",
+            "typhon.arts",
+            "typhon.arts.catalogues",
+            "typhon.arts.common",
+            "typhon.arts.griddedfield",
+            "typhon.arts.retrieval",
+            "typhon.arts.scattering",
+            "typhon.arts.sensor",
+            "typhon.arts.types",
+            "typhon.arts.utils",
+            "typhon.arts.xml",
+            "typhon.arts.xml.names",
+            "typhon.arts.xml.read",
+            "typhon.arts.xml.write",
+            "typhon.atmosphere",
+            "typhon.cm",
+            "typhon.config",
+            "typhon.constants",
+            "typhon.datasets",
+            "typhon.datasets._tovs_defs",
+            "typhon.datasets.dataset",
+            "typhon.datasets.model",
+            "typhon.datasets.tovs",
+            "typhon.files",
+            "typhon.files.utils",
+            "typhon.geodesy",
+            "typhon.geographical",
+            "typhon.latex",
+            "typhon.math",
+            "typhon.math.array",
+            "typhon.math.common",
+            "typhon.math.stats",
+            "typhon.oem",
+            "typhon.oem.common",
+            "typhon.oem.error",
+            "typhon.physics",
+            "typhon.physics.em",
+            "typhon.physics.metrology",
+            "typhon.physics.thermodynamics",
+            "typhon.physics.units",
+            "typhon.physics.units.common",
+            "typhon.physics.units.constants",
+            "typhon.physics.units.em",
+            "typhon.physics.units.thermodynamics",
+            "typhon.physics.units.tools",
+            "typhon.plots",
+            "typhon.plots.cm",
+            "typhon.plots.cm._cm",
+            "typhon.plots.cm._cmocean",
+            "typhon.plots.colors",
+            "typhon.plots.common",
+            "typhon.plots.plots",
+            "typhon.spectroscopy",
+            "typhon.utils",
+            "typhon.utils.cache",
+            "typhon.utils.metaclass",
+            "typhon.version"
+        ],
+        "version": "0.3.6"
     },
     "typhoon": {
         "cmdline": [],
@@ -86971,12 +87928,21 @@
     "typhoonae": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.2.0"
     },
     "typhoonae.redis": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typhoonae",
+            "typhoonae.redis",
+            "typhoonae.redis.datastore_redis_stub",
+            "typhoonae.redis.indexes",
+            "typhoonae.redis.tests",
+            "typhoonae.redis.tests.benchmark",
+            "typhoonae.redis.tests.test_datastore_redis",
+            "typhoonae.redis.tests.test_indexes"
+        ],
+        "version": "0.1.0b1"
     },
     "typic": {
         "cmdline": [],
@@ -86985,63 +87951,124 @@
     },
     "typical": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typical"
+        ],
+        "version": "0.1.0"
     },
     "typify": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typify",
+            "typify.helpers",
+            "typify.matchers",
+            "typify.typify"
+        ],
+        "version": "0.2"
     },
     "typing": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typing"
+        ],
+        "version": "3.6.1"
     },
     "typing-inspect": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typing_inspect"
+        ],
+        "version": "0.1.1"
     },
     "typingplus": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typingplus",
+            "typingplus.types"
+        ],
+        "version": "1.0.2"
     },
     "typist": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typist",
+            "typist._docstring",
+            "typist._import_hook",
+            "typist._py",
+            "typist._transformer",
+            "typist._type_check",
+            "typist.tests"
+        ],
+        "version": "0.0.1"
     },
     "typo-shot": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "typo"
+        ],
+        "modules": [
+            "typoshot"
+        ],
+        "version": "0.1.2"
     },
     "typograf": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typograf",
+            "typograf.remote_typograf"
+        ],
+        "version": "0.1.1"
     },
     "typograph": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typograph",
+            "typograph._version",
+            "typograph.cms_plugins_processors",
+            "typograph.django",
+            "typograph.i18n",
+            "typograph.regexps",
+            "typograph.templatetags",
+            "typograph.templatetags.typograph",
+            "typograph.typograph"
+        ],
+        "version": "0.1.0"
     },
     "typographie": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typographie",
+            "typographie.models",
+            "typographie.templatetags",
+            "typographie.templatetags.smartypants",
+            "typographie.templatetags.typographie",
+            "typographie.tests"
+        ],
+        "version": "0.0.2"
     },
     "typogrify": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typogrify",
+            "typogrify.filters",
+            "typogrify.packages",
+            "typogrify.packages.titlecase",
+            "typogrify.packages.titlecase.tests",
+            "typogrify.templatetags",
+            "typogrify.templatetags.jinja_filters",
+            "typogrify.templatetags.typogrify_tags"
+        ],
+        "version": "2.0.7"
     },
     "typogrify-engineer": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typogrify",
+            "typogrify.filters",
+            "typogrify.templatetags",
+            "typogrify.templatetags.jinja_filters",
+            "typogrify.templatetags.typogrify_tags"
+        ],
+        "version": "2.0.0"
     },
     "typped": {
         "cmdline": [],
@@ -87051,7 +88078,7 @@
     "typtop": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.2.11"
     },
     "typus": {
         "cmdline": [],
@@ -87060,78 +88087,251 @@
     },
     "typy": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typy",
+            "typy.keyboard",
+            "typy.mouse",
+            "typy.screen"
+        ],
+        "version": "0.5.5"
     },
     "typyd": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "typy",
+            "typy.Cpp",
+            "typy.Enum",
+            "typy.Hacker",
+            "typy.Object",
+            "typy.Type"
+        ],
+        "version": "0.0.1"
     },
     "tyraellib": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "__init__",
+            "dict2obj",
+            "http",
+            "iplocation",
+            "mongo"
+        ],
+        "version": "0.5.0"
     },
     "tyrion": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tyrion",
+            "tyrion.backprop",
+            "tyrion.probarray",
+            "tyrion.train",
+            "tyrion.utils"
+        ],
+        "version": "0.1"
     },
     "tyrionscock": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "stowe-cock.py",
+            "wash-cock.py"
+        ],
+        "modules": [
+            "tyrionscock",
+            "tyrionscock.location",
+            "tyrionscock.test",
+            "tyrionscock.test.test_location",
+            "tyrionscock.test.test_utils",
+            "tyrionscock.utils"
+        ],
+        "version": "0.1.0"
     },
     "tyron": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tyron",
+            "tyron.default_settings",
+            "tyron.ext",
+            "tyron.ext.health",
+            "tyron.ext.redis_store",
+            "tyron.tyron",
+            "tyron.tyron_queues",
+            "tyron.utils"
+        ],
+        "version": "0.2.4"
     },
     "tyrs": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.6.2"
     },
     "tystrings": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tystrings",
+            "tystrings.baidu",
+            "tystrings.cli",
+            "tystrings.strings",
+            "tystrings.translator",
+            "tystrings.tyformatter",
+            "tystrings.tylogger",
+            "tystrings.version"
+        ],
+        "version": "1.1.2"
     },
     "tytan": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tytan.comingsoon"
+        ],
+        "version": "0.0.1"
     },
     "tyuio": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tyuio"
+        ],
+        "version": "0.4"
     },
     "tyz-library": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tyz_library",
+            "tyz_library.html",
+            "tyz_library.http",
+            "tyz_library.myException"
+        ],
+        "version": "1.0.8"
     },
     "tz": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tz",
+            "tz.main",
+            "tz.metadata",
+            "tz.system_tzdata",
+            "tz.template",
+            "tz.tools",
+            "tz.tzfile",
+            "tz.zdump",
+            "tz.zoneinfo",
+            "tzdata",
+            "tzdata.classes",
+            "tzdata.zic"
+        ],
+        "version": "1.0a1"
     },
     "tz-django-celery": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "djcelery",
+            "djcelery.admin",
+            "djcelery.admin_utils",
+            "djcelery.app",
+            "djcelery.backends",
+            "djcelery.backends.cache",
+            "djcelery.backends.database",
+            "djcelery.common",
+            "djcelery.compat",
+            "djcelery.contrib",
+            "djcelery.contrib.test_runner",
+            "djcelery.db",
+            "djcelery.humanize",
+            "djcelery.loaders",
+            "djcelery.management",
+            "djcelery.management.base",
+            "djcelery.management.commands",
+            "djcelery.management.commands.celery",
+            "djcelery.management.commands.celerybeat",
+            "djcelery.management.commands.celerycam",
+            "djcelery.management.commands.celeryd",
+            "djcelery.management.commands.celeryd_detach",
+            "djcelery.management.commands.celeryd_multi",
+            "djcelery.management.commands.celerymon",
+            "djcelery.management.commands.djcelerymon",
+            "djcelery.managers",
+            "djcelery.migrations",
+            "djcelery.migrations.0001_initial",
+            "djcelery.migrations.0002_crontabschedule_nowfun",
+            "djcelery.migrations.0003_auto_20170222_2304",
+            "djcelery.migrations.0004_auto_20170222_2324",
+            "djcelery.models",
+            "djcelery.mon",
+            "djcelery.monproj",
+            "djcelery.monproj.urls",
+            "djcelery.picklefield",
+            "djcelery.schedulers",
+            "djcelery.snapshot",
+            "djcelery.tests",
+            "djcelery.tests._compat",
+            "djcelery.tests.req",
+            "djcelery.tests.test_admin",
+            "djcelery.tests.test_backends",
+            "djcelery.tests.test_backends.test_cache",
+            "djcelery.tests.test_backends.test_database",
+            "djcelery.tests.test_commands",
+            "djcelery.tests.test_discovery",
+            "djcelery.tests.test_loaders",
+            "djcelery.tests.test_models",
+            "djcelery.tests.test_schedulers",
+            "djcelery.tests.test_snapshot",
+            "djcelery.tests.test_views",
+            "djcelery.tests.test_worker_job",
+            "djcelery.tests.utils",
+            "djcelery.transport",
+            "djcelery.urls",
+            "djcelery.utils",
+            "djcelery.views"
+        ],
+        "version": "3.2.13"
     },
     "tz-okapi": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "okapi",
+            "okapi.core",
+            "okapi.core.exceptions",
+            "okapi.core.loggers",
+            "okapi.core.loggers.base",
+            "okapi.core.loggers.console",
+            "okapi.core.loggers.tests",
+            "okapi.core.request",
+            "okapi.core.summary",
+            "okapi.core.tests",
+            "okapi.core.utils",
+            "okapi.rst",
+            "okapi.rst.directives",
+            "okapi.rst.directives.headers",
+            "okapi.rst.directives.request",
+            "okapi.rst.nodes",
+            "okapi.rst.writers",
+            "okapi.rst.writers.html",
+            "okapi.runners",
+            "okapi.settings",
+            "okapi.settings.cache",
+            "okapi.settings.configparser",
+            "okapi.settings.headers",
+            "okapi.settings.internal",
+            "okapi.settings.template",
+            "okapi.templatetags",
+            "okapi.templatetags.exports",
+            "okapi.templatetags.exports.base",
+            "okapi.templatetags.exports.curl",
+            "okapi.templatetags.exports.jira",
+            "okapi.templatetags.headers",
+            "okapi.templatetags.misc",
+            "okapi.tests",
+            "okapi.tests.test_runner",
+            "okapi.tests.utils"
+        ],
+        "version": "0.2.10"
     },
     "tz-trout": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tztrout",
+            "tztrout.data",
+            "tztrout.data_exceptions"
+        ],
+        "version": "0.1.3"
     },
     "tzara": {
         "cmdline": [],
@@ -87139,54 +88339,377 @@
         "version": ""
     },
     "tzara-a-personal-assistant": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "startup.sh"
+        ],
+        "modules": [
+            "tzara",
+            "tzara.Speech",
+            "tzara.confirm",
+            "tzara.converse",
+            "tzara.database",
+            "tzara.files",
+            "tzara.firefox",
+            "tzara.main",
+            "tzara.pdf",
+            "tzara.playmovie",
+            "tzara.reminder",
+            "tzara.songs",
+            "tzara.terminal",
+            "tzara.tzara"
+        ],
+        "version": "1.1.5"
     },
     "tzaraipa": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "startup.sh"
+        ],
+        "modules": [
+            "tzara",
+            "tzara.Speech",
+            "tzara.confirm",
+            "tzara.converse",
+            "tzara.database",
+            "tzara.files",
+            "tzara.firefox",
+            "tzara.main",
+            "tzara.pdf",
+            "tzara.playmovie",
+            "tzara.reminder",
+            "tzara.songs",
+            "tzara.terminal",
+            "tzara.tzara"
+        ],
+        "version": "0.1"
     },
     "tzbuddy": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tzbuddy"
+        ],
+        "version": "0.2.3"
     },
     "tzcelery": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "celery",
+            "celery._state",
+            "celery.app",
+            "celery.app.amqp",
+            "celery.app.annotations",
+            "celery.app.base",
+            "celery.app.builtins",
+            "celery.app.control",
+            "celery.app.defaults",
+            "celery.app.log",
+            "celery.app.registry",
+            "celery.app.routes",
+            "celery.app.task",
+            "celery.app.trace",
+            "celery.app.utils",
+            "celery.apps",
+            "celery.apps.beat",
+            "celery.apps.worker",
+            "celery.backends",
+            "celery.backends.amqp",
+            "celery.backends.base",
+            "celery.backends.cache",
+            "celery.backends.cassandra",
+            "celery.backends.couchbase",
+            "celery.backends.database",
+            "celery.backends.database.models",
+            "celery.backends.database.session",
+            "celery.backends.mongodb",
+            "celery.backends.redis",
+            "celery.backends.rpc",
+            "celery.beat",
+            "celery.bin",
+            "celery.bin.amqp",
+            "celery.bin.base",
+            "celery.bin.beat",
+            "celery.bin.celery",
+            "celery.bin.celeryd_detach",
+            "celery.bin.events",
+            "celery.bin.graph",
+            "celery.bin.multi",
+            "celery.bin.worker",
+            "celery.bootsteps",
+            "celery.canvas",
+            "celery.concurrency",
+            "celery.concurrency.asynpool",
+            "celery.concurrency.base",
+            "celery.concurrency.eventlet",
+            "celery.concurrency.gevent",
+            "celery.concurrency.prefork",
+            "celery.concurrency.solo",
+            "celery.concurrency.threads",
+            "celery.contrib",
+            "celery.contrib.abortable",
+            "celery.contrib.batches",
+            "celery.contrib.methods",
+            "celery.contrib.migrate",
+            "celery.contrib.rdb",
+            "celery.contrib.sphinx",
+            "celery.datastructures",
+            "celery.events",
+            "celery.events.cursesmon",
+            "celery.events.dumper",
+            "celery.events.snapshot",
+            "celery.events.state",
+            "celery.exceptions",
+            "celery.five",
+            "celery.fixups",
+            "celery.fixups.django",
+            "celery.loaders",
+            "celery.loaders.app",
+            "celery.loaders.base",
+            "celery.loaders.default",
+            "celery.local",
+            "celery.platforms",
+            "celery.result",
+            "celery.schedules",
+            "celery.security",
+            "celery.security.certificate",
+            "celery.security.key",
+            "celery.security.serialization",
+            "celery.security.utils",
+            "celery.signals",
+            "celery.states",
+            "celery.task",
+            "celery.task.base",
+            "celery.task.http",
+            "celery.task.sets",
+            "celery.task.trace",
+            "celery.tests",
+            "celery.tests.app",
+            "celery.tests.app.test_amqp",
+            "celery.tests.app.test_annotations",
+            "celery.tests.app.test_app",
+            "celery.tests.app.test_beat",
+            "celery.tests.app.test_builtins",
+            "celery.tests.app.test_celery",
+            "celery.tests.app.test_control",
+            "celery.tests.app.test_defaults",
+            "celery.tests.app.test_exceptions",
+            "celery.tests.app.test_loaders",
+            "celery.tests.app.test_log",
+            "celery.tests.app.test_registry",
+            "celery.tests.app.test_routes",
+            "celery.tests.app.test_schedules",
+            "celery.tests.app.test_utils",
+            "celery.tests.backends",
+            "celery.tests.backends.test_amqp",
+            "celery.tests.backends.test_backends",
+            "celery.tests.backends.test_base",
+            "celery.tests.backends.test_cache",
+            "celery.tests.backends.test_cassandra",
+            "celery.tests.backends.test_couchbase",
+            "celery.tests.backends.test_database",
+            "celery.tests.backends.test_mongodb",
+            "celery.tests.backends.test_redis",
+            "celery.tests.backends.test_rpc",
+            "celery.tests.bin",
+            "celery.tests.bin.proj",
+            "celery.tests.bin.proj.app",
+            "celery.tests.bin.test_amqp",
+            "celery.tests.bin.test_base",
+            "celery.tests.bin.test_beat",
+            "celery.tests.bin.test_celery",
+            "celery.tests.bin.test_celeryd_detach",
+            "celery.tests.bin.test_celeryevdump",
+            "celery.tests.bin.test_events",
+            "celery.tests.bin.test_multi",
+            "celery.tests.bin.test_worker",
+            "celery.tests.case",
+            "celery.tests.compat_modules",
+            "celery.tests.compat_modules.test_compat",
+            "celery.tests.compat_modules.test_compat_utils",
+            "celery.tests.compat_modules.test_decorators",
+            "celery.tests.compat_modules.test_http",
+            "celery.tests.compat_modules.test_messaging",
+            "celery.tests.compat_modules.test_sets",
+            "celery.tests.concurrency",
+            "celery.tests.concurrency.test_concurrency",
+            "celery.tests.concurrency.test_eventlet",
+            "celery.tests.concurrency.test_gevent",
+            "celery.tests.concurrency.test_pool",
+            "celery.tests.concurrency.test_prefork",
+            "celery.tests.concurrency.test_solo",
+            "celery.tests.concurrency.test_threads",
+            "celery.tests.contrib",
+            "celery.tests.contrib.test_abortable",
+            "celery.tests.contrib.test_methods",
+            "celery.tests.contrib.test_migrate",
+            "celery.tests.contrib.test_rdb",
+            "celery.tests.events",
+            "celery.tests.events.test_cursesmon",
+            "celery.tests.events.test_events",
+            "celery.tests.events.test_snapshot",
+            "celery.tests.events.test_state",
+            "celery.tests.fixups",
+            "celery.tests.fixups.test_django",
+            "celery.tests.functional",
+            "celery.tests.functional.case",
+            "celery.tests.functional.tasks",
+            "celery.tests.security",
+            "celery.tests.security.case",
+            "celery.tests.security.test_certificate",
+            "celery.tests.security.test_key",
+            "celery.tests.security.test_security",
+            "celery.tests.security.test_serialization",
+            "celery.tests.slow",
+            "celery.tests.tasks",
+            "celery.tests.tasks.test_canvas",
+            "celery.tests.tasks.test_chord",
+            "celery.tests.tasks.test_context",
+            "celery.tests.tasks.test_result",
+            "celery.tests.tasks.test_states",
+            "celery.tests.tasks.test_tasks",
+            "celery.tests.tasks.test_trace",
+            "celery.tests.utils",
+            "celery.tests.utils.test_datastructures",
+            "celery.tests.utils.test_dispatcher",
+            "celery.tests.utils.test_encoding",
+            "celery.tests.utils.test_functional",
+            "celery.tests.utils.test_imports",
+            "celery.tests.utils.test_local",
+            "celery.tests.utils.test_mail",
+            "celery.tests.utils.test_pickle",
+            "celery.tests.utils.test_platforms",
+            "celery.tests.utils.test_saferef",
+            "celery.tests.utils.test_serialization",
+            "celery.tests.utils.test_sysinfo",
+            "celery.tests.utils.test_term",
+            "celery.tests.utils.test_text",
+            "celery.tests.utils.test_threads",
+            "celery.tests.utils.test_timer2",
+            "celery.tests.utils.test_timeutils",
+            "celery.tests.utils.test_utils",
+            "celery.tests.worker",
+            "celery.tests.worker.test_autoreload",
+            "celery.tests.worker.test_autoscale",
+            "celery.tests.worker.test_bootsteps",
+            "celery.tests.worker.test_components",
+            "celery.tests.worker.test_consumer",
+            "celery.tests.worker.test_control",
+            "celery.tests.worker.test_heartbeat",
+            "celery.tests.worker.test_hub",
+            "celery.tests.worker.test_loops",
+            "celery.tests.worker.test_request",
+            "celery.tests.worker.test_revoke",
+            "celery.tests.worker.test_state",
+            "celery.tests.worker.test_strategy",
+            "celery.tests.worker.test_worker",
+            "celery.utils",
+            "celery.utils.compat",
+            "celery.utils.debug",
+            "celery.utils.dispatch",
+            "celery.utils.dispatch.saferef",
+            "celery.utils.dispatch.signal",
+            "celery.utils.encoding",
+            "celery.utils.functional",
+            "celery.utils.imports",
+            "celery.utils.iso8601",
+            "celery.utils.log",
+            "celery.utils.mail",
+            "celery.utils.objects",
+            "celery.utils.serialization",
+            "celery.utils.sysinfo",
+            "celery.utils.term",
+            "celery.utils.text",
+            "celery.utils.threads",
+            "celery.utils.timer2",
+            "celery.utils.timeutils",
+            "celery.worker",
+            "celery.worker.autoreload",
+            "celery.worker.autoscale",
+            "celery.worker.components",
+            "celery.worker.consumer",
+            "celery.worker.control",
+            "celery.worker.heartbeat",
+            "celery.worker.job",
+            "celery.worker.loops",
+            "celery.worker.pidbox",
+            "celery.worker.request",
+            "celery.worker.state",
+            "celery.worker.strategy"
+        ],
+        "version": "3.1.27"
     },
     "tzcron": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tzcron"
+        ],
+        "version": "1.0.0"
     },
     "tzdata": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tzdata"
+        ],
+        "version": "1.2016.8"
     },
     "tzf.pyramid-routing": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tests",
+            "tests.conftest",
+            "tests.routes_definitions",
+            "tests.routes_definitions.module_to_include_1",
+            "tests.routes_definitions.module_to_include_2",
+            "tests.routes_definitions.routing",
+            "tests.routes_definitions.routing_moduled",
+            "tests.routes_definitions.routing_moduled.module",
+            "tests.routes_definitions.routing_prefixed",
+            "tests.routes_definitions.routing_prefixed.module",
+            "tests.routes_definitions.routing_prefixed.second",
+            "tests.routes_definitions.routing_to_include_1",
+            "tests.routes_definitions.routing_to_include_2",
+            "tests.routes_definitions.routing_two_moduled",
+            "tests.routes_definitions.routing_two_moduled.module",
+            "tests.routes_definitions.routing_two_moduled.second",
+            "tests.test_routing",
+            "tzf",
+            "tzf.pyramid_routing"
+        ],
+        "version": "0.1.2"
     },
     "tzf.pyramid-yml": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tests",
+            "tests.conftest",
+            "tests.test_basic",
+            "tests.test_defaults",
+            "tests.test_multifile",
+            "tests.test_prodenv",
+            "tests.test_script",
+            "tzf",
+            "tzf.pyramid_yml",
+            "tzf.pyramid_yml.scripts"
+        ],
+        "version": "1.1.0"
     },
     "tzgeo": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tzgeo",
+            "tzgeo.db"
+        ],
+        "version": "0.0.4"
     },
     "tzlocal": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tzlocal",
+            "tzlocal.darwin",
+            "tzlocal.tests",
+            "tzlocal.unix",
+            "tzlocal.win32",
+            "tzlocal.windows_tz"
+        ],
+        "version": "1.4"
     },
     "tzmud": {
         "cmdline": [],
@@ -87195,27 +88718,46 @@
     },
     "tzo-silverstripe-installer": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "silverstripe_installer",
+            "silverstripe_installer.silverstripeinstaller",
+            "silverstripe_installer.tzogitlab"
+        ],
+        "version": "0.0.3"
     },
     "tzpos": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tzpos",
+            "tzpos.factory",
+            "tzpos.searcher",
+            "tzpos.test",
+            "tzpos.utils",
+            "tzpos.utils2",
+            "tzpos.utils3"
+        ],
+        "version": "0.1.7"
     },
     "tzselect": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tzselect"
+        ],
+        "version": "0.1"
     },
     "tzupdate": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tzupdate"
+        ],
+        "version": "1.2.0"
     },
     "tzwhere": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tzwhere",
+            "tzwhere.tzwhere"
+        ],
+        "version": "2.3"
     }
 }
