@@ -50677,9 +50677,10 @@
             "torchfcn.datasets.voc",
             "torchfcn.models",
             "torchfcn.models.fcn32s",
+            "torchfcn.models.vgg",
             "torchfcn.trainer"
         ],
-        "version": "1.4.1"
+        "version": "1.5.0"
     },
     "torchfile": {
         "cmdline": [],
