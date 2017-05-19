@@ -12446,8 +12446,11 @@
     },
     "feature-ramp": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "feature_ramp",
+            "feature_ramp.Feature"
+        ],
+        "version": "0.1"
     },
     "featureflags": {
         "cmdline": [],
@@ -21035,7 +21038,7 @@
     "fineco2kmm": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.0.1.a20140108205204"
     },
     "finecraft": {
         "cmdline": [],
@@ -24158,7 +24161,7 @@
         "modules": [
             "fishnet"
         ],
-        "version": "1.13.2"
+        "version": "1.14.0"
     },
     "fishtaco": {
         "cmdline": [
@@ -24878,7 +24881,7 @@
     "fivebit": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.25"
     },
     "fiveoneone": {
         "cmdline": [],
@@ -26179,7 +26182,7 @@
             "flake8_quotes",
             "flake8_quotes.__about__"
         ],
-        "version": "0.9.0"
+        "version": "0.10.0"
     },
     "flake8-quotes2": {
         "cmdline": [],
@@ -26391,7 +26394,7 @@
             "flametree.utils",
             "flametree.version"
         ],
-        "version": "0.1.5"
+        "version": "0.1.6"
     },
     "flamyngo": {
         "cmdline": [],
@@ -33786,7 +33789,7 @@
             "tests.conftest",
             "tests.test_sqlalchemy_data_layer"
         ],
-        "version": "0.12.4"
+        "version": "0.12.5"
     },
     "flask-rest-toolkit": {
         "cmdline": [],
@@ -36157,7 +36160,7 @@
     "flask-userenvconfig": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.1.12"
     },
     "flask-util-js": {
         "cmdline": [],
@@ -42060,9 +42063,11 @@
             "fluidasserts.service.tcp",
             "fluidasserts.system",
             "fluidasserts.system.linux_generic",
-            "fluidasserts.system.windows_server_2008_plus"
+            "fluidasserts.system.windows_server_2008_plus",
+            "fluidasserts.utils",
+            "fluidasserts.utils.decorators"
         ],
-        "version": "0.20170518.347"
+        "version": "0.20170519.1722"
     },
     "fluiddyn": {
         "cmdline": [],
@@ -45981,7 +45986,7 @@
             "foremast.utils.warn_user",
             "foremast.validate"
         ],
-        "version": "3.17.1"
+        "version": "3.17.2"
     },
     "foresight": {
         "cmdline": [],
@@ -52715,8 +52720,31 @@
     },
     "frozenfw": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "frozen",
+            "frozen.Conf",
+            "frozen.Cookie",
+            "frozen.Data",
+            "frozen.Database",
+            "frozen.Dispatcher",
+            "frozen.File",
+            "frozen.Headers",
+            "frozen.Logger",
+            "frozen.Plugins",
+            "frozen.Sandbox",
+            "frozen.functions",
+            "frozen.stdio",
+            "frozen.test",
+            "frozen.test.test_conf",
+            "frozen.test.test_file",
+            "frozen.test.test_func",
+            "frozen.test.test_logger",
+            "frozen.test.test_sandbox",
+            "frozen.wsgi",
+            "frozen.wsgi.base",
+            "frozen.wsgi.init"
+        ],
+        "version": "1.5.1"
     },
     "frozenidea": {
         "cmdline": [],
@@ -53393,8 +53421,17 @@
     },
     "fsphinx": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "fsphinx",
+            "fsphinx.cache",
+            "fsphinx.facets",
+            "fsphinx.hits",
+            "fsphinx.pretty_url",
+            "fsphinx.queries",
+            "fsphinx.sphinx",
+            "fsphinx.utils"
+        ],
+        "version": "0.3"
     },
     "fsplit": {
         "cmdline": [],
@@ -58035,7 +58072,7 @@
     "fucks-given": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.0.1"
     },
     "fud.advanced-search": {
         "cmdline": [],
@@ -60586,8 +60623,15 @@
     },
     "fused": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "fused",
+            "fused.exceptions",
+            "fused.fields",
+            "fused.model",
+            "fused.proxies",
+            "fused.utils"
+        ],
+        "version": "0.0.0"
     },
     "fuselage": {
         "cmdline": [],
