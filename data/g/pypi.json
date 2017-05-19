@@ -63702,7 +63702,7 @@
             "guillotina_elasticsearch.utility",
             "guillotina_elasticsearch.utils"
         ],
-        "version": "1.0.20"
+        "version": "1.0.21"
     },
     "guillotina-gcloudstorage": {
         "cmdline": [],
