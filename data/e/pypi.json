@@ -28926,10 +28926,11 @@
             "eprl.colors",
             "eprl.dbstore",
             "eprl.resolver",
+            "eprl.restore",
             "eprl.util",
             "eprl.vargs"
         ],
-        "version": "0.7"
+        "version": "0.8"
     },
     "eps": {
         "cmdline": [],
