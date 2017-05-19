@@ -27534,7 +27534,7 @@
             "git_pylint_commit_hook",
             "git_pylint_commit_hook.commit_hook"
         ],
-        "version": "2.2.1"
+        "version": "2.2.2"
     },
     "git-qdiff": {
         "cmdline": [
