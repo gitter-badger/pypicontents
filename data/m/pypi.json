@@ -18417,6 +18417,48 @@
         ],
         "version": "1.4.2"
     },
+    "mastercard-api-core-py3": {
+        "cmdline": [],
+        "modules": [
+            "mastercardapicore",
+            "mastercardapicore.core",
+            "mastercardapicore.core.baseobject",
+            "mastercardapicore.core.config",
+            "mastercardapicore.core.constants",
+            "mastercardapicore.core.controller",
+            "mastercardapicore.core.exceptions",
+            "mastercardapicore.core.model",
+            "mastercardapicore.core.util",
+            "mastercardapicore.security",
+            "mastercardapicore.security.authentication",
+            "mastercardapicore.security.oauth",
+            "mastercardapicore.security.util",
+            "tests",
+            "tests.api",
+            "tests.api.accountinquiry",
+            "tests.api.base_test",
+            "tests.api.insights",
+            "tests.api.multiplepathuserpost",
+            "tests.api.test_accountinquiry",
+            "tests.api.test_insights",
+            "tests.api.test_multiplepathuserpost",
+            "tests.api.test_user",
+            "tests.api.test_userpostheader",
+            "tests.api.test_userpostpath",
+            "tests.api.user",
+            "tests.api.userpostheader",
+            "tests.api.userpostpath",
+            "tests.core",
+            "tests.core.test_controller",
+            "tests.core.test_model",
+            "tests.core.test_resourceconfig",
+            "tests.core.test_util",
+            "tests.resources",
+            "tests.security",
+            "tests.security.test_oauth"
+        ],
+        "version": "1.4.2"
+    },
     "mastercard-assurance-iq": {
         "cmdline": [],
         "modules": [
@@ -18598,6 +18640,20 @@
         "version": "0.0.1"
     },
     "mastercard-moneysend": {
+        "cmdline": [],
+        "modules": [
+            "mastercardmoneysend",
+            "mastercardmoneysend.cardeligibility",
+            "mastercardmoneysend.cardmapping",
+            "mastercardmoneysend.funding",
+            "mastercardmoneysend.payment",
+            "mastercardmoneysend.resourceconfig",
+            "mastercardmoneysend.sanctionscreening",
+            "mastercardmoneysend.transferreversal"
+        ],
+        "version": "1.0.4"
+    },
+    "mastercard-moneysend-py3": {
         "cmdline": [],
         "modules": [
             "mastercardmoneysend",
@@ -33431,7 +33487,7 @@
             "menu",
             "menu.menu"
         ],
-        "version": "3.0.3"
+        "version": "3.1.0"
     },
     "menu-parser": {
         "cmdline": [],
@@ -41780,7 +41836,7 @@
     "mgmtsystem": {
         "cmdline": [],
         "modules": [],
-        "version": "1.5.2"
+        "version": "1.5.3"
     },
     "mgocli": {
         "cmdline": [],
@@ -73115,7 +73171,7 @@
             "mozapkpublisher.update_apk_description",
             "mozapkpublisher.utils"
         ],
-        "version": "0.3.0"
+        "version": "0.3.1"
     },
     "mozautoeslib": {
         "cmdline": [],
