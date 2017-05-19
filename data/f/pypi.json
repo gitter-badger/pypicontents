@@ -4945,7 +4945,7 @@
             "fakeUserData.generator",
             "fakeUserData.loadData"
         ],
-        "version": "0.1"
+        "version": "0.2"
     },
     "fakezopeinterface": {
         "cmdline": [],
