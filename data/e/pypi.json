@@ -1423,8 +1423,17 @@
     },
     "easy-python-requirements": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "easy_python_requirements",
+            "easy_python_requirements.easy_python_requirements",
+            "easy_python_requirements.exceptions",
+            "easy_python_requirements.parsed",
+            "easy_python_requirements.report",
+            "easy_python_requirements.test_info",
+            "easy_python_requirements.update",
+            "easy_python_requirements.util"
+        ],
+        "version": "0.1"
     },
     "easy-report": {
         "cmdline": [],
@@ -3678,7 +3687,7 @@
         "modules": [
             "easytf"
         ],
-        "version": "3.4"
+        "version": "3.5"
     },
     "easythreads": {
         "cmdline": [],
@@ -12922,7 +12931,7 @@
     "efzp": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.1"
     },
     "eg": {
         "cmdline": [
@@ -13226,8 +13235,25 @@
     },
     "egat-ncaa": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "egat",
+            "egat.auto_threaded_test_runner",
+            "egat.execution_groups",
+            "egat.loggers",
+            "egat.loggers.html_logger",
+            "egat.loggers.simple_text_logger",
+            "egat.loggers.test_logger",
+            "egat.parse",
+            "egat.scripts",
+            "egat.scripts.egatest",
+            "egat.shared_resource",
+            "egat.test_loader",
+            "egat.test_result",
+            "egat.test_runner_helpers",
+            "egat.testset",
+            "egat.user_threaded_test_runner"
+        ],
+        "version": "1.02"
     },
     "egcg-core": {
         "cmdline": [],
@@ -23628,6 +23654,7 @@
             "enerpi.command_enerpi",
             "enerpi.config",
             "enerpi.config.crontasks",
+            "enerpi.cronip",
             "enerpi.daemon",
             "enerpi.database",
             "enerpi.editconf",
@@ -23655,7 +23682,7 @@
             "enerpiweb.views",
             "enerpiweb.views_filehandler"
         ],
-        "version": "0.9.4"
+        "version": "0.9.7"
     },
     "enet": {
         "cmdline": [],
@@ -24656,8 +24683,39 @@
     },
     "enrico": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "enrico",
+            "enrico.Loggin",
+            "enrico.RunGTlike",
+            "enrico.appertureLC",
+            "enrico.config",
+            "enrico.constants",
+            "enrico.data",
+            "enrico.energybin",
+            "enrico.environ",
+            "enrico.extern",
+            "enrico.extern.argparse",
+            "enrico.extern.configobj",
+            "enrico.extern.odict",
+            "enrico.extern.validate",
+            "enrico.findsource",
+            "enrico.fitmaker",
+            "enrico.gtfunction",
+            "enrico.gui",
+            "enrico.lightcurve",
+            "enrico.plotting",
+            "enrico.root_style",
+            "enrico.scan",
+            "enrico.srcprob",
+            "enrico.stats",
+            "enrico.submit",
+            "enrico.survey",
+            "enrico.testModel",
+            "enrico.tsmap",
+            "enrico.utils",
+            "enrico.xml_model"
+        ],
+        "version": "0.1"
     },
     "enriquepablo": {
         "cmdline": [],
@@ -26295,7 +26353,7 @@
             "environment_manager.api",
             "environment_manager.utils"
         ],
-        "version": "0.2.6"
+        "version": "0.2.9"
     },
     "environment-tools": {
         "cmdline": [],
@@ -31336,8 +31394,10 @@
     },
     "escapyo": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "escapyo"
+        ],
+        "version": "0.1"
     },
     "escea": {
         "cmdline": [],
@@ -31894,7 +31954,7 @@
             "esiosdata.prettyprinting",
             "esiosdata.pvpcplot"
         ],
-        "version": "0.6.9"
+        "version": "0.6.10"
     },
     "esipy": {
         "cmdline": [],
@@ -32575,7 +32635,7 @@
     "estal": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.1"
     },
     "estate": {
         "cmdline": [],
@@ -34724,7 +34784,7 @@
     "etzeldriver": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.1"
     },
     "euclid": {
         "cmdline": [],
@@ -37244,6 +37304,13 @@
         ],
         "version": "0.2"
     },
+    "eventflow": {
+        "cmdline": [],
+        "modules": [
+            "eventflow"
+        ],
+        "version": "0.1.dev0"
+    },
     "eventful": {
         "cmdline": [],
         "modules": [],
@@ -37911,8 +37978,30 @@
     },
     "eventstoreclientapi": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "EventStorePythonClientAPI",
+            "EventStorePythonClientAPI.ClientAPI",
+            "EventStorePythonClientAPI.ClientAPI.Event",
+            "EventStorePythonClientAPI.ClientAPI.EventStoreClient",
+            "EventStorePythonClientAPI.ClientAPI.Implementation",
+            "EventStorePythonClientAPI.ClientAPI.Implementation.AsyncRequestSender",
+            "EventStorePythonClientAPI.ClientAPI.Implementation.Body",
+            "EventStorePythonClientAPI.ClientAPI.Implementation.Body.AppendToStreamRequestBody",
+            "EventStorePythonClientAPI.ClientAPI.Implementation.Body.CreateStreamRequestBody",
+            "EventStorePythonClientAPI.ClientAPI.Implementation.Body.DeleteStreamRequestBody",
+            "EventStorePythonClientAPI.ClientAPI.Implementation.ClientJsonSerelizationOption",
+            "EventStorePythonClientAPI.ClientAPI.Implementation.Ensure",
+            "EventStorePythonClientAPI.ClientAPI.Implementation.Projections",
+            "EventStorePythonClientAPI.ClientAPI.Implementation.ReadEventsData",
+            "EventStorePythonClientAPI.ClientAPI.Implementation.ReturnClasses",
+            "EventStorePythonClientAPI.ClientAPI.Implementation.ReturnClasses.AllEventsAnswer",
+            "EventStorePythonClientAPI.ClientAPI.Implementation.ReturnClasses.FailedAnswer",
+            "EventStorePythonClientAPI.ClientAPI.Implementation.SubscribeAllInfo",
+            "EventStorePythonClientAPI.ClientAPI.Implementation.SubscribeInfo",
+            "EventStorePythonClientAPI.ClientAPI.Implementation.SyncResponse",
+            "EventStorePythonClientAPI.setup"
+        ],
+        "version": "1.0.0"
     },
     "eventstream": {
         "cmdline": [],
@@ -45075,6 +45164,41 @@
             "PyET.ui.secondary_window"
         ],
         "version": "1.0.1"
+    },
+    "eypyagent": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "eypyagent2": {
+        "cmdline": [],
+        "modules": [
+            "oboe",
+            "oboe.backport",
+            "oboe.demo",
+            "oboe.oboe_ext",
+            "oboe.oboe_noop_renamed",
+            "oboe.oboe_test_renamed",
+            "oboe.rum",
+            "oboeware",
+            "oboeware.async",
+            "oboeware.djangoware",
+            "oboeware.imports",
+            "oboeware.inst_django_orm",
+            "oboeware.inst_django_templates",
+            "oboeware.inst_httplib",
+            "oboeware.inst_memcache",
+            "oboeware.inst_pymongo",
+            "oboeware.inst_redis",
+            "oboeware.inst_sqlalchemy",
+            "oboeware.json_encoder",
+            "oboeware.loader",
+            "oboeware.middleware",
+            "oboeware.oninit",
+            "oboeware.skeleton",
+            "oboeware.tornado"
+        ],
+        "version": "1.5.12"
     },
     "eytest": {
         "cmdline": [],

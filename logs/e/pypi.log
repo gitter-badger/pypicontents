@@ -9,7 +9,7 @@
 [INFO] (e2transmission) This package is up to date.
 [ERROR] (e3-analysis) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -68,9 +68,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (earnest) This package does not have downloadable releases.
 [INFO] (earning) This package is up to date.
 [ERROR] (earth-distance) Could not extract data from this package. See below for details.
-"http://www.jnrowe.ukfsn.org/_downloads/earth_distance-0.10.0.tar.bz2" file couldnt be downloaded. See below for details.
+"http://www.jnrowe.ukfsn.org/_downloads/earth_distance-0.10.0.tar.bz2" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -89,7 +89,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (earthengine-api) This package is up to date.
 [ERROR] (earthgecko-skyline) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -126,9 +126,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ease-grid) This package is up to date.
 [INFO] (ease-restapi) This package is up to date.
 [ERROR] (easel) Could not extract data from this package. See below for details.
-"https://codeload.github.com/anomaly/easel/legacy.tar.gz/easel-1.0.0.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/anomaly/easel/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -146,7 +146,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (easepy) This package does not have downloadable releases.
 [ERROR] (easexml) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://easexml.base-art.net/download/"
 [INFO] (easier-install) This package is up to date.
 [INFO] (east) This package is up to date.
 [INFO] (eastkit) This package is up to date.
@@ -182,7 +182,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (easy-languages) This package is up to date.
 [INFO] (easy-logger) This package is up to date.
 [ERROR] (easy-logging) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://pypi.python.org/pypi/easy-logging"
 [INFO] (easy-mask) This package is up to date.
 [INFO] (easy-menu) This package is up to date.
 [INFO] (easy-nested) This package is up to date.
@@ -191,25 +191,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (easy-pika) This package is up to date.
 [INFO] (easy-plugins) This package is up to date.
 [ERROR] (easy-progress) This package does not have downloadable releases.
-[ERROR] (easy-python-requirements) Could not extract data from this package. See below for details.
-"https://codeload.github.com/tjdevries/easy_python_requirements/legacy.tar.gz/easy-python-requirements-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (easy-python-requirements) Data has been updated for this package.
 [INFO] (easy-report) This package is up to date.
 [INFO] (easy-rest) This package is up to date.
 [INFO] (easy-scheduler) This package is up to date.
@@ -255,7 +237,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (easycsv) This package is up to date.
 [ERROR] (easycups) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -327,7 +309,7 @@ OSError: [Errno 13] Permission denied: '/tmp/pypic-extract/easyextend/EasyExtend
 [INFO] (easyleed) This package is up to date.
 [INFO] (easylife) This package is up to date.
 [ERROR] (easylog) Could not extract data from this package. See below for details.
-".php?group_id=104742&package_id=112687" extension not supported.
+".php" extension not supported.
 [INFO] (easylogger) This package is up to date.
 [INFO] (easymail) This package is up to date.
 [INFO] (easymatrix) This package is up to date.
@@ -397,7 +379,7 @@ Unsupported package directory structure.
 [INFO] (easysvg) This package is up to date.
 [ERROR] (easytable) This package does not have downloadable releases.
 [INFO] (easytest) This package is up to date.
-[INFO] (easytf) This package is up to date.
+[INFO] (easytf) Data has been updated for this package.
 [INFO] (easythreads) This package is up to date.
 [INFO] (easytime) This package is up to date.
 [INFO] (easytkinter) This package is up to date.
@@ -458,7 +440,7 @@ Unsupported package directory structure.
 [INFO] (ebmdatalab-python) This package is up to date.
 [ERROR] (ebook) This package does not have downloadable releases.
 [ERROR] (ebook-thumbnailer) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://inigo.katxi.org/devel/ebook-thumbnailer/"
 [INFO] (ebookdownload) This package is up to date.
 [INFO] (ebookkit) This package is up to date.
 [INFO] (ebooklib) This package is up to date.
@@ -468,7 +450,7 @@ Unsupported package directory structure.
 [INFO] (ebosia) This package is up to date.
 [ERROR] (ebot-meter-data-parser) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -544,7 +526,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ecache) This package is up to date.
 [ERROR] (ecard) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -653,7 +635,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ed25519) This package is up to date.
 [ERROR] (ed25519.py) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -685,12 +667,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (eddie) This package is up to date.
 [INFO] (eddie-tool) This package is up to date.
 [ERROR] (eddiebrowser) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://eddie-tool.net/eddiebrowser/download/"
 [INFO] (eddy-s-memory-game) This package is up to date.
 [ERROR] (eddylicious) Could not extract data from this package. See below for details.
-"https://bitbucket.org/lesituu/eddylicious/get/0.0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://bitbucket.org/lesituu/eddylicious/get/0.0.1.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -733,7 +715,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (edeposit.user) This package is up to date.
 [ERROR] (edf) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -812,23 +794,23 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (edrn.jsontest) This package is up to date.
 [INFO] (edrn.labcas.ui) This package is up to date.
 [ERROR] (edrn.nyuxls2erne) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://oodt.jpl.nasa.gov/dist/edrn-nyuxls2erne"
 [INFO] (edrn.rdf) This package is up to date.
 [INFO] (edrn.summarizer) This package is up to date.
 [INFO] (edrn.sync) This package is up to date.
 [INFO] (edrn.theme) This package is up to date.
 [INFO] (edrndmcc.appserver) This package is up to date.
 [ERROR] (edrnsite.calendar) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://oodt.jpl.nasa.gov/dist/edrnsite"
 [INFO] (edrnsite.collaborations) This package is up to date.
 [ERROR] (edrnsite.content) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://oodt.jpl.nasa.gov/dist/edrnsite"
 [INFO] (edrnsite.funding) This package is up to date.
 [INFO] (edrnsite.misccontent) This package is up to date.
 [INFO] (edrnsite.policy) This package is up to date.
 [INFO] (edrnsite.portlets) This package is up to date.
 [ERROR] (edrnsite.search) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://oodt.jpl.nasa.gov/dist/edrnsite"
 [INFO] (edrnsite.vanity) This package is up to date.
 [INFO] (edsac) This package is up to date.
 [INFO] (edsd) This package is up to date.
@@ -938,7 +920,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (efemis2) This package is up to date.
 [INFO] (efesto) This package is up to date.
 [ERROR] (effbot.org) Could not extract data from this package. See below for details.
-".org" extension not supported.
+This package download URL does not point to a valid file: "http://effbot.org/downloads#effbot.org"
 [INFO] (effect) This package is up to date.
 [INFO] (effective) This package is up to date.
 [ERROR] (effective-distance) This package does not have downloadable releases.
@@ -954,25 +936,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (efremov) This package is up to date.
 [INFO] (efs-size-alerter) This package is up to date.
 [INFO] (efst) This package is up to date.
-[ERROR] (efzp) Could not extract data from this package. See below for details.
-"https://codeload.github.com/Trindaz/EFZP/legacy.tar.gz/efzp-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (efzp) Data has been updated for this package.
 [INFO] (eg) This package is up to date.
 [INFO] (eg-pypackage) This package is up to date.
 [INFO] (eg.theme) This package is up to date.
@@ -981,25 +945,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (egapyt) This package is up to date.
 [INFO] (egasub) This package is up to date.
 [INFO] (egat) This package is up to date.
-[ERROR] (egat-ncaa) Could not extract data from this package. See below for details.
-"https://codeload.github.com/abrooks-eg/egat/legacy.tar.gz/egat-ncaa-1.02.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (egat-ncaa) Data has been updated for this package.
 [INFO] (egcg-core) This package is up to date.
 [INFO] (egd) This package is up to date.
 [INFO] (egegrouper) This package is up to date.
@@ -1007,17 +953,17 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (egenix-mx-base) This package is up to date.
 [ERROR] (egenix-mx-commercial) This package does not have downloadable releases.
 [ERROR] (egenix-mx-experimental) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.egenix.com/"
 [INFO] (egenix-mxodbc) This package is up to date.
 [INFO] (egenix-mxodbc-connect-client) This package is up to date.
 [ERROR] (egenix-mxodbc-connect-server) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.egenix.com/products/python/mxODBCConnect/"
 [ERROR] (egenix-mxodbc-django) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://downloads.egenix.com/python/download_url/egenix-mxodbc-django/1.2.0/#md5=c7dd8a0aa88104430e05af6a1da6ce4f"
 [INFO] (egenix-mxodbc-zopeda) This package is up to date.
 [INFO] (egenix-pyopenssl) This package is up to date.
 [ERROR] (egenix-pyrun) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.egenix.com/products/python/PyRun/"
 [INFO] (egenix-web-installer-test) This package is up to date.
 [INFO] (egg) This package is up to date.
 [INFO] (eggbasket) This package is up to date.
@@ -1069,7 +1015,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (einsumconv) This package is up to date.
 [ERROR] (eip-utils) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1188,7 +1134,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (elasticsearch-xpack) This package is up to date.
 [ERROR] (elasticsearch.py) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1210,7 +1156,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (elasticsearchcloudwatch) This package is up to date.
 [ERROR] (elasticsearchpy) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1277,11 +1223,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (elementium) This package is up to date.
 [INFO] (elements) This package is up to date.
 [ERROR] (elementsoap) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://effbot.org/downloads#elementsoap"
 [ERROR] (elementsoup) This package does not have downloadable releases.
 [ERROR] (elementtidy) This package does not have downloadable releases.
 [ERROR] (elementtree) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://effbot.org/downloads#elementtree"
 [INFO] (elementtreefactory) This package is up to date.
 [INFO] (elementtreewriter) This package is up to date.
 [INFO] (elementwise) This package is up to date.
@@ -1373,7 +1319,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (elvantoapi) This package is up to date.
 [INFO] (elves) This package is up to date.
 [ERROR] (elvinrrd) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.psychofx.com/elvinrrd/download/"
 [INFO] (elvis) This package is up to date.
 [INFO] (ely.advancedquery) This package is up to date.
 [INFO] (ely.contentgenerator) This package is up to date.
@@ -1439,7 +1385,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (emase) This package is up to date.
 [INFO] (embed) This package is up to date.
 [ERROR] (embedc) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://sourceforge.net/projects/pyembedc/files/latest/download"
 [INFO] (embedded-jubatus) This package is up to date.
 [INFO] (embeddify) This package is up to date.
 [INFO] (embeder) This package is up to date.
@@ -1487,7 +1433,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (emesene) This package does not have downloadable releases.
 [ERROR] (emgnester) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1563,7 +1509,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (emptytestpkg) This package is up to date.
 [INFO] (empy) This package is up to date.
 [ERROR] (empy-electromagnetic-python) Could not extract data from this package. See below for details.
-".php?group_id=205871" extension not supported.
+".php" extension not supported.
 [INFO] (empymod) This package is up to date.
 [INFO] (empyrical) This package is up to date.
 [INFO] (empythy) This package is up to date.
@@ -1631,9 +1577,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (encviewfuse-decryptorui) This package is up to date.
 [INFO] (end) This package is up to date.
 [ERROR] (endgame-singularity) Could not extract data from this package. See below for details.
-"http://endgame-singularity.googlecode.com/files/singularity_0.30.tar.gz" file couldnt be downloaded. See below for details.
+"http://endgame-singularity.googlecode.com/files/singularity_0.30.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1653,9 +1599,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (endicia) This package is up to date.
 [INFO] (endiciapy) This package is up to date.
 [ERROR] (ending) Could not extract data from this package. See below for details.
-"https://codeload.github.com/ledao/ending/legacy.tar.gz/ending-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/ledao/ending/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1681,7 +1627,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (energenie) This package is up to date.
 [INFO] (energy) This package is up to date.
 [INFO] (energyplus-wrapper) This package is up to date.
-[INFO] (enerpi) This package is up to date.
+[INFO] (enerpi) Data has been updated for this package.
 [ERROR] (enet) This package does not have downloadable releases.
 [INFO] (enfold.gcache) This package is up to date.
 [INFO] (enfold.recipe.patch) This package is up to date.
@@ -1694,7 +1640,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (engel) This package is up to date.
 [INFO] (engfmt) This package is up to date.
 [ERROR] (engine) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.pythonweb.org/engine/release/"
 [INFO] (engineer) This package is up to date.
 [INFO] (engineer-number) This package is up to date.
 [ERROR] (engineered-arts-lib) This package does not have downloadable releases.
@@ -1717,9 +1663,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (enhydris-synoptic) This package is up to date.
 [INFO] (eniarbiter) This package is up to date.
 [ERROR] (enigma) Could not extract data from this package. See below for details.
-"https://codeload.github.com/enigma-io/enigma-client-python/legacy.tar.gz/enigma-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/enigma-io/enigma-client-python/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1737,9 +1683,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (enigma-cli) This package is up to date.
 [ERROR] (enigma-client) Could not extract data from this package. See below for details.
-"https://codeload.github.com/enigma-io/enigma-client-python/legacy.tar.gz/enigma-client-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/enigma-io/enigma-client-python/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1775,9 +1721,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (enpraxis.wordpressexchange) This package is up to date.
 [INFO] (enre) This package is up to date.
 [ERROR] (enrich) Could not extract data from this package. See below for details.
-"http://depts.washington.edu/sfields/software/enrich/Enrich-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"http://depts.washington.edu/sfields/software/enrich/Enrich-0.1.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1795,25 +1741,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (enrichme) This package is up to date.
 [INFO] (enrichpy) This package is up to date.
-[ERROR] (enrico) Could not extract data from this package. See below for details.
-"https://codeload.github.com/gammapy/enrico/legacy.tar.gz/enrico-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (enrico) Data has been updated for this package.
 [ERROR] (enriquepablo) This package does not have downloadable releases.
 [INFO] (enru) This package is up to date.
 [INFO] (ens-namehash) This package is up to date.
@@ -1835,7 +1763,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ensure) This package is up to date.
 [INFO] (ent) This package is up to date.
 [ERROR] (entangled) Could not extract data from this package. See below for details.
-".php?group_id=207333" extension not supported.
+".php" extension not supported.
 [INFO] (entdevtype) This package is up to date.
 [INFO] (enteletaor) This package is up to date.
 [ERROR] (entertainer) This package does not have downloadable releases.
@@ -1846,7 +1774,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (entity-recognition) This package does not have downloadable releases.
 [ERROR] (entity-vector) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1869,9 +1797,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (entoolbox) This package is up to date.
 [INFO] (entrails) This package is up to date.
 [ERROR] (entransit) Could not extract data from this package. See below for details.
-"http://enfoldsystems.com/Products/Entransit/entransit-0.9.3.tar.gz" file couldnt be downloaded. See below for details.
+"http://enfoldsystems.com/Products/Entransit/entransit-0.9.3.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1904,7 +1832,7 @@ urllib.error.HTTPError: HTTP Error 403: Forbidden
 [INFO] (entropy-store) This package is up to date.
 [ERROR] (entry) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1986,7 +1914,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (environ-maiden) This package is up to date.
 [INFO] (environment) This package is up to date.
 [INFO] (environment-kernels) This package is up to date.
-[INFO] (environment-manager) This package is up to date.
+[INFO] (environment-manager) Data has been updated for this package.
 [INFO] (environment-tools) This package is up to date.
 [INFO] (environment-utils) This package is up to date.
 [INFO] (environmental) This package is up to date.
@@ -2050,9 +1978,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (epanettools) This package is up to date.
 [ERROR] (epaper) This package does not have downloadable releases.
 [ERROR] (eparrillae-crawler) Could not extract data from this package. See below for details.
-"https://codeload.github.com/eparrillae/eparrillae-mswl.git/legacy.tar.gz/eparrillae-crawler-.1.0..tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/eparrillae/eparrillae-mswl.git/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2077,7 +2005,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (epfl-sphinx-theme) This package is up to date.
 [INFO] (epgsnoop) This package is up to date.
 [ERROR] (epguide) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/epguide"
 [INFO] (epguides-api) This package is up to date.
 [INFO] (eph) This package is up to date.
 [INFO] (ephem) This package is up to date.
@@ -2087,7 +2015,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ephempy) This package is up to date.
 [ERROR] (epi-models) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2120,7 +2048,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (epicode) This package is up to date.
 [INFO] (epics-ca) This package is up to date.
 [ERROR] (epics-sumo) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://sourceforge.net/projects/epics-sumo/files/?source=navbar"
 [INFO] (epicurus) This package is up to date.
 [INFO] (epifx) This package is up to date.
 [INFO] (epigen) This package is up to date.
@@ -2214,7 +2142,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (equipment) This package is up to date.
 [ERROR] (equirements.txt) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2233,7 +2161,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (equitext) This package is up to date.
 [ERROR] (equity-forex) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2270,9 +2198,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (erepapi) This package is up to date.
 [INFO] (erepmessenger) This package is up to date.
 [ERROR] (erepublik-pybot) Could not extract data from this package. See below for details.
-"https://codeload.github.com/eliluminado/erepublik_pybot/legacy.tar.gz/erepublik-pybot-0.1.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/eliluminado/erepublik_pybot/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2382,32 +2310,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (escape) This package is up to date.
 [INFO] (escapejson) This package is up to date.
 [INFO] (escapism) This package is up to date.
-[ERROR] (escapyo) Could not extract data from this package. See below for details.
-"https://codeload.github.com/efphe/Escapio/legacy.tar.gz/escapyo-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (escapyo) Data has been updated for this package.
 [INFO] (escea) This package is up to date.
 [INFO] (escher) This package is up to date.
 [INFO] (escherauth) This package is up to date.
 [INFO] (esclient) This package is up to date.
 [INFO] (escposprinter) This package is up to date.
 [ERROR] (escript) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "https://launchpad.net/escript-finley"
 [INFO] (escrotum) This package is up to date.
 [ERROR] (escut) This package does not have downloadable releases.
 [INFO] (esda) This package is up to date.
@@ -2440,7 +2350,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (eslintbear) This package is up to date.
 [ERROR] (esm) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2481,7 +2391,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (esridump) This package is up to date.
 [ERROR] (essay) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2498,7 +2408,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (essbase.py) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://sourceforge.net/projects/essbasepy/files/"
 [INFO] (essecodigo) This package is up to date.
 [INFO] (essence) This package is up to date.
 [INFO] (essential-generators) This package is up to date.
@@ -2510,7 +2420,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (essun-test) This package is up to date.
 [ERROR] (essun-tet) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2526,25 +2436,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[ERROR] (estal) Could not extract data from this package. See below for details.
-"https://codeload.github.com/microly/estal/legacy.tar.gz/estal-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (estal) Data has been updated for this package.
 [INFO] (estate) This package is up to date.
 [INFO] (esteele.manager) This package is up to date.
 [INFO] (esteidtray) This package is up to date.
@@ -2648,9 +2540,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (etree-trunc) This package is up to date.
 [INFO] (ets) This package is up to date.
 [ERROR] (etsdevtools) Could not extract data from this package. See below for details.
-"http://www.enthought.com/repo/ets/etsdevtools-4.0.2.tar.gz" file couldnt be downloaded. See below for details.
+"http://www.enthought.com/repo/ets/etsdevtools-4.0.2.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2679,9 +2571,9 @@ urllib.error.HTTPError: HTTP Error 404: NOT FOUND
 [INFO] (etsmtl) This package is up to date.
 [INFO] (etsprojecttools) This package is up to date.
 [ERROR] (etsproxy) Could not extract data from this package. See below for details.
-"http://www.enthought.com/repo/ets/etsproxy-0.1.2.tar.gz" file couldnt be downloaded. See below for details.
+"http://www.enthought.com/repo/ets/etsproxy-0.1.2.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2712,25 +2604,7 @@ urllib.error.HTTPError: HTTP Error 404: NOT FOUND
 [ERROR] (etude) This package does not have downloadable releases.
 [INFO] (etunexus) This package is up to date.
 [INFO] (etym) This package is up to date.
-[ERROR] (etzeldriver) Could not extract data from this package. See below for details.
-"https://codeload.github.com/AzureByte/etzel/legacy.tar.gz/etzeldriver-0.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (etzeldriver) Data has been updated for this package.
 [INFO] (euclid) This package is up to date.
 [INFO] (euclid-wfm) This package is up to date.
 [INFO] (euclid3) This package is up to date.
@@ -2741,7 +2615,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (eudtrg) This package is up to date.
 [ERROR] (eudtrglib) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2857,7 +2731,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (event-store) This package is up to date.
 [ERROR] (eventboard) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2876,7 +2750,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (eventbrite) This package is up to date.
 [ERROR] (eventbus) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2898,6 +2772,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (eventer) This package is up to date.
 [INFO] (eventfabric) This package is up to date.
 [INFO] (eventfd) This package is up to date.
+[INFO] (eventflow) Data has been updated for this package.
 [INFO] (eventful) This package is up to date.
 [INFO] (eventhorizon) This package is up to date.
 [INFO] (eventify) This package is up to date.
@@ -2906,7 +2781,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (eventize) This package is up to date.
 [ERROR] (eventize-expect) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -2944,25 +2819,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (eventsocket) This package is up to date.
 [INFO] (eventsource) This package is up to date.
 [INFO] (eventsourcing) This package is up to date.
-[ERROR] (eventstoreclientapi) Could not extract data from this package. See below for details.
-"https://codeload.github.com/Phontan/EventStore.PythonClientAPI/legacy.tar.gz/eventstoreclientapi-1.0.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (eventstoreclientapi) Data has been updated for this package.
 [ERROR] (eventstream) This package does not have downloadable releases.
 [ERROR] (eventstream-sqlite) This package does not have downloadable releases.
 [INFO] (eventstreamd) This package is up to date.
@@ -3001,7 +2858,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (everysport) This package is up to date.
 [ERROR] (everything) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3112,7 +2969,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (excellent) This package is up to date.
 [ERROR] (excellookup) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3185,9 +3042,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (executiontime) This package is up to date.
 [INFO] (executor) This package is up to date.
 [ERROR] (exefilter) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.decalage.info/exefilter"
 [ERROR] (exemaker) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://effbot.org/downloads#exemaker"
 [INFO] (exemel) This package is up to date.
 [INFO] (exemelopy) This package is up to date.
 [INFO] (exemgel) This package is up to date.
@@ -3321,7 +3178,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (explode) This package is up to date.
 [ERROR] (exploit) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3345,7 +3202,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (explosive.fuse) This package is up to date.
 [ERROR] (explosives) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3414,7 +3271,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (extended-pathlib) This package is up to date.
 [INFO] (extended-range) This package is up to date.
 [ERROR] (extended-threading) Could not extract data from this package. See below for details.
-"http://www.var-dev.net/programming/python/extended_threading/extended_threading-0_2.tar.bz2" file couldnt be downloaded. See below for details.
+"http://www.var-dev.net/programming/python/extended_threading/extended_threading-0_2.tar.bz2" file could not be downloaded. See below for details.
 Traceback (most recent call last):
   File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
     h.request(req.get_method(), req.selector, req.data, headers)
@@ -3439,7 +3296,7 @@ socket.timeout: timed out
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -3525,6 +3382,9 @@ urllib.error.URLError: <urlopen error timed out>
 [INFO] (eyespi) This package is up to date.
 [INFO] (eyestudio) This package is up to date.
 [INFO] (eyetracker) This package is up to date.
+[ERROR] (eypyagent) Could not extract data from this package. See below for details.
+This package download URL does not point to a valid file: "https://pypi.python.org/pypi/eypyagent"
+[INFO] (eypyagent2) Data has been updated for this package.
 [ERROR] (eytest) This package does not have downloadable releases.
 [INFO] (ez) This package is up to date.
 [INFO] (ez-grid) This package is up to date.
@@ -3576,7 +3436,7 @@ urllib.error.URLError: <urlopen error timed out>
 [INFO] (ezoutlet) This package is up to date.
 [INFO] (ezplone) This package is up to date.
 [ERROR] (ezplot) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://www.billbaxter.com/projects/ezplot/"
 [INFO] (ezprettyjson) This package is up to date.
 [INFO] (ezprogbar) This package is up to date.
 [INFO] (ezpychart) This package is up to date.
@@ -3601,14 +3461,14 @@ urllib.error.URLError: <urlopen error timed out>
 [INFO] (ezzybot) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 2580
-[INFO]     Packages processed: 2580
-[INFO]         Packages updated: 1
-[INFO]         Packages up-to-date: 2308
+[INFO] Total packages: 2583
+[INFO]     Packages processed: 2583
+[INFO]         Packages updated: 14
+[INFO]         Packages up-to-date: 2305
 [INFO]         Packages without response: 27
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 188
-[INFO]         Packages with data errors: 56
+[INFO]         Packages with data errors: 49
 [INFO]     Packages not processed: 0
 [INFO] 
 [INFO] 
