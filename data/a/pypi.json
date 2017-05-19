@@ -8978,7 +8978,7 @@
             "addit",
             "addit.addit"
         ],
-        "version": "0.2.1"
+        "version": "0.2.3"
     },
     "addlyrics": {
         "cmdline": [],
@@ -31320,7 +31320,7 @@
             "allegro.rpc",
             "allegro.service"
         ],
-        "version": "1.0.5"
+        "version": "1.0.6"
     },
     "allegrordf": {
         "cmdline": [],
@@ -64619,6 +64619,7 @@
             "asamba.insert_def",
             "asamba.insert_lib",
             "asamba.interpolator",
+            "asamba.plot_ann",
             "asamba.plot_interpolator",
             "asamba.plot_sampler",
             "asamba.query",
@@ -64636,7 +64637,7 @@
             "test_suite.test_unit_interp",
             "test_suite.test_unit_sampling"
         ],
-        "version": "1.0.6"
+        "version": "1.0.7"
     },
     "asamended": {
         "cmdline": [],
