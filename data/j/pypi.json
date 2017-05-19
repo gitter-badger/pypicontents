@@ -16503,6 +16503,13 @@
         ],
         "version": "0.1.dev0"
     },
+    "jsl-mwm-search-strategy-analysis": {
+        "cmdline": [
+            "searchStrategyAnalysis.py"
+        ],
+        "modules": [],
+        "version": "1.0.0a1"
+    },
     "jsl10n": {
         "cmdline": [],
         "modules": [
