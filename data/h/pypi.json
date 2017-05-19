@@ -13832,7 +13832,7 @@
             "helputils.core",
             "helputils.defaultlog"
         ],
-        "version": "1.2.2"
+        "version": "1.2.3"
     },
     "helpy": {
         "cmdline": [],
@@ -25120,7 +25120,7 @@
             "howmanypeoplearearound.oui",
             "howmanypeoplearearound.plotlyjs"
         ],
-        "version": "0.3.1"
+        "version": "0.3.2"
     },
     "howto": {
         "cmdline": [],
