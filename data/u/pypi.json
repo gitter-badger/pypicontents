@@ -9432,7 +9432,7 @@
             "unbabel.api",
             "unbabel.xliff_converter"
         ],
-        "version": "0.44"
+        "version": "0.48"
     },
     "unbound-ec2": {
         "cmdline": [],
@@ -14330,6 +14330,13 @@
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "unzipper": {
+        "cmdline": [],
+        "modules": [
+            "unzipper"
+        ],
+        "version": "1.11"
     },
     "uofl.dztheme.simplesite": {
         "cmdline": [],
