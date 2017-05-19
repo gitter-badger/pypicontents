@@ -7329,7 +7329,7 @@
             "taskcat.sweeper",
             "taskcat.taskcat"
         ],
-        "version": "0.1.62"
+        "version": "0.1.65"
     },
     "taskchecker-on-console": {
         "cmdline": [
