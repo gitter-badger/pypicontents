@@ -2641,7 +2641,7 @@
             "mackinac.test.test_workspace",
             "mackinac.workspace"
         ],
-        "version": "0.8.3"
+        "version": "0.8.4"
     },
     "mackup": {
         "cmdline": [],
@@ -16307,7 +16307,7 @@
             "test.test_non_validated_model_schema",
             "test.test_validated_model_schema"
         ],
-        "version": "0.2.6"
+        "version": "0.2.7"
     },
     "marshmallow-sqlalchemy": {
         "cmdline": [],
@@ -26974,7 +26974,7 @@
             "tests.data.components.library_functions.SSFP",
             "tests.test_example_data"
         ],
-        "version": "0.9.32"
+        "version": "0.9.33"
     },
     "mdtat": {
         "cmdline": [],
@@ -30465,7 +30465,7 @@
             "megalus.tests",
             "megalus.version"
         ],
-        "version": "4.4.2"
+        "version": "4.5.3"
     },
     "mega.py": {
         "cmdline": [],
@@ -36502,7 +36502,7 @@
             "tests.sessions",
             "tests.url_parsing"
         ],
-        "version": "0.9.6"
+        "version": "0.9.7"
     },
     "metadata-utils": {
         "cmdline": [],
@@ -38633,7 +38633,7 @@
             "metering.stats",
             "metering.weather"
         ],
-        "version": "0.0.55"
+        "version": "0.0.56"
     },
     "meterplugin": {
         "cmdline": [],
@@ -69138,8 +69138,14 @@
     },
     "more-ascii-art": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "more_ascii_art",
+            "more_ascii_art.cat",
+            "more_ascii_art.chicken",
+            "more_ascii_art.elephant",
+            "more_ascii_art.mouse"
+        ],
+        "version": "1.2"
     },
     "more-collections": {
         "cmdline": [],
@@ -70643,7 +70649,7 @@
             "tests.test_cl_routines",
             "tests.utils"
         ],
-        "version": "0.2.40"
+        "version": "0.2.41"
     },
     "motaword": {
         "cmdline": [],
@@ -81877,7 +81883,7 @@
     "multiconf": {
         "cmdline": [],
         "modules": [],
-        "version": "6.0.0"
+        "version": "6.1.0"
     },
     "multiconfig": {
         "cmdline": [],
@@ -92673,7 +92679,7 @@
         "modules": [
             "myusps"
         ],
-        "version": "1.0.5"
+        "version": "1.1.1"
     },
     "myutils": {
         "cmdline": [],
