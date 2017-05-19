@@ -22,7 +22,7 @@
 [INFO] (1to001) This package is up to date.
 [ERROR] (2) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -43,7 +43,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (24to25) This package is up to date.
 [INFO] (2969nester) This package is up to date.
 [ERROR] (2c.py) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/2c-python/downloads/"
 [INFO] (2fa) This package is up to date.
 [INFO] (2factorcli) This package is up to date.
 [INFO] (2gis) This package is up to date.
