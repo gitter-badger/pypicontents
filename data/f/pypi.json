@@ -4937,16 +4937,6 @@
         ],
         "version": "0.11"
     },
-    "fakeuserdata": {
-        "cmdline": [],
-        "modules": [
-            "fakeUserData",
-            "fakeUserData.ccgen",
-            "fakeUserData.generator",
-            "fakeUserData.loadData"
-        ],
-        "version": "0.2"
-    },
     "fakezopeinterface": {
         "cmdline": [],
         "modules": [
@@ -49234,10 +49224,9 @@
     "frankensteinplot": {
         "cmdline": [],
         "modules": [
-            "frankensteinplot",
-            "frankensteinplot.frankensteinplot"
+            "frankensteinplot"
         ],
-        "version": "0.0.2.1"
+        "version": "0.0.2.2"
     },
     "frankensvg": {
         "cmdline": [],
@@ -59159,7 +59148,7 @@
             "funcat.time_series",
             "funcat.utils"
         ],
-        "version": "0.2.6"
+        "version": "0.2.7"
     },
     "funcbrows": {
         "cmdline": [],
