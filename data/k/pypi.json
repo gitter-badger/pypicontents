@@ -22667,7 +22667,7 @@
             "kodi_voice",
             "kodi_voice.kodi"
         ],
-        "version": "0.7.8"
+        "version": "0.7.9"
     },
     "kodicontroller": {
         "cmdline": [],
