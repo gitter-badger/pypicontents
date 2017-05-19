@@ -8980,6 +8980,31 @@
         ],
         "version": "0.4.1"
     },
+    "quarkutilities": {
+        "cmdline": [],
+        "modules": [
+            "quark_utilities",
+            "quark_utilities.cc_helpers",
+            "quark_utilities.currency_helpers",
+            "quark_utilities.custom_id_generator",
+            "quark_utilities.dict_helpers",
+            "quark_utilities.event_hub",
+            "quark_utilities.formatter",
+            "quark_utilities.image_helpers",
+            "quark_utilities.ip2location_helpers",
+            "quark_utilities.json_helpers",
+            "quark_utilities.json_schema",
+            "quark_utilities.jwt_security",
+            "quark_utilities.log_helpers",
+            "quark_utilities.mongol",
+            "quark_utilities.query_helpers",
+            "quark_utilities.service",
+            "quark_utilities.short_code_generator",
+            "quark_utilities.temporal_helpers",
+            "quark_utilities.validation_helpers"
+        ],
+        "version": "0.0.8"
+    },
     "quarry": {
         "cmdline": [],
         "modules": [
