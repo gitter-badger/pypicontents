@@ -1722,7 +1722,7 @@
             "tabula.util",
             "tabula.wrapper"
         ],
-        "version": "0.6.0"
+        "version": "0.6.1"
     },
     "tabular": {
         "cmdline": [],
@@ -7329,7 +7329,7 @@
             "taskcat.sweeper",
             "taskcat.taskcat"
         ],
-        "version": "0.1.65"
+        "version": "0.1.66"
     },
     "taskchecker-on-console": {
         "cmdline": [
