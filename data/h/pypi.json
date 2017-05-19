@@ -23906,9 +23906,12 @@
         "cmdline": [],
         "modules": [
             "hornet",
-            "hornet.hornet"
+            "hornet.hornet",
+            "hornet.nest",
+            "hornet.tests",
+            "hornet.tests.test_hornet"
         ],
-        "version": "0.1.0"
+        "version": "0.1.1"
     },
     "horntell": {
         "cmdline": [],
@@ -34936,6 +34939,15 @@
             "hypercube.version"
         ],
         "version": "0.3.3"
+    },
+    "hyperd": {
+        "cmdline": [],
+        "modules": [
+            "hyperd",
+            "hyperd.types_pb2",
+            "hyperd.types_pb2_grpc"
+        ],
+        "version": "0.1.0"
     },
     "hyperdns-flask": {
         "cmdline": [],
