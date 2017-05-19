@@ -12391,7 +12391,7 @@
             "weblyzard_api.xml_content.parsers.xml_2013",
             "weblyzard_api.xml_content.parsers.xml_deprecated"
         ],
-        "version": "0.7.20170323"
+        "version": "0.7.20170515"
     },
     "webm": {
         "cmdline": [],
@@ -20206,7 +20206,7 @@
             "widgetastic.widget",
             "widgetastic.xpath"
         ],
-        "version": "0.6.0"
+        "version": "0.6.1"
     },
     "widgetastic.patternfly": {
         "cmdline": [],
