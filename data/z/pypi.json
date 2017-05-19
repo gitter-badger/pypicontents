@@ -6305,6 +6305,13 @@
         ],
         "version": "0.37.2"
     },
+    "zebu": {
+        "cmdline": [],
+        "modules": [
+            "zebu"
+        ],
+        "version": "2017.5.0"
+    },
     "zed": {
         "cmdline": [],
         "modules": [],
