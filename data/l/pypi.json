@@ -3255,6 +3255,21 @@
         ],
         "version": "1.0.7"
     },
+    "langdist": {
+        "cmdline": [],
+        "modules": [
+            "langdist",
+            "langdist._version",
+            "langdist.batch",
+            "langdist.cli",
+            "langdist.encoder",
+            "langdist.langmodel",
+            "langdist.preprocess",
+            "langdist.transliterator",
+            "langdist.util"
+        ],
+        "version": "0.3.0"
+    },
     "langgen": {
         "cmdline": [],
         "modules": [],
@@ -43921,7 +43936,7 @@
             "tests",
             "tests.log_generator_test"
         ],
-        "version": "0.1.1"
+        "version": "0.1.2"
     },
     "lunch": {
         "cmdline": [],
