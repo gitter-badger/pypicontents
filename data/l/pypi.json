@@ -13871,8 +13871,11 @@
     },
     "lektor-shortcodes": {
         "cmdline": [],
-        "modules": [],
-        "version": "0.1.2"
+        "modules": [
+            "lektor_shortcodes",
+            "lektor_shortcodes.scodes"
+        ],
+        "version": "0.1.4"
     },
     "lektor-static-search": {
         "cmdline": [],
