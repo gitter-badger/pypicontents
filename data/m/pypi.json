@@ -4434,6 +4434,11 @@
             "magenta.models.shared.events_rnn_graph",
             "magenta.models.shared.events_rnn_model",
             "magenta.models.shared.events_rnn_train",
+            "magenta.models.sketch_rnn",
+            "magenta.models.sketch_rnn.model",
+            "magenta.models.sketch_rnn.rnn",
+            "magenta.models.sketch_rnn.sketch_rnn_train",
+            "magenta.models.sketch_rnn.utils",
             "magenta.music",
             "magenta.music.chord_symbols_lib",
             "magenta.music.chords_encoder_decoder",
@@ -4477,7 +4482,7 @@
             "magenta.tools.pip.setup",
             "magenta.version"
         ],
-        "version": "0.1.11"
+        "version": "0.1.12"
     },
     "magento": {
         "cmdline": [],
@@ -7661,7 +7666,7 @@
     "majestic-components": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "7.1"
     },
     "majestic-pi": {
         "cmdline": [],
@@ -36975,6 +36980,11 @@
         ],
         "version": "1.0.0"
     },
+    "metald": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "metalocgramn": {
         "cmdline": [],
         "modules": [
@@ -61334,6 +61344,11 @@
             "moksha.wsgi.widgets.templates"
         ],
         "version": "1.2.4"
+    },
+    "mol": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "mol2-pack": {
         "cmdline": [],
