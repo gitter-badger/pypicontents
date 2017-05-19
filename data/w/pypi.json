@@ -33955,6 +33955,15 @@
         ],
         "version": "0.12"
     },
+    "wslexplorer": {
+        "cmdline": [],
+        "modules": [
+            "wslexplorer",
+            "wslexplorer.config",
+            "wslexplorer.win_explorer"
+        ],
+        "version": "0.1.1"
+    },
     "wsman": {
         "cmdline": [],
         "modules": [
