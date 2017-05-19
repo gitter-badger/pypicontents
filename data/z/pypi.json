@@ -21318,7 +21318,7 @@
             "zutils.models",
             "zutils.views"
         ],
-        "version": "0.0.7"
+        "version": "0.0.9"
     },
     "zuul": {
         "cmdline": [],
