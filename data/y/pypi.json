@@ -63,8 +63,31 @@
     },
     "yaahn": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "tests",
+            "tests.test_comment_model",
+            "tests.test_item_model",
+            "tests.test_poll_model",
+            "tests.test_story_model",
+            "tests.test_top_stories",
+            "tests.test_updates",
+            "tests.test_user_model",
+            "tests.test_utils",
+            "yaaHN",
+            "yaaHN.HN_client",
+            "yaaHN.error",
+            "yaaHN.helpers",
+            "yaaHN.models",
+            "yaaHN.models.comment",
+            "yaaHN.models.deleted",
+            "yaaHN.models.item",
+            "yaaHN.models.poll",
+            "yaaHN.models.story",
+            "yaaHN.models.update",
+            "yaaHN.models.user",
+            "yaaHN.thread_request"
+        ],
+        "version": "0.1.1"
     },
     "yaak.inject": {
         "cmdline": [],
@@ -7668,7 +7691,7 @@
     "yo-py": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "1.0.0"
     },
     "yoapi": {
         "cmdline": [],

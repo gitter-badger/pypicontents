@@ -9,25 +9,7 @@
 [INFO] (y4m) This package is up to date.
 [INFO] (ya-direct-api) This package is up to date.
 [INFO] (yaacl) This package is up to date.
-[ERROR] (yaahn) Could not extract data from this package. See below for details.
-"https://codeload.github.com/arindampradhan/yaaHN/legacy.tar.gz/yaahn-0.1.1.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (yaahn) Data has been updated for this package.
 [INFO] (yaak.inject) This package is up to date.
 [INFO] (yabgp) This package is up to date.
 [INFO] (yabn) This package is up to date.
@@ -35,9 +17,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yabt) This package is up to date.
 [INFO] (yac) This package is up to date.
 [ERROR] (yac-scrypt) Could not extract data from this package. See below for details.
-"https://bitbucket.org/mmitech/yac_scrypt/get/12613d54f43a.zip" file couldnt be downloaded. See below for details.
+"https://bitbucket.org/mmitech/yac_scrypt/get/12613d54f43a.zip" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -131,7 +113,7 @@ urllib.error.HTTPError: HTTP Error 401: Unauthorized
 [INFO] (yaha) This package is up to date.
 [INFO] (yahi) This package is up to date.
 [ERROR] (yahiko) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://samurai-x.org/downloads/"
 [INFO] (yahmm) This package is up to date.
 [INFO] (yahoo) This package is up to date.
 [INFO] (yahoo-earnings-calendar) This package is up to date.
@@ -156,7 +138,7 @@ urllib.error.HTTPError: HTTP Error 401: Unauthorized
 [INFO] (yak) This package is up to date.
 [ERROR] (yak-nester) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -205,7 +187,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yamjam) This package is up to date.
 [ERROR] (yaml) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -325,7 +307,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yapf) This package is up to date.
 [INFO] (yapfbear) This package is up to date.
 [ERROR] (yapgvb) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://code.google.com/p/yapgvb/downloads/list?can=1&q=&colspec=Filename+Summary+Uploaded+Size+DownloadCount"
 [INFO] (yaphue) This package is up to date.
 [INFO] (yapi) This package is up to date.
 [INFO] (yapocis) This package is up to date.
@@ -337,7 +319,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yapps2) This package is up to date.
 [INFO] (yaprt) This package is up to date.
 [ERROR] (yapsnmp) Could not extract data from this package. See below for details.
-".php?group_id=21077&package_id=17482&release_id=222248" extension not supported.
+".php" extension not supported.
 [INFO] (yapsy) This package is up to date.
 [INFO] (yapt) This package is up to date.
 [ERROR] (yaptoo) Could not extract data from this package. See below for details.
@@ -357,7 +339,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yarest) This package is up to date.
 [ERROR] (yarfe) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -386,7 +368,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yarpc) This package is up to date.
 [INFO] (yarr.client) This package is up to date.
 [ERROR] (yarrow) Could not extract data from this package. See below for details.
-"ftp://ftp.thurman.org.uk/pub/thurman/rgtp/yarrow-1.2.0.tar.gz" file couldnt be downloaded. See below for details.
+"ftp://ftp.thurman.org.uk/pub/thurman/rgtp/yarrow-1.2.0.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
   File "/usr/lib/python3.5/urllib/request.py", line 1461, in ftp_open
     host = socket.gethostbyname(host)
@@ -395,7 +377,7 @@ socket.gaierror: [Errno -2] Name or service not known
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -446,9 +428,9 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (yattag) This package is up to date.
 [INFO] (yatxmilter) This package is up to date.
 [ERROR] (yaubot) Could not extract data from this package. See below for details.
-"http://www.jakebasile.com/downloads/yaubot-1.0.tar.gz" file couldnt be downloaded. See below for details.
+"http://www.jakebasile.com/downloads/yaubot-1.0.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -465,9 +447,9 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (yaubot-fun-scripts) Could not extract data from this package. See below for details.
-"http://www.jakebasile.com/downloads/yaubot-fun-scripts-1.0.tar.gz" file couldnt be downloaded. See below for details.
+"http://www.jakebasile.com/downloads/yaubot-fun-scripts-1.0.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -643,9 +625,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yml) This package is up to date.
 [INFO] (yml2json) This package is up to date.
 [ERROR] (yml2tex) Could not extract data from this package. See below for details.
-"http://yml2tex.googlecode.com/files/yml2tex-1.2.tar.gz" file couldnt be downloaded. See below for details.
+"http://yml2tex.googlecode.com/files/yml2tex-1.2.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -674,25 +656,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yo-client) This package is up to date.
 [INFO] (yo-fabric) This package is up to date.
 [INFO] (yo-payments) This package is up to date.
-[ERROR] (yo-py) Could not extract data from this package. See below for details.
-"https://codeload.github.com/parthanium/YoPy/legacy.tar.gz/yo-py-1.0.0.tar.gz" file couldnt be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (yo-py) Data has been updated for this package.
 [INFO] (yoapi) This package is up to date.
 [INFO] (yoav) This package is up to date.
 [INFO] (yoconfigurator) This package is up to date.
@@ -724,7 +688,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yomikata) This package is up to date.
 [INFO] (yoo) This package is up to date.
 [ERROR] (yoopf-for-python) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://bitbucket.org/yoopf/yoopf/downloads"
 [INFO] (yopp) This package is up to date.
 [INFO] (yopy) This package is up to date.
 [INFO] (yopypi) This package is up to date.
@@ -746,9 +710,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yoti-python-sdk) This package is up to date.
 [INFO] (yoton) This package is up to date.
 [ERROR] (yotsuba) Could not extract data from this package. See below for details.
-"http://yotsuba.googlecode.com/files/yotsuba-3.1.tar.gz" file couldnt be downloaded. See below for details.
+"http://yotsuba.googlecode.com/files/yotsuba-3.1.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -789,7 +753,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (youtrack-rest-api) This package is up to date.
 [ERROR] (youtube) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -828,7 +792,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (youtube2zim) This package is up to date.
 [ERROR] (youtubedl) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -872,9 +836,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ypcspy) This package is up to date.
 [INFO] (ypdd) This package is up to date.
 [ERROR] (ypipe) Could not extract data from this package. See below for details.
-"https://ypipe.googlecode.com/files/ypipe-0.8.tar.gz" file couldnt be downloaded. See below for details.
+"https://ypipe.googlecode.com/files/ypipe-0.8.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -937,7 +901,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yubico) This package is up to date.
 [ERROR] (yubico-authenticator) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -970,9 +934,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yuicompressor) This package is up to date.
 [INFO] (yujia-nester) This package is up to date.
 [ERROR] (yujin-tools) Could not extract data from this package. See below for details.
-"https://codeload.github.com/yujinrobot/yujin_tools.git/legacy.tar.gz/yujin-tools-0.4.55.tar.gz" file couldnt be downloaded. See below for details.
+"https://github.com/yujinrobot/yujin_tools.git/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 106, in download_tar
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
     f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1000,7 +964,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yumwat) This package is up to date.
 [ERROR] (yunant) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1059,10 +1023,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yy) This package is up to date.
 [INFO] (yy-nester) This package is up to date.
 [ERROR] (yyafl) Could not extract data from this package. See below for details.
-"" extension not supported.
+This package download URL does not point to a valid file: "http://dl.stackfoundry.org/yyafl/"
 [ERROR] (yyhnester) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 261, in get_pkgdata
+  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
   File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
     return opener.open(url, data, timeout)
@@ -1091,12 +1055,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] 
 [INFO] Total packages: 729
 [INFO]     Packages processed: 729
-[INFO]         Packages updated: 0
+[INFO]         Packages updated: 2
 [INFO]         Packages up-to-date: 651
 [INFO]         Packages without response: 8
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 53
-[INFO]         Packages with data errors: 17
+[INFO]         Packages with data errors: 15
 [INFO]     Packages not processed: 0
 [INFO] 
 [INFO] 
