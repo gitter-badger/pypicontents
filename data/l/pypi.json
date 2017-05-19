@@ -13869,6 +13869,11 @@
         "modules": [],
         "version": "0.4.0"
     },
+    "lektor-shortcodes": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.1.2"
+    },
     "lektor-static-search": {
         "cmdline": [],
         "modules": [
@@ -29398,7 +29403,7 @@
             "lipd.pkg_resources.unittests",
             "lipd.pkg_resources.unittests.test_csv"
         ],
-        "version": "0.2.0.8"
+        "version": "0.2.0.9"
     },
     "lipidconverter": {
         "cmdline": [
