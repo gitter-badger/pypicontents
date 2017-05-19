@@ -16606,7 +16606,7 @@
         "modules": [
             "upsmychoice"
         ],
-        "version": "1.0.2"
+        "version": "1.0.4"
     },
     "upstart": {
         "cmdline": [],
@@ -21314,7 +21314,7 @@
             "restclients_core.test",
             "restclients_core.thread"
         ],
-        "version": "0.8.6"
+        "version": "0.8.7"
     },
     "uw-restclients-django-utils": {
         "cmdline": [],
