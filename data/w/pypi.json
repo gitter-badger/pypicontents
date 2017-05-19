@@ -32819,6 +32819,13 @@
         ],
         "version": "0.1.0"
     },
+    "wsgi-aws-unproxy": {
+        "cmdline": [],
+        "modules": [
+            "wsgi_aws_unproxy"
+        ],
+        "version": "0.0.1"
+    },
     "wsgi-basic-auth": {
         "cmdline": [],
         "modules": [],
