@@ -815,6 +815,13 @@
         ],
         "version": "1.0.6.2"
     },
+    "iamport-idist": {
+        "cmdline": [],
+        "modules": [
+            "iamport_idist"
+        ],
+        "version": "1.0.0"
+    },
     "iamport-rest-client": {
         "cmdline": [],
         "modules": [
@@ -27604,7 +27611,7 @@
             "invenio_pidrelations.utils",
             "invenio_pidrelations.version"
         ],
-        "version": "1.0.0a1"
+        "version": "1.0.0a3"
     },
     "invenio-pidstore": {
         "cmdline": [],
@@ -28567,7 +28574,7 @@
             "invrcpt",
             "invrcpt.exporter"
         ],
-        "version": "0.3"
+        "version": "0.3.1"
     },
     "inxpect": {
         "cmdline": [],
