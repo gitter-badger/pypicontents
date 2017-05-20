@@ -2046,7 +2046,7 @@
             "lambdautils.state",
             "lambdautils.utils"
         ],
-        "version": "1.3.6"
+        "version": "1.3.7"
     },
     "lambdaws": {
         "cmdline": [],
@@ -2520,6 +2520,19 @@
             "lanchat.utils"
         ],
         "version": "0.0.9"
+    },
+    "lander": {
+        "cmdline": [],
+        "modules": [
+            "lander",
+            "lander._version",
+            "lander.config",
+            "lander.lander",
+            "lander.ltdclient",
+            "lander.main",
+            "lander.renderer"
+        ],
+        "version": "0.1.0b2"
     },
     "landez": {
         "cmdline": [],
@@ -9081,8 +9094,17 @@
     },
     "lazylyst": {
         "cmdline": [],
-        "modules": [],
-        "version": "0.4.3"
+        "modules": [
+            "lazylyst.Plugins",
+            "lazylyst.Plugins.CrossCorrelation",
+            "lazylyst.Plugins.Examples",
+            "lazylyst.Plugins.Filters",
+            "lazylyst.Plugins.General",
+            "lazylyst.Plugins.Image",
+            "lazylyst.Plugins.Locate",
+            "lazylyst.Plugins.Sorting"
+        ],
+        "version": "0.4.6"
     },
     "lazyme": {
         "cmdline": [],
@@ -11974,7 +11996,7 @@
         "modules": [
             "leap.bitmask_js"
         ],
-        "version": "0.1.201705191313"
+        "version": "0.1.201705192045"
     },
     "leap.bitmask-www": {
         "cmdline": [],
@@ -13875,7 +13897,7 @@
             "lektor_shortcodes",
             "lektor_shortcodes.scodes"
         ],
-        "version": "0.1.4"
+        "version": "0.1.5"
     },
     "lektor-static-search": {
         "cmdline": [],
@@ -18294,8 +18316,27 @@
     },
     "libant": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "libAnt",
+            "libAnt.constants",
+            "libAnt.core",
+            "libAnt.drivers",
+            "libAnt.drivers.driver",
+            "libAnt.drivers.pcap",
+            "libAnt.drivers.serial",
+            "libAnt.drivers.usb",
+            "libAnt.loggers",
+            "libAnt.loggers.logger",
+            "libAnt.loggers.pcap",
+            "libAnt.message",
+            "libAnt.node",
+            "libAnt.profiles",
+            "libAnt.profiles.factory",
+            "libAnt.profiles.power_profile",
+            "libAnt.profiles.profile",
+            "libAnt.profiles.speed_cadence_profile"
+        ],
+        "version": "0.1.2"
     },
     "libapicache": {
         "cmdline": [],
@@ -22161,7 +22202,7 @@
             "tcod.tcod",
             "tcod.version"
         ],
-        "version": "2.4.3"
+        "version": "2.4.4"
     },
     "libtele": {
         "cmdline": [],
@@ -23511,7 +23552,7 @@
             "lightfm.evaluation",
             "lightfm.lightfm"
         ],
-        "version": "1.12"
+        "version": "1.13"
     },
     "lighthouse": {
         "cmdline": [],
@@ -26174,6 +26215,15 @@
             "link.resources"
         ],
         "version": "0.0.3"
+    },
+    "link-traits": {
+        "cmdline": [],
+        "modules": [
+            "link_traits",
+            "link_traits.link_traits",
+            "link_traits.test_link_traits"
+        ],
+        "version": "1.0.1"
     },
     "link-validator": {
         "cmdline": [],
@@ -29363,7 +29413,7 @@
             "liota.lib.utilities.tls_conf",
             "liota.lib.utilities.utility"
         ],
-        "version": "0.2.7"
+        "version": "0.3"
     },
     "lip": {
         "cmdline": [],
@@ -31191,8 +31241,17 @@
     },
     "litlesdkpython": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "litleSdkPython",
+            "litleSdkPython.Communications",
+            "litleSdkPython.Configuration",
+            "litleSdkPython.litleBatchRequest",
+            "litleSdkPython.litleBatchResponse",
+            "litleSdkPython.litleOnlineRequest",
+            "litleSdkPython.litleXmlFields",
+            "litleSdkPython.responseParser"
+        ],
+        "version": "10.1"
     },
     "litlesdkpython3": {
         "cmdline": [],
@@ -42705,7 +42764,7 @@
             "tests.test_graph",
             "tests.test_measurement"
         ],
-        "version": "0.0.2.3"
+        "version": "0.0.2.4"
     },
     "luca": {
         "cmdline": [],
@@ -43197,8 +43256,11 @@
     },
     "luhn-algorithm-validator": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "luhn",
+            "luhn.luhn"
+        ],
+        "version": "1.0.2"
     },
     "luhnmod10": {
         "cmdline": [],
@@ -44171,9 +44233,10 @@
         "cmdline": [],
         "modules": [
             "lurrn",
-            "lurrn.item_logging"
+            "lurrn.item_logging",
+            "lurrn.path_config"
         ],
-        "version": "0.7.2.1"
+        "version": "1.0.0"
     },
     "lusikas": {
         "cmdline": [],
@@ -44839,8 +44902,10 @@
     },
     "lxclite": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "lxclite"
+        ],
+        "version": "0.2"
     },
     "lxctest": {
         "cmdline": [],
@@ -45943,9 +46008,22 @@
         "version": "0.2"
     },
     "lytebot": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "lytebot"
+        ],
+        "modules": [
+            "lytebot",
+            "lytebot.bot",
+            "lytebot.commands",
+            "lytebot.commands.admin",
+            "lytebot.commands.duckduckgo",
+            "lytebot.commands.imgur",
+            "lytebot.commands.misc",
+            "lytebot.errors",
+            "lytebot.models",
+            "lytebot.models.duckduckgo"
+        ],
+        "version": "1.0.0"
     },
     "lython": {
         "cmdline": [],
