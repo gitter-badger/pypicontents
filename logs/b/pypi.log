@@ -217,7 +217,7 @@ urllib.error.HTTPError: HTTP Error 403: Forbidden
 [INFO] (backtask) This package is up to date.
 [INFO] (backtrace) This package is up to date.
 [INFO] (backtracepython) This package is up to date.
-[INFO] (backtrader) This package is up to date.
+[INFO] (backtrader) Data has been updated for this package.
 [INFO] (backtranslate) This package is up to date.
 [INFO] (backup) This package is up to date.
 [INFO] (backup-all-my-flickr-photos) This package is up to date.
@@ -439,7 +439,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (bandcamp-dl) This package is up to date.
-[INFO] (bandcamp-downloader) This package is up to date.
+[INFO] (bandcamp-downloader) Data has been updated for this package.
 [INFO] (bandcamp-get) This package is up to date.
 [INFO] (bandcampscrape) This package is up to date.
 [INFO] (bandersnatch) This package is up to date.
@@ -960,7 +960,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (bcoding) This package is up to date.
 [INFO] (bcolors) This package is up to date.
 [INFO] (bcolz) This package is up to date.
-[INFO] (bcra-chart) Data has been updated for this package.
+[INFO] (bcra-chart) This package is up to date.
 [INFO] (bcresolver) This package is up to date.
 [INFO] (bcrypt) This package is up to date.
 [INFO] (bcryptor) This package is up to date.
@@ -998,7 +998,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (bdateutil) This package is up to date.
 [INFO] (bdbcontrib) This package is up to date.
 [INFO] (bdbdatastore) This package is up to date.
-[INFO] (bdcli) Data has been updated for this package.
+[INFO] (bdcli) This package is up to date.
 [INFO] (bdd) This package is up to date.
 [INFO] (bdd4django) This package is up to date.
 [INFO] (bddocs) This package is up to date.
@@ -1022,7 +1022,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (bdecode) This package is up to date.
-[INFO] (bdf) Data has been updated for this package.
+[INFO] (bdf) This package is up to date.
 [INFO] (bdflib) This package is up to date.
 [INFO] (bdfu) This package is up to date.
 [INFO] (bdgt) This package is up to date.
@@ -1239,7 +1239,7 @@ urllib.error.HTTPError: HTTP Error 403: Forbidden
 [INFO] (beetle-s3uploader) This package is up to date.
 [INFO] (beetle-sass) This package is up to date.
 [INFO] (beetle-sitemap) This package is up to date.
-[INFO] (beetmoverscript) Data has been updated for this package.
+[INFO] (beetmoverscript) This package is up to date.
 [INFO] (beets) This package is up to date.
 [INFO] (beets-artistcountry) This package is up to date.
 [INFO] (beets-bandcamp) This package is up to date.
@@ -1831,7 +1831,7 @@ This package download URL does not point to a valid file: "http://www.bibconvert
 [ERROR] (binhotm) This package does not have downloadable releases.
 [INFO] (bini) This package is up to date.
 [INFO] (binify) This package is up to date.
-[INFO] (binilla) This package is up to date.
+[INFO] (binilla) Data has been updated for this package.
 [INFO] (binio) This package is up to date.
 [ERROR] (binjitsu) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -2038,7 +2038,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bit.recipe.android-ndk) This package is up to date.
 [INFO] (bit.recipe.android-sdk) This package is up to date.
 [INFO] (bit.recipe.python-for-android) This package is up to date.
-[INFO] (bit2darray) Data has been updated for this package.
+[INFO] (bit2darray) This package is up to date.
 [INFO] (bit9-api) This package is up to date.
 [INFO] (bitaddress) This package is up to date.
 [INFO] (bitalino) This package is up to date.
@@ -2221,7 +2221,7 @@ This package download URL does not point to a valid file: "https://svn.ervacon.c
 [INFO] (bitwrap-io) This package is up to date.
 [INFO] (bitwrap-pnml) This package is up to date.
 [INFO] (bivouac) This package is up to date.
-[INFO] (biweeklybudget) This package is up to date.
+[INFO] (biweeklybudget) Data has been updated for this package.
 [INFO] (biwigpuprep) This package is up to date.
 [INFO] (bizdatim) This package is up to date.
 [INFO] (bizdays) This package is up to date.
@@ -2234,7 +2234,7 @@ This package download URL does not point to a valid file: "https://svn.ervacon.c
 [INFO] (bk) This package is up to date.
 [INFO] (bk-flower) This package is up to date.
 [ERROR] (bk-orbfit) This package does not have downloadable releases.
-[INFO] (bkcharts) Data has been updated for this package.
+[INFO] (bkcharts) This package is up to date.
 [ERROR] (bkgen) This package does not have downloadable releases.
 [INFO] (bkheatmap) This package is up to date.
 [INFO] (bkkcsirip) This package is up to date.
@@ -2797,7 +2797,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bluepy-devices) This package is up to date.
 [INFO] (bluepyopt) This package is up to date.
 [INFO] (blueque) This package is up to date.
-[INFO] (bluesky) This package is up to date.
+[INFO] (bluesky) Data has been updated for this package.
 [INFO] (bluesky-libpython) This package is up to date.
 [ERROR] (bluestocking) This package does not have downloadable releases.
 [INFO] (bluetool) This package is up to date.
@@ -3381,7 +3381,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (botec) This package is up to date.
 [INFO] (botf) This package is up to date.
 [INFO] (bothub) This package is up to date.
-[INFO] (bothub-cli) Data has been updated for this package.
+[INFO] (bothub-cli) This package is up to date.
 [INFO] (botibal) This package is up to date.
 [INFO] (botify) This package is up to date.
 [INFO] (botilab-init-ubuntu-server) This package is up to date.
@@ -3400,6 +3400,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (boto) This package is up to date.
 [INFO] (boto-addins) This package is up to date.
 [ERROR] (boto-mangrove) This package does not have downloadable releases.
+[INFO] (boto-mws) Data has been updated for this package.
 [INFO] (boto-patch) This package is up to date.
 [INFO] (boto-rsync) This package is up to date.
 [INFO] (boto-s3-shim) This package is up to date.
@@ -3411,7 +3412,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (boto3-policygen) This package is up to date.
 [INFO] (boto3-retry) This package is up to date.
 [INFO] (boto3-session-cache) This package is up to date.
-[INFO] (boto3facade) This package is up to date.
+[INFO] (boto3facade) Data has been updated for this package.
 [INFO] (boto3helper) This package is up to date.
 [INFO] (botocore) This package is up to date.
 [INFO] (botocore-meiqia) This package is up to date.
@@ -4036,7 +4037,7 @@ This package download URL does not point to a valid file: "http://www.defuze.org
 [INFO] (browler) This package is up to date.
 [INFO] (brownant) This package is up to date.
 [INFO] (brownbat) This package is up to date.
-[INFO] (browndog) Data has been updated for this package.
+[INFO] (browndog) This package is up to date.
 [INFO] (brownfox) This package is up to date.
 [INFO] (brownie) This package is up to date.
 [INFO] (brownstone) This package is up to date.
@@ -4663,7 +4664,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (buttshock) This package is up to date.
 [INFO] (buu) This package is up to date.
 [ERROR] (buxfer) This package does not have downloadable releases.
-[INFO] (buzhug) Data has been updated for this package.
+[INFO] (buzhug) This package is up to date.
 [INFO] (buzz-agent) This package is up to date.
 [ERROR] (buzz-python-client) This package does not have downloadable releases.
 [INFO] (buzzalgotrade) This package is up to date.
@@ -4881,10 +4882,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bzz) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 3748
-[INFO]     Packages processed: 3748
-[INFO]         Packages updated: 9
-[INFO]         Packages up-to-date: 3364
+[INFO] Total packages: 3749
+[INFO]     Packages processed: 3749
+[INFO]         Packages updated: 7
+[INFO]         Packages up-to-date: 3367
 [INFO]         Packages without response: 26
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 295
