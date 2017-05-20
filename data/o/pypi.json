@@ -6006,7 +6006,7 @@
             "account_cutoff_accrual_base.tests",
             "account_cutoff_accrual_base.tests.test_account_cutoff"
         ],
-        "version": "10.0.0.1.0.99.dev4"
+        "version": "10.0.0.1.0.99.dev5"
     },
     "odoo10-addon-account-cutoff-base": {
         "cmdline": [],
@@ -6018,7 +6018,7 @@
             "account_cutoff_base.tests",
             "account_cutoff_base.tests.test_account_cutoff"
         ],
-        "version": "10.0.1.0.0.99.dev4"
+        "version": "10.0.1.0.0.99.dev5"
     },
     "odoo10-addon-account-cutoff-prepaid": {
         "cmdline": [],
@@ -6030,7 +6030,7 @@
             "account_cutoff_prepaid.tests",
             "account_cutoff_prepaid.tests.test_account_cutoff_prepaid"
         ],
-        "version": "10.0.1.0.0.99.dev3"
+        "version": "10.0.1.0.0.99.dev4"
     },
     "odoo10-addon-account-due-list": {
         "cmdline": [],
@@ -6153,7 +6153,7 @@
             "account_invoice_force_number.tests",
             "account_invoice_force_number.tests.test_account_force_number"
         ],
-        "version": "10.0.1.0.0.99.dev2"
+        "version": "10.0.1.0.0.99.dev3"
     },
     "odoo10-addon-account-invoice-refund-link": {
         "cmdline": [],
@@ -7020,6 +7020,13 @@
         ],
         "version": "10.0.1.0.0.99.dev17"
     },
+    "odoo10-addon-connector-base-product": {
+        "cmdline": [],
+        "modules": [
+            "connector_base_product"
+        ],
+        "version": "10.0.1.0.0"
+    },
     "odoo10-addon-contract": {
         "cmdline": [],
         "modules": [
@@ -7101,7 +7108,7 @@
             "crm_phonecall.wizard",
             "crm_phonecall.wizard.crm_phonecall_to_phonecall"
         ],
-        "version": "10.0.1.0.0.99.dev3"
+        "version": "10.0.1.0.0.99.dev4"
     },
     "odoo10-addon-currency-rate-update": {
         "cmdline": [],
@@ -7423,7 +7430,7 @@
             "hr_holidays_leave_auto_approve.tests",
             "hr_holidays_leave_auto_approve.tests.test_hr_holidays_leave_auto_approve"
         ],
-        "version": "10.0.1.0.0.99.dev5"
+        "version": "10.0.1.0.0.99.dev6"
     },
     "odoo10-addon-hr-holidays-legal-leave": {
         "cmdline": [],
@@ -8914,7 +8921,7 @@
             "project_timesheet_time_control.tests",
             "project_timesheet_time_control.tests.test_project_timesheet_time_control"
         ],
-        "version": "10.0.1.0.0.99.dev1"
+        "version": "10.0.1.0.0.99.dev2"
     },
     "odoo10-addon-purchase-fiscal-position-update": {
         "cmdline": [],
@@ -9036,7 +9043,7 @@
             "report_py3o.tests",
             "report_py3o.tests.test_report_py3o"
         ],
-        "version": "10.0.1.1.0.99.dev4"
+        "version": "10.0.1.1.0.99.dev6"
     },
     "odoo10-addon-report-qweb-element-page-visibility": {
         "cmdline": [],
@@ -9837,7 +9844,7 @@
             "account_bank_statement_import.tests.test_import_file",
             "account_bank_statement_import.tests.test_res_partner_bank"
         ],
-        "version": "8.0.1.1.0.99.dev2"
+        "version": "8.0.1.1.0.99.dev3"
     },
     "odoo8-addon-account-bank-statement-import-camt": {
         "cmdline": [],
@@ -9980,7 +9987,7 @@
             "account_banking_pain_base.models.res_partner_bank",
             "account_banking_pain_base.post_install"
         ],
-        "version": "8.0.0.4.0.99.dev23"
+        "version": "8.0.0.4.0.99.dev24"
     },
     "odoo8-addon-account-banking-payment-export": {
         "cmdline": [],
@@ -10270,7 +10277,7 @@
             "account_due_list_payment_mode.models",
             "account_due_list_payment_mode.models.account_move_line"
         ],
-        "version": "8.0.1.0.0.99.dev17"
+        "version": "8.0.1.0.0.99.dev18"
     },
     "odoo8-addon-account-easy-reconcile": {
         "cmdline": [],
@@ -10372,7 +10379,7 @@
             "account_fiscal_position_rule.models.account_fiscal_position_rule",
             "account_fiscal_position_rule.models.account_invoice"
         ],
-        "version": "8.0.1.2.0.99.dev24"
+        "version": "8.0.1.2.0.99.dev25"
     },
     "odoo8-addon-account-fiscal-position-rule-purchase": {
         "cmdline": [],
@@ -10381,7 +10388,7 @@
             "account_fiscal_position_rule_purchase.models",
             "account_fiscal_position_rule_purchase.models.purchase"
         ],
-        "version": "8.0.1.1.0.99.dev9"
+        "version": "8.0.1.1.0.99.dev10"
     },
     "odoo8-addon-account-fiscal-position-rule-sale": {
         "cmdline": [],
@@ -10543,7 +10550,7 @@
             "account_invoice_kanban.models",
             "account_invoice_kanban.models.account_invoice"
         ],
-        "version": "8.0.1.0.0.99.dev5"
+        "version": "8.0.1.0.0.99.dev6"
     },
     "odoo8-addon-account-invoice-line-description": {
         "cmdline": [],
@@ -11205,7 +11212,7 @@
             "account_product_fiscal_classification.tests",
             "account_product_fiscal_classification.tests.test_classification"
         ],
-        "version": "8.0.2.1.0.99.dev30"
+        "version": "8.0.2.1.0.99.dev31"
     },
     "odoo8-addon-account-reconcile-payment-order": {
         "cmdline": [],
@@ -11283,7 +11290,7 @@
             "account_statement_operation_multicompany",
             "account_statement_operation_multicompany.account"
         ],
-        "version": "8.0.0.2.0.99.dev12"
+        "version": "8.0.0.2.0.99.dev13"
     },
     "odoo8-addon-account-statement-operation-rule": {
         "cmdline": [],
@@ -11702,7 +11709,7 @@
             "base_comment_template",
             "base_comment_template.comment"
         ],
-        "version": "8.0.1.0.0.99.dev16"
+        "version": "8.0.1.0.0.99.dev17"
     },
     "odoo8-addon-base-concurrency": {
         "cmdline": [],
@@ -11853,7 +11860,7 @@
             "base_geoengine_demo.geo_npa",
             "base_geoengine_demo.retail_machine"
         ],
-        "version": "8.0.0.1.0.99.dev18"
+        "version": "8.0.0.1.0.99.dev19"
     },
     "odoo8-addon-base-gs1-barcode": {
         "cmdline": [],
@@ -12282,7 +12289,7 @@
             "business_requirement_deliverable.tests",
             "business_requirement_deliverable.tests.test_br"
         ],
-        "version": "8.0.5.0.1.99.dev2"
+        "version": "8.0.5.0.1.99.dev3"
     },
     "odoo8-addon-business-requirement-deliverable-categ": {
         "cmdline": [],
@@ -12304,7 +12311,7 @@
             "business_requirement_deliverable_cost.tests",
             "business_requirement_deliverable_cost.tests.test_br"
         ],
-        "version": "8.0.2.0.0.99.dev7"
+        "version": "8.0.2.0.0.99.dev8"
     },
     "odoo8-addon-business-requirement-deliverable-crm": {
         "cmdline": [],
@@ -12363,7 +12370,7 @@
             "business_requirement_deliverable_project_task_categ.wizard",
             "business_requirement_deliverable_project_task_categ.wizard.generate_projects"
         ],
-        "version": "8.0.1.0.2"
+        "version": "8.0.1.0.2.99.dev1"
     },
     "odoo8-addon-business-requirement-deliverable-report": {
         "cmdline": [],
@@ -12382,7 +12389,7 @@
             "business_requirement_deliverable_resource_template.tests",
             "business_requirement_deliverable_resource_template.tests.test_br_resource_template"
         ],
-        "version": "8.0.1.0.1"
+        "version": "8.0.1.0.1.99.dev1"
     },
     "odoo8-addon-business-requirement-deliverable-resource-template-categ": {
         "cmdline": [],
@@ -12391,7 +12398,7 @@
             "business_requirement_deliverable_resource_template_categ.models",
             "business_requirement_deliverable_resource_template_categ.models.business_requirement_resource_template"
         ],
-        "version": "8.0.1.0.0"
+        "version": "8.0.1.0.0.99.dev1"
     },
     "odoo8-addon-business-requirement-earned-value": {
         "cmdline": [],
@@ -12448,7 +12455,7 @@
             "connector.unit.mapper",
             "connector.unit.synchronizer"
         ],
-        "version": "8.0.3.3.0.99.dev35"
+        "version": "8.0.3.3.0.99.dev36"
     },
     "odoo8-addon-connector-base-product": {
         "cmdline": [],
@@ -12530,7 +12537,7 @@
             "connector_job_subscribe.tests",
             "connector_job_subscribe.tests.test_job_subscribe"
         ],
-        "version": "8.0.1.0.0.99.dev5"
+        "version": "8.0.1.0.0.99.dev6"
     },
     "odoo8-addon-connector-prestashop": {
         "cmdline": [],
@@ -12817,7 +12824,7 @@
             "contract_payment_mode.tests",
             "contract_payment_mode.tests.test_contract_payment_init"
         ],
-        "version": "8.0.1.0.0.99.dev16"
+        "version": "8.0.1.0.0.99.dev17"
     },
     "odoo8-addon-contract-recurring-invoicing-marker": {
         "cmdline": [],
@@ -13138,7 +13145,7 @@
             "crm_phone.wizard.create_crm_phonecall",
             "crm_phone.wizard.number_not_found"
         ],
-        "version": "8.0.0.1.0.99.dev18"
+        "version": "8.0.0.1.0.99.dev19"
     },
     "odoo8-addon-crm-phonecall-category": {
         "cmdline": [],
@@ -13444,7 +13451,7 @@
             "delivery_carrier_deposit.wizard",
             "delivery_carrier_deposit.wizard.deposit"
         ],
-        "version": "8.0.0.2.1.99.dev16"
+        "version": "8.0.0.2.1.99.dev17"
     },
     "odoo8-addon-delivery-carrier-label-gls": {
         "cmdline": [],
@@ -13540,7 +13547,7 @@
             "document_page_approval",
             "document_page_approval.document_page_approval"
         ],
-        "version": "8.0.1.0.0.99.dev16"
+        "version": "8.0.1.0.0.99.dev17"
     },
     "odoo8-addon-document-page-environment-manual": {
         "cmdline": [],
@@ -15843,7 +15850,7 @@
             "l10n_es_aeat_mod340.wizard.export_mod340_to_boe",
             "l10n_es_aeat_mod340.wizard.wizard_update_charts_accounts"
         ],
-        "version": "8.0.2.5.0.99.dev3"
+        "version": "8.0.2.5.1"
     },
     "odoo8-addon-l10n-es-aeat-mod340-cash-basis": {
         "cmdline": [],
@@ -16074,7 +16081,7 @@
             "l10n_et_base_vat",
             "l10n_et_base_vat.res"
         ],
-        "version": "8.0.1.0.0.99.dev10"
+        "version": "8.0.1.0.0.99.dev11"
     },
     "odoo8-addon-l10n-et-title": {
         "cmdline": [],
@@ -17086,7 +17093,7 @@
             "magentoerpconnect.unit.import_synchronizer",
             "magentoerpconnect.unit.mapper"
         ],
-        "version": "8.0.3.0.0.99.dev89"
+        "version": "8.0.3.0.0.99.dev90"
     },
     "odoo8-addon-magentoerpconnect-pricing": {
         "cmdline": [],
@@ -20801,7 +20808,7 @@
             "sale_commission.wizard.wizard_invoice",
             "sale_commission.wizard.wizard_settle"
         ],
-        "version": "8.0.3.0.0.99.dev27"
+        "version": "8.0.3.0.0.99.dev28"
     },
     "odoo8-addon-sale-commission-formula": {
         "cmdline": [],
@@ -23636,7 +23643,7 @@
             "website_sale_product_brand.models",
             "website_sale_product_brand.models.website"
         ],
-        "version": "8.0.1.0.0.99.dev12"
+        "version": "8.0.1.0.0.99.dev13"
     },
     "odoo8-addon-website-sale-product-category-seo": {
         "cmdline": [],
@@ -23938,7 +23945,7 @@
             "account_banking_mandate.models.res_partner",
             "account_banking_mandate.models.res_partner_bank"
         ],
-        "version": "9.0.1.1.0.99.dev2"
+        "version": "9.0.1.1.0.99.dev3"
     },
     "odoo9-addon-account-banking-mandate-sale": {
         "cmdline": [],
@@ -23964,7 +23971,7 @@
             "account_banking_pain_base.models.res_company",
             "account_banking_pain_base.post_install"
         ],
-        "version": "9.0.1.0.0.99.dev36"
+        "version": "9.0.1.0.0.99.dev37"
     },
     "odoo9-addon-account-banking-sepa-credit-transfer": {
         "cmdline": [],
@@ -24341,7 +24348,7 @@
             "account_invoice_supplier_ref_unique.wizards",
             "account_invoice_supplier_ref_unique.wizards.account_invoice_refund"
         ],
-        "version": "9.0.1.0.0.99.dev6"
+        "version": "9.0.1.0.0.99.dev7"
     },
     "odoo9-addon-account-invoice-tax-required": {
         "cmdline": [],
@@ -24552,7 +24559,7 @@
             "account_payment_mode.models.account_payment_mode",
             "account_payment_mode.models.res_partner_bank"
         ],
-        "version": "9.0.1.0.0.99.dev43"
+        "version": "9.0.1.0.0.99.dev44"
     },
     "odoo9-addon-account-payment-order": {
         "cmdline": [],
@@ -24571,7 +24578,7 @@
             "account_payment_order.wizard.account_invoice_payment_line_multi",
             "account_payment_order.wizard.account_payment_line_create"
         ],
-        "version": "9.0.1.1.2.99.dev5"
+        "version": "9.0.1.1.2.99.dev6"
     },
     "odoo9-addon-account-payment-partner": {
         "cmdline": [],
@@ -24582,7 +24589,7 @@
             "account_payment_partner.models.account_move_line",
             "account_payment_partner.models.res_partner"
         ],
-        "version": "9.0.1.1.0.99.dev1"
+        "version": "9.0.1.1.0.99.dev2"
     },
     "odoo9-addon-account-payment-purchase": {
         "cmdline": [],
@@ -24595,7 +24602,7 @@
             "account_payment_purchase.tests",
             "account_payment_purchase.tests.test_account_payment_purchase"
         ],
-        "version": "9.0.1.0.0"
+        "version": "9.0.1.0.0.99.dev1"
     },
     "odoo9-addon-account-payment-return": {
         "cmdline": [],
@@ -24620,7 +24627,7 @@
             "account_payment_sale.wizard",
             "account_payment_sale.wizard.sale_make_invoice_advance"
         ],
-        "version": "9.0.1.0.0.99.dev19"
+        "version": "9.0.1.0.0.99.dev20"
     },
     "odoo9-addon-account-payment-term-extension": {
         "cmdline": [],
@@ -24696,7 +24703,7 @@
             "account_reporting_weight.reports",
             "account_reporting_weight.reports.account_invoice_report"
         ],
-        "version": "9.0.1.0.0"
+        "version": "9.0.1.0.0.99.dev1"
     },
     "odoo9-addon-account-reversal": {
         "cmdline": [],
@@ -24938,7 +24945,7 @@
             "base_comment_template.models",
             "base_comment_template.models.comment"
         ],
-        "version": "9.0.1.0.0"
+        "version": "9.0.1.0.0.99.dev1"
     },
     "odoo9-addon-base-custom-info": {
         "cmdline": [],
@@ -24965,7 +24972,7 @@
             "base_delivery_carrier_label.tests",
             "base_delivery_carrier_label.tests.test_get_weight"
         ],
-        "version": "9.0.1.0.1.99.dev2"
+        "version": "9.0.1.0.1.99.dev3"
     },
     "odoo9-addon-base-export-manager": {
         "cmdline": [],
@@ -25497,7 +25504,7 @@
             "connector.unit.mapper",
             "connector.unit.synchronizer"
         ],
-        "version": "9.0.1.0.3.99.dev78"
+        "version": "9.0.1.0.3.99.dev79"
     },
     "odoo9-addon-connector-base-product": {
         "cmdline": [],
@@ -25541,7 +25548,7 @@
             "connector_job_subscribe.tests",
             "connector_job_subscribe.tests.test_job_subscribe"
         ],
-        "version": "9.0.1.0.0.99.dev1"
+        "version": "9.0.1.0.0.99.dev2"
     },
     "odoo9-addon-connector-prestashop": {
         "cmdline": [],
@@ -25770,7 +25777,7 @@
             "crm_action.tests",
             "crm_action.tests.test_crm_action"
         ],
-        "version": "9.0.1.0.0"
+        "version": "9.0.1.0.0.99.dev1"
     },
     "odoo9-addon-crm-claim-code": {
         "cmdline": [],
@@ -25801,7 +25808,7 @@
             "crm_claim_type.models.crm_claim_stage",
             "crm_claim_type.models.crm_claim_type"
         ],
-        "version": "9.0.1.0.0.99.dev22"
+        "version": "9.0.1.0.0.99.dev23"
     },
     "odoo9-addon-crm-deduplicate-acl": {
         "cmdline": [],
@@ -25910,7 +25917,7 @@
             "crm_phonecall.wizard",
             "crm_phonecall.wizard.crm_phonecall_to_phonecall"
         ],
-        "version": "9.0.1.0.0.99.dev3"
+        "version": "9.0.1.0.0.99.dev4"
     },
     "odoo9-addon-crm-phonecall-summary-predefined": {
         "cmdline": [],
@@ -25920,7 +25927,7 @@
             "crm_phonecall_summary_predefined.models",
             "crm_phonecall_summary_predefined.models.crm_phonecall"
         ],
-        "version": "9.0.1.0.0.99.dev1"
+        "version": "9.0.1.0.0.99.dev2"
     },
     "odoo9-addon-crm-rma-location": {
         "cmdline": [],
@@ -26137,7 +26144,7 @@
             "document_page_approval.tests.test_document_page_approval",
             "document_page_approval.tests.test_document_page_history_workflow"
         ],
-        "version": "9.0.1.0.0.99.dev29"
+        "version": "9.0.1.0.0.99.dev30"
     },
     "odoo9-addon-document-page-environment-manual": {
         "cmdline": [],
@@ -26568,7 +26575,7 @@
             "invoice_comment_template",
             "invoice_comment_template.account_invoice"
         ],
-        "version": "9.0.1.0.0.99.dev1"
+        "version": "9.0.1.0.0.99.dev2"
     },
     "odoo9-addon-keychain": {
         "cmdline": [],
@@ -29605,7 +29612,7 @@
             "sale_delivery_rate.tests.test_delivery_carrier_rate",
             "sale_delivery_rate.tests.test_stock_move"
         ],
-        "version": "9.0.1.0.0"
+        "version": "9.0.1.0.0.99.dev1"
     },
     "odoo9-addon-sale-enterprise-remove": {
         "cmdline": [],
@@ -30515,6 +30522,19 @@
         ],
         "version": "9.0.2.0.0.99.dev4"
     },
+    "odoo9-addon-survey-percent-question": {
+        "cmdline": [],
+        "modules": [
+            "survey_percent_question",
+            "survey_percent_question.models",
+            "survey_percent_question.models.survey",
+            "survey_percent_question.models.survey_input",
+            "survey_percent_question.models.survey_question",
+            "survey_percent_question.tests",
+            "survey_percent_question.tests.test_percent_question"
+        ],
+        "version": "9.0.1.0.0"
+    },
     "odoo9-addon-test-base-import-async": {
         "cmdline": [],
         "modules": [
@@ -31109,7 +31129,7 @@
             "website_sale_product_brand.models",
             "website_sale_product_brand.models.website"
         ],
-        "version": "9.0.1.1.0.99.dev4"
+        "version": "9.0.1.1.0.99.dev5"
     },
     "odoo9-addon-website-sale-qty": {
         "cmdline": [],
@@ -31121,7 +31141,7 @@
             "website_sale_qty.tests.test_js",
             "website_sale_qty.tests.test_product_template"
         ],
-        "version": "9.0.1.0.0"
+        "version": "9.0.1.0.0.99.dev1"
     },
     "odoo9-addon-website-sale-require-legal": {
         "cmdline": [],
@@ -50878,7 +50898,7 @@
             "openhomedevice.Soap",
             "openhomedevice.TrackInfoParser"
         ],
-        "version": "0.3.0"
+        "version": "0.4.0"
     },
     "openhtf": {
         "cmdline": [],
@@ -58094,7 +58114,7 @@
             "opentc.icap.server",
             "opentc.icap.setting"
         ],
-        "version": "0.1.14"
+        "version": "0.1.15"
     },
     "opentc-util": {
         "cmdline": [],
@@ -66033,6 +66053,7 @@
             "ores.util",
             "ores.utilities",
             "ores.utilities.precached",
+            "ores.utilities.score_revisions",
             "ores.utilities.util",
             "ores.utilities.watchdog",
             "ores.wsgi",
@@ -66058,7 +66079,7 @@
             "ores.wsgi.server",
             "ores.wsgi.util"
         ],
-        "version": "0.9.0"
+        "version": "0.9.1"
     },
     "org": {
         "cmdline": [],
