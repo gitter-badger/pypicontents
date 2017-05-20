@@ -157,7 +157,7 @@ OSError: [Errno 13] Permission denied: '/tmp/pypic-extract/p4d-langlet/P4D Langl
 This package download URL does not point to a valid file: "http://www.ravenbrook.com/project/p4dti/release/"
 [INFO] (p4j) This package is up to date.
 [INFO] (p4python) This package is up to date.
-[INFO] (p4pythoninstaller) Data has been updated for this package.
+[INFO] (p4pythoninstaller) This package is up to date.
 [INFO] (p4rr0t007) This package is up to date.
 [INFO] (p4swamp) This package is up to date.
 [INFO] (p4util) This package is up to date.
@@ -289,11 +289,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pacli) This package is up to date.
 [ERROR] (pacman) This package does not have downloadable releases.
 [INFO] (pacman-game) This package is up to date.
-[INFO] (pacmanprogressbar) Data has been updated for this package.
+[INFO] (pacmanprogressbar) This package is up to date.
 [INFO] (pacmimi) This package is up to date.
 [INFO] (paco) This package is up to date.
 [INFO] (pacpy) This package is up to date.
 [INFO] (pact) This package is up to date.
+[INFO] (pact-test) Data has been updated for this package.
 [INFO] (pactivitystream) This package is up to date.
 [INFO] (pactool) This package is up to date.
 [INFO] (pactors) This package is up to date.
@@ -358,7 +359,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (pafy) This package is up to date.
 [INFO] (pag) This package is up to date.
 [INFO] (pagan) This package is up to date.
-[INFO] (pagarme-py) Data has been updated for this package.
+[INFO] (pagarme-py) This package is up to date.
 [INFO] (pagarme-python) This package is up to date.
 [INFO] (pagarmepy) This package is up to date.
 [INFO] (pagd) This package is up to date.
@@ -820,7 +821,7 @@ Unsupported package directory structure.
 [INFO] (paradocx) This package is up to date.
 [INFO] (paragoo) This package is up to date.
 [INFO] (paragram) This package is up to date.
-[INFO] (paragrep) Data has been updated for this package.
+[INFO] (paragrep) This package is up to date.
 [INFO] (paragres) This package is up to date.
 [INFO] (parakeet) This package is up to date.
 [INFO] (parallax) This package is up to date.
@@ -856,7 +857,7 @@ This package download URL does not point to a valid file: "http://www.parallelpy
 [INFO] (parameterizedtestcase) This package is up to date.
 [INFO] (parameters) This package is up to date.
 [INFO] (parametricmodeling) This package is up to date.
-[INFO] (parametrix) This package is up to date.
+[INFO] (parametrix) Data has been updated for this package.
 [INFO] (parametrized) This package is up to date.
 [INFO] (paramiko) This package is up to date.
 [ERROR] (paramiko-3k) This package does not have downloadable releases.
@@ -1024,9 +1025,10 @@ This package download URL does not point to a valid file: "http://www.nanoo.org/
 [INFO] (parsley) This package is up to date.
 [ERROR] (parsly) This package does not have downloadable releases.
 [INFO] (parsnip) This package is up to date.
+[INFO] (parso) Data has been updated for this package.
 [INFO] (parsy) This package is up to date.
 [INFO] (parsyfiles) This package is up to date.
-[INFO] (parsys-utilities) Data has been updated for this package.
+[INFO] (parsys-utilities) This package is up to date.
 [INFO] (part2) This package is up to date.
 [INFO] (partd) This package is up to date.
 [INFO] (parterre) This package is up to date.
@@ -1284,12 +1286,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pathfix.py) This package is up to date.
 [INFO] (pathinby) This package is up to date.
 [INFO] (pathlib) This package is up to date.
-[INFO] (pathlib-mate) Data has been updated for this package.
+[INFO] (pathlib-mate) This package is up to date.
 [INFO] (pathlib-revised) This package is up to date.
 [ERROR] (pathlib-zip) This package does not have downloadable releases.
 [INFO] (pathlib2) This package is up to date.
 [INFO] (pathlt) This package is up to date.
-[ERROR] (pathmap) This package does not have downloadable releases.
+[INFO] (pathmap) Data has been updated for this package.
 [INFO] (pathmatch) This package is up to date.
 [INFO] (pathminer) This package is up to date.
 [ERROR] (pathobject) This package does not have downloadable releases.
@@ -1401,7 +1403,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (paxmusica) This package is up to date.
 [INFO] (paxo) This package is up to date.
 [INFO] (paxos) This package is up to date.
-[INFO] (pay-with-amazon) Data has been updated for this package.
+[INFO] (pay-with-amazon) This package is up to date.
 [INFO] (payapp) This package is up to date.
 [INFO] (payara) This package is up to date.
 [INFO] (paybook) This package is up to date.
@@ -1500,7 +1502,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (paywithscratch) This package is up to date.
 [INFO] (payyans) This package is up to date.
 [INFO] (payzone) This package is up to date.
-[INFO] (pazudorasolver) This package is up to date.
+[INFO] (pazudorasolver) Data has been updated for this package.
 [ERROR] (pb) This package does not have downloadable releases.
 [INFO] (pb-job-manager) This package is up to date.
 [INFO] (pb-manager) This package is up to date.
@@ -1527,7 +1529,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pbkdf) This package is up to date.
 [INFO] (pbkdf-pkcs12) This package is up to date.
 [INFO] (pbkdf2) This package is up to date.
-[INFO] (pbkdf2-ctypes) Data has been updated for this package.
+[INFO] (pbkdf2-ctypes) This package is up to date.
 [INFO] (pbkdf2.py) This package is up to date.
 [INFO] (pbl) This package is up to date.
 [INFO] (pbm) This package is up to date.
@@ -1628,7 +1630,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pcassandra) This package is up to date.
 [INFO] (pcat) This package is up to date.
 [INFO] (pcattori-namespace) This package is up to date.
-[INFO] (pcbasic) Data has been updated for this package.
+[INFO] (pcbasic) This package is up to date.
 [INFO] (pcbcons) This package is up to date.
 [INFO] (pcc) This package is up to date.
 [INFO] (pccora) This package is up to date.
@@ -1757,7 +1759,7 @@ This package download URL does not point to a valid file: "http://www.procoders.
 [INFO] (pdef-objc) This package is up to date.
 [INFO] (pdef-python) This package is up to date.
 [INFO] (pdem) This package is up to date.
-[INFO] (pdf) Data has been updated for this package.
+[INFO] (pdf) This package is up to date.
 [INFO] (pdf-client) This package is up to date.
 [INFO] (pdf-counter) This package is up to date.
 [ERROR] (pdf-diff) This package does not have downloadable releases.
@@ -1943,7 +1945,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 This package download URL does not point to a valid file: "http://peak.telecommunity.com/dist/"
 [ERROR] (peak-rules) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://peak.telecommunity.com/snapshots/"
-[INFO] (peakdetect-delta) Data has been updated for this package.
+[INFO] (peakdetect-delta) This package is up to date.
 [ERROR] (peaker) This package does not have downloadable releases.
 [INFO] (peakit) This package is up to date.
 [INFO] (peakutils) This package is up to date.
@@ -2036,7 +2038,7 @@ This package download URL does not point to a valid file: "http://pypi.python.or
 [INFO] (peercoin-rpc) This package is up to date.
 [INFO] (peeringdb) This package is up to date.
 [INFO] (peerme) This package is up to date.
-[INFO] (peerplays) Data has been updated for this package.
+[INFO] (peerplays) This package is up to date.
 [INFO] (peerreach) This package is up to date.
 [INFO] (peerreviewcs485) This package is up to date.
 [INFO] (peersub) This package is up to date.
@@ -2134,7 +2136,7 @@ This package download URL does not point to a valid file: "https://bitbucket.org
 [INFO] (pelican.bitly) This package is up to date.
 [INFO] (pelicanfly) This package is up to date.
 [INFO] (pelicangit) This package is up to date.
-[INFO] (pelicide) Data has been updated for this package.
+[INFO] (pelicide) This package is up to date.
 [INFO] (pelix-webconsole) This package is up to date.
 [INFO] (peloton-bloomfilters) This package is up to date.
 [INFO] (peloton-pycassa) This package is up to date.
@@ -2388,7 +2390,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (persistentdicts-dev) This package is up to date.
 [INFO] (persistentlist) This package is up to date.
 [INFO] (persisting-theory) This package is up to date.
-[INFO] (persistiq) Data has been updated for this package.
+[INFO] (persistiq) This package is up to date.
 [INFO] (persistpy) This package is up to date.
 [ERROR] (person) This package does not have downloadable releases.
 [INFO] (person-extractor) This package is up to date.
@@ -2432,7 +2434,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (pestle) This package does not have downloadable releases.
 [INFO] (pesto) This package is up to date.
 [INFO] (pestotools.genshi) This package is up to date.
-[INFO] (pet) Data has been updated for this package.
+[INFO] (pet) This package is up to date.
 [INFO] (pet-debian) This package is up to date.
 [INFO] (petapass) This package is up to date.
 [ERROR] (petard) This package does not have downloadable releases.
@@ -2926,7 +2928,7 @@ Unsupported package directory structure.
 [INFO] (piano) This package is up to date.
 [ERROR] (piano-man) This package does not have downloadable releases.
 [INFO] (pianohat) This package is up to date.
-[INFO] (piapi) Data has been updated for this package.
+[INFO] (piapi) This package is up to date.
 [INFO] (piazza-api) This package is up to date.
 [INFO] (pibake) This package is up to date.
 [ERROR] (piboso) Could not extract data from this package. See below for details.
@@ -3008,6 +3010,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pickle-secure) This package is up to date.
 [INFO] (pickle-warehouse) This package is up to date.
 [INFO] (picklecache) This package is up to date.
+[INFO] (pickleclip) Data has been updated for this package.
 [INFO] (pickledb) This package is up to date.
 [INFO] (picklejar) This package is up to date.
 [INFO] (picklemigrate) This package is up to date.
@@ -3202,7 +3205,7 @@ This package download URL does not point to a valid file: "http://www.pythonweb.
 [INFO] (pika-upfluence) This package is up to date.
 [INFO] (pikabu) This package is up to date.
 [INFO] (pikabu-telegram-bot) This package is up to date.
-[INFO] (pikachewie) Data has been updated for this package.
+[INFO] (pikachewie) This package is up to date.
 [INFO] (pikachu) This package is up to date.
 [INFO] (pikacon) This package is up to date.
 [ERROR] (pikalang) This package does not have downloadable releases.
@@ -3225,7 +3228,7 @@ This package download URL does not point to a valid file: "http://effbot.org/dow
 [INFO] (pilbox) This package is up to date.
 [INFO] (pile) This package is up to date.
 [INFO] (piletools) This package is up to date.
-[INFO] (pileup) Data has been updated for this package.
+[INFO] (pileup) This package is up to date.
 [INFO] (pilex) This package is up to date.
 [INFO] (pilgrim) This package is up to date.
 [INFO] (pilhelp) This package is up to date.
@@ -3239,7 +3242,7 @@ This package download URL does not point to a valid file: "http://effbot.org/dow
 [INFO] (pillarsdk) This package is up to date.
 [INFO] (pillow) This package is up to date.
 [INFO] (pillow-pil) This package is up to date.
-[INFO] (pillow-simd) Data has been updated for this package.
+[INFO] (pillow-simd) This package is up to date.
 [INFO] (pillowcase) This package is up to date.
 [INFO] (pillowfight) This package is up to date.
 [INFO] (pillowfluff) This package is up to date.
@@ -3250,7 +3253,7 @@ This package download URL does not point to a valid file: "http://effbot.org/dow
 [INFO] (pilosa) This package is up to date.
 [INFO] (pilot) This package is up to date.
 [INFO] (pilot-lib) This package is up to date.
-[INFO] (pilot-shell) Data has been updated for this package.
+[INFO] (pilot-shell) This package is up to date.
 [INFO] (pilote) This package is up to date.
 [INFO] (pilotmapreduce) This package is up to date.
 [INFO] (pilotwire-controller) This package is up to date.
@@ -3603,12 +3606,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pipping-easy-install) This package is up to date.
 [INFO] (pippy) This package is up to date.
 [INFO] (pipr) This package is up to date.
-[INFO] (pipreq) Data has been updated for this package.
+[INFO] (pipreq) This package is up to date.
 [INFO] (pipreqs) This package is up to date.
 [INFO] (piprot) This package is up to date.
 [INFO] (piprun) This package is up to date.
 [ERROR] (pips) This package does not have downloadable releases.
-[INFO] (pipsalabim) This package is up to date.
+[INFO] (pipsalabim) Data has been updated for this package.
 [INFO] (pipsi) This package is up to date.
 [INFO] (pipsi-tool) This package is up to date.
 [INFO] (pipsort) This package is up to date.
@@ -3646,7 +3649,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (piqq) This package is up to date.
 [INFO] (piquant) This package is up to date.
 [INFO] (pique) This package is up to date.
-[INFO] (piqueserver) Data has been updated for this package.
+[INFO] (piqueserver) This package is up to date.
 [INFO] (pir) This package is up to date.
 [ERROR] (pirate) This package does not have downloadable releases.
 [INFO] (pirate-get) This package is up to date.
@@ -3674,7 +3677,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pishiftpy) This package is up to date.
 [INFO] (pisoc) This package is up to date.
 [INFO] (pisoflux) This package is up to date.
-[INFO] (pisort) Data has been updated for this package.
+[INFO] (pisort) This package is up to date.
 [INFO] (pist) This package is up to date.
 [INFO] (pistachio) This package is up to date.
 [INFO] (pistachio-mail) This package is up to date.
@@ -3792,7 +3795,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (pixhostuploader) This package is up to date.
 [ERROR] (pixie) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://svn2.assembla.com/svn/pixie/trunk"
-[INFO] (pixiedust) Data has been updated for this package.
+[INFO] (pixiedust) This package is up to date.
 [INFO] (pixiedust-flightpredict) This package is up to date.
 [INFO] (pixiedust-twitterdemo) This package is up to date.
 [INFO] (pixiedust-wordcloud) This package is up to date.
@@ -3977,7 +3980,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (plaintext-gtd) This package does not have downloadable releases.
 [ERROR] (plait) This package does not have downloadable releases.
 [INFO] (plambda) This package is up to date.
-[INFO] (plams) Data has been updated for this package.
+[INFO] (plams) This package is up to date.
 [INFO] (plan) This package is up to date.
 [INFO] (plan-py) This package is up to date.
 [INFO] (planadversity) This package is up to date.
@@ -4142,7 +4145,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (plemp) This package is up to date.
 [INFO] (plenum) This package is up to date.
 [INFO] (plenum-3pc-batch) This package is up to date.
-[INFO] (plenum-dev) Data has been updated for this package.
+[INFO] (plenum-dev) This package is up to date.
 [INFO] (plenum-rc) This package is up to date.
 [INFO] (plex) This package is up to date.
 [INFO] (plex-download) This package is up to date.
@@ -4859,7 +4862,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 This package download URL does not point to a valid file: "http://sourceforge.net/projects/pmcyg/files/pmcyg/pmcyg-2.2/pmcyg-2.2.tgz/download"
 [INFO] (pmdc) This package is up to date.
 [INFO] (pmdp) This package is up to date.
-[INFO] (pmesh) This package is up to date.
+[INFO] (pmesh) Data has been updated for this package.
 [INFO] (pmi) This package is up to date.
 [ERROR] (pmidi) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://www.sourceforge.net/projects/uncassist"
@@ -5154,7 +5157,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pololu-motors) This package is up to date.
 [INFO] (poloniex) This package is up to date.
 [INFO] (polr) This package is up to date.
-[INFO] (polr-cli) Data has been updated for this package.
+[INFO] (polr-cli) This package is up to date.
 [INFO] (polsalt) This package is up to date.
 [INFO] (polski) This package is up to date.
 [INFO] (poly) This package is up to date.
@@ -5163,7 +5166,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (poly1305-donna) This package is up to date.
 [INFO] (poly2tri) This package is up to date.
 [INFO] (polyarchiv) This package is up to date.
-[INFO] (polyaxon) This package is up to date.
+[INFO] (polyaxon) Data has been updated for this package.
 [ERROR] (polybius) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "https://sourceforge.net/projects/polybius-square/"
 [INFO] (polybot) This package is up to date.
@@ -5239,7 +5242,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (polyssifier) This package is up to date.
 [INFO] (polytester) This package is up to date.
 [INFO] (polytope) This package is up to date.
-[INFO] (pom) Data has been updated for this package.
+[INFO] (pom) This package is up to date.
 [INFO] (pom3) This package is up to date.
 [INFO] (pomade) This package is up to date.
 [INFO] (pomagma) This package is up to date.
@@ -5282,7 +5285,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pontus) This package is up to date.
 [INFO] (pony) This package is up to date.
 [ERROR] (pony-bottle-server) This package does not have downloadable releases.
-[INFO] (pony-express) This package is up to date.
+[INFO] (pony-express) Data has been updated for this package.
 [INFO] (pony-monitor) This package is up to date.
 [ERROR] (pony-rider) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -5302,7 +5305,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (pony-traffic) Data has been updated for this package.
+[INFO] (pony-traffic) This package is up to date.
 [INFO] (pony-up) This package is up to date.
 [ERROR] (ponyexpress) This package does not have downloadable releases.
 [INFO] (ponytile) This package is up to date.
@@ -5420,7 +5423,7 @@ Traceback (most recent call last):
     result = func(*args)
   File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
+urllib.error.HTTPError: HTTP Error 502: Bad Gateway
 
 [INFO] (populartwitterbot) This package is up to date.
 [INFO] (populous) This package is up to date.
@@ -5454,7 +5457,7 @@ This package download URL does not point to a valid file: "http://www.innoscript
 [INFO] (port-killer) This package is up to date.
 [INFO] (port-range) This package is up to date.
 [INFO] (portability) This package is up to date.
-[INFO] (portable-fdsnws-dataselect) This package is up to date.
+[INFO] (portable-fdsnws-dataselect) Data has been updated for this package.
 [INFO] (portal) This package is up to date.
 [INFO] (portalauth) This package is up to date.
 [INFO] (portalocker) This package is up to date.
@@ -5480,7 +5483,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (portcache) This package is up to date.
 [INFO] (portcheck) This package is up to date.
 [ERROR] (portcheck2) This package does not have downloadable releases.
-[INFO] (porteira) Data has been updated for this package.
+[INFO] (porteira) This package is up to date.
 [INFO] (portend) This package is up to date.
 [INFO] (porter) This package is up to date.
 [INFO] (porter2stemmer) This package is up to date.
@@ -5611,6 +5614,7 @@ This package download URL does not point to a valid file: "http://posterity.edge
 [INFO] (postman-client) This package is up to date.
 [INFO] (postman-repl) This package is up to date.
 [INFO] (postmanproxy) This package is up to date.
+[INFO] (postmark) Data has been updated for this package.
 [INFO] (postmarker) This package is up to date.
 [INFO] (postmarkup) This package is up to date.
 [INFO] (postmaster) This package is up to date.
@@ -5719,7 +5723,7 @@ This package download URL does not point to a valid file: "http://posterity.edge
 [INFO] (pp.demo) This package is up to date.
 [INFO] (pp.server) This package is up to date.
 [INFO] (pp20160412212350) This package is up to date.
-[INFO] (ppa) Data has been updated for this package.
+[INFO] (ppa) This package is up to date.
 [ERROR] (ppa-spy) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://www.florian-diesch.de/software/ppa-spy/"
 [INFO] (ppaas) This package is up to date.
@@ -5961,7 +5965,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (predictiveanalytics) This package is up to date.
 [INFO] (predikto) This package is up to date.
 [INFO] (predikto-elasticsearch) This package is up to date.
-[INFO] (predix) Data has been updated for this package.
+[INFO] (predix) This package is up to date.
 [INFO] (predix-funcio) This package is up to date.
 [INFO] (predsim) This package is up to date.
 [INFO] (preetyprint) This package is up to date.
@@ -6014,7 +6018,7 @@ Unsupported package directory structure.
 [INFO] (presenter) This package is up to date.
 [ERROR] (presenthon) This package does not have downloadable releases.
 [INFO] (presentty) This package is up to date.
-[INFO] (presets) Data has been updated for this package.
+[INFO] (presets) This package is up to date.
 [INFO] (presettr) This package is up to date.
 [INFO] (preshed) This package is up to date.
 [INFO] (presidency) This package is up to date.
@@ -6028,7 +6032,7 @@ Unsupported package directory structure.
 [INFO] (pressurecooker) This package is up to date.
 [INFO] (prest) This package is up to date.
 [INFO] (prestans) This package is up to date.
-[INFO] (prestans3) Data has been updated for this package.
+[INFO] (prestans3) This package is up to date.
 [ERROR] (prestans3-tools) Could not extract data from this package. See below for details.
 "https://github.com/anomaly/prestans3_tools/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
@@ -6179,7 +6183,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pricecalc) This package is up to date.
 [INFO] (priceline) This package is up to date.
 [INFO] (prices) This package is up to date.
-[INFO] (pride) Data has been updated for this package.
+[INFO] (pride) This package is up to date.
 [INFO] (priest) This package is up to date.
 [INFO] (prim) This package is up to date.
 [INFO] (primal) This package is up to date.
@@ -6522,12 +6526,12 @@ This package download URL does not point to a valid file: "http://dexrowem.blogs
 [INFO] (procfs) This package is up to date.
 [INFO] (procfs3) This package is up to date.
 [INFO] (procgraph) This package is up to date.
-[INFO] (procimap) Data has been updated for this package.
+[INFO] (procimap) This package is up to date.
 [INFO] (procinfo) This package is up to date.
 [ERROR] (proclaim) This package does not have downloadable releases.
 [INFO] (proclib) This package is up to date.
 [INFO] (proclist) This package is up to date.
-[INFO] (procmod) Data has been updated for this package.
+[INFO] (procmod) This package is up to date.
 [INFO] (procname) This package is up to date.
 [INFO] (procname-redux) This package is up to date.
 [INFO] (proconex) This package is up to date.
@@ -7268,7 +7272,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (prom) This package is up to date.
 [INFO] (promela) This package is up to date.
 [INFO] (prometheus) This package is up to date.
-[INFO] (prometheus-aioexporter) This package is up to date.
+[INFO] (prometheus-aioexporter) Data has been updated for this package.
 [INFO] (prometheus-async) This package is up to date.
 [INFO] (prometheus-client) This package is up to date.
 [INFO] (prometheus-client-model) This package is up to date.
@@ -7374,7 +7378,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (prost) This package is up to date.
 [INFO] (protagonist) This package is up to date.
 [INFO] (protea) This package is up to date.
-[INFO] (protect) This package is up to date.
+[INFO] (protect) Data has been updated for this package.
 [INFO] (protected) This package is up to date.
 [INFO] (protectedblob) This package is up to date.
 [INFO] (protector) This package is up to date.
@@ -7636,7 +7640,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (ps3) This package does not have downloadable releases.
 [INFO] (psamm) This package is up to date.
 [INFO] (psas-packet) This package is up to date.
-[INFO] (psc) Data has been updated for this package.
+[INFO] (psc) This package is up to date.
 [INFO] (pschachtler) This package is up to date.
 [INFO] (pscheduler) This package is up to date.
 [INFO] (psclient) This package is up to date.
@@ -7665,7 +7669,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (psftp) This package is up to date.
 [INFO] (psh) This package is up to date.
 [INFO] (pshare) This package is up to date.
-[INFO] (pshtt) This package is up to date.
+[INFO] (pshtt) Data has been updated for this package.
 [INFO] (pshub) This package is up to date.
 [INFO] (psi) This package is up to date.
 [INFO] (psi-dlpa) This package is up to date.
@@ -7790,7 +7794,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (psycopg-postgis) This package is up to date.
+[INFO] (psycopg-postgis) Data has been updated for this package.
 [INFO] (psycopg-postgis2) This package is up to date.
 [INFO] (psycopg2) This package is up to date.
 [ERROR] (psycopg2-ct) Could not get a response from API for this package. See below for details.
@@ -7885,6 +7889,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ptimer) This package is up to date.
 [INFO] (ptipython) This package is up to date.
 [INFO] (ptk) This package is up to date.
+[INFO] (ptm) Data has been updated for this package.
 [INFO] (ptm-annotator) This package is up to date.
 [INFO] (ptml) This package is up to date.
 [INFO] (pto) This package is up to date.
@@ -7968,7 +7973,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pubmarine) This package is up to date.
 [INFO] (pubmed) This package is up to date.
 [INFO] (pubmed-lookup) This package is up to date.
-[INFO] (pubmedasync) This package is up to date.
+[INFO] (pubmedasync) Data has been updated for this package.
 [INFO] (pubnub) This package is up to date.
 [INFO] (pubnub-blocks-client) This package is up to date.
 [INFO] (pubnub-console) This package is up to date.
@@ -7997,7 +8002,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pueue) This package is up to date.
 [INFO] (pueuey) This package is up to date.
 [INFO] (puff) This package is up to date.
-[INFO] (puffadder) Data has been updated for this package.
+[INFO] (puffadder) This package is up to date.
 [INFO] (puffer) This package is up to date.
 [INFO] (pufferfish) This package is up to date.
 [INFO] (puffin) This package is up to date.
@@ -8093,7 +8098,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pump-client) This package is up to date.
 [INFO] (pump-flash) This package is up to date.
 [INFO] (pump-jinja) This package is up to date.
-[INFO] (pump3000) Data has been updated for this package.
+[INFO] (pump3000) This package is up to date.
 [INFO] (pumphandle) This package is up to date.
 [INFO] (pumpkin) This package is up to date.
 [INFO] (pumpkinlb) This package is up to date.
@@ -8176,7 +8181,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (purelyjs) This package is up to date.
 [INFO] (puremagic) This package is up to date.
 [INFO] (puremvc) This package is up to date.
-[INFO] (pureodm) Data has been updated for this package.
+[INFO] (pureodm) This package is up to date.
 [INFO] (purepng) This package is up to date.
 [INFO] (purepy-remctl) This package is up to date.
 [INFO] (puresnmp) This package is up to date.
@@ -8208,7 +8213,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (purkinje-messages) This package is up to date.
 [INFO] (purl) This package is up to date.
 [INFO] (purple) This package is up to date.
-[INFO] (purple-framework) Data has been updated for this package.
+[INFO] (purple-framework) This package is up to date.
 [INFO] (purpler) This package is up to date.
 [INFO] (purpletag) This package is up to date.
 [INFO] (purplex) This package is up to date.
@@ -8484,7 +8489,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (py-1) This package is up to date.
 [INFO] (py-1digit-checksum) This package is up to date.
 [INFO] (py-4chan) This package is up to date.
-[INFO] (py-ace) Data has been updated for this package.
+[INFO] (py-ace) This package is up to date.
 [INFO] (py-activiti) This package is up to date.
 [INFO] (py-adyen) This package is up to date.
 [INFO] (py-aho-corasick) This package is up to date.
@@ -8703,7 +8708,7 @@ urllib.error.URLError: <urlopen error timed out>
 [INFO] (py-growl-2-6) This package is up to date.
 [INFO] (py-gsearch-api) This package is up to date.
 [INFO] (py-gtktree) This package is up to date.
-[INFO] (py-guard) Data has been updated for this package.
+[INFO] (py-guard) This package is up to date.
 [INFO] (py-ha-decorator) This package is up to date.
 [INFO] (py-hangman) This package is up to date.
 [INFO] (py-hanspell) This package is up to date.
@@ -8722,38 +8727,7 @@ This package download URL does not point to a valid file: "http://www.procoders.
 [INFO] (py-interface) This package is up to date.
 [ERROR] (py-interp) This package does not have downloadable releases.
 [INFO] (py-ioc) This package is up to date.
-[ERROR] (py-ioticagent) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
-    response = self._open(req, data)
-  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
-    '_open', req)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
-    context=self._context, check_hostname=self._check_hostname)
-  File "/usr/lib/python3.5/urllib/request.py", line 1257, in do_open
-    r = h.getresponse()
-  File "/usr/lib/python3.5/http/client.py", line 1198, in getresponse
-    response.begin()
-  File "/usr/lib/python3.5/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/usr/lib/python3.5/http/client.py", line 258, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/usr/lib/python3.5/socket.py", line 576, in readinto
-    return self._sock.recv_into(b)
-  File "/usr/lib/python3.5/ssl.py", line 937, in recv_into
-    return self.read(nbytes, buffer)
-  File "/usr/lib/python3.5/ssl.py", line 799, in read
-    return self._sslobj.read(len, buffer)
-  File "/usr/lib/python3.5/ssl.py", line 583, in read
-    v = self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
-
+[INFO] (py-ioticagent) This package is up to date.
 [INFO] (py-iou) This package is up to date.
 [INFO] (py-ircbot) This package is up to date.
 [INFO] (py-irsend) This package is up to date.
@@ -8876,12 +8850,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (py-lz4framed-ph4) This package is up to date.
 [INFO] (py-mailinator) This package is up to date.
 [ERROR] (py-make) This package does not have downloadable releases.
-[INFO] (py-mcmc) Data has been updated for this package.
+[INFO] (py-mcmc) This package is up to date.
 [ERROR] (py-mcpe-query) This package does not have downloadable releases.
 [INFO] (py-mcpe-stats) This package is up to date.
 [ERROR] (py-metar) This package does not have downloadable releases.
 [INFO] (py-mhash) This package is up to date.
-[INFO] (py-mice-analysis-tools) Data has been updated for this package.
+[INFO] (py-mice-analysis-tools) This package is up to date.
 [INFO] (py-midi) This package is up to date.
 [INFO] (py-mini-racer) This package is up to date.
 [INFO] (py-mms) This package is up to date.
@@ -9522,7 +9496,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pyannote.db.prism) This package is up to date.
 [INFO] (pyannote.db.repere) This package is up to date.
 [INFO] (pyannote.features) This package is up to date.
-[INFO] (pyannote.generators) This package is up to date.
+[INFO] (pyannote.generators) Data has been updated for this package.
 [INFO] (pyannote.metrics) This package is up to date.
 [INFO] (pyannote.parser) This package is up to date.
 [INFO] (pyannote.server) This package is up to date.
@@ -9605,7 +9579,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pyarch) This package is up to date.
 [INFO] (pyarchey) This package is up to date.
 [INFO] (pyarchive) This package is up to date.
-[INFO] (pyarchiver) Data has been updated for this package.
+[INFO] (pyarchiver) This package is up to date.
 [INFO] (pyardrone) This package is up to date.
 [INFO] (pyardu) This package is up to date.
 [INFO] (pyarduino) This package is up to date.
@@ -9804,7 +9778,7 @@ This package download URL does not point to a valid file: "http://pybass.sf.net"
 [INFO] (pybdist) This package is up to date.
 [INFO] (pybe) This package is up to date.
 [INFO] (pybea) This package is up to date.
-[INFO] (pybeacon) Data has been updated for this package.
+[INFO] (pybeacon) This package is up to date.
 [INFO] (pybeam) This package is up to date.
 [INFO] (pybean) This package is up to date.
 [INFO] (pybeanstalk) This package is up to date.
@@ -9827,7 +9801,7 @@ This package download URL does not point to a valid file: "http://pybass.sf.net"
 [INFO] (pybenchmarks) This package is up to date.
 [INFO] (pybencode) This package is up to date.
 [INFO] (pybencoder) This package is up to date.
-[INFO] (pybencoder3) Data has been updated for this package.
+[INFO] (pybencoder3) This package is up to date.
 [INFO] (pybencoding) This package is up to date.
 [ERROR] (pybengengphonetic) Could not extract data from this package. See below for details.
 
@@ -9870,6 +9844,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pybib) This package is up to date.
 [INFO] (pybibframe) This package is up to date.
 [INFO] (pybible) This package is up to date.
+[INFO] (pybibtex) Data has been updated for this package.
 [ERROR] (pybidmat) This package does not have downloadable releases.
 [INFO] (pybids) This package is up to date.
 [INFO] (pybigparser) This package is up to date.
@@ -9886,7 +9861,7 @@ This package download URL does not point to a valid file: "https://launchpad.net
 [INFO] (pybindxml) This package is up to date.
 [ERROR] (pybing) This package does not have downloadable releases.
 [INFO] (pybingwallpaper) This package is up to date.
-[INFO] (pybinsim) Data has been updated for this package.
+[INFO] (pybinsim) This package is up to date.
 [INFO] (pybio) This package is up to date.
 [ERROR] (pybiobrick) This package does not have downloadable releases.
 [ERROR] (pybiolccc) This package does not have downloadable releases.
@@ -9984,7 +9959,7 @@ This package download URL does not point to a valid file: "http://sourceforge.ne
 [INFO] (pybm) This package is up to date.
 [INFO] (pybma) This package is up to date.
 [INFO] (pybmp) This package is up to date.
-[INFO] (pybmpdb) Data has been updated for this package.
+[INFO] (pybmpdb) This package is up to date.
 [INFO] (pybob) This package is up to date.
 [INFO] (pyboiler) This package is up to date.
 [INFO] (pyboilerplate) This package is up to date.
@@ -9994,8 +9969,8 @@ This package download URL does not point to a valid file: "http://sourceforge.ne
 [INFO] (pybologna) This package is up to date.
 [INFO] (pybomb) This package is up to date.
 [INFO] (pybombs) This package is up to date.
-[INFO] (pybombs-qtgui) Data has been updated for this package.
-[INFO] (pybombsurl) Data has been updated for this package.
+[INFO] (pybombs-qtgui) This package is up to date.
+[INFO] (pybombsurl) This package is up to date.
 [INFO] (pybone) This package is up to date.
 [INFO] (pybongtvapi) This package is up to date.
 [ERROR] (pybonjour) Could not extract data from this package. See below for details.
@@ -10006,7 +9981,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (pybookshelf) This package is up to date.
 [INFO] (pybool) This package is up to date.
 [INFO] (pybooru) This package is up to date.
-[INFO] (pybootd) Data has been updated for this package.
+[INFO] (pybootd) This package is up to date.
 [INFO] (pyborg) This package is up to date.
 [INFO] (pyborgeous) This package is up to date.
 [INFO] (pyboro) This package is up to date.
@@ -10014,7 +9989,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (pybossa-onesignal) This package is up to date.
 [INFO] (pybossa-pbs) This package is up to date.
 [INFO] (pybossa-raspberry-trapcamera) This package is up to date.
-[INFO] (pybot) Data has been updated for this package.
+[INFO] (pybot) This package is up to date.
 [INFO] (pybot-adapter-slack) This package is up to date.
 [INFO] (pybotbuilder) This package is up to date.
 [INFO] (pybotics) This package is up to date.
@@ -10328,7 +10303,7 @@ urllib.error.URLError: <urlopen error [Errno 101] Network is unreachable>
 [INFO] (pycbc-mpld3) This package is up to date.
 [INFO] (pycbc-pylal) This package is up to date.
 [INFO] (pycbc-weave) This package is up to date.
-[INFO] (pycbor) Data has been updated for this package.
+[INFO] (pycbor) This package is up to date.
 [INFO] (pycbrf) This package is up to date.
 [INFO] (pycc) This package is up to date.
 [INFO] (pycca) This package is up to date.
@@ -10392,7 +10367,7 @@ This package download URL does not point to a valid file: "http://sourceforge.ne
 [INFO] (pycgp) This package is up to date.
 [INFO] (pycha) This package is up to date.
 [INFO] (pychain) This package is up to date.
-[INFO] (pychains) Data has been updated for this package.
+[INFO] (pychains) This package is up to date.
 [INFO] (pychal) This package is up to date.
 [INFO] (pychalk) This package is up to date.
 [INFO] (pychallonge) This package is up to date.
@@ -10453,7 +10428,7 @@ This package download URL does not point to a valid file: "http://pychess.org/do
 [INFO] (pycifrw) This package is up to date.
 [INFO] (pycim) This package is up to date.
 [INFO] (pycipher) This package is up to date.
-[INFO] (pycipherwallet) Data has been updated for this package.
+[INFO] (pycipherwallet) This package is up to date.
 [INFO] (pycircstat) This package is up to date.
 [INFO] (pycircularbuffer) This package is up to date.
 [INFO] (pycirculate) This package is up to date.
@@ -10554,7 +10529,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pyclj) This package is up to date.
 [INFO] (pycloc) This package is up to date.
 [INFO] (pyclock) This package is up to date.
-[INFO] (pyclopedia) Data has been updated for this package.
+[INFO] (pyclopedia) This package is up to date.
 [INFO] (pyclos) This package is up to date.
 [INFO] (pycloser) This package is up to date.
 [ERROR] (pycloud) Could not get a response from API for this package. See below for details.
@@ -10630,7 +10605,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pycobertura) This package is up to date.
 [INFO] (pycobra) This package is up to date.
 [INFO] (pycoco) This package is up to date.
-[INFO] (pycocos2d) Data has been updated for this package.
+[INFO] (pycocos2d) This package is up to date.
 [ERROR] (pycocuma) This package does not have downloadable releases.
 [INFO] (pycoda) This package is up to date.
 [INFO] (pycodcif) This package is up to date.
@@ -10766,7 +10741,7 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (pyconfluence) This package is up to date.
 [INFO] (pyconfreader) This package is up to date.
 [INFO] (pyconfy) This package is up to date.
-[INFO] (pycongo) Data has been updated for this package.
+[INFO] (pycongo) This package is up to date.
 [INFO] (pyconic) This package is up to date.
 [INFO] (pyconizr) This package is up to date.
 [INFO] (pyconn) This package is up to date.
@@ -10797,7 +10772,7 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (pyconuk-helloworld) This package is up to date.
 [INFO] (pyconv) This package is up to date.
 [INFO] (pyconverge) This package is up to date.
-[INFO] (pyconvert) Data has been updated for this package.
+[INFO] (pyconvert) This package is up to date.
 [INFO] (pyconza2014) This package is up to date.
 [INFO] (pycookiecheat) This package is up to date.
 [INFO] (pycoon) This package is up to date.
@@ -11200,11 +11175,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pycortex) This package is up to date.
 [INFO] (pycosat) This package is up to date.
 [ERROR] (pycosm) This package does not have downloadable releases.
-[INFO] (pycosmicstar) Data has been updated for this package.
+[INFO] (pycosmicstar) This package is up to date.
 [ERROR] (pycosmo) This package does not have downloadable releases.
 [INFO] (pycot) This package is up to date.
 [INFO] (pycotap) This package is up to date.
-[INFO] (pycotools) Data has been updated for this package.
+[INFO] (pycotools) This package is up to date.
 [INFO] (pycotracer) This package is up to date.
 [INFO] (pycouchbase) This package is up to date.
 [INFO] (pycouchdb) This package is up to date.
@@ -11227,7 +11202,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pycpf) This package is up to date.
 [INFO] (pycpfcnpj) This package is up to date.
 [INFO] (pycpmc) This package is up to date.
-[INFO] (pycproject) This package is up to date.
+[INFO] (pycproject) Data has been updated for this package.
 [INFO] (pycps) This package is up to date.
 [INFO] (pycpuid) This package is up to date.
 [INFO] (pycpx) This package is up to date.
@@ -11257,14 +11232,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pycron) This package is up to date.
 [INFO] (pycronic) This package is up to date.
 [INFO] (pycronofy) This package is up to date.
-[INFO] (pycroscopy) Data has been updated for this package.
+[INFO] (pycroscopy) This package is up to date.
 [INFO] (pycroservices) This package is up to date.
 [INFO] (pycross) This package is up to date.
 [INFO] (pycrowd) This package is up to date.
 [INFO] (pycrs) This package is up to date.
 [INFO] (pycrsltd) This package is up to date.
 [INFO] (pycrud) This package is up to date.
-[INFO] (pycrunch) Data has been updated for this package.
+[INFO] (pycrunch) This package is up to date.
 [INFO] (pycrunchbase) This package is up to date.
 [INFO] (pycrusher) This package is up to date.
 [ERROR] (pycrust) This package does not have downloadable releases.
@@ -11440,7 +11415,7 @@ This package download URL does not point to a valid file: "https://sourceforge.n
 [ERROR] (pydatr) Could not extract data from this package. See below for details.
 ".php" extension not supported.
 [INFO] (pydav) This package is up to date.
-[INFO] (pydawg) Data has been updated for this package.
+[INFO] (pydawg) This package is up to date.
 [INFO] (pydawkiny) This package is up to date.
 [ERROR] (pydb) This package does not have downloadable releases.
 [ERROR] (pydb2) Could not extract data from this package. See below for details.
@@ -11547,7 +11522,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pydenticon) This package is up to date.
 [INFO] (pydentifier) This package is up to date.
 [INFO] (pydentify) This package is up to date.
-[INFO] (pydentity) Data has been updated for this package.
+[INFO] (pydentity) This package is up to date.
 [ERROR] (pydep) This package does not have downloadable releases.
 [INFO] (pydepend) This package is up to date.
 [INFO] (pydependschecker) This package is up to date.
@@ -11651,7 +11626,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pydive) This package is up to date.
 [INFO] (pydivert) This package is up to date.
 [INFO] (pydivide) This package is up to date.
-[INFO] (pydjondb) This package is up to date.
+[INFO] (pydjondb) Data has been updated for this package.
 [INFO] (pydkim) This package is up to date.
 [INFO] (pydl) This package is up to date.
 [INFO] (pydl7) This package is up to date.
@@ -11872,7 +11847,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pyebooks) This package is up to date.
 [INFO] (pyebox) This package is up to date.
 [INFO] (pyec) This package is up to date.
-[INFO] (pyecc) Data has been updated for this package.
+[INFO] (pyecc) This package is up to date.
 [INFO] (pyecho) This package is up to date.
 [INFO] (pyechoip) This package is up to date.
 [INFO] (pyechonest) This package is up to date.
@@ -11938,7 +11913,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pyemir) This package is up to date.
 [INFO] (pyemis) This package is up to date.
 [INFO] (pyemitter) This package is up to date.
-[INFO] (pyemma) This package is up to date.
+[INFO] (pyemma) Data has been updated for this package.
 [INFO] (pyemoji) This package is up to date.
 [INFO] (pyemojify) This package is up to date.
 [INFO] (pyempt) This package is up to date.
@@ -12115,7 +12090,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pyexam11) This package is up to date.
 [INFO] (pyexcel) This package is up to date.
 [INFO] (pyexcel-cli) This package is up to date.
-[INFO] (pyexcel-io) Data has been updated for this package.
+[INFO] (pyexcel-io) This package is up to date.
 [INFO] (pyexcel-ods) This package is up to date.
 [INFO] (pyexcel-ods3) This package is up to date.
 [INFO] (pyexcel-odsr) This package is up to date.
@@ -12132,7 +12107,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pyexec) This package is up to date.
 [INFO] (pyexeccontrol) This package is up to date.
 [INFO] (pyexecjs) This package is up to date.
-[INFO] (pyexfil) Data has been updated for this package.
+[INFO] (pyexfil) This package is up to date.
 [INFO] (pyexif) This package is up to date.
 [INFO] (pyexifinfo) This package is up to date.
 [INFO] (pyexp) This package is up to date.
@@ -12142,7 +12117,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pyexperian) This package is up to date.
 [INFO] (pyexperiment) This package is up to date.
 [INFO] (pyexpression) This package is up to date.
-[INFO] (pyexpressions) Data has been updated for this package.
+[INFO] (pyexpressions) This package is up to date.
 [INFO] (pyexr) This package is up to date.
 [INFO] (pyext) This package is up to date.
 [INFO] (pyextdirect) This package is up to date.
@@ -12693,7 +12668,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (pygce) This package does not have downloadable releases.
 [INFO] (pygcgen) This package is up to date.
 [INFO] (pygci) This package is up to date.
-[INFO] (pygcm) Data has been updated for this package.
+[INFO] (pygcm) This package is up to date.
 [INFO] (pygcn) This package is up to date.
 [INFO] (pygco) This package is up to date.
 [INFO] (pygcrypt) This package is up to date.
@@ -13001,7 +12976,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 This package download URL does not point to a valid file: "http://sourceforge.net/projects/pygold/"
 [INFO] (pygom) This package is up to date.
 [INFO] (pygoo) This package is up to date.
-[INFO] (pygoodreads) Data has been updated for this package.
+[INFO] (pygoodreads) This package is up to date.
 [INFO] (pygoogle) This package is up to date.
 [INFO] (pygoogle-simple) This package is up to date.
 [INFO] (pygoogleanalytics) This package is up to date.
@@ -13199,7 +13174,7 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [ERROR] (pygsi) This package does not have downloadable releases.
 [INFO] (pygsl) This package is up to date.
 [INFO] (pygslodeiv2) This package is up to date.
-[INFO] (pygsm) Data has been updated for this package.
+[INFO] (pygsm) This package is up to date.
 [INFO] (pygsp) This package is up to date.
 [INFO] (pygsr) This package is up to date.
 [INFO] (pygssapi) This package is up to date.
@@ -13332,7 +13307,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pygtkspellcheck) This package is up to date.
 [INFO] (pygtop) This package is up to date.
 [INFO] (pygtp) This package is up to date.
-[INFO] (pygtrends) Data has been updated for this package.
+[INFO] (pygtrends) This package is up to date.
 [ERROR] (pygtrends-0.8) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -13479,10 +13454,10 @@ This package download URL does not point to a valid file: "http://launchpad.net/
 [INFO] (pyhermes) This package is up to date.
 [INFO] (pyhesiod) This package is up to date.
 [INFO] (pyhessian2) This package is up to date.
-[INFO] (pyhex) Data has been updated for this package.
+[INFO] (pyhex) This package is up to date.
 [INFO] (pyhexad) This package is up to date.
 [INFO] (pyhexgrid) This package is up to date.
-[INFO] (pyhfo) Data has been updated for this package.
+[INFO] (pyhfo) This package is up to date.
 [INFO] (pyhi) This package is up to date.
 [INFO] (pyhiapi) This package is up to date.
 [INFO] (pyhiccup) This package is up to date.
@@ -13586,7 +13561,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pyhum) This package is up to date.
 [INFO] (pyhumod) This package is up to date.
 [INFO] (pyhurd) This package is up to date.
-[INFO] (pyhusky) Data has been updated for this package.
+[INFO] (pyhusky) This package is up to date.
 [INFO] (pyhwm2014) This package is up to date.
 [INFO] (pyhwp) This package is up to date.
 [INFO] (pyhydroquebec) This package is up to date.
@@ -13788,7 +13763,7 @@ This package download URL does not point to a valid file: "svn checkout http://p
 [INFO] (pyiqe) This package is up to date.
 [ERROR] (pyir) This package does not have downloadable releases.
 [INFO] (pyirc) This package is up to date.
-[INFO] (pyircbot) Data has been updated for this package.
+[INFO] (pyircbot) This package is up to date.
 [INFO] (pyircfish) This package is up to date.
 [INFO] (pyircserver) This package is up to date.
 [INFO] (pyiri2016) This package is up to date.
@@ -14040,7 +14015,7 @@ This package download URL does not point to a valid file: "http://savannah.nongn
 [INFO] (pykkelabels) This package is up to date.
 [INFO] (pykleen) This package is up to date.
 [INFO] (pyklout) This package is up to date.
-[INFO] (pykmaze) Data has been updated for this package.
+[INFO] (pykmaze) This package is up to date.
 [INFO] (pykmer) This package is up to date.
 [INFO] (pykmip) This package is up to date.
 [INFO] (pykml) This package is up to date.
@@ -14055,7 +14030,7 @@ This package download URL does not point to a valid file: "http://savannah.nongn
 [INFO] (pykontagent) This package is up to date.
 [ERROR] (pykovy) This package does not have downloadable releases.
 [INFO] (pykpass) This package is up to date.
-[INFO] (pykpp) Data has been updated for this package.
+[INFO] (pykpp) This package is up to date.
 [INFO] (pykqml) This package is up to date.
 [ERROR] (pykqueue) This package does not have downloadable releases.
 [INFO] (pykraken) This package is up to date.
@@ -14132,12 +14107,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pylastic) This package is up to date.
 [INFO] (pylastica) This package is up to date.
 [INFO] (pylatest) This package is up to date.
-[INFO] (pylatex) Data has been updated for this package.
+[INFO] (pylatex) This package is up to date.
 [INFO] (pylatexenc) This package is up to date.
 [ERROR] (pylatinam) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://code.google.com/p/pylatinam"
 [INFO] (pylatte) This package is up to date.
-[INFO] (pylatus) Data has been updated for this package.
+[INFO] (pylatus) This package is up to date.
 [INFO] (pylawful) This package is up to date.
 [INFO] (pylawson) This package is up to date.
 [INFO] (pylaz) This package is up to date.
@@ -14312,7 +14287,7 @@ This package download URL does not point to a valid file: "http://www.andre-bell
 [INFO] (pylist) This package is up to date.
 [INFO] (pylistprint) This package is up to date.
 [INFO] (pylit) This package is up to date.
-[INFO] (pylit3) Data has been updated for this package.
+[INFO] (pylit3) This package is up to date.
 [INFO] (pylit6) This package is up to date.
 [INFO] (pylitejet) This package is up to date.
 [INFO] (pyliterature) This package is up to date.
@@ -14339,12 +14314,12 @@ This package download URL does not point to a valid file: "http://www.andre-bell
 [ERROR] (pyload-ng) This package does not have downloadable releases.
 [INFO] (pyload-utils) This package is up to date.
 [INFO] (pyload.config) This package is up to date.
-[INFO] (pyload.core) Data has been updated for this package.
-[INFO] (pyload.plugins) Data has been updated for this package.
+[INFO] (pyload.core) This package is up to date.
+[INFO] (pyload.plugins) This package is up to date.
 [INFO] (pyload.rpc) This package is up to date.
 [INFO] (pyload.setup) This package is up to date.
 [INFO] (pyload.utils2) This package is up to date.
-[INFO] (pyload.webui) Data has been updated for this package.
+[INFO] (pyload.webui) This package is up to date.
 [INFO] (pyloadbalancer) This package is up to date.
 [INFO] (pyloader) This package is up to date.
 [INFO] (pyloadl) This package is up to date.
@@ -14463,6 +14438,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pylunardate) This package is up to date.
 [INFO] (pyluno) This package is up to date.
 [INFO] (pylut) This package is up to date.
+[INFO] (pylutron) Data has been updated for this package.
 [INFO] (pylutron-caseta) This package is up to date.
 [INFO] (pylux) This package is up to date.
 [INFO] (pyluxafor) This package is up to date.
@@ -14509,7 +14485,7 @@ Unsupported package directory structure.
 [INFO] (pymailq) This package is up to date.
 [INFO] (pymailsender) This package is up to date.
 [INFO] (pymain) This package is up to date.
-[INFO] (pymake) Data has been updated for this package.
+[INFO] (pymake) This package is up to date.
 [ERROR] (pymakec) This package does not have downloadable releases.
 [INFO] (pymakerspaces) This package is up to date.
 [INFO] (pymakeself) This package is up to date.
@@ -14580,9 +14556,9 @@ Unsupported package directory structure.
 [INFO] (pymazon) This package is up to date.
 [INFO] (pymazonian) This package is up to date.
 [INFO] (pymba) This package is up to date.
-[INFO] (pymbar) Data has been updated for this package.
+[INFO] (pymbar) This package is up to date.
 [INFO] (pymbfl) This package is up to date.
-[INFO] (pymblr) Data has been updated for this package.
+[INFO] (pymblr) This package is up to date.
 [INFO] (pymbolic) This package is up to date.
 [INFO] (pymbt) This package is up to date.
 [INFO] (pymbta) This package is up to date.
@@ -14627,7 +14603,7 @@ This package download URL does not point to a valid file: "http://www.bitkipper.
 [INFO] (pymediawiki) This package is up to date.
 [INFO] (pymedium) This package is up to date.
 [INFO] (pymedtermino) This package is up to date.
-[INFO] (pymedusa) Data has been updated for this package.
+[INFO] (pymedusa) This package is up to date.
 [INFO] (pymeetupjan) This package is up to date.
 [INFO] (pymegacli) This package is up to date.
 [INFO] (pymeigo) This package is up to date.
@@ -14765,7 +14741,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (pymiecoated) Data has been updated for this package.
+[INFO] (pymiecoated) This package is up to date.
 [INFO] (pymiescatt) This package is up to date.
 [INFO] (pymifare) This package is up to date.
 [INFO] (pymigrate) This package is up to date.
@@ -14983,7 +14959,7 @@ This package download URL does not point to a valid file: "http://pymonitor.sf.n
 [INFO] (pymonzo) This package is up to date.
 [INFO] (pymoonshot) This package is up to date.
 [INFO] (pymor) This package is up to date.
-[INFO] (pymorc) Data has been updated for this package.
+[INFO] (pymorc) This package is up to date.
 [INFO] (pymoresane) This package is up to date.
 [INFO] (pymorfologik) This package is up to date.
 [INFO] (pymorm) This package is up to date.
@@ -15071,7 +15047,7 @@ This package download URL does not point to a valid file: "https://launchpad.net
 [INFO] (pymunincli) This package is up to date.
 [INFO] (pymunk) This package is up to date.
 [INFO] (pymunktmx) This package is up to date.
-[INFO] (pymupdf) Data has been updated for this package.
+[INFO] (pymupdf) This package is up to date.
 [INFO] (pymus) This package is up to date.
 [INFO] (pymusic) This package is up to date.
 [INFO] (pymustache) This package is up to date.
@@ -15148,7 +15124,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (pynastran) This package is up to date.
 [INFO] (pynationalrail) This package is up to date.
 [INFO] (pynativeui) This package is up to date.
-[INFO] (pynats) Data has been updated for this package.
+[INFO] (pynats) This package is up to date.
 [INFO] (pynaut) This package is up to date.
 [INFO] (pynav) This package is up to date.
 [INFO] (pynba) This package is up to date.
@@ -15162,7 +15138,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 This package download URL does not point to a valid file: "http://www.cdc.noaa.gov/people/jeffrey.s.whitaker/python/ncarg"
 [INFO] (pyncloud) This package is up to date.
 [INFO] (pyncml) This package is up to date.
-[INFO] (pynco) Data has been updated for this package.
+[INFO] (pynco) This package is up to date.
 [INFO] (pyncomb) This package is up to date.
 [INFO] (pyncomings) This package is up to date.
 [ERROR] (pyncs) This package does not have downloadable releases.
@@ -15296,7 +15272,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pynic) This package is up to date.
 [INFO] (pynicom) This package is up to date.
 [INFO] (pynids) This package is up to date.
-[INFO] (pynigma) Data has been updated for this package.
+[INFO] (pynigma) This package is up to date.
 [INFO] (pyniland) This package is up to date.
 [INFO] (pynimffi) This package is up to date.
 [INFO] (pynini) This package is up to date.
@@ -15399,7 +15375,7 @@ Unsupported package directory structure.
 [INFO] (pynuodb) This package is up to date.
 [ERROR] (pynuodbmonitor) This package does not have downloadable releases.
 [INFO] (pynusmv) This package is up to date.
-[INFO] (pynusmv-tools) Data has been updated for this package.
+[INFO] (pynusmv-tools) This package is up to date.
 [INFO] (pynut2) This package is up to date.
 [INFO] (pynuts) This package is up to date.
 [INFO] (pynv) This package is up to date.
@@ -15417,7 +15393,7 @@ Unsupported package directory structure.
 [INFO] (pyny3d) This package is up to date.
 [INFO] (pynynab) This package is up to date.
 [INFO] (pynzb) This package is up to date.
-[INFO] (pynzbget) Data has been updated for this package.
+[INFO] (pynzbget) This package is up to date.
 [INFO] (pyoa) This package is up to date.
 [INFO] (pyoai) This package is up to date.
 [INFO] (pyoanda) This package is up to date.
@@ -15670,7 +15646,7 @@ This package download URL does not point to a valid file: "https://pyom.codeplex
 ".php" extension not supported.
 [ERROR] (pyos) This package does not have downloadable releases.
 [INFO] (pyosc) This package is up to date.
-[INFO] (pyoscapi) Data has been updated for this package.
+[INFO] (pyoscapi) This package is up to date.
 [INFO] (pyosci) This package is up to date.
 [INFO] (pyoscope) This package is up to date.
 [ERROR] (pyosd) This package does not have downloadable releases.
@@ -15745,7 +15721,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pypal) This package is up to date.
 [INFO] (pypalm) This package is up to date.
 [ERROR] (pypan) This package does not have downloadable releases.
-[INFO] (pypanda) Data has been updated for this package.
+[INFO] (pypanda) This package is up to date.
 [INFO] (pypandoc) This package is up to date.
 [ERROR] (pypanking) This package does not have downloadable releases.
 [INFO] (pypanl) This package is up to date.
@@ -15977,7 +15953,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pypicloud-client) This package is up to date.
 [INFO] (pypicloud-tools) This package is up to date.
 [INFO] (pypico) This package is up to date.
-[INFO] (pypicontents) Data has been updated for this package.
+[INFO] (pypicontents) This package is up to date.
 [INFO] (pypicosat) This package is up to date.
 [INFO] (pypicount) This package is up to date.
 [INFO] (pypid) This package is up to date.
@@ -16061,7 +16037,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pypl) This package is up to date.
 [INFO] (pyplaintext) This package is up to date.
 [INFO] (pyplan) This package is up to date.
-[INFO] (pyplanet) This package is up to date.
+[INFO] (pyplanet) Data has been updated for this package.
 [INFO] (pyplantuml) This package is up to date.
 [INFO] (pyplate) This package is up to date.
 [INFO] (pyplatec) This package is up to date.
@@ -16110,7 +16086,7 @@ This package download URL does not point to a valid file: "http://superduper.net
 [INFO] (pypoker) This package is up to date.
 [INFO] (pypokerengine) This package is up to date.
 [INFO] (pypokergui) This package is up to date.
-[INFO] (pypol) Data has been updated for this package.
+[INFO] (pypol) This package is up to date.
 [INFO] (pypol2) This package is up to date.
 [INFO] (pypolibox) This package is up to date.
 [INFO] (pypolicyd-spf) This package is up to date.
@@ -16215,7 +16191,7 @@ This package download URL does not point to a valid file: "http://www.procoders.
 [ERROR] (pyprocps) This package does not have downloadable releases.
 [INFO] (pyproct) This package is up to date.
 [INFO] (pyproct-gui) This package is up to date.
-[INFO] (pyprof2calltree) This package is up to date.
+[INFO] (pyprof2calltree) Data has been updated for this package.
 [INFO] (pyprof2html) This package is up to date.
 [INFO] (pyprof2xls) This package is up to date.
 [INFO] (pyproffx) This package is up to date.
@@ -16283,7 +16259,7 @@ This package download URL does not point to a valid file: "http://peak.telecommu
 [INFO] (pypubsub) This package is up to date.
 [INFO] (pypugjs) This package is up to date.
 [INFO] (pypugly) This package is up to date.
-[INFO] (pypulse) Data has been updated for this package.
+[INFO] (pypulse) This package is up to date.
 [INFO] (pypump) This package is up to date.
 [INFO] (pypuppetdb) This package is up to date.
 [INFO] (pypuppetdb-daily-report) This package is up to date.
@@ -16299,7 +16275,7 @@ This package download URL does not point to a valid file: "http://peak.telecommu
 [INFO] (pypushwoosh) This package is up to date.
 [INFO] (pypusu) This package is up to date.
 [INFO] (pypuzzle) This package is up to date.
-[INFO] (pypvwatts) Data has been updated for this package.
+[INFO] (pypvwatts) This package is up to date.
 [INFO] (pypw) This package is up to date.
 [ERROR] (pypwned) This package does not have downloadable releases.
 [ERROR] (pypwrctrl) This package does not have downloadable releases.
@@ -16312,7 +16288,7 @@ This package download URL does not point to a valid file: "http://peak.telecommu
 [INFO] (pypybox) This package is up to date.
 [INFO] (pypybox2d) This package is up to date.
 [INFO] (pypydispatch) This package is up to date.
-[INFO] (pypyenv) Data has been updated for this package.
+[INFO] (pypyenv) This package is up to date.
 [INFO] (pypygo) This package is up to date.
 [ERROR] (pypylon) This package does not have downloadable releases.
 [INFO] (pypyodbc) This package is up to date.
@@ -16339,7 +16315,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pypyrslack) This package is up to date.
 [INFO] (pypythia) This package is up to date.
 [INFO] (pypytools) This package is up to date.
-[INFO] (pyq) Data has been updated for this package.
+[INFO] (pyq) This package is up to date.
 [INFO] (pyq-kernel) This package is up to date.
 [INFO] (pyqa) This package is up to date.
 [INFO] (pyqart) This package is up to date.
@@ -16423,6 +16399,7 @@ This package download URL does not point to a valid file: "http://symmetry.com.a
 [INFO] (pyqq) This package is up to date.
 [INFO] (pyqqweibo) This package is up to date.
 [INFO] (pyqqwry) This package is up to date.
+[INFO] (pyqradar) Data has been updated for this package.
 [INFO] (pyqrcode) This package is up to date.
 [ERROR] (pyqrencode) Could not extract data from this package. See below for details.
 "https://github.com/downloads/bitly/tarball/master" file could not be downloaded. See below for details.
@@ -16604,7 +16581,7 @@ urllib.error.URLError: <urlopen error [Errno -5] No address associated with host
 [INFO] (pyramid-assetviews) This package is up to date.
 [INFO] (pyramid-asyncio) This package is up to date.
 [INFO] (pyramid-auth) This package is up to date.
-[INFO] (pyramid-authsanity) Data has been updated for this package.
+[INFO] (pyramid-authsanity) This package is up to date.
 [INFO] (pyramid-authstack) This package is up to date.
 [ERROR] (pyramid-authz) This package does not have downloadable releases.
 [INFO] (pyramid-autodoc) This package is up to date.
@@ -16697,6 +16674,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pyramid-favicon) This package is up to date.
 [INFO] (pyramid-file-session) This package is up to date.
 [INFO] (pyramid-filterwarnings) This package is up to date.
+[INFO] (pyramid-flash-message) Data has been updated for this package.
 [INFO] (pyramid-flatpages) This package is up to date.
 [INFO] (pyramid-forksafe) This package is up to date.
 [INFO] (pyramid-formalchemy) This package is up to date.
@@ -16847,8 +16825,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pyramid-rest-framework) This package is up to date.
 [INFO] (pyramid-rest-route) This package is up to date.
 [INFO] (pyramid-restful) This package is up to date.
-[INFO] (pyramid-restful-framework) Data has been updated for this package.
-[INFO] (pyramid-restful-jsonapi) Data has been updated for this package.
+[INFO] (pyramid-restful-framework) This package is up to date.
+[INFO] (pyramid-restful-jsonapi) This package is up to date.
 [INFO] (pyramid-restful-toolkit) This package is up to date.
 [INFO] (pyramid-restler) This package is up to date.
 [INFO] (pyramid-restlogging) This package is up to date.
@@ -17024,7 +17002,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pyrasite) This package is up to date.
 [INFO] (pyrasite-gui) This package is up to date.
 [INFO] (pyrastitcher) This package is up to date.
-[INFO] (pyrat) Data has been updated for this package.
+[INFO] (pyrat) This package is up to date.
 [INFO] (pyrata) This package is up to date.
 [INFO] (pyrate) This package is up to date.
 [INFO] (pyrate-build) This package is up to date.
@@ -17045,7 +17023,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (pyrcos) This package does not have downloadable releases.
 [INFO] (pyrcrack) This package is up to date.
 [INFO] (pyrcws) This package is up to date.
-[INFO] (pyrdfa) Data has been updated for this package.
+[INFO] (pyrdfa) This package is up to date.
 [INFO] (pyrdio) This package is up to date.
 [INFO] (pyrdw) This package is up to date.
 [ERROR] (pyre) Could not extract data from this package. See below for details.
@@ -17084,7 +17062,7 @@ This package download URL does not point to a valid file: "http://pyre.orthologu
 [INFO] (pyrediq) This package is up to date.
 [ERROR] (pyredis) This package does not have downloadable releases.
 [INFO] (pyredis-cache) This package is up to date.
-[INFO] (pyredise) Data has been updated for this package.
+[INFO] (pyredise) This package is up to date.
 [ERROR] (pyreditor) This package does not have downloadable releases.
 [INFO] (pyredmine) This package is up to date.
 [INFO] (pyredpen) This package is up to date.
@@ -17192,6 +17170,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pyresttable) This package is up to date.
 [INFO] (pyresttest) This package is up to date.
 [INFO] (pyresty) This package is up to date.
+[INFO] (pyresult) Data has been updated for this package.
 [INFO] (pyret) This package is up to date.
 [INFO] (pyretimetout) This package is up to date.
 [INFO] (pyretis) This package is up to date.
@@ -17237,7 +17216,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pyrfxtrx) This package is up to date.
 [INFO] (pyrg) This package is up to date.
 [INFO] (pyrgb) This package is up to date.
-[INFO] (pyrgbstrip) Data has been updated for this package.
+[INFO] (pyrgbstrip) This package is up to date.
 [INFO] (pyrgraph) This package is up to date.
 [INFO] (pyrhapsody) This package is up to date.
 [INFO] (pyrho) This package is up to date.
@@ -17363,7 +17342,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (pyrotorque) This package does not have downloadable releases.
 [INFO] (pyrouette) This package is up to date.
 [ERROR] (pyrouge) This package does not have downloadable releases.
-[INFO] (pyroute2) This package is up to date.
+[INFO] (pyroute2) Data has been updated for this package.
 [ERROR] (pyrouted) This package does not have downloadable releases.
 [INFO] (pyrouter) This package is up to date.
 [INFO] (pyroutes) This package is up to date.
@@ -17420,6 +17399,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (pyrtree) This package does not have downloadable releases.
 [INFO] (pyrubberband) This package is up to date.
 [INFO] (pyruby) This package is up to date.
+[INFO] (pyrules) Data has been updated for this package.
 [INFO] (pyrun) This package is up to date.
 [INFO] (pyrundeck) This package is up to date.
 [INFO] (pyrunes) This package is up to date.
@@ -17469,7 +17449,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pysapweb) This package is up to date.
 [INFO] (pysas) This package is up to date.
 [INFO] (pysasl) This package is up to date.
-[INFO] (pysat) This package is up to date.
+[INFO] (pysat) Data has been updated for this package.
 [INFO] (pysatcdf) This package is up to date.
 [INFO] (pysaurio) This package is up to date.
 [INFO] (pysave) This package is up to date.
@@ -17596,9 +17576,9 @@ This package download URL does not point to a valid file: "http://hobu.stat.iast
 [ERROR] (pysds) This package does not have downloadable releases.
 [ERROR] (pyse) Could not extract data from this package. See below for details.
 ".php" extension not supported.
-[INFO] (pysearch) Data has been updated for this package.
+[INFO] (pysearch) This package is up to date.
 [INFO] (pyseaweed) This package is up to date.
-[INFO] (pysec) Data has been updated for this package.
+[INFO] (pysec) This package is up to date.
 [INFO] (pysectools) This package is up to date.
 [INFO] (pysecure) This package is up to date.
 [INFO] (pysecuritycenter) This package is up to date.
@@ -17935,7 +17915,7 @@ urllib.error.URLError: <urlopen error [Errno 111] Connection refused>
 [INFO] (pysimpvm) This package is up to date.
 [INFO] (pysimsearch) This package is up to date.
 [INFO] (pysimstr) This package is up to date.
-[INFO] (pysimu) Data has been updated for this package.
+[INFO] (pysimu) This package is up to date.
 [ERROR] (pysimulator) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://www.pysimulator.org"
 [INFO] (pysimulators) This package is up to date.
@@ -18039,7 +18019,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pysmi) This package is up to date.
 [INFO] (pysmile) This package is up to date.
 [INFO] (pysmime) This package is up to date.
-[INFO] (pysmithplot) Data has been updated for this package.
+[INFO] (pysmithplot) This package is up to date.
 [ERROR] (pysmooch) This package does not have downloadable releases.
 [INFO] (pysms) This package is up to date.
 [INFO] (pysmspilot) This package is up to date.
@@ -18308,7 +18288,7 @@ This package download URL does not point to a valid file: "https://pypi.python.o
 [INFO] (pystemmer) This package is up to date.
 [ERROR] (pystep) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "https://sourceforge.net/projects/pystep/"
-[INFO] (pyster) Data has been updated for this package.
+[INFO] (pyster) This package is up to date.
 [INFO] (pysterior) This package is up to date.
 [INFO] (pysteroids) This package is up to date.
 [INFO] (pystex) This package is up to date.
@@ -18374,7 +18354,7 @@ This package download URL does not point to a valid file: "https://sourceforge.n
 [INFO] (pysubtracking) This package is up to date.
 [ERROR] (pysudoku) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://sourceforge.net/projects/wxpysudoku/download"
-[INFO] (pysudokusolver) Data has been updated for this package.
+[INFO] (pysudokusolver) This package is up to date.
 [INFO] (pysugar) This package is up to date.
 [INFO] (pysugarcrm) This package is up to date.
 [INFO] (pysugarng) This package is up to date.
@@ -18501,7 +18481,7 @@ This package download URL does not point to a valid file: "https://cumulus13@bit
 [INFO] (pytcga) This package is up to date.
 [INFO] (pytchfork) This package is up to date.
 [INFO] (pytchuka) This package is up to date.
-[INFO] (pytcptunnel) Data has been updated for this package.
+[INFO] (pytcptunnel) This package is up to date.
 [INFO] (pytd) This package is up to date.
 [INFO] (pytddmon) This package is up to date.
 [INFO] (pytdms) This package is up to date.
@@ -18746,7 +18726,6 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (pytest-optional) This package is up to date.
 [INFO] (pytest-ordering) This package is up to date.
 [INFO] (pytest-osxnotify) This package is up to date.
-[ERROR] (pytest-pact) This package does not have downloadable releases.
 [INFO] (pytest-param) This package is up to date.
 [INFO] (pytest-paste-config) This package is up to date.
 [INFO] (pytest-pdb) This package is up to date.
@@ -18889,7 +18868,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pytest-yamlwsgi) This package is up to date.
 [INFO] (pytest-zap) This package is up to date.
 [INFO] (pytest123) This package is up to date.
-[INFO] (pytester) Data has been updated for this package.
+[INFO] (pytester) This package is up to date.
 [INFO] (pytestshot) This package is up to date.
 [INFO] (pytestsocket) This package is up to date.
 [ERROR] (pytesttest) Could not get a response from API for this package. See below for details.
@@ -18955,7 +18934,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pythainlp) This package is up to date.
 [INFO] (pythaiwordcut) This package is up to date.
 [INFO] (pythales) This package is up to date.
-[INFO] (pythalesians) Data has been updated for this package.
+[INFO] (pythalesians) This package is up to date.
 [INFO] (pytheas) This package is up to date.
 [INFO] (pythemis) This package is up to date.
 [INFO] (pyther) This package is up to date.
@@ -19043,7 +19022,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (python-algorithms) This package is up to date.
 [INFO] (python-alipay-sdk) This package is up to date.
 [INFO] (python-almanachclient) This package is up to date.
-[INFO] (python-alogger) This package is up to date.
+[INFO] (python-alogger) Data has been updated for this package.
 [INFO] (python-amazon) This package is up to date.
 [INFO] (python-amazon-device-messaging) This package is up to date.
 [INFO] (python-amazon-mws) This package is up to date.
@@ -19058,7 +19037,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (python-angellist) This package is up to date.
 [INFO] (python-ant-downloader) This package is up to date.
 [INFO] (python-aop) This package is up to date.
-[INFO] (python-aosd) Data has been updated for this package.
+[INFO] (python-aosd) This package is up to date.
 [ERROR] (python-apds9930) This package does not have downloadable releases.
 [INFO] (python-api-client) This package is up to date.
 [INFO] (python-api-instagram) This package is up to date.
@@ -19389,7 +19368,7 @@ This package download URL does not point to a valid file: "http://savannah.nongn
 [INFO] (python-dateconv) This package is up to date.
 [INFO] (python-datemath) This package is up to date.
 [INFO] (python-datetime-tz) This package is up to date.
-[INFO] (python-datetime2) Data has been updated for this package.
+[INFO] (python-datetime2) This package is up to date.
 [INFO] (python-dateutil) This package is up to date.
 [INFO] (python-db) This package is up to date.
 [INFO] (python-dbusmock) This package is up to date.
@@ -19695,7 +19674,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [ERROR] (python-gsasl) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://sourceforge.net/projects/python-gsasl/files/python-gsasl/python-gsasl-0.1.tar.gz/download"
 [INFO] (python-gsmmodem) This package is up to date.
-[INFO] (python-gsmmodem-new) Data has been updated for this package.
+[INFO] (python-gsmmodem-new) This package is up to date.
 [INFO] (python-gspreaddict) This package is up to date.
 [INFO] (python-gssapi) This package is up to date.
 [INFO] (python-gtbmm) This package is up to date.
@@ -19980,7 +19959,7 @@ This package download URL does not point to a valid file: "https://pypi.python.o
 [INFO] (python-memcached-udp) This package is up to date.
 [INFO] (python-memo) This package is up to date.
 [ERROR] (python-mercadorclient) This package does not have downloadable releases.
-[INFO] (python-mercuryapi) Data has been updated for this package.
+[INFO] (python-mercuryapi) This package is up to date.
 [INFO] (python-messenger) This package is up to date.
 [INFO] (python-messenger-bot) This package is up to date.
 [INFO] (python-metar) This package is up to date.
@@ -20034,7 +20013,7 @@ This package download URL does not point to a valid file: "https://pypi.python.o
 [INFO] (python-mtgox-experiment) This package is up to date.
 [INFO] (python-mu) This package is up to date.
 [INFO] (python-multilib) This package is up to date.
-[INFO] (python-multipart) This package is up to date.
+[INFO] (python-multipart) Data has been updated for this package.
 [INFO] (python-munin) This package is up to date.
 [INFO] (python-muranoclient) This package is up to date.
 [ERROR] (python-musicbrainz) Could not extract data from this package. See below for details.
@@ -20325,7 +20304,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (python-patterns) This package is up to date.
 [INFO] (python-paycoinrpc) This package is up to date.
 [INFO] (python-payer-api) This package is up to date.
-[INFO] (python-payflowpro) Data has been updated for this package.
+[INFO] (python-payflowpro) This package is up to date.
 [INFO] (python-paymentslip) This package is up to date.
 [INFO] (python-paystack) This package is up to date.
 [INFO] (python-pcapng) This package is up to date.
@@ -20369,6 +20348,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (python-pit) This package does not have downloadable releases.
 [INFO] (python-piwik) This package is up to date.
 [ERROR] (python-pix) This package does not have downloadable releases.
+[INFO] (python-pixabay) Data has been updated for this package.
 [INFO] (python-placebo) This package is up to date.
 [INFO] (python-placeholder) This package is up to date.
 [INFO] (python-planbox) This package is up to date.
@@ -20378,6 +20358,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (python-plot-wrapper) This package is up to date.
 [INFO] (python-pmap) This package is up to date.
 [INFO] (python-poco) This package is up to date.
+[ERROR] (python-polylabel) This package does not have downloadable releases.
 [INFO] (python-pom) This package is up to date.
 [INFO] (python-ponominalu) This package is up to date.
 [INFO] (python-popcon) This package is up to date.
@@ -20432,7 +20413,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (python-prctl) This package is up to date.
 [INFO] (python-prefork) This package is up to date.
 [INFO] (python-premailer) This package is up to date.
-[INFO] (python-print-sdk) Data has been updated for this package.
+[INFO] (python-print-sdk) This package is up to date.
 [INFO] (python-printer-escpos) This package is up to date.
 [INFO] (python-printr) This package is up to date.
 [INFO] (python-process-tests) This package is up to date.
@@ -20520,7 +20501,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (python-rest-model) This package does not have downloadable releases.
 [INFO] (python-restart) This package is up to date.
 [INFO] (python-restcountries) This package is up to date.
-[INFO] (python-restorable-collections) Data has been updated for this package.
+[INFO] (python-restorable-collections) This package is up to date.
 [INFO] (python-reuters) This package is up to date.
 [INFO] (python-rex) This package is up to date.
 [INFO] (python-rexster) This package is up to date.
@@ -20772,14 +20753,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (python-tds) This package is up to date.
 [INFO] (python-teamwork) This package is up to date.
 [INFO] (python-ted) This package is up to date.
-[INFO] (python-telegram-bot) Data has been updated for this package.
+[INFO] (python-telegram-bot) This package is up to date.
 [INFO] (python-telegram-handler) This package is up to date.
 [ERROR] (python-template) Could not extract data from this package. See below for details.
 ".php" extension not supported.
 [ERROR] (python-templates) This package does not have downloadable releases.
 [INFO] (python-templet) This package is up to date.
 [INFO] (python-tempo) This package is up to date.
-[INFO] (python-termsize) Data has been updated for this package.
+[INFO] (python-termsize) This package is up to date.
 [INFO] (python-termstyle) This package is up to date.
 [INFO] (python-ternary) This package is up to date.
 [INFO] (python-terraform) This package is up to date.
@@ -20826,7 +20807,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (python-toggl) This package is up to date.
 [INFO] (python-toolbox) This package is up to date.
 [ERROR] (python-toolkit) This package does not have downloadable releases.
-[INFO] (python-topicsio) Data has been updated for this package.
+[INFO] (python-topicsio) This package is up to date.
 [ERROR] (python-tournamentcode) This package does not have downloadable releases.
 [INFO] (python-tr) This package is up to date.
 [INFO] (python-tracerex) This package is up to date.
@@ -20959,7 +20940,7 @@ urllib.error.HTTPError: HTTP Error 403: Forbidden
 [INFO] (python-veracity) This package is up to date.
 [INFO] (python-veralite) This package is up to date.
 [INFO] (python-version-info) This package is up to date.
-[INFO] (python-versioned) Data has been updated for this package.
+[INFO] (python-versioned) This package is up to date.
 [ERROR] (python-vex) This package does not have downloadable releases.
 [INFO] (python-vim) This package is up to date.
 [INFO] (python-vipaccess) This package is up to date.
@@ -21217,7 +21198,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (python4yahdlc) This package is up to date.
 [INFO] (pythonaes) This package is up to date.
 [ERROR] (pythonapi) This package does not have downloadable releases.
-[INFO] (pythonapilibrary) Data has been updated for this package.
+[INFO] (pythonapilibrary) This package is up to date.
 [INFO] (pythonbase) This package is up to date.
 [INFO] (pythonbenchmark) This package is up to date.
 [INFO] (pythonbrain) This package is up to date.
@@ -21238,7 +21219,7 @@ This package download URL does not point to a valid file: "https://sourceforge.n
 [INFO] (pythondbhelper) This package is up to date.
 [ERROR] (pythondemoprojectfordeployment) This package does not have downloadable releases.
 [INFO] (pythondialog) This package is up to date.
-[INFO] (pythondnn) Data has been updated for this package.
+[INFO] (pythondnn) This package is up to date.
 [ERROR] (pythondoc) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://www.effbot.org/downloads#pythondoc"
 [INFO] (pythonds) This package is up to date.
@@ -21316,7 +21297,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (pythonocc-core) Data has been updated for this package.
+[INFO] (pythonocc-core) This package is up to date.
 [INFO] (pythonometer) This package is up to date.
 [ERROR] (pythononrio-templatetags) This package does not have downloadable releases.
 [INFO] (pythonpackageinitbear) This package is up to date.
@@ -21525,7 +21506,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (pytomaton) This package is up to date.
 [INFO] (pytomcrypt) This package is up to date.
 [INFO] (pytomd) This package is up to date.
-[INFO] (pytoml) This package is up to date.
+[INFO] (pytoml) Data has been updated for this package.
 [ERROR] (pytomo) This package does not have downloadable releases.
 [INFO] (pytomo3d) This package is up to date.
 [ERROR] (pytomtom) This package does not have downloadable releases.
@@ -21541,7 +21522,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (pytools-sshcli) This package is up to date.
 [INFO] (pytop) This package is up to date.
 [INFO] (pytopcmd) This package is up to date.
-[INFO] (pytopkapi) Data has been updated for this package.
+[INFO] (pytopkapi) This package is up to date.
 [INFO] (pytopo) This package is up to date.
 [INFO] (pytopol) This package is up to date.
 [INFO] (pytoport) This package is up to date.
@@ -21582,7 +21563,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (pytracts) This package is up to date.
 [INFO] (pytrade) This package is up to date.
 [INFO] (pytrademonster) This package is up to date.
-[INFO] (pytrader) Data has been updated for this package.
+[INFO] (pytrader) This package is up to date.
 [INFO] (pytradfri) This package is up to date.
 [INFO] (pytrafik) This package is up to date.
 [INFO] (pytrailer) This package is up to date.
@@ -21656,7 +21637,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (pytsort) This package is up to date.
 [INFO] (pytspsa) This package is up to date.
 [INFO] (pytss) This package is up to date.
-[INFO] (pytst) Data has been updated for this package.
+[INFO] (pytst) This package is up to date.
 [INFO] (pytsv) This package is up to date.
 [INFO] (pytter) This package is up to date.
 [INFO] (pyttern) This package is up to date.
@@ -21709,7 +21690,7 @@ This package download URL does not point to a valid file: "http://www.sourceforg
 [INFO] (pytx) This package is up to date.
 [INFO] (pytyler) This package is up to date.
 [INFO] (pytyp) This package is up to date.
-[INFO] (pytype) Data has been updated for this package.
+[INFO] (pytype) This package is up to date.
 [ERROR] (pytypes) This package does not have downloadable releases.
 [INFO] (pytypeutil) This package is up to date.
 [INFO] (pytypo) This package is up to date.
@@ -22069,7 +22050,7 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [ERROR] (pyvimeo) This package does not have downloadable releases.
 [INFO] (pyvine) This package is up to date.
 [INFO] (pyvinil) This package is up to date.
-[INFO] (pyvirt) Data has been updated for this package.
+[INFO] (pyvirt) This package is up to date.
 [INFO] (pyvirtualdisplay) This package is up to date.
 [INFO] (pyvirtualize) This package is up to date.
 [INFO] (pyvisa) This package is up to date.
@@ -22175,7 +22156,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (pyvoxelstats) This package is up to date.
 [INFO] (pyvpsolver) This package is up to date.
-[INFO] (pyvpx) Data has been updated for this package.
+[INFO] (pyvpx) This package is up to date.
 [ERROR] (pyvr) This package does not have downloadable releases.
 [INFO] (pyvrml97) This package is up to date.
 [INFO] (pyvrml97-accelerate) This package is up to date.
@@ -22361,7 +22342,7 @@ This package download URL does not point to a valid file: "https://sourceforge.n
 [INFO] (pywkher-new-params) This package is up to date.
 [INFO] (pywkhtmltopdf) This package is up to date.
 [INFO] (pywkpdf) This package is up to date.
-[INFO] (pywl) Data has been updated for this package.
+[INFO] (pywl) This package is up to date.
 [INFO] (pywlc) This package is up to date.
 [INFO] (pywldap) This package is up to date.
 [INFO] (pywls) This package is up to date.
@@ -22389,7 +22370,7 @@ This package download URL does not point to a valid file: "http://sourceforge.ne
 [INFO] (pywot) This package is up to date.
 [INFO] (pywoudc) This package is up to date.
 [INFO] (pywp) This package is up to date.
-[INFO] (pywpipe) Data has been updated for this package.
+[INFO] (pywpipe) This package is up to date.
 [INFO] (pywps) This package is up to date.
 [INFO] (pywrap) This package is up to date.
 [INFO] (pywrapper) This package is up to date.
@@ -22716,13 +22697,13 @@ This package download URL does not point to a valid file: "http://sourceforge.ne
 [INFO] (pyzzuf) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 16800
-[INFO]     Packages processed: 16800
-[INFO]         Packages updated: 147
-[INFO]         Packages up-to-date: 14830
-[INFO]         Packages without response: 160
+[INFO] Total packages: 16812
+[INFO]     Packages processed: 16812
+[INFO]         Packages updated: 37
+[INFO]         Packages up-to-date: 14954
+[INFO]         Packages without response: 159
 [INFO]         Packages without urls: 0
-[INFO]         Packages without downloads: 1276
+[INFO]         Packages without downloads: 1275
 [INFO]         Packages with data errors: 387
 [INFO]     Packages not processed: 0
 [INFO] 
