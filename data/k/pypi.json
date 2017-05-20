@@ -9322,12 +9322,12 @@
     "karbor": {
         "cmdline": [],
         "modules": [],
-        "version": "0.2.0"
+        "version": "0.2.1"
     },
     "karbor-dashboard": {
         "cmdline": [],
         "modules": [],
-        "version": "0.1.2"
+        "version": "0.2.0"
     },
     "karellen-geventws": {
         "cmdline": [],
@@ -28559,11 +28559,9 @@
     "krwordrank": {
         "cmdline": [],
         "modules": [
-            "kr_wordrank._init",
-            "kr_wordrank.hangle",
-            "kr_wordrank.word"
+            "krwordrank"
         ],
-        "version": "0.1.0"
+        "version": "0.1.1"
     },
     "krxholiday": {
         "cmdline": [],

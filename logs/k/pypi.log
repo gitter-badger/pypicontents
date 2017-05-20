@@ -271,8 +271,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (karakuri) This package is up to date.
 [INFO] (karasev) This package is up to date.
 [INFO] (karatsuba) This package is up to date.
-[INFO] (karbor) This package is up to date.
-[INFO] (karbor-dashboard) This package is up to date.
+[INFO] (karbor) Data has been updated for this package.
+[INFO] (karbor-dashboard) Data has been updated for this package.
 [INFO] (karellen-geventws) This package is up to date.
 [INFO] (karellen-kombu-ext) This package is up to date.
 [INFO] (karellen-pyb-plugin) This package is up to date.
@@ -490,7 +490,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kennyg) This package is up to date.
 [ERROR] (kenozooid) This package does not have downloadable releases.
 [INFO] (kentest) This package is up to date.
-[INFO] (keops) Data has been updated for this package.
+[INFO] (keops) This package is up to date.
 [INFO] (kepub-toolbox) This package is up to date.
 [INFO] (keputils) This package is up to date.
 [INFO] (kepython) This package is up to date.
@@ -779,7 +779,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (kiloeyes) This package does not have downloadable releases.
 [INFO] (kilometer) This package is up to date.
 [INFO] (kim) This package is up to date.
-[INFO] (kimboot) Data has been updated for this package.
+[INFO] (kimboot) This package is up to date.
 [INFO] (kimchi) This package is up to date.
 [INFO] (kimo) This package is up to date.
 [INFO] (kimono) This package is up to date.
@@ -975,7 +975,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kivy.deps.gstreamer-dev) This package is up to date.
 [INFO] (kivy.deps.sdl2) This package is up to date.
 [INFO] (kivy.deps.sdl2-dev) This package is up to date.
-[INFO] (kivy.garden.garden-nspace) Data has been updated for this package.
+[INFO] (kivy.garden.garden-nspace) This package is up to date.
 [INFO] (kivycalendar) This package is up to date.
 [INFO] (kivymd) This package is up to date.
 [ERROR] (kivymvp) This package does not have downloadable releases.
@@ -1088,7 +1088,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kmodpy) This package is up to date.
 [INFO] (kmorinester) This package is up to date.
 [INFO] (kmpp) This package is up to date.
-[INFO] (kms-encryption-toolbox) Data has been updated for this package.
+[INFO] (kms-encryption-toolbox) This package is up to date.
 [INFO] (kmsauth) This package is up to date.
 [INFO] (kmsclient) This package is up to date.
 [INFO] (kmstool) This package is up to date.
@@ -1184,7 +1184,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (koalausers) This package is up to date.
 [INFO] (koalaverify) This package is up to date.
 [INFO] (koality-cli) This package is up to date.
-[INFO] (koalixcrm) Data has been updated for this package.
+[INFO] (koalixcrm) This package is up to date.
 [INFO] (koansys.django.authradius) This package is up to date.
 [INFO] (koansys.recipe.elasticsearch) This package is up to date.
 [INFO] (koansys.recipe.hooks) This package is up to date.
@@ -1517,7 +1517,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (krux-scheduler) This package is up to date.
 [INFO] (krux-stdlib) This package is up to date.
 [INFO] (kruxstatsd) This package is up to date.
-[INFO] (krwordrank) This package is up to date.
+[INFO] (krwordrank) Data has been updated for this package.
 [INFO] (krxholiday) This package is up to date.
 [INFO] (krylov) This package is up to date.
 [INFO] (kryptal) This package is up to date.
@@ -1729,7 +1729,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (kw-ppjp.chat) This package is up to date.
 [INFO] (kwalitee) This package is up to date.
 [INFO] (kwallet-dump) This package is up to date.
-[INFO] (kwant) Data has been updated for this package.
+[INFO] (kwant) This package is up to date.
 [INFO] (kwapi-g5k) This package is up to date.
 [INFO] (kwargify) This package is up to date.
 [INFO] (kwargs-obj) This package is up to date.
@@ -1827,8 +1827,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] 
 [INFO] Total packages: 1497
 [INFO]     Packages processed: 1497
-[INFO]         Packages updated: 6
-[INFO]         Packages up-to-date: 1335
+[INFO]         Packages updated: 3
+[INFO]         Packages up-to-date: 1338
 [INFO]         Packages without response: 12
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 130
