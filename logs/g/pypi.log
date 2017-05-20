@@ -254,7 +254,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gandalf-client) This package is up to date.
 [INFO] (gandi.cli) This package is up to date.
 [INFO] (gandlf) This package is up to date.
-[INFO] (gands) Data has been updated for this package.
+[INFO] (gands) This package is up to date.
 [INFO] (gang) This package is up to date.
 [INFO] (ganga) This package is up to date.
 [INFO] (ganggang) This package is up to date.
@@ -833,7 +833,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gelutils) This package is up to date.
 [INFO] (gem) This package is up to date.
 [INFO] (gem-migrator) This package is up to date.
-[INFO] (gemdeps) Data has been updated for this package.
+[INFO] (gemdeps) This package is up to date.
 [INFO] (gemeente) This package is up to date.
 [INFO] (gemfileparser) This package is up to date.
 [INFO] (gemfire-rest) This package is up to date.
@@ -898,7 +898,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (generatecube) This package is up to date.
 [INFO] (generateds) This package is up to date.
 [INFO] (generates) This package is up to date.
-[INFO] (generatewordcloud) Data has been updated for this package.
+[INFO] (generatewordcloud) This package is up to date.
 [ERROR] (generator) This package does not have downloadable releases.
 [ERROR] (generator-tools) Could not extract data from this package. See below for details.
 Execution of /usr/bin/python3.5 -m pypicontents.wrapper /tmp/pypic-extract/generator-tools/generator_tools-0.3.6 failed with the following messages:
@@ -1004,11 +1004,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (genomedata) This package is up to date.
 [ERROR] (genomediagram) This package does not have downloadable releases.
 [INFO] (genomediff) This package is up to date.
-[INFO] (genomepy) This package is up to date.
+[INFO] (genomepy) Data has been updated for this package.
 [INFO] (genomes) This package is up to date.
 [INFO] (genomespaceio) This package is up to date.
 [INFO] (genometk) This package is up to date.
-[INFO] (genometools) Data has been updated for this package.
+[INFO] (genometools) This package is up to date.
 [INFO] (genometreetk) This package is up to date.
 [INFO] (genomfart) This package is up to date.
 [INFO] (genomicassertions) This package is up to date.
@@ -1219,7 +1219,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (geokey) This package is up to date.
 [INFO] (geokey-airquality) This package is up to date.
 [INFO] (geokey-cartodb) This package is up to date.
-[INFO] (geokey-checklist) Data has been updated for this package.
+[INFO] (geokey-checklist) This package is up to date.
 [INFO] (geokey-dataimports) This package is up to date.
 [INFO] (geokey-epicollect) This package is up to date.
 [INFO] (geokey-export) This package is up to date.
@@ -1248,7 +1248,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (geokit) This package is up to date.
 [INFO] (geolang) This package is up to date.
 [INFO] (geoleaflet) This package is up to date.
-[INFO] (geolink-formatter) Data has been updated for this package.
+[INFO] (geolink-formatter) This package is up to date.
 [INFO] (geolinks) This package is up to date.
 [INFO] (geolocate) This package is up to date.
 [ERROR] (geolocated) This package does not have downloadable releases.
@@ -1307,8 +1307,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (geoprisma-config) This package is up to date.
 [INFO] (geoprobe) This package is up to date.
 [INFO] (geopy) This package is up to date.
-[INFO] (geopy.jp) Data has been updated for this package.
-[INFO] (geopy.jp-2.7) Data has been updated for this package.
+[INFO] (geopy.jp) This package is up to date.
+[INFO] (geopy.jp-2.7) This package is up to date.
 [INFO] (geopython) This package is up to date.
 [INFO] (geoql) This package is up to date.
 [INFO] (georaptor) This package is up to date.
@@ -1386,7 +1386,7 @@ Unsupported package directory structure.
 [INFO] (gerrittest) This package is up to date.
 [INFO] (gerrymander) This package is up to date.
 [INFO] (gertty) This package is up to date.
-[INFO] (gestalt) Data has been updated for this package.
+[INFO] (gestalt) This package is up to date.
 [INFO] (gestionatr) This package is up to date.
 [INFO] (gestpypay) This package is up to date.
 [INFO] (gestus) This package is up to date.
@@ -1394,7 +1394,7 @@ Unsupported package directory structure.
 [INFO] (get) This package is up to date.
 [INFO] (get-cached) This package is up to date.
 [INFO] (get-captcha) This package is up to date.
-[INFO] (get-config) Data has been updated for this package.
+[INFO] (get-config) This package is up to date.
 [INFO] (get-env-var) This package is up to date.
 [INFO] (get-every-list) This package is up to date.
 [INFO] (get-list) This package is up to date.
@@ -1474,7 +1474,7 @@ urllib.error.URLError: <urlopen error [Errno 111] Connection refused>
 [INFO] (getgithub) This package is up to date.
 [INFO] (getgrowth) This package is up to date.
 [INFO] (gethub) This package is up to date.
-[INFO] (getid-tools) Data has been updated for this package.
+[INFO] (getid-tools) This package is up to date.
 [ERROR] (getip) This package does not have downloadable releases.
 [INFO] (getit) This package is up to date.
 [INFO] (getitem) This package is up to date.
@@ -1665,6 +1665,7 @@ urllib.error.URLError: <urlopen error [Errno 111] Connection refused>
 [INFO] (gh-quick-release) This package is up to date.
 [INFO] (gh-webhook) This package is up to date.
 [INFO] (gh2conf) This package is up to date.
+[INFO] (gh2md) Data has been updated for this package.
 [INFO] (ghalatawi) This package is up to date.
 [INFO] (ghalton) This package is up to date.
 [INFO] (ghaminer) This package is up to date.
@@ -1767,7 +1768,7 @@ This package download URL does not point to a valid file: "http://www.ghrml.org/
 [INFO] (gi) This package is up to date.
 [INFO] (gi-camel) This package is up to date.
 [INFO] (gi-eagle) This package is up to date.
-[INFO] (giantbomb) Data has been updated for this package.
+[INFO] (giantbomb) This package is up to date.
 [INFO] (giaola-role-permissions) This package is up to date.
 [INFO] (gibberisch) This package is up to date.
 [INFO] (gibberish) This package is up to date.
@@ -1800,7 +1801,7 @@ This package download URL does not point to a valid file: "http://giftfile.org/d
 [INFO] (giftwrap) This package is up to date.
 [INFO] (gig) This package is up to date.
 [ERROR] (gigablog) This package does not have downloadable releases.
-[INFO] (gigalixir) This package is up to date.
+[INFO] (gigalixir) Data has been updated for this package.
 [INFO] (giganews) This package is up to date.
 [ERROR] (gigapod) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -1941,7 +1942,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (gister) This package is up to date.
 [INFO] (gistey) This package is up to date.
 [INFO] (gistfetch) This package is up to date.
-[INFO] (gistie) Data has been updated for this package.
+[INFO] (gistie) This package is up to date.
 [INFO] (gistimporter) This package is up to date.
 [INFO] (gistit) This package is up to date.
 [INFO] (gistore) This package is up to date.
@@ -2386,7 +2387,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (gitmit) This package is up to date.
 [ERROR] (gitmon) This package does not have downloadable releases.
 [INFO] (gitmsg) This package is up to date.
-[INFO] (gitnet) Data has been updated for this package.
+[INFO] (gitnet) This package is up to date.
 [INFO] (gitnotifs) This package is up to date.
 [INFO] (gitnotus) This package is up to date.
 [INFO] (gito) This package is up to date.
@@ -2491,6 +2492,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gizeh) This package is up to date.
 [INFO] (gizela) This package is up to date.
 [INFO] (gizmo) This package is up to date.
+[INFO] (gizoogle) Data has been updated for this package.
 [INFO] (gizoogle-py) This package is up to date.
 [INFO] (gj) This package is up to date.
 [INFO] (gj2ascii) This package is up to date.
@@ -2674,7 +2676,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (globus-cli) This package is up to date.
 [INFO] (globus-nexus-client) This package is up to date.
 [INFO] (globus-provision) This package is up to date.
-[INFO] (globus-sdk) Data has been updated for this package.
+[INFO] (globus-sdk) This package is up to date.
 [INFO] (globusonline-transfer-api-client) This package is up to date.
 [INFO] (globussh) This package is up to date.
 [INFO] (glocate) This package is up to date.
@@ -2793,7 +2795,7 @@ This package download URL does not point to a valid file: "http://uberdev.org/gm
 [INFO] (gmapsbounds) This package is up to date.
 [INFO] (gmatch) This package is up to date.
 [INFO] (gmcquillan-mimic) This package is up to date.
-[INFO] (gmdhpy) Data has been updated for this package.
+[INFO] (gmdhpy) This package is up to date.
 [INFO] (gmdownloader) This package is up to date.
 [INFO] (gmisclib) This package is up to date.
 [INFO] (gmls) This package is up to date.
@@ -2824,7 +2826,7 @@ This package download URL does not point to a valid file: "http://uberdev.org/gm
 [INFO] (gmusicapi-wrapper) This package is up to date.
 [INFO] (gmusicsync) This package is up to date.
 [INFO] (gmvault) This package is up to date.
-[INFO] (gmx-script) Data has been updated for this package.
+[INFO] (gmx-script) This package is up to date.
 [INFO] (gmx-wrapper) This package is up to date.
 [INFO] (gmxscript) This package is up to date.
 [INFO] (gnacs) This package is up to date.
@@ -2902,7 +2904,7 @@ This package download URL does not point to a valid file: "http://uberdev.org/gm
 [ERROR] (gnupginterface) Could not extract data from this package. See below for details.
 ".php" extension not supported.
 [INFO] (gnuplot-kernel) This package is up to date.
-[INFO] (gnuplot-py) Data has been updated for this package.
+[INFO] (gnuplot-py) This package is up to date.
 [INFO] (gnuplotlib) This package is up to date.
 [INFO] (gnureadline) This package is up to date.
 [INFO] (gnusocial) This package is up to date.
@@ -2935,11 +2937,11 @@ This package download URL does not point to a valid file: "http://www.govorun.or
 [INFO] (gobject) This package is up to date.
 [INFO] (goblet) This package is up to date.
 [INFO] (goblin) This package is up to date.
-[INFO] (gobpersist) Data has been updated for this package.
+[INFO] (gobpersist) This package is up to date.
 [INFO] (goby) This package is up to date.
 [INFO] (gocardless) This package is up to date.
 [INFO] (gocardless-pro) This package is up to date.
-[INFO] (gocd) This package is up to date.
+[INFO] (gocd) Data has been updated for this package.
 [INFO] (gocd-cipher) This package is up to date.
 [INFO] (gocd-cli) This package is up to date.
 [INFO] (gocd-cli.commands.echo) This package is up to date.
@@ -3130,6 +3132,7 @@ Unsupported package directory structure.
 [INFO] (gondor) This package is up to date.
 [ERROR] (gonogo) This package does not have downloadable releases.
 [INFO] (gonzo) This package is up to date.
+[INFO] (goo) Data has been updated for this package.
 [INFO] (goobook) This package is up to date.
 [INFO] (goocalendar) This package is up to date.
 [INFO] (good) This package is up to date.
@@ -3147,9 +3150,9 @@ Unsupported package directory structure.
 [INFO] (goodruns) This package is up to date.
 [INFO] (goodtables) This package is up to date.
 [ERROR] (goodtables-server) This package does not have downloadable releases.
-[INFO] (goodtests) Data has been updated for this package.
+[INFO] (goodtests) This package is up to date.
 [INFO] (goodvibes) This package is up to date.
-[INFO] (gooee) Data has been updated for this package.
+[INFO] (gooee) This package is up to date.
 [INFO] (gooey) This package is up to date.
 [INFO] (gooeydist) This package is up to date.
 [INFO] (gooeypip) This package is up to date.
@@ -3279,7 +3282,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (googleapis-artman) This package is up to date.
+[INFO] (googleapis-artman) Data has been updated for this package.
 [INFO] (googleapis-common-protos) This package is up to date.
 [INFO] (googleappenginecloudstorageclient) This package is up to date.
 [INFO] (googleappenginemapreduce) This package is up to date.
@@ -3399,7 +3402,7 @@ This package download URL does not point to a valid file: "https://sourceforge.n
 [INFO] (goparser) This package is up to date.
 [INFO] (gopay) This package is up to date.
 [INFO] (gopay-django-api) This package is up to date.
-[INFO] (gopca) Data has been updated for this package.
+[INFO] (gopca) This package is up to date.
 [ERROR] (gopca-server) This package does not have downloadable releases.
 [INFO] (gopher) This package is up to date.
 [INFO] (gopherfeed) This package is up to date.
@@ -3426,7 +3429,7 @@ This package download URL does not point to a valid file: "https://sourceforge.n
 [INFO] (gorgou) This package is up to date.
 [INFO] (goriachev) This package is up to date.
 [INFO] (gorilla) This package is up to date.
-[INFO] (gorillabot) Data has been updated for this package.
+[INFO] (gorillabot) This package is up to date.
 [ERROR] (gorinich) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -3864,7 +3867,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (graphite-metrics) This package is up to date.
 [INFO] (graphite-mineshaft) This package is up to date.
 [INFO] (graphite-opentsdb) This package is up to date.
-[INFO] (graphite-pymetrics) Data has been updated for this package.
+[INFO] (graphite-pymetrics) This package is up to date.
 [INFO] (graphite-query) This package is up to date.
 [INFO] (graphite-to-zabbix) This package is up to date.
 [INFO] (graphite-web) This package is up to date.
@@ -4094,7 +4097,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (grid-toolkit) This package is up to date.
 [INFO] (grid-top-est) This package is up to date.
 [INFO] (gridaurora) This package is up to date.
-[INFO] (gridcal) This package is up to date.
+[INFO] (gridcal) Data has been updated for this package.
 [INFO] (gridcells) This package is up to date.
 [INFO] (gridcentric-python-novaclient-ext) This package is up to date.
 [INFO] (griddataformats) This package is up to date.
@@ -4336,7 +4339,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 This package download URL does not point to a valid file: "https://bitbucket.org/akalapodis/grstemmer"
 [INFO] (grstools) This package is up to date.
 [INFO] (grt) This package is up to date.
-[INFO] (grub2-theme-preview) Data has been updated for this package.
+[INFO] (grub2-theme-preview) This package is up to date.
 [ERROR] (grudge) This package does not have downloadable releases.
 [INFO] (gruf) This package is up to date.
 [INFO] (gruffy) This package is up to date.
@@ -4574,7 +4577,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (guachi) This package is up to date.
 [INFO] (guajiro) This package is up to date.
 [INFO] (guan-nester) This package is up to date.
-[INFO] (guano) This package is up to date.
+[INFO] (guano) Data has been updated for this package.
 [INFO] (guarantee) This package is up to date.
 [INFO] (guard) This package is up to date.
 [ERROR] (guardian) This package does not have downloadable releases.
@@ -4609,12 +4612,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gui2py) This package is up to date.
 [ERROR] (guibible) Could not extract data from this package. See below for details.
 ".1.4-0.src.rpm" extension not supported.
-[INFO] (guibuilder) Data has been updated for this package.
+[INFO] (guibuilder) This package is up to date.
 [INFO] (guid-tool) This package is up to date.
 [INFO] (guidata) This package is up to date.
 [INFO] (guidb) This package is up to date.
 [INFO] (guide-md) This package is up to date.
-[INFO] (guide-search) Data has been updated for this package.
+[INFO] (guide-search) This package is up to date.
 [INFO] (guidebox) This package is up to date.
 [INFO] (guider) This package is up to date.
 [ERROR] (guideseq) This package does not have downloadable releases.
@@ -4630,7 +4633,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (guillotina-oauth) This package is up to date.
 [INFO] (guillotina-pgcatalog) This package is up to date.
 [INFO] (guillotina-rediscache) This package is up to date.
-[INFO] (guillotina-s3storage) This package is up to date.
+[INFO] (guillotina-s3storage) Data has been updated for this package.
 [INFO] (guillotina-swagger) This package is up to date.
 [INFO] (guillotine) This package is up to date.
 [INFO] (guippy) This package is up to date.
@@ -4644,7 +4647,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (guizero) This package is up to date.
 [INFO] (gulag) This package is up to date.
 [INFO] (guliaev) This package is up to date.
-[INFO] (gulis) Data has been updated for this package.
+[INFO] (gulis) This package is up to date.
 [INFO] (gullikson-scripts) This package is up to date.
 [ERROR] (gulliver) This package does not have downloadable releases.
 [INFO] (gulp) This package is up to date.
@@ -4830,10 +4833,10 @@ This package download URL does not point to a valid file: "http://gyrfalcon.sour
 [INFO] (gzlog) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 3752
-[INFO]     Packages processed: 3752
-[INFO]         Packages updated: 29
-[INFO]         Packages up-to-date: 3336
+[INFO] Total packages: 3755
+[INFO]     Packages processed: 3755
+[INFO]         Packages updated: 11
+[INFO]         Packages up-to-date: 3357
 [INFO]         Packages without response: 34
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 287

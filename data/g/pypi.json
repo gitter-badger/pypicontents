@@ -15255,7 +15255,7 @@
             "genomepy.provider",
             "genomepy.utils"
         ],
-        "version": "0.2.3"
+        "version": "0.3.0"
     },
     "genomes": {
         "cmdline": [],
@@ -23773,6 +23773,15 @@
         ],
         "version": "0.1"
     },
+    "gh2md": {
+        "cmdline": [],
+        "modules": [
+            "gh2md",
+            "gh2md.gh2md",
+            "gh2md.templates_markdown"
+        ],
+        "version": "0.1"
+    },
     "ghalatawi": {
         "cmdline": [],
         "modules": [
@@ -24893,7 +24902,7 @@
             "gigalixir.usage",
             "gigalixir.user"
         ],
-        "version": "0.7.0"
+        "version": "0.8.0"
     },
     "giganews": {
         "cmdline": [],
@@ -31685,6 +31694,11 @@
             "gizmo.tasks"
         ],
         "version": "0.1.12"
+    },
+    "gizoogle": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.1"
     },
     "gizoogle-py": {
         "cmdline": [],
@@ -39018,7 +39032,7 @@
             "gocd.vendor.multidimensional_urlencode.tests.test_urlencode",
             "gocd.vendor.multidimensional_urlencode.urlencoder"
         ],
-        "version": "0.15.0"
+        "version": "0.15.1"
     },
     "gocd-cipher": {
         "cmdline": [],
@@ -41564,6 +41578,14 @@
             "gonzo.utils"
         ],
         "version": "0.4.2"
+    },
+    "goo": {
+        "cmdline": [],
+        "modules": [
+            "goo",
+            "goo.base"
+        ],
+        "version": "0.3"
     },
     "goobook": {
         "cmdline": [],
@@ -44231,7 +44253,9 @@
         "version": ""
     },
     "googleapis-artman": {
-        "cmdline": [],
+        "cmdline": [
+            "smoketest_artman.py"
+        ],
         "modules": [
             "artman",
             "artman.cli",
@@ -44288,7 +44312,7 @@
             "artman.utils.protoc_utils",
             "artman.utils.task_utils"
         ],
-        "version": "0.4.1"
+        "version": "0.4.3"
     },
     "googleapis-common-protos": {
         "cmdline": [],
@@ -55516,7 +55540,7 @@
             "GridCal.tests.download_stats",
             "GridCal.tests.matpower_import_test"
         ],
-        "version": "1.45"
+        "version": "1.47"
     },
     "gridcells": {
         "cmdline": [],
@@ -62969,18 +62993,9 @@
         "version": "1.0.1"
     },
     "guano": {
-        "cmdline": [
-            "batlogger2guano.py",
-            "d500x2guano.py",
-            "disperse.py",
-            "guano_dump.py",
-            "sb2guano.py",
-            "wamd2guano.py"
-        ],
-        "modules": [
-            "guano"
-        ],
-        "version": "0.0.7"
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.8"
     },
     "guarantee": {
         "cmdline": [],
@@ -63880,7 +63895,7 @@
             "guillotina_gcloudstorage.tests.conftest",
             "guillotina_gcloudstorage.tests.test_storage"
         ],
-        "version": "1.0.11"
+        "version": "1.0.12"
     },
     "guillotina-mailer": {
         "cmdline": [],
@@ -63940,9 +63955,12 @@
             "guillotina_s3storage",
             "guillotina_s3storage.events",
             "guillotina_s3storage.interfaces",
-            "guillotina_s3storage.storage"
+            "guillotina_s3storage.storage",
+            "guillotina_s3storage.tests",
+            "guillotina_s3storage.tests.conftest",
+            "guillotina_s3storage.tests.test_storage"
         ],
-        "version": "1.0.7"
+        "version": "1.0.8"
     },
     "guillotina-swagger": {
         "cmdline": [],
