@@ -318,7 +318,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zbx2slack) This package is up to date.
 [INFO] (zbxsend) This package is up to date.
 [INFO] (zc-common) This package is up to date.
-[INFO] (zc-events) Data has been updated for this package.
+[INFO] (zc-events) This package is up to date.
 [INFO] (zc-zookeeper-static) This package is up to date.
 [INFO] (zc.ajaxform) This package is up to date.
 [INFO] (zc.async) This package is up to date.
@@ -517,10 +517,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zencore) This package is up to date.
 [INFO] (zencore-httpserver) This package is up to date.
 [INFO] (zencore-utils) This package is up to date.
-[INFO] (zencore-zabbix) This package is up to date.
+[INFO] (zencore-zabbix) Data has been updated for this package.
 [INFO] (zendesk) This package is up to date.
 [INFO] (zendesk-api) This package is up to date.
-[INFO] (zendesk-django-auth) This package is up to date.
+[INFO] (zendesk-django-auth) Data has been updated for this package.
 [INFO] (zendesk-help-center-backer) This package is up to date.
 [INFO] (zendesk-integration) This package is up to date.
 [INFO] (zendeskclient) This package is up to date.
@@ -1496,7 +1496,7 @@ This package download URL does not point to a valid file: "http://www.procoders.
 [INFO] (zzr) This package is up to date.
 [INFO] (zzyzx) This package is up to date.
 [INFO] (zzz) This package is up to date.
-[INFO] (zzzeeksphinx) Data has been updated for this package.
+[INFO] (zzzeeksphinx) This package is up to date.
 [INFO] (zzzfs) This package is up to date.
 [ERROR] (zzzzzzzzz) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
