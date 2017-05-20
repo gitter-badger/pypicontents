@@ -7365,7 +7365,7 @@
             "taskcat.sweeper",
             "taskcat.taskcat"
         ],
-        "version": "0.1.66"
+        "version": "0.1.74"
     },
     "taskchecker-on-console": {
         "cmdline": [
@@ -9779,11 +9779,24 @@
             "taxjar",
             "taxjar.client",
             "taxjar.data",
+            "taxjar.data.breakdown",
+            "taxjar.data.breakdown_line_item",
+            "taxjar.data.category",
+            "taxjar.data.float_property",
+            "taxjar.data.iterable",
+            "taxjar.data.line_item",
+            "taxjar.data.order",
+            "taxjar.data.rate",
+            "taxjar.data.region",
+            "taxjar.data.shipping",
+            "taxjar.data.summary_rate",
+            "taxjar.data.tax",
+            "taxjar.data.validation",
             "taxjar.exceptions",
             "taxjar.factory",
             "taxjar.response"
         ],
-        "version": "1.0.0"
+        "version": "1.1.0"
     },
     "taxon-names-resolver": {
         "cmdline": [
@@ -10335,7 +10348,7 @@
             "tbvaccine.tests",
             "tbvaccine.version"
         ],
-        "version": "0.1.1"
+        "version": "0.1.2"
     },
     "tbx": {
         "cmdline": [],
@@ -19918,7 +19931,7 @@
     "tensorflow-qnd": {
         "cmdline": [],
         "modules": [],
-        "version": "0.1.0"
+        "version": "0.1.1"
     },
     "tensorflow-qndex": {
         "cmdline": [],
@@ -21297,6 +21310,15 @@
             "terminaltables.width_and_alignment"
         ],
         "version": "3.1.0"
+    },
+    "terminaltranslator": {
+        "cmdline": [
+            "t",
+            "translator.py",
+            "tt"
+        ],
+        "modules": [],
+        "version": "0.3"
     },
     "terminalwriter": {
         "cmdline": [],
@@ -30822,9 +30844,12 @@
     "thejoyofpynting": {
         "cmdline": [],
         "modules": [
-            "thejoyofpynting"
+            "thejoyofpynting",
+            "thejoyofpynting.bobtypes",
+            "thejoyofpynting.bottypes",
+            "thejoyofpynting.paintapicture"
         ],
-        "version": "1.3.0"
+        "version": "1.4.1"
     },
     "theladder": {
         "cmdline": [],
@@ -39356,7 +39381,7 @@
             "timezonefinder.timezone_names",
             "timezonefinder.timezonefinder"
         ],
-        "version": "2.0.1"
+        "version": "2.1.0"
     },
     "timezonefinderl": {
         "cmdline": [],
@@ -43341,7 +43366,7 @@
             "tldextract.tests.all",
             "tldextract.tldextract"
         ],
-        "version": "2.0.2"
+        "version": "2.0.3"
     },
     "tldp": {
         "cmdline": [],
@@ -44477,18 +44502,25 @@
             "tmtk.tags.Tags",
             "tmtk.toolbox",
             "tmtk.toolbox.generate_chromosomal_regions_file",
+            "tmtk.toolbox.interpret_templates",
+            "tmtk.toolbox.random_study_generator",
             "tmtk.toolbox.remap_chromosomal_regions",
             "tmtk.toolbox.remap_id",
+            "tmtk.toolbox.template_data",
+            "tmtk.toolbox.template_validation",
             "tmtk.toolbox.wizard",
             "tmtk.utils",
             "tmtk.utils.CPrint",
             "tmtk.utils.Exceptions",
             "tmtk.utils.Generic",
             "tmtk.utils.HighDimUtils",
+            "tmtk.utils.batch",
+            "tmtk.utils.batch._job_descriptions",
+            "tmtk.utils.batch._wrapper",
             "tmtk.utils.filebase",
             "tmtk.utils.mappings"
         ],
-        "version": "0.2.2"
+        "version": "0.3.0"
     },
     "tmux-control": {
         "cmdline": [
@@ -49679,7 +49711,7 @@
             "topas2numpy.binned",
             "topas2numpy.ntuple"
         ],
-        "version": "0.1.4"
+        "version": "0.2.0"
     },
     "topcoder-dl": {
         "cmdline": [],
@@ -49828,6 +49860,8 @@
             "topicexplorer.extensions.sep",
             "topicexplorer.extensions.title",
             "topicexplorer.init",
+            "topicexplorer.langspace",
+            "topicexplorer.launch",
             "topicexplorer.lib",
             "topicexplorer.lib.chinese",
             "topicexplorer.lib.color",
@@ -49844,7 +49878,7 @@
             "topicexplorer.update",
             "topicexplorer.version"
         ],
-        "version": "1.0b162"
+        "version": "1.0b163"
     },
     "topicmaps": {
         "cmdline": [],
@@ -74006,7 +74040,7 @@
             "turbodbc.exceptions",
             "turbodbc.options"
         ],
-        "version": "1.1.1"
+        "version": "1.1.2"
     },
     "turbodjango": {
         "cmdline": [],

@@ -32,7 +32,7 @@ This package download URL does not point to a valid file: "http://kassiopeia.jul
 [INFO] (ta-report) This package is up to date.
 [INFO] (ta4) This package is up to date.
 [INFO] (taal) This package is up to date.
-[INFO] (taarifaapi) Data has been updated for this package.
+[INFO] (taarifaapi) This package is up to date.
 [INFO] (taatik) This package is up to date.
 [ERROR] (tab) This package does not have downloadable releases.
 [INFO] (tab-osx) This package is up to date.
@@ -208,7 +208,7 @@ This package download URL does not point to a valid file: "http://bitbucket.org/
 [INFO] (tai5-uan5-gian5-gi2-kang1-ku7) This package is up to date.
 [INFO] (tai5-uan5-gian5-gi2-phing5-tai5) This package is up to date.
 [INFO] (tai5-uan5-gian5-gi2-tsu1-liau7-khoo3) This package is up to date.
-[INFO] (tai5-uan5-gian5-gi2-tsu1-liau7-khoo3-hok8-bu7) Data has been updated for this package.
+[INFO] (tai5-uan5-gian5-gi2-tsu1-liau7-khoo3-hok8-bu7) This package is up to date.
 [INFO] (tai5-uan5-gian5-gi2-tsu1-liau7-khoo3-kau3-tui3) This package is up to date.
 [INFO] (tai5-uan5-gian5-gi2-tsu1-liau7-khoo3-tng7-su5-piau1-im1) This package is up to date.
 [INFO] (tai64n) This package is up to date.
@@ -323,7 +323,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (takumi-service) This package is up to date.
 [INFO] (takumi-sqlalchemy) This package is up to date.
 [INFO] (takumi-thrift) This package is up to date.
-[INFO] (tal0n) Data has been updated for this package.
+[INFO] (tal0n) This package is up to date.
 [INFO] (talalprotocol) This package is up to date.
 [INFO] (talaria) This package is up to date.
 [INFO] (tale) This package is up to date.
@@ -486,9 +486,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (tapi) This package is up to date.
 [INFO] (tapioca) This package is up to date.
 [INFO] (tapioca-bitbucket) This package is up to date.
-[INFO] (tapioca-bookingsync) Data has been updated for this package.
+[INFO] (tapioca-bookingsync) This package is up to date.
 [INFO] (tapioca-braspag) This package is up to date.
-[INFO] (tapioca-cartola) Data has been updated for this package.
+[INFO] (tapioca-cartola) This package is up to date.
 [INFO] (tapioca-circleci) This package is up to date.
 [INFO] (tapioca-crunchbase) This package is up to date.
 [INFO] (tapioca-disqus) This package is up to date.
@@ -578,7 +578,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (tarkus) This package is up to date.
 [INFO] (tarman) This package is up to date.
 [INFO] (tarnish) This package is up to date.
-[INFO] (tarot-cards) Data has been updated for this package.
+[INFO] (tarot-cards) This package is up to date.
 [ERROR] (tarou-plugin) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -645,7 +645,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (task.py) This package is up to date.
 [INFO] (taskall) This package is up to date.
 [INFO] (taskc) This package is up to date.
-[INFO] (taskcat) This package is up to date.
+[INFO] (taskcat) Data has been updated for this package.
 [INFO] (taskchecker-on-console) This package is up to date.
 [INFO] (taskcluster) This package is up to date.
 [INFO] (taskcluster-checkout) This package is up to date.
@@ -758,7 +758,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (taxi) This package is up to date.
 [INFO] (taxi-zebra) This package is up to date.
 [INFO] (taxii-services) This package is up to date.
-[INFO] (taxjar) This package is up to date.
+[INFO] (taxjar) Data has been updated for this package.
 [INFO] (taxon-names-resolver) This package is up to date.
 [INFO] (taxonome) This package is up to date.
 [INFO] (taxonomylite) This package is up to date.
@@ -812,7 +812,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (tbparser) This package is up to date.
 [INFO] (tbpaste) This package is up to date.
 [INFO] (tbselenium) This package is up to date.
-[INFO] (tbvaccine) This package is up to date.
+[INFO] (tbvaccine) Data has been updated for this package.
 [INFO] (tbx) This package is up to date.
 [INFO] (tc) This package is up to date.
 [INFO] (tc-as-a-service) This package is up to date.
@@ -826,7 +826,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (tc-shortener) This package is up to date.
 [INFO] (tc-xml-python) This package is up to date.
 [INFO] (tc16) This package is up to date.
-[INFO] (tcal) Data has been updated for this package.
+[INFO] (tcal) This package is up to date.
 [ERROR] (tcc) This package does not have downloadable releases.
 [INFO] (tcconfig) This package is up to date.
 [INFO] (tcdata) This package is up to date.
@@ -887,7 +887,7 @@ This package download URL does not point to a valid file: "http://www.tundraware
 [INFO] (tddc) This package is up to date.
 [INFO] (tddmon) This package is up to date.
 [INFO] (tddspry) This package is up to date.
-[INFO] (tdebuilder) Data has been updated for this package.
+[INFO] (tdebuilder) This package is up to date.
 [INFO] (tdewitt-ac-flask-hipchat) This package is up to date.
 [INFO] (tdf.extensionuploadcenter) This package is up to date.
 [INFO] (tdf.templateuploadcenter) This package is up to date.
@@ -914,7 +914,7 @@ This package download URL does not point to a valid file: "http://sourceforge.ne
 [INFO] (tdwrapper) This package is up to date.
 [INFO] (tdx) This package is up to date.
 [INFO] (tdxutil) This package is up to date.
-[INFO] (te-ai-subt) Data has been updated for this package.
+[INFO] (te-ai-subt) This package is up to date.
 [INFO] (tea) This package is up to date.
 [INFO] (teach) This package is up to date.
 [INFO] (teachpyx) This package is up to date.
@@ -1069,7 +1069,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (telegame) This package is up to date.
 [INFO] (telegram) This package is up to date.
 [INFO] (telegram-bot) This package is up to date.
-[INFO] (telegram-bot-api) Data has been updated for this package.
+[INFO] (telegram-bot-api) This package is up to date.
 [INFO] (telegram-game) This package is up to date.
 [INFO] (telegram-pi-bot) This package is up to date.
 [INFO] (telegram-reddit-newsbot) This package is up to date.
@@ -1137,7 +1137,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (temagics) This package is up to date.
 [INFO] (temboard) This package is up to date.
 [INFO] (temboard-agent) This package is up to date.
-[INFO] (tembodb) Data has been updated for this package.
+[INFO] (tembodb) This package is up to date.
 [INFO] (temboz) This package is up to date.
 [INFO] (temci) This package is up to date.
 [INFO] (temp) This package is up to date.
@@ -1378,7 +1378,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (tensorflow-gpu) This package is up to date.
 [INFO] (tensorflow-hmm) This package is up to date.
-[INFO] (tensorflow-qnd) This package is up to date.
+[INFO] (tensorflow-qnd) Data has been updated for this package.
 [INFO] (tensorflow-qndex) This package is up to date.
 [INFO] (tensorflow-transform) This package is up to date.
 [INFO] (tensorflowservingclient) This package is up to date.
@@ -1459,6 +1459,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (terminalplot) This package is up to date.
 [INFO] (terminalprinter) This package is up to date.
 [INFO] (terminaltables) This package is up to date.
+[INFO] (terminaltranslator) Data has been updated for this package.
 [INFO] (terminalwriter) This package is up to date.
 [INFO] (terminator) This package is up to date.
 [ERROR] (terminatorcli) This package does not have downloadable releases.
@@ -1853,7 +1854,7 @@ This package download URL does not point to a valid file: "http://bitbucket.org/
 [INFO] (testing2323) This package is up to date.
 [INFO] (testingbot) This package is up to date.
 [INFO] (testingbotclient) This package is up to date.
-[INFO] (testinggame) Data has been updated for this package.
+[INFO] (testinggame) This package is up to date.
 [INFO] (testino) This package is up to date.
 [INFO] (testinstances) This package is up to date.
 [ERROR] (testiny) This package does not have downloadable releases.
@@ -2415,7 +2416,7 @@ Unsupported package directory structure.
 [INFO] (thank-u-ostad) This package is up to date.
 [INFO] (that) This package is up to date.
 [INFO] (the) This package is up to date.
-[INFO] (the-backdoor-factory) Data has been updated for this package.
+[INFO] (the-backdoor-factory) This package is up to date.
 [ERROR] (the-big-picture) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://code.google.com/p/thebigpicture/downloads/list"
 [INFO] (the-big-username-blacklist) This package is up to date.
@@ -2460,13 +2461,13 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (thebot-translate) This package is up to date.
 [INFO] (thecache) This package is up to date.
 [INFO] (thecallrapi) This package is up to date.
-[INFO] (thecannon) Data has been updated for this package.
+[INFO] (thecannon) This package is up to date.
 [INFO] (thechristmaspig) This package is up to date.
 [INFO] (thecut-durationfield) This package is up to date.
 [INFO] (thecut-emailfield) This package is up to date.
 [INFO] (thed) This package is up to date.
 [INFO] (thedoctor) This package is up to date.
-[INFO] (thedom) Data has been updated for this package.
+[INFO] (thedom) This package is up to date.
 [INFO] (thedonald) This package is up to date.
 [INFO] (thedoorman) This package is up to date.
 [INFO] (theeasytype) This package is up to date.
@@ -2479,7 +2480,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (thehikarinester) This package is up to date.
 [INFO] (thehitlist) This package is up to date.
 [INFO] (thehive4py) This package is up to date.
-[INFO] (thejoyofpynting) This package is up to date.
+[INFO] (thejoyofpynting) Data has been updated for this package.
 [INFO] (theladder) This package is up to date.
 [INFO] (thelandlab) This package is up to date.
 [INFO] (theloadoftheload) This package is up to date.
@@ -2504,7 +2505,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (themis.finals.checker.app) This package is up to date.
 [INFO] (themis.finals.checker.result) This package is up to date.
 [INFO] (themysto) This package is up to date.
-[INFO] (thenumbersofmagic) Data has been updated for this package.
+[INFO] (thenumbersofmagic) This package is up to date.
 [INFO] (theo.recipe.cmd) This package is up to date.
 [ERROR] (theory) Could not extract data from this package. See below for details.
 "http://theory.steelbreeze.org/theory-0.1.6.tar.bz2" file could not be downloaded. See below for details.
@@ -2568,7 +2569,7 @@ urllib.error.URLError: <urlopen error [Errno -3] Temporary failure in name resol
 [INFO] (thermos) This package is up to date.
 [INFO] (thermosolver) This package is up to date.
 [INFO] (thermostat) This package is up to date.
-[INFO] (thermotools) Data has been updated for this package.
+[INFO] (thermotools) This package is up to date.
 [INFO] (therpy) This package is up to date.
 [INFO] (thesamet.playpants) This package is up to date.
 [INFO] (theshowutil) This package is up to date.
@@ -2885,7 +2886,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (tibia-python-api) This package is up to date.
 [INFO] (tic-tac) This package is up to date.
 [INFO] (tic-tac-pi) This package is up to date.
-[INFO] (tical) Data has been updated for this package.
+[INFO] (tical) This package is up to date.
 [INFO] (ticdat) This package is up to date.
 [INFO] (tick) This package is up to date.
 [INFO] (ticker) This package is up to date.
@@ -3279,7 +3280,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (timesquirrel) This package does not have downloadable releases.
 [INFO] (timestack) This package is up to date.
 [INFO] (timestamp) This package is up to date.
-[INFO] (timestamp-content) Data has been updated for this package.
+[INFO] (timestamp-content) This package is up to date.
 [INFO] (timestream) This package is up to date.
 [INFO] (timestreamcli) This package is up to date.
 [INFO] (timestring) This package is up to date.
@@ -3304,7 +3305,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (timewatch) This package is up to date.
 [ERROR] (timewave) This package does not have downloadable releases.
 [INFO] (timex) This package is up to date.
-[INFO] (timezonefinder) This package is up to date.
+[INFO] (timezonefinder) Data has been updated for this package.
 [INFO] (timezonefinderl) This package is up to date.
 [INFO] (timezones) This package is up to date.
 [INFO] (timid) This package is up to date.
@@ -3548,7 +3549,7 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (tirds) This package is up to date.
 [INFO] (tirelessrunner) This package is up to date.
 [INFO] (tirith) This package is up to date.
-[INFO] (tirith-server) Data has been updated for this package.
+[INFO] (tirith-server) This package is up to date.
 [INFO] (tiro) This package is up to date.
 [INFO] (tiros) This package is up to date.
 [INFO] (tissu) This package is up to date.
@@ -3576,13 +3577,13 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (titanic) This package is up to date.
-[INFO] (titanic2) Data has been updated for this package.
+[INFO] (titanic2) This package is up to date.
 [INFO] (titanium) This package is up to date.
 [INFO] (titanpaas) This package is up to date.
 [INFO] (titantools) This package is up to date.
 [INFO] (titelouze) This package is up to date.
 [INFO] (titere) This package is up to date.
-[INFO] (titlecase) Data has been updated for this package.
+[INFO] (titlecase) This package is up to date.
 [INFO] (titlemarkdown) This package is up to date.
 [INFO] (titley) This package is up to date.
 [INFO] (titov) This package is up to date.
@@ -3670,7 +3671,7 @@ This package download URL does not point to a valid file: "http://www.effbot.org
 [INFO] (tlcache) This package is up to date.
 [INFO] (tld) This package is up to date.
 [INFO] (tld-name) This package is up to date.
-[INFO] (tldextract) This package is up to date.
+[INFO] (tldextract) Data has been updated for this package.
 [INFO] (tldp) This package is up to date.
 [INFO] (tldr) This package is up to date.
 [INFO] (tldr.py) This package is up to date.
@@ -3861,7 +3862,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (tmcpy) This package is up to date.
 [INFO] (tmdang) This package is up to date.
 [ERROR] (tmdb) This package does not have downloadable releases.
-[INFO] (tmdb-api) Data has been updated for this package.
+[INFO] (tmdb-api) This package is up to date.
 [INFO] (tmdb3) This package is up to date.
 [INFO] (tmdbsimple) This package is up to date.
 [INFO] (tmdbv3api) This package is up to date.
@@ -3913,7 +3914,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (tmscoring) This package is up to date.
 [INFO] (tmstiler) This package is up to date.
 [INFO] (tmtest) This package is up to date.
-[INFO] (tmtk) This package is up to date.
+[INFO] (tmtk) Data has been updated for this package.
 [INFO] (tmux-control) This package is up to date.
 [INFO] (tmux-cssh) This package is up to date.
 [INFO] (tmux-master) This package is up to date.
@@ -4227,7 +4228,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (tooz) This package is up to date.
 [INFO] (top) This package is up to date.
 [INFO] (top30) This package is up to date.
-[INFO] (topas2numpy) This package is up to date.
+[INFO] (topas2numpy) Data has been updated for this package.
 [INFO] (topcoder-dl) This package is up to date.
 [INFO] (topeology) This package is up to date.
 [INFO] (tophat) This package is up to date.
@@ -4235,48 +4236,17 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (topiary) This package is up to date.
 [INFO] (topic-db) This package is up to date.
 [ERROR] (topical) This package does not have downloadable releases.
-[INFO] (topicexplorer) This package is up to date.
+[INFO] (topicexplorer) Data has been updated for this package.
 [ERROR] (topicmaps) This package does not have downloadable releases.
 [INFO] (topics) This package is up to date.
 [INFO] (topik) This package is up to date.
 [INFO] (topika) This package is up to date.
 [INFO] (topmodel) This package is up to date.
-[INFO] (topogram) Data has been updated for this package.
+[INFO] (topogram) This package is up to date.
 [INFO] (topographica) This package is up to date.
 [INFO] (topological-sort) This package is up to date.
 [INFO] (topology) This package is up to date.
-[ERROR] (topology-connect) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
-    response = self._open(req, data)
-  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
-    '_open', req)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
-    context=self._context, check_hostname=self._check_hostname)
-  File "/usr/lib/python3.5/urllib/request.py", line 1257, in do_open
-    r = h.getresponse()
-  File "/usr/lib/python3.5/http/client.py", line 1198, in getresponse
-    response.begin()
-  File "/usr/lib/python3.5/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/usr/lib/python3.5/http/client.py", line 258, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/usr/lib/python3.5/socket.py", line 576, in readinto
-    return self._sock.recv_into(b)
-  File "/usr/lib/python3.5/ssl.py", line 937, in recv_into
-    return self.read(nbytes, buffer)
-  File "/usr/lib/python3.5/ssl.py", line 799, in read
-    return self._sslobj.read(len, buffer)
-  File "/usr/lib/python3.5/ssl.py", line 583, in read
-    v = self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
-
+[INFO] (topology-connect) This package is up to date.
 [INFO] (topology-docker) This package is up to date.
 [INFO] (topology-lib-ip) This package is up to date.
 [INFO] (topology-lib-ping) This package is up to date.
@@ -4554,12 +4524,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (torweb) This package is up to date.
 [INFO] (torweb-for-3) This package is up to date.
 [ERROR] (torxy) This package does not have downloadable releases.
-[INFO] (tory) Data has been updated for this package.
+[INFO] (tory) This package is up to date.
 [INFO] (tory-client) This package is up to date.
 [ERROR] (tosca-parser) This package does not have downloadable releases.
 [INFO] (toscawidgets) This package is up to date.
 [INFO] (toshl) This package is up to date.
-[INFO] (tosker) Data has been updated for this package.
+[INFO] (tosker) This package is up to date.
 [INFO] (tosr0x) This package is up to date.
 [INFO] (tossi) This package is up to date.
 [INFO] (toster) This package is up to date.
@@ -4798,12 +4768,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (tracery) This package is up to date.
 [INFO] (traces) This package is up to date.
 [INFO] (tracestack) This package is up to date.
-[INFO] (tracetools) Data has been updated for this package.
+[INFO] (tracetools) This package is up to date.
 [INFO] (traceurl) This package is up to date.
 [INFO] (tracexampletheme) This package is up to date.
 [ERROR] (tracextlinksnewwindow) This package does not have downloadable releases.
 [INFO] (tracextracturl) This package is up to date.
-[INFO] (tracey) Data has been updated for this package.
+[INFO] (tracey) This package is up to date.
 [INFO] (tracfakeusername) This package is up to date.
 [INFO] (tracfilenamesearch) This package is up to date.
 [INFO] (tracgitlocation) This package is up to date.
@@ -4823,51 +4793,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (trachidevals) This package is up to date.
 [INFO] (trachierwiki) This package is up to date.
 [INFO] (trachtgroupeditorplugin) This package is up to date.
-[ERROR] (trachttpauth) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
-    h.request(req.get_method(), req.selector, req.data, headers)
-  File "/usr/lib/python3.5/http/client.py", line 1107, in request
-    self._send_request(method, url, body, headers)
-  File "/usr/lib/python3.5/http/client.py", line 1152, in _send_request
-    self.endheaders(body)
-  File "/usr/lib/python3.5/http/client.py", line 1103, in endheaders
-    self._send_output(message_body)
-  File "/usr/lib/python3.5/http/client.py", line 934, in _send_output
-    self.send(msg)
-  File "/usr/lib/python3.5/http/client.py", line 877, in send
-    self.connect()
-  File "/usr/lib/python3.5/http/client.py", line 1261, in connect
-    server_hostname=server_hostname)
-  File "/usr/lib/python3.5/ssl.py", line 385, in wrap_socket
-    _context=self)
-  File "/usr/lib/python3.5/ssl.py", line 760, in __init__
-    self.do_handshake()
-  File "/usr/lib/python3.5/ssl.py", line 996, in do_handshake
-    self._sslobj.do_handshake()
-  File "/usr/lib/python3.5/ssl.py", line 641, in do_handshake
-    self._sslobj.do_handshake()
-ConnectionResetError: [Errno 104] Connection reset by peer
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
-    response = self._open(req, data)
-  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
-    '_open', req)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
-    context=self._context, check_hostname=self._check_hostname)
-  File "/usr/lib/python3.5/urllib/request.py", line 1256, in do_open
-    raise URLError(err)
-urllib.error.URLError: <urlopen error [Errno 104] Connection reset by peer>
-
+[INFO] (trachttpauth) This package is up to date.
 [INFO] (tracimapauth) This package is up to date.
 [INFO] (tracincludemacro) This package is up to date.
 [INFO] (track) This package is up to date.
@@ -5641,7 +5567,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (trytonar-account-voucher-ar) This package is up to date.
 [INFO] (trytonar-bank-ar) This package is up to date.
 [INFO] (trytonar-cooperative-ar) This package is up to date.
-[INFO] (trytond) Data has been updated for this package.
+[INFO] (trytond) This package is up to date.
 [INFO] (trytond-account) This package is up to date.
 [INFO] (trytond-account-asset) This package is up to date.
 [INFO] (trytond-account-be) This package is up to date.
@@ -6116,7 +6042,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (turboblog) This package is up to date.
 [INFO] (turbocheetah) This package is up to date.
 [INFO] (turboclearsilver) This package is up to date.
-[INFO] (turbodbc) This package is up to date.
+[INFO] (turbodbc) Data has been updated for this package.
 [ERROR] (turbodjango) Could not extract data from this package. See below for details.
 ".php" extension not supported.
 [INFO] (turboengine) This package is up to date.
@@ -6828,7 +6754,7 @@ This package download URL does not point to a valid file: "http://toscawidgets.o
 [INFO] (twutil) This package is up to date.
 [INFO] (twx) This package is up to date.
 [INFO] (twx.botapi) This package is up to date.
-[INFO] (twx.mtproto) Data has been updated for this package.
+[INFO] (twx.mtproto) This package is up to date.
 [INFO] (twyg) This package is up to date.
 [ERROR] (twyglib) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://decorsystem.com.pl"
@@ -7095,7 +7021,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (typed.py) This package is up to date.
 [INFO] (typedargs) This package is up to date.
 [INFO] (typedate) This package is up to date.
-[INFO] (typedbytes) Data has been updated for this package.
+[INFO] (typedbytes) This package is up to date.
 [INFO] (typedcols) This package is up to date.
 [INFO] (typedecorator) This package is up to date.
 [INFO] (typedef) This package is up to date.
@@ -7223,11 +7149,11 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (tzwhere) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 5619
-[INFO]     Packages processed: 5619
-[INFO]         Packages updated: 31
-[INFO]         Packages up-to-date: 4989
-[INFO]         Packages without response: 44
+[INFO] Total packages: 5620
+[INFO]     Packages processed: 5620
+[INFO]         Packages updated: 12
+[INFO]         Packages up-to-date: 5011
+[INFO]         Packages without response: 42
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 474
 [INFO]         Packages with data errors: 81
