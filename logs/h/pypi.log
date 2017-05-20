@@ -177,7 +177,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (halef-setu) This package is up to date.
 [INFO] (halfnarp) This package is up to date.
 [INFO] (halfpipe) This package is up to date.
-[INFO] (halide) Data has been updated for this package.
+[INFO] (halide) This package is up to date.
 [INFO] (halimun) This package is up to date.
 [INFO] (halite) This package is up to date.
 [INFO] (hall-cond) This package is up to date.
@@ -500,7 +500,7 @@ This package download URL does not point to a valid file: "http://pypi.python.or
 [INFO] (hastexo-xblock) This package is up to date.
 [INFO] (hastur) This package is up to date.
 [INFO] (hasura) This package is up to date.
-[INFO] (hasy) Data has been updated for this package.
+[INFO] (hasy) This package is up to date.
 [INFO] (hat) This package is up to date.
 [INFO] (hat-trie) This package is up to date.
 [INFO] (hatak) This package is up to date.
@@ -1135,7 +1135,7 @@ PermissionError: [Errno 13] Permission denied: '/Users'
 [INFO] (hepdata-validator) This package is up to date.
 [INFO] (hepigram) This package is up to date.
 [INFO] (hepos) This package is up to date.
-[INFO] (heppi) Data has been updated for this package.
+[INFO] (heppi) This package is up to date.
 [INFO] (heppy) This package is up to date.
 [INFO] (hera) This package is up to date.
 [INFO] (heracles) This package is up to date.
@@ -1215,7 +1215,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (heron-automation) This package does not have downloadable releases.
 [INFO] (herring) This package is up to date.
 [INFO] (hes) This package is up to date.
-[INFO] (hescore-hpxml) Data has been updated for this package.
+[INFO] (hescore-hpxml) This package is up to date.
 [INFO] (hesiod53) This package is up to date.
 [INFO] (hesiod53-jumpcloud) This package is up to date.
 [INFO] (hesitate) This package is up to date.
@@ -1227,7 +1227,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (heteromotility) This package is up to date.
 [INFO] (hetio) This package is up to date.
 [INFO] (hetzner) This package is up to date.
-[INFO] (heuris) This package is up to date.
+[INFO] (heuris) Data has been updated for this package.
 [INFO] (hevea) This package is up to date.
 [INFO] (hewei) This package is up to date.
 [ERROR] (hex-ocr) Could not get a response from API for this package. See below for details.
@@ -1883,7 +1883,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (hmc) This package is up to date.
 [INFO] (hmc-loss) This package is up to date.
 [INFO] (hmc.theme) This package is up to date.
-[INFO] (hmcrestclient) Data has been updated for this package.
+[INFO] (hmcrestclient) This package is up to date.
 [INFO] (hmda-tools) This package is up to date.
 [ERROR] (hmeta) Could not extract data from this package. See below for details.
 ".html" extension not supported.
@@ -1950,7 +1950,7 @@ This package download URL does not point to a valid file: "https://pypi.python.o
 [INFO] (hockeystreams) This package is up to date.
 [INFO] (hocr) This package is up to date.
 [INFO] (hocr-spec) This package is up to date.
-[INFO] (hocr-tools) Data has been updated for this package.
+[INFO] (hocr-tools) This package is up to date.
 [INFO] (hodge) This package is up to date.
 [INFO] (hodor) This package is up to date.
 [ERROR] (hodor-py) Could not get a response from API for this package. See below for details.
@@ -2421,7 +2421,7 @@ This package download URL does not point to a valid file: "http://www.decalage.i
 [INFO] (html2pdf) This package is up to date.
 [INFO] (html2pdf-server) This package is up to date.
 [INFO] (html2rest) This package is up to date.
-[INFO] (html2shpaml) Data has been updated for this package.
+[INFO] (html2shpaml) This package is up to date.
 [INFO] (html2text) This package is up to date.
 [INFO] (html2textile) This package is up to date.
 [INFO] (html5) This package is up to date.
@@ -2498,7 +2498,7 @@ This package download URL does not point to a valid file: "http://www.connellyba
 [INFO] (htrc-feature-reader) This package is up to date.
 [INFO] (htredirect) This package is up to date.
 [ERROR] (hts) This package does not have downloadable releases.
-[INFO] (hts-engine-python) Data has been updated for this package.
+[INFO] (hts-engine-python) This package is up to date.
 [INFO] (hts-waterworks) This package is up to date.
 [INFO] (htsengine) This package is up to date.
 [INFO] (htseq) This package is up to date.
@@ -2553,7 +2553,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (http2) This package does not have downloadable releases.
 [INFO] (http4store) This package is up to date.
-[INFO] (httpagentparser) Data has been updated for this package.
+[INFO] (httpagentparser) This package is up to date.
 [INFO] (httpappengine) This package is up to date.
 [INFO] (httpauth) This package is up to date.
 [INFO] (httpbenchmark) This package is up to date.
@@ -2836,7 +2836,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (humilis-es) This package is up to date.
 [INFO] (humilis-firehose) This package is up to date.
 [INFO] (humilis-kinesis-mapper) This package is up to date.
-[INFO] (humilis-kinesis-processor) This package is up to date.
+[INFO] (humilis-kinesis-processor) Data has been updated for this package.
 [INFO] (humilis-kinesis-proxy) This package is up to date.
 [INFO] (humilis-microservice) This package is up to date.
 [INFO] (humilis-push-processor) This package is up to date.
@@ -2942,7 +2942,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (hwm) This package does not have downloadable releases.
 [INFO] (hwmasfoy) This package is up to date.
 [INFO] (hwpythonnester) This package is up to date.
-[INFO] (hwrapper) Data has been updated for this package.
+[INFO] (hwrapper) This package is up to date.
 [INFO] (hwrt) This package is up to date.
 [INFO] (hwt) This package is up to date.
 [INFO] (hwtlib) This package is up to date.
@@ -2994,7 +2994,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (hydroffice.soundspeed) This package is up to date.
 [INFO] (hydrofunctions) This package is up to date.
 [INFO] (hydropy) This package is up to date.
-[INFO] (hydroshare) Data has been updated for this package.
+[INFO] (hydroshare) This package is up to date.
 [ERROR] (hyena) This package does not have downloadable releases.
 [ERROR] (hyer) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -3277,7 +3277,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (hypo) This package is up to date.
 [INFO] (hypo-schema) This package is up to date.
 [INFO] (hyposchema) This package is up to date.
-[INFO] (hypothesis) Data has been updated for this package.
+[INFO] (hypothesis) This package is up to date.
 [INFO] (hypothesis-datetime) This package is up to date.
 [INFO] (hypothesis-django) This package is up to date.
 [INFO] (hypothesis-fakefactory) This package is up to date.
@@ -3328,8 +3328,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] 
 [INFO] Total packages: 2471
 [INFO]     Packages processed: 2471
-[INFO]         Packages updated: 13
-[INFO]         Packages up-to-date: 2157
+[INFO]         Packages updated: 3
+[INFO]         Packages up-to-date: 2167
 [INFO]         Packages without response: 36
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 240

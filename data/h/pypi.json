@@ -15268,7 +15268,7 @@
             "heuris.client",
             "heuris.message"
         ],
-        "version": "0.4.0"
+        "version": "0.5.0"
     },
     "hevea": {
         "cmdline": [],
@@ -25239,7 +25239,7 @@
             "howmanypeoplearearound.oui",
             "howmanypeoplearearound.plotlyjs"
         ],
-        "version": "0.3.3"
+        "version": "0.3.4"
     },
     "howto": {
         "cmdline": [],
@@ -31460,7 +31460,7 @@
             "humilis_kinesis_processor.lambda_function.setup",
             "humilis_kinesis_processor.plugin"
         ],
-        "version": "1.0.1"
+        "version": "1.0.2"
     },
     "humilis-kinesis-proxy": {
         "cmdline": [],
