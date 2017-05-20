@@ -6496,7 +6496,7 @@
             "fanfoucli.config",
             "fanfoucli.fan"
         ],
-        "version": "0.1.6"
+        "version": "0.1.9"
     },
     "fang": {
         "cmdline": [],
@@ -11258,7 +11258,7 @@
             "fcsparser.tests",
             "fcsparser.tests.test_fcs_reader"
         ],
-        "version": "0.1.2"
+        "version": "0.1.3"
     },
     "fcswrite": {
         "cmdline": [],
@@ -17659,7 +17659,7 @@
             "citation-api-import",
             "citation-api-import.proxy_views"
         ],
-        "version": "3.1.11"
+        "version": "3.1.13"
     },
     "fiduswriter-ojs": {
         "cmdline": [],
@@ -26182,7 +26182,7 @@
             "flake8_quotes",
             "flake8_quotes.__about__"
         ],
-        "version": "0.10.0"
+        "version": "0.10.1"
     },
     "flake8-quotes2": {
         "cmdline": [],
@@ -34219,6 +34219,29 @@
         ],
         "version": "0.1.2"
     },
+    "flask-reveal": {
+        "cmdline": [],
+        "modules": [
+            "flask_reveal",
+            "flask_reveal.app",
+            "flask_reveal.blueprints",
+            "flask_reveal.blueprints.reveal",
+            "flask_reveal.config",
+            "flask_reveal.tools",
+            "flask_reveal.tools.cli",
+            "flask_reveal.tools.commands",
+            "flask_reveal.tools.commands.installreveal",
+            "flask_reveal.tools.commands.mkpresentation",
+            "flask_reveal.tools.commands.start",
+            "flask_reveal.tools.helpers",
+            "tests",
+            "tests.test_base",
+            "tests.test_blueprints",
+            "tests.test_cli",
+            "tests.test_helpers"
+        ],
+        "version": "0.3"
+    },
     "flask-reverse-proxy": {
         "cmdline": [],
         "modules": [
@@ -35761,9 +35784,10 @@
         "cmdline": [],
         "modules": [
             "flask_thumbnails",
-            "flask_thumbnails.tests"
+            "flask_thumbnails.storage_backends",
+            "flask_thumbnails.utils"
         ],
-        "version": "0.2.2"
+        "version": "1.0.0"
     },
     "flask-thumbnails-s3": {
         "cmdline": [],
@@ -38717,7 +38741,7 @@
             "flexget.validator",
             "flexget.webserver"
         ],
-        "version": "2.10.47"
+        "version": "2.10.48"
     },
     "flexible-dotdict": {
         "cmdline": [],
@@ -42736,6 +42760,17 @@
         ],
         "version": "0.4.3"
     },
+    "flumine": {
+        "cmdline": [],
+        "modules": [
+            "flumine",
+            "flumine.exceptions",
+            "flumine.flumine",
+            "flumine.resources",
+            "flumine.resources.recorder"
+        ],
+        "version": "0.1.1"
+    },
     "flunc": {
         "cmdline": [],
         "modules": [
@@ -42980,7 +43015,7 @@
             "fluxpart.util",
             "fluxpart.wue"
         ],
-        "version": "0.1.0a0"
+        "version": "0.1.0b0"
     },
     "fluxx-wrapper": {
         "cmdline": [],
@@ -61065,7 +61100,7 @@
             "fut.log",
             "fut.urls"
         ],
-        "version": "0.2.16"
+        "version": "0.2.17"
     },
     "fut14": {
         "cmdline": [],

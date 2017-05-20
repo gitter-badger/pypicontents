@@ -417,7 +417,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (fanfiction-api) This package is up to date.
 [INFO] (fanfictionapi) This package is up to date.
 [INFO] (fanfou) This package is up to date.
-[INFO] (fanfou-cli) This package is up to date.
+[INFO] (fanfou-cli) Data has been updated for this package.
 [INFO] (fang) This package is up to date.
 [INFO] (fangcloud) This package is up to date.
 [INFO] (fangcloud-sdk) This package is up to date.
@@ -776,7 +776,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (fcrypter) This package is up to date.
 [INFO] (fcrypto) This package is up to date.
 [INFO] (fcs-simulation) This package is up to date.
-[INFO] (fcsparser) This package is up to date.
+[INFO] (fcsparser) Data has been updated for this package.
 [INFO] (fcswrite) This package is up to date.
 [INFO] (fct) This package is up to date.
 [INFO] (fctdl) This package is up to date.
@@ -817,7 +817,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (featherduster) This package is up to date.
 [INFO] (featmongo) This package is up to date.
 [INFO] (feature-aggregation) This package is up to date.
-[INFO] (feature-ramp) Data has been updated for this package.
+[INFO] (feature-ramp) This package is up to date.
 [ERROR] (featureflags) This package does not have downloadable releases.
 [INFO] (featureflow) This package is up to date.
 [INFO] (featureforge) This package is up to date.
@@ -1188,7 +1188,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (fideparser) This package is up to date.
 [INFO] (fido) This package is up to date.
 [INFO] (fidorpy) This package is up to date.
-[INFO] (fiduswriter-citation-api-import) This package is up to date.
+[INFO] (fiduswriter-citation-api-import) Data has been updated for this package.
 [INFO] (fiduswriter-ojs) This package is up to date.
 [INFO] (fief) This package is up to date.
 [INFO] (field) This package is up to date.
@@ -1491,7 +1491,7 @@ This package download URL does not point to a valid file: "ftp://ftp.tummy.com/p
 [INFO] (findx) This package is up to date.
 [INFO] (findyourday) This package is up to date.
 [INFO] (fine) This package is up to date.
-[INFO] (fineco2kmm) Data has been updated for this package.
+[INFO] (fineco2kmm) This package is up to date.
 [ERROR] (finecraft) This package does not have downloadable releases.
 [INFO] (finenight) This package is up to date.
 [INFO] (finesm) This package is up to date.
@@ -1706,7 +1706,7 @@ This package download URL does not point to a valid file: "http://www.vyperlogix
 [INFO] (fisher) This package is up to date.
 [INFO] (fisherexact) This package is up to date.
 [INFO] (fishfinder) This package is up to date.
-[INFO] (fishnet) Data has been updated for this package.
+[INFO] (fishnet) This package is up to date.
 [INFO] (fishtaco) This package is up to date.
 [INFO] (fisk) This package is up to date.
 [INFO] (fispip) This package is up to date.
@@ -1772,7 +1772,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (five.taskqueue) This package is up to date.
 [INFO] (five.z2monitor) This package is up to date.
 [INFO] (five91) This package is up to date.
-[INFO] (fivebit) Data has been updated for this package.
+[INFO] (fivebit) This package is up to date.
 [INFO] (fiveoneone) This package is up to date.
 [INFO] (fiveruns.dash) This package is up to date.
 [INFO] (fiveruns.dash.django) This package is up to date.
@@ -1984,7 +1984,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (flamboyantsshd) This package is up to date.
 [INFO] (flamegraph) This package is up to date.
 [INFO] (flamel) This package is up to date.
-[INFO] (flametree) Data has been updated for this package.
+[INFO] (flametree) This package is up to date.
 [INFO] (flamyngo) This package is up to date.
 [INFO] (flang) This package is up to date.
 [INFO] (flango) This package is up to date.
@@ -2784,7 +2784,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (flask-responses) This package is up to date.
 [INFO] (flask-rest) This package is up to date.
 [INFO] (flask-rest-controller) This package is up to date.
-[INFO] (flask-rest-jsonapi) Data has been updated for this package.
+[INFO] (flask-rest-jsonapi) This package is up to date.
 [INFO] (flask-rest-toolkit) This package is up to date.
 [INFO] (flask-rest4) This package is up to date.
 [INFO] (flask-restaction) This package is up to date.
@@ -2817,6 +2817,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (flask-rethinkdb) This package is up to date.
 [INFO] (flask-rethinkview) This package is up to date.
 [INFO] (flask-rev) This package is up to date.
+[INFO] (flask-reveal) Data has been updated for this package.
 [INFO] (flask-reverse-proxy) This package is up to date.
 [ERROR] (flask-revise) This package does not have downloadable releases.
 [ERROR] (flask-rip) This package does not have downloadable releases.
@@ -2992,7 +2993,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (flask-themes) This package is up to date.
 [INFO] (flask-themes2) This package is up to date.
 [INFO] (flask-thriftclient) This package is up to date.
-[INFO] (flask-thumbnails) This package is up to date.
+[INFO] (flask-thumbnails) Data has been updated for this package.
 [INFO] (flask-thumbnails-s3) This package is up to date.
 [INFO] (flask-thumbor) This package is up to date.
 [INFO] (flask-thumbs) This package is up to date.
@@ -3035,7 +3036,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (flask-user-05) This package does not have downloadable releases.
 [ERROR] (flask-user-06) This package does not have downloadable releases.
 [ERROR] (flask-user-social) This package does not have downloadable releases.
-[INFO] (flask-userenvconfig) Data has been updated for this package.
+[INFO] (flask-userenvconfig) This package is up to date.
 [INFO] (flask-util-js) This package is up to date.
 [INFO] (flask-utils) This package is up to date.
 [INFO] (flask-uuid) This package is up to date.
@@ -3237,7 +3238,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (flexbot) This package is up to date.
 [INFO] (flexds) This package is up to date.
 [INFO] (flexer) This package is up to date.
-[INFO] (flexget) This package is up to date.
+[INFO] (flexget) Data has been updated for this package.
 [INFO] (flexible-dotdict) This package is up to date.
 [INFO] (flexicon) This package is up to date.
 [INFO] (flexiconfig) This package is up to date.
@@ -3531,7 +3532,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (flugibson) This package is up to date.
 [INFO] (fluid) This package is up to date.
 [INFO] (fluid-nexus) This package is up to date.
-[INFO] (fluidasserts) Data has been updated for this package.
+[INFO] (fluidasserts) This package is up to date.
 [INFO] (fluiddyn) This package is up to date.
 [INFO] (fluidfft) This package is up to date.
 [INFO] (fluidfoam) This package is up to date.
@@ -3573,6 +3574,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (fluidsynth) This package is up to date.
 [INFO] (flume) This package is up to date.
 [INFO] (flumelogger) This package is up to date.
+[INFO] (flumine) Data has been updated for this package.
 [INFO] (flunc) This package is up to date.
 [INFO] (fluncrunner) This package is up to date.
 [INFO] (flunn) This package is up to date.
@@ -3587,7 +3589,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (flux) This package is up to date.
 [INFO] (flux-led) This package is up to date.
 [ERROR] (fluxcapacitor) This package does not have downloadable releases.
-[INFO] (fluxpart) This package is up to date.
+[INFO] (fluxpart) Data has been updated for this package.
 [INFO] (fluxx-wrapper) This package is up to date.
 [INFO] (flvlib) This package is up to date.
 [ERROR] (fly) This package does not have downloadable releases.
@@ -3854,7 +3856,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (foreman-host-builder) This package is up to date.
 [INFO] (foreman-populate) This package is up to date.
 [INFO] (foreman-yml) This package is up to date.
-[INFO] (foremast) Data has been updated for this package.
+[INFO] (foremast) This package is up to date.
 [ERROR] (foresight) This package does not have downloadable releases.
 [ERROR] (forest) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://code.google.com/p/treebuilder/downloads/list"
@@ -4486,7 +4488,7 @@ This package download URL does not point to a valid file: "http://learning-pytho
 [INFO] (frozen-flask) This package is up to date.
 [INFO] (frozendate) This package is up to date.
 [INFO] (frozendict) This package is up to date.
-[INFO] (frozenfw) Data has been updated for this package.
+[INFO] (frozenfw) This package is up to date.
 [INFO] (frozenidea) This package is up to date.
 [INFO] (frozenobj) This package is up to date.
 [INFO] (frozenordereddict) This package is up to date.
@@ -4598,7 +4600,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (fsnviz) This package is up to date.
 [INFO] (fso) This package is up to date.
 [INFO] (fspath) This package is up to date.
-[INFO] (fsphinx) Data has been updated for this package.
+[INFO] (fsphinx) This package is up to date.
 [INFO] (fsplit) This package is up to date.
 [INFO] (fspotlib) This package is up to date.
 [INFO] (fsps) This package is up to date.
@@ -4802,7 +4804,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (fuckher) This package is up to date.
 [INFO] (fuckit) This package is up to date.
 [INFO] (fuckitdb) This package is up to date.
-[INFO] (fucks-given) Data has been updated for this package.
+[INFO] (fucks-given) This package is up to date.
 [INFO] (fud.advanced-search) This package is up to date.
 [INFO] (fude) This package is up to date.
 [INFO] (fudge) This package is up to date.
@@ -5003,7 +5005,7 @@ This package download URL does not point to a valid file: "https://hosted.fedora
 [INFO] (fuse) This package is up to date.
 [INFO] (fuse-adfs) This package is up to date.
 [INFO] (fuse-python) This package is up to date.
-[INFO] (fused) Data has been updated for this package.
+[INFO] (fused) This package is up to date.
 [INFO] (fuselage) This package is up to date.
 [INFO] (fuselpk) This package is up to date.
 [INFO] (fusepy) This package is up to date.
@@ -5017,7 +5019,7 @@ This package download URL does not point to a valid file: "https://hosted.fedora
 [INFO] (fuss) This package is up to date.
 [INFO] (fusspy) This package is up to date.
 [INFO] (fussy) This package is up to date.
-[INFO] (fut) This package is up to date.
+[INFO] (fut) Data has been updated for this package.
 [INFO] (fut14) This package is up to date.
 [ERROR] (fut14analysis) This package does not have downloadable releases.
 [ERROR] (futaam) This package does not have downloadable releases.
@@ -5111,10 +5113,10 @@ This package download URL does not point to a valid file: "https://hosted.fedora
 [INFO] (fzzbzz) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 4340
-[INFO]     Packages processed: 4340
-[INFO]         Packages updated: 14
-[INFO]         Packages up-to-date: 3955
+[INFO] Total packages: 4342
+[INFO]     Packages processed: 4342
+[INFO]         Packages updated: 10
+[INFO]         Packages up-to-date: 3961
 [INFO]         Packages without response: 23
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 298
