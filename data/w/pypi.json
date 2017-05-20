@@ -2238,7 +2238,7 @@
             "flags.views",
             "flags.wagtail_hooks"
         ],
-        "version": "2.0.2"
+        "version": "2.0.3"
     },
     "wagtail-global-settings": {
         "cmdline": [],
@@ -3092,7 +3092,7 @@
             "wagtailgeowidget.tests",
             "wagtailgeowidget.widgets"
         ],
-        "version": "3.1.1"
+        "version": "3.1.2"
     },
     "wagtailgmaps": {
         "cmdline": [],
@@ -9496,7 +9496,7 @@
             "weather",
             "weather.weather"
         ],
-        "version": "1.0.0"
+        "version": "1.0.1"
     },
     "weather-notifier": {
         "cmdline": [],
@@ -11409,7 +11409,7 @@
             "webdriverwrapper.utils",
             "webdriverwrapper.wrapper"
         ],
-        "version": "2.5.0"
+        "version": "2.6.0"
     },
     "webdry": {
         "cmdline": [],
@@ -21531,6 +21531,7 @@
         "cmdline": [],
         "modules": [
             "wikitextparser",
+            "wikitextparser.!sandbox",
             "wikitextparser.argument",
             "wikitextparser.argument_test",
             "wikitextparser.cell",
@@ -21561,7 +21562,7 @@
             "wikitextparser.wikitext_test",
             "wikitextparser.wikitextparser_test"
         ],
-        "version": "0.14.3"
+        "version": "0.15.0"
     },
     "wikitoexcel": {
         "cmdline": [],
@@ -22386,11 +22387,20 @@
     "win32compat": {
         "cmdline": [],
         "modules": [
+            "adsi",
             "authorization",
+            "axcontrol",
+            "axdebug",
+            "axscript",
+            "bits",
             "directsound",
+            "ifilter",
             "internet",
+            "mapi",
+            "mmapfile",
             "netbios",
             "ntsecuritycon",
+            "odbc",
             "perfmon",
             "propsys",
             "pythoncom",
@@ -22466,69 +22476,11 @@
             "win32wnet",
             "winerror"
         ],
-        "version": "221.24"
+        "version": "221.25"
     },
     "win32core": {
         "cmdline": [],
         "modules": [
-            "functional",
-            "functional.GenTestScripts",
-            "functional.bak_test_Exchange",
-            "functional.bak_test_Explorer",
-            "functional.bak_test_Marshal",
-            "functional.bak_test_Persist",
-            "functional.bak_test_Servers",
-            "functional.bak_test_sspi",
-            "functional.bak_test_win32gui",
-            "functional.bak_test_win32guistruct",
-            "functional.daodump",
-            "functional.errorSemantics",
-            "functional.excluded_test_PyComTest",
-            "functional.excluded_test_vbscript_regexp",
-            "functional.handles",
-            "functional.pippo_server",
-            "functional.policySemantics",
-            "functional.test_ADOEvents",
-            "functional.test_AXScript",
-            "functional.test_Access",
-            "functional.test_Arrays",
-            "functional.test_Clipboard",
-            "functional.test_Collections",
-            "functional.test_DCOM",
-            "functional.test_Dictionary",
-            "functional.test_Dynamic",
-            "functional.test_GIT",
-            "functional.test_GatewayAddresses",
-            "functional.test_Iterators",
-            "functional.test_MSOffice",
-            "functional.test_MSOfficeEvents",
-            "functional.test_Netscape",
-            "functional.test_Pippo",
-            "functional.test_ROT",
-            "functional.test_Shell",
-            "functional.test_Storage",
-            "functional.test_Streams",
-            "functional.test_WMI",
-            "functional.test_exceptions",
-            "functional.test_makepy",
-            "functional.test_odbc",
-            "functional.test_pycomtest",
-            "functional.test_pywintypes",
-            "functional.test_security",
-            "functional.test_vb",
-            "functional.test_win32api",
-            "functional.test_win32crypt",
-            "functional.test_win32event",
-            "functional.test_win32file",
-            "functional.test_win32inet",
-            "functional.test_win32net",
-            "functional.test_win32pipe",
-            "functional.test_win32rcparser",
-            "functional.test_win32timezone",
-            "functional.test_win32trace",
-            "functional.test_win32wnet",
-            "functional.test_xslt",
-            "functional.util",
             "win32",
             "win32.afxres",
             "win32.api",
@@ -22579,6 +22531,7 @@
             "win32.cryptography.constants",
             "win32.dbi",
             "win32.directsound",
+            "win32.distutils",
             "win32.error",
             "win32.event",
             "win32.eventlog",
@@ -22633,7 +22586,7 @@
             "win32.wnet",
             "win32.wnet.constants"
         ],
-        "version": "221.18"
+        "version": "221.20"
     },
     "win32ext": {
         "cmdline": [],
@@ -27697,43 +27650,36 @@
         "cmdline": [],
         "modules": [
             "wntr",
+            "wntr.epanet",
+            "wntr.epanet.io",
+            "wntr.epanet.toolkit",
+            "wntr.epanet.util",
+            "wntr.graphics",
+            "wntr.graphics.color",
+            "wntr.graphics.network",
             "wntr.metrics",
-            "wntr.metrics.cost",
-            "wntr.metrics.entropy",
-            "wntr.metrics.fraction_delivered",
-            "wntr.metrics.ghg_emissions",
-            "wntr.metrics.health_impacts",
-            "wntr.metrics.query",
-            "wntr.metrics.todini",
+            "wntr.metrics.economic",
+            "wntr.metrics.hydraulic",
+            "wntr.metrics.misc",
+            "wntr.metrics.water_quality",
+            "wntr.metrics.water_security",
             "wntr.network",
-            "wntr.network.ControlLogger",
-            "wntr.network.NetworkControls",
-            "wntr.network.ParseWaterNetwork",
-            "wntr.network.WaterNetworkModel",
-            "wntr.network.WntrMultiDiGraph",
-            "wntr.network.draw_graph",
-            "wntr.pyepanet",
-            "wntr.pyepanet.epanet2",
-            "wntr.pyepanet.future",
-            "wntr.pyepanet.toolkit",
+            "wntr.network.controls",
+            "wntr.network.graph",
+            "wntr.network.model",
             "wntr.scenario",
-            "wntr.scenario.Earthquake",
-            "wntr.scenario.FragilityCurve",
-            "wntr.scenario.Waterquality",
+            "wntr.scenario.earthquake",
+            "wntr.scenario.fragility_curve",
             "wntr.sim",
-            "wntr.sim.EpanetSimulator",
-            "wntr.sim.HydraulicModel",
-            "wntr.sim.NetworkResults",
-            "wntr.sim.NewtonSolver",
-            "wntr.sim.WNTRSimulator",
-            "wntr.sim.WaterNetworkSimulator",
-            "wntr.sim._PyomoSimulator",
+            "wntr.sim.core",
+            "wntr.sim.epanet",
+            "wntr.sim.hydraulics",
+            "wntr.sim.results",
+            "wntr.sim.solvers",
             "wntr.utils",
-            "wntr.utils.logger",
-            "wntr.utils.timedelta",
-            "wntr.utils.units"
+            "wntr.utils.logger"
         ],
-        "version": "0.1.1"
+        "version": "0.1.2"
     },
     "wnyc-backup": {
         "cmdline": [
@@ -27818,7 +27764,7 @@
             "wodpy.extra",
             "wodpy.wod"
         ],
-        "version": "1.4.0"
+        "version": "1.4.1"
     },
     "woeid": {
         "cmdline": [],
@@ -30743,7 +30689,7 @@
             "wotever.ExcutorMgr",
             "wotever.logger"
         ],
-        "version": "1.607"
+        "version": "1.616"
     },
     "wotwrapper": {
         "cmdline": [],
