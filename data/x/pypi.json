@@ -675,7 +675,7 @@
             "xalc.transformer",
             "xalc.xalc"
         ],
-        "version": "0.4.0"
+        "version": "0.5.0"
     },
     "xam": {
         "cmdline": [],
@@ -10363,6 +10363,15 @@
             "xstatic.pkg.jquery"
         ],
         "version": "1.10.2.1"
+    },
+    "xstatic-jquery-colourpicker": {
+        "cmdline": [],
+        "modules": [
+            "xstatic",
+            "xstatic.pkg",
+            "xstatic.pkg.jquery_colourpicker"
+        ],
+        "version": "1.0.0.1"
     },
     "xstatic-jquery-file-upload": {
         "cmdline": [],
