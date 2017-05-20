@@ -21471,7 +21471,7 @@
             "iniherit.test",
             "iniherit.test_cli"
         ],
-        "version": "0.3.6"
+        "version": "0.3.9"
     },
     "iniparse": {
         "cmdline": [],
@@ -23286,7 +23286,7 @@
             "instabrade.instagram",
             "instabrade.log_in_page"
         ],
-        "version": "0.0.5"
+        "version": "0.0.6"
     },
     "instacache": {
         "cmdline": [],
@@ -32982,6 +32982,23 @@
             "iptdump.helper"
         ],
         "version": "1b1.3"
+    },
+    "iptest": {
+        "cmdline": [],
+        "modules": [
+            "IPTest",
+            "IPTest.main",
+            "IPTest.metadata"
+        ],
+        "version": "0.1.1"
+    },
+    "iptocc": {
+        "cmdline": [],
+        "modules": [
+            "iptocc",
+            "iptocc.models"
+        ],
+        "version": "1.0.2"
     },
     "iptools": {
         "cmdline": [],
@@ -43458,7 +43475,7 @@
         "modules": [
             "iterfzf"
         ],
-        "version": "0.1.0.16.7"
+        "version": "0.2.0.16.7"
     },
     "iterm2-color-scheme": {
         "cmdline": [],

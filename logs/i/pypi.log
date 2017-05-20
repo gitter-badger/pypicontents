@@ -308,7 +308,7 @@ This package download URL does not point to a valid file: "http://oodt.jpl.nasa.
 [INFO] (icyparser) This package is up to date.
 [INFO] (icypher) This package is up to date.
 [INFO] (id-phonenumbers) This package is up to date.
-[INFO] (id2xml) Data has been updated for this package.
+[INFO] (id2xml) This package is up to date.
 [INFO] (id3encodingconverter) This package is up to date.
 [INFO] (id3parse) This package is up to date.
 [INFO] (id3reader) This package is up to date.
@@ -337,7 +337,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (idalink) This package is up to date.
 [INFO] (idauth) This package is up to date.
 [INFO] (idavoll) This package is up to date.
-[INFO] (idb) Data has been updated for this package.
+[INFO] (idb) This package is up to date.
 [INFO] (idbiaas) This package is up to date.
 [INFO] (idc) This package is up to date.
 [INFO] (idcard) This package is up to date.
@@ -690,7 +690,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (im2pdf) This package is up to date.
 [INFO] (image) This package is up to date.
 [INFO] (image-bootstrap) This package is up to date.
-[INFO] (image-cleaner) Data has been updated for this package.
+[INFO] (image-cleaner) This package is up to date.
 [INFO] (image-compressor) This package is up to date.
 [INFO] (image-converter) This package is up to date.
 [INFO] (image-diet) This package is up to date.
@@ -769,7 +769,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (imagekitio) This package is up to date.
 [INFO] (imagelite) This package is up to date.
 [INFO] (imageloader) This package is up to date.
-[INFO] (imagemetatag) Data has been updated for this package.
+[INFO] (imagemetatag) This package is up to date.
 [INFO] (imagemounter) This package is up to date.
 [INFO] (imagen) This package is up to date.
 [INFO] (imagenetscraper) This package is up to date.
@@ -1136,7 +1136,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (indi-tools) This package is up to date.
 [ERROR] (india) This package does not have downloadable releases.
 [INFO] (indiadnd) This package is up to date.
-[INFO] (indian-company-prices) Data has been updated for this package.
+[INFO] (indian-company-prices) This package is up to date.
 [INFO] (indianrailways) This package is up to date.
 [INFO] (indic) This package is up to date.
 [ERROR] (indication2gene) This package does not have downloadable releases.
@@ -1170,7 +1170,7 @@ This package download URL does not point to a valid file: "http://www.florian-di
 [INFO] (inelegant) This package is up to date.
 [ERROR] (inema) This package does not have downloadable releases.
 [INFO] (inenv) This package is up to date.
-[INFO] (ineqpy) Data has been updated for this package.
+[INFO] (ineqpy) This package is up to date.
 [INFO] (ines) This package is up to date.
 [INFO] (inester) This package is up to date.
 [ERROR] (inet) Could not extract data from this package. See below for details.
@@ -1324,7 +1324,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (influxdump) This package is up to date.
 [INFO] (influxer) This package is up to date.
 [INFO] (influxer2) This package is up to date.
-[INFO] (influxgraph) Data has been updated for this package.
+[INFO] (influxgraph) This package is up to date.
 [INFO] (influxhtm) This package is up to date.
 [INFO] (influxsql) This package is up to date.
 [INFO] (infmin) This package is up to date.
@@ -1425,7 +1425,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (inigo.templer) This package is up to date.
-[INFO] (iniherit) This package is up to date.
+[INFO] (iniherit) Data has been updated for this package.
 [INFO] (iniparse) This package is up to date.
 [INFO] (iniparser) This package is up to date.
 [INFO] (inipgdump) This package is up to date.
@@ -1551,7 +1551,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (inqbus.plone.fastmemberproperties) This package is up to date.
 [INFO] (inqbus.plone.panorama) This package is up to date.
-[INFO] (inqbus.rainflow) Data has been updated for this package.
+[INFO] (inqbus.rainflow) This package is up to date.
 [INFO] (inqbus.tagging) This package is up to date.
 [ERROR] (inqbus.zopeftp) This package does not have downloadable releases.
 [INFO] (inqry) This package is up to date.
@@ -1615,7 +1615,7 @@ This package download URL does not point to a valid file: "http://www.inqvista.c
 [INFO] (inspyred) This package is up to date.
 [INFO] (insta) This package is up to date.
 [INFO] (instabot) This package is up to date.
-[INFO] (instabrade) This package is up to date.
+[INFO] (instabrade) Data has been updated for this package.
 [INFO] (instacache) This package is up to date.
 [INFO] (instack) This package is up to date.
 [INFO] (instack-undercloud) This package is up to date.
@@ -1975,7 +1975,7 @@ This package download URL does not point to a valid file: "https://pypi.python.o
 [INFO] (invocare) This package is up to date.
 [INFO] (invocare-puppet) This package is up to date.
 [INFO] (invocare-ssh) This package is up to date.
-[INFO] (invocations) Data has been updated for this package.
+[INFO] (invocations) This package is up to date.
 [INFO] (invoice2data) This package is up to date.
 [INFO] (invoiced) This package is up to date.
 [INFO] (invoicegenerator) This package is up to date.
@@ -2010,7 +2010,7 @@ This package download URL does not point to a valid file: "https://pypi.python.o
 [INFO] (iodeflib) This package is up to date.
 [INFO] (iodiags) This package is up to date.
 [INFO] (iodine) This package is up to date.
-[INFO] (ioex) Data has been updated for this package.
+[INFO] (ioex) This package is up to date.
 [INFO] (ioflo) This package is up to date.
 [INFO] (iofog-container-sdk) This package is up to date.
 [INFO] (ioio) This package is up to date.
@@ -2231,6 +2231,8 @@ This package download URL does not point to a valid file: "http://oodt.jpl.nasa.
 [INFO] (iptcinfo) This package is up to date.
 [INFO] (iptcinfo3) This package is up to date.
 [INFO] (iptdump) This package is up to date.
+[INFO] (iptest) Data has been updated for this package.
+[INFO] (iptocc) Data has been updated for this package.
 [INFO] (iptools) This package is up to date.
 [INFO] (ipuz) This package is up to date.
 [ERROR] (ipv4) Could not extract data from this package. See below for details.
@@ -2280,7 +2282,7 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (ipv4toipv6) This package is up to date.
 [INFO] (ipv4tolocation.py) This package is up to date.
 [INFO] (ipv6) This package is up to date.
-[INFO] (ipwb) Data has been updated for this package.
+[INFO] (ipwb) This package is up to date.
 [INFO] (ipwhois) This package is up to date.
 [INFO] (ipxact2systemverilog) This package is up to date.
 [INFO] (ipy) This package is up to date.
@@ -2455,7 +2457,7 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (irp) This package is up to date.
 [INFO] (irpf90) This package is up to date.
 [INFO] (irpy) This package is up to date.
-[INFO] (irq-reeler) Data has been updated for this package.
+[INFO] (irq-reeler) This package is up to date.
 [INFO] (irregular) This package is up to date.
 [INFO] (irrtree) This package is up to date.
 [INFO] (irs) This package is up to date.
@@ -2751,7 +2753,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (iterextensions) This package is up to date.
 [INFO] (iterextra) This package is up to date.
 [INFO] (iterfu) This package is up to date.
-[INFO] (iterfzf) This package is up to date.
+[INFO] (iterfzf) Data has been updated for this package.
 [INFO] (iterm2-color-scheme) This package is up to date.
 [INFO] (iterm2-image) This package is up to date.
 [INFO] (iterm2-tools) This package is up to date.
@@ -2848,7 +2850,7 @@ This package download URL does not point to a valid file: "http://download.hforg
 [INFO] (iva) This package is up to date.
 [ERROR] (ivalutils) This package does not have downloadable releases.
 [INFO] (ivanov) This package is up to date.
-[INFO] (ivao-status) Data has been updated for this package.
+[INFO] (ivao-status) This package is up to date.
 [INFO] (ivaylo-tfl) This package is up to date.
 [INFO] (ivaylotfl) This package is up to date.
 [INFO] (ivencloud) This package is up to date.
@@ -2952,10 +2954,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (izverifier) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 2440
-[INFO]     Packages processed: 2440
-[INFO]         Packages updated: 13
-[INFO]         Packages up-to-date: 2212
+[INFO] Total packages: 2442
+[INFO]     Packages processed: 2442
+[INFO]         Packages updated: 5
+[INFO]         Packages up-to-date: 2222
 [INFO]         Packages without response: 14
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 160
