@@ -4648,18 +4648,6 @@
         ],
         "version": "0.1.0"
     },
-    "magic-modis": {
-        "cmdline": [],
-        "modules": [
-            "magic_modis",
-            "magic_modis.core",
-            "magic_modis.core.browse_modis",
-            "magic_modis.rest",
-            "magic_modis.rest.rest_modis",
-            "magic_modis.rest.rest_trmm"
-        ],
-        "version": "0.1.1"
-    },
     "magic-parameter": {
         "cmdline": [],
         "modules": [
@@ -10225,8 +10213,12 @@
     },
     "manga-downloader": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "core",
+            "core.download",
+            "core.spell"
+        ],
+        "version": "0.1.3"
     },
     "mangacrawler": {
         "cmdline": [],
@@ -11132,8 +11124,22 @@
     },
     "mantis": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "mantis",
+            "mantis.adapters",
+            "mantis.adapters.mysqladapter",
+            "mantis.adapters.postgresqladapter",
+            "mantis.adapters.sqliteadapter",
+            "mantis.builders",
+            "mantis.builders.querybuilder",
+            "mantis.builders.tablebuilder",
+            "mantis.config",
+            "mantis.exceptions",
+            "mantis.exceptions.exception",
+            "mantis.helpers.logger",
+            "mantis.mediator"
+        ],
+        "version": "1.0.0"
     },
     "mantis2xml": {
         "cmdline": [],
@@ -16218,7 +16224,7 @@
         "modules": [
             "marshmallow_enum"
         ],
-        "version": "1.0"
+        "version": "1.2"
     },
     "marshmallow-form": {
         "cmdline": [],
@@ -18377,8 +18383,11 @@
     },
     "master-slave-router": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "master_slave_router",
+            "master_slave_router.router"
+        ],
+        "version": "0.2"
     },
     "mastercard-api-core": {
         "cmdline": [],
@@ -20956,7 +20965,7 @@
             "mattermostapi",
             "mattermostapi.mattermostapi"
         ],
-        "version": "0.7"
+        "version": "0.8"
     },
     "mattersend": {
         "cmdline": [],
@@ -23874,8 +23883,21 @@
     },
     "mazerunner-sdk-python": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "mazerunner",
+            "mazerunner.api_client",
+            "mazerunner.exceptions",
+            "mazerunner.samples",
+            "mazerunner.samples.assign_group_to_cidr",
+            "mazerunner.samples.create_deployment_group_with_all_breadcrumb_types",
+            "mazerunner.samples.create_smb_breadcrumbs",
+            "mazerunner.samples.delete_everything",
+            "mazerunner.samples.deploy_to_linux",
+            "mazerunner.samples.elasticsearch_responder_monitor",
+            "mazerunner.samples.syslog_server_active_soc_reporter",
+            "mazerunner.samples.track_live_alerts"
+        ],
+        "version": "1.1.3"
     },
     "mazetool": {
         "cmdline": [],
@@ -26042,9 +26064,20 @@
         "version": "0.3.1.2"
     },
     "mdb": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
+        "cmdline": [
+            "MDB"
+        ],
+        "modules": [
+            "MDB",
+            "MDB.DBbuilder",
+            "MDB.config",
+            "MDB.dialogs",
+            "MDB.gui",
+            "MDB.html_window",
+            "MDB.update",
+            "MDB.wx_signal"
+        ],
+        "version": "0.1"
     },
     "mdbm": {
         "cmdline": [],
@@ -35577,7 +35610,7 @@
             "meshless.sympytools",
             "meshless.version"
         ],
-        "version": "0.1.16"
+        "version": "0.1.17"
     },
     "meshmode": {
         "cmdline": [],
@@ -36483,6 +36516,11 @@
         ],
         "version": "1.1.6"
     },
+    "metacpan-api": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.1"
+    },
     "metacram": {
         "cmdline": [],
         "modules": [],
@@ -36982,8 +37020,15 @@
     },
     "metald": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "metald",
+            "metald._version",
+            "metald.github",
+            "metald.github.auth",
+            "metald.tex",
+            "metald.tex.lsstdoc"
+        ],
+        "version": "0.1.0b3"
     },
     "metalocgramn": {
         "cmdline": [],
@@ -37683,7 +37728,7 @@
             "metapensiero.sphinx.patchdb.script",
             "metapensiero.sphinx.patchdb.states"
         ],
-        "version": "2.20"
+        "version": "2.21"
     },
     "metapensiero.sqlalchemy.dbloady": {
         "cmdline": [],
@@ -38139,6 +38184,18 @@
             "final_code"
         ],
         "version": "1.0.0"
+    },
+    "metasrc": {
+        "cmdline": [],
+        "modules": [
+            "metasrc",
+            "metasrc._version",
+            "metasrc.github",
+            "metasrc.github.auth",
+            "metasrc.tex",
+            "metasrc.tex.lsstdoc"
+        ],
+        "version": "0.1.0b4"
     },
     "metastruct": {
         "cmdline": [],
@@ -39481,7 +39538,7 @@
     "metrictools": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.1"
     },
     "metricz": {
         "cmdline": [],
@@ -42369,9 +42426,10 @@
             "micom.logger",
             "micom.media",
             "micom.problems",
+            "micom.solution",
             "micom.util"
         ],
-        "version": "0.2.0"
+        "version": "0.3.1"
     },
     "micro-manager": {
         "cmdline": [],
@@ -47532,7 +47590,7 @@
         "modules": [
             "minibolt"
         ],
-        "version": "0.1.0"
+        "version": "0.2.0"
     },
     "minibooks": {
         "cmdline": [],
@@ -54041,8 +54099,18 @@
     },
     "mlx": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "pymlx",
+            "pymlx.core",
+            "pymlx.evaluation",
+            "pymlx.features_handler",
+            "pymlx.featurizer",
+            "pymlx.model",
+            "pymlx.parameter_sweep",
+            "pymlx.test",
+            "pymlx.utils"
+        ],
+        "version": "0.0.1"
     },
     "mlxtend": {
         "cmdline": [],
@@ -55367,7 +55435,7 @@
     "mnemonic-checker": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.1"
     },
     "mnemonicode": {
         "cmdline": [],
@@ -56058,10 +56126,28 @@
             "mobetta.api.serializers",
             "mobetta.api.urls",
             "mobetta.api.views",
+            "mobetta.base_views",
             "mobetta.conf",
             "mobetta.conf.settings",
             "mobetta.forms",
             "mobetta.formsets",
+            "mobetta.icu",
+            "mobetta.icu.admin",
+            "mobetta.icu.apps",
+            "mobetta.icu.forms",
+            "mobetta.icu.migrations",
+            "mobetta.icu.migrations.0001_initial",
+            "mobetta.icu.migrations.0002_auto_20170411_0918",
+            "mobetta.icu.migrations.0003_auto_20170411_0919",
+            "mobetta.icu.migrations.0004_editlog_messagecomment",
+            "mobetta.icu.mixins",
+            "mobetta.icu.models",
+            "mobetta.icu.templatetags",
+            "mobetta.icu.templatetags.icu_message_tags",
+            "mobetta.icu.urls",
+            "mobetta.icu.utils",
+            "mobetta.icu.validators",
+            "mobetta.icu.views",
             "mobetta.management",
             "mobetta.management.commands",
             "mobetta.management.commands.locate_translation_files",
@@ -56074,6 +56160,8 @@
             "mobetta.migrations.0006_msghash_not_null",
             "mobetta.migrations.0007_remove_comment_msgid_field",
             "mobetta.migrations.0008_auto_20170209_1212",
+            "mobetta.migrations.0009_auto_20170411_0833",
+            "mobetta.migrations.0010_auto_20170421_0433",
             "mobetta.models",
             "mobetta.paginators",
             "mobetta.templatetags",
@@ -56081,9 +56169,32 @@
             "mobetta.templatetags.pagination_tags",
             "mobetta.urls",
             "mobetta.util",
-            "mobetta.views"
+            "mobetta.validators",
+            "mobetta.views",
+            "tests",
+            "tests.api",
+            "tests.api.urls",
+            "tests.app",
+            "tests.manage",
+            "tests.settings",
+            "tests.tests",
+            "tests.tests.factories",
+            "tests.tests.icu",
+            "tests.tests.icu.conftest",
+            "tests.tests.icu.factories",
+            "tests.tests.icu.test_file_detail_view",
+            "tests.tests.icu.test_file_list",
+            "tests.tests.icu.test_validators",
+            "tests.tests.test_api",
+            "tests.tests.test_forms",
+            "tests.tests.test_models",
+            "tests.tests.test_templatetags",
+            "tests.tests.test_utils",
+            "tests.tests.test_views",
+            "tests.tests.utils",
+            "tests.urls"
         ],
-        "version": "0.1.5"
+        "version": "0.2.0"
     },
     "mobi.caching": {
         "cmdline": [],
@@ -58219,9 +58330,17 @@
         "cmdline": [],
         "modules": [
             "ModernGL",
-            "ModernGL.pylint_mock"
+            "ModernGL.buffers",
+            "ModernGL.common",
+            "ModernGL.context",
+            "ModernGL.framebuffers",
+            "ModernGL.program_members",
+            "ModernGL.programs",
+            "ModernGL.renderbuffers",
+            "ModernGL.textures",
+            "ModernGL.vertex_arrays"
         ],
-        "version": "3.1.5"
+        "version": "4.0.0"
     },
     "moderngl-beta": {
         "cmdline": [],
@@ -59641,8 +59760,11 @@
     },
     "module-template": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "module_template",
+            "module_template.about"
+        ],
+        "version": "0.0.0"
     },
     "module-test2": {
         "cmdline": [],
@@ -61348,7 +61470,7 @@
     "mol": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.0.1"
     },
     "mol2-pack": {
         "cmdline": [],
@@ -68160,8 +68282,34 @@
     },
     "mootiro-web": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "mootiro_web",
+            "mootiro_web.crypto",
+            "mootiro_web.email_validator",
+            "mootiro_web.memoize",
+            "mootiro_web.page_deps",
+            "mootiro_web.plugins_manager",
+            "mootiro_web.pyramid_deform",
+            "mootiro_web.pyramid_genshi",
+            "mootiro_web.pyramid_kajiki",
+            "mootiro_web.pyramid_sqlalchemy",
+            "mootiro_web.pyramid_starter",
+            "mootiro_web.tests",
+            "mootiro_web.tests.test_crypto",
+            "mootiro_web.tests.test_web_deps",
+            "mootiro_web.text",
+            "mootiro_web.transecma",
+            "mootiro_web.user",
+            "mootiro_web.user.models",
+            "mootiro_web.user.models.email_validation",
+            "mootiro_web.user.models.slug_identification",
+            "mootiro_web.user.models.user",
+            "mootiro_web.user.schemas",
+            "mootiro_web.user.views",
+            "mootiro_web.web_deps",
+            "mootiro_web.whitelist"
+        ],
+        "version": "0.1.1"
     },
     "mop": {
         "cmdline": [],
@@ -70407,6 +70555,7 @@
         "modules": [
             "mosfit",
             "mosfit.constants",
+            "mosfit.converter",
             "mosfit.fitter",
             "mosfit.main",
             "mosfit.model",
@@ -70415,6 +70564,8 @@
             "mosfit.modules.arrays.alltimes",
             "mosfit.modules.arrays.array",
             "mosfit.modules.arrays.densetimes",
+            "mosfit.modules.arrays.diagonal",
+            "mosfit.modules.arrays.kernel",
             "mosfit.modules.arrays.resttimes",
             "mosfit.modules.constraints",
             "mosfit.modules.constraints.constraint",
@@ -70476,7 +70627,7 @@
             "mosfit.printer",
             "mosfit.utils"
         ],
-        "version": "0.5.11"
+        "version": "0.6.0"
     },
     "moshmosh": {
         "cmdline": [],
@@ -72381,8 +72532,26 @@
     },
     "moves-event": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "movesevent",
+            "movesevent.admin",
+            "movesevent.admin.movesUserAdmin",
+            "movesevent.models",
+            "movesevent.models.movesApp",
+            "movesevent.models.movesUser",
+            "movesevent.movesHelper",
+            "movesevent.movesHelper._movesRequest",
+            "movesevent.movesHelper._movesUser",
+            "movesevent.movesHelper._receiver",
+            "movesevent.movesbindingslog",
+            "movesevent.settings",
+            "movesevent.signal",
+            "movesevent.urls",
+            "movesevent.views",
+            "movesevent.views.sync",
+            "movesevent.wsgi"
+        ],
+        "version": "0.1.0"
     },
     "movescount-sync": {
         "cmdline": [],
@@ -74257,7 +74426,7 @@
             "mozzarilla.tools.tag_scanner_window",
             "mozzarilla.widget_picker"
         ],
-        "version": "0.9.22"
+        "version": "0.9.23"
     },
     "mozzie": {
         "cmdline": [],
@@ -77338,8 +77507,48 @@
     },
     "mrec": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "mrec",
+            "mrec.base_recommender",
+            "mrec.evaluation",
+            "mrec.evaluation.metrics",
+            "mrec.evaluation.preprocessing",
+            "mrec.examples",
+            "mrec.examples.convert",
+            "mrec.examples.evaluate",
+            "mrec.examples.factors",
+            "mrec.examples.filename_conventions",
+            "mrec.examples.predict",
+            "mrec.examples.prepare",
+            "mrec.examples.train",
+            "mrec.examples.tune_slim",
+            "mrec.item_similarity",
+            "mrec.item_similarity.knn",
+            "mrec.item_similarity.precomputed",
+            "mrec.item_similarity.recommender",
+            "mrec.item_similarity.slim",
+            "mrec.mf",
+            "mrec.mf.climf",
+            "mrec.mf.evaluate",
+            "mrec.mf.model",
+            "mrec.mf.model.warp",
+            "mrec.mf.model.warp2",
+            "mrec.mf.recommender",
+            "mrec.mf.warp",
+            "mrec.mf.warp2",
+            "mrec.mf.wrmf",
+            "mrec.parallel",
+            "mrec.parallel.evaluate",
+            "mrec.parallel.item_similarity",
+            "mrec.parallel.predict",
+            "mrec.parallel.warp",
+            "mrec.parallel.wrmf",
+            "mrec.popularity",
+            "mrec.reranking_recommender",
+            "mrec.sparse",
+            "mrec.testing"
+        ],
+        "version": "0.3.0"
     },
     "mredoc": {
         "cmdline": [],
@@ -78664,7 +78873,7 @@
     "msgpack-ext": {
         "cmdline": [],
         "modules": [],
-        "version": "0.1.1"
+        "version": "0.1.3"
     },
     "msgpack-numpy": {
         "cmdline": [],
@@ -81129,7 +81338,7 @@
     "mucloud": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "1.2"
     },
     "mucor": {
         "cmdline": [
@@ -81796,8 +82005,11 @@
     },
     "multi-key-sort": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "multi_key_sort",
+            "multi_key_sort.tests"
+        ],
+        "version": "0.0.1"
     },
     "multi-mechanize": {
         "cmdline": [],
@@ -81969,8 +82181,24 @@
     },
     "multiconf": {
         "cmdline": [],
-        "modules": [],
-        "version": "6.1.0"
+        "modules": [
+            "multiconf",
+            "multiconf.attribute",
+            "multiconf.bases",
+            "multiconf.bits",
+            "multiconf.config_errors",
+            "multiconf.decorators",
+            "multiconf.envs",
+            "multiconf.json_output",
+            "multiconf.multiconf",
+            "multiconf.multiconf_builder_py2",
+            "multiconf.multiconf_builder_py3",
+            "multiconf.property_wrapper_py2",
+            "multiconf.property_wrapper_py3",
+            "multiconf.repeatable",
+            "multiconf.values"
+        ],
+        "version": "6.1.1"
     },
     "multiconfig": {
         "cmdline": [],
@@ -82501,7 +82729,7 @@
     "multiple-recessives": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.1"
     },
     "multipledispatch": {
         "cmdline": [],
@@ -83240,7 +83468,7 @@
     "multivariate-laurent-polynomials": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "1.0"
     },
     "multiverse": {
         "cmdline": [],
@@ -86086,7 +86314,7 @@
             "MusicBoxApi.storage",
             "MusicBoxApi.utils"
         ],
-        "version": "1.0.2"
+        "version": "1.0.6"
     },
     "musicbrainzngs": {
         "cmdline": [],
@@ -86173,8 +86401,25 @@
     },
     "musicore": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "implements",
+            "implements.Algo_tri",
+            "implements.Analyse",
+            "implements.Exportation",
+            "implements.Parser",
+            "implements.UI",
+            "tests",
+            "tests.test_bpm",
+            "tests.test_csv",
+            "tests.test_fft",
+            "tests.test_parseaudio",
+            "tests.test_tonalite_1",
+            "tests.test_tonalite_mashup",
+            "tests.test_tonalite_syntaxe",
+            "vlc",
+            "vlc.vlc"
+        ],
+        "version": "0.5"
     },
     "musicplayer": {
         "cmdline": [],
@@ -86756,8 +87001,11 @@
     },
     "muu": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "muu",
+            "muu.byteplay3"
+        ],
+        "version": "0.2"
     },
     "mux": {
         "cmdline": [],
@@ -90446,7 +90694,7 @@
     "mypackagemx3292016": {
         "cmdline": [],
         "modules": [],
-        "version": ""
+        "version": "0.4"
     },
     "mypackagetest": {
         "cmdline": [],
@@ -90996,28 +91244,24 @@
             "myreco",
             "myreco.api",
             "myreco.authorizer",
-            "myreco.engine_cores",
-            "myreco.engine_cores.model",
+            "myreco.engine_objects",
+            "myreco.engine_objects.data_importer",
+            "myreco.engine_objects.data_importer.model",
+            "myreco.engine_objects.exporter",
+            "myreco.engine_objects.exporter.model",
+            "myreco.engine_objects.model",
+            "myreco.engine_objects.object_base",
+            "myreco.engine_strategies",
+            "myreco.engine_strategies.filters",
+            "myreco.engine_strategies.filters.factory",
+            "myreco.engine_strategies.filters.filters",
+            "myreco.engine_strategies.model",
+            "myreco.engine_strategies.strategy_base",
+            "myreco.engine_strategies.top_seller",
+            "myreco.engine_strategies.top_seller.array",
+            "myreco.engine_strategies.top_seller.strategy",
             "myreco.engines",
-            "myreco.engines.data_importer",
-            "myreco.engines.data_importer.model",
             "myreco.engines.model",
-            "myreco.engines.objects_exporter",
-            "myreco.engines.objects_exporter.model",
-            "myreco.engines.strategies",
-            "myreco.engines.strategies.base",
-            "myreco.engines.strategies.data_importer",
-            "myreco.engines.strategies.filters",
-            "myreco.engines.strategies.filters.factory",
-            "myreco.engines.strategies.filters.filters",
-            "myreco.engines.strategies.items_indices_map",
-            "myreco.engines.strategies.objects_exporter",
-            "myreco.engines.strategies.recommender",
-            "myreco.engines.strategies.redis_object",
-            "myreco.engines.strategies.top_seller",
-            "myreco.engines.strategies.top_seller.core",
-            "myreco.engines.strategies.top_seller.redis_object",
-            "myreco.engines.strategies.utils",
             "myreco.exceptions",
             "myreco.external_variables",
             "myreco.external_variables.model",
@@ -91028,6 +91272,7 @@
             "myreco.item_types.data_file_importer.model",
             "myreco.item_types.filters_updater",
             "myreco.item_types.filters_updater.model",
+            "myreco.item_types.indices_map",
             "myreco.item_types.model",
             "myreco.placements",
             "myreco.placements.models",
@@ -91044,7 +91289,7 @@
             "tests.integration.conftest",
             "tests.integration.fixtures"
         ],
-        "version": "0.41.1"
+        "version": "0.42.0"
     },
     "myregression": {
         "cmdline": [],
@@ -91637,8 +91882,79 @@
     },
     "mysql-connector-python": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "examples",
+            "examples.dates",
+            "examples.engines",
+            "examples.inserts",
+            "examples.microseconds",
+            "examples.multi_resultsets",
+            "examples.mysql_warnings",
+            "examples.prepared_statements",
+            "examples.transaction",
+            "examples.unicode",
+            "examples.warnings",
+            "lib",
+            "lib.mysql",
+            "lib.mysql.connector",
+            "lib.mysql.connector.authentication",
+            "lib.mysql.connector.catch23",
+            "lib.mysql.connector.charsets",
+            "lib.mysql.connector.connection",
+            "lib.mysql.connector.constants",
+            "lib.mysql.connector.conversion",
+            "lib.mysql.connector.cursor",
+            "lib.mysql.connector.custom_types",
+            "lib.mysql.connector.dbapi",
+            "lib.mysql.connector.django",
+            "lib.mysql.connector.django.base",
+            "lib.mysql.connector.django.client",
+            "lib.mysql.connector.django.compiler",
+            "lib.mysql.connector.django.creation",
+            "lib.mysql.connector.django.introspection",
+            "lib.mysql.connector.django.schema",
+            "lib.mysql.connector.django.validation",
+            "lib.mysql.connector.errorcode",
+            "lib.mysql.connector.errors",
+            "lib.mysql.connector.fabric",
+            "lib.mysql.connector.fabric.balancing",
+            "lib.mysql.connector.fabric.caching",
+            "lib.mysql.connector.fabric.connection",
+            "lib.mysql.connector.locales",
+            "lib.mysql.connector.locales.eng",
+            "lib.mysql.connector.locales.eng.client_error",
+            "lib.mysql.connector.network",
+            "lib.mysql.connector.optionfiles",
+            "lib.mysql.connector.pooling",
+            "lib.mysql.connector.protocol",
+            "lib.mysql.connector.utils",
+            "lib.mysql.connector.version",
+            "tests",
+            "tests.mysqld",
+            "tests.py26",
+            "tests.test_authentication",
+            "tests.test_bugs",
+            "tests.test_connection",
+            "tests.test_constants",
+            "tests.test_conversion",
+            "tests.test_cursor",
+            "tests.test_django",
+            "tests.test_errorcode",
+            "tests.test_errors",
+            "tests.test_examples",
+            "tests.test_fabric",
+            "tests.test_locales",
+            "tests.test_mysql_datatypes",
+            "tests.test_network",
+            "tests.test_optionfiles",
+            "tests.test_pep249",
+            "tests.test_pooling",
+            "tests.test_protocol",
+            "tests.test_setup",
+            "tests.test_style",
+            "tests.test_utils"
+        ],
+        "version": "2.0.4"
     },
     "mysql-connector-python-rf": {
         "cmdline": [],
@@ -92134,9 +92450,11 @@
         "version": "1.4.3"
     },
     "mysql2csv": {
-        "cmdline": [],
+        "cmdline": [
+            "mysql2csv"
+        ],
         "modules": [],
-        "version": ""
+        "version": "1.0"
     },
     "mysql2xxxx": {
         "cmdline": [
