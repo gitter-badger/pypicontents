@@ -105,7 +105,7 @@
 [INFO] (valkit) This package is up to date.
 [INFO] (valley) This package is up to date.
 [INFO] (valleybackups) This package is up to date.
-[INFO] (valleydata) This package is up to date.
+[INFO] (valleydata) Data has been updated for this package.
 [INFO] (valohai-cli) This package is up to date.
 [INFO] (valohai-yaml) This package is up to date.
 [INFO] (vals) This package is up to date.
@@ -129,38 +129,7 @@
 [INFO] (vamp) This package is up to date.
 [INFO] (vampire) This package is up to date.
 [ERROR] (vampiremtest) This package does not have downloadable releases.
-[ERROR] (van-api) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
-    response = self._open(req, data)
-  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
-    '_open', req)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
-    context=self._context, check_hostname=self._check_hostname)
-  File "/usr/lib/python3.5/urllib/request.py", line 1257, in do_open
-    r = h.getresponse()
-  File "/usr/lib/python3.5/http/client.py", line 1198, in getresponse
-    response.begin()
-  File "/usr/lib/python3.5/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/usr/lib/python3.5/http/client.py", line 258, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/usr/lib/python3.5/socket.py", line 576, in readinto
-    return self._sock.recv_into(b)
-  File "/usr/lib/python3.5/ssl.py", line 937, in recv_into
-    return self.read(nbytes, buffer)
-  File "/usr/lib/python3.5/ssl.py", line 799, in read
-    return self._sslobj.read(len, buffer)
-  File "/usr/lib/python3.5/ssl.py", line 583, in read
-    v = self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
-
+[INFO] (van-api) This package is up to date.
 [INFO] (van.contactology) This package is up to date.
 [INFO] (van.pg) This package is up to date.
 [INFO] (van.potomo) This package is up to date.
@@ -431,7 +400,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (vdt.versionplugin.puppetmodule) This package is up to date.
 [INFO] (vdt.versionplugin.wheel) This package is up to date.
 [INFO] (vdw) This package is up to date.
-[INFO] (ve) Data has been updated for this package.
+[INFO] (ve) This package is up to date.
 [INFO] (veb) This package is up to date.
 [INFO] (vebootstrap) This package is up to date.
 [INFO] (vec-noise) This package is up to date.
@@ -892,7 +861,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (viratoken) This package is up to date.
 [ERROR] (vircd) This package does not have downloadable releases.
 [INFO] (viren) This package is up to date.
-[INFO] (vireo) Data has been updated for this package.
+[INFO] (vireo) This package is up to date.
 [INFO] (virgil-crypto) This package is up to date.
 [INFO] (virgil-sdk) This package is up to date.
 [ERROR] (virgin) This package does not have downloadable releases.
@@ -1079,7 +1048,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (vizier) This package is up to date.
 [INFO] (vizing) This package is up to date.
 [INFO] (vizmdend) This package is up to date.
-[INFO] (vizontele) This package is up to date.
+[INFO] (vizontele) Data has been updated for this package.
 [INFO] (vizqes) This package is up to date.
 [INFO] (viztricks) This package is up to date.
 [INFO] (vizydrop-sdk) This package is up to date.
@@ -1291,7 +1260,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (volleyup) This package is up to date.
 [INFO] (vollib) This package is up to date.
 [ERROR] (vollmond) This package does not have downloadable releases.
-[INFO] (volodymyr) Data has been updated for this package.
+[INFO] (volodymyr) This package is up to date.
 [INFO] (voloshin) This package is up to date.
 [INFO] (volt) This package is up to date.
 [INFO] (volta) This package is up to date.
@@ -1469,7 +1438,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (vsi) This package is up to date.
 [INFO] (vsieve) This package is up to date.
 [INFO] (vsl) This package is up to date.
-[INFO] (vsm) This package is up to date.
+[INFO] (vsm) Data has been updated for this package.
 [INFO] (vsm-dashboard) This package is up to date.
 [INFO] (vsmrfs) This package is up to date.
 [ERROR] (vspecs) Could not get a response from API for this package. See below for details.
@@ -1511,7 +1480,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (vstruct2) This package is up to date.
 [INFO] (vsts-cd-manager) This package is up to date.
 [INFO] (vsummarize) This package is up to date.
-[INFO] (vsure) This package is up to date.
+[INFO] (vsure) Data has been updated for this package.
 [INFO] (vsut) This package is up to date.
 [INFO] (vt) This package is up to date.
 [INFO] (vt100) This package is up to date.
@@ -1605,7 +1574,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (vyked-orm) This package is up to date.
 [INFO] (vymgmt) This package is up to date.
 [INFO] (vyper) This package is up to date.
-[INFO] (vyper-bot) This package is up to date.
+[INFO] (vyper-bot) Data has been updated for this package.
 [ERROR] (vyperlogixpyaxlib) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://code.google.com/p/sfpyax/"
 [ERROR] (vyrsion) This package does not have downloadable releases.
@@ -1617,9 +1586,9 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] 
 [INFO] Total packages: 1326
 [INFO]     Packages processed: 1326
-[INFO]         Packages updated: 3
-[INFO]         Packages up-to-date: 1188
-[INFO]         Packages without response: 10
+[INFO]         Packages updated: 5
+[INFO]         Packages up-to-date: 1187
+[INFO]         Packages without response: 9
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 113
 [INFO]         Packages with data errors: 12
