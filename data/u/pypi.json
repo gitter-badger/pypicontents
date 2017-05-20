@@ -17321,6 +17321,7 @@
             "urh.dev.native.RTLSDR",
             "urh.dev.native.RTLSDRTCP",
             "urh.dev.native.SendConfig",
+            "urh.dev.native.USRP",
             "urh.dev.native.lib",
             "urh.main",
             "urh.models",
@@ -17445,7 +17446,7 @@
             "urh.util.crc",
             "urh.version"
         ],
-        "version": "1.6.3"
+        "version": "1.6.4.1"
     },
     "uri": {
         "cmdline": [],
