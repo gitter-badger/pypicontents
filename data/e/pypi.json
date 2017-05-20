@@ -3687,7 +3687,7 @@
         "modules": [
             "easytf"
         ],
-        "version": "3.5"
+        "version": "3.9"
     },
     "easythreads": {
         "cmdline": [],
@@ -41287,7 +41287,7 @@
             "execsql.py"
         ],
         "modules": [],
-        "version": "1.16.4.0"
+        "version": "1.16.7.0"
     },
     "exectree": {
         "cmdline": [],
@@ -41752,7 +41752,7 @@
             "exodata.params",
             "exodata.plots"
         ],
-        "version": "2.1.6"
+        "version": "2.1.7"
     },
     "exode": {
         "cmdline": [],
@@ -42971,11 +42971,8 @@
     },
     "explicit": {
         "cmdline": [],
-        "modules": [
-            "explicit",
-            "explicit.waiter"
-        ],
-        "version": "0.1.1"
+        "modules": [],
+        "version": "0.1.2"
     },
     "explo": {
         "cmdline": [],

@@ -191,7 +191,7 @@ This package download URL does not point to a valid file: "https://pypi.python.o
 [INFO] (easy-pika) This package is up to date.
 [INFO] (easy-plugins) This package is up to date.
 [ERROR] (easy-progress) This package does not have downloadable releases.
-[INFO] (easy-python-requirements) Data has been updated for this package.
+[INFO] (easy-python-requirements) This package is up to date.
 [INFO] (easy-report) This package is up to date.
 [INFO] (easy-rest) This package is up to date.
 [INFO] (easy-scheduler) This package is up to date.
@@ -936,7 +936,7 @@ This package download URL does not point to a valid file: "http://effbot.org/dow
 [INFO] (efremov) This package is up to date.
 [INFO] (efs-size-alerter) This package is up to date.
 [INFO] (efst) This package is up to date.
-[INFO] (efzp) Data has been updated for this package.
+[INFO] (efzp) This package is up to date.
 [INFO] (eg) This package is up to date.
 [INFO] (eg-pypackage) This package is up to date.
 [INFO] (eg.theme) This package is up to date.
@@ -945,7 +945,7 @@ This package download URL does not point to a valid file: "http://effbot.org/dow
 [INFO] (egapyt) This package is up to date.
 [INFO] (egasub) This package is up to date.
 [INFO] (egat) This package is up to date.
-[INFO] (egat-ncaa) Data has been updated for this package.
+[INFO] (egat-ncaa) This package is up to date.
 [INFO] (egcg-core) This package is up to date.
 [INFO] (egd) This package is up to date.
 [INFO] (egegrouper) This package is up to date.
@@ -1627,7 +1627,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (energenie) This package is up to date.
 [INFO] (energy) This package is up to date.
 [INFO] (energyplus-wrapper) This package is up to date.
-[INFO] (enerpi) Data has been updated for this package.
+[INFO] (enerpi) This package is up to date.
 [ERROR] (enet) This package does not have downloadable releases.
 [INFO] (enfold.gcache) This package is up to date.
 [INFO] (enfold.recipe.patch) This package is up to date.
@@ -1741,7 +1741,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (enrichme) This package is up to date.
 [INFO] (enrichpy) This package is up to date.
-[INFO] (enrico) Data has been updated for this package.
+[INFO] (enrico) This package is up to date.
 [ERROR] (enriquepablo) This package does not have downloadable releases.
 [INFO] (enru) This package is up to date.
 [INFO] (ens-namehash) This package is up to date.
@@ -1914,7 +1914,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (environ-maiden) This package is up to date.
 [INFO] (environment) This package is up to date.
 [INFO] (environment-kernels) This package is up to date.
-[INFO] (environment-manager) Data has been updated for this package.
+[INFO] (environment-manager) This package is up to date.
 [INFO] (environment-tools) This package is up to date.
 [INFO] (environment-utils) This package is up to date.
 [INFO] (environmental) This package is up to date.
@@ -2310,7 +2310,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (escape) This package is up to date.
 [INFO] (escapejson) This package is up to date.
 [INFO] (escapism) This package is up to date.
-[INFO] (escapyo) Data has been updated for this package.
+[INFO] (escapyo) This package is up to date.
 [INFO] (escea) This package is up to date.
 [INFO] (escher) This package is up to date.
 [INFO] (escherauth) This package is up to date.
@@ -2340,7 +2340,7 @@ This package download URL does not point to a valid file: "https://launchpad.net
 [INFO] (esia-connector) This package is up to date.
 [INFO] (esimport) This package is up to date.
 [INFO] (esios) This package is up to date.
-[INFO] (esiosdata) Data has been updated for this package.
+[INFO] (esiosdata) This package is up to date.
 [INFO] (esipy) This package is up to date.
 [INFO] (esis) This package is up to date.
 [INFO] (esix) This package is up to date.
@@ -2436,7 +2436,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (estal) Data has been updated for this package.
+[INFO] (estal) This package is up to date.
 [INFO] (estate) This package is up to date.
 [INFO] (esteele.manager) This package is up to date.
 [INFO] (esteidtray) This package is up to date.
@@ -2604,7 +2604,7 @@ urllib.error.HTTPError: HTTP Error 404: NOT FOUND
 [ERROR] (etude) This package does not have downloadable releases.
 [INFO] (etunexus) This package is up to date.
 [INFO] (etym) This package is up to date.
-[INFO] (etzeldriver) Data has been updated for this package.
+[INFO] (etzeldriver) This package is up to date.
 [INFO] (euclid) This package is up to date.
 [INFO] (euclid-wfm) This package is up to date.
 [INFO] (euclid3) This package is up to date.
@@ -2772,7 +2772,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (eventer) This package is up to date.
 [INFO] (eventfabric) This package is up to date.
 [INFO] (eventfd) This package is up to date.
-[INFO] (eventflow) Data has been updated for this package.
+[INFO] (eventflow) This package is up to date.
 [INFO] (eventful) This package is up to date.
 [INFO] (eventhorizon) This package is up to date.
 [INFO] (eventify) This package is up to date.
@@ -2819,7 +2819,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (eventsocket) This package is up to date.
 [INFO] (eventsource) This package is up to date.
 [INFO] (eventsourcing) This package is up to date.
-[INFO] (eventstoreclientapi) Data has been updated for this package.
+[INFO] (eventstoreclientapi) This package is up to date.
 [ERROR] (eventstream) This package does not have downloadable releases.
 [ERROR] (eventstream-sqlite) This package does not have downloadable releases.
 [INFO] (eventstreamd) This package is up to date.
@@ -3031,7 +3031,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (execmode) This package is up to date.
 [INFO] (execnet) This package is up to date.
 [INFO] (execo) This package is up to date.
-[INFO] (execsql) This package is up to date.
+[INFO] (execsql) Data has been updated for this package.
 [INFO] (exectree) This package is up to date.
 [INFO] (execute) This package is up to date.
 [INFO] (executecmd) This package is up to date.
@@ -3083,7 +3083,7 @@ This package download URL does not point to a valid file: "http://effbot.org/dow
 [INFO] (exmldoc) This package is up to date.
 [ERROR] (exocat) This package does not have downloadable releases.
 [INFO] (exocode) This package is up to date.
-[INFO] (exodata) This package is up to date.
+[INFO] (exodata) Data has been updated for this package.
 [INFO] (exode) This package is up to date.
 [INFO] (exodus) This package is up to date.
 [INFO] (exofrills) This package is up to date.
@@ -3173,7 +3173,7 @@ This package download URL does not point to a valid file: "http://effbot.org/dow
 [INFO] (explain-sklearn) This package is up to date.
 [INFO] (explauto) This package is up to date.
 [INFO] (expletives) This package is up to date.
-[INFO] (explicit) This package is up to date.
+[INFO] (explicit) Data has been updated for this package.
 [INFO] (explo) This package is up to date.
 [INFO] (explode) This package is up to date.
 [ERROR] (exploit) Could not get a response from API for this package. See below for details.
@@ -3384,7 +3384,7 @@ urllib.error.URLError: <urlopen error timed out>
 [INFO] (eyetracker) This package is up to date.
 [ERROR] (eypyagent) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "https://pypi.python.org/pypi/eypyagent"
-[INFO] (eypyagent2) Data has been updated for this package.
+[INFO] (eypyagent2) This package is up to date.
 [ERROR] (eytest) This package does not have downloadable releases.
 [INFO] (ez) This package is up to date.
 [INFO] (ez-grid) This package is up to date.
@@ -3463,8 +3463,8 @@ This package download URL does not point to a valid file: "http://www.billbaxter
 [INFO] 
 [INFO] Total packages: 2583
 [INFO]     Packages processed: 2583
-[INFO]         Packages updated: 14
-[INFO]         Packages up-to-date: 2305
+[INFO]         Packages updated: 4
+[INFO]         Packages up-to-date: 2315
 [INFO]         Packages without response: 27
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 188
