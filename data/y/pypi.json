@@ -3336,7 +3336,7 @@
             "yapftests.yapf_test",
             "yapftests.yapf_test_helper"
         ],
-        "version": "0.16.1"
+        "version": "0.16.2"
     },
     "yapfbear": {
         "cmdline": [],
@@ -4921,7 +4921,7 @@
             "ycm",
             "ycm.parse"
         ],
-        "version": "0.1.55"
+        "version": "0.1.67"
     },
     "yconf": {
         "cmdline": [],
@@ -7653,7 +7653,7 @@
             "ynm3k.weixin",
             "ynm3k.ynm3k"
         ],
-        "version": "0.1.10"
+        "version": "0.1.11"
     },
     "yo": {
         "cmdline": [],
