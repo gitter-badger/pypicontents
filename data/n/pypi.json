@@ -3765,6 +3765,19 @@
         ],
         "version": "0.1.4"
     },
+    "nasa-tle-loader": {
+        "cmdline": [],
+        "modules": [
+            "nasa_tle_loader",
+            "nasa_tle_loader.client",
+            "nasa_tle_loader.constants",
+            "nasa_tle_loader.log",
+            "nasa_tle_loader.parser",
+            "nasa_tle_loader.serialize",
+            "nasa_tle_loader.utils"
+        ],
+        "version": "1.0.0"
+    },
     "nasdaq-stock-quote": {
         "cmdline": [],
         "modules": [
@@ -6034,7 +6047,7 @@
             "nbodykit.utils",
             "nbodykit.version"
         ],
-        "version": "0.2.2"
+        "version": "0.2.3"
     },
     "nbodylab": {
         "cmdline": [],
@@ -15979,6 +15992,13 @@
         "modules": [],
         "version": ""
     },
+    "nesterhh": {
+        "cmdline": [],
+        "modules": [
+            "nesterhh"
+        ],
+        "version": "1.0"
+    },
     "nesterhhh": {
         "cmdline": [],
         "modules": [
@@ -21038,7 +21058,7 @@
             "netkit.log",
             "netkit.stream"
         ],
-        "version": "0.2.155"
+        "version": "0.2.157"
     },
     "netkraken-minion": {
         "cmdline": [],
@@ -21533,7 +21553,7 @@
             "netsgiro.records",
             "netsgiro.validators"
         ],
-        "version": "1.0.0a3"
+        "version": "1.0.0"
     },
     "netshow-core": {
         "cmdline": [],
@@ -33773,7 +33793,7 @@
             "n_utils.maven_utils",
             "n_utils.volumes"
         ],
-        "version": "0.102"
+        "version": "0.105"
     },
     "nitor-vault": {
         "cmdline": [],
@@ -43132,7 +43152,7 @@
             "nomiepy.formatdate",
             "nomiepy.setup"
         ],
-        "version": "0.1"
+        "version": "0.1.1"
     },
     "nominaflora": {
         "cmdline": [],
@@ -48583,7 +48603,7 @@
             "nptdms.version",
             "nptdms.writer"
         ],
-        "version": "0.11.0"
+        "version": "0.11.2"
     },
     "nptfit": {
         "cmdline": [],
@@ -49513,7 +49533,7 @@
             "nsone.rest.zones",
             "nsone.zones"
         ],
-        "version": "0.9.10"
+        "version": "0.9.11"
     },
     "nsot": {
         "cmdline": [],
