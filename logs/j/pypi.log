@@ -237,7 +237,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jaide) This package is up to date.
 [INFO] (jaidegui) This package is up to date.
 [INFO] (jailbreakstatus) This package is up to date.
-[INFO] (jailconf) This package is up to date.
+[INFO] (jailconf) Data has been updated for this package.
 [INFO] (jailconf-tools) This package is up to date.
 [INFO] (jailtools) This package is up to date.
 [ERROR] (jaime) This package does not have downloadable releases.
@@ -1279,7 +1279,7 @@ This package download URL does not point to a valid file: "http://jotweb.tummy.c
 [INFO] (journal-brief) This package is up to date.
 [INFO] (journal-dates) This package is up to date.
 [INFO] (journal-of-official-statistics) This package is up to date.
-[INFO] (journal.py) Data has been updated for this package.
+[INFO] (journal.py) This package is up to date.
 [INFO] (journal2gelf) This package is up to date.
 [INFO] (journaler) This package is up to date.
 [INFO] (journalism) This package is up to date.
@@ -1657,7 +1657,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jsjquery) This package is up to date.
 [INFO] (jsl) This package is up to date.
 [INFO] (jsl-elasticsearch) This package is up to date.
-[INFO] (jsl-mwm-search-strategy-analysis) Data has been updated for this package.
+[INFO] (jsl-mwm-search-strategy-analysis) This package is up to date.
 [INFO] (jsl10n) This package is up to date.
 [INFO] (jslex) This package is up to date.
 [INFO] (jslibs) This package is up to date.
@@ -1724,7 +1724,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (json-manipulate) This package is up to date.
 [INFO] (json-mapper) This package is up to date.
 [INFO] (json-merge-patch) This package is up to date.
-[INFO] (json-merger) Data has been updated for this package.
+[INFO] (json-merger) This package is up to date.
 [INFO] (json-nn) This package is up to date.
 [INFO] (json-object-factory) This package is up to date.
 [INFO] (json-patch) This package is up to date.
@@ -1847,7 +1847,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jsonext) This package is up to date.
 [INFO] (jsonf) This package is up to date.
 [INFO] (jsonfeed) This package is up to date.
-[INFO] (jsonfeedvalidator) This package is up to date.
+[INFO] (jsonfeedvalidator) Data has been updated for this package.
 [INFO] (jsonfield) This package is up to date.
 [INFO] (jsonfig) This package is up to date.
 [INFO] (jsonfile) This package is up to date.
@@ -2034,7 +2034,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (jsonx) This package does not have downloadable releases.
 [ERROR] (jsonxmlconverter) This package does not have downloadable releases.
 [INFO] (jsonxs) This package is up to date.
-[INFO] (jsov) Data has been updated for this package.
+[INFO] (jsov) This package is up to date.
 [INFO] (jsox-code-retreat) This package is up to date.
 [INFO] (jspack) This package is up to date.
 [INFO] (jsplit) This package is up to date.
@@ -2190,7 +2190,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jukedj) This package is up to date.
 [INFO] (julep) This package is up to date.
 [INFO] (jules) This package is up to date.
-[INFO] (julestk) This package is up to date.
+[INFO] (julestk) Data has been updated for this package.
 [INFO] (julia) This package is up to date.
 [INFO] (juliadown) This package is up to date.
 [INFO] (julialintbear) This package is up to date.
@@ -2210,7 +2210,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jumprun) This package is up to date.
 [INFO] (jumpscale-core) This package is up to date.
 [ERROR] (jumpscale-core9) This package does not have downloadable releases.
-[INFO] (jumpserver-python-sdk) Data has been updated for this package.
+[INFO] (jumpserver-python-sdk) This package is up to date.
 [INFO] (jumpstart) This package is up to date.
 [INFO] (junction) This package is up to date.
 [ERROR] (june) This package does not have downloadable releases.
@@ -2334,7 +2334,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jupyterlab-launcher) This package is up to date.
 [INFO] (jupyterlab-widgets) This package is up to date.
 [INFO] (jupyterlmod) This package is up to date.
-[INFO] (jupyterpathway) Data has been updated for this package.
+[INFO] (jupyterpathway) This package is up to date.
 [INFO] (jupyterthemes) This package is up to date.
 [INFO] (jupyterviz) This package is up to date.
 [INFO] (jupytoc) This package is up to date.
@@ -2490,7 +2490,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jycalc) This package is up to date.
 [INFO] (jycat) This package is up to date.
 [INFO] (jydev) This package is up to date.
-[INFO] (jyni) Data has been updated for this package.
+[INFO] (jyni) This package is up to date.
 [INFO] (jynx) This package is up to date.
 [INFO] (jyplotter) This package is up to date.
 [INFO] (jyquickhelper) This package is up to date.
@@ -2516,8 +2516,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] 
 [INFO] Total packages: 1901
 [INFO]     Packages processed: 1901
-[INFO]         Packages updated: 8
-[INFO]         Packages up-to-date: 1690
+[INFO]         Packages updated: 4
+[INFO]         Packages up-to-date: 1694
 [INFO]         Packages without response: 15
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 157
