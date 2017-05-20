@@ -1897,10 +1897,12 @@
             "qds_sdk.actions",
             "qds_sdk.app",
             "qds_sdk.cluster",
+            "qds_sdk.clusterv2",
             "qds_sdk.cmd_line",
             "qds_sdk.commands",
             "qds_sdk.connection",
             "qds_sdk.dbtaps",
+            "qds_sdk.engine",
             "qds_sdk.exception",
             "qds_sdk.group",
             "qds_sdk.nezha",
@@ -1913,9 +1915,14 @@
             "qds_sdk.sensors",
             "qds_sdk.template",
             "qds_sdk.user",
-            "qds_sdk.util"
+            "qds_sdk.util",
+            "qds_sdk/cloud",
+            "qds_sdk/cloud.aws_cloud",
+            "qds_sdk/cloud.azure_cloud",
+            "qds_sdk/cloud.cloud",
+            "qds_sdk/cloud.oracle_bmc_cloud"
         ],
-        "version": "1.9.6"
+        "version": "1.9.7"
     },
     "qdudomportal": {
         "cmdline": [],
@@ -1994,10 +2001,9 @@
         "modules": [
             "src",
             "src.frmMain",
-            "src.main",
-            "src.main (copia 1)"
+            "src.main"
         ],
-        "version": "0.7.1"
+        "version": "0.7.2"
     },
     "qeutil": {
         "cmdline": [],

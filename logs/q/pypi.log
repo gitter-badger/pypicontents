@@ -14,7 +14,7 @@
 [INFO] (qanat) This package is up to date.
 [INFO] (qanda) This package is up to date.
 [INFO] (qap) This package is up to date.
-[INFO] (qapplicationtemplate) Data has been updated for this package.
+[INFO] (qapplicationtemplate) This package is up to date.
 [ERROR] (qarbon) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://pypi.python.org/packages/source/d/qarbon"
 [INFO] (qarg) This package is up to date.
@@ -106,7 +106,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (qdns) This package is up to date.
 [INFO] (qdo) This package is up to date.
 [INFO] (qds-app) This package is up to date.
-[INFO] (qds-sdk) This package is up to date.
+[INFO] (qds-sdk) Data has been updated for this package.
 [INFO] (qdudomportal) This package is up to date.
 [INFO] (qdune) This package is up to date.
 [INFO] (qdupe) This package is up to date.
@@ -116,7 +116,7 @@ tarfile.ReadError: not a gzip file
 This package download URL does not point to a valid file: "http://danse.cacr.caltech.edu/packages/dev_danse_us/"
 [ERROR] (qed) This package does not have downloadable releases.
 [ERROR] (qemud) This package does not have downloadable releases.
-[INFO] (qet-tb-generator) This package is up to date.
+[INFO] (qet-tb-generator) Data has been updated for this package.
 [INFO] (qeutil) This package is up to date.
 [INFO] (qeventlog) This package is up to date.
 [INFO] (qexpy) This package is up to date.
@@ -253,7 +253,7 @@ This package download URL does not point to a valid file: "http://danse.cacr.cal
 [INFO] (qpm) This package is up to date.
 [INFO] (qprocessing) This package is up to date.
 [INFO] (qprompt) This package is up to date.
-[INFO] (qps) Data has been updated for this package.
+[INFO] (qps) This package is up to date.
 [INFO] (qpth) This package is up to date.
 [ERROR] (qpy) This package does not have downloadable releases.
 [ERROR] (qpyprofiler) Could not extract data from this package. See below for details.
@@ -317,7 +317,7 @@ urllib.error.URLError: <urlopen error [Errno 111] Connection refused>
 [INFO] (qr-codec) This package is up to date.
 [INFO] (qr-io) This package is up to date.
 [INFO] (qr2scad) This package is up to date.
-[INFO] (qr3d) Data has been updated for this package.
+[INFO] (qr3d) This package is up to date.
 [INFO] (qrangeslider) This package is up to date.
 [INFO] (qraphql-py) This package is up to date.
 [INFO] (qrc) This package is up to date.
@@ -402,7 +402,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qt4-gengui) This package is up to date.
 [INFO] (qt4imagelabel) This package is up to date.
 [INFO] (qt4reactor) This package is up to date.
-[INFO] (qt5reactor) Data has been updated for this package.
+[INFO] (qt5reactor) This package is up to date.
 [INFO] (qt5reactor-fork) This package is up to date.
 [INFO] (qtalchemy) This package is up to date.
 [INFO] (qtargselector) This package is up to date.
@@ -504,7 +504,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quali-testing-helpers) This package is up to date.
 [INFO] (qualicscli) This package is up to date.
 [INFO] (qualification) This package is up to date.
-[INFO] (qualilab-cli) Data has been updated for this package.
+[INFO] (qualilab-cli) This package is up to date.
 [INFO] (qualipy) This package is up to date.
 [INFO] (qualisys) This package is up to date.
 [ERROR] (quality) This package does not have downloadable releases.
@@ -553,7 +553,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quantnode) This package is up to date.
 [INFO] (quantopian-tools) This package is up to date.
 [INFO] (quantquesttoolbox) This package is up to date.
-[INFO] (quantrocket-client) Data has been updated for this package.
+[INFO] (quantrocket-client) This package is up to date.
 [ERROR] (quantstack) This package does not have downloadable releases.
 [INFO] (quanttus-api) This package is up to date.
 [INFO] (quantulum) This package is up to date.
@@ -980,8 +980,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] 
 [INFO] Total packages: 727
 [INFO]     Packages processed: 727
-[INFO]         Packages updated: 6
-[INFO]         Packages up-to-date: 651
+[INFO]         Packages updated: 2
+[INFO]         Packages up-to-date: 655
 [INFO]         Packages without response: 7
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 55
