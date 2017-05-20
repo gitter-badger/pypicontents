@@ -3201,7 +3201,7 @@
             "tests.integration.test_frontend",
             "tests.integration.test_search"
         ],
-        "version": "0.9.0"
+        "version": "0.9.1"
     },
     "abilian-crm-core": {
         "cmdline": [],
@@ -3276,6 +3276,7 @@
             "abilian.sbe.apps.communities.signals",
             "abilian.sbe.apps.communities.tests",
             "abilian.sbe.apps.communities.tests.base",
+            "abilian.sbe.apps.communities.tests.test_common",
             "abilian.sbe.apps.communities.tests.test_community",
             "abilian.sbe.apps.communities.views",
             "abilian.sbe.apps.documents",
@@ -3361,7 +3362,7 @@
             "integration",
             "integration.test_routes"
         ],
-        "version": "0.3.3"
+        "version": "0.3.4"
     },
     "abiosgaming.py": {
         "cmdline": [],
@@ -4401,7 +4402,7 @@
             "abstar.celeryconfig",
             "abstar.preprocess"
         ],
-        "version": "0.2.6"
+        "version": "0.2.7"
     },
     "abstrackr": {
         "cmdline": [],
@@ -5162,7 +5163,7 @@
             "accesspanel.extensions.history",
             "accesspanel.extensions.lock_input"
         ],
-        "version": "0.16"
+        "version": "0.17"
     },
     "accessstatsapi": {
         "cmdline": [],
@@ -17047,6 +17048,15 @@
         ],
         "version": "2.0.0"
     },
+    "aio-nasa-tle-loader": {
+        "cmdline": [],
+        "modules": [
+            "aio_nasa_tle_loader",
+            "aio_nasa_tle_loader.client",
+            "aio_nasa_tle_loader.log"
+        ],
+        "version": "1.0.0"
+    },
     "aio-periodic": {
         "cmdline": [],
         "modules": [
@@ -17145,11 +17155,9 @@
         "modules": [
             "aio_space_track_api",
             "aio_space_track_api.client",
-            "aio_space_track_api.exc",
-            "aio_space_track_api.log",
-            "aio_space_track_api.query"
+            "aio_space_track_api.log"
         ],
-        "version": "1.0.3"
+        "version": "2.1.0"
     },
     "aio-tinder": {
         "cmdline": [],
@@ -18043,6 +18051,13 @@
         ],
         "version": "0.0.1"
     },
+    "aiogcd": {
+        "cmdline": [],
+        "modules": [
+            "aiogcd"
+        ],
+        "version": "0.9.1"
+    },
     "aiogear": {
         "cmdline": [],
         "modules": [
@@ -18718,6 +18733,13 @@
             "aiohttp_session_flash"
         ],
         "version": "0.0.1"
+    },
+    "aiohttp-spyne": {
+        "cmdline": [],
+        "modules": [
+            "aiohttp_spyne"
+        ],
+        "version": "0.1.0"
     },
     "aiohttp-sse": {
         "cmdline": [],
@@ -19772,10 +19794,10 @@
             "aiopvapi",
             "aiopvapi.aiorequest",
             "aiopvapi.hub",
-            "aiopvapi.scenes",
-            "aiopvapi.shades"
+            "aiopvapi.rooms",
+            "aiopvapi.scenes"
         ],
-        "version": "1.0"
+        "version": "1.4"
     },
     "aiopy": {
         "cmdline": [],
@@ -31979,7 +32001,7 @@
             "allpairspy.allpairs",
             "allpairspy.pairs_storage"
         ],
-        "version": "2.2.0"
+        "version": "2.3.0"
     },
     "allparts": {
         "cmdline": [],
@@ -33428,7 +33450,7 @@
             "alphabet_detector",
             "alphabet_detector.alphabet_detector"
         ],
-        "version": "0.0.6"
+        "version": "0.0.7"
     },
     "alphabetic-simple": {
         "cmdline": [],
@@ -34835,7 +34857,9 @@
         "version": "1.0.0"
     },
     "amazon-dash": {
-        "cmdline": [],
+        "cmdline": [
+            "amazon-dash"
+        ],
         "modules": [
             "amazon_dash",
             "amazon_dash.config",
@@ -34845,7 +34869,7 @@
             "amazon_dash.management",
             "amazon_dash.scan"
         ],
-        "version": "0.2.1"
+        "version": "0.2.2"
     },
     "amazon-kclpy": {
         "cmdline": [
@@ -37713,6 +37737,13 @@
         ],
         "version": "1.1"
     },
+    "anaharid-looping": {
+        "cmdline": [],
+        "modules": [
+            "fruityloops"
+        ],
+        "version": "1.0"
+    },
     "analog": {
         "cmdline": [],
         "modules": [
@@ -40191,7 +40222,7 @@
             "anna.unittests.parameters",
             "anna.utils"
         ],
-        "version": "0.2.2"
+        "version": "0.3"
     },
     "annalist": {
         "cmdline": [],
@@ -43722,6 +43753,404 @@
             "test.unit.test_utils"
         ],
         "version": "1.0.0"
+    },
+    "antares-apps": {
+        "cmdline": [],
+        "modules": [
+            "antares",
+            "antares.apps",
+            "antares.apps.accounting",
+            "antares.apps.accounting.admin",
+            "antares.apps.accounting.api",
+            "antares.apps.accounting.api.api_account_type_view",
+            "antares.apps.accounting.api.api_client_view",
+            "antares.apps.accounting.api.api_concept_type_view",
+            "antares.apps.accounting.api.api_period_view",
+            "antares.apps.accounting.apps",
+            "antares.apps.accounting.console",
+            "antares.apps.accounting.console.account_console",
+            "antares.apps.accounting.constants",
+            "antares.apps.accounting.exceptions",
+            "antares.apps.accounting.exceptions.missing_account_header_information_exception",
+            "antares.apps.accounting.exceptions.negative_amount_exception",
+            "antares.apps.accounting.manager",
+            "antares.apps.accounting.manager.account_manager",
+            "antares.apps.accounting.manager.gl_manager",
+            "antares.apps.accounting.migrations",
+            "antares.apps.accounting.migrations.0001_initial",
+            "antares.apps.accounting.migrations.0002_auto_20170427_0107",
+            "antares.apps.accounting.models",
+            "antares.apps.accounting.models.account_balance",
+            "antares.apps.accounting.models.account_document",
+            "antares.apps.accounting.models.account_rule",
+            "antares.apps.accounting.models.account_transaction",
+            "antares.apps.accounting.models.account_type",
+            "antares.apps.accounting.models.definition",
+            "antares.apps.accounting.models.gl_account_type",
+            "antares.apps.accounting.models.gl_balance",
+            "antares.apps.accounting.models.gl_transaction",
+            "antares.apps.accounting.models.operation",
+            "antares.apps.accounting.models.transaction_type",
+            "antares.apps.accounting.service",
+            "antares.apps.accounting.templatetags",
+            "antares.apps.accounting.templatetags.accounting_tags",
+            "antares.apps.accounting.tests",
+            "antares.apps.accounting.tests.account_manager_test",
+            "antares.apps.accounting.urls",
+            "antares.apps.accounting.views",
+            "antares.apps.accounting.views.accounting_panel_view",
+            "antares.apps.client",
+            "antares.apps.client.admin",
+            "antares.apps.client.api",
+            "antares.apps.client.api.api_branch_list_address_view",
+            "antares.apps.client.api.api_branch_list_emails_view",
+            "antares.apps.client.api.api_branch_list_social_network_view",
+            "antares.apps.client.api.api_branch_list_telephone_view",
+            "antares.apps.client.api.api_business_clasification_view",
+            "antares.apps.client.api.api_client_attributes_view",
+            "antares.apps.client.api.api_client_id_view",
+            "antares.apps.client.api.api_client_relations_view",
+            "antares.apps.client.apps",
+            "antares.apps.client.console",
+            "antares.apps.client.console.client_user_relation_console",
+            "antares.apps.client.constants",
+            "antares.apps.client.exceptions",
+            "antares.apps.client.exceptions.client_exception",
+            "antares.apps.client.migrations",
+            "antares.apps.client.migrations.0001_initial",
+            "antares.apps.client.migrations.0002_auto_20170427_0107",
+            "antares.apps.client.models",
+            "antares.apps.client.models.address_item",
+            "antares.apps.client.models.attribute_definition",
+            "antares.apps.client.models.client",
+            "antares.apps.client.models.client_attribute",
+            "antares.apps.client.models.client_branch",
+            "antares.apps.client.models.client_business_classification",
+            "antares.apps.client.models.client_identification_type",
+            "antares.apps.client.models.client_type",
+            "antares.apps.client.models.client_user_relation",
+            "antares.apps.client.models.client_user_relation_permission",
+            "antares.apps.client.models.email_item",
+            "antares.apps.client.models.identification_item",
+            "antares.apps.client.models.isic_position",
+            "antares.apps.client.models.social_network_item",
+            "antares.apps.client.models.telephone_item",
+            "antares.apps.client.service",
+            "antares.apps.client.templatetags",
+            "antares.apps.client.templatetags.client_user_relation_tags",
+            "antares.apps.client.tests",
+            "antares.apps.client.urls",
+            "antares.apps.client.views",
+            "antares.apps.client.views.client_panel_view",
+            "antares.apps.core",
+            "antares.apps.core.admin",
+            "antares.apps.core.api",
+            "antares.apps.core.api.api_autocomplete_view",
+            "antares.apps.core.api.api_select_view",
+            "antares.apps.core.apps",
+            "antares.apps.core.console",
+            "antares.apps.core.console.concept_type_console",
+            "antares.apps.core.console.nuke_console",
+            "antares.apps.core.constants",
+            "antares.apps.core.manager",
+            "antares.apps.core.manager.period_manager",
+            "antares.apps.core.middleware",
+            "antares.apps.core.middleware.request",
+            "antares.apps.core.migrations",
+            "antares.apps.core.migrations.0001_initial",
+            "antares.apps.core.migrations.0002_auto_20170427_0107",
+            "antares.apps.core.mixins",
+            "antares.apps.core.mixins.enum_utils_mixin",
+            "antares.apps.core.models",
+            "antares.apps.core.models.action_definition",
+            "antares.apps.core.models.action_parameter_definition",
+            "antares.apps.core.models.catalog",
+            "antares.apps.core.models.concept_type",
+            "antares.apps.core.models.currency",
+            "antares.apps.core.models.currency_exchange_rate",
+            "antares.apps.core.models.holiday",
+            "antares.apps.core.models.hrn_code",
+            "antares.apps.core.models.i18n_string",
+            "antares.apps.core.models.log",
+            "antares.apps.core.models.stored_file",
+            "antares.apps.core.models.system_parameter",
+            "antares.apps.core.models.tag",
+            "antares.apps.core.models.user_parameter",
+            "antares.apps.core.service",
+            "antares.apps.core.service.nuke_service",
+            "antares.apps.core.templatetags",
+            "antares.apps.core.templatetags.core_tags",
+            "antares.apps.core.tests",
+            "antares.apps.core.urls",
+            "antares.apps.core.utils",
+            "antares.apps.core.utils.string_utils",
+            "antares.apps.core.utils.version_utils",
+            "antares.apps.core.views",
+            "antares.apps.document",
+            "antares.apps.document.admin",
+            "antares.apps.document.api",
+            "antares.apps.document.api.api_document_submit_view",
+            "antares.apps.document.api.api_document_upload_view",
+            "antares.apps.document.apps",
+            "antares.apps.document.console",
+            "antares.apps.document.console.document_console",
+            "antares.apps.document.constants",
+            "antares.apps.document.exceptions",
+            "antares.apps.document.exceptions.document_does_not_exist_exception",
+            "antares.apps.document.exceptions.document_field_not_found",
+            "antares.apps.document.exceptions.document_required_exception",
+            "antares.apps.document.exceptions.document_status_exception",
+            "antares.apps.document.exceptions.document_validation_exception",
+            "antares.apps.document.exceptions.form_definition_not_found_exception",
+            "antares.apps.document.exceptions.form_defintion_is_not_active_exception",
+            "antares.apps.document.exceptions.invalid_document_status_exception",
+            "antares.apps.document.exceptions.invalid_document_value_exception",
+            "antares.apps.document.exceptions.invalid_form_definition_exception",
+            "antares.apps.document.migrations",
+            "antares.apps.document.migrations.0001_initial",
+            "antares.apps.document.migrations.0002_auto_20170427_0107",
+            "antares.apps.document.models",
+            "antares.apps.document.models.document_acl",
+            "antares.apps.document.models.document_field",
+            "antares.apps.document.models.document_header",
+            "antares.apps.document.models.document_hrn",
+            "antares.apps.document.models.document_table_content",
+            "antares.apps.document.models.form_action_map",
+            "antares.apps.document.models.form_class",
+            "antares.apps.document.models.form_definition",
+            "antares.apps.document.models.form_definition_acl",
+            "antares.apps.document.models.indexed_field",
+            "antares.apps.document.models.status_log",
+            "antares.apps.document.service",
+            "antares.apps.document.templatetags",
+            "antares.apps.document.templatetags.set_var_tag",
+            "antares.apps.document.tests",
+            "antares.apps.document.tests.document_type_test",
+            "antares.apps.document.types",
+            "antares.apps.document.types.document",
+            "antares.apps.document.urls",
+            "antares.apps.document.views",
+            "antares.apps.document.views.document_create_view",
+            "antares.apps.document.views.document_edit_view",
+            "antares.apps.document.views.document_view_view",
+            "antares.apps.flow",
+            "antares.apps.flow.admin",
+            "antares.apps.flow.api",
+            "antares.apps.flow.api.api_case_document_view",
+            "antares.apps.flow.api.api_case_history_view",
+            "antares.apps.flow.api.api_case_note_list_view",
+            "antares.apps.flow.api.api_case_properties_view",
+            "antares.apps.flow.api.api_case_set_tracking_option_view",
+            "antares.apps.flow.api.api_case_update_name_view",
+            "antares.apps.flow.api.api_case_update_note_view",
+            "antares.apps.flow.api.api_case_update_priority_view",
+            "antares.apps.flow.api.api_case_update_property_view",
+            "antares.apps.flow.api.api_forward_view",
+            "antares.apps.flow.api.api_inbox_active_cases_view",
+            "antares.apps.flow.api.api_inbox_completed_cases_view",
+            "antares.apps.flow.api.api_inbox_created_cases_view",
+            "antares.apps.flow.apps",
+            "antares.apps.flow.console",
+            "antares.apps.flow.console.flow_admin_console",
+            "antares.apps.flow.constants",
+            "antares.apps.flow.exceptions",
+            "antares.apps.flow.exceptions.flow_exception",
+            "antares.apps.flow.exceptions.invalid_status_exception",
+            "antares.apps.flow.exceptions.invalid_xpdl_exception",
+            "antares.apps.flow.manager",
+            "antares.apps.flow.manager.assignment_manager",
+            "antares.apps.flow.manager.flow_admin_manager",
+            "antares.apps.flow.manager.flow_manager",
+            "antares.apps.flow.migrations",
+            "antares.apps.flow.migrations.0001_initial",
+            "antares.apps.flow.migrations.0002_auto_20170427_0107",
+            "antares.apps.flow.models",
+            "antares.apps.flow.models.definition",
+            "antares.apps.flow.models.definition.activity_application_definition",
+            "antares.apps.flow.models.definition.activity_application_parameter_definition",
+            "antares.apps.flow.models.definition.activity_definition",
+            "antares.apps.flow.models.definition.application_definition",
+            "antares.apps.flow.models.definition.application_parameter_definition",
+            "antares.apps.flow.models.definition.flow_action_definition",
+            "antares.apps.flow.models.definition.flow_action_definition_parameter_map",
+            "antares.apps.flow.models.definition.flow_activity_extra_tab",
+            "antares.apps.flow.models.definition.flow_activity_extra_tab_parameter",
+            "antares.apps.flow.models.definition.flow_activity_form",
+            "antares.apps.flow.models.definition.flow_activity_form_parameter",
+            "antares.apps.flow.models.definition.flow_activity_validation",
+            "antares.apps.flow.models.definition.flow_definition",
+            "antares.apps.flow.models.definition.flow_package",
+            "antares.apps.flow.models.definition.participant_definition",
+            "antares.apps.flow.models.definition.property_definition",
+            "antares.apps.flow.models.definition.transition_definition",
+            "antares.apps.flow.models.operation",
+            "antares.apps.flow.models.operation.activity_log",
+            "antares.apps.flow.models.operation.assignment_list",
+            "antares.apps.flow.models.operation.flow_activity",
+            "antares.apps.flow.models.operation.flow_attachment",
+            "antares.apps.flow.models.operation.flow_case",
+            "antares.apps.flow.models.operation.flow_document",
+            "antares.apps.flow.models.operation.flow_note",
+            "antares.apps.flow.models.operation.flow_property",
+            "antares.apps.flow.models.operation.flow_user_notification_option",
+            "antares.apps.flow.models.operation.reassigment_log",
+            "antares.apps.flow.service",
+            "antares.apps.flow.templatetags",
+            "antares.apps.flow.templatetags.flow_tags",
+            "antares.apps.flow.tests",
+            "antares.apps.flow.urls",
+            "antares.apps.flow.views",
+            "antares.apps.flow.views.inbox_view",
+            "antares.apps.flow.views.latest_activities_view",
+            "antares.apps.flow.views.workspace_view",
+            "antares.apps.initialsettings",
+            "antares.apps.initialsettings.console",
+            "antares.apps.initialsettings.console.initial_settings_console",
+            "antares.apps.initialsettings.console.isic_console",
+            "antares.apps.initialsettings.constants",
+            "antares.apps.initialsettings.manager",
+            "antares.apps.initialsettings.manager.initial_settings_loader",
+            "antares.apps.initialsettings.manager.isic_loader",
+            "antares.apps.initialsettings.migrations",
+            "antares.apps.initialsettings.tests",
+            "antares.apps.message",
+            "antares.apps.message.admin",
+            "antares.apps.message.apps",
+            "antares.apps.message.constants",
+            "antares.apps.message.migrations",
+            "antares.apps.message.migrations.0001_initial",
+            "antares.apps.message.migrations.0002_auto_20170427_0107",
+            "antares.apps.message.models",
+            "antares.apps.message.models.message",
+            "antares.apps.message.models.message_status",
+            "antares.apps.message.tests",
+            "antares.apps.message.views",
+            "antares.apps.notifications",
+            "antares.apps.notifications.admin",
+            "antares.apps.notifications.apps",
+            "antares.apps.notifications.console",
+            "antares.apps.notifications.console.notifications_console",
+            "antares.apps.notifications.constants",
+            "antares.apps.notifications.manager",
+            "antares.apps.notifications.manager.notification_manager",
+            "antares.apps.notifications.migrations",
+            "antares.apps.notifications.migrations.0001_initial",
+            "antares.apps.notifications.migrations.0002_auto_20170427_0107",
+            "antares.apps.notifications.models",
+            "antares.apps.notifications.models.notification_record",
+            "antares.apps.notifications.models.notification_rule",
+            "antares.apps.notifications.templatetags",
+            "antares.apps.notifications.templatetags.notification_tags",
+            "antares.apps.notifications.tests",
+            "antares.apps.notifications.views",
+            "antares.apps.obligation",
+            "antares.apps.obligation.admin",
+            "antares.apps.obligation.api",
+            "antares.apps.obligation.api.api_obligation_panel_complied_view",
+            "antares.apps.obligation.api.api_obligation_panel_pending_view",
+            "antares.apps.obligation.apps",
+            "antares.apps.obligation.console",
+            "antares.apps.obligation.console.obligation_console",
+            "antares.apps.obligation.constants",
+            "antares.apps.obligation.exceptions",
+            "antares.apps.obligation.manager",
+            "antares.apps.obligation.manager.obligation_manager",
+            "antares.apps.obligation.migrations",
+            "antares.apps.obligation.migrations.0001_initial",
+            "antares.apps.obligation.migrations.0002_auto_20170427_0107",
+            "antares.apps.obligation.models",
+            "antares.apps.obligation.models.client_obligation",
+            "antares.apps.obligation.models.obligation_rule",
+            "antares.apps.obligation.models.obligation_vector",
+            "antares.apps.obligation.models.obligation_vector_log",
+            "antares.apps.obligation.service",
+            "antares.apps.obligation.tests",
+            "antares.apps.obligation.urls",
+            "antares.apps.obligation.views",
+            "antares.apps.obligation.views.obligation_panel_view",
+            "antares.apps.subscription",
+            "antares.apps.subscription.admin",
+            "antares.apps.subscription.apps",
+            "antares.apps.subscription.console",
+            "antares.apps.subscription.console.subscription_console",
+            "antares.apps.subscription.constants",
+            "antares.apps.subscription.exceptions",
+            "antares.apps.subscription.exceptions.subscription_exception",
+            "antares.apps.subscription.manager",
+            "antares.apps.subscription.manager.subscription_manager",
+            "antares.apps.subscription.migrations",
+            "antares.apps.subscription.migrations.0001_initial",
+            "antares.apps.subscription.models",
+            "antares.apps.subscription.models.subscription_action",
+            "antares.apps.subscription.models.subscription_action_parameter_map",
+            "antares.apps.subscription.models.subscription_event",
+            "antares.apps.subscription.service",
+            "antares.apps.subscription.tests",
+            "antares.apps.subscription.urls",
+            "antares.apps.subscription.views",
+            "antares.apps.terminal",
+            "antares.apps.terminal.admin",
+            "antares.apps.terminal.api",
+            "antares.apps.terminal.api.api_remote_terminal_view",
+            "antares.apps.terminal.apps",
+            "antares.apps.terminal.migrations",
+            "antares.apps.terminal.migrations.0001_initial",
+            "antares.apps.terminal.migrations.0002_terminallog_author",
+            "antares.apps.terminal.models",
+            "antares.apps.terminal.models.terminal_log",
+            "antares.apps.terminal.service",
+            "antares.apps.terminal.tests",
+            "antares.apps.terminal.tests.remote_terminal_test",
+            "antares.apps.terminal.urls",
+            "antares.apps.terminal.views",
+            "antares.apps.terminal.views.remote_terminal_view",
+            "antares.apps.tests",
+            "antares.apps.tests.core",
+            "antares.apps.thirdparty",
+            "antares.apps.thirdparty.admin",
+            "antares.apps.thirdparty.apps",
+            "antares.apps.thirdparty.constants",
+            "antares.apps.thirdparty.migrations",
+            "antares.apps.thirdparty.models",
+            "antares.apps.thirdparty.models.third_party_detail",
+            "antares.apps.thirdparty.models.third_party_record",
+            "antares.apps.thirdparty.tests",
+            "antares.apps.thirdparty.urls",
+            "antares.apps.thirdparty.views",
+            "antares.apps.user",
+            "antares.apps.user.admin",
+            "antares.apps.user.api",
+            "antares.apps.user.api.api_on_behalf_change_client_view",
+            "antares.apps.user.api.api_on_behalf_selector_view",
+            "antares.apps.user.apps",
+            "antares.apps.user.console",
+            "antares.apps.user.console.user_console",
+            "antares.apps.user.constants",
+            "antares.apps.user.decorators",
+            "antares.apps.user.decorators.check_role",
+            "antares.apps.user.exceptions",
+            "antares.apps.user.exceptions.role_denied_exception",
+            "antares.apps.user.exceptions.user_exception",
+            "antares.apps.user.migrations",
+            "antares.apps.user.migrations.0001_initial",
+            "antares.apps.user.models",
+            "antares.apps.user.models.application",
+            "antares.apps.user.models.application_parameter",
+            "antares.apps.user.models.org_unit",
+            "antares.apps.user.models.role",
+            "antares.apps.user.models.role_application",
+            "antares.apps.user.models.user",
+            "antares.apps.user.models.user_org_unit",
+            "antares.apps.user.models.user_role",
+            "antares.apps.user.service",
+            "antares.apps.user.templatetags",
+            "antares.apps.user.templatetags.auth_tags",
+            "antares.apps.user.tests",
+            "antares.apps.user.urls",
+            "antares.apps.user.views",
+            "antares.apps.user.views.antares_auth_view"
+        ],
+        "version": "0.0.1.dev20170519043440"
     },
     "antbkp": {
         "cmdline": [],
@@ -75260,14 +75689,21 @@
             "asyncssh.crypto.cipher",
             "asyncssh.crypto.curve25519",
             "asyncssh.crypto.ec",
+            "asyncssh.crypto.ecdh",
             "asyncssh.crypto.pyca",
             "asyncssh.crypto.pyca.cipher",
             "asyncssh.crypto.pyca.dsa",
             "asyncssh.crypto.pyca.ec",
             "asyncssh.crypto.pyca.rsa",
+            "asyncssh.crypto.pycrypto",
+            "asyncssh.crypto.pycrypto.cipher",
+            "asyncssh.crypto.pycrypto.dsa",
+            "asyncssh.crypto.pycrypto.rsa",
             "asyncssh.crypto.umac",
+            "asyncssh.curve25519",
             "asyncssh.dh",
             "asyncssh.dsa",
+            "asyncssh.ec",
             "asyncssh.ecdh",
             "asyncssh.ecdsa",
             "asyncssh.ed25519",
@@ -75278,6 +75714,7 @@
             "asyncssh.gss_win32",
             "asyncssh.kex",
             "asyncssh.known_hosts",
+            "asyncssh.listen",
             "asyncssh.listener",
             "asyncssh.logging",
             "asyncssh.mac",
@@ -75297,7 +75734,7 @@
             "asyncssh.version",
             "asyncssh.x11"
         ],
-        "version": "1.10.0"
+        "version": "1.10.1"
     },
     "asyncssh-unofficial": {
         "cmdline": [],
@@ -75898,7 +76335,7 @@
             "atenrich.generate_feature_matrix",
             "atenrich.rank_features"
         ],
-        "version": "0.1"
+        "version": "0.2.1"
     },
     "atf": {
         "cmdline": [],
@@ -77819,14 +78256,16 @@
             "atrcopy.diskimages",
             "atrcopy.dos33",
             "atrcopy.errors",
+            "atrcopy.fstbt",
             "atrcopy.kboot",
             "atrcopy.mame",
             "atrcopy.parsers",
             "atrcopy.segments",
             "atrcopy.spartados",
+            "atrcopy.standard_delivery",
             "atrcopy.utils"
         ],
-        "version": "5.0.0"
+        "version": "5.1.0"
     },
     "atreal.cmfeditions.unlocker": {
         "cmdline": [],
@@ -78430,7 +78869,7 @@
             "attentive.attentive",
             "attentive.quit"
         ],
-        "version": "0.1.3"
+        "version": "0.1.4"
     },
     "attest": {
         "cmdline": [],
@@ -85585,7 +86024,9 @@
         "version": ""
     },
     "avro": {
-        "cmdline": [],
+        "cmdline": [
+            "avro"
+        ],
         "modules": [
             "avro",
             "avro.datafile",
@@ -85596,7 +86037,7 @@
             "avro.tool",
             "avro.txipc"
         ],
-        "version": "1.8.1"
+        "version": "1.8.2"
     },
     "avro-codec": {
         "cmdline": [],
@@ -85642,7 +86083,9 @@
         "version": "1.8.0-SNAPSHOT"
     },
     "avro-python3": {
-        "cmdline": [],
+        "cmdline": [
+            "avro"
+        ],
         "modules": [
             "avro",
             "avro.datafile",
@@ -85653,7 +86096,7 @@
             "avro.tool",
             "avro.txipc"
         ],
-        "version": "1.8.1"
+        "version": "1.8.2"
     },
     "avro-python3-snapshot": {
         "cmdline": [],
