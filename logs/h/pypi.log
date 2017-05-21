@@ -45,7 +45,7 @@
 [ERROR] (haalchemy) This package does not have downloadable releases.
 [INFO] (haas) This package is up to date.
 [INFO] (habakkuk) This package is up to date.
-[INFO] (habanero) This package is up to date.
+[INFO] (habanero) Data has been updated for this package.
 [ERROR] (haberdashery) This package does not have downloadable releases.
 [INFO] (habit) This package is up to date.
 [INFO] (habitat) This package is up to date.
@@ -96,7 +96,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (hack-assembler) This package is up to date.
 [INFO] (hack-exe) This package is up to date.
 [ERROR] (hackbeil) This package does not have downloadable releases.
-[INFO] (hackchat) This package is up to date.
+[INFO] (hackchat) Data has been updated for this package.
 [INFO] (hackcmds) This package is up to date.
 [ERROR] (hackdamdyscompcheck) This package does not have downloadable releases.
 [INFO] (hacked-http) This package is up to date.
@@ -133,6 +133,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (hacs) This package is up to date.
 [INFO] (hadapi) This package is up to date.
 [INFO] (haddock) This package is up to date.
+[INFO] (hadeploy) Data has been updated for this package.
 [INFO] (hades) This package is up to date.
 [INFO] (hadmlservices) This package is up to date.
 [INFO] (hadoop-inspector) This package is up to date.
@@ -403,6 +404,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (harambe) This package is up to date.
 [INFO] (harbor-py) This package is up to date.
 [INFO] (hardcode-haml) This package is up to date.
+[INFO] (hardcopy) Data has been updated for this package.
 [INFO] (hardlink) This package is up to date.
 [INFO] (hardlinker) This package is up to date.
 [ERROR] (hardlinkpy) This package does not have downloadable releases.
@@ -1227,7 +1229,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (heteromotility) This package is up to date.
 [INFO] (hetio) This package is up to date.
 [INFO] (hetzner) This package is up to date.
-[INFO] (heuris) Data has been updated for this package.
+[INFO] (heuris) This package is up to date.
 [INFO] (hevea) This package is up to date.
 [INFO] (hewei) This package is up to date.
 [ERROR] (hex-ocr) Could not get a response from API for this package. See below for details.
@@ -2024,7 +2026,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (home-electric-usage-recommendation-modules) This package is up to date.
 [INFO] (home-habitat) This package is up to date.
 [INFO] (homeapi) This package is up to date.
-[INFO] (homeassistant) This package is up to date.
+[INFO] (homeassistant) Data has been updated for this package.
 [INFO] (homebrew) This package is up to date.
 [INFO] (homebrew-pypi-poet) This package is up to date.
 [ERROR] (homecon) Could not get a response from API for this package. See below for details.
@@ -2282,7 +2284,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (howlermonkey) This package is up to date.
 [INFO] (howlong) This package is up to date.
-[INFO] (howmanypeoplearearound) Data has been updated for this package.
+[INFO] (howmanypeoplearearound) This package is up to date.
 [INFO] (howto) This package is up to date.
 [INFO] (hp-darwinpush) This package is up to date.
 [INFO] (hp-nester) This package is up to date.
@@ -2921,7 +2923,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (hux) This package is up to date.
 [INFO] (huxley) This package is up to date.
 [INFO] (huzhifeng) This package is up to date.
-[INFO] (huzzer) This package is up to date.
+[INFO] (huzzer) Data has been updated for this package.
 [INFO] (hv) This package is up to date.
 [INFO] (hv-uploader) This package is up to date.
 [INFO] (hvac) This package is up to date.
@@ -2963,7 +2965,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (hybridjaccard) This package is up to date.
 [INFO] (hybridlfpy) This package is up to date.
 [INFO] (hybridspi) This package is up to date.
-[INFO] (hycc) This package is up to date.
+[INFO] (hycc) Data has been updated for this package.
 [INFO] (hyde) This package is up to date.
 [INFO] (hyde-gzipper) This package is up to date.
 [INFO] (hyde-slimmer) This package is up to date.
@@ -3326,10 +3328,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] 
 [INFO] 
-[INFO] Total packages: 2471
-[INFO]     Packages processed: 2471
-[INFO]         Packages updated: 3
-[INFO]         Packages up-to-date: 2167
+[INFO] Total packages: 2473
+[INFO]     Packages processed: 2473
+[INFO]         Packages updated: 8
+[INFO]         Packages up-to-date: 2164
 [INFO]         Packages without response: 36
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 240

@@ -646,7 +646,6 @@
         "cmdline": [],
         "modules": [
             "habanero",
-            "habanero.agency",
             "habanero.cn",
             "habanero.cn.cn",
             "habanero.cn.constants",
@@ -655,25 +654,18 @@
             "habanero.cnrequest",
             "habanero.counts",
             "habanero.counts.counts",
-            "habanero.cross_cite",
             "habanero.crossref",
             "habanero.crossref.crossref",
             "habanero.crossref.filters",
             "habanero.exceptions",
             "habanero.filterhandler",
-            "habanero.filters",
-            "habanero.filters.filters",
-            "habanero.habanero",
             "habanero.habanero_utils",
-            "habanero.members",
-            "habanero.namespace",
             "habanero.noworks",
             "habanero.request",
             "habanero.request_class",
-            "habanero.response",
-            "habanero.works"
+            "habanero.response"
         ],
-        "version": "0.2.6"
+        "version": "0.3.0"
     },
     "haberdashery": {
         "cmdline": [],
@@ -1736,7 +1728,7 @@
         "modules": [
             "hackchat"
         ],
-        "version": "0.1.4"
+        "version": "0.1.5"
     },
     "hackcmds": {
         "cmdline": [
@@ -3135,6 +3127,27 @@
             "haddock.test.test_auth"
         ],
         "version": "0.6.0"
+    },
+    "hadeploy": {
+        "cmdline": [
+            "hadeploy"
+        ],
+        "modules": [
+            "hadeploy",
+            "hadeploy.core",
+            "hadeploy.core.const",
+            "hadeploy.core.context",
+            "hadeploy.core.dump",
+            "hadeploy.core.main",
+            "hadeploy.core.misc",
+            "hadeploy.core.parser",
+            "hadeploy.core.plugin",
+            "hadeploy.core.schema",
+            "hadeploy.core.templator",
+            "hadeploy.core.test",
+            "hadeploy.plugins"
+        ],
+        "version": "0.3.0rc1"
     },
     "hades": {
         "cmdline": [],
@@ -6689,6 +6702,14 @@
             "hardcode_haml.primitives"
         ],
         "version": "0.2.3"
+    },
+    "hardcopy": {
+        "cmdline": [],
+        "modules": [
+            "hardcopy",
+            "hardcopy.downloader"
+        ],
+        "version": "0.1.0"
     },
     "hardlink": {
         "cmdline": [],
@@ -21816,6 +21837,7 @@
             "homeassistant.components.automation.template",
             "homeassistant.components.automation.time",
             "homeassistant.components.automation.zone",
+            "homeassistant.components.axis",
             "homeassistant.components.bbb_gpio",
             "homeassistant.components.binary_sensor",
             "homeassistant.components.binary_sensor.alarmdecoder",
@@ -21823,6 +21845,7 @@
             "homeassistant.components.binary_sensor.apcupsd",
             "homeassistant.components.binary_sensor.arest",
             "homeassistant.components.binary_sensor.aurora",
+            "homeassistant.components.binary_sensor.axis",
             "homeassistant.components.binary_sensor.bbb_gpio",
             "homeassistant.components.binary_sensor.blink",
             "homeassistant.components.binary_sensor.bloomsky",
@@ -21847,15 +21870,18 @@
             "homeassistant.components.binary_sensor.modbus",
             "homeassistant.components.binary_sensor.mqtt",
             "homeassistant.components.binary_sensor.mysensors",
+            "homeassistant.components.binary_sensor.mystrom",
             "homeassistant.components.binary_sensor.nest",
             "homeassistant.components.binary_sensor.netatmo",
             "homeassistant.components.binary_sensor.nx584",
             "homeassistant.components.binary_sensor.octoprint",
             "homeassistant.components.binary_sensor.pilight",
             "homeassistant.components.binary_sensor.ping",
+            "homeassistant.components.binary_sensor.raspihats",
             "homeassistant.components.binary_sensor.rest",
             "homeassistant.components.binary_sensor.ring",
             "homeassistant.components.binary_sensor.rpi_gpio",
+            "homeassistant.components.binary_sensor.rpi_pfio",
             "homeassistant.components.binary_sensor.sleepiq",
             "homeassistant.components.binary_sensor.tcp",
             "homeassistant.components.binary_sensor.template",
@@ -21877,6 +21903,7 @@
             "homeassistant.components.calendar.google",
             "homeassistant.components.camera",
             "homeassistant.components.camera.amcrest",
+            "homeassistant.components.camera.axis",
             "homeassistant.components.camera.blink",
             "homeassistant.components.camera.bloomsky",
             "homeassistant.components.camera.demo",
@@ -21916,6 +21943,7 @@
             "homeassistant.components.climate.wink",
             "homeassistant.components.climate.zwave",
             "homeassistant.components.config",
+            "homeassistant.components.config.automation",
             "homeassistant.components.config.core",
             "homeassistant.components.config.group",
             "homeassistant.components.config.hassbian",
@@ -21928,6 +21956,7 @@
             "homeassistant.components.cover.garadget",
             "homeassistant.components.cover.homematic",
             "homeassistant.components.cover.isy994",
+            "homeassistant.components.cover.lutron_caseta",
             "homeassistant.components.cover.mqtt",
             "homeassistant.components.cover.myq",
             "homeassistant.components.cover.mysensors",
@@ -21939,6 +21968,7 @@
             "homeassistant.components.cover.vera",
             "homeassistant.components.cover.wink",
             "homeassistant.components.cover.zwave",
+            "homeassistant.components.datadog",
             "homeassistant.components.demo",
             "homeassistant.components.device_sun_light_trigger",
             "homeassistant.components.device_tracker",
@@ -22025,6 +22055,7 @@
             "homeassistant.components.image_processing.openalpr_cloud",
             "homeassistant.components.image_processing.openalpr_local",
             "homeassistant.components.image_processing.opencv",
+            "homeassistant.components.image_processing.seven_segments",
             "homeassistant.components.influxdb",
             "homeassistant.components.input_boolean",
             "homeassistant.components.input_select",
@@ -22038,6 +22069,7 @@
             "homeassistant.components.joaoapps_join",
             "homeassistant.components.keyboard",
             "homeassistant.components.keyboard_remote",
+            "homeassistant.components.kira",
             "homeassistant.components.knx",
             "homeassistant.components.light",
             "homeassistant.components.light.avion",
@@ -22220,6 +22252,7 @@
             "homeassistant.components.plant",
             "homeassistant.components.proximity",
             "homeassistant.components.qwikswitch",
+            "homeassistant.components.raspihats",
             "homeassistant.components.recorder",
             "homeassistant.components.recorder.const",
             "homeassistant.components.recorder.migration",
@@ -22230,11 +22263,13 @@
             "homeassistant.components.remote.demo",
             "homeassistant.components.remote.harmony",
             "homeassistant.components.remote.itach",
+            "homeassistant.components.remote.kira",
             "homeassistant.components.rest_command",
             "homeassistant.components.rflink",
             "homeassistant.components.rfxtrx",
             "homeassistant.components.ring",
             "homeassistant.components.rpi_gpio",
+            "homeassistant.components.rpi_pfio",
             "homeassistant.components.rss_feed_template",
             "homeassistant.components.scene",
             "homeassistant.components.scene.homeassistant",
@@ -22290,6 +22325,7 @@
             "homeassistant.components.sensor.fastdotcom",
             "homeassistant.components.sensor.fedex",
             "homeassistant.components.sensor.fido",
+            "homeassistant.components.sensor.file",
             "homeassistant.components.sensor.fitbit",
             "homeassistant.components.sensor.fixer",
             "homeassistant.components.sensor.fritzbox_callmonitor",
@@ -22309,6 +22345,7 @@
             "homeassistant.components.sensor.influxdb",
             "homeassistant.components.sensor.ios",
             "homeassistant.components.sensor.isy994",
+            "homeassistant.components.sensor.kira",
             "homeassistant.components.sensor.knx",
             "homeassistant.components.sensor.kwb",
             "homeassistant.components.sensor.lastfm",
@@ -22454,6 +22491,7 @@
             "homeassistant.components.switch.rflink",
             "homeassistant.components.switch.rfxtrx",
             "homeassistant.components.switch.rpi_gpio",
+            "homeassistant.components.switch.rpi_pfio",
             "homeassistant.components.switch.rpi_rf",
             "homeassistant.components.switch.scsgate",
             "homeassistant.components.switch.tellduslive",
@@ -22512,6 +22550,7 @@
             "homeassistant.components.zone",
             "homeassistant.components.zoneminder",
             "homeassistant.components.zwave",
+            "homeassistant.components.zwave.api",
             "homeassistant.components.zwave.const",
             "homeassistant.components.zwave.discovery_schemas",
             "homeassistant.components.zwave.node_entity",
@@ -22538,6 +22577,7 @@
             "homeassistant.helpers.service",
             "homeassistant.helpers.signal",
             "homeassistant.helpers.state",
+            "homeassistant.helpers.sun",
             "homeassistant.helpers.template",
             "homeassistant.helpers.typing",
             "homeassistant.loader",
@@ -22563,7 +22603,7 @@
             "homeassistant.util.unit_system",
             "homeassistant.util.yaml"
         ],
-        "version": "0.44.1"
+        "version": "0.45.0"
     },
     "homebrew": {
         "cmdline": [],
@@ -31460,7 +31500,7 @@
             "humilis_kinesis_processor.lambda_function.setup",
             "humilis_kinesis_processor.plugin"
         ],
-        "version": "1.0.2"
+        "version": "1.0.4"
     },
     "humilis-kinesis-proxy": {
         "cmdline": [],
@@ -32523,7 +32563,7 @@
             "huzzer.tokenizing.SubHaskellVisitor",
             "huzzer.tokenizing.tokenize"
         ],
-        "version": "0.1.0"
+        "version": "0.1.1"
     },
     "hv": {
         "cmdline": [],
@@ -33464,9 +33504,9 @@
     "hycc": {
         "cmdline": [],
         "modules": [
-            "activate_hycc"
+            "hycc"
         ],
-        "version": "0.0.2"
+        "version": "0.0.3"
     },
     "hyde": {
         "cmdline": [],
