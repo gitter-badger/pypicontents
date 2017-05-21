@@ -24,7 +24,7 @@
 [INFO] (xafsmass) This package is up to date.
 [ERROR] (xail) This package does not have downloadable releases.
 [INFO] (xal) This package is up to date.
-[INFO] (xalc) Data has been updated for this package.
+[INFO] (xalc) This package is up to date.
 [INFO] (xam) This package is up to date.
 [INFO] (xamcheck-utils) This package is up to date.
 [INFO] (xaml) This package is up to date.
@@ -46,7 +46,7 @@
 [INFO] (xatk) This package is up to date.
 [INFO] (xattr) This package is up to date.
 [INFO] (xausky) This package is up to date.
-[INFO] (xavier) This package is up to date.
+[INFO] (xavier) Data has been updated for this package.
 [INFO] (xaxtsuxo) This package is up to date.
 [ERROR] (xb) This package does not have downloadable releases.
 [INFO] (xbahn) This package is up to date.
@@ -259,6 +259,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xfer) This package is up to date.
 [INFO] (xfers) This package is up to date.
 [ERROR] (xfile) This package does not have downloadable releases.
+[INFO] (xfin) Data has been updated for this package.
 [ERROR] (xfl) This package does not have downloadable releases.
 [INFO] (xflash) This package is up to date.
 [INFO] (xflat) This package is up to date.
@@ -448,7 +449,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (xlsx) This package does not have downloadable releases.
 [INFO] (xlsx-streaming) This package is up to date.
 [INFO] (xlsx-to-handontable) This package is up to date.
-[INFO] (xlsx2csv) This package is up to date.
+[INFO] (xlsx2csv) Data has been updated for this package.
 [INFO] (xlsxcessive) This package is up to date.
 [INFO] (xlsxcursor) This package is up to date.
 [INFO] (xlsxdiff) This package is up to date.
@@ -608,7 +609,7 @@ This package download URL does not point to a valid file: "http://effbot.org/dow
 [ERROR] (xmlrpcssl) This package does not have downloadable releases.
 [INFO] (xmlrunner) This package is up to date.
 [INFO] (xmlschema) This package is up to date.
-[INFO] (xmlsec) This package is up to date.
+[INFO] (xmlsec) Data has been updated for this package.
 [INFO] (xmlsec-aop) This package is up to date.
 [INFO] (xmlsec-pgp) This package is up to date.
 [ERROR] (xmlsecurity) This package does not have downloadable releases.
@@ -901,7 +902,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xstatic-html5shiv) This package is up to date.
 [INFO] (xstatic-jasmine) This package is up to date.
 [INFO] (xstatic-jquery) This package is up to date.
-[INFO] (xstatic-jquery-colourpicker) Data has been updated for this package.
+[INFO] (xstatic-jquery-colourpicker) This package is up to date.
 [INFO] (xstatic-jquery-file-upload) This package is up to date.
 [INFO] (xstatic-jquery-migrate) This package is up to date.
 [INFO] (xstatic-jquery-ui) This package is up to date.
@@ -1039,10 +1040,10 @@ This package download URL does not point to a valid file: "http://bitbucket.org/
 [INFO] (xzqs-01) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 819
-[INFO]     Packages processed: 819
-[INFO]         Packages updated: 2
-[INFO]         Packages up-to-date: 725
+[INFO] Total packages: 820
+[INFO]     Packages processed: 820
+[INFO]         Packages updated: 4
+[INFO]         Packages up-to-date: 724
 [INFO]         Packages without response: 10
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 71

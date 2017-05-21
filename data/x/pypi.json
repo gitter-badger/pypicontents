@@ -1037,7 +1037,7 @@
             "xavier.slack.slash",
             "xavier.taskqueue"
         ],
-        "version": "0.0.10"
+        "version": "0.0.11"
     },
     "xaxtsuxo": {
         "cmdline": [],
@@ -3806,6 +3806,14 @@
         "modules": [],
         "version": ""
     },
+    "xfin": {
+        "cmdline": [],
+        "modules": [
+            "xfin",
+            "xfin.main"
+        ],
+        "version": "1.0.0"
+    },
     "xfl": {
         "cmdline": [],
         "modules": [],
@@ -5490,7 +5498,7 @@
         "modules": [
             "xlsx2csv"
         ],
-        "version": "0.7.2"
+        "version": "0.7.3"
     },
     "xlsxcessive": {
         "cmdline": [],
@@ -6820,7 +6828,7 @@
     "xmlsec": {
         "cmdline": [],
         "modules": [],
-        "version": "1.0.7"
+        "version": "1.0.8"
     },
     "xmlsec-aop": {
         "cmdline": [],
