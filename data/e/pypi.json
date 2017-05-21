@@ -1864,7 +1864,7 @@
             "blogger.blogger",
             "blogger.main"
         ],
-        "version": "1.2.6"
+        "version": "1.2.7"
     },
     "easyboto": {
         "cmdline": [],
@@ -3687,7 +3687,7 @@
         "modules": [
             "easytf"
         ],
-        "version": "3.9"
+        "version": "4.2"
     },
     "easythreads": {
         "cmdline": [],
@@ -28997,12 +28997,13 @@
             "eprl",
             "eprl.colors",
             "eprl.dbstore",
+            "eprl.dbutil",
             "eprl.resolver",
             "eprl.restore",
             "eprl.util",
             "eprl.vargs"
         ],
-        "version": "0.9"
+        "version": "0.10"
     },
     "eps": {
         "cmdline": [],
@@ -36085,7 +36086,7 @@
             "eureqa.variable_options_dict",
             "eureqa.versions"
         ],
-        "version": "1.66.0"
+        "version": "1.67.1"
     },
     "euromillions": {
         "cmdline": [],
@@ -41287,7 +41288,7 @@
             "execsql.py"
         ],
         "modules": [],
-        "version": "1.16.7.0"
+        "version": "1.16.8.0"
     },
     "exectree": {
         "cmdline": [],

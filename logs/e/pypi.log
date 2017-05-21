@@ -219,7 +219,7 @@ This package download URL does not point to a valid file: "https://pypi.python.o
 [INFO] (easyban) This package is up to date.
 [INFO] (easybase) This package is up to date.
 [INFO] (easybay) This package is up to date.
-[INFO] (easyblogger) This package is up to date.
+[INFO] (easyblogger) Data has been updated for this package.
 [INFO] (easyboto) This package is up to date.
 [INFO] (easybuild) This package is up to date.
 [INFO] (easybuild-easyblocks) This package is up to date.
@@ -2089,7 +2089,7 @@ This package download URL does not point to a valid file: "https://sourceforge.n
 [INFO] (eppconvert) This package is up to date.
 [INFO] (eppy) This package is up to date.
 [INFO] (epr) This package is up to date.
-[INFO] (eprl) This package is up to date.
+[INFO] (eprl) Data has been updated for this package.
 [INFO] (eps) This package is up to date.
 [INFO] (epsg-ident) This package is up to date.
 [INFO] (epsilon) This package is up to date.
@@ -2656,7 +2656,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (eureka-client) This package is up to date.
 [INFO] (eureka-opensource) This package is up to date.
 [INFO] (eureka-template) This package is up to date.
-[INFO] (eureqa) This package is up to date.
+[INFO] (eureqa) Data has been updated for this package.
 [INFO] (euromillions) This package is up to date.
 [INFO] (europa) This package is up to date.
 [INFO] (europe) This package is up to date.
@@ -3083,7 +3083,7 @@ This package download URL does not point to a valid file: "http://effbot.org/dow
 [INFO] (exmldoc) This package is up to date.
 [ERROR] (exocat) This package does not have downloadable releases.
 [INFO] (exocode) This package is up to date.
-[INFO] (exodata) Data has been updated for this package.
+[INFO] (exodata) This package is up to date.
 [INFO] (exode) This package is up to date.
 [INFO] (exodus) This package is up to date.
 [INFO] (exofrills) This package is up to date.
@@ -3173,7 +3173,7 @@ This package download URL does not point to a valid file: "http://effbot.org/dow
 [INFO] (explain-sklearn) This package is up to date.
 [INFO] (explauto) This package is up to date.
 [INFO] (expletives) This package is up to date.
-[INFO] (explicit) Data has been updated for this package.
+[INFO] (explicit) This package is up to date.
 [INFO] (explo) This package is up to date.
 [INFO] (explode) This package is up to date.
 [ERROR] (exploit) Could not get a response from API for this package. See below for details.
@@ -3463,8 +3463,8 @@ This package download URL does not point to a valid file: "http://www.billbaxter
 [INFO] 
 [INFO] Total packages: 2583
 [INFO]     Packages processed: 2583
-[INFO]         Packages updated: 4
-[INFO]         Packages up-to-date: 2315
+[INFO]         Packages updated: 5
+[INFO]         Packages up-to-date: 2314
 [INFO]         Packages without response: 27
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 188
