@@ -3585,6 +3585,7 @@
             "raipy.Example",
             "raipy.FileManager",
             "raipy.GUI",
+            "raipy.GpibInst",
             "raipy.GraphManager",
             "raipy.Help",
             "raipy.LCD_Display",
@@ -3593,7 +3594,7 @@
             "raipy.UserClassBase",
             "raipy.template"
         ],
-        "version": "0.3"
+        "version": "0.4"
     },
     "raise": {
         "cmdline": [],
@@ -25929,7 +25930,7 @@
     "reloadr": {
         "cmdline": [],
         "modules": [],
-        "version": "0.3.0"
+        "version": "0.3.3"
     },
     "reloadwsgi": {
         "cmdline": [],
@@ -32273,7 +32274,7 @@
             "requests_toolbelt.utils.formdata",
             "requests_toolbelt.utils.user_agent"
         ],
-        "version": "0.7.1"
+        "version": "0.8.0"
     },
     "requests-transition": {
         "cmdline": [],
@@ -34014,7 +34015,16 @@
         "cmdline": [],
         "modules": [
             "respy",
+            "respy._scripts",
+            "respy._scripts.scripts_check",
+            "respy._scripts.scripts_compare",
+            "respy._scripts.scripts_estimate",
+            "respy._scripts.scripts_modify",
+            "respy._scripts.scripts_simulate",
+            "respy._scripts.scripts_stop",
+            "respy._scripts.scripts_update",
             "respy.clsRespy",
+            "respy.custom_exceptions",
             "respy.estimate",
             "respy.fortran",
             "respy.fortran.interface",
@@ -34049,17 +34059,9 @@
             "respy.python.solve.solve_auxiliary",
             "respy.python.solve.solve_python",
             "respy.python.solve.solve_risk",
-            "respy.scripts",
-            "respy.scripts.scripts_check",
-            "respy.scripts.scripts_compare",
-            "respy.scripts.scripts_estimate",
-            "respy.scripts.scripts_modify",
-            "respy.scripts.scripts_simulate",
-            "respy.scripts.scripts_stop",
-            "respy.scripts.scripts_update",
             "respy.simulate"
         ],
-        "version": "2.0.0.dev12"
+        "version": "2.0.0.dev14"
     },
     "ressl": {
         "cmdline": [],
@@ -36957,7 +36959,7 @@
         "modules": [
             "retryz"
         ],
-        "version": "0.1.8"
+        "version": "0.1.9"
     },
     "rets": {
         "cmdline": [],
@@ -39967,7 +39969,7 @@
         "modules": [
             "rgbxy"
         ],
-        "version": "0.4"
+        "version": "0.5"
     },
     "rgcompare": {
         "cmdline": [],

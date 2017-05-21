@@ -244,7 +244,7 @@ This package download URL does not point to a valid file: "https://api.github.co
 [INFO] (rainmaker) This package is up to date.
 [ERROR] (rainman) This package does not have downloadable releases.
 [INFO] (rainstorm) This package is up to date.
-[INFO] (raipy) This package is up to date.
+[INFO] (raipy) Data has been updated for this package.
 [INFO] (raise) This package is up to date.
 [INFO] (raise-if) This package is up to date.
 [INFO] (raisin.box) This package is up to date.
@@ -682,7 +682,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (raspy) This package is up to date.
 [ERROR] (raspybot) Could not extract data from this package. See below for details.
 ".html" extension not supported.
-[INFO] (raspyrfm-client) Data has been updated for this package.
+[INFO] (raspyrfm-client) This package is up to date.
 [INFO] (raster-tester) This package is up to date.
 [INFO] (raster2xyz) This package is up to date.
 [INFO] (rasterfoundry) This package is up to date.
@@ -1253,7 +1253,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (reclaimer) Data has been updated for this package.
+[INFO] (reclaimer) This package is up to date.
 [INFO] (reclass) This package is up to date.
 [INFO] (recline-nester) This package is up to date.
 [INFO] (recliner) This package is up to date.
@@ -1285,7 +1285,7 @@ This package download URL does not point to a valid file: "https://bitbucket.org
 [INFO] (recordeggs) This package is up to date.
 [INFO] (recordinality) This package is up to date.
 [INFO] (recordit-url-builder) This package is up to date.
-[INFO] (recordlib) Data has been updated for this package.
+[INFO] (recordlib) This package is up to date.
 [INFO] (recordlinkage) This package is up to date.
 [INFO] (records) This package is up to date.
 [INFO] (recordsilo) This package is up to date.
@@ -1303,7 +1303,7 @@ This package download URL does not point to a valid file: "https://bitbucket.org
 [INFO] (recurefunc) This package is up to date.
 [ERROR] (recurlib) This package does not have downloadable releases.
 [INFO] (recurlister) This package is up to date.
-[INFO] (recurly) Data has been updated for this package.
+[INFO] (recurly) This package is up to date.
 [INFO] (recurprint) This package is up to date.
 [INFO] (recurrent) This package is up to date.
 [INFO] (recurrent-js-python) This package is up to date.
@@ -1492,7 +1492,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (redis-simple-cache) This package is up to date.
 [INFO] (redis-simple-queue) This package is up to date.
 [INFO] (redis-sniffer) This package is up to date.
-[INFO] (redis-sort-queue) Data has been updated for this package.
+[INFO] (redis-sort-queue) This package is up to date.
 [INFO] (redis-structures) This package is up to date.
 [INFO] (redis-taxon) This package is up to date.
 [INFO] (redis-timeseries) This package is up to date.
@@ -2030,7 +2030,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (reloaded-set) This package is up to date.
 [INFO] (reloader) This package is up to date.
 [INFO] (reloadinghandler) This package is up to date.
-[INFO] (reloadr) This package is up to date.
+[INFO] (reloadr) Data has been updated for this package.
 [INFO] (reloadwsgi) This package is up to date.
 [INFO] (relocator) This package is up to date.
 [INFO] (relog) This package is up to date.
@@ -2565,7 +2565,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (requests-ssl-v3) This package is up to date.
 [INFO] (requests-staticmock) This package is up to date.
 [INFO] (requests-testadapter) This package is up to date.
-[INFO] (requests-toolbelt) This package is up to date.
+[INFO] (requests-toolbelt) Data has been updated for this package.
 [INFO] (requests-transition) This package is up to date.
 [INFO] (requests-twisted) This package is up to date.
 [INFO] (requests-ucloud) This package is up to date.
@@ -2784,7 +2784,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (responsive-web-server) This package does not have downloadable releases.
 [INFO] (responsys) This package is up to date.
 [INFO] (responsys-client) This package is up to date.
-[INFO] (respy) This package is up to date.
+[INFO] (respy) Data has been updated for this package.
 [INFO] (ressl) This package is up to date.
 [INFO] (rest) This package is up to date.
 [INFO] (rest-api-blueprint) This package is up to date.
@@ -2965,7 +2965,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (resync) This package is up to date.
 [INFO] (resync-orm) This package is up to date.
 [INFO] (resync-simulator) This package is up to date.
-[INFO] (resyndicator) Data has been updated for this package.
+[INFO] (resyndicator) This package is up to date.
 [INFO] (retail) This package is up to date.
 [INFO] (retailcrm) This package is up to date.
 [INFO] (retain) This package is up to date.
@@ -3015,7 +3015,7 @@ This package download URL does not point to a valid file: "http://cthedot.de/ret
 [INFO] (retrylib) This package is up to date.
 [INFO] (retryp) This package is up to date.
 [INFO] (retrypy) This package is up to date.
-[INFO] (retryz) This package is up to date.
+[INFO] (retryz) Data has been updated for this package.
 [INFO] (rets) This package is up to date.
 [INFO] (rets-python) This package is up to date.
 [INFO] (retsly) This package is up to date.
@@ -3097,7 +3097,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (revotool) This package is up to date.
 [INFO] (revpy) This package is up to date.
 [INFO] (revrand) This package is up to date.
-[INFO] (revscoring) Data has been updated for this package.
+[INFO] (revscoring) This package is up to date.
 [INFO] (revtrans) This package is up to date.
 [INFO] (revu) This package is up to date.
 [INFO] (rewind) This package is up to date.
@@ -3224,7 +3224,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (rg.infocard) This package is up to date.
 [INFO] (rg.prenotazioni) This package is up to date.
 [INFO] (rgain) This package is up to date.
-[INFO] (rgbxy) This package is up to date.
+[INFO] (rgbxy) Data has been updated for this package.
 [INFO] (rgcompare) This package is up to date.
 [INFO] (rgf) This package is up to date.
 [INFO] (rgkit) This package is up to date.
@@ -3322,7 +3322,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ricardo-crawler) This package is up to date.
 [INFO] (ricebox) This package is up to date.
 [INFO] (ricecomp-cfitsio) This package is up to date.
-[INFO] (ricecooker) Data has been updated for this package.
+[INFO] (ricecooker) This package is up to date.
 [INFO] (ricerca) This package is up to date.
 [INFO] (rich-iterator) This package is up to date.
 [INFO] (rich-traceback) This package is up to date.
@@ -3647,7 +3647,7 @@ tarfile.ReadError: empty file
 [ERROR] (rmsd) This package does not have downloadable releases.
 [INFO] (rmsutil) This package is up to date.
 [INFO] (rmtest) This package is up to date.
-[INFO] (rmtoo) Data has been updated for this package.
+[INFO] (rmtoo) This package is up to date.
 [INFO] (rmtree) This package is up to date.
 [ERROR] (rmw) This package does not have downloadable releases.
 [INFO] (rn) This package is up to date.
@@ -4438,7 +4438,7 @@ This package download URL does not point to a valid file: "http://people.mandriv
 [ERROR] (rpmtools) This package does not have downloadable releases.
 [INFO] (rpmvenv) This package is up to date.
 [INFO] (rpn) This package is up to date.
-[INFO] (rpn-calculator) Data has been updated for this package.
+[INFO] (rpn-calculator) This package is up to date.
 [INFO] (rpncalc) This package is up to date.
 [INFO] (rpqueue) This package is up to date.
 [INFO] (rproxy) This package is up to date.
@@ -4474,7 +4474,7 @@ This package download URL does not point to a valid file: "http://people.mandriv
 [INFO] (rq-scheduler) This package is up to date.
 [INFO] (rq-scheduler-dashboard) This package is up to date.
 [INFO] (rq-scheduler-ng) This package is up to date.
-[INFO] (rqalpha) Data has been updated for this package.
+[INFO] (rqalpha) This package is up to date.
 [INFO] (rqalpha-mod-hello) This package is up to date.
 [INFO] (rqalpha-mod-sentry) This package is up to date.
 [INFO] (rqalpha-mod-shipane) This package is up to date.
@@ -4785,7 +4785,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (rtorrent-automover) This package is up to date.
 [INFO] (rtorrent-notify) This package is up to date.
 [INFO] (rtorrent-python) This package is up to date.
-[INFO] (rtorrentinotify) Data has been updated for this package.
+[INFO] (rtorrentinotify) This package is up to date.
 [INFO] (rtorsh) This package is up to date.
 [INFO] (rtpipe) This package is up to date.
 [INFO] (rtplanchecking) This package is up to date.
@@ -4975,7 +4975,7 @@ This package download URL does not point to a valid file: "https://bitbucket.org
 [ERROR] (rur-ple) Could not extract data from this package. See below for details.
 ".php" extension not supported.
 [INFO] (rural) This package is up to date.
-[INFO] (ruruki) Data has been updated for this package.
+[INFO] (ruruki) This package is up to date.
 [INFO] (ruruki-eye) This package is up to date.
 [INFO] (rusakov) This package is up to date.
 [INFO] (rusanov) This package is up to date.
@@ -5092,8 +5092,8 @@ This package download URL does not point to a valid file: "http://pypi.python.or
 [INFO] 
 [INFO] Total packages: 4028
 [INFO]     Packages processed: 4028
-[INFO]         Packages updated: 13
-[INFO]         Packages up-to-date: 3662
+[INFO]         Packages updated: 6
+[INFO]         Packages up-to-date: 3669
 [INFO]         Packages without response: 32
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 261
