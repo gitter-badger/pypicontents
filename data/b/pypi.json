@@ -6389,7 +6389,7 @@
             "bandcamp_dl.utils",
             "bandcamp_dl.utils.requests_patch"
         ],
-        "version": "0.0.8.post3"
+        "version": "0.0.8.post4"
     },
     "bandcamp-get": {
         "cmdline": [],
@@ -10606,7 +10606,7 @@
             "batou.utils",
             "batou.vfs"
         ],
-        "version": "1.5.0a4"
+        "version": "1.5.0a5"
     },
     "batou-scm": {
         "cmdline": [],
@@ -20175,7 +20175,7 @@
             "betfairlightweight.streaming.stream",
             "betfairlightweight.utils"
         ],
-        "version": "1.1.7"
+        "version": "1.1.8"
     },
     "betfairng": {
         "cmdline": [],
@@ -28234,6 +28234,7 @@
             "birdears.interfaces",
             "birdears.interfaces.commandline",
             "birdears.interval",
+            "birdears.prequestion",
             "birdears.questionbase",
             "birdears.questions",
             "birdears.questions.harmonicinterval",
@@ -28242,9 +28243,11 @@
             "birdears.questions.melodicinterval",
             "birdears.resolution",
             "birdears.scale",
-            "birdears.sequence"
+            "birdears.sequence",
+            "birdears.toml",
+            "birdears.toml.toml"
         ],
-        "version": "0.0.2a4"
+        "version": "0.0.3a1"
     },
     "birdfeeder": {
         "cmdline": [],
@@ -30359,7 +30362,7 @@
             "bitmex_websocket.version",
             "bitmex_websocket.websocket"
         ],
-        "version": "0.1.30"
+        "version": "0.1.31"
     },
     "bitnfly": {
         "cmdline": [],
@@ -30978,7 +30981,7 @@
             "bitter.version",
             "bitter.webserver"
         ],
-        "version": "0.7.1"
+        "version": "0.7.2"
     },
     "bittergravel": {
         "cmdline": [
@@ -54726,10 +54729,9 @@
     "browsercookie": {
         "cmdline": [],
         "modules": [
-            "browsercookie",
-            "browsercookie.test"
+            "browsercookie"
         ],
-        "version": "0.6.3"
+        "version": "0.7.2"
     },
     "browsercookiejar": {
         "cmdline": [],
@@ -56496,7 +56498,7 @@
             "btsprice.task_pusher",
             "btsprice.yahoo"
         ],
-        "version": "0.2.37"
+        "version": "0.2.38"
     },
     "btspusher": {
         "cmdline": [],

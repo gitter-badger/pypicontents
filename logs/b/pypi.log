@@ -217,7 +217,7 @@ urllib.error.HTTPError: HTTP Error 403: Forbidden
 [INFO] (backtask) This package is up to date.
 [INFO] (backtrace) This package is up to date.
 [INFO] (backtracepython) This package is up to date.
-[INFO] (backtrader) Data has been updated for this package.
+[INFO] (backtrader) This package is up to date.
 [INFO] (backtranslate) This package is up to date.
 [INFO] (backup) This package is up to date.
 [INFO] (backup-all-my-flickr-photos) This package is up to date.
@@ -768,7 +768,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (batman) This package is up to date.
 [INFO] (batman-package) This package is up to date.
 [INFO] (baton) This package is up to date.
-[INFO] (batou) This package is up to date.
+[INFO] (batou) Data has been updated for this package.
 [INFO] (batou-scm) This package is up to date.
 [INFO] (bats) This package is up to date.
 [INFO] (batt) This package is up to date.
@@ -1499,7 +1499,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (betelgeuse) This package is up to date.
 [INFO] (betfair) This package is up to date.
 [INFO] (betfair.py) This package is up to date.
-[INFO] (betfairlightweight) This package is up to date.
+[INFO] (betfairlightweight) Data has been updated for this package.
 [INFO] (betfairng) This package is up to date.
 [INFO] (bethel.clustermgmt) This package is up to date.
 [INFO] (bethel.silva.purge) This package is up to date.
@@ -1831,7 +1831,7 @@ This package download URL does not point to a valid file: "http://www.bibconvert
 [ERROR] (binhotm) This package does not have downloadable releases.
 [INFO] (bini) This package is up to date.
 [INFO] (binify) This package is up to date.
-[INFO] (binilla) Data has been updated for this package.
+[INFO] (binilla) This package is up to date.
 [INFO] (binio) This package is up to date.
 [ERROR] (binjitsu) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -1982,7 +1982,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (bird-snmp) This package does not have downloadable releases.
 [INFO] (birdback) This package is up to date.
 [INFO] (birdcage) This package is up to date.
-[INFO] (birdears) This package is up to date.
+[INFO] (birdears) Data has been updated for this package.
 [INFO] (birdfeeder) This package is up to date.
 [INFO] (birdhouse-birdy) This package is up to date.
 [INFO] (birdhousebuilder.recipe.adagucserver) This package is up to date.
@@ -2169,7 +2169,7 @@ This package download URL does not point to a valid file: "https://svn.ervacon.c
 [INFO] (bitme) This package is up to date.
 [INFO] (bitmerchant) This package is up to date.
 [INFO] (bitmex-client) This package is up to date.
-[INFO] (bitmex-websocket) This package is up to date.
+[INFO] (bitmex-websocket) Data has been updated for this package.
 [INFO] (bitnfly) This package is up to date.
 [INFO] (bitnigma) This package is up to date.
 [INFO] (bitnodes-hardware) This package is up to date.
@@ -2202,7 +2202,7 @@ This package download URL does not point to a valid file: "https://svn.ervacon.c
 [INFO] (bitstruct) This package is up to date.
 [INFO] (bitsyauth) This package is up to date.
 [INFO] (bitsyblog) This package is up to date.
-[INFO] (bitter) This package is up to date.
+[INFO] (bitter) Data has been updated for this package.
 [INFO] (bittergravel) This package is up to date.
 [INFO] (bittivahti) This package is up to date.
 [INFO] (bittle) This package is up to date.
@@ -2221,7 +2221,7 @@ This package download URL does not point to a valid file: "https://svn.ervacon.c
 [INFO] (bitwrap-io) This package is up to date.
 [INFO] (bitwrap-pnml) This package is up to date.
 [INFO] (bivouac) This package is up to date.
-[INFO] (biweeklybudget) Data has been updated for this package.
+[INFO] (biweeklybudget) This package is up to date.
 [INFO] (biwigpuprep) This package is up to date.
 [INFO] (bizdatim) This package is up to date.
 [INFO] (bizdays) This package is up to date.
@@ -2797,7 +2797,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (bluepy-devices) This package is up to date.
 [INFO] (bluepyopt) This package is up to date.
 [INFO] (blueque) This package is up to date.
-[INFO] (bluesky) Data has been updated for this package.
+[INFO] (bluesky) This package is up to date.
 [INFO] (bluesky-libpython) This package is up to date.
 [ERROR] (bluestocking) This package does not have downloadable releases.
 [INFO] (bluetool) This package is up to date.
@@ -3400,7 +3400,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (boto) This package is up to date.
 [INFO] (boto-addins) This package is up to date.
 [ERROR] (boto-mangrove) This package does not have downloadable releases.
-[INFO] (boto-mws) Data has been updated for this package.
+[INFO] (boto-mws) This package is up to date.
 [INFO] (boto-patch) This package is up to date.
 [INFO] (boto-rsync) This package is up to date.
 [INFO] (boto-s3-shim) This package is up to date.
@@ -3412,7 +3412,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (boto3-policygen) This package is up to date.
 [INFO] (boto3-retry) This package is up to date.
 [INFO] (boto3-session-cache) This package is up to date.
-[INFO] (boto3facade) Data has been updated for this package.
+[INFO] (boto3facade) This package is up to date.
 [INFO] (boto3helper) This package is up to date.
 [INFO] (botocore) This package is up to date.
 [INFO] (botocore-meiqia) This package is up to date.
@@ -4050,7 +4050,7 @@ This package download URL does not point to a valid file: "http://www.defuze.org
 [INFO] (browser-vulnerabilities) This package is up to date.
 [INFO] (browseragents) This package is up to date.
 [ERROR] (browsercast) This package does not have downloadable releases.
-[INFO] (browsercookie) This package is up to date.
+[INFO] (browsercookie) Data has been updated for this package.
 [INFO] (browsercookiejar) This package is up to date.
 [INFO] (browsergui) This package is up to date.
 [INFO] (browserid) This package is up to date.
@@ -4188,7 +4188,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (bts-tools) This package is up to date.
 [INFO] (btsbots) This package is up to date.
 [INFO] (btsbots-wallet) This package is up to date.
-[INFO] (btsprice) This package is up to date.
+[INFO] (btsprice) Data has been updated for this package.
 [INFO] (btspusher) This package is up to date.
 [INFO] (btsync.py) This package is up to date.
 [ERROR] (btsyncconfigmanager) This package does not have downloadable releases.
@@ -4884,8 +4884,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] 
 [INFO] Total packages: 3749
 [INFO]     Packages processed: 3749
-[INFO]         Packages updated: 7
-[INFO]         Packages up-to-date: 3367
+[INFO]         Packages updated: 8
+[INFO]         Packages up-to-date: 3366
 [INFO]         Packages without response: 26
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 295
