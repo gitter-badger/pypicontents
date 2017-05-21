@@ -436,9 +436,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo10-addon-account-banking-sepa-credit-transfer) This package is up to date.
 [INFO] (odoo10-addon-account-banking-sepa-direct-debit) This package is up to date.
 [INFO] (odoo10-addon-account-check-deposit) This package is up to date.
-[INFO] (odoo10-addon-account-cutoff-accrual-base) Data has been updated for this package.
-[INFO] (odoo10-addon-account-cutoff-base) Data has been updated for this package.
-[INFO] (odoo10-addon-account-cutoff-prepaid) Data has been updated for this package.
+[INFO] (odoo10-addon-account-cutoff-accrual-base) This package is up to date.
+[INFO] (odoo10-addon-account-cutoff-base) This package is up to date.
+[INFO] (odoo10-addon-account-cutoff-prepaid) This package is up to date.
 [INFO] (odoo10-addon-account-due-list) This package is up to date.
 [INFO] (odoo10-addon-account-due-list-aging-comments) This package is up to date.
 [INFO] (odoo10-addon-account-financial-report-qweb) This package is up to date.
@@ -448,7 +448,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo10-addon-account-group-invoice-line) This package is up to date.
 [INFO] (odoo10-addon-account-invoice-check-total) This package is up to date.
 [INFO] (odoo10-addon-account-invoice-fiscal-position-update) This package is up to date.
-[INFO] (odoo10-addon-account-invoice-force-number) Data has been updated for this package.
+[INFO] (odoo10-addon-account-invoice-force-number) This package is up to date.
 [INFO] (odoo10-addon-account-invoice-refund-link) This package is up to date.
 [INFO] (odoo10-addon-account-invoice-start-end-dates) This package is up to date.
 [INFO] (odoo10-addon-account-invoice-supplier-ref-unique) This package is up to date.
@@ -458,7 +458,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo10-addon-account-operating-unit) This package is up to date.
 [INFO] (odoo10-addon-account-partner-required) This package is up to date.
 [INFO] (odoo10-addon-account-payment-mode) This package is up to date.
-[INFO] (odoo10-addon-account-payment-order) This package is up to date.
+[INFO] (odoo10-addon-account-payment-order) Data has been updated for this package.
 [INFO] (odoo10-addon-account-payment-partner) This package is up to date.
 [INFO] (odoo10-addon-account-payment-sale) This package is up to date.
 [INFO] (odoo10-addon-account-payment-term-extension) This package is up to date.
@@ -474,7 +474,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo10-addon-asterisk-click2dial) This package is up to date.
 [INFO] (odoo10-addon-auditlog) This package is up to date.
 [INFO] (odoo10-addon-auth-signup-verify-email) This package is up to date.
-[INFO] (odoo10-addon-auth-user-case-insensitive) This package is up to date.
+[INFO] (odoo10-addon-auth-user-case-insensitive) Data has been updated for this package.
 [INFO] (odoo10-addon-auto-backup) This package is up to date.
 [INFO] (odoo10-addon-barcodes-generator-abstract) This package is up to date.
 [INFO] (odoo10-addon-barcodes-generator-location) This package is up to date.
@@ -483,7 +483,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo10-addon-barcodes-generator-partner) This package is up to date.
 [INFO] (odoo10-addon-barcodes-generator-product) This package is up to date.
 [INFO] (odoo10-addon-base-delivery-carrier-label) This package is up to date.
-[INFO] (odoo10-addon-base-exception) This package is up to date.
+[INFO] (odoo10-addon-base-exception) Data has been updated for this package.
 [INFO] (odoo10-addon-base-external-dbsource) This package is up to date.
 [INFO] (odoo10-addon-base-external-dbsource-firebird) This package is up to date.
 [INFO] (odoo10-addon-base-external-dbsource-mssql) This package is up to date.
@@ -497,7 +497,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo10-addon-base-kanban-stage-state) This package is up to date.
 [INFO] (odoo10-addon-base-location) This package is up to date.
 [INFO] (odoo10-addon-base-location-geonames-import) This package is up to date.
-[INFO] (odoo10-addon-base-multi-company) This package is up to date.
+[INFO] (odoo10-addon-base-multi-company) Data has been updated for this package.
 [INFO] (odoo10-addon-base-multi-image) This package is up to date.
 [INFO] (odoo10-addon-base-optional-quick-create) This package is up to date.
 [INFO] (odoo10-addon-base-partner-sequence) This package is up to date.
@@ -515,15 +515,15 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo10-addon-calendar-resource) This package is up to date.
 [INFO] (odoo10-addon-cmis) This package is up to date.
 [INFO] (odoo10-addon-connector) This package is up to date.
-[INFO] (odoo10-addon-connector-base-product) Data has been updated for this package.
+[INFO] (odoo10-addon-connector-base-product) This package is up to date.
 [INFO] (odoo10-addon-contract) This package is up to date.
 [INFO] (odoo10-addon-contract-show-invoice) This package is up to date.
 [INFO] (odoo10-addon-contract-variable-quantity) This package is up to date.
 [INFO] (odoo10-addon-crm-operating-unit) This package is up to date.
 [INFO] (odoo10-addon-crm-phone) This package is up to date.
-[INFO] (odoo10-addon-crm-phonecall) Data has been updated for this package.
+[INFO] (odoo10-addon-crm-phonecall) This package is up to date.
 [INFO] (odoo10-addon-currency-rate-update) This package is up to date.
-[INFO] (odoo10-addon-customer-pricing-in-product-view) This package is up to date.
+[INFO] (odoo10-addon-customer-pricing-in-product-view) Data has been updated for this package.
 [INFO] (odoo10-addon-date-range) This package is up to date.
 [INFO] (odoo10-addon-dbfilter-from-header) This package is up to date.
 [INFO] (odoo10-addon-delivery-carrier-b2c) This package is up to date.
@@ -533,7 +533,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo10-addon-document-page-procedure) This package is up to date.
 [INFO] (odoo10-addon-document-page-quality-manual) This package is up to date.
 [INFO] (odoo10-addon-document-page-work-instruction) This package is up to date.
-[INFO] (odoo10-addon-email-template-qweb) This package is up to date.
+[INFO] (odoo10-addon-email-template-qweb) Data has been updated for this package.
 [INFO] (odoo10-addon-event-phone) This package is up to date.
 [INFO] (odoo10-addon-help-online) This package is up to date.
 [INFO] (odoo10-addon-hr-contract-default-trial-length) This package is up to date.
@@ -550,7 +550,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo10-addon-hr-family) This package is up to date.
 [INFO] (odoo10-addon-hr-holidays-compute-days) This package is up to date.
 [INFO] (odoo10-addon-hr-holidays-imposed-days) This package is up to date.
-[INFO] (odoo10-addon-hr-holidays-leave-auto-approve) Data has been updated for this package.
+[INFO] (odoo10-addon-hr-holidays-leave-auto-approve) This package is up to date.
 [INFO] (odoo10-addon-hr-holidays-legal-leave) This package is up to date.
 [INFO] (odoo10-addon-hr-phone) This package is up to date.
 [INFO] (odoo10-addon-hr-public-holidays) This package is up to date.
@@ -596,7 +596,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo10-addon-l10n-fr-siret) This package is up to date.
 [INFO] (odoo10-addon-l10n-fr-state) This package is up to date.
 [INFO] (odoo10-addon-l10n-it-abicab) This package is up to date.
-[INFO] (odoo10-addon-l10n-it-account) This package is up to date.
+[INFO] (odoo10-addon-l10n-it-account) Data has been updated for this package.
 [INFO] (odoo10-addon-l10n-it-ateco) This package is up to date.
 [INFO] (odoo10-addon-l10n-it-base-location-geonames-import) This package is up to date.
 [INFO] (odoo10-addon-l10n-it-ddt) This package is up to date.
@@ -608,25 +608,25 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo10-addon-l10n-it-split-payment) This package is up to date.
 [INFO] (odoo10-addon-l10n-it-vat-registries) This package is up to date.
 [INFO] (odoo10-addon-l10n-lu-mis-reports) This package is up to date.
-[INFO] (odoo10-addon-l10n-nl-bsn) This package is up to date.
+[INFO] (odoo10-addon-l10n-nl-bsn) Data has been updated for this package.
 [INFO] (odoo10-addon-l10n-nl-postcodeapi) This package is up to date.
 [INFO] (odoo10-addon-l10n-nl-tax-statement) This package is up to date.
 [INFO] (odoo10-addon-l10n-nl-xaf-auditfile-export) This package is up to date.
 [INFO] (odoo10-addon-l10n-th-address) This package is up to date.
 [INFO] (odoo10-addon-l10n-us-account-profile) This package is up to date.
-[INFO] (odoo10-addon-mail-as-letter) This package is up to date.
-[INFO] (odoo10-addon-mail-attach-existing-attachment) This package is up to date.
+[INFO] (odoo10-addon-mail-as-letter) Data has been updated for this package.
+[INFO] (odoo10-addon-mail-attach-existing-attachment) Data has been updated for this package.
 [INFO] (odoo10-addon-mail-environment) This package is up to date.
-[INFO] (odoo10-addon-mail-full-expand) This package is up to date.
-[INFO] (odoo10-addon-mail-optional-autofollow) This package is up to date.
-[INFO] (odoo10-addon-mail-optional-follower-notification) This package is up to date.
-[INFO] (odoo10-addon-mail-restrict-follower-selection) This package is up to date.
-[INFO] (odoo10-addon-mail-tracking) This package is up to date.
-[INFO] (odoo10-addon-mail-tracking-mailgun) This package is up to date.
-[INFO] (odoo10-addon-mass-editing) This package is up to date.
-[INFO] (odoo10-addon-mass-sorting) This package is up to date.
+[INFO] (odoo10-addon-mail-full-expand) Data has been updated for this package.
+[INFO] (odoo10-addon-mail-optional-autofollow) Data has been updated for this package.
+[INFO] (odoo10-addon-mail-optional-follower-notification) Data has been updated for this package.
+[INFO] (odoo10-addon-mail-restrict-follower-selection) Data has been updated for this package.
+[INFO] (odoo10-addon-mail-tracking) Data has been updated for this package.
+[INFO] (odoo10-addon-mail-tracking-mailgun) Data has been updated for this package.
+[INFO] (odoo10-addon-mass-editing) Data has been updated for this package.
+[INFO] (odoo10-addon-mass-sorting) Data has been updated for this package.
 [INFO] (odoo10-addon-medical) This package is up to date.
-[INFO] (odoo10-addon-mgmtsystem) This package is up to date.
+[INFO] (odoo10-addon-mgmtsystem) Data has been updated for this package.
 [INFO] (odoo10-addon-mgmtsystem-action) This package is up to date.
 [INFO] (odoo10-addon-mgmtsystem-manual) This package is up to date.
 [INFO] (odoo10-addon-mgmtsystem-survey) This package is up to date.
@@ -657,7 +657,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo10-addon-printer-zpl2) This package is up to date.
 [INFO] (odoo10-addon-procurement-operating-unit) This package is up to date.
 [INFO] (odoo10-addon-product-brand) This package is up to date.
-[INFO] (odoo10-addon-product-by-supplier) This package is up to date.
+[INFO] (odoo10-addon-product-by-supplier) Data has been updated for this package.
 [INFO] (odoo10-addon-product-contract) This package is up to date.
 [INFO] (odoo10-addon-product-expiry-simple) This package is up to date.
 [INFO] (odoo10-addon-product-harmonized-system) This package is up to date.
@@ -665,8 +665,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo10-addon-product-multi-category) This package is up to date.
 [INFO] (odoo10-addon-product-pricelist-tier) This package is up to date.
 [INFO] (odoo10-addon-product-sequence) This package is up to date.
-[INFO] (odoo10-addon-product-service-duration) This package is up to date.
-[INFO] (odoo10-addon-product-state) This package is up to date.
+[INFO] (odoo10-addon-product-service-duration) Data has been updated for this package.
+[INFO] (odoo10-addon-product-state) Data has been updated for this package.
 [INFO] (odoo10-addon-product-uom) This package is up to date.
 [INFO] (odoo10-addon-product-uom-unece) This package is up to date.
 [INFO] (odoo10-addon-product-variant-supplierinfo) This package is up to date.
@@ -679,18 +679,18 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo10-addon-project-task-default-stage) This package is up to date.
 [INFO] (odoo10-addon-project-task-dependency) This package is up to date.
 [INFO] (odoo10-addon-project-task-pull-request) This package is up to date.
-[INFO] (odoo10-addon-project-timesheet-time-control) Data has been updated for this package.
-[INFO] (odoo10-addon-purchase-fiscal-position-update) This package is up to date.
-[INFO] (odoo10-addon-purchase-fop-shipping) This package is up to date.
+[INFO] (odoo10-addon-project-timesheet-time-control) This package is up to date.
+[INFO] (odoo10-addon-purchase-fiscal-position-update) Data has been updated for this package.
+[INFO] (odoo10-addon-purchase-fop-shipping) Data has been updated for this package.
 [INFO] (odoo10-addon-purchase-operating-unit) This package is up to date.
-[INFO] (odoo10-addon-purchase-picking-state) This package is up to date.
+[INFO] (odoo10-addon-purchase-picking-state) Data has been updated for this package.
 [INFO] (odoo10-addon-purchase-request) This package is up to date.
-[INFO] (odoo10-addon-purchase-request-to-procurement) This package is up to date.
-[INFO] (odoo10-addon-purchase-request-to-rfq) This package is up to date.
+[INFO] (odoo10-addon-purchase-request-to-procurement) Data has been updated for this package.
+[INFO] (odoo10-addon-purchase-request-to-rfq) Data has been updated for this package.
 [INFO] (odoo10-addon-queue-job) This package is up to date.
 [INFO] (odoo10-addon-report-py3o) Data has been updated for this package.
 [INFO] (odoo10-addon-report-qweb-element-page-visibility) This package is up to date.
-[INFO] (odoo10-addon-report-wkhtmltopdf-param) This package is up to date.
+[INFO] (odoo10-addon-report-wkhtmltopdf-param) Data has been updated for this package.
 [INFO] (odoo10-addon-report-xlsx) This package is up to date.
 [INFO] (odoo10-addon-sale-automatic-workflow) This package is up to date.
 [INFO] (odoo10-addon-sale-exception) This package is up to date.
@@ -701,8 +701,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo10-addon-sale-order-variant-mgmt) This package is up to date.
 [INFO] (odoo10-addon-sale-product-set) This package is up to date.
 [INFO] (odoo10-addon-sale-product-set-layout) This package is up to date.
-[INFO] (odoo10-addon-sale-rental) This package is up to date.
-[INFO] (odoo10-addon-sale-start-end-dates) This package is up to date.
+[INFO] (odoo10-addon-sale-rental) Data has been updated for this package.
+[INFO] (odoo10-addon-sale-start-end-dates) Data has been updated for this package.
 [INFO] (odoo10-addon-sale-stock-operating-unit) This package is up to date.
 [INFO] (odoo10-addon-sale-validity) This package is up to date.
 [INFO] (odoo10-addon-sales-team-operating-unit) This package is up to date.
@@ -734,7 +734,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo10-addon-web-searchbar-full-width) This package is up to date.
 [INFO] (odoo10-addon-web-send-message-popup) This package is up to date.
 [INFO] (odoo10-addon-web-sheet-full-width) This package is up to date.
-[INFO] (odoo10-addon-web-shortcut) This package is up to date.
+[INFO] (odoo10-addon-web-shortcut) Data has been updated for this package.
 [INFO] (odoo10-addon-web-translate-dialog) This package is up to date.
 [INFO] (odoo10-addon-web-tree-image) This package is up to date.
 [INFO] (odoo10-addon-web-tree-many2one-clickable) This package is up to date.
@@ -762,7 +762,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-account-balance-line) This package is up to date.
 [INFO] (odoo8-addon-account-balance-reporting) This package is up to date.
 [INFO] (odoo8-addon-account-balance-reporting-xls) This package is up to date.
-[INFO] (odoo8-addon-account-bank-statement-import) Data has been updated for this package.
+[INFO] (odoo8-addon-account-bank-statement-import) This package is up to date.
 [INFO] (odoo8-addon-account-bank-statement-import-camt) This package is up to date.
 [INFO] (odoo8-addon-account-bank-statement-import-coda) This package is up to date.
 [INFO] (odoo8-addon-account-bank-statement-import-fr-cfonb) This package is up to date.
@@ -775,7 +775,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-account-bank-statement-period-from-line-date) This package is up to date.
 [INFO] (odoo8-addon-account-banking-fr-lcr) This package is up to date.
 [INFO] (odoo8-addon-account-banking-mandate) This package is up to date.
-[INFO] (odoo8-addon-account-banking-pain-base) Data has been updated for this package.
+[INFO] (odoo8-addon-account-banking-pain-base) This package is up to date.
 [INFO] (odoo8-addon-account-banking-payment-export) This package is up to date.
 [INFO] (odoo8-addon-account-banking-payment-transfer) This package is up to date.
 [INFO] (odoo8-addon-account-banking-sepa-credit-transfer) This package is up to date.
@@ -799,14 +799,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-account-due-list) This package is up to date.
 [INFO] (odoo8-addon-account-due-list-aging-comments) This package is up to date.
 [INFO] (odoo8-addon-account-due-list-days-overdue) This package is up to date.
-[INFO] (odoo8-addon-account-due-list-payment-mode) Data has been updated for this package.
+[INFO] (odoo8-addon-account-due-list-payment-mode) This package is up to date.
 [INFO] (odoo8-addon-account-easy-reconcile) This package is up to date.
 [INFO] (odoo8-addon-account-export-csv) This package is up to date.
 [INFO] (odoo8-addon-account-financial-report-horizontal) This package is up to date.
 [INFO] (odoo8-addon-account-financial-report-webkit) This package is up to date.
 [INFO] (odoo8-addon-account-financial-report-webkit-xls) This package is up to date.
-[INFO] (odoo8-addon-account-fiscal-position-rule) Data has been updated for this package.
-[INFO] (odoo8-addon-account-fiscal-position-rule-purchase) Data has been updated for this package.
+[INFO] (odoo8-addon-account-fiscal-position-rule) This package is up to date.
+[INFO] (odoo8-addon-account-fiscal-position-rule-purchase) This package is up to date.
 [INFO] (odoo8-addon-account-fiscal-position-rule-sale) This package is up to date.
 [INFO] (odoo8-addon-account-fiscal-position-rule-stock) This package is up to date.
 [INFO] (odoo8-addon-account-fiscal-position-vat-check) This package is up to date.
@@ -822,7 +822,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-account-invoice-import-ubl) This package is up to date.
 [INFO] (odoo8-addon-account-invoice-import-zugferd) This package is up to date.
 [INFO] (odoo8-addon-account-invoice-inter-company) This package is up to date.
-[INFO] (odoo8-addon-account-invoice-kanban) Data has been updated for this package.
+[INFO] (odoo8-addon-account-invoice-kanban) This package is up to date.
 [INFO] (odoo8-addon-account-invoice-line-description) This package is up to date.
 [INFO] (odoo8-addon-account-invoice-line-price-subtotal-gross) This package is up to date.
 [INFO] (odoo8-addon-account-invoice-line-sort) This package is up to date.
@@ -885,7 +885,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-account-payment-term-multi-day) This package is up to date.
 [INFO] (odoo8-addon-account-payment-transfer-reconcile-batch) This package is up to date.
 [INFO] (odoo8-addon-account-payment-unece) This package is up to date.
-[INFO] (odoo8-addon-account-product-fiscal-classification) Data has been updated for this package.
+[INFO] (odoo8-addon-account-product-fiscal-classification) This package is up to date.
 [INFO] (odoo8-addon-account-reconcile-payment-order) This package is up to date.
 [INFO] (odoo8-addon-account-reconcile-prepare-account) This package is up to date.
 [INFO] (odoo8-addon-account-reconcile-trace) This package is up to date.
@@ -893,7 +893,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-account-renumber) This package is up to date.
 [INFO] (odoo8-addon-account-reset-chart) This package is up to date.
 [INFO] (odoo8-addon-account-reversal) This package is up to date.
-[INFO] (odoo8-addon-account-statement-operation-multicompany) Data has been updated for this package.
+[INFO] (odoo8-addon-account-statement-operation-multicompany) This package is up to date.
 [INFO] (odoo8-addon-account-statement-operation-rule) This package is up to date.
 [INFO] (odoo8-addon-account-statement-operation-rule-dunning-fees) This package is up to date.
 [INFO] (odoo8-addon-account-tax-analysis) This package is up to date.
@@ -917,10 +917,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-asterisk-click2dial) This package is up to date.
 [INFO] (odoo8-addon-asterisk-click2dial-crm) This package is up to date.
 [INFO] (odoo8-addon-attachment-edit) This package is up to date.
-[INFO] (odoo8-addon-attachment-metadata) This package is up to date.
+[INFO] (odoo8-addon-attachment-metadata) Data has been updated for this package.
 [INFO] (odoo8-addon-attachment-preview) This package is up to date.
 [INFO] (odoo8-addon-attachments-to-filesystem) This package is up to date.
-[INFO] (odoo8-addon-auditlog) This package is up to date.
+[INFO] (odoo8-addon-auditlog) Data has been updated for this package.
 [INFO] (odoo8-addon-auth-admin-passkey) This package is up to date.
 [INFO] (odoo8-addon-auth-brute-force) This package is up to date.
 [INFO] (odoo8-addon-auth-dynamic-groups) This package is up to date.
@@ -932,7 +932,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-base-business-document-import) This package is up to date.
 [INFO] (odoo8-addon-base-business-document-import-phone) This package is up to date.
 [INFO] (odoo8-addon-base-business-document-import-stock) This package is up to date.
-[INFO] (odoo8-addon-base-comment-template) Data has been updated for this package.
+[INFO] (odoo8-addon-base-comment-template) This package is up to date.
 [INFO] (odoo8-addon-base-concurrency) This package is up to date.
 [INFO] (odoo8-addon-base-construction-architect) This package is up to date.
 [INFO] (odoo8-addon-base-contact) This package is up to date.
@@ -945,11 +945,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-base-external-dbsource) This package is up to date.
 [INFO] (odoo8-addon-base-field-validator) This package is up to date.
 [INFO] (odoo8-addon-base-geoengine) This package is up to date.
-[INFO] (odoo8-addon-base-geoengine-demo) Data has been updated for this package.
+[INFO] (odoo8-addon-base-geoengine-demo) This package is up to date.
 [INFO] (odoo8-addon-base-gs1-barcode) This package is up to date.
 [INFO] (odoo8-addon-base-headers-webkit) This package is up to date.
 [INFO] (odoo8-addon-base-import-async) This package is up to date.
-[INFO] (odoo8-addon-base-import-match) This package is up to date.
+[INFO] (odoo8-addon-base-import-match) Data has been updated for this package.
 [INFO] (odoo8-addon-base-import-security-group) This package is up to date.
 [INFO] (odoo8-addon-base-ir-filters-active) This package is up to date.
 [INFO] (odoo8-addon-base-iso3166) This package is up to date.
@@ -967,7 +967,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-base-phone) This package is up to date.
 [INFO] (odoo8-addon-base-phone-popup) This package is up to date.
 [INFO] (odoo8-addon-base-report-auto-create-qweb) This package is up to date.
-[INFO] (odoo8-addon-base-report-to-printer) This package is up to date.
+[INFO] (odoo8-addon-base-report-to-printer) Data has been updated for this package.
 [INFO] (odoo8-addon-base-search-fuzzy) This package is up to date.
 [INFO] (odoo8-addon-base-suspend-security) This package is up to date.
 [INFO] (odoo8-addon-base-transaction-id) This package is up to date.
@@ -985,23 +985,23 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-board-frontdesk) This package is up to date.
 [INFO] (odoo8-addon-budget) This package is up to date.
 [INFO] (odoo8-addon-business-requirement) This package is up to date.
-[INFO] (odoo8-addon-business-requirement-deliverable) Data has been updated for this package.
+[INFO] (odoo8-addon-business-requirement-deliverable) This package is up to date.
 [INFO] (odoo8-addon-business-requirement-deliverable-categ) This package is up to date.
-[INFO] (odoo8-addon-business-requirement-deliverable-cost) Data has been updated for this package.
+[INFO] (odoo8-addon-business-requirement-deliverable-cost) This package is up to date.
 [INFO] (odoo8-addon-business-requirement-deliverable-crm) This package is up to date.
 [INFO] (odoo8-addon-business-requirement-deliverable-default) This package is up to date.
 [INFO] (odoo8-addon-business-requirement-deliverable-project) This package is up to date.
 [INFO] (odoo8-addon-business-requirement-deliverable-project-categ) This package is up to date.
-[INFO] (odoo8-addon-business-requirement-deliverable-project-task-categ) Data has been updated for this package.
+[INFO] (odoo8-addon-business-requirement-deliverable-project-task-categ) This package is up to date.
 [INFO] (odoo8-addon-business-requirement-deliverable-report) This package is up to date.
-[INFO] (odoo8-addon-business-requirement-deliverable-resource-template) Data has been updated for this package.
-[INFO] (odoo8-addon-business-requirement-deliverable-resource-template-categ) Data has been updated for this package.
+[INFO] (odoo8-addon-business-requirement-deliverable-resource-template) This package is up to date.
+[INFO] (odoo8-addon-business-requirement-deliverable-resource-template-categ) This package is up to date.
 [INFO] (odoo8-addon-business-requirement-earned-value) This package is up to date.
-[INFO] (odoo8-addon-connector) Data has been updated for this package.
+[INFO] (odoo8-addon-connector) This package is up to date.
 [INFO] (odoo8-addon-connector-base-product) This package is up to date.
 [INFO] (odoo8-addon-connector-dns) This package is up to date.
 [INFO] (odoo8-addon-connector-ecommerce) This package is up to date.
-[INFO] (odoo8-addon-connector-job-subscribe) Data has been updated for this package.
+[INFO] (odoo8-addon-connector-job-subscribe) This package is up to date.
 [INFO] (odoo8-addon-connector-prestashop) This package is up to date.
 [INFO] (odoo8-addon-connector-prestashop-catalog-manager) This package is up to date.
 [INFO] (odoo8-addon-connector-redmine) This package is up to date.
@@ -1013,7 +1013,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-contract-discount) This package is up to date.
 [INFO] (odoo8-addon-contract-invoice-merge-by-partner) This package is up to date.
 [INFO] (odoo8-addon-contract-journal) This package is up to date.
-[INFO] (odoo8-addon-contract-payment-mode) Data has been updated for this package.
+[INFO] (odoo8-addon-contract-payment-mode) This package is up to date.
 [INFO] (odoo8-addon-contract-recurring-invoicing-marker) This package is up to date.
 [INFO] (odoo8-addon-contract-recurring-invoicing-monthly-last-day) This package is up to date.
 [INFO] (odoo8-addon-contract-recurring-plans) This package is up to date.
@@ -1045,13 +1045,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-crm-lead-vat) This package is up to date.
 [INFO] (odoo8-addon-crm-lead-website) This package is up to date.
 [INFO] (odoo8-addon-crm-location) This package is up to date.
-[INFO] (odoo8-addon-crm-phone) Data has been updated for this package.
+[INFO] (odoo8-addon-crm-phone) This package is up to date.
 [INFO] (odoo8-addon-crm-phonecall-category) This package is up to date.
 [INFO] (odoo8-addon-crm-phonecall-summary-predefined) This package is up to date.
 [INFO] (odoo8-addon-crm-rma-advance-warranty) This package is up to date.
 [INFO] (odoo8-addon-crm-rma-claim-make-claim) This package is up to date.
 [INFO] (odoo8-addon-crm-rma-location) This package is up to date.
-[INFO] (odoo8-addon-crm-rma-lot-mass-return) This package is up to date.
+[INFO] (odoo8-addon-crm-rma-lot-mass-return) Data has been updated for this package.
 [INFO] (odoo8-addon-crm-rma-prodlot-invoice) This package is up to date.
 [INFO] (odoo8-addon-crm-rma-prodlot-supplier) This package is up to date.
 [INFO] (odoo8-addon-crm-rma-stock-location) This package is up to date.
@@ -1071,7 +1071,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-dead-mans-switch-client) This package is up to date.
 [INFO] (odoo8-addon-dead-mans-switch-server) This package is up to date.
 [INFO] (odoo8-addon-delivery-carrier-b2c) This package is up to date.
-[INFO] (odoo8-addon-delivery-carrier-deposit) Data has been updated for this package.
+[INFO] (odoo8-addon-delivery-carrier-deposit) This package is up to date.
 [INFO] (odoo8-addon-delivery-carrier-label-gls) This package is up to date.
 [INFO] (odoo8-addon-delivery-carrier-label-postlogistics) This package is up to date.
 [INFO] (odoo8-addon-disable-openerp-online) This package is up to date.
@@ -1079,7 +1079,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-document-no-unique-filenames) This package is up to date.
 [INFO] (odoo8-addon-document-ocr) This package is up to date.
 [INFO] (odoo8-addon-document-page) This package is up to date.
-[INFO] (odoo8-addon-document-page-approval) Data has been updated for this package.
+[INFO] (odoo8-addon-document-page-approval) This package is up to date.
 [INFO] (odoo8-addon-document-page-environment-manual) This package is up to date.
 [INFO] (odoo8-addon-document-page-environmental-aspect) This package is up to date.
 [INFO] (odoo8-addon-document-page-health-safety-manual) This package is up to date.
@@ -1121,7 +1121,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-fetchmail-notify-error-to-sender) This package is up to date.
 [INFO] (odoo8-addon-field-char-transformed) This package is up to date.
 [INFO] (odoo8-addon-field-rrule) This package is up to date.
-[INFO] (odoo8-addon-framework-agreement) This package is up to date.
+[INFO] (odoo8-addon-framework-agreement) Data has been updated for this package.
 [INFO] (odoo8-addon-framework-agreement-department) This package is up to date.
 [INFO] (odoo8-addon-framework-agreement-requisition) This package is up to date.
 [INFO] (odoo8-addon-framework-agreement-sourcing) This package is up to date.
@@ -1252,7 +1252,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-l10n-ch-credit-control-payment-slip-report) This package is up to date.
 [INFO] (odoo8-addon-l10n-ch-dta) This package is up to date.
 [INFO] (odoo8-addon-l10n-ch-dta-base-transaction-id) This package is up to date.
-[INFO] (odoo8-addon-l10n-ch-fds-postfinance) This package is up to date.
+[INFO] (odoo8-addon-l10n-ch-fds-postfinance) Data has been updated for this package.
 [INFO] (odoo8-addon-l10n-ch-fds-upload-dd) This package is up to date.
 [INFO] (odoo8-addon-l10n-ch-fds-upload-sepa) This package is up to date.
 [INFO] (odoo8-addon-l10n-ch-hr-payroll) This package is up to date.
@@ -1272,7 +1272,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-l10n-es-account-asset) This package is up to date.
 [INFO] (odoo8-addon-l10n-es-account-balance-report) This package is up to date.
 [INFO] (odoo8-addon-l10n-es-account-bank-statement-import-n43) This package is up to date.
-[INFO] (odoo8-addon-l10n-es-account-banking-sepa-fsdd) This package is up to date.
+[INFO] (odoo8-addon-l10n-es-account-banking-sepa-fsdd) Data has been updated for this package.
 [INFO] (odoo8-addon-l10n-es-account-financial-report) This package is up to date.
 [INFO] (odoo8-addon-l10n-es-account-financial-report-xlsx) This package is up to date.
 [INFO] (odoo8-addon-l10n-es-account-invoice-sequence) This package is up to date.
@@ -1286,25 +1286,25 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-l10n-es-aeat-mod340) Data has been updated for this package.
 [INFO] (odoo8-addon-l10n-es-aeat-mod340-cash-basis) This package is up to date.
 [INFO] (odoo8-addon-l10n-es-aeat-mod340-type0) This package is up to date.
-[INFO] (odoo8-addon-l10n-es-aeat-mod347) This package is up to date.
-[INFO] (odoo8-addon-l10n-es-aeat-mod349) This package is up to date.
+[INFO] (odoo8-addon-l10n-es-aeat-mod347) Data has been updated for this package.
+[INFO] (odoo8-addon-l10n-es-aeat-mod349) Data has been updated for this package.
 [INFO] (odoo8-addon-l10n-es-aeat-vat-prorrate) This package is up to date.
 [INFO] (odoo8-addon-l10n-es-aeat-vat-prorrate-asset) This package is up to date.
 [INFO] (odoo8-addon-l10n-es-cnae) This package is up to date.
-[INFO] (odoo8-addon-l10n-es-crm-lead-trade-name) This package is up to date.
+[INFO] (odoo8-addon-l10n-es-crm-lead-trade-name) Data has been updated for this package.
 [INFO] (odoo8-addon-l10n-es-dua) This package is up to date.
 [INFO] (odoo8-addon-l10n-es-fiscal-year-closing) This package is up to date.
 [INFO] (odoo8-addon-l10n-es-irnr) This package is up to date.
 [INFO] (odoo8-addon-l10n-es-location-nuts) This package is up to date.
 [INFO] (odoo8-addon-l10n-es-partner) This package is up to date.
 [INFO] (odoo8-addon-l10n-es-partner-mercantil) This package is up to date.
-[INFO] (odoo8-addon-l10n-es-payment-order) This package is up to date.
-[INFO] (odoo8-addon-l10n-es-payment-order-confirminet) This package is up to date.
+[INFO] (odoo8-addon-l10n-es-payment-order) Data has been updated for this package.
+[INFO] (odoo8-addon-l10n-es-payment-order-confirminet) Data has been updated for this package.
 [INFO] (odoo8-addon-l10n-es-pos) This package is up to date.
-[INFO] (odoo8-addon-l10n-es-subcontractor-certificate) This package is up to date.
+[INFO] (odoo8-addon-l10n-es-subcontractor-certificate) Data has been updated for this package.
 [INFO] (odoo8-addon-l10n-es-toponyms) This package is up to date.
 [INFO] (odoo8-addon-l10n-et-base) This package is up to date.
-[INFO] (odoo8-addon-l10n-et-base-vat) Data has been updated for this package.
+[INFO] (odoo8-addon-l10n-et-base-vat) This package is up to date.
 [INFO] (odoo8-addon-l10n-et-title) This package is up to date.
 [INFO] (odoo8-addon-l10n-et-toponym) This package is up to date.
 [INFO] (odoo8-addon-l10n-eu-nace) This package is up to date.
@@ -1316,8 +1316,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-l10n-fr-business-document-import) This package is up to date.
 [INFO] (odoo8-addon-l10n-fr-department) This package is up to date.
 [INFO] (odoo8-addon-l10n-fr-department-delivery) This package is up to date.
-[INFO] (odoo8-addon-l10n-fr-ecotaxe) This package is up to date.
-[INFO] (odoo8-addon-l10n-fr-fec) This package is up to date.
+[INFO] (odoo8-addon-l10n-fr-ecotaxe) Data has been updated for this package.
+[INFO] (odoo8-addon-l10n-fr-fec) Data has been updated for this package.
 [INFO] (odoo8-addon-l10n-fr-intrastat-product) This package is up to date.
 [INFO] (odoo8-addon-l10n-fr-intrastat-service) This package is up to date.
 [INFO] (odoo8-addon-l10n-fr-mis-reports) This package is up to date.
@@ -1397,7 +1397,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-logistic-requisition-department) This package is up to date.
 [INFO] (odoo8-addon-logistic-requisition-donation) This package is up to date.
 [INFO] (odoo8-addon-logistic-requisition-multicurrency) This package is up to date.
-[INFO] (odoo8-addon-magentoerpconnect) Data has been updated for this package.
+[INFO] (odoo8-addon-magentoerpconnect) This package is up to date.
 [INFO] (odoo8-addon-magentoerpconnect-pricing) This package is up to date.
 [INFO] (odoo8-addon-mail-attach-existing-attachment) This package is up to date.
 [INFO] (odoo8-addon-mail-compose-select-lang) This package is up to date.
@@ -1408,7 +1408,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-mail-forward) This package is up to date.
 [INFO] (odoo8-addon-mail-full-expand) This package is up to date.
 [INFO] (odoo8-addon-mail-mandrill) This package is up to date.
-[INFO] (odoo8-addon-mail-notification-email-template) This package is up to date.
+[INFO] (odoo8-addon-mail-notification-email-template) Data has been updated for this package.
 [INFO] (odoo8-addon-mail-optional-autofollow) This package is up to date.
 [INFO] (odoo8-addon-mail-optional-follower-notification) This package is up to date.
 [INFO] (odoo8-addon-mail-print) This package is up to date.
@@ -1416,14 +1416,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-mail-restrict-follower-selection) This package is up to date.
 [INFO] (odoo8-addon-mail-sent) This package is up to date.
 [INFO] (odoo8-addon-mail-template-multi-report) This package is up to date.
-[INFO] (odoo8-addon-mail-tracking) This package is up to date.
+[INFO] (odoo8-addon-mail-tracking) Data has been updated for this package.
 [INFO] (odoo8-addon-mail-tracking-mailgun) This package is up to date.
 [INFO] (odoo8-addon-mail-tracking-mass-mailing) This package is up to date.
 [INFO] (odoo8-addon-marketing-crm-partner) This package is up to date.
 [INFO] (odoo8-addon-marketing-security-group) This package is up to date.
 [INFO] (odoo8-addon-mass) This package is up to date.
 [INFO] (odoo8-addon-mass-editing) This package is up to date.
-[INFO] (odoo8-addon-mass-mailing-custom-unsubscribe) This package is up to date.
+[INFO] (odoo8-addon-mass-mailing-custom-unsubscribe) Data has been updated for this package.
 [INFO] (odoo8-addon-mass-mailing-event) This package is up to date.
 [INFO] (odoo8-addon-mass-mailing-keep-archives) This package is up to date.
 [INFO] (odoo8-addon-mass-mailing-partner) This package is up to date.
@@ -1435,15 +1435,15 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-medical-family) This package is up to date.
 [INFO] (odoo8-addon-medical-his) This package is up to date.
 [INFO] (odoo8-addon-medical-insurance) This package is up to date.
-[INFO] (odoo8-addon-medical-insurance-us) This package is up to date.
+[INFO] (odoo8-addon-medical-insurance-us) Data has been updated for this package.
 [INFO] (odoo8-addon-medical-medicament) This package is up to date.
 [INFO] (odoo8-addon-medical-medicament-attributes) This package is up to date.
 [INFO] (odoo8-addon-medical-medication) This package is up to date.
-[INFO] (odoo8-addon-medical-medication-us) This package is up to date.
+[INFO] (odoo8-addon-medical-medication-us) Data has been updated for this package.
 [INFO] (odoo8-addon-medical-patient-ethnicity) This package is up to date.
 [INFO] (odoo8-addon-medical-patient-occupation) This package is up to date.
 [INFO] (odoo8-addon-medical-pharmacy) This package is up to date.
-[INFO] (odoo8-addon-medical-pharmacy-us) This package is up to date.
+[INFO] (odoo8-addon-medical-pharmacy-us) Data has been updated for this package.
 [INFO] (odoo8-addon-medical-prescription) This package is up to date.
 [INFO] (odoo8-addon-medical-prescription-state) This package is up to date.
 [INFO] (odoo8-addon-medical-prescription-thread) This package is up to date.
@@ -1477,10 +1477,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-mrp-bom-reference-selection) This package is up to date.
 [INFO] (odoo8-addon-mrp-bom-structure-xls) This package is up to date.
 [INFO] (odoo8-addon-mrp-bom-version) This package is up to date.
-[INFO] (odoo8-addon-mrp-calendar-view) This package is up to date.
+[INFO] (odoo8-addon-mrp-calendar-view) Data has been updated for this package.
 [INFO] (odoo8-addon-mrp-hook) This package is up to date.
 [INFO] (odoo8-addon-mrp-lock-lot) This package is up to date.
-[INFO] (odoo8-addon-mrp-operations-extension) This package is up to date.
+[INFO] (odoo8-addon-mrp-operations-extension) Data has been updated for this package.
 [INFO] (odoo8-addon-mrp-operations-project) This package is up to date.
 [INFO] (odoo8-addon-mrp-operations-start-without-material) This package is up to date.
 [INFO] (odoo8-addon-mrp-operations-time-control) This package is up to date.
@@ -1568,7 +1568,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-procurement-analytic) This package is up to date.
 [INFO] (odoo8-addon-procurement-batch-generator) This package is up to date.
 [INFO] (odoo8-addon-procurement-jit-assign-move) This package is up to date.
-[INFO] (odoo8-addon-procurement-mrp-no-confirm) This package is up to date.
+[INFO] (odoo8-addon-procurement-mrp-no-confirm) Data has been updated for this package.
 [INFO] (odoo8-addon-product-analytic) This package is up to date.
 [INFO] (odoo8-addon-product-attribute-multi-type) This package is up to date.
 [INFO] (odoo8-addon-product-attribute-priority) This package is up to date.
@@ -1586,7 +1586,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-product-manufacturer) This package is up to date.
 [INFO] (odoo8-addon-product-margin-classification) This package is up to date.
 [INFO] (odoo8-addon-product-multi-company) This package is up to date.
-[INFO] (odoo8-addon-product-multi-ean) This package is up to date.
+[INFO] (odoo8-addon-product-multi-ean) Data has been updated for this package.
 [INFO] (odoo8-addon-product-multi-image) This package is up to date.
 [INFO] (odoo8-addon-product-pricelist-fixed-price) This package is up to date.
 [INFO] (odoo8-addon-product-profile) This package is up to date.
@@ -1599,7 +1599,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-product-supplierinfo-for-customer) This package is up to date.
 [INFO] (odoo8-addon-product-supplierinfo-tree-price-info) This package is up to date.
 [INFO] (odoo8-addon-product-template-book-weight-calculation) This package is up to date.
-[INFO] (odoo8-addon-product-unique-serial) This package is up to date.
+[INFO] (odoo8-addon-product-unique-serial) Data has been updated for this package.
 [INFO] (odoo8-addon-product-uom-unece) This package is up to date.
 [INFO] (odoo8-addon-product-variant-available-in-pos) This package is up to date.
 [INFO] (odoo8-addon-product-variant-cost-price) This package is up to date.
@@ -1630,9 +1630,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-project-issue-task) This package is up to date.
 [INFO] (odoo8-addon-project-model-to-task) This package is up to date.
 [INFO] (odoo8-addon-project-recalculate) This package is up to date.
-[INFO] (odoo8-addon-project-sla) This package is up to date.
+[INFO] (odoo8-addon-project-sla) Data has been updated for this package.
 [INFO] (odoo8-addon-project-stage-closed) This package is up to date.
-[INFO] (odoo8-addon-project-stage-state) This package is up to date.
+[INFO] (odoo8-addon-project-stage-state) Data has been updated for this package.
 [INFO] (odoo8-addon-project-stage-state-issue) This package is up to date.
 [INFO] (odoo8-addon-project-task-add-very-high) This package is up to date.
 [INFO] (odoo8-addon-project-task-analytic-partner) This package is up to date.
@@ -1641,51 +1641,51 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-project-task-department) This package is up to date.
 [INFO] (odoo8-addon-project-task-materials) This package is up to date.
 [INFO] (odoo8-addon-project-task-materials-analytic-partner) This package is up to date.
-[INFO] (odoo8-addon-project-task-materials-stock) This package is up to date.
+[INFO] (odoo8-addon-project-task-materials-stock) Data has been updated for this package.
 [INFO] (odoo8-addon-project-task-reassign) This package is up to date.
 [INFO] (odoo8-addon-project-timesheet-analytic-partner) This package is up to date.
 [INFO] (odoo8-addon-purchase-add-product-supplierinfo) This package is up to date.
-[INFO] (odoo8-addon-purchase-all-shipments) This package is up to date.
+[INFO] (odoo8-addon-purchase-all-shipments) Data has been updated for this package.
 [INFO] (odoo8-addon-purchase-commercial-partner) This package is up to date.
 [INFO] (odoo8-addon-purchase-delivery-address) This package is up to date.
-[INFO] (odoo8-addon-purchase-delivery-split-date) This package is up to date.
+[INFO] (odoo8-addon-purchase-delivery-split-date) Data has been updated for this package.
 [INFO] (odoo8-addon-purchase-department) This package is up to date.
-[INFO] (odoo8-addon-purchase-discount) This package is up to date.
-[INFO] (odoo8-addon-purchase-fiscal-position-update) This package is up to date.
+[INFO] (odoo8-addon-purchase-discount) Data has been updated for this package.
+[INFO] (odoo8-addon-purchase-fiscal-position-update) Data has been updated for this package.
 [INFO] (odoo8-addon-purchase-last-price-info) This package is up to date.
 [INFO] (odoo8-addon-purchase-order-import) This package is up to date.
 [INFO] (odoo8-addon-purchase-order-import-ubl) This package is up to date.
 [INFO] (odoo8-addon-purchase-order-line-description) This package is up to date.
-[INFO] (odoo8-addon-purchase-order-reorder-lines) This package is up to date.
-[INFO] (odoo8-addon-purchase-order-revision) This package is up to date.
-[INFO] (odoo8-addon-purchase-order-type) This package is up to date.
+[INFO] (odoo8-addon-purchase-order-reorder-lines) Data has been updated for this package.
+[INFO] (odoo8-addon-purchase-order-revision) Data has been updated for this package.
+[INFO] (odoo8-addon-purchase-order-type) Data has been updated for this package.
 [INFO] (odoo8-addon-purchase-order-ubl) This package is up to date.
 [INFO] (odoo8-addon-purchase-order-webkit) This package is up to date.
 [INFO] (odoo8-addon-purchase-order-webkit-with-notes) This package is up to date.
 [INFO] (odoo8-addon-purchase-origin-address) This package is up to date.
-[INFO] (odoo8-addon-purchase-partial-invoicing) This package is up to date.
-[INFO] (odoo8-addon-purchase-partner-invoice-method) This package is up to date.
+[INFO] (odoo8-addon-purchase-partial-invoicing) Data has been updated for this package.
+[INFO] (odoo8-addon-purchase-partner-invoice-method) Data has been updated for this package.
 [INFO] (odoo8-addon-purchase-payment) This package is up to date.
-[INFO] (odoo8-addon-purchase-picking-state) This package is up to date.
+[INFO] (odoo8-addon-purchase-picking-state) Data has been updated for this package.
 [INFO] (odoo8-addon-purchase-procurement-analytic) This package is up to date.
 [INFO] (odoo8-addon-purchase-request) This package is up to date.
 [INFO] (odoo8-addon-purchase-request-procurement) This package is up to date.
-[INFO] (odoo8-addon-purchase-request-to-requisition) This package is up to date.
-[INFO] (odoo8-addon-purchase-request-to-rfq) This package is up to date.
+[INFO] (odoo8-addon-purchase-request-to-requisition) Data has been updated for this package.
+[INFO] (odoo8-addon-purchase-request-to-rfq) Data has been updated for this package.
 [INFO] (odoo8-addon-purchase-requisition-auto-rfq) This package is up to date.
 [INFO] (odoo8-addon-purchase-requisition-auto-rfq-bid-selection) This package is up to date.
-[INFO] (odoo8-addon-purchase-requisition-bid-selection) This package is up to date.
+[INFO] (odoo8-addon-purchase-requisition-bid-selection) Data has been updated for this package.
 [INFO] (odoo8-addon-purchase-requisition-delivery-address) This package is up to date.
 [INFO] (odoo8-addon-purchase-requisition-department) This package is up to date.
 [INFO] (odoo8-addon-purchase-requisition-multicurrency) This package is up to date.
 [INFO] (odoo8-addon-purchase-requisition-transport-document) This package is up to date.
 [INFO] (odoo8-addon-purchase-requisition-transport-multi-address) This package is up to date.
 [INFO] (odoo8-addon-purchase-requisition-type) This package is up to date.
-[INFO] (odoo8-addon-purchase-rfq-bid-workflow) This package is up to date.
-[INFO] (odoo8-addon-purchase-rfq-number) This package is up to date.
+[INFO] (odoo8-addon-purchase-rfq-bid-workflow) Data has been updated for this package.
+[INFO] (odoo8-addon-purchase-rfq-number) Data has been updated for this package.
 [INFO] (odoo8-addon-purchase-sale-inter-company) This package is up to date.
 [INFO] (odoo8-addon-purchase-stock-analysis) This package is up to date.
-[INFO] (odoo8-addon-purchase-transport-document) This package is up to date.
+[INFO] (odoo8-addon-purchase-transport-document) Data has been updated for this package.
 [INFO] (odoo8-addon-purchase-transport-multi-address) This package is up to date.
 [INFO] (odoo8-addon-quality-control) This package is up to date.
 [INFO] (odoo8-addon-quality-control-force-valid) This package is up to date.
@@ -1717,11 +1717,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-sale-allotment) This package is up to date.
 [INFO] (odoo8-addon-sale-automatic-workflow) This package is up to date.
 [INFO] (odoo8-addon-sale-automatic-workflow-exception) This package is up to date.
-[INFO] (odoo8-addon-sale-cancel-reason) This package is up to date.
+[INFO] (odoo8-addon-sale-cancel-reason) Data has been updated for this package.
 [INFO] (odoo8-addon-sale-change-price) This package is up to date.
 [INFO] (odoo8-addon-sale-comment-template) This package is up to date.
 [INFO] (odoo8-addon-sale-commercial-partner) This package is up to date.
-[INFO] (odoo8-addon-sale-commission) Data has been updated for this package.
+[INFO] (odoo8-addon-sale-commission) This package is up to date.
 [INFO] (odoo8-addon-sale-commission-formula) This package is up to date.
 [INFO] (odoo8-addon-sale-commission-product) This package is up to date.
 [INFO] (odoo8-addon-sale-department) This package is up to date.
@@ -1762,7 +1762,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-sale-product-set) This package is up to date.
 [INFO] (odoo8-addon-sale-product-set-layout) This package is up to date.
 [INFO] (odoo8-addon-sale-properties-dynamic-fields) This package is up to date.
-[INFO] (odoo8-addon-sale-properties-easy-creation) This package is up to date.
+[INFO] (odoo8-addon-sale-properties-easy-creation) Data has been updated for this package.
 [INFO] (odoo8-addon-sale-quick-payment) This package is up to date.
 [INFO] (odoo8-addon-sale-quotation-number) This package is up to date.
 [INFO] (odoo8-addon-sale-quotation-sourcing) This package is up to date.
@@ -1801,7 +1801,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-stock-analysis) This package is up to date.
 [INFO] (odoo8-addon-stock-analysis-forecast) This package is up to date.
 [INFO] (odoo8-addon-stock-analytic) This package is up to date.
-[INFO] (odoo8-addon-stock-auto-move) This package is up to date.
+[INFO] (odoo8-addon-stock-auto-move) Data has been updated for this package.
 [INFO] (odoo8-addon-stock-available) This package is up to date.
 [INFO] (odoo8-addon-stock-available-immediately) This package is up to date.
 [INFO] (odoo8-addon-stock-available-mrp) This package is up to date.
@@ -1810,7 +1810,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-stock-change-qty-reason) This package is up to date.
 [INFO] (odoo8-addon-stock-disable-barcode-interface) This package is up to date.
 [INFO] (odoo8-addon-stock-disable-force-availability-button) This package is up to date.
-[INFO] (odoo8-addon-stock-dropshipping-dual-invoice) This package is up to date.
+[INFO] (odoo8-addon-stock-dropshipping-dual-invoice) Data has been updated for this package.
 [INFO] (odoo8-addon-stock-inventory-barcode) This package is up to date.
 [INFO] (odoo8-addon-stock-inventory-hierarchical) This package is up to date.
 [INFO] (odoo8-addon-stock-inventory-line-price) This package is up to date.
@@ -1818,7 +1818,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-stock-inventory-preparation-filter) This package is up to date.
 [INFO] (odoo8-addon-stock-inventory-revaluation) This package is up to date.
 [INFO] (odoo8-addon-stock-location-area-data) This package is up to date.
-[INFO] (odoo8-addon-stock-location-area-management) This package is up to date.
+[INFO] (odoo8-addon-stock-location-area-management) Data has been updated for this package.
 [INFO] (odoo8-addon-stock-location-ownership) This package is up to date.
 [INFO] (odoo8-addon-stock-lock-lot) This package is up to date.
 [INFO] (odoo8-addon-stock-lot-quantity) This package is up to date.
@@ -1847,8 +1847,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-stock-picking-invoicing-unified) This package is up to date.
 [INFO] (odoo8-addon-stock-picking-manual-procurement-group) This package is up to date.
 [INFO] (odoo8-addon-stock-picking-mass-action) This package is up to date.
-[INFO] (odoo8-addon-stock-picking-package-preparation) This package is up to date.
-[INFO] (odoo8-addon-stock-picking-package-preparation-line) This package is up to date.
+[INFO] (odoo8-addon-stock-picking-package-preparation) Data has been updated for this package.
+[INFO] (odoo8-addon-stock-picking-package-preparation-line) Data has been updated for this package.
 [INFO] (odoo8-addon-stock-picking-partner-lang) This package is up to date.
 [INFO] (odoo8-addon-stock-picking-reorder-lines) This package is up to date.
 [INFO] (odoo8-addon-stock-picking-show-return) This package is up to date.
@@ -1856,19 +1856,19 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-stock-putaway-product) This package is up to date.
 [INFO] (odoo8-addon-stock-quant-manual-assign) This package is up to date.
 [INFO] (odoo8-addon-stock-quant-merge) This package is up to date.
-[INFO] (odoo8-addon-stock-reserve) This package is up to date.
+[INFO] (odoo8-addon-stock-reserve) Data has been updated for this package.
 [INFO] (odoo8-addon-stock-reserve-sale) This package is up to date.
 [INFO] (odoo8-addon-stock-route-sales-team) This package is up to date.
 [INFO] (odoo8-addon-stock-route-transit) This package is up to date.
 [INFO] (odoo8-addon-stock-scanner) This package is up to date.
 [INFO] (odoo8-addon-stock-shipment-management) This package is up to date.
 [INFO] (odoo8-addon-stock-split-picking) This package is up to date.
-[INFO] (odoo8-addon-stock-traceability-operation) This package is up to date.
+[INFO] (odoo8-addon-stock-traceability-operation) Data has been updated for this package.
 [INFO] (odoo8-addon-stock-transfer-split-multi) This package is up to date.
 [INFO] (odoo8-addon-stock-transport-multi-address) This package is up to date.
 [INFO] (odoo8-addon-stock-valuation-account-manual-adjustment) This package is up to date.
 [INFO] (odoo8-addon-stock-warehouse-orderpoint-stock-info) This package is up to date.
-[INFO] (odoo8-addon-super-calendar) This package is up to date.
+[INFO] (odoo8-addon-super-calendar) Data has been updated for this package.
 [INFO] (odoo8-addon-support-branding) This package is up to date.
 [INFO] (odoo8-addon-survey-one-choice-per-column) This package is up to date.
 [INFO] (odoo8-addon-survey-partner-tag-share) This package is up to date.
@@ -1882,11 +1882,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-users-ldap-mail) This package is up to date.
 [INFO] (odoo8-addon-users-ldap-populate) This package is up to date.
 [INFO] (odoo8-addon-users-ldap-push) This package is up to date.
-[INFO] (odoo8-addon-vendor-consignment-stock) This package is up to date.
+[INFO] (odoo8-addon-vendor-consignment-stock) Data has been updated for this package.
 [INFO] (odoo8-addon-vertical-ngo) This package is up to date.
 [INFO] (odoo8-addon-web-action-conditionable) This package is up to date.
 [INFO] (odoo8-addon-web-advanced-search-wildcard) This package is up to date.
-[INFO] (odoo8-addon-web-advanced-search-x2x) This package is up to date.
+[INFO] (odoo8-addon-web-advanced-search-x2x) Data has been updated for this package.
 [INFO] (odoo8-addon-web-ckeditor4) This package is up to date.
 [INFO] (odoo8-addon-web-clean-navbar) This package is up to date.
 [INFO] (odoo8-addon-web-context-in-colors) This package is up to date.
@@ -1958,7 +1958,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-website-blog-share) This package is up to date.
 [INFO] (odoo8-addon-website-blog-title-image) This package is up to date.
 [INFO] (odoo8-addon-website-breadcrumb) This package is up to date.
-[INFO] (odoo8-addon-website-calendar-snippet) This package is up to date.
+[INFO] (odoo8-addon-website-calendar-snippet) Data has been updated for this package.
 [INFO] (odoo8-addon-website-canonical-url) This package is up to date.
 [INFO] (odoo8-addon-website-container-fluid) This package is up to date.
 [INFO] (odoo8-addon-website-cookie-notice) This package is up to date.
@@ -1993,7 +1993,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-website-multi-image) This package is up to date.
 [INFO] (odoo8-addon-website-no-crawler) This package is up to date.
 [INFO] (odoo8-addon-website-parameterized-snippet) This package is up to date.
-[INFO] (odoo8-addon-website-portal) This package is up to date.
+[INFO] (odoo8-addon-website-portal) Data has been updated for this package.
 [INFO] (odoo8-addon-website-portal-purchase) This package is up to date.
 [INFO] (odoo8-addon-website-portal-sale) This package is up to date.
 [INFO] (odoo8-addon-website-product-share) This package is up to date.
@@ -2007,7 +2007,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-website-sale-collapse-categories) This package is up to date.
 [INFO] (odoo8-addon-website-sale-default-country) This package is up to date.
 [INFO] (odoo8-addon-website-sale-order-company) This package is up to date.
-[INFO] (odoo8-addon-website-sale-product-brand) Data has been updated for this package.
+[INFO] (odoo8-addon-website-sale-product-brand) This package is up to date.
 [INFO] (odoo8-addon-website-sale-product-category-seo) This package is up to date.
 [INFO] (odoo8-addon-website-sale-product-legal) This package is up to date.
 [INFO] (odoo8-addon-website-sale-recently-viewed-products) This package is up to date.
@@ -2020,12 +2020,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo8-addon-website-seo-redirection) This package is up to date.
 [INFO] (odoo8-addon-website-signup-legal-page-required) This package is up to date.
 [INFO] (odoo8-addon-website-slides) This package is up to date.
-[INFO] (odoo8-addon-website-snippet-anchor) This package is up to date.
+[INFO] (odoo8-addon-website-snippet-anchor) Data has been updated for this package.
 [INFO] (odoo8-addon-website-snippet-big-button) This package is up to date.
 [INFO] (odoo8-addon-website-snippet-contact-form) This package is up to date.
 [INFO] (odoo8-addon-website-snippet-country-dropdown) This package is up to date.
 [INFO] (odoo8-addon-website-snippet-marginless-gallery) This package is up to date.
-[INFO] (odoo8-addon-website-supplier-list) This package is up to date.
+[INFO] (odoo8-addon-website-supplier-list) Data has been updated for this package.
 [INFO] (odoo8-addon-website-upload-video) This package is up to date.
 [INFO] (odoo9-addon-account-analytic-no-lines) This package is up to date.
 [INFO] (odoo9-addon-account-analytic-parent) This package is up to date.
@@ -2036,9 +2036,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-account-bank-statement-import-fr-cfonb) This package is up to date.
 [INFO] (odoo9-addon-account-bank-statement-import-qif) This package is up to date.
 [INFO] (odoo9-addon-account-banking-fr-lcr) This package is up to date.
-[INFO] (odoo9-addon-account-banking-mandate) Data has been updated for this package.
+[INFO] (odoo9-addon-account-banking-mandate) This package is up to date.
 [INFO] (odoo9-addon-account-banking-mandate-sale) This package is up to date.
-[INFO] (odoo9-addon-account-banking-pain-base) Data has been updated for this package.
+[INFO] (odoo9-addon-account-banking-pain-base) This package is up to date.
 [INFO] (odoo9-addon-account-banking-sepa-credit-transfer) This package is up to date.
 [INFO] (odoo9-addon-account-banking-sepa-direct-debit) This package is up to date.
 [INFO] (odoo9-addon-account-check-printing-report-base) This package is up to date.
@@ -2060,7 +2060,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-account-fiscal-year) This package is up to date.
 [INFO] (odoo9-addon-account-invoice-blocking) This package is up to date.
 [INFO] (odoo9-addon-account-invoice-check-total) This package is up to date.
-[INFO] (odoo9-addon-account-invoice-currency) This package is up to date.
+[INFO] (odoo9-addon-account-invoice-currency) Data has been updated for this package.
 [INFO] (odoo9-addon-account-invoice-fiscal-position-update) This package is up to date.
 [INFO] (odoo9-addon-account-invoice-merge) This package is up to date.
 [INFO] (odoo9-addon-account-invoice-merge-payment) This package is up to date.
@@ -2070,7 +2070,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-account-invoice-refund-option) This package is up to date.
 [INFO] (odoo9-addon-account-invoice-rounding) This package is up to date.
 [INFO] (odoo9-addon-account-invoice-start-end-dates) This package is up to date.
-[INFO] (odoo9-addon-account-invoice-supplier-ref-unique) Data has been updated for this package.
+[INFO] (odoo9-addon-account-invoice-supplier-ref-unique) This package is up to date.
 [INFO] (odoo9-addon-account-invoice-tax-required) This package is up to date.
 [INFO] (odoo9-addon-account-invoice-variant-configurator) This package is up to date.
 [INFO] (odoo9-addon-account-mass-reconcile) This package is up to date.
@@ -2086,18 +2086,18 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-account-move-transactionid-import) This package is up to date.
 [INFO] (odoo9-addon-account-operating-unit) This package is up to date.
 [INFO] (odoo9-addon-account-operation-rule) This package is up to date.
-[INFO] (odoo9-addon-account-payment-mode) Data has been updated for this package.
-[INFO] (odoo9-addon-account-payment-order) Data has been updated for this package.
-[INFO] (odoo9-addon-account-payment-partner) Data has been updated for this package.
-[INFO] (odoo9-addon-account-payment-purchase) Data has been updated for this package.
+[INFO] (odoo9-addon-account-payment-mode) This package is up to date.
+[INFO] (odoo9-addon-account-payment-order) This package is up to date.
+[INFO] (odoo9-addon-account-payment-partner) This package is up to date.
+[INFO] (odoo9-addon-account-payment-purchase) This package is up to date.
 [INFO] (odoo9-addon-account-payment-return) This package is up to date.
-[INFO] (odoo9-addon-account-payment-sale) Data has been updated for this package.
+[INFO] (odoo9-addon-account-payment-sale) This package is up to date.
 [INFO] (odoo9-addon-account-payment-term-extension) This package is up to date.
 [INFO] (odoo9-addon-account-payment-transfer-reconcile-batch) This package is up to date.
 [INFO] (odoo9-addon-account-permanent-lock-move) This package is up to date.
 [INFO] (odoo9-addon-account-product-fiscal-classification) This package is up to date.
 [INFO] (odoo9-addon-account-renumber) This package is up to date.
-[INFO] (odoo9-addon-account-reporting-weight) Data has been updated for this package.
+[INFO] (odoo9-addon-account-reporting-weight) This package is up to date.
 [INFO] (odoo9-addon-account-reversal) This package is up to date.
 [INFO] (odoo9-addon-account-tax-balance) This package is up to date.
 [INFO] (odoo9-addon-account-tax-unece) This package is up to date.
@@ -2118,9 +2118,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-barcodes-generator-abstract) This package is up to date.
 [INFO] (odoo9-addon-barcodes-generator-partner) This package is up to date.
 [INFO] (odoo9-addon-barcodes-generator-product) This package is up to date.
-[INFO] (odoo9-addon-base-comment-template) Data has been updated for this package.
+[INFO] (odoo9-addon-base-comment-template) This package is up to date.
 [INFO] (odoo9-addon-base-custom-info) This package is up to date.
-[INFO] (odoo9-addon-base-delivery-carrier-label) Data has been updated for this package.
+[INFO] (odoo9-addon-base-delivery-carrier-label) This package is up to date.
 [INFO] (odoo9-addon-base-export-manager) This package is up to date.
 [INFO] (odoo9-addon-base-external-dbsource) This package is up to date.
 [INFO] (odoo9-addon-base-geoengine) This package is up to date.
@@ -2161,10 +2161,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-cms-delete-content) This package is up to date.
 [INFO] (odoo9-addon-cms-status-message) This package is up to date.
 [INFO] (odoo9-addon-configuration-helper) This package is up to date.
-[INFO] (odoo9-addon-connector) Data has been updated for this package.
+[INFO] (odoo9-addon-connector) This package is up to date.
 [INFO] (odoo9-addon-connector-base-product) This package is up to date.
 [INFO] (odoo9-addon-connector-ecommerce) This package is up to date.
-[INFO] (odoo9-addon-connector-job-subscribe) Data has been updated for this package.
+[INFO] (odoo9-addon-connector-job-subscribe) This package is up to date.
 [INFO] (odoo9-addon-connector-prestashop) This package is up to date.
 [INFO] (odoo9-addon-connector-prestashop-catalog-manager) This package is up to date.
 [INFO] (odoo9-addon-connector-prestashop-manufacturer) This package is up to date.
@@ -2176,7 +2176,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-crm-action) Data has been updated for this package.
 [INFO] (odoo9-addon-crm-claim-code) This package is up to date.
 [INFO] (odoo9-addon-crm-claim-rma-code) This package is up to date.
-[INFO] (odoo9-addon-crm-claim-type) Data has been updated for this package.
+[INFO] (odoo9-addon-crm-claim-type) This package is up to date.
 [INFO] (odoo9-addon-crm-deduplicate-acl) This package is up to date.
 [INFO] (odoo9-addon-crm-deduplicate-by-ref) This package is up to date.
 [INFO] (odoo9-addon-crm-deduplicate-by-website) This package is up to date.
@@ -2185,8 +2185,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-crm-lead-website) This package is up to date.
 [INFO] (odoo9-addon-crm-operating-unit) This package is up to date.
 [INFO] (odoo9-addon-crm-phone) This package is up to date.
-[INFO] (odoo9-addon-crm-phonecall) Data has been updated for this package.
-[INFO] (odoo9-addon-crm-phonecall-summary-predefined) Data has been updated for this package.
+[INFO] (odoo9-addon-crm-phonecall) This package is up to date.
+[INFO] (odoo9-addon-crm-phonecall-summary-predefined) This package is up to date.
 [INFO] (odoo9-addon-crm-rma-location) This package is up to date.
 [INFO] (odoo9-addon-crm-rma-stock-location) This package is up to date.
 [INFO] (odoo9-addon-crm-sale-marketing) This package is up to date.
@@ -2202,7 +2202,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-delivery-carrier-label-postlogistics) This package is up to date.
 [INFO] (odoo9-addon-disable-odoo-online) This package is up to date.
 [INFO] (odoo9-addon-document-page) This package is up to date.
-[INFO] (odoo9-addon-document-page-approval) Data has been updated for this package.
+[INFO] (odoo9-addon-document-page-approval) This package is up to date.
 [INFO] (odoo9-addon-document-page-environment-manual) This package is up to date.
 [INFO] (odoo9-addon-document-page-environmental-aspect) This package is up to date.
 [INFO] (odoo9-addon-document-page-health-safety-manual) This package is up to date.
@@ -2241,7 +2241,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-html-image-url-extractor) This package is up to date.
 [INFO] (odoo9-addon-html-text) This package is up to date.
 [INFO] (odoo9-addon-intrastat-base) This package is up to date.
-[INFO] (odoo9-addon-invoice-comment-template) Data has been updated for this package.
+[INFO] (odoo9-addon-invoice-comment-template) This package is up to date.
 [INFO] (odoo9-addon-keychain) This package is up to date.
 [INFO] (odoo9-addon-knowledge) This package is up to date.
 [INFO] (odoo9-addon-kpi) This package is up to date.
@@ -2259,8 +2259,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-l10n-ch-fds-postfinance) This package is up to date.
 [INFO] (odoo9-addon-l10n-ch-fds-upload-sepa) This package is up to date.
 [INFO] (odoo9-addon-l10n-ch-hr-payroll) This package is up to date.
-[INFO] (odoo9-addon-l10n-ch-import-cresus) This package is up to date.
-[INFO] (odoo9-addon-l10n-ch-import-winbiz) This package is up to date.
+[INFO] (odoo9-addon-l10n-ch-import-cresus) Data has been updated for this package.
+[INFO] (odoo9-addon-l10n-ch-import-winbiz) Data has been updated for this package.
 [INFO] (odoo9-addon-l10n-ch-pain-base) This package is up to date.
 [INFO] (odoo9-addon-l10n-ch-pain-credit-transfer) This package is up to date.
 [INFO] (odoo9-addon-l10n-ch-payment-slip) This package is up to date.
@@ -2339,18 +2339,18 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-medical-prescription-us) This package is up to date.
 [INFO] (odoo9-addon-menu-technical-info) This package is up to date.
 [INFO] (odoo9-addon-mgmtsystem) This package is up to date.
-[INFO] (odoo9-addon-mgmtsystem-action) This package is up to date.
-[INFO] (odoo9-addon-mgmtsystem-audit) This package is up to date.
-[INFO] (odoo9-addon-mgmtsystem-claim) This package is up to date.
-[INFO] (odoo9-addon-mgmtsystem-hazard) This package is up to date.
+[INFO] (odoo9-addon-mgmtsystem-action) Data has been updated for this package.
+[INFO] (odoo9-addon-mgmtsystem-audit) Data has been updated for this package.
+[INFO] (odoo9-addon-mgmtsystem-claim) Data has been updated for this package.
+[INFO] (odoo9-addon-mgmtsystem-hazard) Data has been updated for this package.
 [INFO] (odoo9-addon-mgmtsystem-info-security-manual) This package is up to date.
 [INFO] (odoo9-addon-mgmtsystem-kpi) This package is up to date.
 [INFO] (odoo9-addon-mgmtsystem-manual) This package is up to date.
-[INFO] (odoo9-addon-mgmtsystem-nonconformity) This package is up to date.
-[INFO] (odoo9-addon-mgmtsystem-probability) This package is up to date.
+[INFO] (odoo9-addon-mgmtsystem-nonconformity) Data has been updated for this package.
+[INFO] (odoo9-addon-mgmtsystem-probability) Data has been updated for this package.
 [INFO] (odoo9-addon-mgmtsystem-quality) This package is up to date.
-[INFO] (odoo9-addon-mgmtsystem-review) This package is up to date.
-[INFO] (odoo9-addon-mgmtsystem-severity) This package is up to date.
+[INFO] (odoo9-addon-mgmtsystem-review) Data has been updated for this package.
+[INFO] (odoo9-addon-mgmtsystem-severity) Data has been updated for this package.
 [INFO] (odoo9-addon-mgmtsystem-survey) This package is up to date.
 [INFO] (odoo9-addon-mis-builder) This package is up to date.
 [INFO] (odoo9-addon-module-prototyper) This package is up to date.
@@ -2360,10 +2360,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-mrp-bom-structure-xlsx) This package is up to date.
 [INFO] (odoo9-addon-mrp-bom-structure-xlsx-level-1) This package is up to date.
 [INFO] (odoo9-addon-mrp-production-note) This package is up to date.
-[INFO] (odoo9-addon-mrp-production-partner-note) This package is up to date.
+[INFO] (odoo9-addon-mrp-production-partner-note) Data has been updated for this package.
 [INFO] (odoo9-addon-mrp-production-raw-material-procurement-group) This package is up to date.
 [INFO] (odoo9-addon-mrp-sale-info) This package is up to date.
 [INFO] (odoo9-addon-oauth-provider) This package is up to date.
+[INFO] (odoo9-addon-oauth-provider-jwt) Data has been updated for this package.
 [INFO] (odoo9-addon-openeducat-achievement) This package is up to date.
 [INFO] (odoo9-addon-openeducat-activity) This package is up to date.
 [INFO] (odoo9-addon-openeducat-admission) This package is up to date.
@@ -2391,7 +2392,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-partner-changeset) This package is up to date.
 [INFO] (odoo9-addon-partner-contact-birthdate) This package is up to date.
 [INFO] (odoo9-addon-partner-contact-department) This package is up to date.
-[INFO] (odoo9-addon-partner-contact-gender) This package is up to date.
+[INFO] (odoo9-addon-partner-contact-gender) Data has been updated for this package.
 [INFO] (odoo9-addon-partner-contact-height) This package is up to date.
 [INFO] (odoo9-addon-partner-contact-in-several-companies) This package is up to date.
 [INFO] (odoo9-addon-partner-contact-job-position) This package is up to date.
@@ -2416,7 +2417,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-partner-multi-relation) This package is up to date.
 [INFO] (odoo9-addon-partner-ref-unique) This package is up to date.
 [INFO] (odoo9-addon-partner-sector) This package is up to date.
-[INFO] (odoo9-addon-partner-survey) This package is up to date.
+[INFO] (odoo9-addon-partner-survey) Data has been updated for this package.
 [INFO] (odoo9-addon-password-security) This package is up to date.
 [INFO] (odoo9-addon-pos-access-right) This package is up to date.
 [INFO] (odoo9-addon-pos-customer-display) This package is up to date.
@@ -2471,7 +2472,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-purchase-operating-unit) This package is up to date.
 [INFO] (odoo9-addon-purchase-order-type) This package is up to date.
 [INFO] (odoo9-addon-purchase-order-variant-mgmt) This package is up to date.
-[INFO] (odoo9-addon-purchase-picking-state) This package is up to date.
+[INFO] (odoo9-addon-purchase-picking-state) Data has been updated for this package.
 [INFO] (odoo9-addon-purchase-reporting-weight) This package is up to date.
 [INFO] (odoo9-addon-purchase-request) This package is up to date.
 [INFO] (odoo9-addon-purchase-request-department) This package is up to date.
@@ -2498,12 +2499,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-sale-automatic-workflow) This package is up to date.
 [INFO] (odoo9-addon-sale-automatic-workflow-payment-mode) This package is up to date.
 [INFO] (odoo9-addon-sale-crm-medical-prescription) This package is up to date.
-[INFO] (odoo9-addon-sale-delivery-rate) Data has been updated for this package.
+[INFO] (odoo9-addon-sale-delivery-rate) This package is up to date.
 [INFO] (odoo9-addon-sale-enterprise-remove) This package is up to date.
 [INFO] (odoo9-addon-sale-exception) This package is up to date.
 [INFO] (odoo9-addon-sale-medical-prescription) This package is up to date.
 [INFO] (odoo9-addon-sale-operating-unit) This package is up to date.
-[INFO] (odoo9-addon-sale-order-lot-selection) This package is up to date.
+[INFO] (odoo9-addon-sale-order-lot-selection) Data has been updated for this package.
 [INFO] (odoo9-addon-sale-order-price-recalculation) This package is up to date.
 [INFO] (odoo9-addon-sale-order-type) This package is up to date.
 [INFO] (odoo9-addon-sale-order-variant-mgmt) This package is up to date.
@@ -2526,12 +2527,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-server-environment) This package is up to date.
 [INFO] (odoo9-addon-server-environment-files-sample) This package is up to date.
 [INFO] (odoo9-addon-server-environment-ir-config-parameter) This package is up to date.
-[INFO] (odoo9-addon-stock-account-deposit) This package is up to date.
+[INFO] (odoo9-addon-stock-account-deposit) Data has been updated for this package.
 [INFO] (odoo9-addon-stock-account-quant-merge) This package is up to date.
 [INFO] (odoo9-addon-stock-available) This package is up to date.
 [INFO] (odoo9-addon-stock-available-immediately) This package is up to date.
 [INFO] (odoo9-addon-stock-available-mrp) This package is up to date.
-[INFO] (odoo9-addon-stock-available-unreserved) This package is up to date.
+[INFO] (odoo9-addon-stock-available-unreserved) Data has been updated for this package.
 [INFO] (odoo9-addon-stock-batch-picking) This package is up to date.
 [INFO] (odoo9-addon-stock-cycle-count) This package is up to date.
 [INFO] (odoo9-addon-stock-deposit) This package is up to date.
@@ -2571,7 +2572,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-stock-scanner-receipt) This package is up to date.
 [INFO] (odoo9-addon-stock-scanner-shipping) This package is up to date.
 [INFO] (odoo9-addon-stock-valuation-account-manual-adjustment) This package is up to date.
-[INFO] (odoo9-addon-stock-warehouse-orderpoint-stock-info) This package is up to date.
+[INFO] (odoo9-addon-stock-warehouse-orderpoint-stock-info) Data has been updated for this package.
 [INFO] (odoo9-addon-subcontracted-service) This package is up to date.
 [INFO] (odoo9-addon-support-branding) This package is up to date.
 [INFO] (odoo9-addon-survey-percent-question) Data has been updated for this package.
@@ -2644,8 +2645,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (odoo9-addon-website-sale-checkout-country-vat) This package is up to date.
 [INFO] (odoo9-addon-website-sale-default-country) This package is up to date.
 [INFO] (odoo9-addon-website-sale-enterprise-remove) This package is up to date.
-[INFO] (odoo9-addon-website-sale-product-brand) Data has been updated for this package.
-[INFO] (odoo9-addon-website-sale-qty) Data has been updated for this package.
+[INFO] (odoo9-addon-website-sale-product-brand) This package is up to date.
+[INFO] (odoo9-addon-website-sale-qty) This package is up to date.
 [INFO] (odoo9-addon-website-sale-require-legal) This package is up to date.
 [INFO] (odoo9-addon-website-sale-require-login) This package is up to date.
 [INFO] (odoo9-addon-website-sale-suggest-create-account) This package is up to date.
@@ -2758,7 +2759,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ofxutils) This package is up to date.
 [INFO] (og-parser) This package is up to date.
 [INFO] (og-utils) This package is up to date.
-[INFO] (ogame) This package is up to date.
+[INFO] (ogame) Data has been updated for this package.
 [INFO] (ogg-theora-vorbis) This package is up to date.
 [ERROR] (oggpy) Could not extract data from this package. See below for details.
 "http://dingoskidneys.com/oggpy/oggpy-0.5.tar.gz" file could not be downloaded. See below for details.
@@ -3153,7 +3154,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (omnisync) This package is up to date.
 [INFO] (omnitagger) This package is up to date.
 [INFO] (omniture) This package is up to date.
-[INFO] (omnium) This package is up to date.
+[INFO] (omnium) Data has been updated for this package.
 [ERROR] (omnivor) This package does not have downloadable releases.
 [INFO] (omnivore) This package is up to date.
 [INFO] (omnl) This package is up to date.
@@ -3889,7 +3890,7 @@ This package download URL does not point to a valid file: "Openelctrons, i2c, LS
 [INFO] (opengridview) This package is up to date.
 [INFO] (opengrokfs) This package is up to date.
 [INFO] (opengroupware) This package is up to date.
-[INFO] (openhomedevice) Data has been updated for this package.
+[INFO] (openhomedevice) This package is up to date.
 [INFO] (openhtf) This package is up to date.
 [INFO] (openhwcontrol) This package is up to date.
 [INFO] (openid-connect) This package is up to date.
@@ -4169,7 +4170,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (opentaxii) This package is up to date.
 [ERROR] (opentaxii-client) This package does not have downloadable releases.
 [ERROR] (opentaxii-server) This package does not have downloadable releases.
-[INFO] (opentc) This package is up to date.
+[INFO] (opentc) Data has been updated for this package.
 [INFO] (opentc-icap) Data has been updated for this package.
 [INFO] (opentc-util) This package is up to date.
 [INFO] (opentdb) This package is up to date.
@@ -4427,7 +4428,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (opvault) This package is up to date.
 [INFO] (opveclib) This package is up to date.
 [INFO] (opvoeden-api-client) This package is up to date.
-[INFO] (opwen-email-client) This package is up to date.
+[INFO] (opwen-email-client) Data has been updated for this package.
 [INFO] (opwen-email-server) This package is up to date.
 [INFO] (opy) This package is up to date.
 [INFO] (opycleid) This package is up to date.
@@ -4616,7 +4617,7 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (oredis) This package is up to date.
 [ERROR] (oreka) This package does not have downloadable releases.
 [INFO] (orekhov) This package is up to date.
-[INFO] (ores) Data has been updated for this package.
+[INFO] (ores) This package is up to date.
 [ERROR] (org) This package does not have downloadable releases.
 [INFO] (org-du) This package is up to date.
 [INFO] (org-e) This package is up to date.
@@ -5022,7 +5023,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (otptunnel) This package is up to date.
 [INFO] (otrace) This package is up to date.
 [ERROR] (otree) This package does not have downloadable releases.
-[INFO] (otree-core) This package is up to date.
+[INFO] (otree-core) Data has been updated for this package.
 [ERROR] (otree-dulwich-windows) This package does not have downloadable releases.
 [INFO] (otree-redwood) This package is up to date.
 [INFO] (otree-save-the-change) This package is up to date.
@@ -5199,7 +5200,7 @@ This package download URL does not point to a valid file: "https://code.launchpa
 [INFO] (owl-tools) This package is up to date.
 [INFO] (owlcat) This package is up to date.
 [INFO] (owllib) This package is up to date.
-[INFO] (owlmixin) This package is up to date.
+[INFO] (owlmixin) Data has been updated for this package.
 [INFO] (owlready) This package is up to date.
 [INFO] (owlready2) This package is up to date.
 [INFO] (owls) This package is up to date.
@@ -5244,10 +5245,10 @@ This package download URL does not point to a valid file: "https://code.launchpa
 [INFO] (ozymandias) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 4556
-[INFO]     Packages processed: 4556
-[INFO]         Packages updated: 61
-[INFO]         Packages up-to-date: 4255
+[INFO] Total packages: 4557
+[INFO]     Packages processed: 4557
+[INFO]         Packages updated: 124
+[INFO]         Packages up-to-date: 4193
 [INFO]         Packages without response: 19
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 182
