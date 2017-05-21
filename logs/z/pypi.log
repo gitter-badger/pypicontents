@@ -517,10 +517,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zencore) This package is up to date.
 [INFO] (zencore-httpserver) This package is up to date.
 [INFO] (zencore-utils) This package is up to date.
-[INFO] (zencore-zabbix) Data has been updated for this package.
+[INFO] (zencore-zabbix) This package is up to date.
 [INFO] (zendesk) This package is up to date.
 [INFO] (zendesk-api) This package is up to date.
-[INFO] (zendesk-django-auth) Data has been updated for this package.
+[INFO] (zendesk-django-auth) This package is up to date.
 [INFO] (zendesk-help-center-backer) This package is up to date.
 [INFO] (zendesk-integration) This package is up to date.
 [INFO] (zendeskclient) This package is up to date.
@@ -1069,7 +1069,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zope.app.localpermission) This package is up to date.
 [INFO] (zope.app.locking) This package is up to date.
 [INFO] (zope.app.module) This package is up to date.
-[INFO] (zope.app.onlinehelp) This package is up to date.
+[INFO] (zope.app.onlinehelp) Data has been updated for this package.
 [INFO] (zope.app.pagetemplate) This package is up to date.
 [INFO] (zope.app.pluggableauth) This package is up to date.
 [INFO] (zope.app.preference) This package is up to date.
@@ -1360,7 +1360,7 @@ This package download URL does not point to a valid file: "http://www.procoders.
 [INFO] (zs23-menu-fetch) This package is up to date.
 [INFO] (zs2decode) This package is up to date.
 [INFO] (zschema) This package is up to date.
-[INFO] (zsearch-definitions) This package is up to date.
+[INFO] (zsearch-definitions) Data has been updated for this package.
 [ERROR] (zseqfile) This package does not have downloadable releases.
 [ERROR] (zser) This package does not have downloadable releases.
 [INFO] (zserver) This package is up to date.
@@ -1463,7 +1463,7 @@ This package download URL does not point to a valid file: "http://www.procoders.
 [ERROR] (zwiki) This package does not have downloadable releases.
 [INFO] (zwoasi) This package is up to date.
 [INFO] (zx1995-nester) This package is up to date.
-[INFO] (zxbasic) This package is up to date.
+[INFO] (zxbasic) Data has been updated for this package.
 [INFO] (zxcvbn) This package is up to date.
 [INFO] (zxcvbn-dutch) This package is up to date.
 [INFO] (zxcvbn-py3) This package is up to date.
@@ -1530,8 +1530,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] 
 [INFO] Total packages: 1368
 [INFO]     Packages processed: 1368
-[INFO]         Packages updated: 2
-[INFO]         Packages up-to-date: 1280
+[INFO]         Packages updated: 3
+[INFO]         Packages up-to-date: 1279
 [INFO]         Packages without response: 6
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 71

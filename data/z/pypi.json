@@ -13762,26 +13762,24 @@
     "zope.app.onlinehelp": {
         "cmdline": [],
         "modules": [
-            "zope",
-            "zope.app",
-            "zope.app.onlinehelp",
-            "zope.app.onlinehelp.browser",
-            "zope.app.onlinehelp.browser.tests",
-            "zope.app.onlinehelp.browser.tree",
-            "zope.app.onlinehelp.help",
-            "zope.app.onlinehelp.interfaces",
-            "zope.app.onlinehelp.metaconfigure",
-            "zope.app.onlinehelp.metadirectives",
-            "zope.app.onlinehelp.onlinehelp",
-            "zope.app.onlinehelp.onlinehelptopic",
-            "zope.app.onlinehelp.testing",
-            "zope.app.onlinehelp.tests",
-            "zope.app.onlinehelp.tests.test_helpdirectives",
-            "zope.app.onlinehelp.tests.test_onlinehelp",
-            "zope.app.onlinehelp.tests.test_treeview",
-            "zope.app.onlinehelp.tests.util"
+            "onlinehelp",
+            "onlinehelp.browser",
+            "onlinehelp.browser.tests",
+            "onlinehelp.browser.tree",
+            "onlinehelp.help",
+            "onlinehelp.interfaces",
+            "onlinehelp.metaconfigure",
+            "onlinehelp.metadirectives",
+            "onlinehelp.onlinehelp",
+            "onlinehelp.onlinehelptopic",
+            "onlinehelp.testing",
+            "onlinehelp.tests",
+            "onlinehelp.tests.test_helpdirectives",
+            "onlinehelp.tests.test_onlinehelp",
+            "onlinehelp.tests.test_treeview",
+            "onlinehelp.tests.util"
         ],
-        "version": "4.0.0"
+        "version": "4.0.1"
     },
     "zope.app.pagetemplate": {
         "cmdline": [],
@@ -19440,7 +19438,7 @@
             "zsearch_definitions.zlint",
             "zsearch_definitions.zlint_pb2"
         ],
-        "version": "0.1.6"
+        "version": "0.1.8"
     },
     "zseqfile": {
         "cmdline": [],
@@ -21720,6 +21718,9 @@
             "outfmt.tap",
             "outfmt.tzx",
             "parsetab",
+            "parsetab.zxbasmtab",
+            "parsetab.zxbpptab",
+            "parsetab.zxbtab",
             "prepro",
             "prepro.args",
             "prepro.definestable",
@@ -21785,13 +21786,11 @@
             "version",
             "z80",
             "zxbasmpplex",
-            "zxbasmtab",
             "zxblex",
             "zxbparser",
-            "zxbpplex",
-            "zxbpptab"
+            "zxbpplex"
         ],
-        "version": "1.5.0"
+        "version": "1.5.1"
     },
     "zxcvbn": {
         "cmdline": [],
