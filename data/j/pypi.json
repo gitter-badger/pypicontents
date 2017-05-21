@@ -6662,6 +6662,11 @@
         ],
         "version": "1.0.3"
     },
+    "jetpy": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.0"
+    },
     "jetstream": {
         "cmdline": [],
         "modules": [
@@ -7261,7 +7266,7 @@
             "jhtalib.volume_indicators",
             "jhtalib.volume_indicators.volume_indicators"
         ],
-        "version": "20170517.0"
+        "version": "20170520.0"
     },
     "ji18n": {
         "cmdline": [],
@@ -17755,6 +17760,14 @@
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "jsonapp-package": {
+        "cmdline": [],
+        "modules": [
+            "jsonapp",
+            "jsonapp.jsonapp_cli"
+        ],
+        "version": "0.1.0"
     },
     "jsonasobj": {
         "cmdline": [],

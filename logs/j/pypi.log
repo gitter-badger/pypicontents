@@ -237,7 +237,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jaide) This package is up to date.
 [INFO] (jaidegui) This package is up to date.
 [INFO] (jailbreakstatus) This package is up to date.
-[INFO] (jailconf) Data has been updated for this package.
+[INFO] (jailconf) This package is up to date.
 [INFO] (jailconf-tools) This package is up to date.
 [INFO] (jailtools) This package is up to date.
 [ERROR] (jaime) This package does not have downloadable releases.
@@ -721,7 +721,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (jenkinsapi) This package is up to date.
 [INFO] (jenkinscli) This package is up to date.
 [INFO] (jenkinsconnector) This package is up to date.
-[INFO] (jenkinsflow) Data has been updated for this package.
+[INFO] (jenkinsflow) This package is up to date.
 [INFO] (jenkinshelper) This package is up to date.
 [INFO] (jenkinsreport) This package is up to date.
 [INFO] (jenkinsyamlconfigs) This package is up to date.
@@ -750,6 +750,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (jetpack) This package is up to date.
 [INFO] (jetplex) This package is up to date.
 [INFO] (jetplexwxgui) This package is up to date.
+[INFO] (jetpy) Data has been updated for this package.
 [INFO] (jetstream) This package is up to date.
 [INFO] (jetway) This package is up to date.
 [INFO] (jewish) This package is up to date.
@@ -795,7 +796,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jhlee25-knn) This package is up to date.
 [INFO] (jhpy) This package is up to date.
 [ERROR] (jhrpython-nester) This package does not have downloadable releases.
-[INFO] (jhtalib) This package is up to date.
+[INFO] (jhtalib) Data has been updated for this package.
 [ERROR] (ji18n) This package does not have downloadable releases.
 [INFO] (jia) This package is up to date.
 [INFO] (jiac) This package is up to date.
@@ -1810,6 +1811,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jsonapi-mock-server) This package is up to date.
 [INFO] (jsonapi-requests) This package is up to date.
 [ERROR] (jsonapp) This package does not have downloadable releases.
+[INFO] (jsonapp-package) Data has been updated for this package.
 [INFO] (jsonasobj) This package is up to date.
 [INFO] (jsonate) This package is up to date.
 [INFO] (jsonbender) This package is up to date.
@@ -1847,7 +1849,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jsonext) This package is up to date.
 [INFO] (jsonf) This package is up to date.
 [INFO] (jsonfeed) This package is up to date.
-[INFO] (jsonfeedvalidator) Data has been updated for this package.
+[INFO] (jsonfeedvalidator) This package is up to date.
 [INFO] (jsonfield) This package is up to date.
 [INFO] (jsonfig) This package is up to date.
 [INFO] (jsonfile) This package is up to date.
@@ -2190,7 +2192,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jukedj) This package is up to date.
 [INFO] (julep) This package is up to date.
 [INFO] (jules) This package is up to date.
-[INFO] (julestk) Data has been updated for this package.
+[INFO] (julestk) This package is up to date.
 [INFO] (julia) This package is up to date.
 [INFO] (juliadown) This package is up to date.
 [INFO] (julialintbear) This package is up to date.
@@ -2514,10 +2516,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (jzstock) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 1901
-[INFO]     Packages processed: 1901
-[INFO]         Packages updated: 4
-[INFO]         Packages up-to-date: 1694
+[INFO] Total packages: 1903
+[INFO]     Packages processed: 1903
+[INFO]         Packages updated: 3
+[INFO]         Packages up-to-date: 1697
 [INFO]         Packages without response: 15
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 157
