@@ -8567,11 +8567,12 @@
             "ulp.tui",
             "ulp.urlextract",
             "ulp.widgets",
+            "ulp.widgets.command_line",
             "ulp.widgets.link",
             "ulp.widgets.listbox",
             "ulp.widgets.popup"
         ],
-        "version": "1.0.5"
+        "version": "1.1.1"
     },
     "ult": {
         "cmdline": [],
@@ -11435,7 +11436,7 @@
             "unihan_tabular.test",
             "unihan_tabular.util"
         ],
-        "version": "0.8.0"
+        "version": "0.8.1"
     },
     "unihandecode": {
         "cmdline": [],
@@ -19748,14 +19749,14 @@
             "usncarve.py"
         ],
         "modules": [],
-        "version": "1.0.0"
+        "version": "1.2.1"
     },
     "usnparser": {
         "cmdline": [
             "usn.py"
         ],
         "modules": [],
-        "version": "4.0.1"
+        "version": "4.0.3"
     },
     "usolitaire": {
         "cmdline": [],
@@ -20909,7 +20910,7 @@
             "utt.print_report",
             "utt.util"
         ],
-        "version": "1.6"
+        "version": "1.7"
     },
     "utter": {
         "cmdline": [

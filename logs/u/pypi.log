@@ -455,7 +455,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ulmo) This package is up to date.
 [INFO] (ulo) This package is up to date.
 [INFO] (ulog) This package is up to date.
-[INFO] (ulp) This package is up to date.
+[INFO] (ulp) Data has been updated for this package.
 [INFO] (ult) This package is up to date.
 [ERROR] (ultimate-smash-friends) This package does not have downloadable releases.
 [INFO] (ultimate-ttt) This package is up to date.
@@ -658,7 +658,7 @@ This package download URL does not point to a valid file: "https://sourceforge.n
 [INFO] (unified2) This package is up to date.
 [ERROR] (uniform) This package does not have downloadable releases.
 [INFO] (unify) This package is up to date.
-[INFO] (unihan-tabular) This package is up to date.
+[INFO] (unihan-tabular) Data has been updated for this package.
 [INFO] (unihandecode) This package is up to date.
 [INFO] (unilint) This package is up to date.
 [INFO] (unilog) This package is up to date.
@@ -1001,7 +1001,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (urecord) This package is up to date.
 [INFO] (urequests) This package is up to date.
 [INFO] (urest) This package is up to date.
-[INFO] (urh) Data has been updated for this package.
+[INFO] (urh) This package is up to date.
 [INFO] (uri) This package is up to date.
 [INFO] (uriah-nester) This package is up to date.
 [INFO] (uriah-print) This package is up to date.
@@ -1321,8 +1321,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (usig-normalizador-amba) This package is up to date.
 [INFO] (usigtreatment) This package is up to date.
 [ERROR] (usingnamespace) This package does not have downloadable releases.
-[INFO] (usncarve) This package is up to date.
-[INFO] (usnparser) This package is up to date.
+[INFO] (usncarve) Data has been updated for this package.
+[INFO] (usnparser) Data has been updated for this package.
 [INFO] (usolitaire) This package is up to date.
 [INFO] (usonic) This package is up to date.
 [INFO] (usov) This package is up to date.
@@ -1425,7 +1425,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (utrunner) This package is up to date.
 [INFO] (uts) This package is up to date.
 [INFO] (utsessions) This package is up to date.
-[INFO] (utt) This package is up to date.
+[INFO] (utt) Data has been updated for this package.
 [INFO] (utter) This package is up to date.
 [INFO] (utterson) This package is up to date.
 [INFO] (uttt) This package is up to date.
@@ -1551,8 +1551,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] 
 [INFO] Total packages: 1170
 [INFO]     Packages processed: 1170
-[INFO]         Packages updated: 1
-[INFO]         Packages up-to-date: 1066
+[INFO]         Packages updated: 5
+[INFO]         Packages up-to-date: 1062
 [INFO]         Packages without response: 12
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 70
