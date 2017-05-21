@@ -209,6 +209,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yaml-mako) This package is up to date.
 [INFO] (yaml-merge) This package is up to date.
 [INFO] (yaml-model) This package is up to date.
+[INFO] (yaml-rulz) Data has been updated for this package.
 [INFO] (yaml-tags) This package is up to date.
 [INFO] (yaml2ical) This package is up to date.
 [INFO] (yaml2json) This package is up to date.
@@ -304,7 +305,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yaosac) This package is up to date.
 [INFO] (yap) This package is up to date.
 [INFO] (yapbl) This package is up to date.
-[INFO] (yapf) Data has been updated for this package.
+[INFO] (yapf) This package is up to date.
 [INFO] (yapfbear) This package is up to date.
 [ERROR] (yapgvb) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://code.google.com/p/yapgvb/downloads/list?can=1&q=&colspec=Filename+Summary+Uploaded+Size+DownloadCount"
@@ -500,7 +501,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yccloudpickle) This package is up to date.
 [INFO] (ychartspy) This package is up to date.
 [INFO] (ycl) This package is up to date.
-[INFO] (ycm) Data has been updated for this package.
+[INFO] (ycm) This package is up to date.
 [INFO] (yconf) This package is up to date.
 [INFO] (yconfig) This package is up to date.
 [INFO] (ycp-nester) This package is up to date.
@@ -651,7 +652,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yn-lantern) This package is up to date.
 [INFO] (ynca) This package is up to date.
 [ERROR] (ynester) This package does not have downloadable releases.
-[INFO] (ynm3k) Data has been updated for this package.
+[INFO] (ynm3k) This package is up to date.
 [ERROR] (yo) This package does not have downloadable releases.
 [INFO] (yo-client) This package is up to date.
 [INFO] (yo-fabric) This package is up to date.
@@ -729,7 +730,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (yotta) This package is up to date.
-[INFO] (you-get) This package is up to date.
+[INFO] (you-get) Data has been updated for this package.
 [INFO] (youdao) This package is up to date.
 [INFO] (youdao-python) This package is up to date.
 [INFO] (youdaodict) This package is up to date.
@@ -869,7 +870,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ystocklist) This package is up to date.
 [INFO] (ystockquote) This package is up to date.
 [INFO] (yt) This package is up to date.
-[INFO] (yt-helper) This package is up to date.
+[INFO] (yt-helper) Data has been updated for this package.
 [INFO] (yt-interaction) This package is up to date.
 [INFO] (yt-songs) This package is up to date.
 [INFO] (yt.finance) This package is up to date.
@@ -1053,10 +1054,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (yznester) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 729
-[INFO]     Packages processed: 729
+[INFO] Total packages: 730
+[INFO]     Packages processed: 730
 [INFO]         Packages updated: 3
-[INFO]         Packages up-to-date: 650
+[INFO]         Packages up-to-date: 651
 [INFO]         Packages without response: 8
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 53

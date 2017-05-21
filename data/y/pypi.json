@@ -2206,6 +2206,19 @@
         "modules": [],
         "version": "0.1.5"
     },
+    "yaml-rulz": {
+        "cmdline": [],
+        "modules": [
+            "yaml_rulz",
+            "yaml_rulz.cli",
+            "yaml_rulz.errors",
+            "yaml_rulz.list_handler",
+            "yaml_rulz.rulebook",
+            "yaml_rulz.validator",
+            "yaml_rulz.yaml_handler"
+        ],
+        "version": "0.0.1"
+    },
     "yaml-tags": {
         "cmdline": [],
         "modules": [
@@ -8790,6 +8803,7 @@
             "you_get.extractors.tudou",
             "you_get.extractors.tumblr",
             "you_get.extractors.twitter",
+            "you_get.extractors.ucas",
             "you_get.extractors.universal",
             "you_get.extractors.veoh",
             "you_get.extractors.videomega",
@@ -8822,7 +8836,7 @@
             "you_get.util.term",
             "you_get.version"
         ],
-        "version": "0.4.715"
+        "version": "0.4.750"
     },
     "youdao": {
         "cmdline": [],
@@ -11300,7 +11314,7 @@
             "yt_helper.scripts",
             "yt_helper.scripts.download"
         ],
-        "version": "0.1.10"
+        "version": "0.1.11"
     },
     "yt-interaction": {
         "cmdline": [],
