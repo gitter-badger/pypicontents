@@ -11822,6 +11822,8 @@
             "virtual_ipm.di.models",
             "virtual_ipm.frontends",
             "virtual_ipm.frontends.gui",
+            "virtual_ipm.frontends.gui.analysis",
+            "virtual_ipm.frontends.gui.analysis.views",
             "virtual_ipm.frontends.gui.mainwindow",
             "virtual_ipm.frontends.gui.pyqt45",
             "virtual_ipm.frontends.gui.simulation",
@@ -11837,6 +11839,7 @@
             "virtual_ipm.simulation.beams.bunch_trains",
             "virtual_ipm.simulation.beams.bunches",
             "virtual_ipm.simulation.beams.bunches.bunch",
+            "virtual_ipm.simulation.beams.bunches.bunch_parameters",
             "virtual_ipm.simulation.beams.bunches.electric_field_models",
             "virtual_ipm.simulation.beams.bunches.shapes",
             "virtual_ipm.simulation.beams.factory",
@@ -11866,6 +11869,7 @@
             "virtual_ipm.timings",
             "virtual_ipm.tools",
             "virtual_ipm.tools.convert_cst_file_to_csv",
+            "virtual_ipm.tools.convert_csv_output_to_xml_data_file",
             "virtual_ipm.utils",
             "virtual_ipm.utils.coordinate_transformations",
             "virtual_ipm.utils.iupac",
@@ -11873,7 +11877,7 @@
             "virtual_ipm.utils.mathematics.functions",
             "virtual_ipm.utils.utils"
         ],
-        "version": "0.2.2"
+        "version": "1.0.1"
     },
     "virtual-less": {
         "cmdline": [
@@ -15427,7 +15431,7 @@
             "vizontele.dizist",
             "vizontele.sezonlukdizi"
         ],
-        "version": "2017.5.20.1"
+        "version": "2017.5.21.1"
     },
     "vizqes": {
         "cmdline": [],
@@ -19308,7 +19312,7 @@
         "modules": [
             "vpnotebook"
         ],
-        "version": "0.1.4a2"
+        "version": "0.1.3"
     },
     "vpoller": {
         "cmdline": [],
@@ -19399,12 +19403,14 @@
             "vpython",
             "vpython._version",
             "vpython.gs_version",
+            "vpython.no_notebook",
             "vpython.rate_control",
             "vpython.shapespaths",
             "vpython.vector",
-            "vpython.vpython"
+            "vpython.vpython",
+            "vpython.with_notebook"
         ],
-        "version": "2.0.8"
+        "version": "7.0.0b1"
     },
     "vq": {
         "cmdline": [],

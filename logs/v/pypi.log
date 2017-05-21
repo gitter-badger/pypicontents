@@ -105,7 +105,7 @@
 [INFO] (valkit) This package is up to date.
 [INFO] (valley) This package is up to date.
 [INFO] (valleybackups) This package is up to date.
-[INFO] (valleydata) Data has been updated for this package.
+[INFO] (valleydata) This package is up to date.
 [INFO] (valohai-cli) This package is up to date.
 [INFO] (valohai-yaml) This package is up to date.
 [INFO] (vals) This package is up to date.
@@ -886,7 +886,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (virtstrap-ruby-bundler) This package is up to date.
 [INFO] (virtstrap-sample-plugin) This package is up to date.
 [INFO] (virtual) This package is up to date.
-[INFO] (virtual-ipm) This package is up to date.
+[INFO] (virtual-ipm) Data has been updated for this package.
 [INFO] (virtual-less) This package is up to date.
 [INFO] (virtual-node) This package is up to date.
 [ERROR] (virtual-screening) This package does not have downloadable releases.
@@ -1327,7 +1327,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (vpnchooser) This package is up to date.
 [INFO] (vpnester) This package is up to date.
 [INFO] (vpnocchio) This package is up to date.
-[INFO] (vpnotebook) This package is up to date.
+[INFO] (vpnotebook) Data has been updated for this package.
 [INFO] (vpoller) This package is up to date.
 [INFO] (vpopulus-api) This package is up to date.
 [INFO] (vpr-netfile-parser) This package is up to date.
@@ -1336,7 +1336,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (vps-online-keeper) This package is up to date.
 [INFO] (vptree) This package is up to date.
 [INFO] (vpy) This package is up to date.
-[INFO] (vpython) This package is up to date.
+[INFO] (vpython) Data has been updated for this package.
 [ERROR] (vq) This package does not have downloadable releases.
 [INFO] (vr) This package is up to date.
 [INFO] (vr.agent) This package is up to date.
@@ -1438,7 +1438,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (vsi) This package is up to date.
 [INFO] (vsieve) This package is up to date.
 [INFO] (vsl) This package is up to date.
-[INFO] (vsm) Data has been updated for this package.
+[INFO] (vsm) This package is up to date.
 [INFO] (vsm-dashboard) This package is up to date.
 [INFO] (vsmrfs) This package is up to date.
 [ERROR] (vspecs) Could not get a response from API for this package. See below for details.
@@ -1480,7 +1480,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (vstruct2) This package is up to date.
 [INFO] (vsts-cd-manager) This package is up to date.
 [INFO] (vsummarize) This package is up to date.
-[INFO] (vsure) Data has been updated for this package.
+[INFO] (vsure) This package is up to date.
 [INFO] (vsut) This package is up to date.
 [INFO] (vt) This package is up to date.
 [INFO] (vt100) This package is up to date.
@@ -1574,7 +1574,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (vyked-orm) This package is up to date.
 [INFO] (vymgmt) This package is up to date.
 [INFO] (vyper) This package is up to date.
-[INFO] (vyper-bot) Data has been updated for this package.
+[INFO] (vyper-bot) This package is up to date.
 [ERROR] (vyperlogixpyaxlib) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://code.google.com/p/sfpyax/"
 [ERROR] (vyrsion) This package does not have downloadable releases.
@@ -1586,8 +1586,8 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] 
 [INFO] Total packages: 1326
 [INFO]     Packages processed: 1326
-[INFO]         Packages updated: 5
-[INFO]         Packages up-to-date: 1187
+[INFO]         Packages updated: 4
+[INFO]         Packages up-to-date: 1188
 [INFO]         Packages without response: 9
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 113
