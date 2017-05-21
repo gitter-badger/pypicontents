@@ -6586,9 +6586,11 @@
         "version": "1.3"
     },
     "watchall": {
-        "cmdline": [],
+        "cmdline": [
+            "watchall"
+        ],
         "modules": [],
-        "version": ""
+        "version": "2.0.0"
     },
     "watchconf": {
         "cmdline": [],
@@ -22394,6 +22396,7 @@
             "axscript",
             "bits",
             "directsound",
+            "exchange",
             "ifilter",
             "internet",
             "mapi",
@@ -22476,11 +22479,69 @@
             "win32wnet",
             "winerror"
         ],
-        "version": "221.25"
+        "version": "221.26"
     },
     "win32core": {
         "cmdline": [],
         "modules": [
+            "functional",
+            "functional.GenTestScripts",
+            "functional.bak_test_Exchange",
+            "functional.bak_test_Explorer",
+            "functional.bak_test_Marshal",
+            "functional.bak_test_Persist",
+            "functional.bak_test_Servers",
+            "functional.bak_test_sspi",
+            "functional.bak_test_win32gui",
+            "functional.bak_test_win32guistruct",
+            "functional.daodump",
+            "functional.errorSemantics",
+            "functional.excluded_test_PyComTest",
+            "functional.excluded_test_vbscript_regexp",
+            "functional.handles",
+            "functional.pippo_server",
+            "functional.policySemantics",
+            "functional.test_ADOEvents",
+            "functional.test_AXScript",
+            "functional.test_Access",
+            "functional.test_Arrays",
+            "functional.test_Clipboard",
+            "functional.test_Collections",
+            "functional.test_DCOM",
+            "functional.test_Dictionary",
+            "functional.test_Dynamic",
+            "functional.test_GIT",
+            "functional.test_GatewayAddresses",
+            "functional.test_Iterators",
+            "functional.test_MSOffice",
+            "functional.test_MSOfficeEvents",
+            "functional.test_Netscape",
+            "functional.test_Pippo",
+            "functional.test_ROT",
+            "functional.test_Shell",
+            "functional.test_Storage",
+            "functional.test_Streams",
+            "functional.test_WMI",
+            "functional.test_exceptions",
+            "functional.test_makepy",
+            "functional.test_odbc",
+            "functional.test_pycomtest",
+            "functional.test_pywintypes",
+            "functional.test_security",
+            "functional.test_vb",
+            "functional.test_win32api",
+            "functional.test_win32crypt",
+            "functional.test_win32event",
+            "functional.test_win32file",
+            "functional.test_win32inet",
+            "functional.test_win32net",
+            "functional.test_win32pipe",
+            "functional.test_win32rcparser",
+            "functional.test_win32timezone",
+            "functional.test_win32trace",
+            "functional.test_win32wnet",
+            "functional.test_xslt",
+            "functional.util",
             "win32",
             "win32.afxres",
             "win32.api",
@@ -22532,6 +22593,9 @@
             "win32.dbi",
             "win32.directsound",
             "win32.distutils",
+            "win32.distutils.command",
+            "win32.distutils.extension",
+            "win32.distutils.util",
             "win32.error",
             "win32.event",
             "win32.eventlog",
@@ -22544,6 +22608,10 @@
             "win32.job",
             "win32.kras",
             "win32.lz",
+            "win32.mapi",
+            "win32.mapi.emsabtags",
+            "win32.mapi.tags",
+            "win32.mapi.util",
             "win32.mmsystem",
             "win32.net",
             "win32.net.constants",
@@ -22586,7 +22654,7 @@
             "win32.wnet",
             "win32.wnet.constants"
         ],
-        "version": "221.20"
+        "version": "221.23"
     },
     "win32ext": {
         "cmdline": [],
@@ -25705,10 +25773,11 @@
             "wllvm.popenwrapper",
             "wllvm.sanity",
             "wllvm.version",
+            "wllvm.wfortran",
             "wllvm.wllvm",
             "wllvm.wllvmpp"
         ],
-        "version": "1.1.2"
+        "version": "1.1.3"
     },
     "wlnm": {
         "cmdline": [],
@@ -30689,7 +30758,7 @@
             "wotever.ExcutorMgr",
             "wotever.logger"
         ],
-        "version": "1.616"
+        "version": "1.617"
     },
     "wotwrapper": {
         "cmdline": [],

@@ -133,7 +133,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wagtail-experiments) This package is up to date.
 [INFO] (wagtail-factories) This package is up to date.
 [ERROR] (wagtail-fido-u2f) This package does not have downloadable releases.
-[INFO] (wagtail-flags) Data has been updated for this package.
+[INFO] (wagtail-flags) This package is up to date.
 [INFO] (wagtail-global-settings) This package is up to date.
 [INFO] (wagtail-hallo-plugins) This package is up to date.
 [INFO] (wagtail-jinja2) This package is up to date.
@@ -190,7 +190,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wagtailformblocks) This package is up to date.
 [INFO] (wagtailforums) This package is up to date.
 [INFO] (wagtailfroala) This package is up to date.
-[INFO] (wagtailgeowidget) Data has been updated for this package.
+[INFO] (wagtailgeowidget) This package is up to date.
 [INFO] (wagtailgmaps) This package is up to date.
 [INFO] (wagtailgridder) This package is up to date.
 [INFO] (wagtailhavetheabilitytoactuallyseefieldsintheadmin) This package is up to date.
@@ -575,24 +575,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (watch) This package is up to date.
 [INFO] (watch-fs) This package is up to date.
 [INFO] (watch-rsync) This package is up to date.
-[ERROR] (watchall) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (watchall) Data has been updated for this package.
 [INFO] (watchconf) This package is up to date.
 [INFO] (watchdog) This package is up to date.
 [INFO] (watchdog-lite) This package is up to date.
@@ -830,7 +813,7 @@ This package download URL does not point to a valid file: "http://www.emilas.com
 [INFO] (weasyprint) This package is up to date.
 [INFO] (weather) This package is up to date.
 [INFO] (weather-api) This package is up to date.
-[INFO] (weather-cli) Data has been updated for this package.
+[INFO] (weather-cli) This package is up to date.
 [INFO] (weather-notifier) This package is up to date.
 [INFO] (weather-underground-simple-wrapper) This package is up to date.
 [ERROR] (weather-util) This package does not have downloadable releases.
@@ -1051,7 +1034,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webdriver-manager) This package is up to date.
 [INFO] (webdriver-start) This package is up to date.
 [INFO] (webdriverplus) This package is up to date.
-[INFO] (webdriverwrapper) Data has been updated for this package.
+[INFO] (webdriverwrapper) This package is up to date.
 [INFO] (webdry) This package is up to date.
 [INFO] (webelement-highlighter) This package is up to date.
 [INFO] (webelemental) This package is up to date.
@@ -1921,7 +1904,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wikitables) This package is up to date.
 [INFO] (wikitables-for-distll) This package is up to date.
 [INFO] (wikitcms) This package is up to date.
-[INFO] (wikitextparser) Data has been updated for this package.
+[INFO] (wikitextparser) This package is up to date.
 [INFO] (wikitoexcel) This package is up to date.
 [INFO] (wikitools) This package is up to date.
 [INFO] (wikiup) This package is up to date.
@@ -2344,7 +2327,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wldyd23) This package is up to date.
 [INFO] (wlfilebrowser) This package is up to date.
 [ERROR] (wlister) This package does not have downloadable releases.
-[INFO] (wllvm) This package is up to date.
+[INFO] (wllvm) Data has been updated for this package.
 [INFO] (wlnm) This package is up to date.
 [INFO] (wlogger) This package is up to date.
 [INFO] (wlsqm) This package is up to date.
@@ -2383,13 +2366,13 @@ This package download URL does not point to a valid file: "http://badcomputer.or
 [INFO] (wnget) This package is up to date.
 [INFO] (wnsnester) This package is up to date.
 [INFO] (wnsresolver) This package is up to date.
-[INFO] (wntr) Data has been updated for this package.
+[INFO] (wntr) This package is up to date.
 [INFO] (wnyc-backup) This package is up to date.
 [INFO] (wnyc-dns) This package is up to date.
 [INFO] (wnyc-recommender) This package is up to date.
 [INFO] (wnyc-sorl-thumbnail) This package is up to date.
 [INFO] (wobble) This package is up to date.
-[INFO] (wodpy) Data has been updated for this package.
+[INFO] (wodpy) This package is up to date.
 [INFO] (woeid) This package is up to date.
 [INFO] (woff2otf) This package is up to date.
 [INFO] (wofpy) This package is up to date.
@@ -3212,9 +3195,9 @@ This package download URL does not point to a valid file: "http://www.duke.edu/~
 [INFO] 
 [INFO] Total packages: 2247
 [INFO]     Packages processed: 2247
-[INFO]         Packages updated: 10
-[INFO]         Packages up-to-date: 1976
-[INFO]         Packages without response: 31
+[INFO]         Packages updated: 5
+[INFO]         Packages up-to-date: 1982
+[INFO]         Packages without response: 30
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 187
 [INFO]         Packages with data errors: 43
