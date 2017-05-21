@@ -473,7 +473,7 @@ This package download URL does not point to a valid file: "http://sourceforge.ne
 [INFO] (iepy) This package is up to date.
 [INFO] (ies-scan-api) This package is up to date.
 [INFO] (ietfparse) This package is up to date.
-[INFO] (ievv-opensource) This package is up to date.
+[INFO] (ievv-opensource) Data has been updated for this package.
 [INFO] (ifa) This package is up to date.
 [INFO] (iface) This package is up to date.
 [INFO] (ifaddr) This package is up to date.
@@ -1425,7 +1425,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (inigo.templer) This package is up to date.
-[INFO] (iniherit) Data has been updated for this package.
+[INFO] (iniherit) This package is up to date.
 [INFO] (iniparse) This package is up to date.
 [INFO] (iniparser) This package is up to date.
 [INFO] (inipgdump) This package is up to date.
@@ -1615,13 +1615,13 @@ This package download URL does not point to a valid file: "http://www.inqvista.c
 [INFO] (inspyred) This package is up to date.
 [INFO] (insta) This package is up to date.
 [INFO] (instabot) This package is up to date.
-[INFO] (instabrade) Data has been updated for this package.
+[INFO] (instabrade) This package is up to date.
 [INFO] (instacache) This package is up to date.
 [INFO] (instack) This package is up to date.
 [INFO] (instack-undercloud) This package is up to date.
 [INFO] (instaclone) This package is up to date.
 [INFO] (instadb) This package is up to date.
-[INFO] (instagaana) This package is up to date.
+[INFO] (instagaana) Data has been updated for this package.
 [INFO] (instagram) This package is up to date.
 [INFO] (instagram-api) This package is up to date.
 [INFO] (instagram-explore) This package is up to date.
@@ -1683,6 +1683,7 @@ This package download URL does not point to a valid file: "http://www.inqvista.c
 [ERROR] (instruments) This package does not have downloadable releases.
 [INFO] (insult) This package is up to date.
 [INFO] (insultgenerator) This package is up to date.
+[INFO] (insults) Data has been updated for this package.
 [INFO] (insupportable) This package is up to date.
 [INFO] (insurance) This package is up to date.
 [INFO] (insynsregistret) This package is up to date.
@@ -1823,7 +1824,7 @@ This package download URL does not point to a valid file: "http://interlink.soci
 [INFO] (interpy) This package is up to date.
 [INFO] (interrogator) This package is up to date.
 [INFO] (interruptingcow) This package is up to date.
-[INFO] (interscraped) This package is up to date.
+[INFO] (interscraped) Data has been updated for this package.
 [INFO] (intersectshape) This package is up to date.
 [INFO] (interssection) This package is up to date.
 [INFO] (interstat) This package is up to date.
@@ -2048,7 +2049,7 @@ This package download URL does not point to a valid file: "https://pypi.python.o
 [ERROR] (iosconfig) This package does not have downloadable releases.
 [INFO] (iospec) This package is up to date.
 [INFO] (iosshy) This package is up to date.
-[INFO] (iosstickersextension) This package is up to date.
+[INFO] (iosstickersextension) Data has been updated for this package.
 [INFO] (iostick) This package is up to date.
 [INFO] (iosxr-eznc) This package is up to date.
 [INFO] (iot) This package is up to date.
@@ -2231,7 +2232,7 @@ This package download URL does not point to a valid file: "http://oodt.jpl.nasa.
 [INFO] (iptcinfo) This package is up to date.
 [INFO] (iptcinfo3) This package is up to date.
 [INFO] (iptdump) This package is up to date.
-[INFO] (iptest) Data has been updated for this package.
+[INFO] (iptest) This package is up to date.
 [INFO] (iptocc) Data has been updated for this package.
 [INFO] (iptools) This package is up to date.
 [INFO] (ipuz) This package is up to date.
@@ -2753,7 +2754,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (iterextensions) This package is up to date.
 [INFO] (iterextra) This package is up to date.
 [INFO] (iterfu) This package is up to date.
-[INFO] (iterfzf) Data has been updated for this package.
+[INFO] (iterfzf) This package is up to date.
 [INFO] (iterm2-color-scheme) This package is up to date.
 [INFO] (iterm2-image) This package is up to date.
 [INFO] (iterm2-tools) This package is up to date.
@@ -2954,9 +2955,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (izverifier) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 2442
-[INFO]     Packages processed: 2442
-[INFO]         Packages updated: 5
+[INFO] Total packages: 2443
+[INFO]     Packages processed: 2443
+[INFO]         Packages updated: 6
 [INFO]         Packages up-to-date: 2222
 [INFO]         Packages without response: 14
 [INFO]         Packages without urls: 0

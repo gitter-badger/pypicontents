@@ -5583,6 +5583,7 @@
             "ievv_opensource.ievv_tagframework.tests",
             "ievv_opensource.ievv_tagframework.tests.test_models",
             "ievv_opensource.ievvtasks_common",
+            "ievv_opensource.ievvtasks_common.base_command",
             "ievv_opensource.ievvtasks_common.cli",
             "ievv_opensource.ievvtasks_common.management",
             "ievv_opensource.ievvtasks_common.management.commands",
@@ -5650,6 +5651,7 @@
             "ievv_opensource.utils.ievvbuildstatic.mediacopy",
             "ievv_opensource.utils.ievvbuildstatic.nodemodulescopy",
             "ievv_opensource.utils.ievvbuildstatic.npminstall",
+            "ievv_opensource.utils.ievvbuildstatic.npmrun",
             "ievv_opensource.utils.ievvbuildstatic.npmrun_jsbuild",
             "ievv_opensource.utils.ievvbuildstatic.pluginbase",
             "ievv_opensource.utils.ievvbuildstatic.run_jstests",
@@ -5683,7 +5685,7 @@
             "ievv_opensource.utils.validate_redirect_url",
             "ievv_opensource.utils.virtualenvutils"
         ],
-        "version": "4.0.0rc4"
+        "version": "4.0.0"
     },
     "ifa": {
         "cmdline": [],
@@ -23343,7 +23345,7 @@
             "InstaGaana",
             "InstaGaana.InstaGaana"
         ],
-        "version": "1.3.5"
+        "version": "1.3.6"
     },
     "instagram": {
         "cmdline": [],
@@ -24280,6 +24282,24 @@
             "insultgenerator.words"
         ],
         "version": "0.3"
+    },
+    "insults": {
+        "cmdline": [],
+        "modules": [
+            "insults",
+            "insults.Logs",
+            "insults.classifier",
+            "insults.core",
+            "insults.pipeline",
+            "insults.train",
+            "insults.util",
+            "insults.word_lists",
+            "insults.word_lists.google_bad_words",
+            "insults.word_lists.racist_words",
+            "insults.word_lists.sexist_words",
+            "model-exploration"
+        ],
+        "version": "0.1.12"
     },
     "insupportable": {
         "cmdline": [],
@@ -25995,12 +26015,13 @@
         "cmdline": [],
         "modules": [
             "interscraped",
+            "interscraped.consistency_ratings",
             "interscraped.def_pts_vs",
             "interscraped.fantasy_data",
             "interscraped.player_data",
             "interscraped.roto_guru"
         ],
-        "version": "0.0.8"
+        "version": "0.1.0"
     },
     "intersectshape": {
         "cmdline": [],
@@ -29905,11 +29926,8 @@
     },
     "iosstickersextension": {
         "cmdline": [],
-        "modules": [
-            "IOSStickersExtension",
-            "IOSStickersExtension.IOSStickersExtension"
-        ],
-        "version": "0.1"
+        "modules": [],
+        "version": "0.2"
     },
     "iostick": {
         "cmdline": [],
@@ -32995,10 +33013,9 @@
     "iptocc": {
         "cmdline": [],
         "modules": [
-            "iptocc",
-            "iptocc.models"
+            "iptocc"
         ],
-        "version": "1.0.2"
+        "version": "1.0.5"
     },
     "iptools": {
         "cmdline": [],
