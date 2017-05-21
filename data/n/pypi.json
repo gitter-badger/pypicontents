@@ -15997,7 +15997,7 @@
         "modules": [
             "nesterhh"
         ],
-        "version": "1.0"
+        "version": "1.1.0"
     },
     "nesterhhh": {
         "cmdline": [],
@@ -23585,6 +23585,15 @@
             "examples.autoencoder.denoising_autoencoder",
             "examples.autoencoder.stacked_conv_autoencoders",
             "examples.autoencoder.variational_autoencoder",
+            "examples.competitive",
+            "examples.competitive.reduce_iris_sample_size_lvq",
+            "examples.competitive.sofm_basic",
+            "examples.competitive.sofm_compare_grid_types",
+            "examples.competitive.sofm_compare_weight_init",
+            "examples.competitive.sofm_digits",
+            "examples.competitive.sofm_heatmap_visualization",
+            "examples.competitive.sofm_moon_topology",
+            "examples.competitive.utils",
             "neupy",
             "neupy.algorithms",
             "neupy.algorithms.associative",
@@ -23597,6 +23606,8 @@
             "neupy.algorithms.competitive",
             "neupy.algorithms.competitive.art",
             "neupy.algorithms.competitive.lvq",
+            "neupy.algorithms.competitive.neighbours",
+            "neupy.algorithms.competitive.randomized_pca",
             "neupy.algorithms.competitive.sofm",
             "neupy.algorithms.constructor",
             "neupy.algorithms.ensemble",
@@ -23639,11 +23650,11 @@
             "neupy.algorithms.rbm",
             "neupy.algorithms.regularization",
             "neupy.algorithms.regularization.base",
+            "neupy.algorithms.regularization.max_norm",
             "neupy.algorithms.regularization.weight_decay",
             "neupy.algorithms.regularization.weight_elimination",
             "neupy.algorithms.step_update",
             "neupy.algorithms.step_update.base",
-            "neupy.algorithms.step_update.delta_bar_delta",
             "neupy.algorithms.step_update.errdiff",
             "neupy.algorithms.step_update.leak_step",
             "neupy.algorithms.step_update.linear_search",
@@ -23674,6 +23685,7 @@
             "neupy.layers.connections",
             "neupy.layers.connections.base",
             "neupy.layers.connections.graph",
+            "neupy.layers.connections.inline",
             "neupy.layers.connections.utils",
             "neupy.layers.convolutions",
             "neupy.layers.embedding",
@@ -23696,7 +23708,7 @@
             "neupy.storage",
             "neupy.utils"
         ],
-        "version": "0.5.1"
+        "version": "0.5.2"
     },
     "neural": {
         "cmdline": [],
@@ -25927,10 +25939,9 @@
             "newsplease.pipeline.extractor.extractors.newspaper_extractor",
             "newsplease.pipeline.extractor.extractors.readability_extractor",
             "newsplease.pipeline.pipelines",
-            "newsplease.single_crawler",
-            "newsplease.tests"
+            "newsplease.single_crawler"
         ],
-        "version": "1.1.21"
+        "version": "1.1.22"
     },
     "news-popularity-prediction": {
         "cmdline": [],
@@ -32334,7 +32345,6 @@
             "nipype.interfaces.afni.tests.test_auto_Notes",
             "nipype.interfaces.afni.tests.test_auto_OutlierCount",
             "nipype.interfaces.afni.tests.test_auto_QualityIndex",
-            "nipype.interfaces.afni.tests.test_auto_QwarpPlusMinus",
             "nipype.interfaces.afni.tests.test_auto_ROIStats",
             "nipype.interfaces.afni.tests.test_auto_Refit",
             "nipype.interfaces.afni.tests.test_auto_Resample",
@@ -32350,7 +32360,6 @@
             "nipype.interfaces.afni.tests.test_auto_TShift",
             "nipype.interfaces.afni.tests.test_auto_TStat",
             "nipype.interfaces.afni.tests.test_auto_To3D",
-            "nipype.interfaces.afni.tests.test_auto_Unifize",
             "nipype.interfaces.afni.tests.test_auto_Volreg",
             "nipype.interfaces.afni.tests.test_auto_Warp",
             "nipype.interfaces.afni.tests.test_auto_ZCutUp",
@@ -32379,7 +32388,6 @@
             "nipype.interfaces.ants.tests.test_auto_DenoiseImage",
             "nipype.interfaces.ants.tests.test_auto_GenWarpFields",
             "nipype.interfaces.ants.tests.test_auto_JointFusion",
-            "nipype.interfaces.ants.tests.test_auto_KellyKapowski",
             "nipype.interfaces.ants.tests.test_auto_LaplacianThickness",
             "nipype.interfaces.ants.tests.test_auto_MultiplyImages",
             "nipype.interfaces.ants.tests.test_auto_N4BiasFieldCorrection",
@@ -32493,6 +32501,7 @@
             "nipype.interfaces.diffusion_toolkit.tests.test_auto_SplineFilter",
             "nipype.interfaces.diffusion_toolkit.tests.test_auto_TrackMerge",
             "nipype.interfaces.dipy",
+            "nipype.interfaces.dipy.anisotropic_power",
             "nipype.interfaces.dipy.base",
             "nipype.interfaces.dipy.preprocess",
             "nipype.interfaces.dipy.reconstruction",
@@ -32500,6 +32509,7 @@
             "nipype.interfaces.dipy.simulate",
             "nipype.interfaces.dipy.tensors",
             "nipype.interfaces.dipy.tests",
+            "nipype.interfaces.dipy.tests.test_auto_APMQball",
             "nipype.interfaces.dipy.tests.test_auto_CSD",
             "nipype.interfaces.dipy.tests.test_auto_DTI",
             "nipype.interfaces.dipy.tests.test_auto_Denoise",
@@ -32635,7 +32645,6 @@
             "nipype.interfaces.fsl.tests.test_FILMGLS",
             "nipype.interfaces.fsl.tests.test_Level1Design_functions",
             "nipype.interfaces.fsl.tests.test_auto_AR1Image",
-            "nipype.interfaces.fsl.tests.test_auto_AccuracyTester",
             "nipype.interfaces.fsl.tests.test_auto_ApplyMask",
             "nipype.interfaces.fsl.tests.test_auto_ApplyTOPUP",
             "nipype.interfaces.fsl.tests.test_auto_ApplyWarp",
@@ -32646,8 +32655,6 @@
             "nipype.interfaces.fsl.tests.test_auto_BET",
             "nipype.interfaces.fsl.tests.test_auto_BinaryMaths",
             "nipype.interfaces.fsl.tests.test_auto_ChangeDataType",
-            "nipype.interfaces.fsl.tests.test_auto_Classifier",
-            "nipype.interfaces.fsl.tests.test_auto_Cleaner",
             "nipype.interfaces.fsl.tests.test_auto_Cluster",
             "nipype.interfaces.fsl.tests.test_auto_Complex",
             "nipype.interfaces.fsl.tests.test_auto_ContrastMgr",
@@ -32674,7 +32681,6 @@
             "nipype.interfaces.fsl.tests.test_auto_FSLCommand",
             "nipype.interfaces.fsl.tests.test_auto_FSLXCommand",
             "nipype.interfaces.fsl.tests.test_auto_FUGUE",
-            "nipype.interfaces.fsl.tests.test_auto_FeatureExtractor",
             "nipype.interfaces.fsl.tests.test_auto_FilterRegressor",
             "nipype.interfaces.fsl.tests.test_auto_FindTheBiggest",
             "nipype.interfaces.fsl.tests.test_auto_GLM",
@@ -32727,8 +32733,6 @@
             "nipype.interfaces.fsl.tests.test_auto_TemporalFilter",
             "nipype.interfaces.fsl.tests.test_auto_Threshold",
             "nipype.interfaces.fsl.tests.test_auto_TractSkeleton",
-            "nipype.interfaces.fsl.tests.test_auto_Training",
-            "nipype.interfaces.fsl.tests.test_auto_TrainingSetCreator",
             "nipype.interfaces.fsl.tests.test_auto_UnaryMaths",
             "nipype.interfaces.fsl.tests.test_auto_VecReg",
             "nipype.interfaces.fsl.tests.test_auto_WarpPoints",
@@ -33427,7 +33431,7 @@
             "nipype.workflows.smri.niftyreg.groupwise",
             "nipype.workflows.warp"
         ],
-        "version": "0.13.0"
+        "version": "0.13.1"
     },
     "niquery": {
         "cmdline": [],
@@ -33793,7 +33797,7 @@
             "n_utils.maven_utils",
             "n_utils.volumes"
         ],
-        "version": "0.105"
+        "version": "0.107"
     },
     "nitor-vault": {
         "cmdline": [],
@@ -35300,7 +35304,7 @@
             "nltk.util",
             "nltk.wsd"
         ],
-        "version": "3.2.3"
+        "version": "3.2.4"
     },
     "nltk-tgrep": {
         "cmdline": [],

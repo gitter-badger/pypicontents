@@ -81,17 +81,15 @@ Traceback (most recent call last):
     persistent=False)
   File "/usr/lib/python3.5/urllib/request.py", line 2318, in __init__
     self.init()
-  File "/usr/lib/python3.5/urllib/request.py", line 2330, in init
-    self.ftp.cwd(_target)
-  File "/usr/lib/python3.5/ftplib.py", line 630, in cwd
-    return self.voidcmd(cmd)
-  File "/usr/lib/python3.5/ftplib.py", line 277, in voidcmd
-    return self.voidresp()
-  File "/usr/lib/python3.5/ftplib.py", line 250, in voidresp
-    resp = self.getresp()
-  File "/usr/lib/python3.5/ftplib.py", line 245, in getresp
-    raise error_perm(resp)
-ftplib.error_perm: 550 Failed to change directory.
+  File "/usr/lib/python3.5/urllib/request.py", line 2327, in init
+    self.ftp.connect(self.host, self.port, self.timeout)
+  File "/usr/lib/python3.5/ftplib.py", line 153, in connect
+    source_address=self.source_address)
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
 
 During handling of the above exception, another exception occurred:
 
@@ -114,17 +112,15 @@ Traceback (most recent call last):
     persistent=False)
   File "/usr/lib/python3.5/urllib/request.py", line 2318, in __init__
     self.init()
-  File "/usr/lib/python3.5/urllib/request.py", line 2330, in init
-    self.ftp.cwd(_target)
-  File "/usr/lib/python3.5/ftplib.py", line 630, in cwd
-    return self.voidcmd(cmd)
-  File "/usr/lib/python3.5/ftplib.py", line 277, in voidcmd
-    return self.voidresp()
-  File "/usr/lib/python3.5/ftplib.py", line 250, in voidresp
-    resp = self.getresp()
-  File "/usr/lib/python3.5/ftplib.py", line 245, in getresp
-    raise error_perm(resp)
-urllib.error.URLError: <urlopen error ftp error: error_perm('550 Failed to change directory.',)>
+  File "/usr/lib/python3.5/urllib/request.py", line 2327, in init
+    self.ftp.connect(self.host, self.port, self.timeout)
+  File "/usr/lib/python3.5/ftplib.py", line 153, in connect
+    source_address=self.source_address)
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+urllib.error.URLError: <urlopen error ftp error: ConnectionRefusedError(111, 'Connection refused')>
 
 [INFO] (nagpyrc) This package is up to date.
 [INFO] (nahpackpy) This package is up to date.
@@ -322,7 +318,7 @@ This package download URL does not point to a valid file: "https://bitbucket.org
 [INFO] (narwal) This package is up to date.
 [INFO] (narwhal) This package is up to date.
 [INFO] (nasa-api-wrapper) This package is up to date.
-[INFO] (nasa-tle-loader) Data has been updated for this package.
+[INFO] (nasa-tle-loader) This package is up to date.
 [INFO] (nasdaq-stock-quote) This package is up to date.
 [INFO] (nash) This package is up to date.
 [INFO] (nasheri) This package is up to date.
@@ -477,7 +473,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nblivereload) This package is up to date.
 [INFO] (nbmerge) This package is up to date.
 [INFO] (nbmolviz) This package is up to date.
-[INFO] (nbodykit) Data has been updated for this package.
+[INFO] (nbodykit) This package is up to date.
 [ERROR] (nbodylab) This package does not have downloadable releases.
 [INFO] (nbopen) This package is up to date.
 [INFO] (nbp) This package is up to date.
@@ -2400,7 +2396,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netius) This package is up to date.
 [INFO] (netjsonconfig) This package is up to date.
 [INFO] (netki-partner-client) This package is up to date.
-[INFO] (netkit) Data has been updated for this package.
+[INFO] (netkit) This package is up to date.
 [INFO] (netkraken-minion) This package is up to date.
 [INFO] (netlib) This package is up to date.
 [INFO] (netlink) This package is up to date.
@@ -2425,7 +2421,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netscan) This package is up to date.
 [INFO] (netser20) This package is up to date.
 [INFO] (netset) This package is up to date.
-[INFO] (netsgiro) Data has been updated for this package.
+[INFO] (netsgiro) This package is up to date.
 [INFO] (netshow-core) This package is up to date.
 [INFO] (netshow-core-lib) This package is up to date.
 [INFO] (netshow-linux-lib) This package is up to date.
@@ -2581,7 +2577,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (neucleus) This package does not have downloadable releases.
-[INFO] (neupy) This package is up to date.
+[INFO] (neupy) Data has been updated for this package.
 [INFO] (neural) This package is up to date.
 [INFO] (neural-fmri) This package is up to date.
 [INFO] (neural-image-analogies) This package is up to date.
@@ -2703,7 +2699,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (newrelic-plugin-agent) This package is up to date.
 [INFO] (news) This package is up to date.
 [INFO] (news-corpus-builder) This package is up to date.
-[INFO] (news-please) This package is up to date.
+[INFO] (news-please) Data has been updated for this package.
 [INFO] (news-popularity-prediction) This package is up to date.
 [INFO] (news-scraper) This package is up to date.
 [INFO] (newsapi) This package is up to date.
@@ -3181,7 +3177,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nippoh) This package is up to date.
 [INFO] (niprov) This package is up to date.
 [INFO] (nipy) This package is up to date.
-[INFO] (nipype) This package is up to date.
+[INFO] (nipype) Data has been updated for this package.
 [ERROR] (niquery) This package does not have downloadable releases.
 [INFO] (nirjam) This package is up to date.
 [INFO] (nirnaor) This package is up to date.
@@ -3274,7 +3270,7 @@ This package download URL does not point to a valid file: "http://pypi.python.or
 [INFO] (nlpy) This package is up to date.
 [INFO] (nlring) This package is up to date.
 [INFO] (nls) This package is up to date.
-[INFO] (nltk) This package is up to date.
+[INFO] (nltk) Data has been updated for this package.
 [INFO] (nltk-tgrep) This package is up to date.
 [INFO] (nltkrest) This package is up to date.
 [INFO] (nltokeniz) This package is up to date.
@@ -3507,7 +3503,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nomen) This package is up to date.
 [INFO] (nomenclate) This package is up to date.
 [INFO] (nomenclature) This package is up to date.
-[INFO] (nomiepy) Data has been updated for this package.
+[INFO] (nomiepy) This package is up to date.
 [INFO] (nominaflora) This package is up to date.
 [INFO] (nominat) This package is up to date.
 [INFO] (nominatim) This package is up to date.
@@ -4025,7 +4021,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nps) This package is up to date.
 [INFO] (nps-sdk) This package is up to date.
 [INFO] (nps-weather) This package is up to date.
-[INFO] (nptdms) Data has been updated for this package.
+[INFO] (nptdms) This package is up to date.
 [INFO] (nptfit) This package is up to date.
 [INFO] (nptime) This package is up to date.
 [ERROR] (npuzzle) This package does not have downloadable releases.
@@ -4099,7 +4095,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (nsms-web-api) This package does not have downloadable releases.
 [INFO] (nsnitro) This package is up to date.
 [INFO] (nsoforpenn) This package is up to date.
-[INFO] (nsone) Data has been updated for this package.
+[INFO] (nsone) This package is up to date.
 [INFO] (nsot) This package is up to date.
 [INFO] (nsot-sync) This package is up to date.
 [INFO] (nsound) This package is up to date.
@@ -4495,8 +4491,8 @@ urllib.error.URLError: <urlopen error timed out>
 [INFO] 
 [INFO] Total packages: 3237
 [INFO]     Packages processed: 3237
-[INFO]         Packages updated: 9
-[INFO]         Packages up-to-date: 2816
+[INFO]         Packages updated: 6
+[INFO]         Packages up-to-date: 2819
 [INFO]         Packages without response: 49
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 342
