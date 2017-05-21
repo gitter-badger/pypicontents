@@ -69,7 +69,7 @@ This package download URL does not point to a valid file: "http://kassiopeia.jul
 [INFO] (tableize) This package is up to date.
 [INFO] (tablemate) This package is up to date.
 [INFO] (tablemongo) This package is up to date.
-[INFO] (tableone) This package is up to date.
+[INFO] (tableone) Data has been updated for this package.
 [INFO] (tableprint) This package is up to date.
 [INFO] (tablepyxl) This package is up to date.
 [INFO] (tabler) This package is up to date.
@@ -645,7 +645,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (task.py) This package is up to date.
 [INFO] (taskall) This package is up to date.
 [INFO] (taskc) This package is up to date.
-[INFO] (taskcat) Data has been updated for this package.
+[INFO] (taskcat) This package is up to date.
 [INFO] (taskchecker-on-console) This package is up to date.
 [INFO] (taskcluster) This package is up to date.
 [INFO] (taskcluster-checkout) This package is up to date.
@@ -734,7 +734,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (tatl) This package is up to date.
 [INFO] (tatoo) This package is up to date.
 [INFO] (tatoo-cli) This package is up to date.
-[INFO] (tatsu) This package is up to date.
+[INFO] (tatsu) Data has been updated for this package.
 [INFO] (tatterdemalion) This package is up to date.
 [INFO] (tattle) This package is up to date.
 [INFO] (tattler) This package is up to date.
@@ -758,7 +758,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (taxi) This package is up to date.
 [INFO] (taxi-zebra) This package is up to date.
 [INFO] (taxii-services) This package is up to date.
-[INFO] (taxjar) Data has been updated for this package.
+[INFO] (taxjar) This package is up to date.
 [INFO] (taxon-names-resolver) This package is up to date.
 [INFO] (taxonome) This package is up to date.
 [INFO] (taxonomylite) This package is up to date.
@@ -812,7 +812,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (tbparser) This package is up to date.
 [INFO] (tbpaste) This package is up to date.
 [INFO] (tbselenium) This package is up to date.
-[INFO] (tbvaccine) Data has been updated for this package.
+[INFO] (tbvaccine) This package is up to date.
 [INFO] (tbx) This package is up to date.
 [INFO] (tc) This package is up to date.
 [INFO] (tc-as-a-service) This package is up to date.
@@ -1378,7 +1378,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (tensorflow-gpu) This package is up to date.
 [INFO] (tensorflow-hmm) This package is up to date.
-[INFO] (tensorflow-qnd) Data has been updated for this package.
+[INFO] (tensorflow-qnd) This package is up to date.
 [INFO] (tensorflow-qndex) This package is up to date.
 [INFO] (tensorflow-transform) This package is up to date.
 [INFO] (tensorflowservingclient) This package is up to date.
@@ -2461,7 +2461,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (thebot-translate) This package is up to date.
 [INFO] (thecache) This package is up to date.
 [INFO] (thecallrapi) This package is up to date.
-[INFO] (thecannon) This package is up to date.
+[INFO] (thecannon) Data has been updated for this package.
 [INFO] (thechristmaspig) This package is up to date.
 [INFO] (thecut-durationfield) This package is up to date.
 [INFO] (thecut-emailfield) This package is up to date.
@@ -2480,7 +2480,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (thehikarinester) This package is up to date.
 [INFO] (thehitlist) This package is up to date.
 [INFO] (thehive4py) This package is up to date.
-[INFO] (thejoyofpynting) Data has been updated for this package.
+[INFO] (thejoyofpynting) This package is up to date.
 [INFO] (theladder) This package is up to date.
 [INFO] (thelandlab) This package is up to date.
 [INFO] (theloadoftheload) This package is up to date.
@@ -2871,7 +2871,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (thunderstorm) This package is up to date.
 [INFO] (thunkapi) This package is up to date.
 [INFO] (thutils) This package is up to date.
-[INFO] (thxgh) This package is up to date.
+[INFO] (thxgh) Data has been updated for this package.
 [INFO] (thymus-timeseries) This package is up to date.
 [INFO] (thyro) This package is up to date.
 [INFO] (ti) This package is up to date.
@@ -3305,7 +3305,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (timewatch) This package is up to date.
 [ERROR] (timewave) This package does not have downloadable releases.
 [INFO] (timex) This package is up to date.
-[INFO] (timezonefinder) Data has been updated for this package.
+[INFO] (timezonefinder) This package is up to date.
 [INFO] (timezonefinderl) This package is up to date.
 [INFO] (timezones) This package is up to date.
 [INFO] (timid) This package is up to date.
@@ -3627,6 +3627,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (tkbasic) This package is up to date.
 [INFO] (tkbd) This package is up to date.
 [INFO] (tkcolorpicker) This package is up to date.
+[INFO] (tkengine) Data has been updated for this package.
 [INFO] (tkfilebrowser) This package is up to date.
 [INFO] (tkfontchooser) This package is up to date.
 [ERROR] (tkform) This package does not have downloadable releases.
@@ -3671,7 +3672,7 @@ This package download URL does not point to a valid file: "http://www.effbot.org
 [INFO] (tlcache) This package is up to date.
 [INFO] (tld) This package is up to date.
 [INFO] (tld-name) This package is up to date.
-[INFO] (tldextract) Data has been updated for this package.
+[INFO] (tldextract) This package is up to date.
 [INFO] (tldp) This package is up to date.
 [INFO] (tldr) This package is up to date.
 [INFO] (tldr.py) This package is up to date.
@@ -3914,7 +3915,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (tmscoring) This package is up to date.
 [INFO] (tmstiler) This package is up to date.
 [INFO] (tmtest) This package is up to date.
-[INFO] (tmtk) Data has been updated for this package.
+[INFO] (tmtk) This package is up to date.
 [INFO] (tmux-control) This package is up to date.
 [INFO] (tmux-cssh) This package is up to date.
 [INFO] (tmux-master) This package is up to date.
@@ -4228,7 +4229,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (tooz) This package is up to date.
 [INFO] (top) This package is up to date.
 [INFO] (top30) This package is up to date.
-[INFO] (topas2numpy) Data has been updated for this package.
+[INFO] (topas2numpy) This package is up to date.
 [INFO] (topcoder-dl) This package is up to date.
 [INFO] (topeology) This package is up to date.
 [INFO] (tophat) This package is up to date.
@@ -4236,7 +4237,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (topiary) This package is up to date.
 [INFO] (topic-db) This package is up to date.
 [ERROR] (topical) This package does not have downloadable releases.
-[INFO] (topicexplorer) Data has been updated for this package.
+[INFO] (topicexplorer) This package is up to date.
 [ERROR] (topicmaps) This package does not have downloadable releases.
 [INFO] (topics) This package is up to date.
 [INFO] (topik) This package is up to date.
@@ -4336,7 +4337,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (tornado-backbone) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://pypi.python.org/pypi/Tornado-Backbone"
 [INFO] (tornado-bedframe) This package is up to date.
-[INFO] (tornado-botocore) This package is up to date.
+[INFO] (tornado-botocore) Data has been updated for this package.
 [INFO] (tornado-bufferx-improved) This package is up to date.
 [INFO] (tornado-celery) This package is up to date.
 [INFO] (tornado-circus) This package is up to date.
@@ -4608,6 +4609,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (tox-battery) This package is up to date.
 [INFO] (tox-bitbucket-status) This package is up to date.
 [INFO] (tox-cmake) This package is up to date.
+[INFO] (tox-docker) Data has been updated for this package.
 [INFO] (tox-globinterpreter) This package is up to date.
 [INFO] (tox-matrix) This package is up to date.
 [INFO] (tox-pip-extensions) This package is up to date.
@@ -4646,6 +4648,7 @@ Unsupported package directory structure.
 [INFO] (tpfd) This package is up to date.
 [ERROR] (tpin) This package does not have downloadable releases.
 [INFO] (tpkbdctl) This package is up to date.
+[INFO] (tpkutils) Data has been updated for this package.
 [INFO] (tplconfig) This package is up to date.
 [INFO] (tpllib) This package is up to date.
 [INFO] (tpm) This package is up to date.
@@ -5769,7 +5772,7 @@ This package download URL does not point to a valid file: "http://downloads.tryt
 [INFO] (ts2avi) This package is up to date.
 [INFO] (ts2mkv) This package is up to date.
 [INFO] (ts3) This package is up to date.
-[INFO] (ts3cli) This package is up to date.
+[INFO] (ts3cli) Data has been updated for this package.
 [INFO] (ts3loganalyzer) This package is up to date.
 [INFO] (ts3py) This package is up to date.
 [INFO] (ts3py2) This package is up to date.
@@ -6042,7 +6045,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (turboblog) This package is up to date.
 [INFO] (turbocheetah) This package is up to date.
 [INFO] (turboclearsilver) This package is up to date.
-[INFO] (turbodbc) Data has been updated for this package.
+[INFO] (turbodbc) This package is up to date.
 [ERROR] (turbodjango) Could not extract data from this package. See below for details.
 ".php" extension not supported.
 [INFO] (turboengine) This package is up to date.
@@ -7149,10 +7152,10 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (tzwhere) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 5620
-[INFO]     Packages processed: 5620
-[INFO]         Packages updated: 12
-[INFO]         Packages up-to-date: 5011
+[INFO] Total packages: 5623
+[INFO]     Packages processed: 5623
+[INFO]         Packages updated: 10
+[INFO]         Packages up-to-date: 5016
 [INFO]         Packages without response: 42
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 474

@@ -793,8 +793,10 @@
     },
     "tableone": {
         "cmdline": [],
-        "modules": [],
-        "version": "0.1.10"
+        "modules": [
+            "tableone"
+        ],
+        "version": "0.1.13"
     },
     "tableprint": {
         "cmdline": [],
@@ -8906,43 +8908,46 @@
             "tatsu.contexts",
             "tatsu.diagrams",
             "tatsu.exceptions",
+            "tatsu.g2e",
+            "tatsu.g2e.semantics",
             "tatsu.grammars",
             "tatsu.infos",
             "tatsu.model",
             "tatsu.objectmodel",
             "tatsu.parser",
+            "tatsu.parser_semantics",
             "tatsu.parsing",
             "tatsu.rendering",
             "tatsu.semantics",
             "tatsu.symtables",
             "tatsu.synth",
-            "tatsu.test",
-            "tatsu.test.ast_test",
-            "tatsu.test.buffering_test",
-            "tatsu.test.codegen_test",
-            "tatsu.test.diagram_test",
-            "tatsu.test.grammar",
-            "tatsu.test.grammar.directive_test",
-            "tatsu.test.grammar.join_test",
-            "tatsu.test.grammar.keyword_test",
-            "tatsu.test.grammar.left_recursion_test",
-            "tatsu.test.grammar.parameter_test",
-            "tatsu.test.grammar.pattern_test",
-            "tatsu.test.grammar.pretty_test",
-            "tatsu.test.grammar.semantics_test",
-            "tatsu.test.grammar.stateful_test",
-            "tatsu.test.grammar.syntax_test",
-            "tatsu.test.model_test",
-            "tatsu.test.parsing_test",
-            "tatsu.test.pickle_test",
-            "tatsu.test.zzz_bootstrap",
-            "tatsu.test.zzz_bootstrap.bootstrap_test",
             "tatsu.tool",
             "tatsu.util",
             "tatsu.walkers",
-            "tatsu.yaml"
+            "tatsu.yaml",
+            "test",
+            "test.ast_test",
+            "test.buffering_test",
+            "test.codegen_test",
+            "test.diagram_test",
+            "test.grammar",
+            "test.grammar.directive_test",
+            "test.grammar.join_test",
+            "test.grammar.keyword_test",
+            "test.grammar.left_recursion_test",
+            "test.grammar.parameter_test",
+            "test.grammar.pattern_test",
+            "test.grammar.pretty_test",
+            "test.grammar.semantics_test",
+            "test.grammar.stateful_test",
+            "test.grammar.syntax_test",
+            "test.model_test",
+            "test.parsing_test",
+            "test.pickle_test",
+            "test.zzz_bootstrap",
+            "test.zzz_bootstrap.bootstrap_test"
         ],
-        "version": "4.0.0"
+        "version": "4.1.0"
     },
     "tatterdemalion": {
         "cmdline": [],
@@ -21314,11 +21319,11 @@
     "terminaltranslator": {
         "cmdline": [
             "t",
-            "translator.py",
+            "terminaltranslator.py",
             "tt"
         ],
         "modules": [],
-        "version": "0.3"
+        "version": "0.8"
     },
     "terminalwriter": {
         "cmdline": [],
@@ -30465,7 +30470,7 @@
             "TheCannon.model",
             "TheCannon.train_model"
         ],
-        "version": "0.6.7"
+        "version": "0.7.0"
     },
     "thechristmaspig": {
         "cmdline": [],
@@ -35032,7 +35037,7 @@
             "thxgh"
         ],
         "modules": [],
-        "version": "0.1"
+        "version": "0.2"
     },
     "thymus-timeseries": {
         "cmdline": [],
@@ -42439,6 +42444,14 @@
         "cmdline": [],
         "modules": [],
         "version": "1.0.0"
+    },
+    "tkengine": {
+        "cmdline": [],
+        "modules": [
+            "__init__",
+            "tkengine"
+        ],
+        "version": "1.0.4"
     },
     "tkfilebrowser": {
         "cmdline": [],
@@ -51639,7 +51652,7 @@
             "tornado_botocore",
             "tornado_botocore.base"
         ],
-        "version": "1.1.1"
+        "version": "1.2.0"
     },
     "tornado-bufferx-improved": {
         "cmdline": [],
@@ -55546,6 +55559,13 @@
         ],
         "version": "0.1.1"
     },
+    "tox-docker": {
+        "cmdline": [],
+        "modules": [
+            "tox_docker"
+        ],
+        "version": "1.0.0"
+    },
     "tox-globinterpreter": {
         "cmdline": [],
         "modules": [
@@ -56115,6 +56135,15 @@
             "tpkbdctl.cmd"
         ],
         "version": "0.2.3"
+    },
+    "tpkutils": {
+        "cmdline": [],
+        "modules": [
+            "tpkutils",
+            "tpkutils.cli",
+            "tpkutils.util"
+        ],
+        "version": "0.5.1"
     },
     "tplconfig": {
         "cmdline": [],
@@ -70996,7 +71025,7 @@
             "ts3cli",
             "ts3cli.utils"
         ],
-        "version": "0.1.1"
+        "version": "0.3.0"
     },
     "ts3loganalyzer": {
         "cmdline": [],
