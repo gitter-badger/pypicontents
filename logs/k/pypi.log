@@ -169,7 +169,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kalinin) This package is up to date.
 [INFO] (kallankallan-nester) This package is up to date.
 [INFO] (kallikrein) This package is up to date.
-[INFO] (kalliope) This package is up to date.
+[INFO] (kalliope) Data has been updated for this package.
 [INFO] (kallithea) This package is up to date.
 [INFO] (kallithea-auth-container-internal) This package is up to date.
 [INFO] (kallithea-auth-google) This package is up to date.
@@ -271,8 +271,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (karakuri) This package is up to date.
 [INFO] (karasev) This package is up to date.
 [INFO] (karatsuba) This package is up to date.
-[INFO] (karbor) Data has been updated for this package.
-[INFO] (karbor-dashboard) Data has been updated for this package.
+[INFO] (karbor) This package is up to date.
+[INFO] (karbor-dashboard) This package is up to date.
 [INFO] (karellen-geventws) This package is up to date.
 [INFO] (karellen-kombu-ext) This package is up to date.
 [INFO] (karellen-pyb-plugin) This package is up to date.
@@ -1052,7 +1052,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (klimalogger) This package is up to date.
 [INFO] (klimov) This package is up to date.
 [INFO] (klink) This package is up to date.
-[INFO] (klip) This package is up to date.
+[INFO] (klip) Data has been updated for this package.
 [INFO] (kliuev) This package is up to date.
 [ERROR] (klm) This package does not have downloadable releases.
 [INFO] (kloc) This package is up to date.
@@ -1238,7 +1238,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kolesnikov) This package is up to date.
 [INFO] (kolesov) This package is up to date.
 [INFO] (kolibri) This package is up to date.
-[INFO] (kolibri-exercise-perseus-plugin) This package is up to date.
+[INFO] (kolibri-exercise-perseus-plugin) Data has been updated for this package.
 [INFO] (kolibri-exercise-perseus-renderer) This package is up to date.
 [INFO] (kolla) This package is up to date.
 [INFO] (kolla-ansible) This package is up to date.
@@ -1263,7 +1263,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kombu-sqlalchemy) This package is up to date.
 [INFO] (kombu-stomp) This package is up to date.
 [INFO] (komissarov) This package is up to date.
-[INFO] (komlogd) This package is up to date.
+[INFO] (komlogd) Data has been updated for this package.
 [ERROR] (komodo) This package does not have downloadable releases.
 [INFO] (komodo-google-auth) This package is up to date.
 [INFO] (komodo-python-dbgp) This package is up to date.
@@ -1297,11 +1297,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (koodous-py) This package is up to date.
 [INFO] (koofr) This package is up to date.
 [INFO] (kook) This package is up to date.
-[INFO] (kooki) This package is up to date.
-[INFO] (kooki-slides) This package is up to date.
-[INFO] (kooki-slides-easymov) This package is up to date.
-[INFO] (kooki-tex) This package is up to date.
-[INFO] (kooki-web) This package is up to date.
+[INFO] (kooki) Data has been updated for this package.
+[INFO] (kooki-slides) Data has been updated for this package.
+[INFO] (kooki-tex) Data has been updated for this package.
+[INFO] (kooki-web) Data has been updated for this package.
 [INFO] (koordinates) This package is up to date.
 [INFO] (koppeltaal) This package is up to date.
 [INFO] (koptool) This package is up to date.
@@ -1500,6 +1499,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kriukov) This package is up to date.
 [INFO] (krlio) This package is up to date.
 [INFO] (krnet) This package is up to date.
+[INFO] (kroissan) Data has been updated for this package.
 [INFO] (kroman) This package is up to date.
 [INFO] (kron) This package is up to date.
 [INFO] (kronos) This package is up to date.
@@ -1517,7 +1517,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (krux-scheduler) This package is up to date.
 [INFO] (krux-stdlib) This package is up to date.
 [INFO] (kruxstatsd) This package is up to date.
-[INFO] (krwordrank) Data has been updated for this package.
+[INFO] (krwordrank) This package is up to date.
 [INFO] (krxholiday) This package is up to date.
 [INFO] (krylov) This package is up to date.
 [INFO] (kryptal) This package is up to date.
@@ -1570,7 +1570,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (kshramt) This package is up to date.
 [INFO] (ksmtp) This package is up to date.
 [INFO] (kson) This package is up to date.
-[INFO] (ksp-login) This package is up to date.
+[INFO] (ksp-login) Data has been updated for this package.
 [INFO] (kspalculator) This package is up to date.
 [INFO] (ksr) This package is up to date.
 [INFO] (ksrgh) This package is up to date.
@@ -1827,8 +1827,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] 
 [INFO] Total packages: 1497
 [INFO]     Packages processed: 1497
-[INFO]         Packages updated: 3
-[INFO]         Packages up-to-date: 1338
+[INFO]         Packages updated: 10
+[INFO]         Packages up-to-date: 1331
 [INFO]         Packages without response: 12
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 130

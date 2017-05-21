@@ -7121,20 +7121,27 @@
         "cmdline": [],
         "modules": [
             "Tests",
+            "Tests.backup_test_order_analyser",
             "Tests.test_brain_loader",
             "Tests.test_configuration_checker",
             "Tests.test_dna_loader",
             "Tests.test_dynamic_loading",
             "Tests.test_file_manager",
-            "Tests.test_launchers",
-            "Tests.test_neuron_model",
+            "Tests.test_init",
+            "Tests.test_lifo_buffer",
+            "Tests.test_models",
+            "Tests.test_neuron_launcher",
             "Tests.test_neuron_module",
+            "Tests.test_neuron_parameter_loader",
             "Tests.test_order_analyser",
             "Tests.test_order_listener",
+            "Tests.test_player_launcher",
             "Tests.test_resources_manager",
             "Tests.test_rest_api",
             "Tests.test_settings_loader",
             "Tests.test_singleton",
+            "Tests.test_synapse_launcher",
+            "Tests.test_trigger_launcher",
             "Tests.test_tts_module",
             "Tests.test_utils",
             "Tests.test_yaml_loader",
@@ -7148,15 +7155,20 @@
             "kalliope.core.ConfigurationManager.SettingLoader",
             "kalliope.core.ConfigurationManager.YAMLLoader",
             "kalliope.core.EventManager",
+            "kalliope.core.LIFOBuffer",
             "kalliope.core.MainController",
             "kalliope.core.Models",
+            "kalliope.core.Models.APIResponse",
             "kalliope.core.Models.Brain",
             "kalliope.core.Models.Dna",
             "kalliope.core.Models.Event",
+            "kalliope.core.Models.MatchedSynapse",
             "kalliope.core.Models.Neuron",
             "kalliope.core.Models.Order",
+            "kalliope.core.Models.Player",
             "kalliope.core.Models.Resources",
             "kalliope.core.Models.RestAPI",
+            "kalliope.core.Models.RpiSettings",
             "kalliope.core.Models.Settings",
             "kalliope.core.Models.Singleton",
             "kalliope.core.Models.Stt",
@@ -7165,10 +7177,11 @@
             "kalliope.core.Models.Tts",
             "kalliope.core.NeuronLauncher",
             "kalliope.core.NeuronModule",
+            "kalliope.core.NeuronParameterLoader",
             "kalliope.core.OrderAnalyser",
             "kalliope.core.OrderListener",
-            "kalliope.core.Players",
-            "kalliope.core.Players.Mplayer",
+            "kalliope.core.PlayerLauncher",
+            "kalliope.core.PlayerModule",
             "kalliope.core.ResourcesManager",
             "kalliope.core.RestAPI",
             "kalliope.core.RestAPI.FlaskAPI",
@@ -7176,11 +7189,11 @@
             "kalliope.core.ShellGui",
             "kalliope.core.SynapseLauncher",
             "kalliope.core.TTS",
-            "kalliope.core.TTS.TTSLauncher",
             "kalliope.core.TTS.TTSModule",
             "kalliope.core.TriggerLauncher",
             "kalliope.core.Utils",
             "kalliope.core.Utils.FileManager",
+            "kalliope.core.Utils.RpiUtils",
             "kalliope.core.Utils.Utils",
             "kalliope.neurons",
             "kalliope.neurons.ansible_playbook",
@@ -7218,6 +7231,23 @@
             "kalliope.neurons.uri.tests.test_uri_neuron",
             "kalliope.neurons.uri.uri",
             "kalliope.nico",
+            "kalliope.players",
+            "kalliope.players.mplayer",
+            "kalliope.players.mplayer.mplayer",
+            "kalliope.players.mplayer.tests",
+            "kalliope.players.mplayer.tests.test_mplayer",
+            "kalliope.players.pyalsaaudio",
+            "kalliope.players.pyalsaaudio.pyalsaaudio",
+            "kalliope.players.pyalsaaudio.tests",
+            "kalliope.players.pyalsaaudio.tests.test_pyalsaaudio",
+            "kalliope.players.pyaudioplayer",
+            "kalliope.players.pyaudioplayer.pyaudioplayer",
+            "kalliope.players.pyaudioplayer.tests",
+            "kalliope.players.pyaudioplayer.tests.test_pyaudioplayer",
+            "kalliope.players.sounddeviceplayer",
+            "kalliope.players.sounddeviceplayer.sounddeviceplayer",
+            "kalliope.players.sounddeviceplayer.tests",
+            "kalliope.players.sounddeviceplayer.tests.test_sounddeviceplayer",
             "kalliope.stt",
             "kalliope.stt.Utils",
             "kalliope.stt.apiai",
@@ -7247,7 +7277,7 @@
             "kalliope.tts.voicerss",
             "kalliope.tts.voicerss.voicerss"
         ],
-        "version": "0.4.3"
+        "version": "0.4.4"
     },
     "kallithea": {
         "cmdline": [],
@@ -20628,7 +20658,7 @@
             "klip.devices",
             "klip.parser"
         ],
-        "version": "0.2"
+        "version": "0.3"
     },
     "kliuev": {
         "cmdline": [],
@@ -25112,7 +25142,7 @@
             "kolibri_exercise_perseus_plugin",
             "kolibri_exercise_perseus_plugin.kolibri_plugin"
         ],
-        "version": "0.6.8"
+        "version": "0.6.9"
     },
     "kolibri-exercise-perseus-renderer": {
         "cmdline": [],
@@ -25499,6 +25529,7 @@
             "komlogd.api.protocol.model",
             "komlogd.api.protocol.model.codes",
             "komlogd.api.protocol.model.messages",
+            "komlogd.api.protocol.model.schedules",
             "komlogd.api.protocol.model.tests",
             "komlogd.api.protocol.model.tests.test_messages",
             "komlogd.api.protocol.model.tests.test_types",
@@ -25527,17 +25558,12 @@
             "komlogd.base.settings.sections",
             "komlogd.base.settings.templates",
             "komlogd.main",
-            "komlogd.scheduler",
-            "komlogd.scheduler.main",
-            "komlogd.scheduler.model",
-            "komlogd.scheduler.model.exceptions",
-            "komlogd.scheduler.model.scheduler",
             "komlogd.transfer_methods",
             "komlogd.transfer_methods.main",
             "komlogd.web",
             "komlogd.web.main"
         ],
-        "version": "0.4.0"
+        "version": "0.6.0"
     },
     "komodo": {
         "cmdline": [],
@@ -25991,7 +26017,7 @@
             "kooki.utensils.metadata",
             "kooki.utensils.utensil"
         ],
-        "version": "0.1.2"
+        "version": "0.2.0"
     },
     "kooki-slides": {
         "cmdline": [],
@@ -26002,12 +26028,7 @@
             "kooki_slides.recipe.pdf",
             "kooki_slides.slides"
         ],
-        "version": "0.1.4"
-    },
-    "kooki-slides-easymov": {
-        "cmdline": [],
-        "modules": [],
-        "version": "0.1.0"
+        "version": "0.2.0"
     },
     "kooki-tex": {
         "cmdline": [],
@@ -26016,7 +26037,7 @@
             "kooki_tex.recipe",
             "kooki_tex.xelatex"
         ],
-        "version": "0.1.0"
+        "version": "0.2.0"
     },
     "kooki-web": {
         "cmdline": [],
@@ -26029,7 +26050,7 @@
             "kooki_web.recipe",
             "kooki_web.sass"
         ],
-        "version": "0.1.1"
+        "version": "0.2.2"
     },
     "koordinates": {
         "cmdline": [],
@@ -28337,6 +28358,15 @@
         ],
         "version": "0.1.2"
     },
+    "kroissan": {
+        "cmdline": [
+            "kroissan"
+        ],
+        "modules": [
+            "kroissan"
+        ],
+        "version": "0.1.0"
+    },
     "kroman": {
         "cmdline": [],
         "modules": [
@@ -29400,9 +29430,10 @@
             "ksp_login.templatetags",
             "ksp_login.templatetags.ksp_login",
             "ksp_login.urls",
+            "ksp_login.utils",
             "ksp_login.views"
         ],
-        "version": "0.4.2"
+        "version": "0.5.0"
     },
     "kspalculator": {
         "cmdline": [],
