@@ -1700,6 +1700,13 @@
         "modules": [],
         "version": ""
     },
+    "lalaland": {
+        "cmdline": [],
+        "modules": [
+            "lalaland"
+        ],
+        "version": "1.0.1"
+    },
     "lalalari": {
         "cmdline": [],
         "modules": [
@@ -4269,13 +4276,17 @@
         "cmdline": [],
         "modules": [
             "larissa",
+            "larissa.Colorer",
             "larissa.Factory",
             "larissa.Loader",
             "larissa.Loader.ELF",
+            "larissa.Loader.Symbol",
             "larissa.Project",
-            "larissa.State"
+            "larissa.State",
+            "larissa.State.plugins",
+            "larissa.State.plugins.posix"
         ],
-        "version": "0.0.2"
+        "version": "0.0.3"
     },
     "larjona-crawler": {
         "cmdline": [],
@@ -12598,7 +12609,7 @@
             "lector.api",
             "lector.reader"
         ],
-        "version": "0.0.3a1"
+        "version": "0.0.3"
     },
     "ledart": {
         "cmdline": [],
@@ -20400,7 +20411,7 @@
             "libpurecoollink.dyson",
             "libpurecoollink.zeroconf"
         ],
-        "version": "0.1.2"
+        "version": "0.1.5"
     },
     "libpuzzle": {
         "cmdline": [],
@@ -21896,7 +21907,7 @@
             "libsoundtouch.device",
             "libsoundtouch.utils"
         ],
-        "version": "0.3.0"
+        "version": "0.4.0"
     },
     "libsourcemap": {
         "cmdline": [],
@@ -23255,7 +23266,7 @@
             "lifxlan.products",
             "lifxlan.unpack"
         ],
-        "version": "1.0.0"
+        "version": "1.0.2"
     },
     "ligament": {
         "cmdline": [],
@@ -36705,6 +36716,13 @@
             "logging_rollbar.handlers"
         ],
         "version": "0.2"
+    },
+    "logging-spinner": {
+        "cmdline": [],
+        "modules": [
+            "logging_spinner"
+        ],
+        "version": "0.2.1"
     },
     "logging-subprocess": {
         "cmdline": [],
