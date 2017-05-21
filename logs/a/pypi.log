@@ -103,9 +103,9 @@
 [INFO] (abi) This package is up to date.
 [INFO] (abi42) This package is up to date.
 [INFO] (abifpy) This package is up to date.
-[INFO] (abilian-core) Data has been updated for this package.
+[INFO] (abilian-core) This package is up to date.
 [INFO] (abilian-crm-core) This package is up to date.
-[INFO] (abilian-sbe) Data has been updated for this package.
+[INFO] (abilian-sbe) This package is up to date.
 [INFO] (abiosgaming.py) This package is up to date.
 [INFO] (abipy) This package is up to date.
 [INFO] (abiquo-api) This package is up to date.
@@ -271,7 +271,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (absorbing-centrality) This package is up to date.
 [INFO] (abspath) This package is up to date.
 [INFO] (abssmt) This package is up to date.
-[INFO] (abstar) Data has been updated for this package.
+[INFO] (abstar) This package is up to date.
 [INFO] (abstrackr) This package is up to date.
 [INFO] (abstract-rendering) This package is up to date.
 [INFO] (abstract.jwrotator) This package is up to date.
@@ -337,7 +337,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (accessibility) This package is up to date.
 [INFO] (accessible-output) This package is up to date.
 [INFO] (accessor) This package is up to date.
-[INFO] (accesspanel) Data has been updated for this package.
+[INFO] (accesspanel) This package is up to date.
 [INFO] (accessstatsapi) This package is up to date.
 [INFO] (accfifo) This package is up to date.
 [INFO] (accio) This package is up to date.
@@ -366,7 +366,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (acemorse) This package is up to date.
 [INFO] (acetone) This package is up to date.
 [INFO] (ach) This package is up to date.
-[INFO] (achallonge) This package is up to date.
+[INFO] (achallonge) Data has been updated for this package.
 [INFO] (achemkit) This package is up to date.
 [INFO] (achilterm) This package is up to date.
 [INFO] (achoo) This package is up to date.
@@ -448,6 +448,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (acs-student-attendance) This package is up to date.
 [INFO] (acsclient) This package is up to date.
 [INFO] (acsone.recipe.odoo.pydev) This package is up to date.
+[INFO] (acsoo) Data has been updated for this package.
 [INFO] (acspy) This package is up to date.
 [INFO] (acss) This package is up to date.
 [INFO] (acstis) This package is up to date.
@@ -487,7 +488,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (actionkit-templates) This package does not have downloadable releases.
-[INFO] (actionml) This package is up to date.
+[INFO] (actionml) Data has been updated for this package.
 [INFO] (actions) This package is up to date.
 [INFO] (actionserver) This package is up to date.
 [INFO] (actiontree) This package is up to date.
@@ -784,7 +785,7 @@ This package download URL does not point to a valid file: "http://www.sourceforg
 [INFO] (advanced-config-manager) This package is up to date.
 [INFO] (advanced-jabberclient) This package is up to date.
 [INFO] (advanced-ssh-config) This package is up to date.
-[INFO] (advancedhtmlparser) This package is up to date.
+[INFO] (advancedhtmlparser) Data has been updated for this package.
 [INFO] (advancedhttpserver) This package is up to date.
 [INFO] (advancedlangconv) This package is up to date.
 [INFO] (advancedsearchdiscovery) This package is up to date.
@@ -1140,7 +1141,7 @@ Unsupported package directory structure.
 [INFO] (aio-feedfinder2) This package is up to date.
 [INFO] (aio-hs2) This package is up to date.
 [INFO] (aio-manager) This package is up to date.
-[INFO] (aio-nasa-tle-loader) Data has been updated for this package.
+[INFO] (aio-nasa-tle-loader) This package is up to date.
 [INFO] (aio-periodic) This package is up to date.
 [INFO] (aio-periodic-task) This package is up to date.
 [INFO] (aio-pika) This package is up to date.
@@ -1149,7 +1150,7 @@ Unsupported package directory structure.
 [INFO] (aio-s3) This package is up to date.
 [ERROR] (aio-service) This package does not have downloadable releases.
 [INFO] (aio-service-client) This package is up to date.
-[INFO] (aio-space-track-api) Data has been updated for this package.
+[INFO] (aio-space-track-api) This package is up to date.
 [INFO] (aio-tinder) This package is up to date.
 [INFO] (aio-yamlconfig) This package is up to date.
 [INFO] (aio.app) This package is up to date.
@@ -1218,7 +1219,7 @@ Unsupported package directory structure.
 [INFO] (aioforecast) This package is up to date.
 [INFO] (aioftp) This package is up to date.
 [INFO] (aioga) This package is up to date.
-[INFO] (aiogcd) Data has been updated for this package.
+[INFO] (aiogcd) This package is up to date.
 [INFO] (aiogear) This package is up to date.
 [ERROR] (aiogearman) This package does not have downloadable releases.
 [INFO] (aiogen) This package is up to date.
@@ -1271,7 +1272,7 @@ Unsupported package directory structure.
 [INFO] (aiohttp-sentry) This package is up to date.
 [INFO] (aiohttp-session) This package is up to date.
 [INFO] (aiohttp-session-flash) This package is up to date.
-[INFO] (aiohttp-spyne) Data has been updated for this package.
+[INFO] (aiohttp-spyne) This package is up to date.
 [INFO] (aiohttp-sse) This package is up to date.
 [INFO] (aiohttp-swagger) This package is up to date.
 [INFO] (aiohttp-swaggerify) This package is up to date.
@@ -1280,7 +1281,7 @@ Unsupported package directory structure.
 [INFO] (aiohttp-tools) This package is up to date.
 [INFO] (aiohttp-transmute) This package is up to date.
 [INFO] (aiohttp-traversal) This package is up to date.
-[INFO] (aiohttp-ultrajson) This package is up to date.
+[INFO] (aiohttp-ultrajson) Data has been updated for this package.
 [INFO] (aiohttp-utils) This package is up to date.
 [INFO] (aiohttp-validate) This package is up to date.
 [INFO] (aiohttp-wsgi) This package is up to date.
@@ -1333,11 +1334,12 @@ Unsupported package directory structure.
 [INFO] (aioprometheus-binary-format) This package is up to date.
 [INFO] (aioproxy) This package is up to date.
 [INFO] (aiopubsub) This package is up to date.
-[INFO] (aiopvapi) Data has been updated for this package.
+[INFO] (aiopvapi) This package is up to date.
 [INFO] (aiopy) This package is up to date.
 [INFO] (aiopype) This package is up to date.
 [INFO] (aiopyramid) This package is up to date.
 [INFO] (aioqiniu) This package is up to date.
+[INFO] (aioqueue) Data has been updated for this package.
 [INFO] (aiorabbitmq) This package is up to date.
 [ERROR] (aioraft) This package does not have downloadable releases.
 [INFO] (aiorchestra) This package is up to date.
@@ -1378,7 +1380,7 @@ Unsupported package directory structure.
 [INFO] (aiotelegram) This package is up to date.
 [INFO] (aiotelegrambot) This package is up to date.
 [INFO] (aiotest) This package is up to date.
-[INFO] (aiotg) This package is up to date.
+[INFO] (aiotg) Data has been updated for this package.
 [INFO] (aiothrift) This package is up to date.
 [INFO] (aiothrottle) This package is up to date.
 [INFO] (aiotk) This package is up to date.
@@ -1407,7 +1409,7 @@ This package download URL does not point to a valid file: "http://pypi.python.or
 [INFO] (aiowrap) This package is up to date.
 [INFO] (aiowsgi) This package is up to date.
 [INFO] (aioxmlrpc) This package is up to date.
-[INFO] (aioxmpp) This package is up to date.
+[INFO] (aioxmpp) Data has been updated for this package.
 [INFO] (aioyoyo) This package is up to date.
 [INFO] (aiozk) This package is up to date.
 [INFO] (aiozmq) This package is up to date.
@@ -2061,7 +2063,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (alloy) This package does not have downloadable releases.
 [INFO] (alloyclient) This package is up to date.
 [INFO] (allpairs) This package is up to date.
-[INFO] (allpairspy) Data has been updated for this package.
+[INFO] (allpairspy) This package is up to date.
 [INFO] (allparts) This package is up to date.
 [INFO] (allset) This package is up to date.
 [INFO] (allspark) This package is up to date.
@@ -2134,7 +2136,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (alpaca-variant-caller) This package is up to date.
 [ERROR] (alpha) This package does not have downloadable releases.
 [INFO] (alpha-quant) This package is up to date.
-[INFO] (alphabet-detector) Data has been updated for this package.
+[INFO] (alpha-vantage) Data has been updated for this package.
+[INFO] (alphabet-detector) This package is up to date.
 [INFO] (alphabetic-simple) This package is up to date.
 [INFO] (alphabot) This package is up to date.
 [INFO] (alphadict) This package is up to date.
@@ -2217,7 +2220,7 @@ This package download URL does not point to a valid file: "ftp://ftp.4suite.org/
 [INFO] (amathon) This package is up to date.
 [INFO] (amaze) This package is up to date.
 [INFO] (amazing) This package is up to date.
-[INFO] (amazon-dash) Data has been updated for this package.
+[INFO] (amazon-dash) This package is up to date.
 [INFO] (amazon-kclpy) This package is up to date.
 [INFO] (amazon-kclpy-test) This package is up to date.
 [INFO] (amazon-mws) This package is up to date.
@@ -2739,7 +2742,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ankita) This package is up to date.
 [INFO] (ankle) This package is up to date.
 [INFO] (ann) This package is up to date.
-[INFO] (anna) Data has been updated for this package.
+[INFO] (anna) This package is up to date.
 [INFO] (annalist) This package is up to date.
 [INFO] (annarchy) This package is up to date.
 [INFO] (anndi) This package is up to date.
@@ -2909,7 +2912,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ansideps) This package is up to date.
 [INFO] (ansidoc) This package is up to date.
 [INFO] (ansigenome) This package is up to date.
-[INFO] (ansimarkup) This package is up to date.
+[INFO] (ansimarkup) Data has been updated for this package.
 [INFO] (ansiqa) This package is up to date.
 [INFO] (ansiscaf) This package is up to date.
 [INFO] (ansitagcolor) This package is up to date.
@@ -2923,7 +2926,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ant) This package is up to date.
 [INFO] (ant-colony) This package is up to date.
 [INFO] (ant2mvn) This package is up to date.
-[INFO] (antares-apps) Data has been updated for this package.
+[INFO] (antares-apps) This package is up to date.
 [INFO] (antbkp) This package is up to date.
 [INFO] (antbot) This package is up to date.
 [INFO] (antevents) This package is up to date.
@@ -4682,7 +4685,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (astralnetworking) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "https://astralnetworking.googlecode.com/hg/"
 [INFO] (astratomo) This package is up to date.
-[INFO] (astraviso) This package is up to date.
+[INFO] (astraviso) Data has been updated for this package.
 [ERROR] (astrid) This package does not have downloadable releases.
 [ERROR] (astrid-phlyo) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -4923,7 +4926,7 @@ Unsupported package directory structure.
 [INFO] (asyncrest) This package is up to date.
 [INFO] (asyncrpc) This package is up to date.
 [ERROR] (asyncsp) This package does not have downloadable releases.
-[INFO] (asyncssh) Data has been updated for this package.
+[INFO] (asyncssh) This package is up to date.
 [INFO] (asyncssh-unofficial) This package is up to date.
 [INFO] (asynctask) This package is up to date.
 [INFO] (asynctasks) This package is up to date.
@@ -4968,7 +4971,7 @@ Unsupported package directory structure.
 [INFO] (atelier) This package is up to date.
 [INFO] (atemon-emailvalidator) This package is up to date.
 [INFO] (atemon-smsapi) This package is up to date.
-[INFO] (atenrich) Data has been updated for this package.
+[INFO] (atenrich) This package is up to date.
 [INFO] (atf) This package is up to date.
 [INFO] (atflow) This package is up to date.
 [ERROR] (atfork) This package does not have downloadable releases.
@@ -5086,7 +5089,7 @@ Unsupported package directory structure.
 [ERROR] (atrack) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://repo.cat-v.org/atrack/download/"
 [INFO] (atramhasis) This package is up to date.
-[INFO] (atrcopy) Data has been updated for this package.
+[INFO] (atrcopy) This package is up to date.
 [INFO] (atreal.cmfeditions.unlocker) This package is up to date.
 [INFO] (atreal.filecart) This package is up to date.
 [INFO] (atreal.filestorage.blobfile) This package is up to date.
@@ -5126,7 +5129,7 @@ This package download URL does not point to a valid file: "http://repo.cat-v.org
 [INFO] (attendant) This package is up to date.
 [INFO] (attendly) This package is up to date.
 [INFO] (attention) This package is up to date.
-[INFO] (attentive) Data has been updated for this package.
+[INFO] (attentive) This package is up to date.
 [INFO] (attest) This package is up to date.
 [INFO] (attest-latest) This package is up to date.
 [INFO] (attic) This package is up to date.
@@ -5225,6 +5228,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (auditor) This package does not have downloadable releases.
 [INFO] (auditwheel) This package is up to date.
 [INFO] (audman) This package is up to date.
+[INFO] (audrey) Data has been updated for this package.
 [INFO] (auf-refer) This package is up to date.
 [INFO] (aufmachen) This package is up to date.
 [ERROR] (augeas) This package does not have downloadable releases.
@@ -5778,12 +5782,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (avpy) This package is up to date.
 [INFO] (avr-helpers) This package is up to date.
 [ERROR] (avrem) This package does not have downloadable releases.
-[INFO] (avro) Data has been updated for this package.
+[INFO] (avro) This package is up to date.
 [INFO] (avro-codec) This package is up to date.
 [INFO] (avro-gen) This package is up to date.
 [INFO] (avro-json-serializer) This package is up to date.
 [INFO] (avro-py3) This package is up to date.
-[INFO] (avro-python3) Data has been updated for this package.
+[INFO] (avro-python3) This package is up to date.
 [INFO] (avro-python3-snapshot) This package is up to date.
 [ERROR] (avro-registry) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -5848,7 +5852,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (awesomeness) This package is up to date.
 [INFO] (awesomestream) This package is up to date.
 [INFO] (awesto-djangocms-carousel) This package is up to date.
-[INFO] (awftp) This package is up to date.
+[INFO] (awftp) Data has been updated for this package.
 [ERROR] (awfulpy) This package does not have downloadable releases.
 [INFO] (awg) This package is up to date.
 [INFO] (awh) This package is up to date.
@@ -6180,10 +6184,10 @@ This package download URL does not point to a valid file: "https://launchpad.net
 [INFO] (azuresshconfig) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 4832
-[INFO]     Packages processed: 4832
-[INFO]         Packages updated: 21
-[INFO]         Packages up-to-date: 4321
+[INFO] Total packages: 4836
+[INFO]     Packages processed: 4836
+[INFO]         Packages updated: 14
+[INFO]         Packages up-to-date: 4332
 [INFO]         Packages without response: 48
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 379

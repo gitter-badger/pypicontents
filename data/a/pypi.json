@@ -5539,7 +5539,7 @@
             "challonge.tournament",
             "challonge.user"
         ],
-        "version": "1.2.0"
+        "version": "1.3.0"
     },
     "achemkit": {
         "cmdline": [],
@@ -7229,6 +7229,24 @@
         ],
         "version": "2.0"
     },
+    "acsoo": {
+        "cmdline": [],
+        "modules": [
+            "acsoo",
+            "acsoo.config",
+            "acsoo.flake8cmd",
+            "acsoo.main",
+            "acsoo.pylintcmd",
+            "acsoo.release",
+            "acsoo.tag",
+            "acsoo.tag_editable_requirements",
+            "acsoo.templates",
+            "acsoo.templates.hooks",
+            "acsoo.tools",
+            "acsoo.wheel"
+        ],
+        "version": "1.0.1"
+    },
     "acspy": {
         "cmdline": [],
         "modules": [
@@ -7463,7 +7481,7 @@
             "actionml",
             "actionml.connection"
         ],
-        "version": "0.0.8"
+        "version": "0.0.10"
     },
     "actions": {
         "cmdline": [],
@@ -11404,7 +11422,7 @@
             "AdvancedHTMLParser.exceptions",
             "AdvancedHTMLParser.utils"
         ],
-        "version": "7.0.2"
+        "version": "7.1.0"
     },
     "advancedhttpserver": {
         "cmdline": [],
@@ -18831,8 +18849,10 @@
     },
     "aiohttp-ultrajson": {
         "cmdline": [],
-        "modules": [],
-        "version": "0.0.1"
+        "modules": [
+            "aiohttp_ultrajson"
+        ],
+        "version": "0.1.0"
     },
     "aiohttp-utils": {
         "cmdline": [],
@@ -19922,6 +19942,18 @@
         ],
         "version": "1.2.0"
     },
+    "aioqueue": {
+        "cmdline": [],
+        "modules": [
+            "aioqueue",
+            "aioqueue.exceptions",
+            "aioqueue.logger",
+            "aioqueue.queue",
+            "aioqueue.response",
+            "aioqueue.task"
+        ],
+        "version": "0.1.4"
+    },
     "aiorabbitmq": {
         "cmdline": [],
         "modules": [
@@ -20675,7 +20707,7 @@
             "aiotg.mock",
             "aiotg.reloader"
         ],
-        "version": "0.9.0"
+        "version": "0.9.1"
     },
     "aiothrift": {
         "cmdline": [],
@@ -20993,16 +21025,34 @@
             "aioxmpp.adhoc",
             "aioxmpp.adhoc.service",
             "aioxmpp.adhoc.xso",
+            "aioxmpp.avatar",
+            "aioxmpp.avatar.service",
+            "aioxmpp.avatar.xso",
+            "aioxmpp.benchtest",
+            "aioxmpp.blocking",
+            "aioxmpp.blocking.service",
+            "aioxmpp.blocking.xso",
+            "aioxmpp.bookmarks",
+            "aioxmpp.bookmarks.service",
+            "aioxmpp.bookmarks.xso",
+            "aioxmpp.cache",
             "aioxmpp.callbacks",
+            "aioxmpp.carbons",
+            "aioxmpp.carbons.service",
+            "aioxmpp.carbons.xso",
             "aioxmpp.connector",
             "aioxmpp.custom_queue",
             "aioxmpp.disco",
             "aioxmpp.disco.service",
             "aioxmpp.disco.xso",
+            "aioxmpp.dispatcher",
             "aioxmpp.e2etest",
             "aioxmpp.e2etest.provision",
             "aioxmpp.e2etest.utils",
             "aioxmpp.entitycaps",
+            "aioxmpp.entitycaps.caps115",
+            "aioxmpp.entitycaps.caps390",
+            "aioxmpp.entitycaps.common",
             "aioxmpp.entitycaps.service",
             "aioxmpp.entitycaps.xso",
             "aioxmpp.errors",
@@ -21010,19 +21060,37 @@
             "aioxmpp.forms.fields",
             "aioxmpp.forms.form",
             "aioxmpp.forms.xso",
+            "aioxmpp.hashes",
             "aioxmpp.i18n",
-            "aioxmpp.mam",
-            "aioxmpp.mam.xso",
+            "aioxmpp.im",
+            "aioxmpp.im.body",
+            "aioxmpp.im.conversation",
+            "aioxmpp.im.dispatcher",
+            "aioxmpp.im.muc",
+            "aioxmpp.im.p2p",
+            "aioxmpp.im.service",
+            "aioxmpp.mdr",
+            "aioxmpp.mdr.service",
+            "aioxmpp.mdr.xso",
+            "aioxmpp.misc",
+            "aioxmpp.misc.delay",
+            "aioxmpp.misc.forwarding",
             "aioxmpp.muc",
             "aioxmpp.muc.service",
             "aioxmpp.muc.xso",
             "aioxmpp.network",
             "aioxmpp.node",
             "aioxmpp.nonza",
-            "aioxmpp.plugins",
-            "aioxmpp.plugins.xep0199",
+            "aioxmpp.pep",
+            "aioxmpp.pep.service",
+            "aioxmpp.ping",
+            "aioxmpp.ping.service",
+            "aioxmpp.ping.xso",
             "aioxmpp.presence",
             "aioxmpp.presence.service",
+            "aioxmpp.private_xml",
+            "aioxmpp.private_xml.service",
+            "aioxmpp.private_xml.xso",
             "aioxmpp.protocol",
             "aioxmpp.pubsub",
             "aioxmpp.pubsub.service",
@@ -21056,9 +21124,11 @@
             "aioxmpp.xso",
             "aioxmpp.xso.model",
             "aioxmpp.xso.query",
-            "aioxmpp.xso.types"
+            "aioxmpp.xso.types",
+            "benchmarks",
+            "benchmarks.test_xml"
         ],
-        "version": "0.8.0"
+        "version": "0.9.0"
     },
     "aioyoyo": {
         "cmdline": [],
@@ -33444,6 +33514,16 @@
         ],
         "version": "1.6"
     },
+    "alpha-vantage": {
+        "cmdline": [],
+        "modules": [
+            "alpha_vantage",
+            "alpha_vantage.alphavantage",
+            "alpha_vantage.techindicators",
+            "alpha_vantage.timeseries"
+        ],
+        "version": "0.1.9"
+    },
     "alphabet-detector": {
         "cmdline": [],
         "modules": [
@@ -37742,7 +37822,7 @@
         "modules": [
             "fruityloops"
         ],
-        "version": "1.0"
+        "version": "1.2.1"
     },
     "analog": {
         "cmdline": [],
@@ -43618,7 +43698,7 @@
             "ansimarkup.tags",
             "ansimarkup.test"
         ],
-        "version": "0.4.0"
+        "version": "1.0.0"
     },
     "ansiqa": {
         "cmdline": [],
@@ -71227,7 +71307,7 @@
             "astraviso.test.worldobject",
             "astraviso.worldobject"
         ],
-        "version": "0.1.0"
+        "version": "0.1.1"
     },
     "astrid": {
         "cmdline": [],
@@ -79875,6 +79955,11 @@
         ],
         "version": "0.3.1"
     },
+    "audrey": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0"
+    },
     "auf-refer": {
         "cmdline": [],
         "modules": [
@@ -86706,7 +86791,7 @@
             "aw.parse",
             "aw.tools"
         ],
-        "version": "0.2.0"
+        "version": "1.0.1"
     },
     "awfulpy": {
         "cmdline": [],
