@@ -9,7 +9,7 @@
 [INFO] (g2p) This package is up to date.
 [INFO] (g2sd) This package is up to date.
 [INFO] (g2tools) This package is up to date.
-[INFO] (g3ar) This package is up to date.
+[INFO] (g3ar) Data has been updated for this package.
 [INFO] (g3py) This package is up to date.
 [INFO] (g5mouse) This package is up to date.
 [INFO] (g8core) This package is up to date.
@@ -162,7 +162,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (gallerize) This package is up to date.
 [ERROR] (gallerpy) This package does not have downloadable releases.
 [INFO] (gallery) This package is up to date.
-[INFO] (gallery-dl) This package is up to date.
+[INFO] (gallery-dl) Data has been updated for this package.
 [INFO] (gallery-get) This package is up to date.
 [INFO] (gallery-uploader) This package is up to date.
 [ERROR] (gallery2.py) Could not extract data from this package. See below for details.
@@ -647,7 +647,7 @@ Unsupported package directory structure.
 [INFO] (gcs-oauth2-boto-plugin-grow) This package is up to date.
 [INFO] (gcsannex) This package is up to date.
 [INFO] (gcse-images) This package is up to date.
-[INFO] (gcspypi) This package is up to date.
+[INFO] (gcspypi) Data has been updated for this package.
 [ERROR] (gcstream) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -722,7 +722,7 @@ Unsupported package directory structure.
 [ERROR] (gds-docker-setup) This package does not have downloadable releases.
 [INFO] (gds-nagios-plugins) This package is up to date.
 [INFO] (gdscad) This package is up to date.
-[INFO] (gdsctools) This package is up to date.
+[INFO] (gdsctools) Data has been updated for this package.
 [INFO] (gdshortener) This package is up to date.
 [INFO] (gdspy) This package is up to date.
 [INFO] (gdsync) This package is up to date.
@@ -1004,7 +1004,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (genomedata) This package is up to date.
 [ERROR] (genomediagram) This package does not have downloadable releases.
 [INFO] (genomediff) This package is up to date.
-[INFO] (genomepy) Data has been updated for this package.
+[INFO] (genomepy) This package is up to date.
 [INFO] (genomes) This package is up to date.
 [INFO] (genomespaceio) This package is up to date.
 [INFO] (genometk) This package is up to date.
@@ -1536,6 +1536,7 @@ urllib.error.URLError: <urlopen error [Errno 111] Connection refused>
 [INFO] (getprojects) This package is up to date.
 [INFO] (getproperties) This package is up to date.
 [INFO] (getprox) This package is up to date.
+[INFO] (getproxy) Data has been updated for this package.
 [INFO] (getresponse) This package is up to date.
 [INFO] (getrpimodel) This package is up to date.
 [INFO] (getsecure) This package is up to date.
@@ -1952,7 +1953,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (gists.cli) This package is up to date.
 [INFO] (git-aggregator) This package is up to date.
 [INFO] (git-annex-remote-qcloud) This package is up to date.
-[INFO] (git-app-version) This package is up to date.
+[INFO] (git-app-version) Data has been updated for this package.
 [INFO] (git-archive) This package is up to date.
 [INFO] (git-archive-all) This package is up to date.
 [INFO] (git-auto-deploy) This package is up to date.
@@ -2062,7 +2063,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (git-remote-dropbox) This package is up to date.
 [INFO] (git-remote-hg) This package is up to date.
 [INFO] (git-remote-hg3) This package is up to date.
-[INFO] (git-repo) This package is up to date.
+[INFO] (git-repo) Data has been updated for this package.
 [INFO] (git-repo-backup) This package is up to date.
 [INFO] (git-repo-hooks) This package is up to date.
 [INFO] (git-repo-manager) This package is up to date.
@@ -2486,13 +2487,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (giusas) This package is up to date.
 [INFO] (give) This package is up to date.
 [INFO] (give-me-code) This package is up to date.
+[INFO] (giveme) Data has been updated for this package.
 [INFO] (giwyn) This package is up to date.
-[INFO] (gixy) This package is up to date.
+[INFO] (gixy) Data has been updated for this package.
 [INFO] (giza) This package is up to date.
 [INFO] (gizeh) This package is up to date.
 [INFO] (gizela) This package is up to date.
 [INFO] (gizmo) This package is up to date.
-[INFO] (gizoogle) Data has been updated for this package.
+[INFO] (gizoogle) This package is up to date.
 [INFO] (gizoogle-py) This package is up to date.
 [INFO] (gj) This package is up to date.
 [INFO] (gj2ascii) This package is up to date.
@@ -2741,7 +2743,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (glue-synapse) This package is up to date.
 [INFO] (glue-vispy-viewers) This package is up to date.
 [ERROR] (glue.py) This package does not have downloadable releases.
-[INFO] (glueplate) This package is up to date.
+[INFO] (glueplate) Data has been updated for this package.
 [INFO] (glueviz) This package is up to date.
 [INFO] (gluino) This package is up to date.
 [INFO] (gluish) This package is up to date.
@@ -2757,7 +2759,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (gluttony-tw) This package is up to date.
 [INFO] (gluttonytw) This package is up to date.
 [INFO] (glver) This package is up to date.
-[INFO] (glwindow) This package is up to date.
+[INFO] (glwindow) Data has been updated for this package.
 [ERROR] (glycomesite.policy) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://oodt.jpl.nasa.gov/dist/glycomesite-policy"
 [ERROR] (glycomesite.theme) Could not extract data from this package. See below for details.
@@ -2941,7 +2943,7 @@ This package download URL does not point to a valid file: "http://www.govorun.or
 [INFO] (goby) This package is up to date.
 [INFO] (gocardless) This package is up to date.
 [INFO] (gocardless-pro) This package is up to date.
-[INFO] (gocd) Data has been updated for this package.
+[INFO] (gocd) This package is up to date.
 [INFO] (gocd-cipher) This package is up to date.
 [INFO] (gocd-cli) This package is up to date.
 [INFO] (gocd-cli.commands.echo) This package is up to date.
@@ -3282,7 +3284,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (googleapis-artman) Data has been updated for this package.
+[INFO] (googleapis-artman) This package is up to date.
 [INFO] (googleapis-common-protos) This package is up to date.
 [INFO] (googleappenginecloudstorageclient) This package is up to date.
 [INFO] (googleappenginemapreduce) This package is up to date.
@@ -3990,7 +3992,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (graypython) This package is up to date.
 [ERROR] (grayson) This package does not have downloadable releases.
 [INFO] (graystruct) This package is up to date.
-[INFO] (grazyna) This package is up to date.
+[INFO] (grazyna) Data has been updated for this package.
 [INFO] (grbackup) This package is up to date.
 [INFO] (grc) This package is up to date.
 [INFO] (grcpass) This package is up to date.
@@ -4044,7 +4046,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (greenrpc) This package is up to date.
 [ERROR] (greenstack) This package does not have downloadable releases.
 [INFO] (greenstack-greenlet) This package is up to date.
-[INFO] (greenstalk) This package is up to date.
+[INFO] (greenstalk) Data has been updated for this package.
 [INFO] (greenswitch) This package is up to date.
 [INFO] (greentasks) This package is up to date.
 [INFO] (greentranslator) This package is up to date.
@@ -4097,7 +4099,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (grid-toolkit) This package is up to date.
 [INFO] (grid-top-est) This package is up to date.
 [INFO] (gridaurora) This package is up to date.
-[INFO] (gridcal) Data has been updated for this package.
+[INFO] (gridcal) This package is up to date.
 [INFO] (gridcells) This package is up to date.
 [INFO] (gridcentric-python-novaclient-ext) This package is up to date.
 [INFO] (griddataformats) This package is up to date.
@@ -4315,7 +4317,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (grpc-google-longrunning-v2) This package is up to date.
 [INFO] (grpc-google-monitoring-v3) This package is up to date.
 [INFO] (grpc-google-pubsub-v1) This package is up to date.
-[INFO] (grpc-pytools) This package is up to date.
+[INFO] (grpc-pytools) Data has been updated for this package.
 [INFO] (grpcgreeter) This package is up to date.
 [INFO] (grpcio) This package is up to date.
 [INFO] (grpcio-health-checking) This package is up to date.
@@ -4577,7 +4579,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (guachi) This package is up to date.
 [INFO] (guajiro) This package is up to date.
 [INFO] (guan-nester) This package is up to date.
-[INFO] (guano) Data has been updated for this package.
+[INFO] (guano) This package is up to date.
 [INFO] (guarantee) This package is up to date.
 [INFO] (guard) This package is up to date.
 [ERROR] (guardian) This package does not have downloadable releases.
@@ -4628,12 +4630,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (guillotina) This package is up to date.
 [INFO] (guillotina-dbusers) This package is up to date.
 [INFO] (guillotina-elasticsearch) This package is up to date.
-[INFO] (guillotina-gcloudstorage) Data has been updated for this package.
+[INFO] (guillotina-gcloudstorage) This package is up to date.
 [INFO] (guillotina-mailer) This package is up to date.
 [INFO] (guillotina-oauth) This package is up to date.
 [INFO] (guillotina-pgcatalog) This package is up to date.
 [INFO] (guillotina-rediscache) This package is up to date.
-[INFO] (guillotina-s3storage) Data has been updated for this package.
+[INFO] (guillotina-s3storage) This package is up to date.
 [INFO] (guillotina-swagger) This package is up to date.
 [INFO] (guillotine) This package is up to date.
 [INFO] (guippy) This package is up to date.
@@ -4833,10 +4835,10 @@ This package download URL does not point to a valid file: "http://gyrfalcon.sour
 [INFO] (gzlog) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 3755
-[INFO]     Packages processed: 3755
-[INFO]         Packages updated: 11
-[INFO]         Packages up-to-date: 3357
+[INFO] Total packages: 3757
+[INFO]     Packages processed: 3757
+[INFO]         Packages updated: 17
+[INFO]         Packages up-to-date: 3353
 [INFO]         Packages without response: 34
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 287

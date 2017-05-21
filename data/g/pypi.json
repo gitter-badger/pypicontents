@@ -149,7 +149,7 @@
             "g3ar.utils.thread_utils",
             "g3ar.utils.verify_utils"
         ],
-        "version": "0.5.1"
+        "version": "0.5.3"
     },
     "g3py": {
         "cmdline": [],
@@ -3887,7 +3887,6 @@
             "gallery_dl.extractor.twitter",
             "gallery_dl.extractor.worldthree",
             "gallery_dl.extractor.yandere",
-            "gallery_dl.extractor.yomanga",
             "gallery_dl.extractor.yonkouprod",
             "gallery_dl.job",
             "gallery_dl.option",
@@ -3896,7 +3895,7 @@
             "gallery_dl.util",
             "gallery_dl.version"
         ],
-        "version": "0.8.3"
+        "version": "0.8.4"
     },
     "gallery-get": {
         "cmdline": [],
@@ -11642,12 +11641,13 @@
     "gcspypi": {
         "cmdline": [],
         "modules": [
-            "gcspypi",
-            "gcspypi.pb",
-            "gcspypi.pm",
-            "gcspypi.utils"
+            "ethronsoft",
+            "ethronsoft.gcspypi",
+            "ethronsoft.gcspypi.pb",
+            "ethronsoft.gcspypi.pm",
+            "ethronsoft.gcspypi.utils"
         ],
-        "version": "1.0.0"
+        "version": "1.0.1"
     },
     "gcstream": {
         "cmdline": [],
@@ -12545,7 +12545,7 @@
             "gdsctools.tools",
             "gdsctools.volcano"
         ],
-        "version": "0.18.0"
+        "version": "0.19.0"
     },
     "gdshortener": {
         "cmdline": [],
@@ -21618,6 +21618,15 @@
         ],
         "version": "0.1.1"
     },
+    "getproxy": {
+        "cmdline": [],
+        "modules": [
+            "getproxy",
+            "getproxy.cli",
+            "getproxy.getproxy"
+        ],
+        "version": "0.1.0"
+    },
     "getresponse": {
         "cmdline": [],
         "modules": [
@@ -23780,7 +23789,7 @@
             "gh2md.gh2md",
             "gh2md.templates_markdown"
         ],
-        "version": "0.1"
+        "version": "0.1.4.dev0"
     },
     "ghalatawi": {
         "cmdline": [],
@@ -24902,7 +24911,7 @@
             "gigalixir.usage",
             "gigalixir.user"
         ],
-        "version": "0.8.0"
+        "version": "0.9.1"
     },
     "giganews": {
         "cmdline": [],
@@ -26782,16 +26791,16 @@
         "cmdline": [],
         "modules": [
             "git_app_version",
+            "git_app_version._version",
             "git_app_version.dumper",
             "git_app_version.githandler",
             "git_app_version.helper",
             "git_app_version.helper.date",
             "git_app_version.helper.tools",
-            "git_app_version.version",
             "test_helpers",
             "test_helpers.git_utils"
         ],
-        "version": "1.0.0b3"
+        "version": "1.0.0"
     },
     "git-archive": {
         "cmdline": [
@@ -27710,9 +27719,12 @@
             "git_repo.services.ext.gitlab",
             "git_repo.services.ext.gogs",
             "git_repo.services.service",
-            "git_repo.tools"
+            "git_repo.tools",
+            "tests",
+            "tests.conftest",
+            "tests.helpers"
         ],
-        "version": "1.10.1"
+        "version": "1.10.2"
     },
     "git-repo-backup": {
         "cmdline": [
@@ -31345,6 +31357,13 @@
         "modules": [],
         "version": "0.0.1"
     },
+    "giveme": {
+        "cmdline": [],
+        "modules": [
+            "giveme"
+        ],
+        "version": "0.0.1"
+    },
     "giwyn": {
         "cmdline": [],
         "modules": [
@@ -31404,7 +31423,7 @@
             "gixy.plugins.ssrf",
             "gixy.plugins.valid_referers"
         ],
-        "version": "0.1.4"
+        "version": "0.1.5"
     },
     "giza": {
         "cmdline": [],
@@ -35194,7 +35213,7 @@
             "glueplate",
             "glueplate.config"
         ],
-        "version": "1.0"
+        "version": "1.0.1"
     },
     "glueviz": {
         "cmdline": [],
@@ -35643,7 +35662,7 @@
             "GLWindow",
             "GLWindow.keys"
         ],
-        "version": "2.0.1"
+        "version": "2.0.3"
     },
     "glycomesite.policy": {
         "cmdline": [],
@@ -41583,9 +41602,10 @@
         "cmdline": [],
         "modules": [
             "goo",
-            "goo.base"
+            "goo.base",
+            "goo.time"
         ],
-        "version": "0.3"
+        "version": "0.7"
     },
     "goobook": {
         "cmdline": [],
@@ -54166,6 +54186,7 @@
             "grazyna.plugins.ruletka",
             "grazyna.plugins.title",
             "grazyna.plugins.weather",
+            "grazyna.plugins.weekend",
             "grazyna.request",
             "grazyna.tests",
             "grazyna.tests.test_get_args",
@@ -54174,7 +54195,7 @@
             "grazyna.utils.event_loop",
             "grazyna.utils.types"
         ],
-        "version": "0.6.9"
+        "version": "0.6.12"
     },
     "grbackup": {
         "cmdline": [],
@@ -54763,7 +54784,7 @@
             "greenstalk.client",
             "greenstalk.exceptions"
         ],
-        "version": "0.1.0"
+        "version": "0.2.0"
     },
     "greenswitch": {
         "cmdline": [],
@@ -59386,11 +59407,15 @@
         "cmdline": [],
         "modules": [
             "grpc_pytools",
+            "grpc_pytools.helpers",
             "grpc_pytools.marshmallow",
+            "grpc_pytools.protoc_plugins",
+            "grpc_pytools.protoc_plugins.ast",
+            "grpc_pytools.protoc_plugins.generator",
             "grpc_pytools.pythonic",
             "grpc_pytools.restart"
         ],
-        "version": "0.0.3"
+        "version": "0.1.0"
     },
     "grpcgreeter": {
         "cmdline": [],
