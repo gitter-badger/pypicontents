@@ -5077,7 +5077,7 @@
             "falcon_auth.middleware",
             "falcon_auth.serializer"
         ],
-        "version": "1.0.2"
+        "version": "1.0.3"
     },
     "falcon-autocrud": {
         "cmdline": [],
@@ -6290,6 +6290,7 @@
             "fanficfare.adapters",
             "fanficfare.adapters.adapter_adastrafanficcom",
             "fanficfare.adapters.adapter_adultfanfictionorg",
+            "fanficfare.adapters.adapter_alternatehistorycom",
             "fanficfare.adapters.adapter_andromedawebcom",
             "fanficfare.adapters.adapter_archiveofourownorg",
             "fanficfare.adapters.adapter_archiveskyehawkecom",
@@ -6306,6 +6307,7 @@
             "fanficfare.adapters.adapter_chosentwofanficcom",
             "fanficfare.adapters.adapter_csiforensicscom",
             "fanficfare.adapters.adapter_darksolaceorg",
+            "fanficfare.adapters.adapter_deandamagecom",
             "fanficfare.adapters.adapter_deepinmysoulnet",
             "fanficfare.adapters.adapter_destinysgatewaycom",
             "fanficfare.adapters.adapter_dokugacom",
@@ -6338,15 +6340,19 @@
             "fanficfare.adapters.adapter_forumsspacebattlescom",
             "fanficfare.adapters.adapter_forumssufficientvelocitycom",
             "fanficfare.adapters.adapter_gluttonyfictioncom",
+            "fanficfare.adapters.adapter_gravitytalescom",
             "fanficfare.adapters.adapter_harrypotterfanfictioncom",
             "fanficfare.adapters.adapter_hlfictionnet",
             "fanficfare.adapters.adapter_hpfanficarchivecom",
             "fanficfare.adapters.adapter_iketernalnet",
             "fanficfare.adapters.adapter_imagineeficcom",
+            "fanficfare.adapters.adapter_imrightbehindyoucom",
             "fanficfare.adapters.adapter_indeathnet",
+            "fanficfare.adapters.adapter_inkbunnynet",
             "fanficfare.adapters.adapter_itcouldhappennet",
             "fanficfare.adapters.adapter_kiarepositorymujajinet",
             "fanficfare.adapters.adapter_ksarchivecom",
+            "fanficfare.adapters.adapter_lcfanficcom",
             "fanficfare.adapters.adapter_libraryofmoriacom",
             "fanficfare.adapters.adapter_literotica",
             "fanficfare.adapters.adapter_looselugscom",
@@ -6358,8 +6364,10 @@
             "fanficfare.adapters.adapter_mediaminerorg",
             "fanficfare.adapters.adapter_merlinficdtwinscouk",
             "fanficfare.adapters.adapter_midnightwhispers",
+            "fanficfare.adapters.adapter_mttjustoncenet",
             "fanficfare.adapters.adapter_mugglenetcom",
             "fanficfare.adapters.adapter_naiceanilmenet",
+            "fanficfare.adapters.adapter_narutoficorg",
             "fanficfare.adapters.adapter_nationallibrarynet",
             "fanficfare.adapters.adapter_ncisficcom",
             "fanficfare.adapters.adapter_ncisfictioncom",
@@ -6367,6 +6375,8 @@
             "fanficfare.adapters.adapter_nhamagicalworldsus",
             "fanficfare.adapters.adapter_ninelivesarchivecom",
             "fanficfare.adapters.adapter_nocturnallightnet",
+            "fanficfare.adapters.adapter_noveltrovecom",
+            "fanficfare.adapters.adapter_obidalanet",
             "fanficfare.adapters.adapter_occlumencysycophanthexcom",
             "fanficfare.adapters.adapter_phoenixsongnet",
             "fanficfare.adapters.adapter_pommedesangcom",
@@ -6389,18 +6399,24 @@
             "fanficfare.adapters.adapter_siyecouk",
             "fanficfare.adapters.adapter_spikeluvercom",
             "fanficfare.adapters.adapter_squidgeorgpeja",
+            "fanficfare.adapters.adapter_starskyhutcharchivenet",
             "fanficfare.adapters.adapter_starslibrarynet",
             "fanficfare.adapters.adapter_storiesofardacom",
             "fanficfare.adapters.adapter_storiesonlinenet",
             "fanficfare.adapters.adapter_sugarquillnet",
+            "fanficfare.adapters.adapter_swordborderlineangelcom",
+            "fanficfare.adapters.adapter_tasteofpoisoninkubationnet",
             "fanficfare.adapters.adapter_tenhawkpresentscom",
             "fanficfare.adapters.adapter_test1",
             "fanficfare.adapters.adapter_tgstorytimecom",
             "fanficfare.adapters.adapter_thealphagatecom",
+            "fanficfare.adapters.adapter_thebrokenworldorg",
+            "fanficfare.adapters.adapter_thedelphicexpansecom",
             "fanficfare.adapters.adapter_thehookupzonenet",
             "fanficfare.adapters.adapter_themaplebookshelf",
             "fanficfare.adapters.adapter_themasquenet",
             "fanficfare.adapters.adapter_thepetulantpoetesscom",
+            "fanficfare.adapters.adapter_thundercatsfansorg",
             "fanficfare.adapters.adapter_tolkienfanfiction",
             "fanficfare.adapters.adapter_tomparisdormcom",
             "fanficfare.adapters.adapter_trekfanfictionnet",
@@ -6408,14 +6424,19 @@
             "fanficfare.adapters.adapter_tthfanficorg",
             "fanficfare.adapters.adapter_twilightarchivescom",
             "fanficfare.adapters.adapter_twilightednet",
+            "fanficfare.adapters.adapter_unknowableroomorg",
             "fanficfare.adapters.adapter_valentchambercom",
             "fanficfare.adapters.adapter_voracity2eficcom",
             "fanficfare.adapters.adapter_walkingtheplankorg",
+            "fanficfare.adapters.adapter_wattpadcom",
+            "fanficfare.adapters.adapter_webnovelcom",
             "fanficfare.adapters.adapter_whoficcom",
             "fanficfare.adapters.adapter_wolverineandroguecom",
             "fanficfare.adapters.adapter_wraithbaitcom",
             "fanficfare.adapters.adapter_writingwhimsicalwanderingsnet",
             "fanficfare.adapters.adapter_wuxiaworldcom",
+            "fanficfare.adapters.adapter_www13hoursorg",
+            "fanficfare.adapters.adapter_wwwaneroticstorycom",
             "fanficfare.adapters.adapter_wwwarea52hkhnet",
             "fanficfare.adapters.adapter_wwwgiantessworldnet",
             "fanficfare.adapters.adapter_wwwlushstoriescom",
@@ -6442,7 +6463,7 @@
             "fanficfare.writers.writer_mobi",
             "fanficfare.writers.writer_txt"
         ],
-        "version": "2.10.0"
+        "version": "2.12.1"
     },
     "fanfiction": {
         "cmdline": [],
@@ -6496,7 +6517,7 @@
             "fanfoucli.config",
             "fanfoucli.fan"
         ],
-        "version": "0.1.9"
+        "version": "0.1.11"
     },
     "fang": {
         "cmdline": [],
@@ -9807,7 +9828,7 @@
             "fbemissary.tests.test_models",
             "fbemissary.webhook"
         ],
-        "version": "0.0.1"
+        "version": "0.0.2"
     },
     "fbfbot": {
         "cmdline": [],
@@ -15440,6 +15461,11 @@
         ],
         "version": "0.0.1.dev4"
     },
+    "fetch-linux-security-patches-and-kernel": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.1.dev10"
+    },
     "fetchapp-api": {
         "cmdline": [],
         "modules": [],
@@ -20718,6 +20744,10 @@
             "findex_common.bytes2human",
             "findex_common.cfg",
             "findex_common.colors",
+            "findex_common.crawl",
+            "findex_common.crawl.crawl",
+            "findex_common.crawl.files",
+            "findex_common.crawl.http",
             "findex_common.exceptions",
             "findex_common.filetypes",
             "findex_common.logo",
@@ -20726,7 +20756,7 @@
             "findex_common.utils",
             "findex_common.utils_time"
         ],
-        "version": "0.5.11"
+        "version": "0.5.13"
     },
     "findex-gui": {
         "cmdline": [],
@@ -20793,12 +20823,11 @@
             "findex_gui.main",
             "findex_gui.orm",
             "findex_gui.orm.connect",
-            "findex_gui.orm.events",
             "findex_gui.orm.models",
             "findex_gui.orm.queries",
             "findex_gui.web"
         ],
-        "version": "0.2.12"
+        "version": "0.2.18"
     },
     "findfiles": {
         "cmdline": [],
@@ -22961,11 +22990,14 @@
             "fire.parser_fuzz_test",
             "fire.parser_test",
             "fire.test_components",
+            "fire.test_components_py3",
             "fire.test_components_test",
+            "fire.testutils",
+            "fire.testutils_test",
             "fire.trace",
             "fire.trace_test"
         ],
-        "version": "0.1.0"
+        "version": "0.1.1"
     },
     "fireant": {
         "cmdline": [],
@@ -25077,6 +25109,13 @@
             "fix_chitown.utils"
         ],
         "version": "1.0.0"
+    },
+    "fix-yahoo-finance": {
+        "cmdline": [],
+        "modules": [
+            "fix_yahoo_finance"
+        ],
+        "version": "0.0.3"
     },
     "fixalbumart": {
         "cmdline": [],
@@ -35312,6 +35351,13 @@
         ],
         "version": "0.3"
     },
+    "flask-sri": {
+        "cmdline": [],
+        "modules": [
+            "flask_sri"
+        ],
+        "version": "0.0.0"
+    },
     "flask-ssdb": {
         "cmdline": [],
         "modules": [
@@ -38322,34 +38368,6 @@
     "flexget": {
         "cmdline": [],
         "modules": [
-            "api_tests",
-            "api_tests.test_api_validator",
-            "api_tests.test_authentication_api",
-            "api_tests.test_cached_api",
-            "api_tests.test_database_api",
-            "api_tests.test_entry_list_api",
-            "api_tests.test_etag",
-            "api_tests.test_execute_api",
-            "api_tests.test_failed_api",
-            "api_tests.test_format_checker_api",
-            "api_tests.test_history_api",
-            "api_tests.test_imdb_lookup_api",
-            "api_tests.test_movie_list_api",
-            "api_tests.test_pending_api",
-            "api_tests.test_plugins_api",
-            "api_tests.test_rejected_api",
-            "api_tests.test_schedule_api",
-            "api_tests.test_seen_api",
-            "api_tests.test_series_api",
-            "api_tests.test_server_api",
-            "api_tests.test_status_api",
-            "api_tests.test_tasks_api",
-            "api_tests.test_tmdb_lookup",
-            "api_tests.test_trakt_lookup_api",
-            "api_tests.test_tvdb_lookup_api",
-            "api_tests.test_tvmaze_lookup_api",
-            "api_tests.test_user_api",
-            "api_tests.test_variables_api",
             "flexget",
             "flexget._version",
             "flexget.api",
@@ -38741,7 +38759,7 @@
             "flexget.validator",
             "flexget.webserver"
         ],
-        "version": "2.10.48"
+        "version": "2.10.49"
     },
     "flexible-dotdict": {
         "cmdline": [],
@@ -43684,6 +43702,18 @@
         ],
         "version": "0.1.0"
     },
+    "fmpy": {
+        "cmdline": [],
+        "modules": [
+            "fmpy",
+            "fmpy.crossCheck",
+            "fmpy.fmi1",
+            "fmpy.fmi2",
+            "fmpy.modelDescription",
+            "fmpy.simulate"
+        ],
+        "version": "0.0.2"
+    },
     "fmq": {
         "cmdline": [],
         "modules": [
@@ -43761,14 +43791,14 @@
             "test.workflows.test_confounds",
             "test.workflows.utilities"
         ],
-        "version": "0.4.3"
+        "version": "0.4.4"
     },
     "fmriprep-docker": {
         "cmdline": [],
         "modules": [
             "fmriprep_docker"
         ],
-        "version": "0.4.3"
+        "version": "0.4.4"
     },
     "fms": {
         "cmdline": [],
@@ -49984,6 +50014,7 @@
             "freediscovery._version",
             "freediscovery.base",
             "freediscovery.categorization",
+            "freediscovery.cli",
             "freediscovery.cluster",
             "freediscovery.cluster.base",
             "freediscovery.cluster.birch",
@@ -50008,11 +50039,11 @@
             "freediscovery.lsi",
             "freediscovery.metrics",
             "freediscovery.neighbors",
-            "freediscovery.parsers",
             "freediscovery.pipeline",
             "freediscovery.search",
             "freediscovery.server",
             "freediscovery.server.app",
+            "freediscovery.server.gunicorn",
             "freediscovery.server.resources",
             "freediscovery.server.schemas",
             "freediscovery.server.tests",
@@ -50045,16 +50076,16 @@
             "freediscovery.tests.test_lsi",
             "freediscovery.tests.test_metrics",
             "freediscovery.tests.test_neighbors",
-            "freediscovery.tests.test_parsers",
             "freediscovery.tests.test_search",
             "freediscovery.tests.test_stop_words",
             "freediscovery.tests.test_text",
             "freediscovery.tests.test_thread",
             "freediscovery.tests.test_utils",
             "freediscovery.text",
-            "freediscovery.utils"
+            "freediscovery.utils",
+            "freediscovery.viz"
         ],
-        "version": "0.9.3"
+        "version": "1.1.0"
     },
     "freedom": {
         "cmdline": [],
@@ -59197,7 +59228,7 @@
             "func_timeout.dafunc",
             "func_timeout.exceptions"
         ],
-        "version": "3.1.0"
+        "version": "4.0.0"
     },
     "func1": {
         "cmdline": [],
