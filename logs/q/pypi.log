@@ -106,7 +106,7 @@ tarfile.ReadError: not a gzip file
 [INFO] (qdns) This package is up to date.
 [INFO] (qdo) This package is up to date.
 [INFO] (qds-app) This package is up to date.
-[INFO] (qds-sdk) Data has been updated for this package.
+[INFO] (qds-sdk) This package is up to date.
 [INFO] (qdudomportal) This package is up to date.
 [INFO] (qdune) This package is up to date.
 [INFO] (qdupe) This package is up to date.
@@ -116,7 +116,7 @@ tarfile.ReadError: not a gzip file
 This package download URL does not point to a valid file: "http://danse.cacr.caltech.edu/packages/dev_danse_us/"
 [ERROR] (qed) This package does not have downloadable releases.
 [ERROR] (qemud) This package does not have downloadable releases.
-[INFO] (qet-tb-generator) Data has been updated for this package.
+[INFO] (qet-tb-generator) This package is up to date.
 [INFO] (qeutil) This package is up to date.
 [INFO] (qeventlog) This package is up to date.
 [INFO] (qexpy) This package is up to date.
@@ -575,9 +575,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quarkutilities) This package is up to date.
 [INFO] (quarry) This package is up to date.
 [ERROR] (quarry-io) This package does not have downloadable releases.
-[ERROR] (quart) This package does not have downloadable releases.
+[INFO] (quart) Data has been updated for this package.
 [INFO] (quartz) This package is up to date.
-[INFO] (quartz-browser) This package is up to date.
+[INFO] (quartz-browser) Data has been updated for this package.
 [INFO] (quasar) This package is up to date.
 [INFO] (quasiquotes) This package is up to date.
 [INFO] (quasselconf) This package is up to date.
@@ -630,7 +630,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (querify) This package is up to date.
 [INFO] (query) This package is up to date.
 [INFO] (query-collections) This package is up to date.
-[INFO] (query-exporter) This package is up to date.
+[INFO] (query-exporter) Data has been updated for this package.
 [INFO] (query-phenomizer) This package is up to date.
 [INFO] (query-reports) This package is up to date.
 [INFO] (query-selector) This package is up to date.
@@ -730,6 +730,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (quickflow) This package does not have downloadable releases.
 [INFO] (quickgist) This package is up to date.
 [INFO] (quickgui) This package is up to date.
+[INFO] (quickhull) Data has been updated for this package.
 [INFO] (quickimport) This package is up to date.
 [INFO] (quicklime) This package is up to date.
 [INFO] (quicklock) This package is up to date.
@@ -888,7 +889,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quipu) This package is up to date.
 [INFO] (quirc) This package is up to date.
 [INFO] (quirk) This package is up to date.
-[INFO] (quisk) This package is up to date.
+[ERROR] (quisk) Could not extract data from this package. See below for details.
+This package download URL does not point to a valid file: "http://james.ahlstrom.name/quisk/"
 [INFO] (quisk-lppan-k3) This package is up to date.
 [INFO] (quitdiff) This package is up to date.
 [INFO] (quite) This package is up to date.
@@ -978,14 +980,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qzonesecret) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 727
-[INFO]     Packages processed: 727
-[INFO]         Packages updated: 2
-[INFO]         Packages up-to-date: 655
+[INFO] Total packages: 728
+[INFO]     Packages processed: 728
+[INFO]         Packages updated: 4
+[INFO]         Packages up-to-date: 654
 [INFO]         Packages without response: 7
 [INFO]         Packages without urls: 0
-[INFO]         Packages without downloads: 55
-[INFO]         Packages with data errors: 8
+[INFO]         Packages without downloads: 54
+[INFO]         Packages with data errors: 9
 [INFO]     Packages not processed: 0
 [INFO] 
 [INFO] 

@@ -9083,8 +9083,30 @@
     },
     "quart": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "quart",
+            "quart.app",
+            "quart.blueprints",
+            "quart.config",
+            "quart.ctx",
+            "quart.exceptions",
+            "quart.globals",
+            "quart.helpers",
+            "quart.json",
+            "quart.local",
+            "quart.logging",
+            "quart.routing",
+            "quart.serving",
+            "quart.sessions",
+            "quart.static",
+            "quart.templating",
+            "quart.testing",
+            "quart.typing",
+            "quart.utils",
+            "quart.worker",
+            "quart.wrappers"
+        ],
+        "version": "0.1.0"
     },
     "quartz": {
         "cmdline": [],
@@ -9130,7 +9152,7 @@
             "quartz_browser.settings_dialog",
             "quartz_browser.youtube_dialog"
         ],
-        "version": "1.9.1"
+        "version": "1.9.2"
     },
     "quasar": {
         "cmdline": [],
@@ -9744,7 +9766,7 @@
             "query_exporter.tests.test_db",
             "query_exporter.tests.test_loop"
         ],
-        "version": "1.0.0"
+        "version": "1.1.0"
     },
     "query-phenomizer": {
         "cmdline": [],
@@ -10689,6 +10711,13 @@
             "quickgui.version"
         ],
         "version": "1.5.6"
+    },
+    "quickhull": {
+        "cmdline": [],
+        "modules": [
+            "QuickHull"
+        ],
+        "version": "1.0.0"
     },
     "quickimport": {
         "cmdline": [],
