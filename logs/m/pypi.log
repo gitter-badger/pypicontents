@@ -754,7 +754,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (mang) This package is up to date.
 [INFO] (manga) This package is up to date.
 [INFO] (manga-dl) This package is up to date.
-[INFO] (manga-downloader) Data has been updated for this package.
+[INFO] (manga-downloader) This package is up to date.
 [INFO] (mangacrawler) This package is up to date.
 [INFO] (mangadl) This package is up to date.
 [INFO] (mangascrap) This package is up to date.
@@ -848,7 +848,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (manticore) This package is up to date.
 [ERROR] (mantid) This package does not have downloadable releases.
 [ERROR] (mantidd) This package does not have downloadable releases.
-[INFO] (mantis) Data has been updated for this package.
+[INFO] (mantis) This package is up to date.
 [INFO] (mantis2xml) This package is up to date.
 [INFO] (mantissa) This package is up to date.
 [INFO] (mantium) This package is up to date.
@@ -1120,7 +1120,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (markdown-to-presentation) This package is up to date.
 [INFO] (markdown-toclify) This package is up to date.
 [INFO] (markdown-tracker) This package is up to date.
-[INFO] (markdown-tweetable) This package is up to date.
+[INFO] (markdown-tweetable) Data has been updated for this package.
 [INFO] (markdown-urlize) This package is up to date.
 [INFO] (markdown-viewer) This package is up to date.
 [INFO] (markdown.py) This package is up to date.
@@ -1239,7 +1239,7 @@ Unsupported package directory structure.
 [INFO] (marshest) This package is up to date.
 [INFO] (marshmallow) This package is up to date.
 [INFO] (marshmallow-configparser) This package is up to date.
-[INFO] (marshmallow-enum) Data has been updated for this package.
+[INFO] (marshmallow-enum) This package is up to date.
 [INFO] (marshmallow-form) This package is up to date.
 [INFO] (marshmallow-jsonapi) This package is up to date.
 [INFO] (marshmallow-jsonschema) This package is up to date.
@@ -1319,9 +1319,9 @@ This package download URL does not point to a valid file: "http://www.florian-di
 [INFO] (mast) This package is up to date.
 [INFO] (mast-test) This package is up to date.
 [ERROR] (master) This package does not have downloadable releases.
-[INFO] (master-password) This package is up to date.
+[INFO] (master-password) Data has been updated for this package.
 [INFO] (master-sake) This package is up to date.
-[INFO] (master-slave-router) Data has been updated for this package.
+[INFO] (master-slave-router) This package is up to date.
 [INFO] (mastercard-api-core) This package is up to date.
 [INFO] (mastercard-api-core-py3) This package is up to date.
 [INFO] (mastercard-assurance-iq) This package is up to date.
@@ -1576,7 +1576,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (mattermost-bot) This package is up to date.
 [ERROR] (mattermost-client) This package does not have downloadable releases.
 [INFO] (mattermost-log-handler) This package is up to date.
-[INFO] (mattermostapi) Data has been updated for this package.
+[INFO] (mattermostapi) This package is up to date.
 [INFO] (mattersend) This package is up to date.
 [INFO] (matthew) This package is up to date.
 [INFO] (matthisk-httpsig) This package is up to date.
@@ -1654,7 +1654,7 @@ This package download URL does not point to a valid file: "http://download.gna.o
 [INFO] (mazebase) This package is up to date.
 [INFO] (mazepy) This package is up to date.
 [INFO] (mazerunner-sdk) This package is up to date.
-[INFO] (mazerunner-sdk-python) Data has been updated for this package.
+[INFO] (mazerunner-sdk-python) This package is up to date.
 [INFO] (mazetool) This package is up to date.
 [INFO] (mazhiyuannester2014) This package is up to date.
 [INFO] (mazingame) This package is up to date.
@@ -1824,7 +1824,7 @@ This package download URL does not point to a valid file: "http://aspn.activesta
 [INFO] (mdanalysis) This package is up to date.
 [INFO] (mdanalysistests) This package is up to date.
 [INFO] (mdat) This package is up to date.
-[INFO] (mdb) Data has been updated for this package.
+[INFO] (mdb) This package is up to date.
 [ERROR] (mdbm) This package does not have downloadable releases.
 [INFO] (mdbtools) This package is up to date.
 [INFO] (mdconvert) This package is up to date.
@@ -2190,7 +2190,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (melbdjango-joke) This package is up to date.
 [INFO] (meld3) This package is up to date.
 [INFO] (melebeats) This package is up to date.
-[INFO] (melee) This package is up to date.
+[INFO] (melee) Data has been updated for this package.
 [INFO] (meli-client) This package is up to date.
 [INFO] (meliae) This package is up to date.
 [INFO] (melisma) This package is up to date.
@@ -2425,7 +2425,7 @@ This package download URL does not point to a valid file: "http://learning-pytho
 [INFO] (meshio) This package is up to date.
 [INFO] (meshkov) This package is up to date.
 [INFO] (meshlabxml) This package is up to date.
-[INFO] (meshless) Data has been updated for this package.
+[INFO] (meshless) This package is up to date.
 [ERROR] (meshmode) This package does not have downloadable releases.
 [INFO] (meshparser) This package is up to date.
 [INFO] (meshpy) This package is up to date.
@@ -2554,7 +2554,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (metacontext) This package is up to date.
 [INFO] (metacorus-django-dbdump) This package is up to date.
 [INFO] (metacorus-django-utils) This package is up to date.
-[INFO] (metacpan-api) Data has been updated for this package.
+[INFO] (metacpan-api) This package is up to date.
 [ERROR] (metacram) This package does not have downloadable releases.
 [INFO] (metacrawler) This package is up to date.
 [INFO] (metacritic) This package is up to date.
@@ -2589,7 +2589,7 @@ This package download URL does not point to a valid file: "http://www.equi4.com/
 [INFO] (metaknowledge) This package is up to date.
 [INFO] (metalang) This package is up to date.
 [INFO] (metalchemy) This package is up to date.
-[INFO] (metald) Data has been updated for this package.
+[INFO] (metald) This package is up to date.
 [INFO] (metalocgramn) This package is up to date.
 [INFO] (metals) This package is up to date.
 [INFO] (metalsmyth) This package is up to date.
@@ -2679,7 +2679,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (metapensiero.recipe.script) This package is up to date.
 [INFO] (metapensiero.signal) This package is up to date.
 [INFO] (metapensiero.sphinx.autodoc-sa) This package is up to date.
-[INFO] (metapensiero.sphinx.patchdb) Data has been updated for this package.
+[INFO] (metapensiero.sphinx.patchdb) This package is up to date.
 [INFO] (metapensiero.sqlalchemy.dbloady) This package is up to date.
 [INFO] (metapensiero.sqlalchemy.proxy) This package is up to date.
 [INFO] (metapensiero.tool.bump-version) This package is up to date.
@@ -2708,7 +2708,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (metasort) This package is up to date.
 [INFO] (metaspace) This package is up to date.
 [INFO] (metasploit-445) This package is up to date.
-[INFO] (metasrc) Data has been updated for this package.
+[INFO] (metasrc) This package is up to date.
 [INFO] (metastruct) This package is up to date.
 [INFO] (metasyntactic) This package is up to date.
 [INFO] (metatab) This package is up to date.
@@ -2809,7 +2809,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (metrics-manager) This package is up to date.
 [INFO] (metrics-migration) This package is up to date.
 [INFO] (metricslog) This package is up to date.
-[INFO] (metrictools) Data has been updated for this package.
+[INFO] (metrictools) This package is up to date.
 [INFO] (metricz) This package is up to date.
 [ERROR] (metrika) This package does not have downloadable releases.
 [INFO] (metrique) This package is up to date.
@@ -3015,7 +3015,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (michel) This package is up to date.
 [INFO] (mico) This package is up to date.
 [INFO] (mico-cube) This package is up to date.
-[INFO] (micom) Data has been updated for this package.
+[INFO] (micom) This package is up to date.
 [ERROR] (micro-manager) Could not extract data from this package. See below for details.
 ".php" extension not supported.
 [INFO] (microanalytics) This package is up to date.
@@ -3552,7 +3552,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (minibelt) This package is up to date.
 [INFO] (minibench) This package is up to date.
 [ERROR] (miniboa) This package does not have downloadable releases.
-[INFO] (minibolt) Data has been updated for this package.
+[INFO] (minibolt) This package is up to date.
 [INFO] (minibooks) This package is up to date.
 [INFO] (minibot) This package is up to date.
 [INFO] (minibus) This package is up to date.
@@ -3729,7 +3729,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (mir-eval) This package is up to date.
-[INFO] (mir.anidb) This package is up to date.
+[INFO] (mir.anidb) Data has been updated for this package.
 [INFO] (mir.dlsite) This package is up to date.
 [INFO] (mir.frelia) This package is up to date.
 [INFO] (mir.git) This package is up to date.
@@ -4170,7 +4170,7 @@ ssl.CertificateError: hostname 'forge.morfeo-project.org' doesn't match 'cc.sedo
 [INFO] (mltools) This package is up to date.
 [INFO] (mltsp) This package is up to date.
 [INFO] (mlutils) This package is up to date.
-[INFO] (mlx) Data has been updated for this package.
+[INFO] (mlx) This package is up to date.
 [INFO] (mlxtend) This package is up to date.
 [INFO] (mlz) This package is up to date.
 [INFO] (mlzlog) This package is up to date.
@@ -4227,7 +4227,7 @@ ssl.CertificateError: hostname 'forge.morfeo-project.org' doesn't match 'cc.sedo
 [INFO] (mneme) This package is up to date.
 [INFO] (mnemon) This package is up to date.
 [INFO] (mnemonic) This package is up to date.
-[INFO] (mnemonic-checker) Data has been updated for this package.
+[INFO] (mnemonic-checker) This package is up to date.
 [INFO] (mnemonicode) This package is up to date.
 [INFO] (mnemopwd) This package is up to date.
 [INFO] (mnemosyne) This package is up to date.
@@ -4269,7 +4269,7 @@ ssl.CertificateError: hostname 'forge.morfeo-project.org' doesn't match 'cc.sedo
 [INFO] (moban) This package is up to date.
 [INFO] (mobbage) This package is up to date.
 [INFO] (mobcrush) This package is up to date.
-[INFO] (mobetta) Data has been updated for this package.
+[INFO] (mobetta) This package is up to date.
 [INFO] (mobi.caching) This package is up to date.
 [INFO] (mobi.devices) This package is up to date.
 [INFO] (mobi.interfaces) This package is up to date.
@@ -4509,7 +4509,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (modern-package-template) This package is up to date.
 [INFO] (moderna) This package is up to date.
 [ERROR] (modernal) This package does not have downloadable releases.
-[INFO] (moderngl) Data has been updated for this package.
+[INFO] (moderngl) This package is up to date.
 [INFO] (moderngl-beta) This package is up to date.
 [ERROR] (moderngl.gl2ps) This package does not have downloadable releases.
 [INFO] (moderngl.pyqt5) This package is up to date.
@@ -4627,7 +4627,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (module-loader) This package is up to date.
 [INFO] (module-name) This package is up to date.
 [INFO] (module-salad) This package is up to date.
-[INFO] (module-template) Data has been updated for this package.
+[INFO] (module-template) This package is up to date.
 [INFO] (module-test2) This package is up to date.
 [INFO] (module1) This package is up to date.
 [INFO] (modulecmd) This package is up to date.
@@ -4729,7 +4729,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (moksha.feeds) This package is up to date.
 [INFO] (moksha.hub) This package is up to date.
 [INFO] (moksha.wsgi) This package is up to date.
-[INFO] (mol) Data has been updated for this package.
+[INFO] (mol) This package is up to date.
 [INFO] (mol2-pack) This package is up to date.
 [INFO] (molbery) This package is up to date.
 [INFO] (molbiox) This package is up to date.
@@ -5088,6 +5088,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (monocular) This package is up to date.
 [ERROR] (monoelemental) This package does not have downloadable releases.
 [INFO] (monogen) This package is up to date.
+[INFO] (monokaki) Data has been updated for this package.
 [INFO] (monolith) This package is up to date.
 [INFO] (monolith.aggregator) This package is up to date.
 [INFO] (monolith.client) This package is up to date.
@@ -5194,7 +5195,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (moosegesture) Could not extract data from this package. See below for details.
 
 [ERROR] (mootiro-form) This package does not have downloadable releases.
-[INFO] (mootiro-web) Data has been updated for this package.
+[INFO] (mootiro-web) This package is up to date.
 [ERROR] (mop) This package does not have downloadable releases.
 [INFO] (mopidy) This package is up to date.
 [INFO] (mopidy-16x2lcd) This package is up to date.
@@ -5335,7 +5336,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (mord) This package is up to date.
 [INFO] (mordor) This package is up to date.
 [INFO] (mordred) This package is up to date.
-[INFO] (more-ascii-art) This package is up to date.
+[INFO] (more-ascii-art) Data has been updated for this package.
 [INFO] (more-collections) This package is up to date.
 [ERROR] (more-functools) This package does not have downloadable releases.
 [INFO] (more-itertools) This package is up to date.
@@ -5414,7 +5415,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (mos-first) This package is up to date.
 [ERROR] (mosaic) This package does not have downloadable releases.
 [INFO] (mosaic-music) This package is up to date.
-[INFO] (mosaic-nist) This package is up to date.
+[INFO] (mosaic-nist) Data has been updated for this package.
 [INFO] (mosaik) This package is up to date.
 [INFO] (mosaik-api) This package is up to date.
 [INFO] (mosaik-csv) This package is up to date.
@@ -5429,7 +5430,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (mosek) This package does not have downloadable releases.
 [INFO] (moses) This package is up to date.
 [INFO] (mosestokenizer) This package is up to date.
-[INFO] (mosfit) Data has been updated for this package.
+[INFO] (mosfit) This package is up to date.
 [INFO] (moshmosh) This package is up to date.
 [INFO] (moshpit) This package is up to date.
 [ERROR] (moskit) This package does not have downloadable releases.
@@ -5546,7 +5547,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (moveit) This package is up to date.
 [INFO] (moven) This package is up to date.
 [INFO] (moves) This package is up to date.
-[INFO] (moves-event) Data has been updated for this package.
+[INFO] (moves-event) This package is up to date.
 [INFO] (movescount-sync) This package is up to date.
 [INFO] (movespy) This package is up to date.
 [ERROR] (movie) This package does not have downloadable releases.
@@ -5653,7 +5654,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (moztest) This package is up to date.
 [INFO] (mozurestsdk) This package is up to date.
 [INFO] (mozversion) This package is up to date.
-[INFO] (mozzarilla) Data has been updated for this package.
+[INFO] (mozzarilla) This package is up to date.
 [ERROR] (mozzie) This package does not have downloadable releases.
 [INFO] (mp-ephem) This package is up to date.
 [INFO] (mp-sliding-window) This package is up to date.
@@ -5908,7 +5909,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (mrcz) This package is up to date.
-[INFO] (mrec) Data has been updated for this package.
+[INFO] (mrec) This package is up to date.
 [INFO] (mredoc) This package is up to date.
 [ERROR] (mredu) Could not extract data from this package. See below for details.
 
@@ -6022,7 +6023,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (msgiver) This package is up to date.
 [ERROR] (msgnative) This package does not have downloadable releases.
 [ERROR] (msgnreader) This package does not have downloadable releases.
-[INFO] (msgpack-ext) Data has been updated for this package.
+[INFO] (msgpack-ext) This package is up to date.
 [INFO] (msgpack-numpy) This package is up to date.
 [INFO] (msgpack-pure) This package is up to date.
 [INFO] (msgpack-pypy) This package is up to date.
@@ -6171,7 +6172,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (muck) This package is up to date.
 [INFO] (mucket) This package is up to date.
 [INFO] (muckrock) This package is up to date.
-[INFO] (mucloud) Data has been updated for this package.
+[INFO] (mucloud) This package is up to date.
 [INFO] (mucor) This package is up to date.
 [INFO] (muda) This package is up to date.
 [INFO] (mudclientprotocol) This package is up to date.
@@ -6226,7 +6227,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (mult-list-display) This package does not have downloadable releases.
 [INFO] (multi-elo) This package is up to date.
 [INFO] (multi-key-dict) This package is up to date.
-[INFO] (multi-key-sort) Data has been updated for this package.
+[INFO] (multi-key-sort) This package is up to date.
 [INFO] (multi-mechanize) This package is up to date.
 [INFO] (multi-pattern-search) This package is up to date.
 [INFO] (multi-registry) This package is up to date.
@@ -6243,7 +6244,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (multicast) This package is up to date.
 [INFO] (multichain-mcmc) This package is up to date.
 [INFO] (multicomplete) This package is up to date.
-[INFO] (multiconf) Data has been updated for this package.
+[INFO] (multiconf) This package is up to date.
 [INFO] (multiconfig) This package is up to date.
 [INFO] (multicpu) This package is up to date.
 [INFO] (multidevice) This package is up to date.
@@ -6312,7 +6313,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (multiplayer-hangman) This package is up to date.
 [INFO] (multiple-django-popolo-sources) This package is up to date.
 [INFO] (multiple-printer) This package is up to date.
-[INFO] (multiple-recessives) Data has been updated for this package.
+[INFO] (multiple-recessives) This package is up to date.
 [INFO] (multipledispatch) This package is up to date.
 [INFO] (multipledispatch2) This package is up to date.
 [INFO] (multipleiterator) This package is up to date.
@@ -6390,7 +6391,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (multiuserblazeserver) This package is up to date.
 [INFO] (multivac) This package is up to date.
 [INFO] (multivac-bot) This package is up to date.
-[INFO] (multivariate-laurent-polynomials) Data has been updated for this package.
+[INFO] (multivariate-laurent-polynomials) This package is up to date.
 [INFO] (multiverse) This package is up to date.
 [INFO] (multiwait) This package is up to date.
 [INFO] (multiwork) This package is up to date.
@@ -6501,7 +6502,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (musical-games) This package is up to date.
 [INFO] (musicazoo) This package is up to date.
 [INFO] (musicbox) This package is up to date.
-[INFO] (musicboxapi) Data has been updated for this package.
+[INFO] (musicboxapi) This package is up to date.
 [INFO] (musicbrainzngs) This package is up to date.
 [INFO] (musicbutler) This package is up to date.
 [INFO] (musicc) This package is up to date.
@@ -6510,7 +6511,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (musicnow) This package is up to date.
 [INFO] (musicode) This package is up to date.
 [INFO] (musicontour) This package is up to date.
-[INFO] (musicore) Data has been updated for this package.
+[INFO] (musicore) This package is up to date.
 [INFO] (musicplayer) This package is up to date.
 [INFO] (musicquery) This package is up to date.
 [INFO] (musicraft) This package is up to date.
@@ -6553,7 +6554,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (mutt-notmuch) This package is up to date.
 [INFO] (muttdown) This package is up to date.
 [INFO] (mutter) This package is up to date.
-[INFO] (muu) Data has been updated for this package.
+[INFO] (muu) This package is up to date.
 [ERROR] (mux) This package does not have downloadable releases.
 [INFO] (mux-handler) This package is up to date.
 [INFO] (mux-twitter) This package is up to date.
@@ -6598,7 +6599,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (mwlib.xhtml) This package is up to date.
 [INFO] (mwlib.zim) This package is up to date.
 [INFO] (mwload) This package is up to date.
-[INFO] (mwoauth) This package is up to date.
+[INFO] (mwoauth) Data has been updated for this package.
 [ERROR] (mwordgen) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://dev.codeflow.org/trac/mwordgen/wiki/download"
 [INFO] (mwparser) This package is up to date.
@@ -7018,7 +7019,7 @@ This package download URL does not point to a valid file: "http://www.retailreco
 [INFO] (mypackage2) This package is up to date.
 [INFO] (mypackage234234234) This package is up to date.
 [INFO] (mypackageendecrypt) This package is up to date.
-[INFO] (mypackagemx3292016) Data has been updated for this package.
+[INFO] (mypackagemx3292016) This package is up to date.
 [ERROR] (mypackagetest) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.5/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -7096,7 +7097,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (myql) This package is up to date.
 [INFO] (myql-cli) This package is up to date.
 [INFO] (myqr) This package is up to date.
-[INFO] (myreco) Data has been updated for this package.
+[INFO] (myreco) This package is up to date.
 [INFO] (myregression) This package is up to date.
 [INFO] (myremotedump) This package is up to date.
 [INFO] (myria-cluster) This package is up to date.
@@ -7181,7 +7182,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 ".py" extension not supported.
 [INFO] (mysql-commando) This package is up to date.
 [INFO] (mysql-connector) This package is up to date.
-[INFO] (mysql-connector-python) Data has been updated for this package.
+[INFO] (mysql-connector-python) This package is up to date.
 [INFO] (mysql-connector-python-rf) This package is up to date.
 [INFO] (mysql-connector-repackaged) This package is up to date.
 [INFO] (mysql-corsair) This package is up to date.
@@ -7197,7 +7198,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (mysql-replication) This package is up to date.
 [INFO] (mysql-statsd) This package is up to date.
 [INFO] (mysql-utilities) This package is up to date.
-[INFO] (mysql2csv) Data has been updated for this package.
+[INFO] (mysql2csv) This package is up to date.
 [INFO] (mysql2xxxx) This package is up to date.
 [INFO] (mysqlace) This package is up to date.
 [INFO] (mysqlautosave) This package is up to date.
@@ -7315,10 +7316,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (mzsudoku) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 5665
-[INFO]     Packages processed: 5665
-[INFO]         Packages updated: 39
-[INFO]         Packages up-to-date: 5037
+[INFO] Total packages: 5666
+[INFO]     Packages processed: 5666
+[INFO]         Packages updated: 8
+[INFO]         Packages up-to-date: 5069
 [INFO]         Packages without response: 57
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 468

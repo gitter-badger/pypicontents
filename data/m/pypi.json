@@ -14502,7 +14502,7 @@
             "tweetable",
             "tweetable.extension"
         ],
-        "version": "1.2.2"
+        "version": "1.3.0"
     },
     "markdown-urlize": {
         "cmdline": [],
@@ -18368,7 +18368,7 @@
             "master_password.mpsites",
             "master_password.tests"
         ],
-        "version": "1.1.4"
+        "version": "1.2.2"
     },
     "master-sake": {
         "cmdline": [],
@@ -31754,11 +31754,12 @@
         "cmdline": [],
         "modules": [
             "melee",
-            "melee.characterstats",
+            "melee.characterdata",
             "melee.controller",
             "melee.dolphin",
             "melee.dtmreader",
             "melee.enums",
+            "melee.framedata",
             "melee.gamestate",
             "melee.logger",
             "melee.memorywatcher",
@@ -31767,7 +31768,7 @@
             "melee.techskill",
             "melee.version"
         ],
-        "version": "0.0.14"
+        "version": "0.0.15"
     },
     "meli-client": {
         "cmdline": [],
@@ -49473,7 +49474,7 @@
             "anidb.api",
             "anidb.titles"
         ],
-        "version": "0.1.0"
+        "version": "1.0.0"
     },
     "mir.dlsite": {
         "cmdline": [],
@@ -66884,6 +66885,14 @@
         ],
         "version": "0.3.4"
     },
+    "monokaki": {
+        "cmdline": [],
+        "modules": [
+            "monokaki",
+            "monokaki.renderer"
+        ],
+        "version": "0.1.1"
+    },
     "monolith": {
         "cmdline": [],
         "modules": [
@@ -69380,7 +69389,7 @@
             "more_ascii_art.elephant",
             "more_ascii_art.mouse"
         ],
-        "version": "1.2"
+        "version": "1.3"
     },
     "more-collections": {
         "cmdline": [],
@@ -70389,6 +70398,7 @@
             "mosaic.trajio.abf.abf",
             "mosaic.trajio.abfTrajIO",
             "mosaic.trajio.binTrajIO",
+            "mosaic.trajio.chimeraTrajIO",
             "mosaic.trajio.metaTrajIO",
             "mosaic.trajio.qdf",
             "mosaic.trajio.qdf.qdf",
@@ -70407,7 +70417,7 @@
             "mosaic.utilities.sqlQuery",
             "mosaic.utilities.util"
         ],
-        "version": "1.3.2"
+        "version": "1.3.3"
     },
     "mosaik": {
         "cmdline": [],
@@ -87827,7 +87837,7 @@
             "mwoauth.tokens",
             "mwoauth.version"
         ],
-        "version": "0.3.1"
+        "version": "0.3.2"
     },
     "mwordgen": {
         "cmdline": [],
